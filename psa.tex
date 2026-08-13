@@ -1,7 +1,9 @@
-% Generated using the supplied basilisk_i18n style; content: Basilisk Systems P.S.A. agreement + comments/graphics; coded terminology: Diana49, WRA, unia erebu.
+% Generated using the supplied basilisk_i18n style; content: Basilisk Systems P.S.A. agreement + comments/graphics; terminology: DIANA NATO, NATO, Unia Europejska.
 % !TeX program = pdflatex
 
 \documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage{basilisk_i18n}
 \usepackage{lmodern}
 \usepackage{microtype}
@@ -12,16 +14,45 @@
 \usetikzlibrary{positioning,arrows.meta,shapes.geometric,calc}
 \usepackage{needspace}
 \usepackage{tabularx}
+\usepackage{etoolbox}
+
+% =========================================================
+% TRYB DOKUMENTU
+% ON  = wersja dla założycieli: komentarze, grafiki i oznaczenia robocze
+% OFF = tekst dla prawnika lub notariusza z uwagami i pytaniami do konsultacji
+% Zmień wyłącznie wartość ON/OFF w poniższej linii.
+% =========================================================
+\newcommand{\DlaZalozycieli}{OFF}
+
+\newif\ifFoundersVersion
+\ifdefstring{\DlaZalozycieli}{ON}{%
+  \FoundersVersiontrue
+}{%
+  \ifdefstring{\DlaZalozycieli}{OFF}{%
+    \FoundersVersionfalse
+  }{%
+    \PackageError{Basilisk Systems}{Nieprawidlowa wartosc DlaZalozycieli}%
+      {Ustaw \string\DlaZalozycieli na ON albo OFF.}%
+  }%
+}
 
 \BusinessPlanCompany{Basilisk Systems}
 \BusinessPlanWatermarkText{Basilisk Systems}
 \BusinessPlanWatermarkColor{black!6}
 \BusinessPlanWatermarkFontSize{38}{46}
 \BusinessPlanWatermarkAngle{38}
-\BusinessPlanAuthorsText{Basilisk Systems --- dokument roboczy dla założycieli}
-\BusinessPlanConfidentialText{Dokument roboczy --- komentarze nie stanowią tekstu umowy}
-\BusinessPlanFooterText{Basilisk Systems --- umowa P.S.A. / tekst umowy + komentarze}
-\BusinessPlanVersionText{Wersja robocza}
+
+\ifFoundersVersion
+  \BusinessPlanAuthorsText{Basilisk Systems --- dokument roboczy dla założycieli}
+  \BusinessPlanConfidentialText{Dokument roboczy --- komentarze nie stanowią tekstu umowy}
+  \BusinessPlanFooterText{Basilisk Systems --- umowa P.S.A. / tekst umowy + komentarze}
+  \BusinessPlanVersionText{Wersja założycielska}
+\else
+  \BusinessPlanAuthorsText{Basilisk Systems --- projekt do weryfikacji prawnej}
+  \BusinessPlanConfidentialText{Projekt umowy --- do weryfikacji przez prawnika lub notariusza}
+  \BusinessPlanFooterText{Basilisk Systems --- projekt umowy P.S.A.}
+  \BusinessPlanVersionText{Wersja dla prawnika / notariusza}
+\fi
 
 \setstretch{1.18}
 \setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
@@ -31,6 +62,8 @@
 \renewcommand{\arraystretch}{1.18}
 
 \newcounter{paragraf}
+\definecolor{RevisionBlue}{RGB}{22,55,96}
+\definecolor{LegalViolet}{RGB}{92,62,130}
 \newcommand{\paragraf}[1]{%
   \refstepcounter{paragraf}%
   \phantomsection%
@@ -38,17 +71,88 @@
   \Needspace{6\baselineskip}%
   \subsection*{\S~\theparagraf\ #1}%
 }
+\newcommand{\ColorParagraph}[2]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #2}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\textcolor{#1}{\S~\theparagraf\ #2}}%
+}
 
 \tcbset{
   basiliskbox/.style={enhanced, breakable, sharp corners=south, arc=1mm, boxrule=0.5pt, left=7pt, right=7pt, top=7pt, bottom=7pt, before skip=8pt, after skip=10pt},
 }
 
-\newenvironment{ContractClause}[1]{%
-  \begin{tcolorbox}[basiliskbox, colback=white, colframe=black!70, coltitle=white, fonttitle=\bfseries, title={TEKST UMOWY --- #1}]%
-  \paragraf{#1}%
-}{%
+\ifFoundersVersion
+  \newenvironment{ContractClause}[1]{%
+    \begin{tcolorbox}[basiliskbox, colback=white, colframe=black!70, coltitle=white, fonttitle=\bfseries, title={TEKST UMOWY --- #1}]%
+    \paragraf{#1}%
+  }{%
+    \end{tcolorbox}%
+  }
+  \newenvironment{ChangedContractClause}[1]{%
+    \begin{tcolorbox}[basiliskbox, colback=white, colframe=black!70, coltitle=white, fonttitle=\bfseries, title={TEKST UMOWY --- #1}]%
+    \ColorParagraph{RevisionBlue}{#1}%
+  }{%
+    \end{tcolorbox}%
+  }
+  \newenvironment{UncertainContractClause}[1]{%
+    \begin{tcolorbox}[basiliskbox, colback=white, colframe=black!70, coltitle=white, fonttitle=\bfseries, title={TEKST UMOWY --- #1}]%
+    \ColorParagraph{LegalViolet}{#1}%
+  }{%
+    \end{tcolorbox}%
+  }
+\else
+  % Wersja kancelaryjna: zwykły tekst prawny bez kolorowych ramek.
+  \newenvironment{ContractClause}[1]{%
+    \paragraf{#1}%
+  }{%
+    \par
+  }
+  \newenvironment{ChangedContractClause}[1]{%
+    \ColorParagraph{RevisionBlue}{#1}%
+  }{%
+    \par
+  }
+  \newenvironment{UncertainContractClause}[1]{%
+    \ColorParagraph{LegalViolet}{#1}%
+  }{%
+    \par
+  }
+\fi
+\newenvironment{ChangedEnumerate}{%
+  \begin{enumerate}[label=\textcolor{RevisionBlue}{\arabic*.},ref=\arabic*]%
+}{\end{enumerate}}
+\newenvironment{UncertainEnumerate}{%
+  \begin{enumerate}[label=\textcolor{LegalViolet}{\arabic*.},ref=\arabic*]%
+}{\end{enumerate}}
+
+% Uprzejme uwagi robocze widoczne wyłącznie w wersji dla prawnika/notariusza.
+\newcommand{\ConsultationBox}[1]{%
+  \begin{tcolorbox}[
+    enhanced,breakable,sharp corners=south,arc=0.8mm,boxrule=0.4pt,
+    left=5pt,right=5pt,top=4pt,bottom=4pt,before skip=5pt,after skip=7pt,
+    colback=black!2,colframe=black!35,coltitle=black,
+    fonttitle=\bfseries\small,title={KWESTIA DO WERYFIKACJI PRAWNEJ}]
+    \small #1%
   \end{tcolorbox}%
 }
+\newcommand{\CriticalConsultationBox}[1]{%
+  \begin{tcolorbox}[
+    enhanced,breakable,sharp corners=south,arc=0.8mm,boxrule=0.8pt,
+    left=5pt,right=5pt,top=4pt,bottom=4pt,before skip=6pt,after skip=8pt,
+    colback=red!3,colframe=red!60!black,coltitle=red!60!black,
+    fonttitle=\bfseries\small,title={WAŻNA KWESTIA DO WERYFIKACJI PRAWNEJ}]
+    \small #1%
+  \end{tcolorbox}%
+}
+\ifFoundersVersion
+  \newcommand{\LegalComment}[1]{}
+  \newcommand{\CriticalLegalComment}[1]{}
+\else
+  \newcommand{\LegalComment}[1]{\ConsultationBox{#1}}
+  \newcommand{\CriticalLegalComment}[1]{\CriticalConsultationBox{#1}}
+\fi
 
 \newcommand{\DiscussionComment}[2]{%
   \begin{tcolorbox}[basiliskbox, colback=orange!6, colframe=orange!70!black, coltitle=black, fonttitle=\bfseries, title={KOMENTARZ DO DYSKUSJI --- #1}]%
@@ -81,35 +185,45 @@
   title={DECYZJA / ZAŁOŻENIE --- #1},fonttitle=\bfseries
 }
 
-\newcommand{\field}[1]{\textcolor{red!70!black}{\textbf{[#1]}}}
+\ifFoundersVersion
+  \newcommand{\field}[1]{\textcolor{red!70!black}{\textbf{[#1]}}}
+\else
+  % W wersji kancelaryjnej pola pozostają widoczne, ale bez czerwonego koloru.
+  \newcommand{\field}[1]{\textbf{[#1]}}
+\fi
 \newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
 \newcommand{\CompanyShort}{Basilisk Systems P.S.A.}
 \newcommand{\KSH}{Kodeks spółek handlowych}
 
-\hypersetup{
-  pdftitle={Basilisk Systems P.S.A. --- umowa spółki i komentarze},
-  pdfauthor={Basilisk Systems --- projekt roboczy}
-}
+\ifFoundersVersion
+  \hypersetup{
+    pdftitle={Basilisk Systems P.S.A. --- umowa spółki i komentarze},
+    pdfauthor={Basilisk Systems --- projekt roboczy dla założycieli}
+  }
+\else
+  \hypersetup{
+    pdftitle={Basilisk Systems P.S.A. --- projekt umowy spółki},
+    pdfauthor={Basilisk Systems --- projekt do weryfikacji prawnej}
+  }
+\fi
 
+\BusinessPlanAuthorsText{Basilisk Systems --- projekt umowy do weryfikacji prawnej i notarialnej}
+\BusinessPlanConfidentialText{Projekt umowy --- tekst normatywny z integralnymi Załącznikami nr 1--3}
+\BusinessPlanFooterText{Basilisk Systems --- projekt umowy P.S.A.}
+\BusinessPlanVersionText{Dokument I}
+\hypersetup{pdftitle={Basilisk Systems P.S.A. --- projekt umowy spółki},pdfauthor={Basilisk Systems --- projekt do weryfikacji prawnej i notarialnej}}
 \begin{document}
-
 \BusinessPlanTitlePage
   {Basilisk Systems}
-  {Pakiet na posiedzenie założycielskie}
-  {Umowa P.S.A. z komentarzami}
+  {Dokument I}
+  {Wersja dla prawnika lub notariusza}
   {Projekt umowy prostej spółki akcyjnej}
-  {Wyraźnie oddzielono tekst umowy od komentarzy i materiałów do dyskusji}
-  {0.8}
-
+  {Tekst normatywny umowy z integralnymi Załącznikami nr 1--3}
+  {1.0}
 \tableofcontents
 \newpage
-
-% =========================================================
-% CZĘŚĆ I — CZYSTY TEKST UMOWY
-% =========================================================
-\chapter*{Część I — projekt umowy prostej spółki akcyjnej}
-\addcontentsline{toc}{chapter}{Część I — projekt umowy prostej spółki akcyjnej}
-
+\chapter*{Projekt umowy prostej spółki akcyjnej}
+\addcontentsline{toc}{chapter}{Projekt umowy prostej spółki akcyjnej}
 \begin{center}
 {\Large\bfseries UMOWA PROSTEJ SPÓŁKI AKCYJNEJ}\par
 \vspace{0.25cm}
@@ -143,8 +257,9 @@ Stawający, wskazani szczegółowo w Załączniku nr 1 do niniejszej umowy, zwan
 \begin{ContractClause}{Cel strategiczny Spółki}
 \label{art:cel}
 \begin{enumerate}
-  \item Celem Spółki jest prowadzenie działalności badawczo-rozwojowej, projektowej, produkcyjnej, programistycznej i komercjalizacyjnej w obszarze robotyki, sztucznej inteligencji fizycznej i ucieleśnionej, systemów autonomicznych oraz technologii podwójnego zastosowania.
-  \item Spółka rozwija w szczególności rozwiązania dla zastosowań cywilnych, przemysłowych, ratowniczych, infrastrukturalnych, bezpieczeństwa i obronności, przy zachowaniu zgodności z prawem, zasadami odpowiedzialnego rozwoju technologii oraz wymogami bezpieczeństwa państw unii erebu i (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA).
+  \item Głównym celem Spółki jest projektowanie, rozwój, produkcja, integracja i komercjalizacja bezzałogowych statków powietrznych, w szczególności autonomicznych rojów dronów, systemów ich dowodzenia, koordynacji, łączności, percepcji i obsługi misji.
+  \item Spółka może również rozwijać powiązane roboty lądowe, jednostki nawodne, maszyny autonomiczne, sztuczną inteligencję fizyczną i ucieleśnioną oraz inne technologie podwójnego zastosowania, wspierające zasadniczą działalność w obszarze systemów bezzałogowych.
+  \item Rozwiązania Spółki są przeznaczone w szczególności do zastosowań cywilnych, przemysłowych, rolniczych, ratowniczych, infrastrukturalnych, bezpieczeństwa i obronności, przy zachowaniu zgodności z prawem oraz wymogami bezpieczeństwa państw Unii Europejskiej i NATO.
   \item Działalność wymagająca koncesji, zezwolenia, licencji, certyfikacji, wpisu do rejestru albo poświadczenia bezpieczeństwa może być rozpoczęta dopiero po spełnieniu odpowiednich wymogów.
 \end{enumerate}
 
@@ -152,35 +267,106 @@ Stawający, wskazani szczegółowo w Załączniku nr 1 do niniejszej umowy, zwan
 
 \begin{ContractClause}{Przedmiot działalności — PKD 2025}
 \label{art:pkd}
+
 \begin{enumerate}
-  \item Przeważającym przedmiotem działalności Spółki jest:
-  \begin{enumerate}[label=\alph*)]
-    \item \textbf{72.10.Z — Badania naukowe i prace rozwojowe w dziedzinie nauk przyrodniczych i technicznych.}
-  \end{enumerate}
-  \item Pozostały przedmiot działalności Spółki obejmuje:
-  \begin{enumerate}[label=\alph*)]
-    \item 62.10.B — Pozostała działalność w zakresie programowania;
-    \item 62.90.Z — Pozostała działalność usługowa w zakresie technologii informatycznych i komputerowych;
-    \item 58.29.Z — Działalność wydawnicza w zakresie pozostałego oprogramowania;
-    \item 26.11.Z — Produkcja elementów elektronicznych;
-    \item 26.12.Z — Produkcja elektronicznych obwodów drukowanych;
-    \item 26.51.Z — Produkcja instrumentów i przyrządów pomiarowych, kontrolnych i nawigacyjnych;
-    \item 28.99.Z — Produkcja pozostałych maszyn specjalnego przeznaczenia, gdzie indziej niesklasyfikowana;
-    \item 30.31.Z — Produkcja cywilnych statków powietrznych, statków kosmicznych i podobnych maszyn;
-    \item 30.32.Z — Produkcja wojskowych statków powietrznych, statków kosmicznych i podobnych maszyn.
-  \end{enumerate}
-  \item W ramach powyższych klas Spółka może prowadzić działalność dotyczącą w szczególności:
-  \begin{enumerate}[label=\alph*)]
-    \item mobilnych robotów lądowych, w tym bezzałogowych pojazdów lądowych;
-    \item bezzałogowych statków powietrznych i systemów ich obsługi;
-    \item robotów przemysłowych, manipulatorów i autonomicznych platform roboczych;
-    \item systemów percepcji, widzenia komputerowego, fuzji sensorów i sztucznej inteligencji brzegowej;
-    \item nawigacji i lokalizacji w środowiskach bez dostępu do globalnych systemów nawigacji satelitarnej;
-    \item symulacji, cyfrowych bliźniaków, testowania syntetycznego i walidacji systemów autonomicznych;
-    \item współdziałania człowieka z robotem, autonomii zespołowej i systemów roju;
-    \item oprogramowania dowodzenia, sterowania, koordynacji misji i zarządzania flotą;
-    \item komponentów, sensorów, elektroniki, modułów komunikacyjnych i komputerów pokładowych.
-  \end{enumerate}
+
+\item \textbf{Podstawowy przedmiot działalności Spółki — 10 kodów przewidzianych do ujawnienia w KRS:}
+
+\begin{enumerate}
+
+\item \textbf{30.31.Z — Produkcja cywilnych statków powietrznych, statków kosmicznych i podobnych maszyn} — działalność przeważająca Spółki, obejmująca w szczególności produkcję bezzałogowych statków powietrznych, dronów oraz platform przeznaczonych do działania w autonomicznych rojach;
+
+\item \textbf{71.12.B — Pozostała działalność w zakresie inżynierii i związane z nią doradztwo techniczne} — obejmująca w szczególności projektowanie mechaniczne, elektroniczne, elektryczne i systemowe, integrację platform autonomicznych oraz opracowywanie architektury systemów robotycznych;
+
+\item \textbf{72.10.Z — Badania naukowe i prace rozwojowe w dziedzinie nauk przyrodniczych i technicznych} — obejmujące w szczególności badania i rozwój w obszarze robotyki, autonomii, systemów rojowych, sztucznej inteligencji, nawigacji, komunikacji i systemów bezzałogowych;
+
+\item \textbf{62.10.B — Pozostała działalność w zakresie programowania} — obejmująca w szczególności oprogramowanie autonomii, sterowania, zarządzania flotą, planowania misji, koordynacji rojów, telemetrii oraz sztucznej inteligencji;
+
+\item \textbf{28.99.Z — Produkcja pozostałych maszyn specjalnego przeznaczenia, gdzie indziej niesklasyfikowana} — obejmująca w szczególności mobilne roboty lądowe, roboty kołowe i gąsienicowe, autonomiczne platformy robocze, roboty inspekcyjne, logistyczne i specjalistyczne;
+
+\item \textbf{26.51.Z — Produkcja instrumentów i przyrządów pomiarowych, kontrolnych i nawigacyjnych} — obejmująca w szczególności systemy nawigacyjne, kontrolne, telemetryczne, pomiarowe, autopiloty, układy lokalizacji oraz urządzenia służące do integracji i kontroli platform autonomicznych;
+
+\item \textbf{33.20.Z — Instalowanie maszyn przemysłowych, sprzętu i wyposażenia} — obejmujące w szczególności instalowanie i uruchamianie stacji naziemnych, doków, systemów ładowania, infrastruktury operatorskiej, urządzeń komunikacyjnych i pozostałego wyposażenia systemów autonomicznych;
+
+\item \textbf{33.16.Z — Naprawa i konserwacja cywilnych statków powietrznych i statków kosmicznych} — obejmująca w szczególności serwis, diagnostykę, konserwację, naprawę i modernizację cywilnych bezzałogowych statków powietrznych;
+
+\item \textbf{30.11.Z — Produkcja cywilnych statków i konstrukcji pływających} — obejmująca w szczególności autonomiczne i zdalnie sterowane jednostki nawodne, bezzałogowe łodzie, platformy pływające oraz morskie systemy robotyczne;
+
+\item \textbf{28.30.Z — Produkcja maszyn dla rolnictwa i leśnictwa} — obejmująca w szczególności autonomiczne maszyny rolnicze i leśne, roboty terenowe oraz platformy przeznaczone do automatyzacji prac rolniczych i leśnych.
+
+\end{enumerate}
+
+\item \textbf{Pozostały przedmiot działalności Spółki — dodatkowe kody PKD przewidziane dla dalszego rozwoju działalności:}
+
+\begin{enumerate}[label=\alph*)]
+
+\item \textbf{33.15.Z — Naprawa i konserwacja cywilnych statków i łodzi} — obejmująca w szczególności naprawę, konserwację i modernizację autonomicznych jednostek nawodnych, bezzałogowych łodzi i pozostałych cywilnych platform pływających;
+
+\item \textbf{33.12.Z — Naprawa i konserwacja maszyn} — obejmująca w szczególności serwis, naprawę, diagnostykę i modernizację robotów lądowych, maszyn specjalnego przeznaczenia oraz autonomicznych platform roboczych;
+
+\item \textbf{33.13.Z — Naprawa i konserwacja urządzeń elektronicznych i optycznych} — obejmująca w szczególności serwis urządzeń kontrolnych, sensorów, aparatury pokładowej, układów pomiarowych oraz elektroniki systemów autonomicznych;
+
+\item \textbf{29.10.E — Produkcja pozostałych pojazdów silnikowych, z wyłączeniem motocykli} — obejmująca w szczególności autonomiczne pojazdy kołowe, pojazdy terenowe, platformy amfibijne i inne samobieżne pojazdy specjalnego przeznaczenia;
+
+\item \textbf{63.10.D — Pozostała działalność usługowa w zakresie infrastruktury obliczeniowej, przetwarzania danych, zarządzania stronami internetowymi (hosting) i działalności powiązane} — obejmująca w szczególności przetwarzanie telemetrii, danych sensorycznych, zarządzanie flotą urządzeń, infrastrukturę obliczeniową oraz usługi związane z systemami autonomicznymi;
+
+\item \textbf{30.32.Z — Produkcja wojskowych statków powietrznych, statków kosmicznych i podobnych maszyn} — obejmująca w przyszłości, po spełnieniu właściwych wymogów prawnych, produkcję bezzałogowych statków powietrznych i innych platform lotniczych przeznaczonych do zastosowań wojskowych;
+
+\item \textbf{30.13.Z — Produkcja wojskowych okrętów i jednostek pływających} — obejmująca w przyszłości, po spełnieniu właściwych wymogów prawnych, autonomiczne i zdalnie sterowane jednostki pływające przeznaczone do zastosowań wojskowych;
+
+\item \textbf{30.40.Z — Produkcja wojskowych pojazdów bojowych} — obejmująca w przyszłości, po spełnieniu właściwych wymogów prawnych, wojskowe autonomiczne i zdalnie sterowane platformy lądowe mające charakter pojazdów bojowych;
+
+\item \textbf{33.18.Z — Naprawa i konserwacja wojskowych pojazdów bojowych, okrętów, łodzi, statków powietrznych i statków kosmicznych} — obejmująca w przyszłości, po spełnieniu właściwych wymogów prawnych, serwis i utrzymanie wojskowych platform bezzałogowych i autonomicznych.
+
+\end{enumerate}
+
+\item W ramach powyższych rodzajów działalności Spółka może prowadzić działalność dotyczącą w szczególności:
+
+\begin{enumerate}[label=\alph*)]
+
+\item bezzałogowych statków powietrznych, autonomicznych rojów dronów oraz systemów ich obsługi;
+
+\item autonomii zespołowej, koordynacji wielu platform, rekonfiguracji roju, przydzielania zadań oraz zdecentralizowanego podejmowania decyzji;
+
+\item oprogramowania dowodzenia, sterowania, koordynacji misji, zarządzania flotą oraz kontroli operatora nad systemami autonomicznymi;
+
+\item systemów komunikacji, wymiany danych, synchronizacji i współdziałania platform w środowisku o ograniczonej lub zakłócanej łączności;
+
+\item systemów percepcji, widzenia komputerowego, fuzji sensorów, sztucznej inteligencji brzegowej oraz autonomicznej interpretacji otoczenia;
+
+\item nawigacji, lokalizacji i orientacji przestrzennej, w tym działania w środowiskach bez dostępu do globalnych systemów nawigacji satelitarnej;
+
+\item symulacji, cyfrowych bliźniaków, generowania danych syntetycznych, testowania oraz walidacji systemów autonomicznych i rojowych;
+
+\item mobilnych robotów lądowych, autonomicznych platform kołowych i gąsienicowych oraz bezzałogowych pojazdów lądowych;
+
+\item autonomicznych i zdalnie sterowanych jednostek nawodnych oraz systemów ich obsługi;
+
+\item autonomicznych maszyn i robotów dla rolnictwa, leśnictwa, przemysłu, infrastruktury i gospodarki terenowej;
+
+\item autopilotów, komputerów pokładowych, systemów sterowania, układów monitorowania stanu platformy, systemów pomiarowych i nawigacyjnych;
+
+\item infrastruktury obliczeniowej, telemetrii, przetwarzania danych oraz systemów zarządzania flotą urządzeń;
+
+\item stacji naziemnych, doków, systemów automatycznego startu i lądowania, systemów ładowania oraz infrastruktury operatorskiej;
+
+\item integracji komponentów, sensorów, elektroniki, napędów, modułów komunikacyjnych, komputerów pokładowych oraz wyposażenia zadaniowego dostarczanego przez podmioty trzecie;
+
+\item diagnostyki, instalowania, uruchamiania, serwisowania, naprawy, konserwacji, modernizacji i przebudowy systemów autonomicznych;
+
+\item prototypów, demonstratorów technologii, platform badawczych oraz krótkich serii przedprodukcyjnych;
+
+\item zastosowań cywilnych, przemysłowych, infrastrukturalnych, ratowniczych, rolniczych, leśnych, morskich, bezpieczeństwa publicznego oraz ochrony infrastruktury krytycznej;
+
+\item zastosowań obronnych i wojskowych, wyłącznie po uzyskaniu wymaganych koncesji, zezwoleń, certyfikatów lub innych wymaganych prawem uprawnień.
+```
+
+\end{enumerate}
+
+\item Ujęcie określonego rodzaju działalności w niniejszym paragrafie nie oznacza obowiązku jego natychmiastowego rozpoczęcia. Spółka może rozwijać poszczególne obszary etapowo, odpowiednio do rozwoju produktów, technologii, kompetencji, finansowania i potrzeb rynku.
+
+\item Działalność podlegająca koncesji, zezwoleniu, licencji, certyfikacji, kontroli eksportu albo innym szczególnym wymogom może być rozpoczęta dopiero po spełnieniu wymagań wynikających z właściwych przepisów prawa.
+
 \end{enumerate}
 
 \end{ContractClause}
@@ -246,32 +432,32 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 \end{ContractClause}
 
-\begin{ContractClause}{Program motywacyjny — pula 15\% po pełnym rozwodnieniu}
-\label{art:esop}
-\begin{enumerate}
+\begin{ChangedContractClause}{Program motywacyjny — pula 15\% po pełnym rozwodnieniu}
+\label{art:program-motywacyjny}
+\begin{ChangedEnumerate}
   \item Tworzy się docelową pulę programu motywacyjnego dla kluczowych pracowników, współpracowników, dyrektorów i doradców Spółki, odpowiadającą maksymalnie \textbf{176 471 (stu siedemdziesięciu sześciu tysiącom czterystu siedemdziesięciu jednej)} akcji serii P.
   \item Przy założeniu wyemitowania wszystkich 176 471 akcji serii P i braku innych emisji, łączna liczba akcji po pełnym wykorzystaniu puli wyniesie 1 176 471, a pula programu motywacyjnego będzie odpowiadała 15\% po pełnym rozwodnieniu po zaokrągleniu do jednej dziesiątej punktu procentowego. Różnica od matematycznie dokładnych 15\% wynika wyłącznie z niepodzielności akcji.
-  \item Rada Dyrektorów jest upoważniona, przez okres pięciu lat od dnia wpisu Spółki do rejestru, do jednorazowego albo wielokrotnego wyemitowania nie więcej niż 176 471 zwykłych akcji imiennych serii P, w zamian za wkłady pieniężne, na zasadach określonych w regulaminie programu motywacyjnego zatwierdzonym przez Walne Zgromadzenie.
+  \item Akcje serii P mogą być emitowane jednorazowo albo wielokrotnie, nie później niż do dnia \textbf{31 grudnia 2036 r.}, przy czym każda emisja wymaga odrębnej uchwały Walnego Zgromadzenia podjętej większością 75\% wszystkich głosów w Spółce i określającej elementy wymagane przez bezwzględnie obowiązujące przepisy prawa.
   \item Cena emisyjna akcji serii P nie może być niższa niż 0,01 zł za akcję, chyba że bezwzględnie obowiązujące przepisy prawa wymagają ceny wyższej.
-  \item W granicach upoważnienia Rada Dyrektorów może, jeżeli leży to w interesie Spółki i programu motywacyjnego, pozbawić dotychczasowych akcjonariuszy w całości albo w części prawa poboru akcji serii P.
+  \item Pozbawienie dotychczasowych akcjonariuszy prawa poboru akcji serii P w całości albo w części wymaga odrębnej uchwały akcjonariuszy podjętej większością co najmniej czterech piątych głosów, z zachowaniem pozostałych wymogów prawa.
+  \item Rada Dyrektorów prowadzi program motywacyjny, rekomenduje uczestników i warunki przyznania oraz wykonuje uchwały Walnego Zgromadzenia, lecz nie jest samodzielnie uprawniona do emisji akcji serii P ani do pozbawienia prawa poboru.
   \item Przyznanie praw w programie motywacyjnym nie daje uczestnikowi statusu akcjonariusza do chwili emisji akcji i wpisu uczestnika do rejestru akcjonariuszy.
-  \item Akcje serii P podlegają ograniczeniom zbywania, zasadom nabywania uprawnień w czasie, wymogom dotyczącym dopuszczalnego nabywcy oraz zasadom odkupu określonym w regulaminie programu i umowie uczestnictwa.
+  \item Akcje serii P mogą podlegać ograniczeniom zbywania, stopniowemu zwalnianiu z obowiązku zbycia, wymogom dotyczącym Dopuszczalnego Nabywcy oraz zasadom nabycia przez wskazanego nabywcę określonym w regulaminie programu i umowie uczestnictwa.
   \item Zwiększenie puli ponad 176 471 akcji wymaga zmiany niniejszej umowy albo odrębnej podstawy emisyjnej przyjętej większością określoną dla Spraw Zastrzeżonych.
-\end{enumerate}
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
-\end{ContractClause}
-
-\begin{ContractClause}{Akcjonariusze Funkcjonalni i nabywanie uprawnień do akcji w czasie}
-\label{art:vesting}
-\begin{enumerate}
+\begin{ChangedContractClause}{Akcjonariusze Funkcjonalni i mechanizm zwrotnego zbycia akcji}
+\label{art:zwrotne-zbycie}
+\begin{ChangedEnumerate}
   \item „Akcjonariuszem Funkcjonalnym” jest wyłącznie Założyciel wskazany w Załączniku nr 2, który zobowiązał się do stałego, osobistego i istotnego zaangażowania operacyjnego w rozwój Spółki.
-  \item Akcje Akcjonariusza Funkcjonalnego wskazane w Załączniku nr 2 podlegają mechanizmowi stopniowego nabywania pełnego ekonomicznego uprawnienia w okresie 48 miesięcy od daty rozpoczęcia wskazanej w tym załączniku, na następujących zasadach:
+  \item Akcje Akcjonariusza Funkcjonalnego wskazane w Załączniku nr 2 podlegają mechanizmowi stopniowego zwalniania akcji z obowiązku zbycia przez okres 48 miesięcy od daty rozpoczęcia wskazanej w tym załączniku, na następujących zasadach:
   \begin{enumerate}[label=\alph*)]
-    \item przez pierwsze 12 miesięcy nie następuje nabycie uprawnień;
-    \item po nieprzerwanym upływie 12 miesięcy jednorazowo nabywane są uprawnienia do 25\% akcji objętych mechanizmem;
-    \item przez kolejne 36 miesięcy uprawnienia nabywane są miesięcznie, w równych częściach, aż do osiągnięcia 100\%.
+    \item przez pierwsze 12 miesięcy żadna z akcji objętych mechanizmem nie zostaje zwolniona z obowiązku zbycia;
+    \item po nieprzerwanym upływie 12 miesięcy jednorazowo zwalnia się z obowiązku zbycia 25\% akcji objętych mechanizmem;
+    \item przez kolejne 36 miesięcy akcje są zwalniane z obowiązku zbycia co miesiąc, w równych częściach, aż do zwolnienia 100\% akcji objętych mechanizmem.
   \end{enumerate}
-  \item Do chwili nabycia pełnego uprawnienia akcje pozostają akcjami istniejącymi i dają prawa korporacyjne zgodnie z prawem, lecz są objęte nieodwołalnym obowiązkiem zbycia w przypadkach określonych w niniejszym paragrafie.
+  \item Do chwili zwolnienia z obowiązku zbycia akcje pozostają akcjami istniejącymi i dają prawa korporacyjne zgodnie z prawem, lecz podlegają obowiązkowi zbycia w przypadkach określonych w niniejszym paragrafie.
   \item „Odejście Usprawiedliwione” oznacza ustanie funkcjonalnego zaangażowania z powodu:
   \begin{enumerate}[label=\alph*)]
     \item śmierci, trwałej niezdolności do pracy albo poważnej choroby uniemożliwiającej dalsze wykonywanie obowiązków;
@@ -280,7 +466,7 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
     \item uzgodnionego odejścia zatwierdzonego uchwałą Walnego Zgromadzenia większością 75\% wszystkich głosów;
     \item innego zdarzenia uznanego uchwałą Walnego Zgromadzenia za Odejście Usprawiedliwione.
   \end{enumerate}
-  \item „Odejście Zawinione” oznacza w szczególności ustanie zaangażowania w związku z:
+  \item „Odejście Zawinione” oznacza wyłącznie ustanie zaangażowania w związku z co najmniej jednym z następujących zdarzeń:
   \begin{enumerate}[label=\alph*)]
     \item umyślnym naruszeniem lub rażącym niedbalstwem wobec Spółki;
     \item oszustwem, przywłaszczeniem, działaniem na szkodę Spółki albo popełnieniem przestępstwa istotnego dla zaufania lub bezpieczeństwa;
@@ -291,78 +477,77 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
   \end{enumerate}
   \item W przypadku Odejścia Usprawiedliwionego:
   \begin{enumerate}[label=\alph*)]
-    \item akcje, do których pełne uprawnienie zostało nabyte, pozostają przy Akcjonariuszu Funkcjonalnym;
-    \item akcje, do których pełne uprawnienie nie zostało nabyte, podlegają obowiązkowemu zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy po cenie równej ich cenie emisyjnej;
-    \item Walne Zgromadzenie może przyspieszyć nabycie uprawnień w całości albo w części.
+    \item akcje zwolnione z obowiązku zbycia pozostają przy Akcjonariuszu Funkcjonalnym;
+    \item akcje nadal podlegające obowiązkowi zbycia podlegają zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy po cenie równej ich cenie emisyjnej;
+    \item Walne Zgromadzenie może przyspieszyć zwolnienie z obowiązku zbycia całości albo części pozostałych akcji.
   \end{enumerate}
   \item W przypadku Odejścia Zawinionego:
   \begin{enumerate}[label=\alph*)]
-    \item akcje, do których pełne uprawnienie nie zostało nabyte, podlegają obowiązkowemu zbyciu po cenie równej ich cenie emisyjnej;
-    \item akcje, do których pełne uprawnienie zostało nabyte, mogą zostać objęte prawem nabycia przez wskazanego przez Spółkę Dopuszczalnego Nabywcę po cenie odpowiadającej 80\% Wartości Godziwej, nie niższej jednak niż cena emisyjna i z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa;
+    \item akcje nadal podlegające obowiązkowi zbycia podlegają zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy po cenie równej ich cenie emisyjnej;
+    \item akcje zwolnione z obowiązku zbycia mogą zostać objęte prawem nabycia przez wskazanego przez Spółkę Dopuszczalnego Nabywcę po cenie odpowiadającej 80\% Wartości Godziwej, nie niższej jednak niż cena emisyjna i z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa;
     \item powyższe nie wyłącza roszczeń Spółki o naprawienie szkody ani innych środków ochrony.
   \end{enumerate}
-  \item W razie zmiany kontroli nad Spółką, a następnie — w ciągu 12 miesięcy — rozwiązania współpracy z Akcjonariuszem Funkcjonalnym przez Spółkę bez istotnej przyczyny, wszystkie pozostałe akcje objęte mechanizmem uznaje się za akcje, do których nabyto pełne uprawnienie.
-  \item Szczegółowy tryb wykonania obowiązku zbycia, w tym nieodwołalna oferta sprzedaży, pełnomocnictwo, depozyt dokumentów i terminy płatności, określa Załącznik nr 2 oraz odrębna umowa wykonawcza podpisana przez każdego Akcjonariusza Funkcjonalnego najpóźniej w dniu zawarcia niniejszej umowy.
-\end{enumerate}
+  \item W razie zmiany kontroli nad Spółką, a następnie — w ciągu 12 miesięcy — rozwiązania współpracy z Akcjonariuszem Funkcjonalnym przez Spółkę bez istotnej przyczyny, wszystkie pozostałe akcje objęte mechanizmem zostają zwolnione z obowiązku zbycia.
+  \item Mechanizm zwrotnego zbycia akcji nie stanowi umorzenia akcji ani zobowiązania Spółki do nabycia akcji własnych. Nabycie akcji własnych przez Spółkę albo umorzenie akcji może nastąpić wyłącznie w odrębnym trybie i po spełnieniu właściwych wymogów prawa.
+  \item Szczegółowy tryb wykonania obowiązku zbycia, w tym zdarzenie uruchamiające procedurę, sposób stwierdzenia Odejścia Usprawiedliwionego albo Odejścia Zawinionego, wskazanie Dopuszczalnego Nabywcy, ofertę sprzedaży, ograniczone pełnomocnictwo, terminy wykonania, sposób zapłaty i moment przeniesienia akcji, określa odrębna umowa wykonawcza podpisana przez każdego Akcjonariusza Funkcjonalnego najpóźniej w dniu objęcia mechanizmem. Zakres dokumentacji wykonawczej może zostać doprecyzowany w odrębnym dokumencie uzupełniającym, który nie stanowi części niniejszej umowy.
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
-\end{ContractClause}
-
-\begin{ContractClause}{Dopuszczalny Nabywca i ochrona struktury właścicielskiej}
+\begin{ChangedContractClause}{Dopuszczalny Nabywca i Test Bezpieczeństwa Nabywcy}
 \label{art:dopuszczalny-nabywca}
-\begin{enumerate}
-  \item „Dopuszczalnym Nabywcą” jest:
+\begin{ChangedEnumerate}
+  \item „Dopuszczalnym Nabywcą” jest osoba fizyczna, osoba prawna albo inna jednostka organizacyjna, która przeszła z wynikiem pozytywnym Test Bezpieczeństwa Nabywcy określony w niniejszym paragrafie oraz uzyskała wymaganą zgodę Spółki.
+  \item Test Bezpieczeństwa Nabywcy obejmuje w szczególności ustalenie i ocenę:
   \begin{enumerate}[label=\alph*)]
-    \item osoba fizyczna będąca obywatelem co najmniej jednego państwa członkowskiego unii erebu lub (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA); albo
-    \item osoba prawna lub jednostka organizacyjna posiadająca siedzibę i rzeczywiste centrum zarządzania w państwie członkowskim unii erebu lub (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA), która nie jest bezpośrednio ani pośrednio kontrolowana przez osobę lub podmiot niespełniający powyższego kryterium i której beneficjenci rzeczywiści spełniają kryterium określone w lit. a).
+    \item tożsamości, obywatelstwa, siedziby, rzeczywistego miejsca zarządzania i jurysdykcji nabywcy;
+    \item pełnej struktury własności, kontroli oraz beneficjentów rzeczywistych;
+    \item bezpośredniej lub pośredniej kontroli państwowej oraz powiązań z organami państwa, służbami lub siłami zbrojnymi;
+    \item sankcji, embarg, ograniczeń eksportowych i innych zakazów dotyczących nabywcy, podmiotów kontrolujących, beneficjentów rzeczywistych, pośredników i źródła finansowania;
+    \item źródła środków i sposobu finansowania transakcji;
+    \item zakresu dostępu do Kluczowej Własności Intelektualnej, danych technicznych i informacji chronionych, jaki wynikałby z transakcji;
+    \item wymogów wynikających z kontraktów, zezwoleń, programów Unii Europejskiej, NATO, DIANA NATO lub innych programów bezpieczeństwa i obronności;
+    \item ryzyka obejścia ograniczeń przez podmioty pośrednie, instrumenty zamienne, powiernictwo, wspólne głosowanie albo inne konstrukcje zapewniające faktyczną kontrolę;
+    \item całokształtu ryzyka dla bezpieczeństwa Spółki, technologii, kontraktów, zezwoleń i ciągłości działalności.
   \end{enumerate}
-  \item Dopuszczalnym Nabywcą nie może być osoba lub podmiot:
-  \begin{enumerate}[label=\alph*)]
-    \item objęty sankcjami, ograniczeniami eksportowymi lub zakazem udostępniania środków gospodarczych;
-    \item kontrolowany przez państwo, służby, siły zbrojne albo podmiot z jurysdykcji spoza unii erebu i (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA);
-    \item którego udział stwarza racjonalnie uzasadnione ryzyko dla bezpieczeństwa Spółki, jej technologii, kontraktów, zezwoleń, programu Diana49 lub innych programów sojuszniczych;
-    \item który nie ujawnił pełnej struktury własności, kontroli, finansowania i beneficjentów rzeczywistych w zakresie wymaganym przez Radę Dyrektorów.
-  \end{enumerate}
-  \item Zakazane jest wyemitowanie, zbycie, darowanie, zamiana, wniesienie aportem, zastawienie, ustanowienie użytkowania, powiernictwa, opcji, prawa do głosu, prawa do korzyści ekonomicznych lub innego prawa dotyczącego akcji na rzecz osoby niebędącej Dopuszczalnym Nabywcą.
-  \item Zakaz obejmuje również emisję lub przeniesienie instrumentów zamiennych na akcje, praw do objęcia akcji, umów o wspólnym głosowaniu, finansowania dającego faktyczną kontrolę oraz transakcji pośrednich służących obejściu ograniczenia.
-  \item Każda osoba zamierzająca nabyć prawa dotyczące akcji jest zobowiązana przedstawić Radzie Dyrektorów dokumenty pozwalające ustalić jej jurysdykcję, obywatelstwo, siedzibę, kontrolę, beneficjentów rzeczywistych, źródło środków oraz brak przeszkód sankcyjnych i eksportowych.
-  \item Czynność dokonana bez wymaganej zgody albo na rzecz osoby niebędącej Dopuszczalnym Nabywcą nie może zostać zgłoszona przez Spółkę do rejestru akcjonariuszy, a Spółka podejmie wszelkie prawnie dopuszczalne działania w celu uniemożliwienia jej skutków korporacyjnych.
-  \item Złagodzenie lub uchylenie postanowień niniejszego paragrafu, a także ustanowienie jakiegokolwiek wyjątku dla podmiotu spoza unii erebu i (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA), wymaga jednomyślnej uchwały obejmującej 100\% wszystkich głosów oraz pozytywnej opinii wszystkich dyrektorów niewykonawczych odpowiedzialnych za bezpieczeństwo.
-\end{enumerate}
+  \item Nabywca mający obywatelstwo, siedzibę, rzeczywiste centrum zarządzania lub podmiot kontrolujący poza Unią Europejską i NATO nie jest wyłącznie z tej przyczyny automatycznie wykluczony, lecz może zostać uznany za Dopuszczalnego Nabywcę jedynie po pozytywnym wyniku Testu Bezpieczeństwa Nabywcy i po uzyskaniu jednomyślnej zgody obejmującej 100\% wszystkich głosów w Spółce.
+  \item Dopuszczalnym Nabywcą nie może być osoba lub podmiot objęty sankcjami, zakazem udostępniania środków gospodarczych albo innym bezwzględnie obowiązującym zakazem, ani osoba lub podmiot, którego udział powodowałby naruszenie prawa, zezwolenia, koncesji, obowiązku kontroli eksportu albo wiążącego wymogu bezpieczeństwa.
+  \item Każda osoba zamierzająca nabyć prawa dotyczące akcji jest zobowiązana przedstawić Radzie Dyrektorów dokumenty i informacje konieczne do przeprowadzenia Testu Bezpieczeństwa Nabywcy, w tym dotyczące własności, kontroli, beneficjentów rzeczywistych, źródła środków i celu transakcji.
+  \item Kryteria Testu Bezpieczeństwa Nabywcy stosuje się również do zastawu, użytkowania, powiernictwa, opcji, prawa do głosu, prawa do korzyści ekonomicznych, instrumentów zamiennych oraz innych konstrukcji, które mogą prowadzić do bezpośredniego albo pośredniego przejęcia kontroli lub korzyści z akcji.
+  \item Złagodzenie Testu Bezpieczeństwa Nabywcy albo ustanowienie wyjątku od wymogu jednomyślnej zgody dla nabywcy związanego z jurysdykcją spoza Unii Europejskiej i NATO wymaga zmiany niniejszej umowy i nie może naruszać bezwzględnie obowiązujących przepisów bezpieczeństwa, sankcji ani kontroli eksportu.
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
-\end{ContractClause}
-
-\begin{ContractClause}{Ograniczenie zbywania akcji i zgoda Spółki}
+\begin{ChangedContractClause}{Ograniczenie zbywania akcji i zgoda Spółki}
 \label{art:zbywanie}
-\begin{enumerate}
+\begin{ChangedEnumerate}
   \item Zbycie albo obciążenie akcji wymaga uprzedniej zgody Spółki udzielonej uchwałą Rady Dyrektorów, z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa.
   \item Zgoda może zostać udzielona wyłącznie, jeżeli:
   \begin{enumerate}[label=\alph*)]
     \item nabywca jest Dopuszczalnym Nabywcą;
-    \item zakończono weryfikację własności, kontroli, sankcji, źródła środków, konfliktu interesów oraz ryzyk dla bezpieczeństwa technologii;
+    \item zakończono Test Bezpieczeństwa Nabywcy, w tym weryfikację własności, kontroli, sankcji, źródła środków, konfliktu interesów i ryzyk dla bezpieczeństwa technologii;
     \item dochowano prawa pierwszeństwa, prawa przyłączenia do zbycia i innych procedur przewidzianych w niniejszej umowie;
     \item nabywca przystąpił do obowiązujących umów akcjonariuszy, poufności, bezpieczeństwa i kontroli eksportu, jeżeli Rada Dyrektorów tego zażąda.
   \end{enumerate}
   \item Wniosek o zgodę zawiera co najmniej dane nabywcy, liczbę akcji, cenę, wszystkie świadczenia dodatkowe, źródło finansowania, projekt umowy oraz dokumenty wymagane na podstawie §~\ref{art:dopuszczalny-nabywca}.
   \item Rada Dyrektorów podejmuje uchwałę w terminie 30 dni od otrzymania kompletnego wniosku. Brak uchwały nie oznacza zgody.
-  \item Zgoda nie jest wymagana dla zbycia dokonanego w wykonaniu prawa przymusowego współzbycia, obowiązkowego zbycia w ramach mechanizmu nabywania uprawnień w czasie ani przejścia akcji na Spółkę w przypadkach dopuszczonych prawem, pod warunkiem że ostateczny nabywca jest Dopuszczalnym Nabywcą.
-\end{enumerate}
-
-\end{ContractClause}
-
-\begin{ContractClause}{Okres ograniczenia zbywania akcji Założycieli}
-\label{art:lockup}
-\begin{enumerate}
-  \item Przez 48 miesięcy od dnia wpisu Spółki do rejestru Założyciel nie może zbyć ani obciążyć akcji bez zgody Walnego Zgromadzenia podjętej większością 75\% wszystkich głosów, z wyłączeniem głosów Założyciela występującego o zgodę.
+  \item Zgoda nie jest wymagana dla zbycia dokonanego w wykonaniu prawa przymusowego współzbycia, obowiązkowego zbycia w ramach mechanizmu zwrotnego zbycia akcji ani przejścia akcji na Spółkę w przypadkach dopuszczonych prawem, pod warunkiem że ostateczny nabywca jest Dopuszczalnym Nabywcą.
+  \item Naruszenie obowiązku uzyskania zgody albo wymogów dotyczących Dopuszczalnego Nabywcy stanowi istotne naruszenie niniejszej umowy. Zbywca i nabywca, w zakresie w jakim są związani niniejszą umową, są zobowiązani niezwłocznie usunąć skutki naruszenia, a jeżeli jest to prawnie dopuszczalne i konieczne — doprowadzić w terminie 60 dni do zbycia akcji na rzecz Dopuszczalnego Nabywcy. Postanowienie to nie przesądza sposobu działania podmiotu prowadzącego rejestr akcjonariuszy, który działa zgodnie z przepisami prawa.
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
+\begin{ChangedContractClause}{Okres Ograniczenia Zbywania Akcji Założycieli}
+\label{art:okres-ograniczenia-zbywania}
+\begin{ChangedEnumerate}
+  \item Przez 24 miesiące od dnia wpisu Spółki do rejestru Założyciel nie może zbyć ani obciążyć akcji bez uprzedniej zgody Walnego Zgromadzenia podjętej większością 75\% Głosów Uprawnionych w Sprawie, przy czym Założyciel występujący o zgodę jest w tej sprawie wyłączony od głosowania.
   \item Ograniczenie nie dotyczy:
   \begin{enumerate}[label=\alph*)]
     \item zbycia w ramach zatwierdzonej rundy finansowania;
     \item wykonania prawa przyłączenia albo prawa przymusowego współzbycia;
-    \item obowiązkowego zbycia wynikającego z mechanizmu nabywania uprawnień w czasie;
+    \item obowiązkowego zbycia wynikającego z mechanizmu zwrotnego zbycia akcji;
     \item przeniesienia do podmiotu w całości kontrolowanego przez Założyciela, jeżeli podmiot ten jest Dopuszczalnym Nabywcą, przystąpi do wszystkich obowiązków Założyciela, a Założyciel pozostanie solidarnie odpowiedzialny i zapewni zwrotne przeniesienie akcji przed utratą kontroli.
   \end{enumerate}
-\end{enumerate}
-
-\end{ContractClause}
+  \item Upływ Okresu Ograniczenia Zbywania Akcji nie wpływa na dalsze obowiązywanie mechanizmu zwrotnego zbycia akcji ani obowiązku zbycia akcji, które nie zostały jeszcze zwolnione z tego obowiązku.
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
 \begin{ContractClause}{Prawo pierwszeństwa nabycia akcji}
 \label{art:pierwszenstwo}
@@ -377,7 +562,7 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 \end{ContractClause}
 
 \begin{ContractClause}{Prawo przyłączenia do zbycia}
-\label{art:tag}
+\label{art:przylaczenie}
 \begin{enumerate}
   \item Jeżeli jeden lub kilku akcjonariuszy zamierza dokonać transakcji, w wyniku której Dopuszczalny Nabywca lub grupa podmiotów działających w porozumieniu uzyska bezpośrednio albo pośrednio ponad 50\% głosów w Spółce, każdy pozostały akcjonariusz ma prawo zażądać objęcia transakcją wszystkich albo części swoich akcji.
   \item Akcje akcjonariusza korzystającego z prawa przyłączenia są zbywane po tej samej cenie za akcję, w tym samym rodzaju świadczenia i na warunkach nie mniej korzystnych niż akcje zbywających akcjonariuszy.
@@ -388,7 +573,7 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 \end{ContractClause}
 
 \begin{ContractClause}{Prawo przymusowego współzbycia}
-\label{art:drag}
+\label{art:przymusowe-wspolzbycie}
 \begin{enumerate}
   \item Akcjonariusz albo grupa akcjonariuszy posiadająca łącznie co najmniej \textbf{75\% wszystkich głosów} może, w związku z wiążącą ofertą nabycia 100\% akcji Spółki przez niezależnego Dopuszczalnego Nabywcę, zobowiązać pozostałych akcjonariuszy do zbycia wszystkich ich akcji.
   \item Prawo może zostać wykonane wyłącznie, gdy:
@@ -405,41 +590,39 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 \end{ContractClause}
 
-\begin{ContractClause}{Dziedziczenie akcji}
+\begin{ChangedContractClause}{Dziedziczenie akcji}
 \label{art:dziedziczenie}
-\begin{enumerate}
+\begin{ChangedEnumerate}
   \item Spadkobierca może wykonywać prawa z akcji po wykazaniu następstwa prawnego oraz przejściu weryfikacji Dopuszczalnego Nabywcy.
   \item Jeżeli spadkobierca nie jest Dopuszczalnym Nabywcą albo nie przedstawi wymaganych informacji w terminie 90 dni od wezwania, akcje podlegają obowiązkowemu zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy za Wartość Godziwą.
   \item Jeżeli akcje przypadają kilku spadkobiercom, są oni zobowiązani wskazać jednego wspólnego przedstawiciela do wykonywania praw korporacyjnych do czasu działu spadku.
-  \item Cena może zostać rozłożona na nie więcej niż 36 równych miesięcznych rat, jeżeli jednorazowa zapłata zagrażałaby płynności Spółki lub nabywcy; niespłacona część jest oprocentowana według stopy referencyjnej NBP powiększonej o 3 punkty procentowe.
+  \item Cena może zostać rozłożona na nie więcej niż 36 równych miesięcznych rat, jeżeli jednorazowa zapłata zagrażałaby płynności Spółki lub nabywcy; niespłacona część jest oprocentowana według stopy referencyjnej NBP powiększonej o 3 punkty procentowe. Pierwsza rata jest płatna najpóźniej w dniu przeniesienia akcji, a kolejne w równych odstępach miesięcznych. Nabywca może dokonać wcześniejszej spłaty bez dodatkowej opłaty i ustanawia w umowie zbycia zabezpieczenie pozostałej ceny adekwatne do jej wysokości i ryzyka. Opóźnienie przekraczające 30 dni w zapłacie dwóch rat, nieusunięte w terminie 14 dni od pisemnego wezwania, powoduje wymagalność całej pozostałej ceny.
   \item Spółka może zawrzeć ubezpieczenie na życie kluczowych Założycieli w celu sfinansowania nabycia akcji od spadkobierców.
-\end{enumerate}
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
-\end{ContractClause}
-
-\begin{ContractClause}{Ochrona przed wejściem małżonka lub byłego małżonka}
+\begin{UncertainContractClause}{Ochrona przed wejściem małżonka lub byłego małżonka}
 \label{art:malzonek}
-\begin{enumerate}
-  \item Każdy akcjonariusz będący osobą fizyczną zobowiązuje się, w zakresie prawnie dopuszczalnym, utrzymywać akcje i prawa do nich w swoim majątku osobistym oraz niezwłocznie poinformować Spółkę o zdarzeniu mogącym prowadzić do objęcia akcji wspólnością, podziałem majątku albo roszczeniem małżonka.
-  \item Małżonek albo były małżonek może uzyskać i wykonywać prawa z akcji wyłącznie, jeżeli jest Dopuszczalnym Nabywcą oraz uzyska zgodę Spółki zgodnie z §~\ref{art:zbywanie}.
-  \item Jeżeli na skutek podziału majątku, ugody lub orzeczenia akcje miałyby przypaść małżonkowi albo byłemu małżonkowi niespełniającemu wymogów, akcjonariusz jest zobowiązany doprowadzić do rozliczenia pieniężnego bez przenoszenia akcji, a gdy to niemożliwe — akcje podlegają obowiązkowemu zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy za Wartość Godziwą.
-  \item Akcjonariusz jest zobowiązany, na uzasadnione żądanie Spółki, przedstawić dokumenty potwierdzające sposób uregulowania praw do akcji w stosunkach małżeńskich.
-\end{enumerate}
+\begin{UncertainEnumerate}
+  \item Każdy akcjonariusz będący osobą fizyczną zobowiązuje się, w granicach prawnie dopuszczalnych, podejmować działania zmierzające do ochrony struktury własnościowej Spółki oraz niezwłocznie informować Spółkę o zmianie ustroju majątkowego lub innym zdarzeniu mogącym prowadzić do objęcia akcji wspólnością, podziałem majątku albo roszczeniem małżonka.
+  \item Małżonek albo były małżonek może uzyskać i wykonywać prawa z akcji wyłącznie w zakresie zgodnym z bezwzględnie obowiązującymi przepisami prawa oraz, jeżeli wymagają tego postanowienia niniejszej umowy, po spełnieniu wymogów Dopuszczalnego Nabywcy i uzyskaniu zgody Spółki zgodnie z §~\ref{art:zbywanie}.
+  \item Jeżeli na skutek podziału majątku, ugody lub orzeczenia akcje miałyby przypaść małżonkowi albo byłemu małżonkowi niespełniającemu wymogów, akcjonariusz jest zobowiązany, w granicach prawnie dopuszczalnych, dążyć w pierwszej kolejności do rozliczenia pieniężnego bez przenoszenia akcji, a jeżeli akcje skutecznie przejdą na osobę niespełniającą wymogów — zastosowanie mają postanowienia o obowiązku doprowadzenia do zgodności z §~\ref{art:zbywanie}.
+  \item Akcjonariusz jest zobowiązany, na uzasadnione żądanie Spółki i w zakresie dopuszczalnym przez prawo, przedstawić dokumenty niezbędne do ustalenia wpływu stosunków majątkowych małżeńskich na prawa do akcji.
+\end{UncertainEnumerate}
+\end{UncertainContractClause}
 
-\end{ContractClause}
-
-\begin{ContractClause}{Wartość Godziwa}
+\begin{ChangedContractClause}{Wartość Godziwa i Dzień Wyceny}
 \label{art:wycena}
-\begin{enumerate}
-  \item „Wartość Godziwa” oznacza wartość rynkową akcji ustaloną przy założeniu kontynuacji działalności Spółki, bez dyskonta z tytułu braku płynności lub pakietu mniejszościowego, chyba że niniejsza umowa wyraźnie stanowi inaczej.
-  \item W pierwszej kolejności akcjonariusze mogą uzgodnić wartość w terminie 15 dni.
-  \item W razie braku uzgodnienia wartość ustala niezależny biegły posiadający doświadczenie w wycenie spółek technologicznych i własności intelektualnej, wybrany przez Radę Dyrektorów spośród podmiotów niepowiązanych ze stronami.
-  \item Biegły uwzględnia w szczególności ostatnią rynkową rundę finansowania, poziom gotowości technologicznej, portfel własności intelektualnej, kontrakty, ryzyka regulacyjne, zadłużenie, środki pieniężne i perspektywy komercjalizacji.
+\begin{ChangedEnumerate}
+  \item „Dzień Wyceny” oznacza dzień wystąpienia zdarzenia powodującego powstanie obowiązku zbycia albo prawa nabycia akcji, chyba że właściwe postanowienie niniejszej umowy wyraźnie wskazuje inny dzień.
+  \item „Wartość Godziwa” oznacza wartość rynkową akcji ustaloną na Dzień Wyceny przy założeniu kontynuacji działalności Spółki, bez dyskonta z tytułu braku płynności lub pakietu mniejszościowego, chyba że niniejsza umowa wyraźnie stanowi inaczej.
+  \item W pierwszej kolejności strony mogą uzgodnić wartość w terminie 15 dni od Dnia Wyceny albo od dnia, w którym dowiedziały się o zdarzeniu powodującym konieczność wyceny.
+  \item W razie braku uzgodnienia wartość ustala Niezależny Ekspert posiadający doświadczenie w wycenie spółek technologicznych i własności intelektualnej, wybrany przez Radę Dyrektorów spośród podmiotów niepowiązanych ze stronami.
+  \item Niezależny Ekspert uwzględnia w szczególności ostatnią rynkową rundę finansowania, poziom gotowości technologicznej, portfel własności intelektualnej, kontrakty, ryzyka regulacyjne, zadłużenie, środki pieniężne i perspektywy komercjalizacji.
   \item Koszt wyceny ponoszą strony po połowie, chyba że różnica między stanowiskiem jednej strony a wyceną przekroczy 20\%; w takim przypadku koszt ponosi ta strona.
-  \item Ustalenie biegłego jest wiążące, z wyjątkiem oczywistego błędu rachunkowego, naruszenia zasad niezależności albo rażącego pominięcia istotnych danych.
-\end{enumerate}
-
-\end{ContractClause}
+  \item Ustalenie Niezależnego Eksperta jest wiążące, z wyjątkiem oczywistego błędu rachunkowego, naruszenia zasad niezależności albo rażącego pominięcia istotnych danych.
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
 \begin{ContractClause}{Organy Spółki}
 \label{art:organy}
@@ -471,16 +654,16 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 \end{ContractClause}
 
-\begin{ContractClause}{Reprezentacja Spółki}
+\begin{ChangedContractClause}{Reprezentacja Spółki}
 \label{art:reprezentacja}
-\begin{enumerate}
+\begin{ChangedEnumerate}
   \item Do składania oświadczeń w imieniu Spółki wymagane jest współdziałanie dwóch dyrektorów albo jednego dyrektora łącznie z prokurentem.
   \item Rada Dyrektorów może ustanowić prokurę wyłącznie za zgodą co najmniej dwóch trzecich wszystkich dyrektorów.
-  \item W umowie między Spółką a dyrektorem oraz w sporze z nim Spółkę reprezentuje pełnomocnik powołany uchwałą Walnego Zgromadzenia albo inny podmiot wskazany przez bezwzględnie obowiązujące przepisy prawa.
+  \item W umowie między Spółką a dyrektorem oraz w sporze z nim Spółkę reprezentuje pełnomocnik powołany uchwałą akcjonariuszy, z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa.
+  \item W umowie oraz sporze między Spółką a dyrektorem wykonawczym Spółkę może reprezentować także dyrektor niewykonawczy działający na podstawie uchwały Rady Dyrektorów podjętej wyłącznie przez dyrektorów niewykonawczych, o ile spełnione są ustawowe warunki zastosowania tego trybu.
   \item Wewnętrzne limity kompetencji dyrektorów wykonawczych nie wpływają na skuteczność reprezentacji wobec osób trzecich, lecz ich naruszenie może stanowić podstawę odpowiedzialności wobec Spółki.
-\end{enumerate}
-
-\end{ContractClause}
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
 \begin{ContractClause}{Sprawy wymagające uchwały Rady Dyrektorów}
 \label{art:rada-zastrzezone}
@@ -503,46 +686,46 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 \end{ContractClause}
 
-\begin{ContractClause}{Walne Zgromadzenie}
+\begin{ChangedContractClause}{Walne Zgromadzenie i sposób obliczania głosów}
 \label{art:wz}
-\begin{enumerate}
+\begin{ChangedEnumerate}
   \item Walne Zgromadzenie może być zwyczajne albo nadzwyczajne i działa zgodnie z przepisami prawa oraz niniejszą umową.
   \item Walne Zgromadzenia mogą odbywać się w siedzibie Spółki, w Warszawie albo z wykorzystaniem środków komunikacji elektronicznej.
   \item Zawiadomienia mogą być przesyłane na adres poczty elektronicznej wpisany do rejestru akcjonariuszy lub wskazany Spółce, z zachowaniem terminów ustawowych.
   \item Każda akcja daje jeden głos, chyba że bezwzględnie obowiązujące przepisy albo uchwała emisyjna zgodna z niniejszą umową stanowią inaczej.
   \item O ile ustawa albo niniejsza umowa nie wymaga surowszej większości, uchwały zapadają bezwzględną większością głosów oddanych.
-\end{enumerate}
+  \item „Głosy Uprawnione w Sprawie” oznaczają głosy z akcji, z których zgodnie z ustawą albo wyraźnym postanowieniem niniejszej umowy prawo głosu może być wykonywane w danej sprawie. Jeżeli akcjonariusz jest wyłączony od głosowania, głosów z jego akcji nie uwzględnia się ani w liczniku, ani w mianowniku większości określonej jako procent Głosów Uprawnionych w Sprawie.
+  \item Zasada z ust. 6 nie zmienia większości określonych w niniejszej umowie jako procent „wszystkich głosów w Spółce”; takie progi oblicza się od pełnej liczby głosów istniejących w Spółce, chyba że bezwzględnie obowiązujący przepis prawa stanowi inaczej.
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
-\end{ContractClause}
-
-\begin{ContractClause}{Sprawy Zastrzeżone dla Walnego Zgromadzenia}
+\begin{ChangedContractClause}{Sprawy Zastrzeżone dla Walnego Zgromadzenia}
 \label{art:walne-zastrzezone}
-\begin{enumerate}
+\begin{ChangedEnumerate}
   \item Uchwały w następujących sprawach wymagają większości 75\% wszystkich głosów w Spółce:
   \begin{enumerate}[label=\alph*)]
-    \item zmiana umowy Spółki, z zastrzeżeniem spraw wymagających większości 90\%;
-    \item emisja akcji, warrantów, opcji, instrumentów zamiennych lub innych praw do akcji, poza emisją serii P w granicach upoważnienia;
-    \item wyłączenie prawa poboru poza zakresem upoważnienia dotyczącego serii P;
+    \item zmiana umowy Spółki, z zastrzeżeniem spraw wymagających większości surowszej na podstawie ustawy albo niniejszej umowy;
+    \item emisja akcji, warrantów, opcji, instrumentów zamiennych lub innych praw do akcji, w tym każda emisja akcji serii P;
     \item zwiększenie, odnowienie albo istotna zmiana programu motywacyjnego;
     \item połączenie, podział, przekształcenie, rozwiązanie lub likwidacja Spółki;
     \item sprzedaż przedsiębiorstwa, zorganizowanej części przedsiębiorstwa albo aktywów stanowiących ponad 25\% wartości aktywów Spółki;
     \item przeniesienie, zbycie albo udzielenie wyłącznej, nieodwołalnej lub bezterminowej licencji na Kluczową Własność Intelektualną poza zwykłym tokiem działalności;
-    \item istotna zmiana profilu działalności, rezygnacja z działalności badawczo-rozwojowej lub zmiana zasadniczej strategii dual-use;
+    \item istotna zmiana profilu działalności, rezygnacja z działalności badawczo-rozwojowej lub zmiana zasadniczej strategii produktów podwójnego zastosowania;
     \item powołanie i odwołanie dyrektorów, zatwierdzenie ich wynagrodzenia oraz przyjęcie programu ubezpieczenia odpowiedzialności;
     \item nabycie akcji własnych, ich umorzenie lub wypłata z kapitału akcyjnego, jeżeli wymaga uchwały;
     \item zaciągnięcie zobowiązania, ustanowienie zabezpieczenia lub dokonanie transakcji poza zatwierdzonym budżetem o wartości przekraczającej 500 000 zł;
     \item zawarcie ugody albo zrzeczenie się roszczenia dotyczącego własności intelektualnej lub naruszenia bezpieczeństwa o wartości przekraczającej 500 000 zł;
-    \item zatwierdzenie Odejścia Usprawiedliwionego w przypadkach uznaniowych;
-    \item zgoda na zbycie akcji Założyciela w okresie ograniczenia zbywania.
+    \item zatwierdzenie Odejścia Usprawiedliwionego w przypadkach uznaniowych.
   \end{enumerate}
-  \item Uchwały dotyczące dopuszczenia inwestora, nabywcy lub podmiotu kontrolującego spoza unii erebu i (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA), jak również złagodzenia §~\ref{art:dopuszczalny-nabywca}, wymagają jednomyślności obejmującej 100\% wszystkich głosów i nie mogą naruszać bezwzględnie obowiązujących przepisów bezpieczeństwa, sankcji ani kontroli eksportu.
-  \item Głos akcjonariusza pozostającego w konflikcie interesów może zostać wyłączony w zakresie dopuszczalnym przez prawo.
-\end{enumerate}
-
-\end{ContractClause}
+  \item Pozbawienie prawa poboru w całości albo w części wymaga większości co najmniej czterech piątych głosów oraz spełnienia pozostałych wymogów bezwzględnie obowiązujących przepisów prawa.
+  \item Uchwały dotyczące uznania za Dopuszczalnego Nabywcę osoby lub podmiotu związanego z jurysdykcją spoza Unii Europejskiej i NATO, jak również złagodzenia §~\ref{art:dopuszczalny-nabywca}, wymagają jednomyślności obejmującej 100\% wszystkich głosów i nie mogą naruszać bezwzględnie obowiązujących przepisów bezpieczeństwa, sankcji ani kontroli eksportu.
+  \item Zgoda na zbycie akcji Założyciela w Okresie Ograniczenia Zbywania Akcji wymaga większości 75\% Głosów Uprawnionych w Sprawie, zgodnie z §~\ref{art:wz}.
+  \item Głos akcjonariusza pozostającego w konflikcie interesów może zostać wyłączony wyłącznie w zakresie dopuszczalnym przez prawo albo wyraźnie przewidzianym w niniejszej umowie.
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
 \begin{ContractClause}{Własność intelektualna i aktywa technologiczne}
-\label{art:ip}
+\label{art:wlasnosc-intelektualna}
 \begin{enumerate}
   \item „Kluczowa Własność Intelektualna” oznacza wszelkie prawa i aktywa niezbędne albo istotne dla produktów i działalności Spółki, w szczególności:
   \begin{enumerate}[label=\alph*)]
@@ -554,7 +737,7 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
   \end{enumerate}
   \item Kluczowa Własność Intelektualna rozwijana dla Spółki lub z wykorzystaniem jej zasobów ma przysługiwać Spółce w najszerszym prawnie dopuszczalnym zakresie.
   \item Każdy Założyciel, dyrektor, pracownik, współpracownik i podwykonawca musi przed uzyskaniem dostępu do technologii podpisać odpowiednią umowę przenoszącą prawa albo zapewniającą Spółce wyłączną, nieodwołalną i przenoszalną podstawę korzystania, obejmującą wszystkie wymagane pola eksploatacji i prawo wykonywania praw zależnych.
-  \item Żadne postanowienie niniejszej umowy nie zastępuje odrębnego dokumentu przeniesienia, gdy przepisy wymagają oznaczenia utworu, pól eksploatacji, formy pisemnej, wpisu do rejestru lub innej szczególnej czynności.
+  \item Żadne postanowienie niniejszej umowy nie zastępuje odrębnego dokumentu przeniesienia, gdy przepisy wymagają oznaczenia utworu, pól eksploatacji, formy pisemnej, wpisu do rejestru lub innej szczególnej czynności. Szczegółowy zakres Umowy Przeniesienia Praw Własności Intelektualnej określa odrębny dokument sporządzony w formie właściwej dla przenoszonych praw.
   \item Założyciel oświadcza w odniesieniu do wkładów i innych przekazywanych aktywów, że:
   \begin{enumerate}[label=\alph*)]
     \item przysługują mu prawa wystarczające do skutecznego przeniesienia;
@@ -577,7 +760,7 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
   \item Obowiązek poufności trwa przez okres posiadania akcji i przez 10 lat po jego zakończeniu, a w odniesieniu do tajemnicy przedsiębiorstwa — tak długo, jak informacja zachowuje taki charakter.
   \item Spółka wdraża środki bezpieczeństwa adekwatne do ryzyka, w szczególności kontrolę dostępu, zasadę minimalnych uprawnień, rozdzielenie środowisk, szyfrowanie, rejestrowanie zdarzeń, bezpieczny cykl wytwarzania, zarządzanie podatnościami i reagowanie na incydenty.
   \item Każdy akcjonariusz i dyrektor ma obowiązek niezwłocznie zgłosić podejrzenie wycieku, naruszenia, utraty urządzenia, nieuprawnionego dostępu, próby pozyskania technologii lub konfliktu interesów.
-  \item Dostęp z jurysdykcji spoza unii erebu i (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA) do Kluczowej Własności Intelektualnej wymaga uprzedniej pisemnej zgody Rady Dyrektorów i analizy kontroli eksportu; zgoda nie może zostać udzielona, jeżeli byłoby to sprzeczne z §~\ref{art:dopuszczalny-nabywca} lub prawem.
+  \item Dostęp z jurysdykcji spoza Unii Europejskiej i NATO do Kluczowej Własności Intelektualnej wymaga uprzedniej pisemnej zgody Rady Dyrektorów i analizy kontroli eksportu; zgoda nie może zostać udzielona, jeżeli byłoby to sprzeczne z §~\ref{art:dopuszczalny-nabywca} lub prawem.
 \end{enumerate}
 
 \end{ContractClause}
@@ -585,7 +768,7 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 \begin{ContractClause}{Kontrola eksportu, sankcje i końcowe zastosowanie}
 \label{art:export}
 \begin{enumerate}
-  \item Spółka, jej organy i akcjonariusze przestrzegają obowiązujących przepisów dotyczących produktów podwójnego zastosowania, uzbrojenia, transferu technologii, pomocy technicznej, pośrednictwa, sankcji, embarg i ograniczeń terytorialnych, w szczególności właściwych regulacji unii erebu i prawa polskiego.
+  \item Spółka, jej organy i akcjonariusze przestrzegają obowiązujących przepisów dotyczących produktów podwójnego zastosowania, uzbrojenia, transferu technologii, pomocy technicznej, pośrednictwa, sankcji, embarg i ograniczeń terytorialnych, w szczególności właściwych regulacji Unii Europejskiej i prawa polskiego.
   \item Przed eksportem, transferem, udostępnieniem zdalnym, demonstracją, publikacją, dostarczeniem kodu, danych technicznych, sprzętu lub pomocy technicznej Spółka przeprowadza klasyfikację produktu, odbiorcy, jurysdykcji, końcowego użytkownika i końcowego zastosowania.
   \item Zakazane jest zawarcie transakcji lub udostępnienie technologii, jeżeli:
   \begin{enumerate}[label=\alph*)]
@@ -600,16 +783,54 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 \end{ContractClause}
 
-\begin{ContractClause}{Zakaz konkurencji i konflikt interesów}
-\label{art:konkurencja}
-\begin{enumerate}
-  \item Akcjonariusz Funkcjonalny, w okresie zaangażowania w Spółkę, nie może bez uprzedniej zgody Walnego Zgromadzenia prowadzić ani wspierać działalności konkurencyjnej dotyczącej produktów wskazanych w §~\ref{art:pkd}, uczestniczyć w podmiocie konkurencyjnym ani wykorzystywać szans biznesowych należących do Spółki.
-  \item Zakaz nie obejmuje pasywnego posiadania nie więcej niż 2\% papierów wartościowych spółki publicznej ani działalności uprzednio ujawnionej i zatwierdzonej w Załączniku nr 3.
-  \item Po ustaniu funkcjonalnego zaangażowania zakaz konkurencji może obowiązywać nie dłużej niż 12 miesięcy, wyłącznie na podstawie odrębnej umowy określającej zakres i — jeżeli prawo tego wymaga — odpowiednie świadczenie Spółki.
-  \item Każdy akcjonariusz i dyrektor niezwłocznie ujawnia konflikt interesów i powstrzymuje się od udziału w decyzji w zakresie wymaganym przez prawo i regulaminy Spółki.
-\end{enumerate}
+\ifFoundersVersion
+\DiscussionComment{Prośba o konsultację — transakcje konfliktowe}{%
+Klauzula wprowadza wewnętrzny próg 2\% oraz szczególną procedurę dla transakcji z podmiotem powiązanym z dyrektorem. Do konsultacji pozostaje wyłącznie zgodność tego progu oraz zasad ujawnienia konfliktu, wyłączenia, obliczania quorum i reprezentacji z bezwzględnie obowiązującymi przepisami prawa.
+}
+\fi
 
-\end{ContractClause}
+\begin{UncertainContractClause}{Zakaz konkurencji, konflikt interesów i transakcje z podmiotami powiązanymi}
+\label{art:konkurencja}
+\begin{UncertainEnumerate}
+  \item Akcjonariusz Funkcjonalny, w okresie zaangażowania w Spółkę, nie może bez uprzedniej zgody Walnego Zgromadzenia prowadzić ani wspierać działalności konkurencyjnej dotyczącej produktów wskazanych w §~\ref{art:pkd}, uczestniczyć w podmiocie konkurencyjnym ani wykorzystywać szans biznesowych należących do Spółki.
+
+  \item Zakaz nie obejmuje pasywnego posiadania nie więcej niż 2\% papierów wartościowych spółki publicznej ani działalności uprzednio ujawnionej i zatwierdzonej w Załączniku nr 3.
+
+  \item Po ustaniu funkcjonalnego zaangażowania zakaz konkurencji może obowiązywać nie dłużej niż 12 miesięcy, wyłącznie na podstawie odrębnej umowy określającej zakres i --- jeżeli prawo tego wymaga --- odpowiednie świadczenie Spółki.
+
+  \item „Podmiotem Powiązanym z Dyrektorem” jest podmiot, w którym dyrektor, jego małżonek, osoba bliska albo podmiot przez nich kontrolowany:
+  \begin{enumerate}[label=\alph*)]
+    \item posiada bezpośrednio albo pośrednio więcej niż 2\% udziałów, akcji, głosów albo praw do udziału w zysku;
+    \item pełni funkcję członka organu, prokurenta, wspólnika uprawnionego do prowadzenia spraw albo osoby faktycznie kierującej działalnością;
+    \item posiada prawo powołania członka organu; albo
+    \item odnosi szczególną korzyść ekonomiczną z zawarcia transakcji ze Spółką.
+  \end{enumerate}
+  \item Niezależnie od progu 2\% konflikt interesów występuje również wtedy, gdy dyrektor albo osoba z nim powiązana posiada istotny interes osobisty lub ekonomiczny, który może racjonalnie wpływać na bezstronność decyzji dotyczącej Spółki.
+  \item Dyrektor pozostający w konflikcie interesów:
+  \begin{enumerate}[label=\alph*)]
+    \item niezwłocznie ujawnia Radzie Dyrektorów charakter i zakres konfliktu;
+    \item nie uczestniczy w przygotowaniu, negocjowaniu, ocenie ani zatwierdzaniu transakcji;
+    \item nie otrzymuje dokumentów dotyczących transakcji poza zakresem koniecznym do wykonania obowiązków prawnych;
+    \item nie reprezentuje Spółki ani nie podpisuje dokumentów dotyczących tej transakcji.
+  \end{enumerate}
+
+  \item Rada Dyrektorów podejmuje uchwałę o wyłączeniu dyrektora pozostającego w konflikcie oraz powierza prowadzenie sprawy innemu dyrektorowi wykonawczemu. Dyrektor pozostający w konflikcie nie jest uwzględniany przy ustalaniu większości wymaganej dla rozstrzygnięcia tej sprawy, w zakresie dopuszczalnym przez prawo.
+
+  \item Zawarcie transakcji z Podmiotem Powiązanym z Dyrektorem wymaga uprzedniej uchwały Rady Dyrektorów podjętej wyłącznie przez dyrektorów niepozostających w konflikcie interesów.
+
+  \item Uchwała, o której mowa w ust. 8, powinna potwierdzać, że:
+  \begin{enumerate}[label=\alph*)]
+    \item transakcja leży w interesie Spółki;
+    \item jej warunki odpowiadają warunkom rynkowym;
+    \item dokonano porównania dostępnych ofert albo sporządzono uzasadnienie wyboru danego kontrahenta;
+    \item zakres świadczeń, cena, odpowiedzialność stron i prawa własności intelektualnej zostały należycie zabezpieczone.
+  \end{enumerate}
+
+  \item Umowę i pozostałe oświadczenia dotyczące transakcji podpisują, zgodnie z zasadami reprezentacji Spółki i z zastrzeżeniem §~\ref{art:reprezentacja}, wyłącznie osoby niepozostające w konflikcie interesów.
+
+  \item Jeżeli nie można zapewnić wymaganej liczby osób niepozostających w konflikcie interesów, transakcja nie może zostać zawarta do czasu zapewnienia prawidłowej reprezentacji, w szczególności przez powołanie dodatkowego dyrektora przez Walne Zgromadzenie.
+\end{UncertainEnumerate}
+\end{UncertainContractClause}
 
 \begin{ContractClause}{Finansowanie Spółki}
 \label{art:finansowanie}
@@ -633,16 +854,17 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 \end{ContractClause}
 
-\begin{ContractClause}{Rozwiązywanie impasu decyzyjnego}
-\label{art:deadlock}
-\begin{enumerate}
-  \item „Impas” występuje, gdy Sprawa Zastrzeżona nie zostanie rozstrzygnięta na dwóch prawidłowo zwołanych Walnych Zgromadzeniach odbytych w odstępie co najmniej 14 dni, a brak decyzji istotnie zagraża działalności Spółki.
-  \item W razie Impasu Przewodniczący Rady Dyrektorów organizuje w terminie 10 dni spotkanie negocjacyjne z udziałem stron, a następnie — jeżeli Impas trwa — mediację prowadzoną przez niezależnego mediatora posiadającego doświadczenie w sporach technologicznych.
-  \item Do czasu rozstrzygnięcia Impasu obowiązuje ostatni zatwierdzony budżet, proporcjonalnie przedłużony, a Rada Dyrektorów może podejmować wyłącznie czynności konieczne dla ciągłości, bezpieczeństwa, ochrony praw i wykonania obowiązków ustawowych.
-  \item Impas nie uprawnia do obejścia wymogów dotyczących Dopuszczalnego Nabywcy, kontroli eksportu, ochrony własności intelektualnej ani większości kwalifikowanych.
-\end{enumerate}
-
-\end{ContractClause}
+\begin{ChangedContractClause}{Rozwiązywanie Impasu Decyzyjnego}
+\label{art:impas}
+\begin{ChangedEnumerate}
+  \item „Impas Decyzyjny” występuje, gdy Sprawa Zastrzeżona nie zostanie rozstrzygnięta na dwóch prawidłowo zwołanych Walnych Zgromadzeniach odbytych w odstępie co najmniej 14 dni, a brak decyzji istotnie zagraża działalności Spółki.
+  \item W razie Impasu Decyzyjnego Przewodniczący Rady Dyrektorów organizuje w terminie 10 dni spotkanie negocjacyjne z udziałem stron, a następnie — jeżeli Impas Decyzyjny trwa — mediację prowadzoną przez niezależnego mediatora posiadającego doświadczenie w sporach technologicznych.
+  \item Jeżeli po mediacji pozostaje spór dotyczący kwestii możliwej do obiektywnego ustalenia, w szczególności wyceny, rachunkowości, zagadnienia technicznego albo zakresu określonego prawa własności intelektualnej, sprawa może zostać poddana rozstrzygnięciu przez Niezależnego Eksperta na podstawie odrębnie uzgodnionej procedury określającej jego wybór, zakres umocowania, dostęp do informacji i termin rozstrzygnięcia.
+  \item Rozstrzygnięcie przez Niezależnego Eksperta nie może zastępować uchwały organu Spółki w sprawie strategicznej, personalnej, właścicielskiej albo innej Sprawie Zastrzeżonej, której rozstrzygnięcie wymaga decyzji uznaniowej lub określonej większości głosów.
+  \item Do czasu rozstrzygnięcia Impasu Decyzyjnego obowiązuje ostatni zatwierdzony budżet, proporcjonalnie przedłużony, a Rada Dyrektorów może podejmować wyłącznie czynności konieczne dla ciągłości, bezpieczeństwa, ochrony praw i wykonania obowiązków ustawowych.
+  \item Impas Decyzyjny nie uprawnia do obejścia wymogów dotyczących Dopuszczalnego Nabywcy, kontroli eksportu, ochrony własności intelektualnej ani większości kwalifikowanych.
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
 \begin{ContractClause}{Naruszenia i wykonanie obowiązków akcjonariusza}
 \label{art:breach}
@@ -665,17 +887,16 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 \end{ContractClause}
 
-\begin{ContractClause}{Postanowienia końcowe}
+\begin{ChangedContractClause}{Postanowienia końcowe}
 \label{art:final}
-\begin{enumerate}
+\begin{ChangedEnumerate}
   \item W sprawach nieuregulowanych stosuje się przepisy \KSH{} oraz inne właściwe przepisy prawa polskiego.
   \item Jeżeli postanowienie umowy jest nieważne albo niewykonalne, pozostałe postanowienia zachowują moc. Strony zastąpią wadliwe postanowienie rozwiązaniem prawnie dopuszczalnym, możliwie najbliższym jego celowi gospodarczemu i bezpieczeństwa.
   \item Zmiana niniejszej umowy wymaga formy przewidzianej prawem i większości określonej w §~\ref{art:walne-zastrzezone}.
   \item Spory związane z niniejszą umową strony w pierwszej kolejności poddają negocjacjom i mediacji. W razie braku ugody właściwy jest sąd powszechny właściwy dla siedziby Spółki, chyba że bezwzględnie obowiązujące przepisy stanowią inaczej.
   \item Załączniki nr 1--3 stanowią integralną część niniejszej umowy.
-\end{enumerate}
-
-\end{ContractClause}
+\end{ChangedEnumerate}
+\end{ChangedContractClause}
 
 \newpage
 \section*{Załącznik nr 1 — Założyciele, akcje i wkłady}
@@ -735,196 +956,4 @@ E & \field{TAK/NIE} & \field{liczba} & \field{data} & \field{rola} \\
 \field{Założyciel E — podpis} & \\
 \end{tabularx}
 \end{center}
-
-% =========================================================
-% CZĘŚĆ II — KOMENTARZE
-% =========================================================
-\clearpage
-\chapter*{Część II — komentarze dla założycieli}
-\addcontentsline{toc}{chapter}{Część II — komentarze dla założycieli}
-
-\DiscussionComment{Ważne zastrzeżenie}{%
-Poniższe komentarze nie stanowią treści umowy Spółki. Projekt nie zastępuje porady polskiego adwokata, radcy prawnego, doradcy podatkowego, rzecznika patentowego ani specjalisty ds. kontroli eksportu. P.S.A. z aportami w postaci kodu i patentów wymaga aktu notarialnego oraz precyzyjnego opisu świadczeń. Pola oznaczone na czerwono muszą zostać uzupełnione przed podpisaniem.
-}
-
-\section*{1. Dlaczego dokument nazywa się „umowa”, a nie „statut”}
-\addcontentsline{toc}{section}{1. Dlaczego dokument nazywa się „umowa”, a nie „statut”}
-Polska prosta spółka akcyjna jest zawiązywana przez \textbf{umowę spółki}. Określenie „statut P.S.A.” jest używane potocznie, lecz w tekście prawnym przyjęto termin kodeksowy. Z uwagi na aporty w postaci praw własności intelektualnej i sprzętu projekt jest przygotowany pod formę notarialną, a nie uproszczony wzorzec elektroniczny.
-
-\section*{2. Założona tabela własności i pula programu motywacyjnego}
-\addcontentsline{toc}{section}{2. Założona tabela własności i pula programu motywacyjnego}
-\begin{DecisionBox}[Przyjęta konstrukcja]
-Na dzień zawiązania Spółka emituje 1 000 000 akcji serii A, obejmowanych przez Założycieli w relacji 50/20/10/10/10. Rada Dyrektorów otrzymuje pięcioletnie upoważnienie do emisji do 176 471 akcji serii P w ramach programu motywacyjnego. Po wyemitowaniu pełnej puli, bez innych emisji, istnieje 1 176 471 akcji, a ESOP odpowiada 15\% po pełnym rozwodnieniu po standardowym zaokrągleniu.
-\end{DecisionBox}
-
-\begin{center}
-\begin{tabular}{lrr}
-\toprule
-& \textbf{Na dzień zawiązania} & \textbf{Po pełnym ESOP} \\
-\midrule
-Założyciel A & 50,0\% & 42,5\% \\
-Założyciel B & 20,0\% & 17,0\% \\
-Założyciel C & 10,0\% & 8,5\% \\
-Założyciel D & 10,0\% & 8,5\% \\
-Założyciel E & 10,0\% & 8,5\% \\
-Pula motywacyjna & 0,0\% & 15,0\% \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\begin{DiscussionGraphic}{Struktura własności po pełnym wykorzystaniu puli ESOP}
-\centering
-\begin{tikzpicture}[
-  node distance=1.25cm,
-  every node/.style={font=\small, align=center},
-  root/.style={draw=black!70, rounded corners=1mm, minimum width=4.4cm, minimum height=1.1cm, fill=white},
-  branch/.style={draw=blue!55!black, rounded corners=1mm, minimum width=3.25cm, minimum height=1.05cm, fill=blue!3},
-  arr/.style={-{Latex[length=2.5mm]}, thick, draw=black!65}
-]
-\node[root] (total) {Basilisk Systems P.S.A.\\1 176 471 akcji po pełnym ESOP};
-\node[branch, below=of total, xshift=-2.55cm] (founders) {Założyciele\\1 000 000 akcji --- ok. 85\%};
-\node[branch, below=of total, xshift=2.55cm] (esop) {Pula motywacyjna\\176 471 akcji --- ok. 15\%};
-\draw[arr] (total) -- (founders);
-\draw[arr] (total) -- (esop);
-\end{tikzpicture}
-\end{DiscussionGraphic}
-
-Relacja 50/20/10/10/10 zostaje zachowana pomiędzy Założycielami. Pula odpowiadająca około 15\% po pełnym rozwodnieniu jest tworzona kosztem proporcjonalnego rozwodnienia wszystkich Założycieli. Przy liczbie 1 000 000 istniejących akcji matematycznie dokładne 15\% wymagałoby ułamkowej liczby nowych akcji, dlatego przyjęto najbliższą liczbę całkowitą: 176 471. Nie zastosowano akcji założycielskich utrzymujących stały procent głosów po kolejnych emisjach, ponieważ takie uprzywilejowanie często utrudnia negocjacje z inwestorem instytucjonalnym.
-
-\section*{3. Cena emisyjna i aporty}
-\addcontentsline{toc}{section}{3. Cena emisyjna i aporty}
-Przyjęto cenę emisyjną 0,10 zł za akcję, czyli łączną cenę 100 000 zł dla 1 000 000 akcji serii A. Jest to założenie robocze, a nie wycena rynkowa technologii. Każdy aport musi zostać opisany w sposób umożliwiający jednoznaczną identyfikację i skuteczne przeniesienie. Samo hasło „kod” lub „patent” jest niewystarczające.
-
-W szczególności należy:
-\begin{itemize}
-  \item ustalić, kto jest twórcą i aktualnym właścicielem każdego repozytorium, modelu, schematu i wynalazku;
-  \item sprawdzić umowy z wcześniejszym pracodawcą, uczelnią, grantodawcą i podwykonawcami;
-  \item przygotować odrębne cesje praw autorskich z polami eksploatacji oraz cesje patentów lub praw do zgłoszeń;
-  \item wykazać wszystkie licencje otwartego oprogramowania, zwłaszcza licencje wzajemne i ograniczające komercjalizację;
-  \item sporządzić protokół wydania sprzętu z numerami seryjnymi i stanem technicznym.
-\end{itemize}
-
-\begin{RiskBox}[Ryzyko krytyczne]
-Nie należy podpisywać oświadczenia, że Spółka posiada pełne prawa do kodu, modeli, danych, projektów lub patentów, dopóki łańcuch praw nie zostanie udokumentowany. Umowa Spółki ustanawia obowiązek, ale w wielu przypadkach nie zastąpi odrębnej cesji.
-\end{RiskBox}
-
-\section*{4. Rada Dyrektorów — rekomendowany model dla Basilisk Systems}
-\addcontentsline{toc}{section}{4. Rada Dyrektorów — rekomendowany model dla Basilisk Systems}
-Model monistyczny jest odpowiedni dla spółki deep-tech, ponieważ łączy zarządzanie i nadzór w jednym organie, jednocześnie pozwalając formalnie rozdzielić dyrektorów wykonawczych od niewykonawczych. Dla obecnego etapu rekomendowany jest skład trzyosobowy:
-\begin{itemize}
-  \item dyrektor wykonawczy odpowiedzialny za biznes, finansowanie i partnerstwa;
-  \item dyrektor wykonawczy odpowiedzialny za technologię, produkt i badania;
-  \item dyrektor niewykonawczy odpowiedzialny za bezpieczeństwo, zgodność, finanse i kontrolę eksportu.
-\end{itemize}
-Po rundzie inwestycyjnej można rozszerzyć Radę do pięciu osób i przyznać inwestorowi prawo nominacji, pod warunkiem że inwestor oraz nominowany dyrektor spełniają wymogi bezpieczeństwa.
-
-\section*{5. Mechanizm czasowego nabywania uprawnień przez Założycieli Funkcjonalnych}
-\addcontentsline{toc}{section}{5. Mechanizm czasowego nabywania uprawnień przez Założycieli Funkcjonalnych}
-Przyjęto standard typowy dla finansowania wysokiego ryzyka: 48 miesięcy, pierwsze 12 miesięcy bez nabywania uprawnień, następnie 25\% jednorazowo i dalsze nabywanie co miesiąc. Mechanizm obejmuje wyłącznie osoby wpisane do Załącznika nr 2.
-
-Zastosowano polskie terminy:
-\begin{itemize}
-  \item \textbf{Odejście Usprawiedliwione} — np. śmierć, trwała choroba, rozwiązanie współpracy bez istotnej przyczyny albo uzgodnione odejście;
-  \item \textbf{Odejście Zawinione} — np. oszustwo, rażące naruszenie, porzucenie projektu, naruszenie praw Spółki, eksportu, sankcji lub bezpieczeństwa.
-\end{itemize}
-
-W P.S.A. akcje istnieją od chwili emisji, dlatego zastosowano konstrukcję odwrotną: założyciel ma akcje, ale część nienabyta ekonomicznie podlega obowiązkowi odsprzedaży. Dla skutecznego wykonania potrzebna jest odrębna umowa z ofertą sprzedaży, pełnomocnictwem i procedurą depozytową. Sam tekst umowy Spółki może być niewystarczający w sytuacji konfliktu.
-
-\section*{6. Ograniczenie inwestorów do unii erebu i (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA)}
-\addcontentsline{toc}{section}{6. Ograniczenie inwestorów do unii erebu i (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA)}
-Projekt wprowadza bardzo szeroki zakaz obejmujący nie tylko bezpośrednie nabycie akcji, ale także beneficjentów rzeczywistych, kontrolę pośrednią, instrumenty zamienne, zastawy, prawa głosu, finansowanie kontrolne i próby obejścia.
-
-\begin{RiskBox}[Wymagana specjalistyczna weryfikacja]
-Tak restrykcyjne ograniczenie powinno zostać sprawdzone przed podpisaniem pod kątem prawa unii erebu, zasad przepływu kapitału, przepisów o inwestycjach zagranicznych, sankcji, AML, rejestru akcjonariuszy i wykonalności wobec pośrednich struktur funduszy. Może ono wykluczać także inwestorów z bliskich państw partnerskich, które nie należą ani do unii erebu, ani do (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA). Zgodnie z decyzją założycielską projekt nie przewiduje zwykłego wyjątku; jego wprowadzenie wymagałoby jednomyślności wszystkich głosów.
-\end{RiskBox}
-
-W procesie inwestycyjnym należy wymagać co najmniej: pełnej struktury grupy, listy beneficjentów rzeczywistych, źródła kapitału, praw kontroli, list sankcyjnych, jurysdykcji funduszu i spółki zarządzającej, praw inwestorów ograniczonych oraz analizy ryzyka transferu technologii.
-
-\section*{7. Próg przymusowego współzbycia}
-\addcontentsline{toc}{section}{7. Próg przymusowego współzbycia}
-Przyjęto próg \textbf{75\% wszystkich głosów}. Założyciel A posiadający 50\% nie może samodzielnie wymusić sprzedaży. Jednocześnie próg jest osiągalny przez koalicję większościową i odpowiada typowej większości dla kluczowych decyzji.
-
-Mniejszość chronią: identyczna cena za akcję, ten sam rodzaj zapłaty, brak solidarnej odpowiedzialności, limit odpowiedzialności do uzyskanej ceny oraz obowiązek proporcjonalnego udziału w zatrzymaniu ceny. Nabywca musi być Dopuszczalnym Nabywcą.
-
-\section*{8. Prawo przyłączenia, pierwszeństwo i okres zakazu zbywania}
-\addcontentsline{toc}{section}{8. Prawo przyłączenia, pierwszeństwo i okres zakazu zbywania}
-Projekt utrzymuje wszystkie wskazane mechanizmy:
-\begin{itemize}
-  \item prawo pierwszeństwa Spółki i pozostałych akcjonariuszy;
-  \item prawo przyłączenia przy transakcji powodującej przejęcie kontroli;
-  \item prawo przymusowego współzbycia przy progu 75\%;
-  \item 48-miesięczny okres ograniczenia zbywania akcji Założycieli;
-  \item ochronę przy dziedziczeniu i podziale majątku małżeńskiego;
-  \item obowiązek, aby każdy końcowy nabywca należał do dozwolonego kręgu unii erebu / (Pakt Zachodniego Rimlandu - Western Rimland Alliance, WRA).
-\end{itemize}
-
-Procedury powinny zostać powtórzone i uszczegółowione w przyszłej umowie akcjonariuszy podpisywanej z inwestorem. Umowa akcjonariuszy może przewidywać bardziej techniczne terminy, rachunek zastrzeżony, pełnomocnictwa i wzory zawiadomień.
-
-\section*{9. Własność intelektualna, dane i infrastruktura}
-\addcontentsline{toc}{section}{9. Własność intelektualna, dane i infrastruktura}
-Założeniem dokumentu jest, że Spółka ma posiadać albo w sposób wyłączny kontrolować całość kluczowej technologii. Dotyczy to nie tylko patentów i kodu, ale także danych, modeli, wag, dokumentacji, schematów, plików CAD, BOM, firmware, domen, repozytoriów i kont chmurowych.
-
-Przed rozmowami z Diana49 lub inwestorem należy przygotować „data room” obejmujący:
-\begin{itemize}
-  \item rejestr praw własności intelektualnej i cesji;
-  \item zestawienie składników oprogramowania i licencji;
-  \item listę twórców, pracowników, podwykonawców i podpisanych umów;
-  \item politykę dostępu do repozytoriów i procedurę odebrania dostępu;
-  \item rejestr domen, kont, kluczy kryptograficznych i infrastruktury;
-  \item dokumentację pochodzenia danych oraz uprawnienia do ich użycia w treningu i testach.
-\end{itemize}
-
-\section*{10. Dual-use, kontrola eksportu i gotowość do Diana49}
-\addcontentsline{toc}{section}{10. Dual-use, kontrola eksportu i gotowość do Diana49}
-Poziom „prototyp laboratoryjny” oznacza, że kluczowe są jeszcze: walidacja w środowisku zbliżonym do operacyjnego, dokumentacja testów, bezpieczeństwo produktu, wiarygodne mierniki skuteczności oraz strategia cywilnego i obronnego zastosowania.
-
-Projekt umowy ustanawia podstawę do wdrożenia wewnętrznego programu zgodności eksportowej. Sam paragraf umowny nie zastąpi klasyfikacji produktów ani zezwoleń. Należy rozważyć co najmniej:
-\begin{itemize}
-  \item klasyfikację elementów według unijnego wykazu produktów podwójnego zastosowania;
-  \item ocenę komponentów pochodzenia amerykańskiego i ewentualnych reguł reeksportowych;
-  \item procedurę sprawdzania odbiorcy, końcowego użytkownika i końcowego zastosowania;
-  \item kontrolę zdalnego dostępu do kodu, modeli, danych technicznych i środowisk chmurowych;
-  \item oddzielenie informacji publicznych, poufnych, kontrolowanych eksportowo i ewentualnie niejawnych;
-  \item rejestr decyzji eksportowych, szkoleń i incydentów.
-\end{itemize}
-
-\section*{11. PKD 2025}
-\addcontentsline{toc}{section}{11. PKD 2025}
-Jako działalność przeważającą wskazano 72.10.Z, ponieważ Spółka znajduje się na etapie prototypu laboratoryjnego, a jej głównym profilem ma być rozwój technologii. Pozostałe kody obejmują programowanie, oprogramowanie, elektronikę, sensory, maszyny specjalnego przeznaczenia oraz cywilne i wojskowe platformy powietrzne.
-
-\begin{ImportantBox}[Kontrola przed złożeniem wniosku KRS]
-PKD 2025 obowiązuje od 1 stycznia 2025 r. Przed aktem notarialnym należy porównać brzmienie każdego kodu z aktualnym, urzędowym załącznikiem PKD 2025 i wyszukiwarką GUS. KRS ujawnia ograniczoną liczbę kodów, dlatego lista w umowie może być szersza, lecz do wniosku należy wybrać działalność przeważającą i najważniejsze klasy. Szczególnie należy potwierdzić właściwy kod dla konkretnego rodzaju UGV/UAV oraz ustalić, czy planowana produkcja wymaga koncesji lub innych zezwoleń.
-\end{ImportantBox}
-
-\section*{12. Decyzje i dane wymagane przed podpisaniem}
-\addcontentsline{toc}{section}{12. Decyzje i dane wymagane przed podpisaniem}
-\begin{enumerate}
-  \item Pełne dane pięciu Założycieli.
-  \item Potwierdzenie siedziby w Pruszkowie i adresu Spółki.
-  \item Dokładny wykaz aportów każdego Założyciela, łańcuch praw i uzgodniona wartość.
-  \item Wskazanie, którzy Założyciele są Funkcjonalni, ile ich akcji podlega mechanizmowi oraz od jakiej daty.
-  \item Ustalenie pierwszego składu Rady Dyrektorów i funkcji wykonawczych/niewykonawczych.
-  \item Uzupełnienie progów kwotowych dla Rady Dyrektorów i Spraw Zastrzeżonych.
-  \item Przyjęcie regulaminu programu motywacyjnego i zasad przyznawania praw.
-  \item Przygotowanie odrębnych cesji praw autorskich, patentowych i protokołów wydania sprzętu.
-  \item Przygotowanie umów wykonawczych dla mechanizmu czasowego nabywania uprawnień.
-  \item Weryfikacja podatkowa aportów, programu motywacyjnego i przyszłych emisji.
-  \item Weryfikacja ograniczeń inwestorskich oraz procedury identyfikacji beneficjentów rzeczywistych.
-  \item Przyjęcie polityki kontroli eksportu, sankcji, cyberbezpieczeństwa, otwartego oprogramowania i ochrony danych.
-\end{enumerate}
-
-\section*{13. Podstawa prawna wykorzystana przy opracowaniu}
-\addcontentsline{toc}{section}{13. Podstawa prawna wykorzystana przy opracowaniu}
-Projekt został ukształtowany z uwzględnieniem w szczególności:
-\begin{itemize}
-  \item ustawy z dnia 15 września 2000 r. — Kodeks spółek handlowych, w części dotyczącej prostej spółki akcyjnej, według stanu uwzględniającego zmiany opublikowane do 3 czerwca 2026 r.;
-  \item rozporządzenia Rady Ministrów z dnia 18 grudnia 2024 r. w sprawie Polskiej Klasyfikacji Działalności (PKD), Dz.U. z 2024 r. poz. 1936, obowiązującego od 1 stycznia 2025 r.;
-  \item rozporządzenia Parlamentu i Rady unii erebu 2021/821 ustanawiającego system unii erebu kontroli wywozu, pośrednictwa, pomocy technicznej, tranzytu i transferu produktów podwójnego zastosowania, w aktualnym brzmieniu;
-  \item właściwych przepisów krajowych dotyczących obrotu z zagranicą, sankcji, przeciwdziałania praniu pieniędzy, ochrony informacji, własności intelektualnej i działalności koncesjonowanej.
-\end{itemize}
-
-\begin{DecisionBox}[Rekomendacja końcowa]
-Ten projekt nadaje się jako rozbudowana baza negocjacyjna dla notariusza i kancelarii specjalizującej się w venture capital, deep-tech oraz kontroli eksportu. Do aktu notarialnego należy przenieść czysty tekst z Części I po uzupełnieniu załączników i zweryfikowaniu najbardziej ingerujących mechanizmów: obowiązkowego zbycia akcji, ograniczeń jurysdykcyjnych, ochrony małżeńskiej oraz wykonania mechanizmu czasowego.
-\end{DecisionBox}
-
 \end{document}
