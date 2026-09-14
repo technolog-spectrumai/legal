@@ -26,6 +26,7 @@
 \setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
 \renewcommand{\arraystretch}{1.18}
 
 \newcounter{paragraf}
@@ -638,6 +639,18 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 
 
+\begin{ContractClause}{Transakcje z Akcjonariuszami i podmiotami powiązanymi}
+\label{art:transakcje-akcjonariusze}
+\textbf{[WYMAGA OPINII PRAWNIKA]}
+\begin{enumerate}
+  \item Akcjonariusz może świadczyć Spółce usługi, wykonywać na jej rzecz prace, dokonywać dostaw, udzielać licencji lub zawierać ze Spółką inne umowy. Sam status akcjonariusza nie daje pierwszeństwa w uzyskaniu zamówienia ani nie stanowi przeszkody do zawarcia umowy ze Spółką.
+  \item Transakcja z Akcjonariuszem lub podmiotem z nim powiązanym powinna leżeć w interesie Spółki, a jej warunki powinny być godziwe dla Spółki, z uwzględnieniem wartości świadczenia wzajemnego, warunków rynkowych, kwalifikacji wykonawcy, dostępności, czasu realizacji, własności intelektualnej oraz innych okoliczności istotnych dla Spółki.
+  \item Sam fakt, że kontrahentem jest Akcjonariusz lub podmiot z nim powiązany, nie powoduje obowiązku przeprowadzenia przetargu, konkursu ofert ani uzyskania określonej liczby ofert, chyba że obowiązek taki wynika z bezwzględnie obowiązujących przepisów prawa, warunków finansowania, dotacji, grantu, zamówienia albo wiążącej Spółkę umowy.
+  \item Istotny konflikt interesów związany z transakcją podlega ujawnieniu. Jeżeli Akcjonariusz jest jednocześnie dyrektorem albo transakcja dotyczy podmiotu powiązanego z dyrektorem, stosuje się zasady konfliktu interesów i reprezentacji określone w §~\ref{art:konkurencja} oraz §~\ref{art:reprezentacja}; zainteresowany dyrektor nie może samodzielnie rozstrzygać o zawarciu własnej transakcji ze Spółką.
+  \item Transakcje przekraczające progi wartości lub spełniające inne kryteria określone w niniejszej umowie, regulaminie Rady Dyrektorów albo uchwale Walnego Zgromadzenia wymagają dodatkowej zgody właściwego organu. Rada Dyrektorów może określić zasady dokumentowania godziwości i rynkowości takich transakcji, w tym przypadki, w których wymagane jest porównanie ofert, wycena, benchmark lub pisemne uzasadnienie wyboru kontrahenta.
+\end{enumerate}
+\end{ContractClause}
+
 \begin{ContractClause}{Finansowanie Spółki}
 \label{art:finansowanie}
 \begin{enumerate}
@@ -711,7 +724,7 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 \section*{Załącznik nr 1 — Założyciele, akcje i wkłady}
 \addcontentsline{toc}{section}{Załącznik nr 1 — Założyciele, akcje i wkłady}
 
-\begin{longtable}{p{1.1cm} p{3.0cm} p{1.9cm} p{2.1cm} p{6.0cm}}
+\begin{longtable}{@{}p{1.1cm} p{3.0cm} p{1.9cm} p{2.1cm} p{6.0cm}@{}}
 \toprule
 \textbf{Zał.} & \textbf{Dane} & \textbf{Akcje} & \textbf{Cena łączna} & \textbf{Przedmiot wkładu — dokładny opis} \\
 \midrule
@@ -735,7 +748,7 @@ Dla każdego składnika należy dołączyć protokół wydania, wykaz plików lu
 
 Niniejszy załącznik dotyczy wyłącznie Założycieli Pierwotnych posiadających akcje serii A. Dane Założycieli Funkcjonalnych Serii F, ich role, Dni Przyznania Serii F, liczby akcji i warunki zaangażowania określają właściwe uchwały Walnego Zgromadzenia oraz umowy wykonawcze, bez potrzeby zmiany niniejszego załącznika przy każdej późniejszej emisji serii F.
 
-\begin{longtable}{p{2.0cm} p{3.0cm} p{3.0cm} p{3.0cm} p{3.0cm}}
+\begin{longtable}{@{}p{2.2cm} p{3.0cm} p{3.0cm} p{3.0cm} p{2.8cm}@{}}
 \toprule
 \textbf{Założyciel} & \textbf{Czy funkcjonalny?} & \textbf{Liczba akcji objętych} & \textbf{Data rozpoczęcia} & \textbf{Rola i minimalne zaangażowanie} \\
 \midrule
@@ -1562,6 +1575,11 @@ Sposób wejścia do Spółki & objęcie akcji przy zawiązaniu Spółki --- §~\
 \textbf{Status: DO WERYFIKACJI / RYZYKO — WĄSKI, ALE ISTOTNY.} Definicja konfliktu i Osoby Bliskiej odpowiada art. 300$^{55}$ § 1 KSH; prawidłowo zachowano także szczególną reprezentację z art. 300$^{79}$ i ustawowe quorum liczone od pełnego składu. Wątpliwość dotyczy ust. 8--9: gdy wyłączenie skonfliktowanych dyrektorów uniemożliwia podjęcie uchwały Rady, tekst pozwala zastąpić ją uprzednią uchwałą Walnego Zgromadzenia. W odniesieniu do spraw, dla których \emph{ustawa sama} wymaga uchwały Rady Dyrektorów — w szczególności decyzji strategicznych z art. 300$^{75}$ § 2 — nie ma pewności, że uchwała WZ może skutecznie zastąpić ustawowo wymaganą uchwałę Rady. Ten fallback wymaga weryfikacji; pozostała część paragrafu nie została przez to zakwestionowana.
 
 \textbf{Podstawa problemu:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{55}$, art. 300$^{58}$ § 2, art. 300$^{75}$ § 2 i art. 300$^{79}$ KSH}; stopień pokrewieństwa i powinowactwa: \href{https://eli.gov.pl/eli/DU/2026/236/ogl}{art. 61$^{7}$ § 2 i art. 61$^{8}$ § 2 KRO}.
+
+\subsection*{§~\ref{art:transakcje-akcjonariusze} — Transakcje z Akcjonariuszami i podmiotami powiązanymi}
+\textbf{Status: WYMAGA OPINII PRAWNIKA.} Paragraf ma umożliwić Spółce korzystanie z usług Akcjonariuszy i podmiotów z nimi powiązanych bez tworzenia automatycznego obowiązku przetargu, przy jednoczesnej ochronie Spółki przed transakcjami niegodziwymi lub zawieranymi w konflikcie interesów. Opinii prawnika wymaga w szczególności doprecyzowanie relacji pojęcia „godziwych warunków” do ustawowych ograniczeń świadczeń na rzecz akcjonariuszy, zakresu i skutków konfliktu interesów dyrektora, właściwego trybu reprezentacji Spółki przy umowie z dyrektorem oraz tego, które większe transakcje powinny wymagać dodatkowej zgody i jak należy ustalić progi, aby nie naruszyć ustawowych kompetencji organów. Należy także potwierdzić, że klauzula o braku automatycznego przetargu nie będzie interpretowana jako wyłączenie obowiązków wynikających z przepisów szczególnych, warunków grantów, dotacji, zamówień lub innych źródeł finansowania. Celem opinii nie jest wprowadzenie obowiązku konkurencyjnego wyboru kontrahenta, lecz potwierdzenie, że przyjęty mechanizm jest skuteczny, uczciwy wobec Spółki i pozostałych akcjonariuszy oraz zgodny z bezwzględnie obowiązującymi przepisami.
+
+\textbf{Do sprawdzenia w szczególności:} przepisy KSH dotyczące świadczeń Spółki na rzecz akcjonariusza, konfliktu interesów dyrektora, reprezentacji Spółki w umowie z dyrektorem oraz podziału kompetencji między Radą Dyrektorów i Walnym Zgromadzeniem; dodatkowo przepisy i warunki szczególne mające zastosowanie do konkretnego finansowania lub zamówienia.
 
 \subsection*{§~\ref{art:finansowanie} — Finansowanie Spółki}
 \textbf{Status: NIE STWIERDZONO KOLIZJI.} Umowa może zastrzec, że akcjonariusz nie ma obowiązku dalszego finansowania bez odrębnego zobowiązania. Jest to spójne z zasadą, że akcjonariusze P.S.A. są zobowiązani jedynie do świadczeń określonych w umowie Spółki. Dodatkowe instrumenty dające prawa do akcji, kontroli lub Kluczowej Własności Intelektualnej mogą być zastrzeżone dla uchwały akcjonariuszy jako sprawy właścicielskie.
