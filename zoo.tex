@@ -1,0 +1,544 @@
+% !TeX program = pdflatex
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{needspace}
+
+\geometry{margin=2.4cm}
+\setstretch{1.12}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,pdftitle={Spectrum AI sp. z o.o. — projekt umowy spółki}}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \section*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Spectrum AI spółka z ograniczoną odpowiedzialnością}
+\newcommand{\CompanyShort}{Spectrum AI sp. z o.o.}
+\newcommand{\KSH}{Kodeks spółek handlowych}
+
+\begin{document}
+
+\begin{center}
+{\Large\bfseries UMOWA SPÓŁKI Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ}\par
+\vspace{0.25cm}
+{\LARGE\bfseries \CompanyFull}\par
+\vspace{0.4cm}
+{\small Projekt roboczy}\par
+\end{center}
+
+\tableofcontents
+\newpage
+
+Stawający, wskazani szczegółowo w Załączniku nr 1 do niniejszej umowy, zwani dalej łącznie „Założycielami” albo „Wspólnikami Założycielami”, zawiązują spółkę z ograniczoną odpowiedzialnością na następujących zasadach.
+
+\begin{ContractClause}{Firma, forma prawna i czas trwania}
+\label{art:firma}
+\begin{enumerate}
+  \item Firma Spółki brzmi: „\CompanyFull”.
+  \item Spółka może posługiwać się skrótem: „\CompanyShort”.
+  \item Spółka może używać wyróżniających oznaczeń handlowych, znaków towarowych, nazw produktów, domen i skrótów, w szczególności oznaczenia „Spectrum AI”.
+  \item Spółka zostaje zawiązana na czas nieoznaczony.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Siedziba i obszar działania}
+\label{art:siedziba}
+\begin{enumerate}
+  \item Siedzibą Spółki jest \field{siedziba — miejscowość}.
+  \item Spółka może tworzyć oddziały, zakłady, laboratoria, centra badawczo-rozwojowe, przedstawicielstwa i spółki zależne oraz uczestniczyć w innych podmiotach.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Cel strategiczny Spółki}
+\label{art:cel}
+\begin{enumerate}
+  \item Głównym celem Spółki jest projektowanie, rozwój, wdrażanie, utrzymanie i komercjalizacja oprogramowania, systemów sztucznej inteligencji, uczenia maszynowego, analityki danych oraz innych technologii cyfrowych.
+  \item Spółka może tworzyć rozwiązania ogólnego przeznaczenia oraz rozwiązania wyspecjalizowane dla różnych sektorów, w szczególności dla sportu i analityki sportowej, transportu, mobilności i logistyki, przemysłu, usług cyfrowych, symulacji oraz gier komputerowych i interaktywnych.
+  \item Spółka może rozwijać zarówno własne produkty i platformy, jak i rozwiązania wykonywane na zamówienie, usługi badawczo-rozwojowe, integracyjne, doradcze, chmurowe, analityczne i utrzymaniowe.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Przedmiot działalności i PKD 2025}
+\label{art:pkd}
+\begin{enumerate}
+  \item Podstawową działalnością Spółki jest tworzenie i rozwój oprogramowania oraz systemów sztucznej inteligencji i uczenia maszynowego, w tym projektowanie architektur, modeli, algorytmów, aplikacji, interfejsów, systemów backendowych i chmurowych, systemów analitycznych, narzędzi MLOps, systemów rekomendacyjnych, systemów wizyjnych i językowych oraz rozwiązań przetwarzających dane w czasie rzeczywistym.
+  \item Działalność Spółki może obejmować w szczególności:
+  \begin{enumerate}[label=\alph*)]
+    \item tworzenie modeli uczenia maszynowego, modeli generatywnych, systemów predykcyjnych, klasyfikacyjnych, optymalizacyjnych i decyzyjnych;
+    \item tworzenie systemów dla sportu, w tym analityki obrazu i wideo, analizy wyników, treningu, statystyk, predykcji i narzędzi wspierających trenerów, organizatorów i użytkowników;
+    \item tworzenie oprogramowania dla transportu, mobilności i logistyki, w tym planowania, optymalizacji, monitoringu, telematyki, predykcji, symulacji i wspomagania decyzji;
+    \item tworzenie, rozwój i wydawanie gier komputerowych, narzędzi do gier, symulatorów, silników, systemów AI dla gier oraz oprogramowania interaktywnego;
+    \item przetwarzanie danych, usługi chmurowe, hosting aplikacji i modeli, utrzymanie infrastruktury obliczeniowej oraz integrację z systemami klientów;
+    \item badania naukowe i prace rozwojowe w dziedzinie informatyki, sztucznej inteligencji, uczenia maszynowego, optymalizacji, robotyki programowej, symulacji i technologii cyfrowych;
+    \item doradztwo techniczne, audyty architektury, audyty jakości modeli, cyberbezpieczeństwo oraz zarządzanie cyklem życia oprogramowania i modeli.
+  \end{enumerate}
+  \item Kody PKD 2025 przewidziane dla działalności Spółki obejmują w szczególności:
+  \begin{enumerate}[label=\alph*)]
+    \item \textbf{62.10.B — Pozostała działalność w zakresie programowania} — działalność przeważająca;
+    \item \textbf{62.10.A — Działalność w zakresie programowania gier komputerowych};
+    \item \textbf{58.29.Z — Działalność wydawnicza w zakresie pozostałego oprogramowania};
+    \item \textbf{58.21.Z — Działalność wydawnicza w zakresie gier komputerowych};
+    \item \textbf{63.10.D — Pozostała działalność usługowa w zakresie infrastruktury obliczeniowej, przetwarzania danych, zarządzania stronami internetowymi (hosting) i działalności powiązane};
+    \item \textbf{62.20.A — Działalność w zakresie cyberbezpieczeństwa};
+    \item \textbf{62.20.B — Pozostała działalność związana z doradztwem w zakresie informatyki oraz zarządzaniem urządzeniami informatycznymi};
+    \item \textbf{62.90.Z — Pozostała działalność usługowa w zakresie technologii informatycznych i komputerowych};
+    \item \textbf{72.10.Z — Badania naukowe i prace rozwojowe w dziedzinie nauk przyrodniczych i technicznych};
+    \item \textbf{71.12.B — Pozostała działalność w zakresie inżynierii i związane z nią doradztwo techniczne}.
+  \end{enumerate}
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Kapitał zakładowy i udziały}
+\label{art:udzialy}
+\begin{enumerate}
+  \item Kapitał zakładowy Spółki wynosi \textbf{5 000,00 zł (pięć tysięcy złotych)} i dzieli się na \textbf{100 (sto)} równych i niepodzielnych udziałów o wartości nominalnej \textbf{50,00 zł (pięćdziesiąt złotych)} każdy.
+  \item Każdy Wspólnik może posiadać więcej niż jeden udział.
+  \item Każdy udział daje prawo do jednego głosu na Zgromadzeniu Wspólników, prawo do udziału w zysku przeznaczonym uchwałą Zgromadzenia Wspólników do podziału oraz prawo do majątku pozostałego po likwidacji, proporcjonalnie do liczby udziałów.
+  \item Udziały nie są uprzywilejowane na dzień zawiązania Spółki.
+  \item Zarząd prowadzi księgę udziałów oraz listę Wspólników.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Objęcie udziałów przez Założycieli}
+\label{art:cap-table}
+\begin{enumerate}
+  \item Udziały w kapitale zakładowym zostają objęte przez Założycieli w następujący sposób:
+\end{enumerate}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{2.3cm} >{\raggedright\arraybackslash}X r r r}
+\toprule
+Założyciel & Dane identyfikacyjne & Liczba udziałów & Wartość nominalna & Udział w kapitale \\
+\midrule
+A & \field{imię, nazwisko, PESEL/adres} & 50 & 2 500 zł & 50\% \\
+B & \field{imię, nazwisko, PESEL/adres} & 20 & 1 000 zł & 20\% \\
+C & \field{imię, nazwisko, PESEL/adres} & 10 & 500 zł & 10\% \\
+D & \field{imię, nazwisko, PESEL/adres} & 10 & 500 zł & 10\% \\
+E & \field{imię, nazwisko, PESEL/adres} & 10 & 500 zł & 10\% \\
+\midrule
+Łącznie & & 100 & 5 000 zł & 100\% \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{enumerate}[resume]
+  \item Szczegółowe oznaczenie Wspólników, sposobu pokrycia udziałów oraz ewentualnych aportów określa Załącznik nr 1, stanowiący integralną część niniejszej umowy.
+  \item Na potrzeby niniejszej umowy „Założycielem Pierwotnym” jest osoba zawierająca niniejszą umowę i obejmująca udziały przy zawiązaniu Spółki.
+  \item Relacja 50/20/10/10/10 dotyczy udziału Założycieli Pierwotnych między sobą w dniu zawiązania Spółki. Zmiana tej relacji może nastąpić wskutek zbycia istniejących udziałów albo zmiany umowy Spółki wpływającej na strukturę udziałową.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wkłady Założycieli i aktywa przedzałożycielskie}
+\label{art:wklady}
+\begin{enumerate}
+  \item Udziały przy zawiązaniu Spółki są pokrywane wkładami pieniężnymi w wysokości odpowiadającej ich łącznej wartości nominalnej, chyba że Załącznik nr 1 dla konkretnego Wspólnika szczegółowo określa wkład niepieniężny, jego przedmiot, wartość oraz liczbę i wartość nominalną obejmowanych za niego udziałów.
+  \item W przypadku wkładu niepieniężnego Załącznik nr 1 powinien identyfikować przedmiot aportu w sposób pozwalający na jego jednoznaczne oznaczenie i skuteczne przeniesienie na Spółkę.
+  \item Świadczenie pracy lub usług, osobiste zaangażowanie Założyciela ani niezbywalne know-how nie stanowią wkładu na pokrycie udziałów.
+  \item Wkłady na pokrycie udziałów zostaną wniesione w całości przed złożeniem wniosku o wpis Spółki do rejestru przedsiębiorców.
+  \item Prawa własności intelektualnej, repozytoria, modele, dane, dokumentacja, domeny lub inne aktywa używane przez Założycieli przed powstaniem Spółki pozostają własnością dotychczasowego uprawnionego, chyba że zostały wyraźnie wniesione aportem albo przeniesione na Spółkę na podstawie odrębnej umowy.
+  \item Załącznik nr 3 zawiera wykaz istotnych aktywów przedzałożycielskich, projektów pobocznych, licencji i ograniczeń wymagających ujawnienia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Podwyższenie kapitału zakładowego i nowi Wspólnicy}
+\label{art:nowy-wspolnik}
+\begin{enumerate}
+  \item Kapitał zakładowy może zostać podwyższony, jednokrotnie albo wielokrotnie, do łącznej kwoty nie wyższej niż \textbf{999 000,00 zł (dziewięćset dziewięćdziesiąt dziewięć tysięcy złotych)} do dnia \textbf{31 grudnia 2036 r.}, bez zmiany niniejszej umowy Spółki.
+  \item Podwyższenie w granicach określonych w ust. 1 następuje na podstawie uchwały Zgromadzenia Wspólników przez ustanowienie nowych, równych i niepodzielnych udziałów o wartości nominalnej \textbf{50,00 zł} każdy.
+  \item Nowe udziały ustanawiane bez zmiany umowy Spółki przysługują wyłącznie dotychczasowym Wspólnikom proporcjonalnie do liczby posiadanych przez nich udziałów. Liczba nowych udziałów powinna umożliwiać zachowanie tej proporcji w całych udziałach.
+  \item Uchwała o podwyższeniu określa kwotę podwyższenia, liczbę nowych udziałów, liczbę udziałów przypadających każdemu dotychczasowemu Wspólnikowi, cenę objęcia oraz termin wniesienia wkładów.
+  \item Nieobjęcie udziałów przypadających danemu Wspólnikowi nie uprawnia pozostałych Wspólników ani osoby trzeciej do objęcia tych udziałów w ramach podwyższenia dokonywanego bez zmiany umowy Spółki.
+  \item Podwyższenie, w którym nowe udziały mają zostać objęte przez osobę trzecią albo przez dotychczasowych Wspólników w proporcji innej niż wynikająca z ich dotychczasowych udziałów, wymaga zmiany umowy Spółki.
+  \item Podwyższenie ponad kwotę 999 000,00 zł albo po dniu 31 grudnia 2036 r. wymaga zmiany umowy Spółki.
+  \item Nowa osoba może wejść do Spółki bez ustanawiania nowych udziałów przez nabycie już istniejących udziałów od Wspólnika; do takiej transakcji stosuje się postanowienia o Okresie Ograniczenia Zbywania, prawie pierwszeństwa, prawie przyłączenia i prawie przymusowego współzbycia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Praca i usługi Wspólników na rzecz Spółki}
+\label{art:praca-wspolnikow}
+\begin{enumerate}
+  \item Sam status Wspólnika nie stanowi podstawy do wykonywania pracy lub usług na rzecz Spółki ani do otrzymywania wynagrodzenia za takie czynności.
+  \item Wspólnik może wykonywać na rzecz Spółki czynności techniczne, badawczo-rozwojowe, programistyczne, operacyjne, zarządcze, handlowe lub doradcze na podstawie odrębnego stosunku prawnego odpowiedniego do charakteru współpracy.
+  \item Odrębna umowa powinna określać w szczególności zakres obowiązków, wynagrodzenie, odpowiedzialność, poufność, zasady korzystania z infrastruktury i danych oraz nabycie przez Spółkę praw własności intelektualnej powstających w ramach współpracy.
+  \item Zakończenie współpracy operacyjnej nie powoduje samo przez się utraty statusu Wspólnika ani zbycia udziałów. Jeżeli dany Wspólnik został objęty mechanizmem zwrotnego zbycia udziałów zgodnie z §~\ref{art:reverse-vesting}, skutki zakończenia współpracy określa ten mechanizm i odrębna umowa wykonawcza.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Mechanizm zwrotnego zbycia udziałów}
+\label{art:reverse-vesting}
+\begin{enumerate}
+  \item Mechanizm określony w niniejszym paragrafie stosuje się wyłącznie do Wspólników oraz liczby ich udziałów wskazanych w Załączniku nr 2.
+  \item Udziały objęte mechanizmem podlegają stopniowemu zwalnianiu z obowiązku zbycia przez 48 miesięcy, licząc od daty określonej w Załączniku nr 2:
+  \begin{enumerate}[label=\alph*)]
+    \item przez pierwsze 12 miesięcy żaden udział objęty mechanizmem nie zostaje zwolniony z obowiązku zbycia;
+    \item po nieprzerwanym upływie 12 miesięcy zwalnia się 25\% udziałów objętych mechanizmem;
+    \item przez kolejne 36 miesięcy pozostałe udziały są zwalniane co miesiąc w równych częściach, z odpowiednim zaokrągleniem do całych udziałów.
+  \end{enumerate}
+  \item Objęcie udziału obowiązkiem zbycia nie pozbawia Wspólnika praw udziałowych do czasu skutecznego zbycia, z zastrzeżeniem innych postanowień niniejszej umowy.
+  \item „Odejście Usprawiedliwione” oznacza zakończenie współpracy ze Spółką z powodu śmierci, trwałej niezdolności do wykonywania obowiązków, rozwiązania współpracy przez Spółkę bez istotnej przyczyny leżącej po stronie Wspólnika, istotnego naruszenia przez Spółkę uzgodnionych warunków współpracy nieusuniętego po wezwaniu albo innego zdarzenia uznanego uchwałą Zgromadzenia Wspólników za Odejście Usprawiedliwione.
+  \item „Odejście Zawinione” oznacza zakończenie współpracy w związku z umyślnym działaniem na szkodę Spółki, oszustwem, przywłaszczeniem, rażącym naruszeniem obowiązków, istotnym naruszeniem poufności lub praw własności intelektualnej, zatajeniem praw osób trzecich do przekazanej technologii lub danych, porzuceniem obowiązków mimo wezwania albo dobrowolnym odejściem przed końcem okresu 48 miesięcy bez zgody Zgromadzenia Wspólników i bez przesłanki Odejścia Usprawiedliwionego.
+  \item W przypadku Odejścia Usprawiedliwionego udziały zwolnione z obowiązku zbycia pozostają przy Wspólniku, a udziały niezwolnione podlegają zbyciu za cenę odpowiadającą cenie ich objęcia albo nabycia, nie niższą niż wartość nominalna.
+  \item W przypadku Odejścia Zawinionego udziały niezwolnione podlegają zbyciu za cenę odpowiadającą cenie ich objęcia albo nabycia, a udziały zwolnione mogą zostać objęte prawem nabycia za 80\% Wartości Godziwej, nie mniej jednak niż wartość nominalna.
+  \item Nabywcą udziałów podlegających zbyciu na podstawie ust. 6 albo 7 może być jeden lub kilku pozostałych Wspólników albo osoba trzecia wskazana uchwałą Zgromadzenia Wspólników większością 75\% wszystkich głosów w Spółce. Spółka nie jest nabywcą tych udziałów.
+  \item W terminie 30 dni od ustalenia, że zaszło Odejście Usprawiedliwione albo Odejście Zawinione, Zarząd doręcza Wspólnikowi zawiadomienie wskazujące liczbę udziałów podlegających zbyciu, podstawę ustalenia ceny, nabywcę lub nabywców oraz termin zawarcia umowy zbycia przypadający nie wcześniej niż 7 i nie później niż 30 dni od doręczenia zawiadomienia.
+  \item Zgromadzenie Wspólników może większością 75\% wszystkich głosów w Spółce przyspieszyć zwolnienie całości albo części udziałów objętych mechanizmem.
+  \item W razie zmiany kontroli nad Spółką, a następnie w ciągu 12 miesięcy rozwiązania przez Spółkę współpracy z Wspólnikiem objętym mechanizmem bez istotnej przyczyny, wszystkie pozostałe jego udziały objęte mechanizmem zostają zwolnione z obowiązku zbycia.
+  \item Mechanizm określony w niniejszym paragrafie jest obowiązkiem zbycia udziałów na rzecz innego nabywcy i nie przewiduje nabywania tych udziałów przez Spółkę.
+  \item Wspólnik, którego udziały wskazano w Załączniku nr 2, zawiera odrębną umowę wykonawczą oraz składa dokumenty potrzebne do wykonania obowiązku zbycia, w szczególności ofertę, umowę przedwstępną lub pełnomocnictwo. Umowa wykonawcza służy wykonaniu obowiązków określonych w niniejszej umowie i nie może zmieniać przesłanek zbycia, liczby udziałów objętych mechanizmem ani zasad ustalania ceny bez zmiany niniejszej umowy.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zbywanie i obciążanie udziałów}
+\label{art:zbywanie}
+\begin{enumerate}
+  \item Po upływie Okresu Ograniczenia Zbywania zbycie albo obciążenie udziałów nie wymaga zgody Spółki. Nie uchyla to obowiązku zwrotnego zbycia dotyczącego udziałów objętych §~\ref{art:reverse-vesting}.
+  \item Zbycie udziałów na rzecz osoby trzeciej podlega prawu pierwszeństwa pozostałych Wspólników oraz, jeżeli zachodzą ich przesłanki, prawu przyłączenia i prawu przymusowego współzbycia.
+  \item Wspólnik dokonujący transakcji zapewni przystąpienie nabywcy do obowiązujących umów wspólników dotyczących zbywanych udziałów, jeżeli takie umowy istnieją.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Okres Ograniczenia Zbywania Udziałów Założycieli}
+\label{art:lockup}
+\begin{enumerate}
+  \item Założyciel Pierwotny przez 12 miesięcy od dnia wpisu Spółki do rejestru nie może zbyć ani obciążyć udziałów objętych tym statusem bez uprzedniej zgody Zgromadzenia Wspólników podjętej większością 75\% wszystkich głosów w Spółce.
+  \item Ograniczenie nie dotyczy zbycia w ramach zatwierdzonej rundy finansowania, wykonania prawa przyłączenia lub przymusowego współzbycia, obowiązkowego zbycia wynikającego z §~\ref{art:reverse-vesting} ani przeniesienia do podmiotu w całości kontrolowanego przez danego Założyciela, jeżeli nabywca przystąpi do obowiązków związanych z udziałami i zapewnione zostanie zwrotne przeniesienie przed utratą kontroli.
+  \item Upływ Okresu Ograniczenia Zbywania nie wpływa na dalsze obowiązywanie mechanizmu zwrotnego zbycia udziałów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Prawo pierwszeństwa nabycia udziałów}
+\label{art:pierwszenstwo}
+\begin{enumerate}
+  \item Wspólnik zamierzający zbyć udziały osobie trzeciej jest zobowiązany najpierw zaoferować je pozostałym Wspólnikom na warunkach nie mniej korzystnych dla nabywcy niż uzgodnione z osobą trzecią.
+  \item Oferta zawiera wszystkie istotne warunki transakcji, w szczególności cenę, sposób i termin zapłaty oraz dane potencjalnego nabywcy.
+  \item Pozostali Wspólnicy mogą przyjąć ofertę w terminie 20 dni, proporcjonalnie do liczby posiadanych udziałów, z prawem objęcia niewykorzystanej części.
+  \item Jeżeli oferta nie zostanie przyjęta w całości, zbywca może przez 60 dni zbyć udziały wskazanej osobie trzeciej na warunkach nie korzystniejszych dla tego nabywcy niż przedstawione Wspólnikom.
+  \item Istotna zmiana warunków albo upływ terminu wymaga ponowienia procedury.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Prawo przyłączenia do zbycia}
+\label{art:tag}
+\begin{enumerate}
+  \item Jeżeli jeden lub kilku Wspólników zamierza dokonać transakcji, w wyniku której osoba trzecia lub grupa podmiotów działających w porozumieniu uzyska bezpośrednio albo pośrednio ponad 50\% głosów w Spółce, każdy pozostały Wspólnik ma prawo zażądać objęcia transakcją wszystkich albo części swoich udziałów.
+  \item Udziały Wspólnika korzystającego z prawa przyłączenia są zbywane po tej samej cenie za udział i na warunkach nie mniej korzystnych niż udziały Wspólników inicjujących transakcję.
+  \item Zawiadomienie o planowanej transakcji doręcza się co najmniej 30 dni przed jej zamknięciem. Uprawniony wykonuje prawo w terminie 20 dni od doręczenia kompletnego zawiadomienia.
+  \item Zbywający nie może zamknąć transakcji, jeżeli nabywca nie nabędzie również udziałów prawidłowo zgłoszonych do przyłączenia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Prawo przymusowego współzbycia}
+\label{art:drag}
+\begin{enumerate}
+  \item Wspólnik albo grupa Wspólników posiadająca łącznie co najmniej 75\% wszystkich głosów może, w związku z wiążącą ofertą nabycia 100\% udziałów Spółki przez niezależną osobę trzecią, zobowiązać pozostałych Wspólników do zbycia wszystkich ich udziałów.
+  \item Prawo może zostać wykonane wyłącznie, gdy każdy Wspólnik otrzymuje taką samą cenę za udział tego samego rodzaju i ten sam rodzaj świadczenia, odpowiedzialność mniejszości jest indywidualna i zasadniczo ograniczona do otrzymanego wynagrodzenia, a wszelkie zatrzymania ceny lub depozyty obciążają Wspólników proporcjonalnie.
+  \item Zawiadomienie o wykonaniu prawa doręcza się co najmniej 30 dni przed planowanym zamknięciem transakcji wraz z istotnymi warunkami sprzedaży.
+  \item Wspólnik zobowiązany do współzbycia podpisuje dokumenty i wykonuje czynności konieczne do zamknięcia transakcji.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Dziedziczenie udziałów}
+\label{art:dziedziczenie}
+\begin{enumerate}
+  \item Następca prawny może wykonywać prawa z udziałów po wykazaniu następstwa prawnego.
+  \item Jeżeli udziały przypadają kilku osobom, wskazują one wspólnego przedstawiciela do wykonywania praw wobec Spółki.
+  \item Spółka może zawrzeć ubezpieczenie na życie kluczowych Założycieli w celu ułatwienia finansowania nabycia udziałów od spadkobierców.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Stosunki majątkowe małżeńskie i udziały}
+\label{art:malzonek}
+\begin{enumerate}
+  \item Każdy Wspólnik będący osobą fizyczną informuje Spółkę o zdarzeniu dotyczącym ustroju majątkowego, które może wpływać na przynależność udziałów, ich podział lub wykonywanie praw wobec Spółki.
+  \item Powstanie albo ustanie wspólności majątkowej nie prowadzi samo przez się do zmiany osoby ujawnionej jako Wspólnik.
+  \item Jeżeli małżonek albo były małżonek nabędzie udziały, stosuje się do niego odpowiednio postanowienia o ograniczeniach zbywania, prawie pierwszeństwa, prawie przyłączenia i prawie przymusowego współzbycia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wartość Godziwa i Dzień Wyceny}
+\label{art:wycena}
+\begin{enumerate}
+  \item „Dzień Wyceny” oznacza dzień wystąpienia zdarzenia powodującego powstanie obowiązku zbycia albo prawa nabycia udziałów, chyba że właściwe postanowienie wskazuje inny dzień.
+  \item „Wartość Godziwa” oznacza wartość rynkową udziałów ustaloną na Dzień Wyceny przy założeniu kontynuacji działalności Spółki, bez automatycznego dyskonta z tytułu braku płynności lub pakietu mniejszościowego, chyba że niniejsza umowa wyraźnie stanowi inaczej.
+  \item Strony mogą uzgodnić wartość w terminie 15 dni. W razie braku uzgodnienia wartość ustala Niezależny Ekspert posiadający doświadczenie w wycenie spółek technologicznych, oprogramowania, danych i własności intelektualnej.
+  \item Ekspert uwzględnia w szczególności ostatnią rynkową rundę finansowania, przychody i kontrakty, wzrost, jakość i skalowalność produktów, portfel własności intelektualnej, modele i dane, zadłużenie, środki pieniężne, ryzyka prawne i perspektywy komercjalizacji.
+  \item Jeżeli strony nie uzgodnią eksperta w terminie 10 dni, wskazuje go niezależny biegły rewident albo firma doradcza wybrana uchwałą Zgromadzenia Wspólników.
+  \item Ustalenie eksperta jest wiążące z wyjątkiem oczywistego błędu, braku niezależności albo rażącego pominięcia istotnych danych.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Organy Spółki}
+\label{art:organy}
+\begin{enumerate}
+  \item Organami Spółki są:
+  \begin{enumerate}[label=\alph*)]
+    \item Zgromadzenie Wspólników;
+    \item Zarząd.
+  \end{enumerate}
+  \item Na dzień zawarcia niniejszej umowy nie ustanawia się Rady Nadzorczej ani komisji rewizyjnej.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zarząd}
+\label{art:zarzad}
+\begin{enumerate}
+  \item Zarząd prowadzi sprawy Spółki i reprezentuje Spółkę.
+  \item Zarząd składa się z jednego do pięciu członków, w tym może obejmować Prezesa Zarządu i Wiceprezesów Zarządu.
+  \item Członkowie Zarządu są powoływani i odwoływani uchwałą Zgromadzenia Wspólników podjętą większością 75\% wszystkich głosów w Spółce.
+  \item Kadencja członka Zarządu trwa trzy lata. Członek Zarządu może zostać powołany ponownie.
+  \item W Zarządzie wieloosobowym uchwały zapadają bezwzględną większością głosów przy obecności co najmniej połowy składu. W razie równości głosów decyduje głos Prezesa, z wyjątkiem spraw dotyczących jego osobistego interesu.
+  \item Członek Zarządu pozostający w konflikcie interesów ujawnia konflikt i powstrzymuje się od udziału w rozstrzyganiu sprawy i nie uczestniczy w rozstrzyganiu tej sprawy.
+  \item Posiedzenia Zarządu mogą odbywać się przy wykorzystaniu środków komunikacji elektronicznej.
+  \item Zarząd może uchwalić regulamin określający podział odpowiedzialności, limity operacyjne, polityki bezpieczeństwa, raportowania i zarządzania ryzykiem. Podział zadań nie ogranicza ustawowej odpowiedzialności członków Zarządu.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Reprezentacja Spółki}
+\label{art:reprezentacja}
+\begin{enumerate}
+  \item W przypadku Zarządu jednoosobowego do składania oświadczeń w imieniu Spółki uprawniony jest samodzielnie jedyny członek Zarządu.
+  \item W przypadku Zarządu wieloosobowego do składania oświadczeń w imieniu Spółki wymagane jest współdziałanie dwóch członków Zarządu albo jednego członka Zarządu łącznie z prokurentem.
+  \item Powołanie prokurenta wymaga zgody wszystkich członków Zarządu.
+  \item W umowie między Spółką a członkiem Zarządu oraz w sporze z nim Spółkę reprezentuje pełnomocnik powołany uchwałą Zgromadzenia Wspólników albo Rada Nadzorcza, jeżeli została ustanowiona.
+  \item Wewnętrzne limity kompetencji Zarządu nie wpływają na zasady reprezentacji wobec osób trzecich, lecz ich naruszenie może stanowić podstawę odpowiedzialności wobec Spółki.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Sprawy wymagające uchwały Zarządu}
+\label{art:zarzad-zastrzezone}
+\begin{enumerate}
+  \item Nie stosuje się art. 230 Kodeksu spółek handlowych. Wewnętrzne progi decyzyjne dla zobowiązań i rozporządzeń określa niniejsza umowa.
+  \item Uchwały Zarządu wymagają w szczególności:
+  \begin{enumerate}[label=\alph*)]
+    \item przyjęcie projektu strategii, rocznego budżetu oraz planu finansowego;
+    \item przyjęcie polityk technologicznych, bezpieczeństwa, zarządzania danymi, korzystania z oprogramowania open source i modeli osób trzecich;
+    \item zawarcie umowy albo dokonanie wydatku poza zatwierdzonym budżetem o wartości przekraczającej 100 000 zł;
+    \item zaciągnięcie finansowania, udzielenie zabezpieczenia albo rozporządzenie aktywami o wartości przekraczającej 100 000 zł, z zastrzeżeniem §~\ref{art:zgromadzenie-zastrzezone};
+    \item zawarcie istotnej transakcji z Wspólnikiem, członkiem Zarządu, osobą bliską albo podmiotem powiązanym;
+    \item rozpoczęcie stałej działalności w nowej jurysdykcji, utworzenie spółki zależnej albo stałego zakładu;
+    \item przeniesienie lub udzielenie wyłącznej licencji na istotną własność intelektualną w zwykłym toku działalności, o ile sprawa nie jest zastrzeżona dla Zgromadzenia Wspólników;
+    \item wdrożenie produktu lub modelu do zastosowania o podwyższonym ryzyku regulacyjnym, bezpieczeństwa lub odpowiedzialności, w szczególności w systemach transportowych lub innych systemach mogących wpływać na bezpieczeństwo osób;
+    \item zatwierdzenie istotnej zmiany architektury bezpieczeństwa, polityki cyberbezpieczeństwa albo zasad przetwarzania danych wrażliwych.
+  \end{enumerate}
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zgromadzenie Wspólników i sposób obliczania głosów}
+\label{art:zgromadzenie}
+\begin{enumerate}
+  \item Zgromadzenie Wspólników może być zwyczajne albo nadzwyczajne.
+  \item Zgromadzenia odbywają się w siedzibie Spółki albo w Warszawie. Za pisemną zgodą wszystkich Wspólników Zgromadzenie może odbyć się również w innym miejscu na terytorium Rzeczypospolitej Polskiej.
+  \item Umowa dopuszcza uczestnictwo w Zgromadzeniu Wspólników przy wykorzystaniu środków komunikacji elektronicznej, jeżeli zwołujący postanowi o takim trybie.
+  \item Uchwała może zostać podjęta poza Zgromadzeniem Wspólników, jeżeli wszyscy Wspólnicy wyrażą na piśmie zgodę na treść uchwały albo na głosowanie pisemne.
+  \item Każdy udział daje jeden głos.
+  \item O ile ustawa albo niniejsza umowa nie wymaga surowszej większości, uchwały zapadają bezwzględną większością głosów.
+  \item „Wszystkie głosy w Spółce” oznaczają łączną liczbę głosów przysługujących ze wszystkich istniejących udziałów, niezależnie od obecności na Zgromadzeniu.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Sprawy Zastrzeżone dla Zgromadzenia Wspólników}
+\label{art:zgromadzenie-zastrzezone}
+\begin{enumerate}
+  \item Uchwały w następujących sprawach wymagają większości 75\% wszystkich głosów w Spółce:
+  \begin{enumerate}[label=\alph*)]
+    \item zmiana umowy Spółki;
+    \item podwyższenie albo obniżenie kapitału zakładowego, ustanowienie nowych udziałów, zmiana praw udziałowych lub ustanowienie uprzywilejowania;
+    \item przyjęcie programu motywacyjnego przewidującego możliwość nabycia udziałów;
+    \item połączenie, podział, przekształcenie, rozwiązanie albo likwidacja Spółki;
+    \item zbycie przedsiębiorstwa lub jego zorganizowanej części;
+    \item sprzedaż, obciążenie albo inna transakcja dotycząca aktywów o wartości przekraczającej 25\% wartości aktywów Spółki, poza zwykłym tokiem działalności;
+    \item przeniesienie, zbycie albo udzielenie wyłącznej, nieodwołalnej lub bezterminowej licencji na Kluczową Własność Intelektualną poza zwykłym tokiem działalności;
+    \item istotna zmiana profilu działalności polegająca na odejściu od tworzenia oprogramowania, sztucznej inteligencji, uczenia maszynowego lub technologii cyfrowych jako podstawowego obszaru działalności;
+    \item powołanie i odwołanie członków Zarządu oraz ustalenie zasad ich wynagrodzenia;
+    \item zaciągnięcie zobowiązania, ustanowienie zabezpieczenia lub dokonanie transakcji poza zatwierdzonym budżetem o wartości przekraczającej 500 000 zł;
+    \item zawarcie ugody albo zrzeczenie się roszczenia dotyczącego Kluczowej Własności Intelektualnej, naruszenia bezpieczeństwa albo ochrony danych o wartości przekraczającej 500 000 zł;
+    \item zatwierdzenie Odejścia Usprawiedliwionego w przypadkach uznaniowych;
+    \item zgoda na zbycie udziałów Założyciela w Okresie Ograniczenia Zbywania.
+  \end{enumerate}
+  \item Jeżeli ustawa wymaga zgody konkretnego Wspólnika z uwagi na zwiększenie jego świadczeń albo uszczuplenie indywidualnych praw, wymagana jest również taka zgoda niezależnie od większości określonej powyżej.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Własność intelektualna i aktywa technologiczne}
+\label{art:ip}
+\begin{enumerate}
+  \item „Kluczowa Własność Intelektualna” oznacza prawa i aktywa niezbędne albo istotne dla produktów i działalności Spółki, w szczególności:
+  \begin{enumerate}[label=\alph*)]
+    \item kod źródłowy i wynikowy, repozytoria, biblioteki, API, SDK, firmware, skrypty, konfiguracje i dokumentację;
+    \item modele uczenia maszynowego, architektury, wagi, checkpointy, adaptery, embeddingi, prompty systemowe, pipeline'y, algorytmy, heurystyki, modele optymalizacyjne i systemy agentowe;
+    \item zbiory danych treningowych, walidacyjnych i testowych, etykiety, dane syntetyczne, wyniki eksperymentów, benchmarki, raporty ewaluacyjne, model cards i dokumentację pochodzenia danych;
+    \item projekty gier, kod i narzędzia do gier, mechaniki, assety stworzone dla Spółki, symulatory i komponenty interaktywne;
+    \item wynalazki, patenty, zgłoszenia, wzory, znaki towarowe, tajemnice przedsiębiorstwa i know-how utrwalone w dokumentacji;
+    \item domeny, konta chmurowe, klucze, certyfikaty, pipeline'y CI/CD, rejestry modeli, artefakty kontenerowe, konta deweloperskie i inne identyfikatory techniczne.
+  \end{enumerate}
+  \item Kluczowa Własność Intelektualna tworzona na zlecenie Spółki ma przysługiwać Spółce na podstawie umów z twórcami, pracownikami, współpracownikami i podwykonawcami.
+  \item Jeżeli skuteczne przeniesienie praw wymaga formy pisemnej, wskazania pól eksploatacji, odrębnej zgody, rejestracji albo innej czynności, Spółka zapewnia wykonanie tych wymogów w odrębnym dokumencie.
+  \item Wykorzystanie oprogramowania open source, modeli osób trzecich, danych licencjonowanych lub usług chmurowych wymaga zgodności z warunkami właściwych licencji i umów. Zarząd może ustanowić rejestr komponentów, modeli i danych osób trzecich.
+  \item Każdy Założyciel ujawnia w Załączniku nr 3 istotne wcześniejsze projekty, repozytoria, modele, licencje i zobowiązania, które mogłyby zostać pomylone z aktywami Spółki albo ograniczyć komercjalizację jej produktów.
+  \item Aktywa technologiczne Spółki nie powinny być przechowywane wyłącznie na prywatnych kontach lub urządzeniach osoby fizycznej, jeżeli utrudniałoby to Spółce niezależny dostęp, audyt, odtworzenie lub kontynuację działalności.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Dane, systemy AI, bezpieczeństwo i zgodność regulacyjna}
+\label{art:ai-compliance}
+\begin{enumerate}
+  \item Zarząd ustanawia adekwatne do skali i ryzyka zasady dotyczące co najmniej: pochodzenia danych, uprawnień do korzystania z danych i modeli, kontroli dostępu, zarządzania sekretami, kopii zapasowych, rejestru modeli, testów, monitoringu, obsługi incydentów i zmian produkcyjnych.
+  \item Dla modeli lub systemów wdrażanych w zastosowaniach mogących istotnie wpływać na bezpieczeństwo ludzi, prawa użytkowników, transport, decyzje automatyczne lub inne obszary regulowane Zarząd przed wdrożeniem ustala wymagane oceny, testy, dokumentację, nadzór człowieka i warunki użycia.
+  \item Zarząd zapewnia ewidencję pochodzenia istotnych zbiorów danych, modeli bazowych, bibliotek i komponentów użytych w produktach w zakresie ustalonym dla danej kategorii ryzyka i sposobu licencjonowania.
+  \item Istotne incydenty bezpieczeństwa, naruszenia danych, nieautoryzowane ujawnienia kodu, utrata kluczy, istotne naruszenia licencji lub poważne błędy modeli podlegają niezwłocznemu zgłoszeniu Zarządowi i udokumentowaniu.
+  \item Dostępy do repozytoriów kodu, rejestrów modeli, środowisk chmurowych, baz danych, kont administracyjnych, kluczy API, tokenów, certyfikatów i innych krytycznych zasobów technicznych są nadawane, zmieniane i odbierane zgodnie z zasadami ustanowionymi przez Zarząd. Kod, modele i dane Spółki nie powinny być utrzymywane w nieautoryzowanych prywatnych repozytoriach lub na prywatnych kontach.
+  \item Spółka zapewnia, aby krytyczne konta, repozytoria, domeny, usługi chmurowe i sekrety nie były faktycznie kontrolowane wyłącznie przez jedną osobę fizyczną, jeżeli mogłoby to zagrozić ciągłości działania. W miarę możliwości stosuje się konta organizacyjne, kontrolę uprawnień i procedury odzyskania dostępu.
+  \item Osoba kończąca współpracę ze Spółką jest zobowiązana, zgodnie z właściwą umową i procedurą offboardingu, zwrócić sprzęt i nośniki Spółki, przekazać pozostające w jej dyspozycji dane dostępowe należące do Spółki oraz współdziałać przy niezwłocznym odebraniu lub rotacji jej uprawnień, kluczy, tokenów i certyfikatów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Poufność}
+\label{art:poufnosc}
+\begin{enumerate}
+  \item Wspólnik zachowuje w poufności niepubliczne informacje techniczne, handlowe, finansowe i organizacyjne Spółki, w szczególności kod, modele, dane, strategie, warunki umów, listy klientów, ceny, wyniki testów i informacje o bezpieczeństwie.
+  \item Obowiązek nie dotyczy informacji publicznie dostępnych bez naruszenia obowiązku, legalnie znanych wcześniej odbiorcy, uzyskanych legalnie od osoby trzeciej albo ujawnianych na podstawie bezwzględnego obowiązku prawnego.
+  \item Ujawnienie informacji doradcy zawodowemu, inwestorowi lub potencjalnemu nabywcy wymaga zapewnienia adekwatnej ochrony poufności.
+  \item Obowiązek poufności pozostaje w mocy po utracie statusu Wspólnika tak długo, jak informacja zachowuje niepubliczny charakter.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zakaz konkurencji, konflikt interesów i transakcje powiązane}
+\label{art:konflikt}
+\begin{enumerate}
+  \item Członkowie Zarządu podlegają zakazowi konkurencji; dodatkowe ograniczenia mogą wynikać z odrębnych umów.
+  \item Wspólnik, którego udziały są objęte mechanizmem zwrotnego zbycia, nie prowadzi, bez uprzedniej zgody Zgromadzenia Wspólników, działalności bezpośrednio konkurencyjnej z podstawowymi produktami Spółki w czasie aktywnego zaangażowania operacyjnego.
+  \item Działalność naukowa, dydaktyczna, open source, inwestycyjna lub poboczna ujawniona w Załączniku nr 3 nie jest traktowana jako konkurencyjna, o ile nie wykorzystuje Kluczowej Własności Intelektualnej Spółki, jej tajemnic ani zasobów w sposób sprzeczny z interesem Spółki.
+  \item Członek Zarządu pozostający w konflikcie interesów ujawnia konflikt i nie uczestniczy w rozstrzyganiu sprawy objętej konfliktem. Wspólnik ujawnia konflikt interesów dotyczący sprawy poddanej pod głosowanie; samo istnienie konfliktu nie pozbawia go prawa głosu.
+  \item Transakcja z członkiem Zarządu, Wspólnikiem posiadającym co najmniej 10\% głosów, osobą bliską takiej osoby albo podmiotem przez nią kontrolowanym powinna być zawierana na warunkach rynkowych albo w inny sposób należycie uzasadniony i udokumentowany.
+  \item Zakaz konkurencji po zakończeniu współpracy może wynikać wyłącznie z odrębnej umowy określającej jego zakres, czas i warunki.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Finansowanie Spółki}
+\label{art:finansowanie}
+\begin{enumerate}
+  \item Spółka może finansować działalność z kapitału własnego, pożyczek Wspólników, kredytów, leasingu, dotacji, grantów, finansowania dłużnego, przychodów oraz rund inwestycyjnych.
+  \item Samo posiadanie udziałów nie zobowiązuje Wspólnika do udzielania Spółce dodatkowego finansowania.
+  \item Finansowanie od Wspólnika lub podmiotu powiązanego jest dokumentowane z uwzględnieniem warunków transakcji i skutków podatkowych.
+  \item Finansowanie kapitałowe przez ustanowienie nowych udziałów bez zmiany umowy Spółki może być przeprowadzone wyłącznie na rzecz dotychczasowych Wspólników i proporcjonalnie do posiadanych przez nich udziałów, w granicach §~\ref{art:nowy-wspolnik}. Ustanowienie nowych udziałów dla osoby trzeciej wymaga zmiany umowy Spółki.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zysk, wypłaty i rezerwy}
+\label{art:zysk}
+\begin{enumerate}
+  \item Wspólnicy mają prawo do udziału w zysku przeznaczonym do podziału uchwałą Zgromadzenia Wspólników proporcjonalnie do liczby udziałów.
+  \item Zgromadzenie Wspólników może przeznaczyć całość lub część zysku na kapitał zapasowy, rezerwowy, finansowanie badań i rozwoju, rozwój produktów, bezpieczeństwo, inwestycje, przejęcia albo inne uzasadnione potrzeby Spółki.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Rozwiązywanie Impasu Decyzyjnego}
+\label{art:impas}
+\begin{enumerate}
+  \item „Impas Decyzyjny” oznacza brak podjęcia rozstrzygnięcia w Sprawie Zastrzeżonej podczas dwóch prawidłowo zwołanych Zgromadzeń Wspólników w okresie co najmniej 30 dni, jeżeli brak decyzji istotnie zagraża działalności Spółki albo realizacji zatwierdzonego planu.
+  \item W razie Impasu Wspólnicy posiadający co najmniej 10\% głosów mogą zażądać 14-dniowego okresu negocjacji prowadzonego przez osoby decyzyjne wskazane przez główne grupy Wspólników.
+  \item Jeżeli spór dotyczy przede wszystkim kwestii technicznej, finansowej, wyceny lub zgodności, strony mogą skierować go do Niezależnego Eksperta w celu wydania niewiążącej rekomendacji albo wiążącego rozstrzygnięcia, jeżeli wszyscy zainteresowani wyrażą zgodę.
+  \item Do czasu rozwiązania Impasu obowiązuje ostatni zatwierdzony budżet w zakresie możliwym do stosowania, a Zarząd może podejmować czynności konieczne dla ciągłości działalności, bezpieczeństwa, ochrony praw Spółki i wykonania obowiązków prawnych.
+  \item Sam Impas nie powoduje automatycznego rozwiązania Spółki, przymusowej sprzedaży udziałów ani powstania prawa do odkupu, chyba że odrębna umowa Wspólników wyraźnie stanowi inaczej.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Naruszenia i wykonanie obowiązków Wspólnika}
+\label{art:naruszenia}
+\begin{enumerate}
+  \item W razie naruszenia obowiązku wynikającego z niniejszej umowy Spółka albo uprawniony Wspólnik może żądać zaprzestania naruszenia, wykonania zobowiązania oraz naprawienia szkody.
+  \item Jeżeli naruszenie dotyczy obowiązku zbycia udziałów, uprawniony może dochodzić jego wykonania, w tym wydania orzeczenia zastępującego wymagane oświadczenie woli.
+  \item Wspólnik zobowiązany do zbycia udziałów współdziała w zachowaniu formy wymaganej dla przeniesienia udziałów oraz podpisuje dokumenty wykonawcze przewidziane niniejszą umową i odrębną umową wykonawczą.
+  \item Środki ochrony przewidziane niniejszą umową nie wyłączają odpowiedzialności z tytułu naruszenia praw własności intelektualnej, poufności, ochrony danych, czynów nieuczciwej konkurencji ani innych roszczeń ustawowych.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Rozwiązanie i likwidacja Spółki}
+\label{art:likwidacja}
+\begin{enumerate}
+  \item Rozwiązanie Spółki na podstawie uchwały Zgromadzenia Wspólników wymaga większości 75\% wszystkich głosów.
+  \item Likwidatorami są członkowie Zarządu, chyba że Zgromadzenie Wspólników albo sąd postanowi inaczej.
+  \item Likwidatorzy zabezpieczają w szczególności kod źródłowy, modele, dane, repozytoria, klucze, dokumentację, zobowiązania licencyjne, tajemnice przedsiębiorstwa i inne aktywa cyfrowe oraz zapewniają uporządkowane zamknięcie lub przeniesienie usług chmurowych i danych klientów.
+  \item Majątek pozostały po zaspokojeniu lub zabezpieczeniu wierzycieli dzieli się między Wspólników proporcjonalnie do liczby udziałów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\label{art:final}
+\begin{enumerate}
+  \item Zmiana niniejszej umowy wymaga większości określonej w §~\ref{art:zgromadzenie-zastrzezone}.
+  \item Jeżeli postanowienie umowy okaże się nieważne albo niewykonalne, pozostałe postanowienia zachowują moc. Strony dążą do zastąpienia wadliwego postanowienia rozwiązaniem możliwie zbliżonym do jego celu gospodarczego.
+  \item Bieżące zawiadomienia operacyjne pomiędzy Spółką a Wspólnikami mogą być przekazywane na wskazane Spółce adresy pocztowe i elektroniczne.
+\end{enumerate}
+\end{ContractClause}
+
+\newpage
+\section*{Załącznik nr 1 — Założyciele, udziały i wkłady}
+\addcontentsline{toc}{section}{Załącznik nr 1 — Założyciele, udziały i wkłady}
+
+\begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{1.8cm} >{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}p{1.5cm} >{\raggedleft\arraybackslash}p{2.5cm} >{\raggedright\arraybackslash}p{3.6cm}}
+\toprule
+Wspólnik & Dane & Udziały & Wartość nominalna & Sposób pokrycia \\
+\midrule
+A & \field{imię, nazwisko, PESEL, adres} & 50 & 2 500 zł & \field{wkład pieniężny / szczegółowy aport} \\
+B & \field{imię, nazwisko, PESEL, adres} & 20 & 1 000 zł & \field{wkład pieniężny / szczegółowy aport} \\
+C & \field{imię, nazwisko, PESEL, adres} & 10 & 500 zł & \field{wkład pieniężny / szczegółowy aport} \\
+D & \field{imię, nazwisko, PESEL, adres} & 10 & 500 zł & \field{wkład pieniężny / szczegółowy aport} \\
+E & \field{imię, nazwisko, PESEL, adres} & 10 & 500 zł & \field{wkład pieniężny / szczegółowy aport} \\
+\bottomrule
+\end{tabularx}
+
+Jeżeli którykolwiek udział jest pokrywany aportem, należy w tym Załączniku szczegółowo wskazać przedmiot aportu, osobę wnoszącą, liczbę i wartość nominalną obejmowanych udziałów oraz wszystkie dane konieczne do skutecznego przeniesienia aktywa na Spółkę.
+
+\section*{Załącznik nr 2 — Wspólnicy objęci mechanizmem zwrotnego zbycia}
+\addcontentsline{toc}{section}{Załącznik nr 2 — Wspólnicy objęci mechanizmem zwrotnego zbycia}
+
+\begin{tabularx}{\textwidth}{>{\bfseries\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}p{3.8cm} >{\raggedright\arraybackslash}p{4.0cm} >{\raggedright\arraybackslash}X}
+\toprule
+Wspólnik & Data rozpoczęcia okresu 48 miesięcy & Liczba udziałów objętych mechanizmem & Uwagi \\
+\midrule
+\field{A/B/C/D/E} & \field{data} & \field{liczba} & \field{rola / wyjątki} \\
+\bottomrule
+\end{tabularx}
+
+\section*{Załącznik nr 3 — Aktywa przedzałożycielskie, działalności poboczne i licencje}
+\addcontentsline{toc}{section}{Załącznik nr 3 — Aktywa przedzałożycielskie, działalności poboczne i licencje}
+
+Dla każdego Założyciela należy ujawnić, jeżeli dotyczy:
+\begin{enumerate}
+  \item repozytoria, biblioteki, modele, dane, domeny i inne aktywa utworzone przed powstaniem Spółki, które nie są przenoszone na Spółkę;
+  \item projekty open source, działalność naukową, dydaktyczną, konsultingową lub inne przedsięwzięcia poboczne;
+  \item licencje osób trzecich, ograniczenia umowne, zobowiązania wobec pracodawców, uczelni, klientów lub grantodawców;
+  \item elementy, które Spółka może wykorzystywać wyłącznie na podstawie licencji, a nie prawa własności;
+  \item istotne ograniczenia dotyczące danych, modeli bazowych, API, chmury lub komponentów oprogramowania.
+\end{enumerate}
+
+\vfill
+\begin{center}
+\small
+\textit{Projekt roboczy. Przed podpisaniem wymaga uzupełnienia danych Wspólników, siedziby, wkładów, aktywów IP oraz weryfikacji przez notariusza lub prawnika w świetle stanu prawnego obowiązującego w dniu zawarcia umowy.}
+\end{center}
+
+\end{document}
