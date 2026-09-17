@@ -1,0 +1,67 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Index / glossary
+*.idx
+*.ilg
+*.ind
+*.ist
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.xdy
+
+# Bibliography temp files
+*.bib.bak
+*-blx.bib
+
+# Beamer / minted / pygments
+_minted-*/
+*.pyg
+*.pygtex
+*.listing
+
+# latexmk
+*.latexmk
+.latexmkrc
+
+# TeX temporary files
+*.dvi
+*.ps
+*.tmp
+*.bak
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Optional: generated PDFs
+# Uncomment if PDFs should NOT be versioned
+# *.pdf
