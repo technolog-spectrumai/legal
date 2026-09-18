@@ -49,6 +49,16 @@
 \newcommand{\KSH}{Kodeks spółek handlowych}
 \newcommand{\BoilerplateStrike}[1]{\sout{#1}}
 
+% ===== Oznaczenia rewizji 0.9 — DO RĘCZNEJ WERYFIKACJI =====
+% Konwencja: każdy zmieniony paragraf zawiera:
+%  (1) blok \ZmianaKomentarz{nr}{opis} na początku paragrafu,
+%  (2) znaczniki \ZM (zmieniono) / \NOWE (nowy element) przy zmienionych ustępach,
+%  (3) blok „BYŁO” z dosłownym poprzednim brzmieniem zmienionych ustępów na końcu paragrafu.
+\newcommand{\ZmianaKomentarz}[2]{\par\medskip\noindent\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\textbf{[ZMIANA #1 --- KOMENTARZ, rewizja 0.9]} \emph{#2}}}\par\smallskip}
+\newenvironment{Bylo}{\par\smallskip\noindent\textbf{[BYŁO --- poprzednie brzmienie zmienionych ustępów]:}\begin{quote}\small}{\end{quote}\smallskip}
+\newcommand{\ZM}{\textbf{[ZMIENIONO]}~}
+\newcommand{\NOWE}{\textbf{[NOWE]}~}
+
 \hypersetup{
   pdftitle={Basilisk Systems P.S.A. --- projekt umowy spółki},
   pdfauthor={Basilisk Systems --- projekt umowy P.S.A.}
