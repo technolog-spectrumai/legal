@@ -17,9 +17,9 @@
 \BusinessPlanWatermarkFontSize{38}{46}
 \BusinessPlanWatermarkAngle{38}
 \BusinessPlanAuthorsText{Basilisk Systems --- projekt umowy P.S.A.}
-\BusinessPlanConfidentialText{Projekt umowy --- rewizja 0.9.3 (Etapy 1--2)}
+\BusinessPlanConfidentialText{Projekt umowy --- tekst czysty}
 \BusinessPlanFooterText{Basilisk Systems --- umowa P.S.A.}
-\BusinessPlanVersionText{Wersja 0.9.3 --- zmiany oznaczone}
+\BusinessPlanVersionText{Wersja 0.9.3 --- tekst czysty}
 
 \setstretch{1.18}
 \setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
@@ -49,16 +49,6 @@
 \newcommand{\KSH}{Kodeks spółek handlowych}
 \newcommand{\BoilerplateStrike}[1]{\sout{#1}}
 
-% ===== Oznaczenia rewizji 0.9 — DO RĘCZNEJ WERYFIKACJI =====
-% Konwencja: każdy zmieniony paragraf zawiera:
-%  (1) blok \ZmianaKomentarz{nr}{opis} na początku paragrafu,
-%  (2) znaczniki \ZM (zmieniono) / \NOWE (nowy element) przy zmienionych ustępach,
-%  (3) blok „BYŁO” z dosłownym poprzednim brzmieniem zmienionych ustępów na końcu paragrafu.
-\newcommand{\ZmianaKomentarz}[2]{\par\medskip\noindent\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\textbf{[ZMIANA #1 --- KOMENTARZ, rewizja 0.9]} \emph{#2}}}\par\smallskip}
-\newenvironment{Bylo}{\par\smallskip\noindent\textbf{[BYŁO --- poprzednie brzmienie zmienionych ustępów]:}\begin{quote}\small}{\end{quote}\smallskip}
-\newcommand{\ZM}{\textbf{[ZMIENIONO]}~}
-\newcommand{\NOWE}{\textbf{[NOWE]}~}
-
 \hypersetup{
   pdftitle={Basilisk Systems P.S.A. --- projekt umowy spółki},
   pdfauthor={Basilisk Systems --- projekt umowy P.S.A.}
@@ -68,46 +58,13 @@
 
 \BusinessPlanTitlePage
   {Basilisk Systems}
-  {Wersja 0.9.3 --- zmiany oznaczone}
+  {Wersja 0.9.3 --- tekst czysty}
   {Umowa P.S.A.}
   {Projekt umowy prostej spółki akcyjnej}
-  {Rewizja z oznaczonymi zmianami [ZMIANA 1--16], komentarzami i poprzednim brzmieniem}
+  {Tekst umowy bez komentarzy i materiałów roboczych}
   {0.9.3}
 
 \tableofcontents
-\newpage
-
-\section*{Nota rewizyjna — wykaz zmian rewizji 0.9}
-\addcontentsline{toc}{section}{Nota rewizyjna — wykaz zmian rewizji 0.9}
-
-\textbf{Status noty.} Nota ma charakter wyłącznie informacyjny i porządkujący; nie stanowi części normatywnej umowy. Każda zmiana jest oznaczona w tekście blokiem \textbf{[ZMIANA n --- KOMENTARZ]}, znacznikami \textbf{[ZMIENIONO]} / \textbf{[NOWE]} przy poszczególnych ustępach oraz blokiem \textbf{[BYŁO]} zawierającym dosłowne poprzednie brzmienie --- w celu umożliwienia ręcznej weryfikacji. Fragmenty przekreślone pozostają, jak dotąd, przeznaczone do usunięcia, z wyjątkiem klauzul koncesyjnych przywróconych w ramach ZMIANY 2.
-
-\begin{enumerate}
-  \item \textbf{[ZMIANA 1]} §~\ref{art:cel} i §~\ref{art:pkd} --- odwrócenie hierarchii celu: głównym przedmiotem działalności jest fizyczna (ucieleśniona) sztuczna inteligencja i systemy autonomiczne, a bezzałogowe statki powietrzne są ich pierwszym zastosowaniem; zmiana działalności przeważającej PKD.
-  \item \textbf{[ZMIANA 2]} §~\ref{art:cel} ust.~4 i §~\ref{art:pkd} --- przywrócenie (cofnięcie przekreślenia) klauzul koncesyjnych wraz z doprecyzowaniem podstawy: ustawa z 13 czerwca 2019 r. o wykonywaniu działalności gospodarczej w zakresie wytwarzania i obrotu materiałami wybuchowymi, bronią, amunicją oraz wyrobami i technologią o przeznaczeniu wojskowym lub policyjnym (Dz.U. 2019 poz.~1214 ze zm.).
-  \item \textbf{[ZMIANA 3]} §~\ref{art:dopuszczalny-nabywca}, §~\ref{art:zbywanie}, §~\ref{art:okres-ograniczenia-zbywania}, §~\ref{art:rada} ust.~3 --- wprowadzenie Kryterium Bezpieczeństwa EU/NATO oraz reżimu zgody Spółki na rozporządzenie akcją opartego wprost na art.~300$^{39}$ KSH (odmowa wyłącznie z przyczyn obiektywnych, wskazanie innego nabywcy, Wartość Godziwa); lock-up 12-miesięczny osadzony w tym samym mechanizmie.
-  \item \textbf{[ZMIANA 4]} §~\ref{art:rada} ust.~2 i §~\ref{art:walne-zastrzezone} --- obniżenie progu dla \emph{powołania} dyrektorów do bezwzględnej większości głosów oddanych (75\% wszystkich głosów pozostaje dla odwołania bez ważnych powodów) oraz mechanizm ciągłości Rady.
-  \item \textbf{[ZMIANA 5]} §~\ref{art:zwrotne-zbycie} --- wyodrębnienie „Odejścia Dobrowolnego” jako kategorii pośredniej: dobrowolne odejście przestaje być Odejściem Zawinionym; akcje zwolnione pozostają przy odchodzącym (z opcją nabycia po 100\% Wartości Godziwej), akcje niezwolnione podlegają zbyciu po cenie emisyjnej.
-  \item \textbf{[ZMIANA 6]} nowy §~\ref{art:kwalifikowana-runda} --- Kwalifikowana Runda Finansowania: zdefiniowany tryb współdziałania przy rundzie inwestycyjnej i katalog zwyczajowych warunków inwestorskich; mapa paragrafów przygotowujących rundę w Załączniku nr~10.
-  \item \textbf{[ZMIANA 7]} §~\ref{art:wklady} i Załącznik nr~1 --- dopuszczenie wkładów pieniężnych obok niepieniężnych, przeznaczenie wkładów pieniężnych na kapitał akcyjny; korekta rachunkowa kolumny „Cena łączna” w Załączniku nr~1 (dotychczasowe kwoty były dziesięciokrotnie zawyżone względem ceny emisyjnej 0,01~zł).
-  \item \textbf{[ZMIANA 8]} §~\ref{art:wz} --- Walne Zgromadzenie zawsze z miejscem fizycznym, uczestnictwo elektroniczne jako tryb (art.~300$^{92}$ KSH), zawiadomienia na adres e-mail \emph{wpisany do rejestru akcjonariuszy} (art.~300$^{87}$ KSH) --- domknięcie punktu 4 audytu.
-  \item \textbf{[ZMIANA 9]} §~\ref{art:dziedziczenie} --- osadzenie mechanizmu wprost w art.~300$^{41}$ KSH (ograniczenie wstąpienia spadkobierców z określonymi warunkami spłaty pod rygorem bezskuteczności) --- domknięcie punktu 3 audytu.
-  \item \textbf{[ZMIANA 10]} §~\ref{art:konkurencja} ust.~8 --- fallback uchwały Walnego Zgromadzenia ograniczony do spraw, w których uchwały Rady nie wymaga sama ustawa; gdzie ustawa wymaga uchwały Rady, transakcja czeka na uzupełnienie składu Rady --- domknięcie punktu 5 audytu.
-  \item \textbf{[ZMIANA 11]} Załączniki --- aktualizacja Załączników nr~1, 4 i 8; nowy Załącznik nr~10 (mapa paragrafów pod rundę inwestycyjną) i nr~11 (punkty do weryfikacji podatkowej, w tym ESOP w P.S.A. a art.~24 ust.~11--12b PIT); nota do Załącznika nr~9 (audyt dotyczy wersji 0.8).
-\end{enumerate}
-
-\textbf{Wykaz zmian rewizji 0.9.3 (Etapy 1--2 planu poprawek).} Rewizja 0.9.3 obejmuje wyłącznie poprawki spójności rewizji 0.9 (Etap 1: szczelność Kryterium Bezpieczeństwa EU/NATO; Etap 2: domknięcie Odejścia Dobrowolnego). Etapy 3--5 (tempo kontraktowania, decyzje strategiczne, zbiorczy re-audyt) świadomie NIE zostały wprowadzone i pozostają do odrębnych rewizji.
-
-\begin{enumerate}
-  \setcounter{enumi}{11}
-  \item \textbf{[ZMIANA 12]} §~\ref{art:zbywanie} ust.~7 --- uszczelnienie: wyłączenie wymogu zgody Spółki (pierwszeństwo, przyłączenie, przymusowe współzbycie, zwrotne zbycie, Kwalifikowana Runda) nie uchyla wymogu Kryterium Bezpieczeństwa EU/NATO; przy przymusowym współzbyciu Kryterium weryfikuje się przed doręczeniem zawiadomienia o wykonaniu prawa.
-  \item \textbf{[ZMIANA 13]} §~\ref{art:okres-ograniczenia-zbywania} ust.~2 lit.~a --- zastąpienie niezdefiniowanego pojęcia „zatwierdzonej rundy finansowania” odwołaniem do Kwalifikowanej Rundy Finansowania albo innej rundy zatwierdzonej uchwałą WZ większością 75\% wszystkich głosów.
-  \item \textbf{[ZMIANA 14]} §~\ref{art:dziedziczenie} ust.~1--2 i §~\ref{art:malzonek} ust.~3 --- rozszerzenie warunków wstąpienia spadkobiercy oraz nabycia akcji przez małżonka o Kryterium Bezpieczeństwa EU/NATO (z możliwością zgody WZ); DECYZJA DO POTWIERDZENIA przez Założycieli.
-  \item \textbf{[ZMIANA 15]} §~\ref{art:zwrotne-zbycie}, definicja Odejścia Zawinionego lit.~e --- doprecyzowanie, że rezygnacja z zachowaniem co najmniej 30-dniowego okresu przejściowego i należytym wykonywaniem obowiązków nie stanowi porzucenia obowiązków; usuwa ryzyko „wchłonięcia” Odejścia Dobrowolnego przez lit.~e.
-  \item \textbf{[ZMIANA 16]} §~\ref{art:zwrotne-zbycie} (umowa wykonawcza), §~\ref{art:seria-f} ust.~10 oraz Załącznik nr~4 --- uzupełnienie enumeracji o Odejście Dobrowolne i tryb wykonania 6-miesięcznego prawa nabycia akcji zwolnionych.
-\end{enumerate}
-
-\textbf{Relacja do audytu (Załącznik nr~9).} Zmiany 3, 8, 9 i 10 odpowiadają punktom 2, 4, 3 i 5 „Podsumowania audytu”; punkt 1 audytu (obowiązki przyszłego nabywcy) adresuje nowy ustęp w §~\ref{art:dopuszczalny-nabywca}. Wszystkie zmienione paragrafy wymagają ponownego audytu prawnego w zmienionym zakresie.
 \newpage
 
 \chapter*{Projekt umowy prostej spółki akcyjnej}
@@ -145,35 +102,24 @@ Stawający, wskazani szczegółowo w Załączniku nr 1 do niniejszej umowy, zwan
 
 \begin{ContractClause}{Cel strategiczny Spółki}
 \label{art:cel}
-\ZmianaKomentarz{1}{Odwrócono hierarchię celu: fizyczna (ucieleśniona) sztuczna inteligencja i systemy autonomiczne stały się głównym przedmiotem działalności, a bezzałogowe statki powietrzne --- ich pierwszym i podstawowym zastosowaniem. Dzięki temu rozwój kolejnych zastosowań (roboty lądowe, jednostki nawodne, licencjonowanie stosu autonomii) nie stanowi „istotnej zmiany profilu działalności" wymagającej 75\% głosów na podstawie §~\ref{art:walne-zastrzezone}. Dotychczasowe brzmienie podporządkowywało physical AI dronom.}
-\ZmianaKomentarz{2}{Przywrócono (cofnięto przekreślenie) klauzulę koncesyjną z ust.~4 i doprecyzowano podstawy prawne. Uzasadnienie: działalność w zakresie wyrobów i technologii o przeznaczeniu wojskowym lub policyjnym wymaga koncesji MSWiA na podstawie ustawy z 13 czerwca 2019 r. (Dz.U. 2019 poz.~1214 ze zm.); w praktyce granica między cywilnym a koncesjonowanym rozwojem BSP bywa sporna (znane są postępowania wobec podmiotów rozwijających technologie dronowe bez koncesji), więc wyraźne rozgraniczenie etapów w umowie ma realną wartość ostrożnościową wobec KRS, banków i partnerów. Klauzula nie tworzy nowego obowiązku --- potwierdza obowiązki ustawowe.}
 \begin{enumerate}
-  \item \ZM Głównym celem Spółki jest projektowanie, rozwój i komercjalizacja fizycznej (ucieleśnionej) sztucznej inteligencji oraz systemów autonomicznych, w szczególności oprogramowania autonomii, percepcji, koordynacji zespołowej, dowodzenia i obsługi misji, wraz z platformami sprzętowymi, na których systemy te działają.
-  \item \ZM Pierwszym i podstawowym polem zastosowania technologii Spółki są bezzałogowe statki powietrzne, w szczególności autonomiczne roje dronów wraz z systemami ich dowodzenia, koordynacji, łączności, percepcji i obsługi misji. Spółka może rozwijać kolejne zastosowania fizycznej sztucznej inteligencji, w tym roboty lądowe, jednostki nawodne i inne maszyny autonomiczne oraz technologie podwójnego zastosowania. Rozwój kolejnych zastosowań mieszczących się w celu określonym w ust.~1 nie stanowi istotnej zmiany profilu działalności w rozumieniu §~\ref{art:walne-zastrzezone}.
+  \item Głównym celem Spółki jest projektowanie, rozwój i komercjalizacja fizycznej (ucieleśnionej) sztucznej inteligencji oraz systemów autonomicznych, w szczególności oprogramowania autonomii, percepcji, koordynacji zespołowej, dowodzenia i obsługi misji, wraz z platformami sprzętowymi, na których systemy te działają.
+  \item Pierwszym i podstawowym polem zastosowania technologii Spółki są bezzałogowe statki powietrzne, w szczególności autonomiczne roje dronów wraz z systemami ich dowodzenia, koordynacji, łączności, percepcji i obsługi misji. Spółka może rozwijać kolejne zastosowania fizycznej sztucznej inteligencji, w tym roboty lądowe, jednostki nawodne i inne maszyny autonomiczne oraz technologie podwójnego zastosowania. Rozwój kolejnych zastosowań mieszczących się w celu określonym w ust.~1 nie stanowi istotnej zmiany profilu działalności w rozumieniu §~\ref{art:walne-zastrzezone}.
   \item Rozwiązania Spółki są przeznaczone w szczególności do zastosowań cywilnych, przemysłowych, rolniczych, ratowniczych, infrastrukturalnych, bezpieczeństwa i obronności, przy zachowaniu zgodności z prawem oraz wymogami bezpieczeństwa państw Unii Europejskiej i NATO.
-  \item \ZM Działalność wymagająca koncesji, zezwolenia, licencji, certyfikacji, wpisu do rejestru albo poświadczenia bezpieczeństwa może być rozpoczęta dopiero po spełnieniu odpowiednich wymogów. Dotyczy to w szczególności koncesji na wykonywanie działalności gospodarczej w zakresie wytwarzania i obrotu materiałami wybuchowymi, bronią, amunicją oraz wyrobami i technologią o przeznaczeniu wojskowym lub policyjnym, certyfikacji lotniczej bezzałogowych systemów powietrznych oraz zezwoleń wymaganych przepisami o kontroli obrotu towarami o znaczeniu strategicznym.
+  \item Działalność wymagająca koncesji, zezwolenia, licencji, certyfikacji, wpisu do rejestru albo poświadczenia bezpieczeństwa może być rozpoczęta dopiero po spełnieniu odpowiednich wymogów. Dotyczy to w szczególności koncesji na wykonywanie działalności gospodarczej w zakresie wytwarzania i obrotu materiałami wybuchowymi, bronią, amunicją oraz wyrobami i technologią o przeznaczeniu wojskowym lub policyjnym, certyfikacji lotniczej bezzałogowych systemów powietrznych oraz zezwoleń wymaganych przepisami o kontroli obrotu towarami o znaczeniu strategicznym.
 \end{enumerate}
 
-\begin{Bylo}
-ust.~1: „Głównym celem Spółki jest projektowanie, rozwój, produkcja, integracja i komercjalizacja bezzałogowych statków powietrznych, w szczególności autonomicznych rojów dronów, systemów ich dowodzenia, koordynacji, łączności, percepcji i obsługi misji.”
-
-ust.~2: „Spółka może również rozwijać powiązane roboty lądowe, jednostki nawodne, maszyny autonomiczne, sztuczną inteligencję fizyczną i ucieleśnioną oraz inne technologie podwójnego zastosowania, wspierające zasadniczą działalność w obszarze systemów bezzałogowych.”
-
-ust.~4 (przekreślony, przeznaczony do usunięcia): „Działalność wymagająca koncesji, zezwolenia, licencji, certyfikacji, wpisu do rejestru albo poświadczenia bezpieczeństwa może być rozpoczęta dopiero po spełnieniu odpowiednich wymogów.”
-\end{Bylo}
 \end{ContractClause}
 
 
 \begin{ContractClause}{Przedmiot działalności i PKD 2025}
 \label{art:pkd}
-\ZmianaKomentarz{1}{Spójnie z §~\ref{art:cel}: plan działalności opisano jako rozwój fizycznej sztucznej inteligencji i systemów autonomicznych, których pierwszym zastosowaniem są bezzałogowe statki powietrzne. Zmieniono działalność przeważającą z 30.31.Z (produkcja cywilnych statków powietrznych) na 72.10.Z (badania naukowe i prace rozwojowe) --- lepiej oddaje charakter spółki AI-first na etapie B+R i bywa korzystniejsza przy programach grantowych; 30.31.Z pozostaje w katalogu na drugiej pozycji. DECYZJA DO POTWIERDZENIA z doradcą (statystyka GUS, wymogi konkretnych programów finansowania, sprawozdawczość) --- jeżeli spółka od początku będzie przede wszystkim produkować sprzęt, zasadne może być pozostanie przy 30.31.Z.}
-\ZmianaKomentarz{2}{Przywrócono (cofnięto przekreślenie) klauzulę koncesyjną z ust.~8 --- uzasadnienie jak w §~\ref{art:cel}: ustawa z 13 czerwca 2019 r. (Dz.U. 2019 poz.~1214 ze zm.), przepisy o kontroli obrotu towarami o znaczeniu strategicznym oraz przepisy lotnicze.}
 \begin{enumerate}
-\item \ZM \textbf{Plan działalności Spółki.} Podstawową działalnością Spółki jest projektowanie, badanie i rozwój fizycznej (ucieleśnionej) sztucznej inteligencji oraz systemów autonomicznych --- w szczególności oprogramowania autonomii, percepcji, koordynacji zespołowej, dowodzenia, sterowania, misji, łączności, nawigacji, telemetrii i zarządzania flotą --- oraz produkcja, integracja, wdrażanie, sprzedaż i serwis wykorzystujących te technologie cywilnych bezzałogowych statków powietrznych, w szczególności autonomicznych rojów dronów, wraz z infrastrukturą operatorską. Działalność ta obejmuje zarówno własne platformy sprzętowe, jak i oprogramowanie oraz integrację komponentów dostarczanych przez podmioty trzecie.
+\item \textbf{Plan działalności Spółki.} Podstawową działalnością Spółki jest projektowanie, badanie i rozwój fizycznej (ucieleśnionej) sztucznej inteligencji oraz systemów autonomicznych --- w szczególności oprogramowania autonomii, percepcji, koordynacji zespołowej, dowodzenia, sterowania, misji, łączności, nawigacji, telemetrii i zarządzania flotą --- oraz produkcja, integracja, wdrażanie, sprzedaż i serwis wykorzystujących te technologie cywilnych bezzałogowych statków powietrznych, w szczególności autonomicznych rojów dronów, wraz z infrastrukturą operatorską. Działalność ta obejmuje zarówno własne platformy sprzętowe, jak i oprogramowanie oraz integrację komponentów dostarczanych przez podmioty trzecie.
 \item Spółka prowadzi badania naukowe i prace rozwojowe oraz działalność inżynieryjną i programistyczną dotyczącą robotyki, autonomii zespołowej, sztucznej inteligencji fizycznej i ucieleśnionej, widzenia komputerowego, fuzji sensorów, systemów nawigacyjnych i pomiarowych, działania w środowisku bez dostępu do globalnych systemów nawigacji satelitarnej, symulacji, cyfrowych bliźniaków, generowania danych syntetycznych, testowania i walidacji systemów autonomicznych.
 \item Działalność uzupełniająca obejmuje projektowanie, produkcję, integrację, instalowanie, diagnostykę, naprawę, konserwację i modernizację mobilnych robotów lądowych, autonomicznych pojazdów i maszyn dla rolnictwa i leśnictwa, autonomicznych i zdalnie sterowanych jednostek nawodnych, stacji naziemnych, doków, systemów ładowania, komputerów pokładowych, autopilotów, sensorów, aparatury pomiarowej i nawigacyjnej oraz infrastruktury obliczeniowej i przetwarzania danych wykorzystywanej do obsługi takich systemów.
 \item Spółka może rozwijać prototypy, demonstratory technologii, platformy badawcze i krótkie serie przedprodukcyjne oraz wdrażać rozwiązania dla zastosowań cywilnych, przemysłowych, infrastrukturalnych, ratowniczych, rolniczych, leśnych, morskich, bezpieczeństwa publicznego i ochrony infrastruktury krytycznej. W dalszym etapie Spółka może rozwijać także warianty przeznaczone do zastosowań obronnych lub wojskowych, wyłącznie po spełnieniu właściwych wymogów prawa.
-\item \ZM \textbf{Kody PKD 2025 przewidziane do ujawnienia przy pierwszym wpisie do KRS:}
+\item \textbf{Kody PKD 2025 przewidziane do ujawnienia przy pierwszym wpisie do KRS:}
 \begin{enumerate}
 \item \textbf{72.10.Z — Badania naukowe i prace rozwojowe w dziedzinie nauk przyrodniczych i technicznych} — działalność przeważająca;
 \item \textbf{30.31.Z — Produkcja cywilnych statków powietrznych, statków kosmicznych i podobnych maszyn};
@@ -199,16 +145,8 @@ ust.~4 (przekreślony, przeznaczony do usunięcia): „Działalność wymagając
 \item \textbf{33.18.Z — Naprawa i konserwacja wojskowych pojazdów bojowych, okrętów, łodzi, statków powietrznych i statków kosmicznych}.
 \end{enumerate}
 \item Ujęcie określonego rodzaju działalności w niniejszym paragrafie nie oznacza obowiązku jego natychmiastowego rozpoczęcia. Spółka może rozwijać poszczególne obszary etapowo, odpowiednio do rozwoju produktów, technologii, kompetencji, finansowania i potrzeb rynku.
-\item \ZM Działalność podlegająca koncesji, zezwoleniu, licencji, certyfikacji albo innym szczególnym wymogom może być rozpoczęta dopiero po spełnieniu wymagań wynikających z właściwych przepisów prawa, w szczególności ustawy z dnia 13 czerwca 2019 r. o wykonywaniu działalności gospodarczej w zakresie wytwarzania i obrotu materiałami wybuchowymi, bronią, amunicją oraz wyrobami i technologią o przeznaczeniu wojskowym lub policyjnym, przepisów o kontroli obrotu towarami o znaczeniu strategicznym oraz przepisów prawa lotniczego i regulacji Unii Europejskiej dotyczących bezzałogowych systemów powietrznych.
+\item Działalność podlegająca koncesji, zezwoleniu, licencji, certyfikacji albo innym szczególnym wymogom może być rozpoczęta dopiero po spełnieniu wymagań wynikających z właściwych przepisów prawa, w szczególności ustawy z dnia 13 czerwca 2019 r. o wykonywaniu działalności gospodarczej w zakresie wytwarzania i obrotu materiałami wybuchowymi, bronią, amunicją oraz wyrobami i technologią o przeznaczeniu wojskowym lub policyjnym, przepisów o kontroli obrotu towarami o znaczeniu strategicznym oraz przepisów prawa lotniczego i regulacji Unii Europejskiej dotyczących bezzałogowych systemów powietrznych.
 \end{enumerate}
-
-\begin{Bylo}
-ust.~1, zdanie pierwsze: „Podstawową działalnością Spółki jest projektowanie, badanie, rozwój, produkcja, integracja, wdrażanie, sprzedaż i serwis cywilnych bezzałogowych statków powietrznych, w szczególności autonomicznych rojów dronów, wraz z systemami dowodzenia, sterowania, koordynacji misji, łączności, percepcji, nawigacji, telemetrii, zarządzania flotą i infrastrukturą operatorską.”
-
-ust.~5 lit.~a: „30.31.Z --- Produkcja cywilnych statków powietrznych, statków kosmicznych i podobnych maszyn --- działalność przeważająca” (72.10.Z było na pozycji trzeciej, bez statusu działalności przeważającej).
-
-ust.~8 (przekreślony, przeznaczony do usunięcia): „Działalność podlegająca koncesji, zezwoleniu, licencji, certyfikacji albo innym szczególnym wymogom może być rozpoczęta dopiero po spełnieniu wymagań wynikających z właściwych przepisów prawa.”
-\end{Bylo}
 \end{ContractClause}
 \begin{ContractClause}{Akcje i kapitał akcyjny}
 \label{art:akcje}
@@ -257,37 +195,26 @@ E & \field{imię, nazwisko, PESEL/adres} & 100 000 & 10\% \\
 
 \begin{ContractClause}{Wkłady Założycieli}
 \label{art:wklady}
-\ZmianaKomentarz{7}{Dopuszczono wkłady pieniężne obok niepieniężnych. Dotychczas akcje obejmowano wyłącznie za IP i sprzęt, przez co Spółka rodziła się bez gotówki --- a P.S.A. nie zna instytucji dopłat znanej ze spółki z o.o. Wkłady pieniężne (kwoty w Załączniku nr~1) są w całości przeznaczane na kapitał akcyjny i wnoszone przed wpisem do rejestru, co zapewnia środki operacyjne od pierwszego dnia. Dodano też wyraźne odesłanie do pożyczek założycielskich. Wyłączenie pracy i usług jako wkładu pozostaje bez zmian (świadomie --- upraszcza wycenę i sytuację podatkową).}
 \begin{enumerate}
-  \item \ZM Akcje serii A są obejmowane w zamian za wkłady niepieniężne oraz wkłady pieniężne, w postaci:
+  \item Akcje serii A są obejmowane w zamian za wkłady niepieniężne oraz wkłady pieniężne, w postaci:
   \begin{enumerate}[label=\alph*)]
     \item autorskich praw majątkowych do kodu źródłowego, kodu wynikowego, modeli, bibliotek, dokumentacji technicznej i innych elementów oprogramowania opisanych w Załączniku nr 1;
     \item prawa własności urządzeń, komputerów, komponentów elektronicznych, sensorów, aparatury laboratoryjnej, narzędzi i innego sprzętu opisanego w Załączniku nr 1;
     \item patentów, praw z patentów, praw ochronnych, praw do uzyskania patentu lub innych praw do wynalazków i zgłoszeń opisanych w Załączniku nr 1;
-    \item \NOWE wkładów pieniężnych w kwotach określonych w Załączniku nr 1.
+    \item wkładów pieniężnych w kwotach określonych w Załączniku nr 1.
   \end{enumerate}
   \item Praca, świadczenie usług, know-how nieutrwalone w zidentyfikowanej dokumentacji ani inne świadczenia osobiste nie stanowią wkładów Założycieli na pokrycie akcji serii A.
-  \item \ZM Wartość przypisana każdemu wkładowi niepieniężnemu oraz kwota wkładu pieniężnego każdego Założyciela są określone w Załączniku nr 1. Łączna wartość wkładów przypisanych danemu Założycielowi odpowiada co najmniej łącznej cenie emisyjnej obejmowanych przez niego akcji.
-  \item \ZM Na kapitał akcyjny przeznacza się wkłady pieniężne w łącznej kwocie określonej w Załączniku nr 1, nie niższej niż 1,00 zł. Przed złożeniem wniosku o wpis Spółki do rejestru Założyciele wniosą w całości wkłady pieniężne. Pozostałe wkłady zostaną wniesione najpóźniej w terminie 14 dni od dnia wpisu Spółki do rejestru przedsiębiorców. Dokumenty rozporządzające prawami własności intelektualnej powinny zostać podpisane najpóźniej w dniu zawarcia niniejszej umowy, ze skutkiem dla Spółki w organizacji albo — jeżeli wymaga tego charakter prawa — ze skutkiem na dzień wpisu Spółki do rejestru.
+  \item Wartość przypisana każdemu wkładowi niepieniężnemu oraz kwota wkładu pieniężnego każdego Założyciela są określone w Załączniku nr 1. Łączna wartość wkładów przypisanych danemu Założycielowi odpowiada co najmniej łącznej cenie emisyjnej obejmowanych przez niego akcji.
+  \item Na kapitał akcyjny przeznacza się wkłady pieniężne w łącznej kwocie określonej w Załączniku nr 1, nie niższej niż 1,00 zł. Przed złożeniem wniosku o wpis Spółki do rejestru Założyciele wniosą w całości wkłady pieniężne. Pozostałe wkłady zostaną wniesione najpóźniej w terminie 14 dni od dnia wpisu Spółki do rejestru przedsiębiorców. Dokumenty rozporządzające prawami własności intelektualnej powinny zostać podpisane najpóźniej w dniu zawarcia niniejszej umowy, ze skutkiem dla Spółki w organizacji albo — jeżeli wymaga tego charakter prawa — ze skutkiem na dzień wpisu Spółki do rejestru.
   \item Jeżeli skuteczne przeniesienie danego prawa wymaga odrębnej formy, zgody, wpisu, zawiadomienia lub protokołu wydania, właściwy Założyciel jest zobowiązany niezwłocznie dokonać wszystkich wymaganych czynności na własny koszt.
   \item Do czasu skutecznego wniesienia wkładu Założyciel nie może rozporządzać jego przedmiotem, obciążać go ani udzielać praw osobom trzecim, poza niewyłączną licencją konieczną do bieżącej działalności Spółki, udzieloną Spółce nieodpłatnie i bez ograniczeń terytorialnych.
-  \item \NOWE Niezależnie od wkładów Założyciel może udzielić Spółce pożyczki na warunkach rynkowych; do takiej pożyczki stosuje się §~\ref{art:finansowanie} oraz §~\ref{art:transakcje-akcjonariusze}.
+  \item Niezależnie od wkładów Założyciel może udzielić Spółce pożyczki na warunkach rynkowych; do takiej pożyczki stosuje się §~\ref{art:finansowanie} oraz §~\ref{art:transakcje-akcjonariusze}.
 \end{enumerate}
 
-\begin{Bylo}
-ust.~1, zdanie wprowadzające: „Akcje serii A są obejmowane wyłącznie w zamian za wkłady niepieniężne w postaci:” (bez lit.~d).
-
-ust.~3: „Wartość przypisana każdemu wkładowi niepieniężnemu jest określona w Załączniku nr 1. Łączna wartość wkładów przypisanych danemu Założycielowi odpowiada co najmniej łącznej cenie emisyjnej obejmowanych przez niego akcji.”
-
-ust.~4, zdania pierwsze i drugie: „Przed złożeniem wniosku o wpis Spółki do rejestru Założyciele wniosą wkłady przeznaczone na kapitał akcyjny o łącznej wartości co najmniej 1,00 zł. Pozostałe wkłady zostaną wniesione najpóźniej w terminie 14 dni od dnia wpisu Spółki do rejestru przedsiębiorców.”
-
-ust.~7: nie istniał.
-\end{Bylo}
 \end{ContractClause}
 
 \begin{ContractClause}{Program motywacyjny — pula 15\% po pełnym rozwodnieniu}
 \label{art:program-motywacyjny}
-\ZmianaKomentarz{11}{Treść normatywna paragrafu BEZ ZMIAN. Dodano wyłącznie niniejszy wskaźnik: opodatkowanie objęcia akcji serii P po cenie emisyjnej 0,01 zł oraz stosowalność preferencji z art.~24 ust.~11--12b ustawy o PIT do prostej spółki akcyjnej to znany punkt sporny --- omówienie i zalecenie wystąpienia o interpretację indywidualną przed pierwszym grantem zawiera NOWY Załącznik nr~11.}
 \begin{enumerate}
   \item Tworzy się docelową pulę programu motywacyjnego dla kluczowych pracowników, współpracowników, dyrektorów i doradców Spółki, odpowiadającą maksymalnie \textbf{176 471 (stu siedemdziesięciu sześciu tysiącom czterystu siedemdziesięciu jednej)} akcji serii P.
   \item Przy założeniu wyemitowania wszystkich 176 471 akcji serii P i braku innych emisji, łączna liczba akcji po pełnym wykorzystaniu puli wyniesie 1 176 471, a pula programu motywacyjnego będzie odpowiadała 15\% po pełnym rozwodnieniu po zaokrągleniu do jednej dziesiątej punktu procentowego. Różnica od matematycznie dokładnych 15\% wynika wyłącznie z niepodzielności akcji.
@@ -303,7 +230,6 @@ ust.~7: nie istniał.
 
 \begin{ContractClause}{Założyciele Funkcjonalni Serii F — późniejsi współzałożyciele}
 \label{art:seria-f}
-\ZmianaKomentarz{16}{Rewizja 0.9.3 (Etap 2). W ust.~10 uzupełniono enumerację zasad stosowanych do Założyciela Funkcjonalnego Serii F o Odejście Dobrowolne (wyliczenie po słowach „w tym” było przykładowe, więc pominięcie nie zmieniało normy, ale groziło sporem interpretacyjnym).}
 \begin{enumerate}
   \item „Założycielem Funkcjonalnym Serii F” może zostać wyłącznie osoba fizyczna, która po zawiązaniu Spółki obejmuje trwałą, strategiczną i osobistą odpowiedzialność za istotny obszar rozwoju Spółki, porównywalną co do znaczenia z rolą Założyciela Pierwotnego, oraz zobowiązuje się do długoterminowego, istotnego zaangażowania operacyjnego w rozwój Spółki. Sam status pracownika, współpracownika, dyrektora albo doradcy nie jest wystarczający do uzyskania tego statusu. Posiadanie akcji serii A ani status Założyciela Pierwotnego nie wyłączają możliwości uzyskania tego statusu ani objęcia akcji serii F.
   \item Nadanie statusu Założyciela Funkcjonalnego Serii F wymaga uchwały Walnego Zgromadzenia podjętej większością 75\% Głosów Uprawnionych w Sprawie. Kandydat będący akcjonariuszem jest wyłączony od głosowania w tej sprawie. Uchwała określa co najmniej rolę strategiczną, minimalny zakres zaangażowania, maksymalną liczbę akcji serii F przewidzianych dla danej osoby oraz „Dzień Przyznania Serii F”, od którego liczy się okres stopniowego zwalniania akcji z obowiązku zbycia.
@@ -313,14 +239,10 @@ ust.~7: nie istniał.
   \item Akcje serii F są zwykłymi akcjami imiennymi. Każda akcja serii F daje prawo do jednego głosu na Walnym Zgromadzeniu oraz, na równi z akcjami serii A, prawo do dywidendy i udziału w majątku pozostałym po likwidacji, z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa i postanowień niniejszej umowy.
   \item \BoilerplateStrike{Cena emisyjna, rodzaj i wartość wkładu oraz pozostałe warunki objęcia akcji serii F są określane w uchwale emisyjnej i umowie objęcia akcji zgodnie z KSH.} Jeżeli wkład obejmuje świadczenie pracy lub usług, uchwała i umowa objęcia określają rodzaj i czas świadczenia zgodnie z art. 300$^{104}$ § 1 pkt 7 KSH.
   \item Okres 48 miesięcy stopniowego zwalniania akcji serii F z obowiązku zbycia liczy się od Dnia Przyznania Serii F wskazanego w uchwale kwalifikacyjnej. Jeżeli akcje serii F powstaną później, przy ich powstaniu uwzględnia się okres nieprzerwanego, zgodnego z uchwałą zaangażowania od Dnia Przyznania Serii F; żadne prawa z akcji ani zwolnienie konkretnych akcji nie powstają jednak przed powstaniem samych akcji.
-  \item \ZM Od chwili powstania akcji serii F do Założyciela Funkcjonalnego Serii F i jego akcji stosuje się odpowiednio w całości §~\ref{art:zwrotne-zbycie}, w tym zasady Odejścia Usprawiedliwionego, Odejścia Dobrowolnego, Odejścia Zawinionego, przyspieszonego zwolnienia, obowiązkowego zbycia, Wartości Godziwej i odrębnej umowy wykonawczej. Uchwała kwalifikacyjna i umowa wykonawcza określają dane niezbędne do zastosowania tego mechanizmu do konkretnej osoby.
+  \item Od chwili powstania akcji serii F do Założyciela Funkcjonalnego Serii F i jego akcji stosuje się odpowiednio w całości §~\ref{art:zwrotne-zbycie}, w tym zasady Odejścia Usprawiedliwionego, Odejścia Dobrowolnego, Odejścia Zawinionego, przyspieszonego zwolnienia, obowiązkowego zbycia, Wartości Godziwej i odrębnej umowy wykonawczej. Uchwała kwalifikacyjna i umowa wykonawcza określają dane niezbędne do zastosowania tego mechanizmu do konkretnej osoby.
   \item Akcje serii F podlegają na zasadach ogólnych postanowieniom o Dopuszczalnym Nabywcy, Prawnie Niedopuszczalnym Posiadaczu, prawie pierwszeństwa, prawie przyłączenia, prawie przymusowego współzbycia oraz ograniczeniu zbywania określonemu w §~\ref{art:okres-ograniczenia-zbywania}. Dla Założyciela Funkcjonalnego Serii F 12-miesięczny Okres Ograniczenia Zbywania Akcji liczy się od jego Dnia Przyznania Serii F.
   \item Seria F jest całkowicie odrębna od serii P. Emisja akcji serii F nie zmniejsza ani nie konsumuje puli programu motywacyjnego serii P, a przyznanie akcji serii P tej samej osobie wymaga odrębnej podstawy i nie jest zaliczane na limit serii F.
 \end{enumerate}
-
-\begin{Bylo}
-Rewizja 0.9.3 --- ust.~10 w brzmieniu rewizji 0.9 (i 0.8) wymieniał „[...] w tym zasady Odejścia Usprawiedliwionego, Odejścia Zawinionego, przyspieszonego zwolnienia [...]” --- bez Odejścia Dobrowolnego.
-\end{Bylo}
 \end{ContractClause}
 
 
@@ -328,9 +250,6 @@ Rewizja 0.9.3 --- ust.~10 w brzmieniu rewizji 0.9 (i 0.8) wymieniał „[...] w 
 
 \begin{ContractClause}{Akcjonariusze Funkcjonalni i mechanizm zwrotnego zbycia akcji}
 \label{art:zwrotne-zbycie}
-\ZmianaKomentarz{15}{Rewizja 0.9.3 (Etap 2). Doprecyzowanie lit.~e definicji Odejścia Zawinionego: rezygnacja jest w praktyce „odmową dalszego wykonywania obowiązków”, a definicja Odejścia Dobrowolnego wyklucza je przy wystąpieniu jakiegokolwiek zdarzenia z katalogu Zawinionego --- Spółka w konflikcie z odchodzącym miała więc gotowy argument, by każdą rezygnację przekwalifikować na Zawinione (80\% zamiast 100\% Wartości Godziwej za akcje zwolnione). Po zmianie rezygnacja z zachowaniem co najmniej 30-dniowego okresu przejściowego i należytym wykonywaniem obowiązków w tym okresie nie wypełnia lit.~e; pozostałe litery (a--d) stosują się bez zmian, więc realne przewinienia nadal wyłączają kwalifikację Dobrowolną.}
-\ZmianaKomentarz{16}{Rewizja 0.9.3 (Etap 2). Enumeracja w ustępie o odrębnej umowie wykonawczej nie nadążyła za ZMIANĄ 5: wymieniała tylko stwierdzanie Odejścia Usprawiedliwionego i Zawinionego, choć przy Odejściu Dobrowolnym umowa wykonawcza musi obsłużyć zarówno obowiązkowe zbycie akcji niezwolnionych, jak i 6-miesięczną opcję nabycia akcji zwolnionych po 100\% Wartości Godziwej. Uzupełniono; analogiczne uzupełnienia enumeracji w §~\ref{art:seria-f} ust.~10 i w Załączniku nr~4 (informacyjnym).}
-\ZmianaKomentarz{5}{Wyodrębniono trzecią kategorię --- „Odejście Dobrowolne”. Dotychczas dobrowolne odejście przed upływem 48 miesięcy było Odejściem Zawinionym, co pozwalało odebrać także akcje już zwolnione (vested) za 80\% Wartości Godziwej. To ostrzejsze niż standard rynkowy i zniechęca kandydatów na Założycieli Funkcjonalnych Serii F. Po zmianie: przy Odejściu Dobrowolnym akcje niezwolnione podlegają zbyciu po cenie emisyjnej (jak dotąd), akcje zwolnione pozostają przy odchodzącym, a Spółka ma jedynie terminową opcję wskazania nabywcy po pełnej (100\%) Wartości Godziwej. Odejście Zawinione zarezerwowano wyłącznie dla realnych przewinień (lit.~a--e).}
 \begin{enumerate}
   \item Na potrzeby niniejszego paragrafu „Akcjonariuszem Funkcjonalnym” jest: (a) Założyciel Pierwotny wskazany w Załączniku nr 2, który zobowiązał się do stałego, osobistego i istotnego zaangażowania operacyjnego w rozwój Spółki, albo (b) Założyciel Funkcjonalny Serii F od chwili powstania przysługujących mu akcji serii F.
   \item Akcje Akcjonariusza Funkcjonalnego podlegają mechanizmowi stopniowego zwalniania akcji z obowiązku zbycia przez okres 48 miesięcy: dla Założyciela Pierwotnego od daty rozpoczęcia wskazanej w Załączniku nr 2, a dla Założyciela Funkcjonalnego Serii F od Dnia Przyznania Serii F określonego zgodnie z §~\ref{art:seria-f}, na następujących zasadach:
@@ -348,15 +267,15 @@ Rewizja 0.9.3 --- ust.~10 w brzmieniu rewizji 0.9 (i 0.8) wymieniał „[...] w 
     \item uzgodnionego odejścia zatwierdzonego uchwałą Walnego Zgromadzenia większością 75\% wszystkich głosów;
     \item innego zdarzenia uznanego uchwałą Walnego Zgromadzenia za Odejście Usprawiedliwione.
   \end{enumerate}
-  \item \ZM „Odejście Zawinione” oznacza wyłącznie ustanie zaangażowania w związku z co najmniej jednym z następujących zdarzeń:
+  \item „Odejście Zawinione” oznacza wyłącznie ustanie zaangażowania w związku z co najmniej jednym z następujących zdarzeń:
   \begin{enumerate}[label=\alph*)]
     \item umyślnym naruszeniem lub rażącym niedbalstwem wobec Spółki;
     \item oszustwem, przywłaszczeniem, działaniem na szkodę Spółki albo popełnieniem przestępstwa istotnego dla zaufania lub bezpieczeństwa;
     \item naruszeniem poufności, praw własności intelektualnej, zakazu konkurencji, przepisów sankcyjnych, kontroli eksportu albo zasad cyberbezpieczeństwa;
     \item zatajeniem praw osoby trzeciej do technologii, kodu, patentu, danych lub sprzętu wniesionego albo wykorzystywanego przez Spółkę;
-    \item \ZM porzuceniem obowiązków albo odmową ich wykonywania przez co najmniej 30 dni po bezskutecznym pisemnym wezwaniu; złożenie rezygnacji z zachowaniem co najmniej 30-dniowego okresu przejściowego oraz należyte wykonywanie obowiązków w tym okresie nie stanowi porzucenia obowiązków ani odmowy ich wykonywania w rozumieniu niniejszej litery.
+    \item porzuceniem obowiązków albo odmową ich wykonywania przez co najmniej 30 dni po bezskutecznym pisemnym wezwaniu; złożenie rezygnacji z zachowaniem co najmniej 30-dniowego okresu przejściowego oraz należyte wykonywanie obowiązków w tym okresie nie stanowi porzucenia obowiązków ani odmowy ich wykonywania w rozumieniu niniejszej litery.
   \end{enumerate}
-  \item \NOWE „Odejście Dobrowolne” oznacza ustanie funkcjonalnego zaangażowania wskutek dobrowolnej rezygnacji Akcjonariusza Funkcjonalnego przed upływem 48 miesięcy, które nie stanowi Odejścia Usprawiedliwionego i nie jest związane z żadnym ze zdarzeń wymienionych w definicji Odejścia Zawinionego. Wystąpienie zdarzenia z definicji Odejścia Zawinionego przed ustaniem zaangażowania albo jego ujawnienie po ustaniu zaangażowania wyłącza kwalifikację odejścia jako Dobrowolnego.
+  \item „Odejście Dobrowolne” oznacza ustanie funkcjonalnego zaangażowania wskutek dobrowolnej rezygnacji Akcjonariusza Funkcjonalnego przed upływem 48 miesięcy, które nie stanowi Odejścia Usprawiedliwionego i nie jest związane z żadnym ze zdarzeń wymienionych w definicji Odejścia Zawinionego. Wystąpienie zdarzenia z definicji Odejścia Zawinionego przed ustaniem zaangażowania albo jego ujawnienie po ustaniu zaangażowania wyłącza kwalifikację odejścia jako Dobrowolnego.
   \item W przypadku Odejścia Usprawiedliwionego:
   \begin{enumerate}[label=\alph*)]
     \item akcje zwolnione z obowiązku zbycia pozostają przy Akcjonariuszu Funkcjonalnym;
@@ -369,7 +288,7 @@ Rewizja 0.9.3 --- ust.~10 w brzmieniu rewizji 0.9 (i 0.8) wymieniał „[...] w 
     \item akcje zwolnione z obowiązku zbycia mogą zostać objęte prawem nabycia przez wskazanego przez Spółkę Dopuszczalnego Nabywcę po cenie odpowiadającej 80\% Wartości Godziwej, nie niższej jednak niż cena emisyjna i z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa;
     \item powyższe nie wyłącza roszczeń Spółki o naprawienie szkody ani innych środków ochrony.
   \end{enumerate}
-  \item \NOWE W przypadku Odejścia Dobrowolnego:
+  \item W przypadku Odejścia Dobrowolnego:
   \begin{enumerate}[label=\alph*)]
     \item akcje nadal podlegające obowiązkowi zbycia podlegają zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy po cenie równej ich cenie emisyjnej;
     \item akcje zwolnione z obowiązku zbycia pozostają przy Akcjonariuszu Funkcjonalnym; Spółka może jednak, w terminie 6 miesięcy od dnia Odejścia Dobrowolnego, wskazać Dopuszczalnego Nabywcę uprawnionego do nabycia całości albo części tych akcji po cenie równej 100\% Wartości Godziwej; po bezskutecznym upływie tego terminu prawo nabycia wygasa;
@@ -378,18 +297,10 @@ Rewizja 0.9.3 --- ust.~10 w brzmieniu rewizji 0.9 (i 0.8) wymieniał „[...] w 
   \item W razie zmiany kontroli nad Spółką, a następnie — w ciągu 12 miesięcy — rozwiązania współpracy z Akcjonariuszem Funkcjonalnym przez Spółkę bez istotnej przyczyny, wszystkie pozostałe akcje objęte mechanizmem zostają zwolnione z obowiązku zbycia.
   \item Mechanizm zwrotnego zbycia akcji nie stanowi umorzenia akcji ani zobowiązania Spółki do nabycia akcji własnych. Nabycie akcji własnych przez Spółkę albo umorzenie akcji może nastąpić wyłącznie w odrębnym trybie i po spełnieniu właściwych wymogów prawa.
   \item Nabywcą akcji w wykonaniu niniejszego mechanizmu nie może być Spółka ani osoba trzecia działająca na rachunek Spółki, chyba że nabycie następuje w odrębnym trybie zgodnym z art. 300$^{47}$ KSH i po spełnieniu wszystkich właściwych wymogów prawa.
-  \item \ZM Szczegółowy tryb wykonania obowiązku zbycia, w tym zdarzenie uruchamiające procedurę, sposób stwierdzenia Odejścia Usprawiedliwionego, Odejścia Dobrowolnego albo Odejścia Zawinionego, tryb wykonania i rozliczenia prawa nabycia akcji zwolnionych z obowiązku zbycia przy Odejściu Dobrowolnym (w tym sposób liczenia 6-miesięcznego terminu i skutek jego bezskutecznego upływu), wskazanie Dopuszczalnego Nabywcy, ofertę sprzedaży, ograniczone pełnomocnictwo, terminy wykonania, sposób zapłaty i moment przeniesienia akcji, określa odrębna umowa wykonawcza podpisana przez każdego Akcjonariusza Funkcjonalnego najpóźniej w dniu objęcia mechanizmem.
+  \item Szczegółowy tryb wykonania obowiązku zbycia, w tym zdarzenie uruchamiające procedurę, sposób stwierdzenia Odejścia Usprawiedliwionego, Odejścia Dobrowolnego albo Odejścia Zawinionego, tryb wykonania i rozliczenia prawa nabycia akcji zwolnionych z obowiązku zbycia przy Odejściu Dobrowolnym (w tym sposób liczenia 6-miesięcznego terminu i skutek jego bezskutecznego upływu), wskazanie Dopuszczalnego Nabywcy, ofertę sprzedaży, ograniczone pełnomocnictwo, terminy wykonania, sposób zapłaty i moment przeniesienia akcji, określa odrębna umowa wykonawcza podpisana przez każdego Akcjonariusza Funkcjonalnego najpóźniej w dniu objęcia mechanizmem.
   \item Obowiązek zbycia akcji określony w niniejszym paragrafie stanowi obowiązek związany z akcją wobec Spółki. Spółka podejmuje czynności niezbędne do ujawnienia właściwych ograniczeń rozporządzania akcją i obowiązków związanych z akcją w rejestrze akcjonariuszy w zakresie przewidzianym przez KSH.
   \item W razie niewykonania obowiązku zbycia przez Akcjonariusza Funkcjonalnego Spółka albo uprawniony Dopuszczalny Nabywca może dochodzić wykonania obowiązku zgodnie z prawem, w tym --- jeżeli zachodzą ustawowe przesłanki --- wydania orzeczenia zastępującego wymagane oświadczenie woli zgodnie z art. 64 Kodeksu cywilnego w związku z art. 1047 § 1 Kodeksu postępowania cywilnego. Odrębna umowa wykonawcza powinna określać pełnomocnika w sposób wykluczający niedopuszczalną czynność z samym sobą lub reprezentowanie obu stron bez wymaganej podstawy prawnej.
 \end{enumerate}
-
-\begin{Bylo}
-Definicja Odejścia Zawinionego zawierała dodatkową lit.~f: „dobrowolnym odejściem przed upływem 48 miesięcy bez zgody Walnego Zgromadzenia i bez okoliczności stanowiącej Odejście Usprawiedliwione.” --- lit.~f usunięto; jej zakres przejęła nowa kategoria „Odejście Dobrowolne”.
-
-Definicja „Odejścia Dobrowolnego” oraz ustęp o skutkach Odejścia Dobrowolnego nie istniały; skutki dobrowolnego odejścia wynikały z reżimu Odejścia Zawinionego (zbycie akcji niezwolnionych po cenie emisyjnej oraz prawo nabycia akcji zwolnionych po 80\% Wartości Godziwej).
-
-Rewizja 0.9.3 --- lit.~e w brzmieniu rewizji 0.9 (i 0.8): „porzuceniem obowiązków albo odmową ich wykonywania przez co najmniej 30 dni po bezskutecznym pisemnym wezwaniu.” (bez zdania o rezygnacji z okresem przejściowym). Ustęp o umowie wykonawczej w brzmieniu rewizji 0.9 (i 0.8) wymieniał „sposób stwierdzenia Odejścia Usprawiedliwionego albo Odejścia Zawinionego” --- bez Odejścia Dobrowolnego i trybu wykonania prawa nabycia akcji zwolnionych.
-\end{Bylo}
 \end{ContractClause}
 
 
@@ -397,20 +308,19 @@ Rewizja 0.9.3 --- lit.~e w brzmieniu rewizji 0.9 (i 0.8): „porzuceniem obowią
 
 \begin{ContractClause}{Dopuszczalny Nabywca, Niedopuszczalny Nabywca i zmiana stanu prawnego po nabyciu}
 \label{art:dopuszczalny-nabywca}
-\ZmianaKomentarz{3}{Usunięto niespójność strategiczną: dostęp do Kluczowej Własności Intelektualnej spoza UE/NATO wymagał zgody Rady (§~\ref{art:security} ust.~6), ale akcje mógł nabyć każdy niesankcjonowany podmiot z dowolnej jurysdykcji. Wprowadzono „Kryterium Bezpieczeństwa EU/NATO” jako obiektywne (niedyskrecjonalne) kryterium zgody Spółki na rozporządzenie akcją --- zgodnie z reżimem art.~300$^{39}$ KSH opisanym w §~\ref{art:zbywanie}. To nie przywraca uznaniowego weta usuniętego wcześniej (Załącznik nr~5 pkt~1): odmowa nadal wymaga wskazania konkretnej, obiektywnej podstawy, a nabywca spoza Kryterium może zostać dopuszczony uchwałą WZ. Kontekst biznesowy: struktura właścicielska spoza UE/NATO może wykluczać Spółkę z programów EDF, NATO DIANA i części zamówień obronnych. Dodano też ust.~o obowiązkach przyszłego nabywcy (domyka pkt~1 „Podsumowania audytu”: umowa nie może wiązać osoby trzeciej przed nabyciem akcji, więc obowiązki informacyjne obciążają do tego czasu zbywcę). Definicje Niedopuszczalnego Nabywcy i Prawnie Niedopuszczalnego Posiadacza --- bez zmian.}
 \begin{enumerate}
   \item „Dopuszczalnym Nabywcą” jest osoba fizyczna, osoba prawna albo inna jednostka organizacyjna, której nabycie akcji nie jest w chwili planowanego nabycia objęte bezwzględnie obowiązującym zakazem albo ograniczeniem prawnym uniemożliwiającym dokonanie transakcji.
   \item „Niedopuszczalnym Nabywcą” jest osoba lub podmiot, którego nabycie akcji jest w chwili planowanego nabycia objęte bezwzględnie obowiązującym zakazem albo ograniczeniem prawnym uniemożliwiającym dokonanie transakcji, w szczególności wiążącym zakazem dokonania transakcji, zakazem udostępnienia środków lub zasobów gospodarczych, zamrożeniem aktywów albo innym środkiem prawnym wyłączającym możliwość skutecznego nabycia akcji.
   \item „Prawnie Niedopuszczalnym Posiadaczem” jest akcjonariusz, który nabył akcje skutecznie i zgodnie z prawem, lecz po ich nabyciu powstał dotyczący tej osoby albo wykonywania praw z akcji bezwzględnie obowiązujący zakaz lub ograniczenie prawne dotyczące dalszego posiadania akcji, wykonywania praw z akcji, otrzymywania świadczeń z akcji albo rozporządzania akcjami, w szczególności obowiązek zamrożenia aktywów, zawieszenia określonych uprawnień albo zastosowania innego środka prawnego.
   \item Weryfikacja prawnej dopuszczalności nabycia służy wyłącznie ustaleniu, czy planowany nabywca nie jest Niedopuszczalnym Nabywcą. W szczególności może obejmować ustalenie tożsamości nabywcy, jego struktury własności i kontroli, beneficjentów rzeczywistych oraz innych informacji niezbędnych do ustalenia, czy transakcja jest prawnie dopuszczalna.
-  \item \ZM Sama narodowość, obywatelstwo, siedziba, miejsce zamieszkania albo jurysdykcja pochodzenia nabywcy nie czynią go Niedopuszczalnym Nabywcą, jeżeli nabycie akcji przez tę osobę lub podmiot jest zgodne z bezwzględnie obowiązującymi przepisami prawa. Niezależnie od tego, nabycie akcji przez osobę lub podmiot niespełniający Kryterium Bezpieczeństwa EU/NATO wymaga zgody Spółki udzielanej w trybie §~\ref{art:zbywanie}, obejmującym ustawowy mechanizm wskazania innego nabywcy z art.~300$^{39}$ KSH.
-  \item \NOWE „Kryterium Bezpieczeństwa EU/NATO” spełnia:
+  \item Sama narodowość, obywatelstwo, siedziba, miejsce zamieszkania albo jurysdykcja pochodzenia nabywcy nie czynią go Niedopuszczalnym Nabywcą, jeżeli nabycie akcji przez tę osobę lub podmiot jest zgodne z bezwzględnie obowiązującymi przepisami prawa. Niezależnie od tego, nabycie akcji przez osobę lub podmiot niespełniający Kryterium Bezpieczeństwa EU/NATO wymaga zgody Spółki udzielanej w trybie §~\ref{art:zbywanie}, obejmującym ustawowy mechanizm wskazania innego nabywcy z art.~300$^{39}$ KSH.
+  \item „Kryterium Bezpieczeństwa EU/NATO” spełnia:
   \begin{enumerate}[label=\alph*)]
     \item osoba fizyczna posiadająca obywatelstwo państwa członkowskiego Unii Europejskiej, Europejskiego Obszaru Gospodarczego albo NATO lub mająca stałe miejsce zamieszkania w takim państwie;
     \item osoba prawna albo jednostka organizacyjna, która ma siedzibę i rzeczywisty ośrodek zarządzania w państwie, o którym mowa w lit.~a, nie jest bezpośrednio ani pośrednio kontrolowana przez osobę lub podmiot spoza tych państw, a jej beneficjenci rzeczywiści spełniają kryterium określone w lit.~a.
   \end{enumerate}
   Walne Zgromadzenie może, uchwałą podjętą większością 75\% wszystkich głosów, stwierdzić spełnienie Kryterium Bezpieczeństwa EU/NATO w przypadku granicznym albo wyrazić zgodę na nabycie akcji przez osobę lub podmiot niespełniający tego Kryterium, jeżeli nabycie jest zgodne z bezwzględnie obowiązującymi przepisami prawa.
-  \item \NOWE Postanowienia niniejszej umowy nakładające obowiązki na osobę, która nie jest jeszcze akcjonariuszem ani stroną niniejszej umowy, wiążą tę osobę od chwili skutecznego nabycia akcji albo przystąpienia do umowy. Do tego czasu wykonanie tych obowiązków, w szczególności przekazanie informacji niezbędnych do weryfikacji, zapewnia zbywca, a ich niewykonanie wstrzymuje udzielenie zgody Spółki na rozporządzenie akcją zgodnie z §~\ref{art:zbywanie}.
+  \item Postanowienia niniejszej umowy nakładające obowiązki na osobę, która nie jest jeszcze akcjonariuszem ani stroną niniejszej umowy, wiążą tę osobę od chwili skutecznego nabycia akcji albo przystąpienia do umowy. Do tego czasu wykonanie tych obowiązków, w szczególności przekazanie informacji niezbędnych do weryfikacji, zapewnia zbywca, a ich niewykonanie wstrzymuje udzielenie zgody Spółki na rozporządzenie akcją zgodnie z §~\ref{art:zbywanie}.
   \item Każda osoba zamierzająca nabyć prawa dotyczące akcji jest zobowiązana, na uzasadnione żądanie Rady Dyrektorów, przedstawić dokumenty i informacje niezbędne do przeprowadzenia weryfikacji prawnej dopuszczalności nabycia.
   \item Weryfikację prawnej dopuszczalności nabycia przeprowadza Rada Dyrektorów na podstawie dokumentów przedstawionych przez nabywcę, publicznie dostępnych urzędowych wykazów oraz, w razie potrzeby, opinii prawnej. Rada Dyrektorów stwierdza wynik weryfikacji w formie uchwały lub protokołu. Uznanie nabywcy za Niedopuszczalnego Nabywcę wymaga wskazania konkretnej podstawy prawnej uniemożliwiającej planowane nabycie.
   \item Brak wystarczających informacji do zakończenia weryfikacji nie oznacza sam w sobie uznania osoby za Niedopuszczalnego Nabywcę, lecz wstrzymuje zakończenie transakcji do czasu uzyskania informacji koniecznych do ustalenia jej prawnej dopuszczalności.
@@ -418,12 +328,6 @@ Rewizja 0.9.3 --- lit.~e w brzmieniu rewizji 0.9 (i 0.8): „porzuceniem obowią
   \item Żaden organ Spółki nie może uznać Niedopuszczalnego Nabywcy za Dopuszczalnego Nabywcę, usunąć statusu Prawnie Niedopuszczalnego Posiadacza bez ustania, uchylenia albo stwierdzenia braku jego podstawy prawnej ani ustanowić wyjątku prowadzącego do czynności zakazanej przez bezwzględnie obowiązujące przepisy prawa. Żadne postanowienie niniejszej umowy nie upoważnia do dokonania zbycia, zapłaty, wypłaty świadczenia ani wykonania prawa z akcji w czasie, w którym dana czynność jest prawnie zakazana.
   \item Zasady określone w niniejszym paragrafie stosuje się odpowiednio do zastawu, użytkowania, powiernictwa, opcji, prawa do głosu, prawa do korzyści ekonomicznych, instrumentów zamiennych oraz innych konstrukcji, jeżeli ich ustanowienie, dalsze utrzymywanie albo wykonywanie na rzecz danej osoby lub podmiotu jest objęte bezwzględnie obowiązującym zakazem lub ograniczeniem prawnym.
 \end{enumerate}
-
-\begin{Bylo}
-ust.~5: „Sama narodowość, obywatelstwo, siedziba, miejsce zamieszkania albo jurysdykcja pochodzenia nabywcy nie stanowią samodzielnej podstawy odmowy uznania go za Dopuszczalnego Nabywcę, jeżeli nabycie akcji przez tę osobę lub podmiot jest zgodne z bezwzględnie obowiązującymi przepisami prawa.”
-
-Definicja „Kryterium Bezpieczeństwa EU/NATO” oraz ustęp o obowiązkach osoby niebędącej jeszcze akcjonariuszem nie istniały.
-\end{Bylo}
 \end{ContractClause}
 
 
@@ -432,11 +336,9 @@ Definicja „Kryterium Bezpieczeństwa EU/NATO” oraz ustęp o obowiązkach oso
 
 \begin{ContractClause}{Zbywanie i obciążanie akcji}
 \label{art:zbywanie}
-\ZmianaKomentarz{12}{Rewizja 0.9.3 (Etap 1). Uszczelnienie ust.~7: w rewizji 0.9 ścieżki wyłączone spod zgody Spółki (pierwszeństwo, przyłączenie, przymusowe współzbycie, zwrotne zbycie, Kwalifikowana Runda) zachowywały wyłącznie test Dopuszczalnego Nabywcy (sankcyjny), a Kryterium Bezpieczeństwa EU/NATO było egzekwowane tylko „w trybie zgody” --- powstawała pętla odesłań i realna luka: przymusowe współzbycie (sprzedaż do 100\%) mogło ominąć bramkę EU/NATO, czyli ścieżkę najbardziej wrażliwą dla kwalifikowalności do EDF/DIANA. Po zmianie Kryterium (z override'em WZ 75\%) obowiązuje niezależnie od wyłączenia zgody; wyjątek pozostaje tylko dla egzekucji (art.~300$^{39}$ §~6 KSH --- wyłączenia umowne nie są tam skuteczne). Moment weryfikacji przy drag-along ustalono przed doręczeniem zawiadomienia, żeby mniejszość nie była zmuszana do zbycia w transakcji, która i tak nie przejdzie bramki.}
-\ZmianaKomentarz{3}{Przebudowa na reżim zgody Spółki oparty wprost na art.~300$^{39}$ KSH. Dotychczas zbycie na rzecz Dopuszczalnego Nabywcy nie wymagało zgody Spółki, a jedynym filtrem był test sankcyjny --- co (a) nie chroniło strategii EU/NATO i (b) nie dawało lock-upowi z §~\ref{art:okres-ograniczenia-zbywania} ustawowego zakotwiczenia (pkt~2 „Podsumowania audytu”). Po zmianie: rozporządzenie akcją wymaga zgody Spółki (art.~300$^{39}$ §~1 KSH), odmowa jest możliwa wyłącznie z zamkniętego katalogu obiektywnych przyczyn, a przy odmowie z przyczyn innych niż bezwzględny zakaz prawny Spółka wskazuje innego nabywcę za Wartość Godziwą --- zgodnie z ustawowym mechanizmem §~3--6 (termin wskazania: maksymalnie miesiąc od zgłoszenia zamiaru; brak wskazania lub zapłaty = swoboda zbycia). Czynności dokonuje Rada Dyrektorów w formie dokumentowej (art.~300$^{39}$ §~4 w zw. z art.~4 §~2$^{1}$ KSH). DO WERYFIKACJI PRZEZ PRAWNIKA: dopuszczalny zakres odstępstw od §~3--6 na podstawie art.~300$^{39}$ §~2 („chyba że umowa spółki stanowi inaczej”), w szczególności wyłączenie obowiązku wskazania nabywcy w Okresie Ograniczenia Zbywania (ust.~4 lit.~c poniżej).}
 \begin{enumerate}
-  \item \ZM Zbycie albo obciążenie akcji (rozporządzenie akcją) wymaga zgody Spółki w rozumieniu art.~300$^{39}$ §~1 KSH. Zgody udziela albo odmawia jej Rada Dyrektorów w formie dokumentowej pod rygorem nieważności, w terminie 14 dni od zgłoszenia Spółce zamiaru rozporządzenia wraz z informacjami niezbędnymi do weryfikacji.
-  \item \ZM Rada Dyrektorów może odmówić zgody wyłącznie, jeżeli:
+  \item Zbycie albo obciążenie akcji (rozporządzenie akcją) wymaga zgody Spółki w rozumieniu art.~300$^{39}$ §~1 KSH. Zgody udziela albo odmawia jej Rada Dyrektorów w formie dokumentowej pod rygorem nieważności, w terminie 14 dni od zgłoszenia Spółce zamiaru rozporządzenia wraz z informacjami niezbędnymi do weryfikacji.
+  \item Rada Dyrektorów może odmówić zgody wyłącznie, jeżeli:
   \begin{enumerate}[label=\alph*)]
     \item planowany nabywca jest Niedopuszczalnym Nabywcą;
     \item planowany nabywca nie spełnia Kryterium Bezpieczeństwa EU/NATO, a Walne Zgromadzenie nie wyraziło zgody zgodnie z §~\ref{art:dopuszczalny-nabywca};
@@ -444,45 +346,27 @@ Definicja „Kryterium Bezpieczeństwa EU/NATO” oraz ustęp o obowiązkach oso
     \item mimo wezwania nie przedstawiono informacji niezbędnych do zakończenia weryfikacji --- w tym przypadku bieg terminu z ust.~1 ulega wstrzymaniu do czasu ich przedstawienia, a wstrzymanie nie stanowi odmowy.
   \end{enumerate}
   Odmowa wymaga wskazania konkretnej podstawy z niniejszego ustępu. Rada Dyrektorów nie może odmówić zgody z żadnej innej przyczyny.
-  \item \NOWE Jeżeli Spółka odmawia zgody z przyczyny określonej w ust.~2 lit.~b, wskazuje innego nabywcę będącego Dopuszczalnym Nabywcą i spełniającego Kryterium Bezpieczeństwa EU/NATO w terminie miesiąca od dnia zgłoszenia Spółce zamiaru zbycia akcji. Ceną nabycia jest Wartość Godziwa ustalona zgodnie z §~\ref{art:wycena}, płatna w terminie 30 dni od dnia jej ostatecznego ustalenia. Jeżeli Spółka nie wskazała nabywcy w terminie albo wskazany nabywca nie uiścił ceny w terminie, akcjonariusz może swobodnie zbyć akcję zgodnie z art.~300$^{39}$ §~5 KSH, chyba że nie przyjął oferowanej zapłaty; swoboda zbycia nie obejmuje zbycia na rzecz Niedopuszczalnego Nabywcy w zakresie wynikającym z bezwzględnie obowiązujących przepisów prawa.
-  \item \NOWE W przypadku odmowy z przyczyny określonej w ust.~2 lit.~a obowiązek wskazania innego nabywcy nie powstaje, ponieważ przeszkoda wynika z bezwzględnie obowiązującego prawa. W przypadku odmowy z przyczyny określonej w ust.~2 lit.~c stosuje się §~\ref{art:okres-ograniczenia-zbywania}, który --- w granicach art.~300$^{39}$ §~2 KSH --- wyłącza na czas Okresu Ograniczenia Zbywania stosowanie mechanizmu wskazania nabywcy z ust.~3.
+  \item Jeżeli Spółka odmawia zgody z przyczyny określonej w ust.~2 lit.~b, wskazuje innego nabywcę będącego Dopuszczalnym Nabywcą i spełniającego Kryterium Bezpieczeństwa EU/NATO w terminie miesiąca od dnia zgłoszenia Spółce zamiaru zbycia akcji. Ceną nabycia jest Wartość Godziwa ustalona zgodnie z §~\ref{art:wycena}, płatna w terminie 30 dni od dnia jej ostatecznego ustalenia. Jeżeli Spółka nie wskazała nabywcy w terminie albo wskazany nabywca nie uiścił ceny w terminie, akcjonariusz może swobodnie zbyć akcję zgodnie z art.~300$^{39}$ §~5 KSH, chyba że nie przyjął oferowanej zapłaty; swoboda zbycia nie obejmuje zbycia na rzecz Niedopuszczalnego Nabywcy w zakresie wynikającym z bezwzględnie obowiązujących przepisów prawa.
+  \item W przypadku odmowy z przyczyny określonej w ust.~2 lit.~a obowiązek wskazania innego nabywcy nie powstaje, ponieważ przeszkoda wynika z bezwzględnie obowiązującego prawa. W przypadku odmowy z przyczyny określonej w ust.~2 lit.~c stosuje się §~\ref{art:okres-ograniczenia-zbywania}, który --- w granicach art.~300$^{39}$ §~2 KSH --- wyłącza na czas Okresu Ograniczenia Zbywania stosowanie mechanizmu wskazania nabywcy z ust.~3.
   \item Zbycie albo obciążenie akcji na rzecz Niedopuszczalnego Nabywcy jest niedopuszczalne w zakresie wynikającym z bezwzględnie obowiązujących przepisów prawa. Upływ terminu, brak stanowiska organu Spółki, uchwała akcjonariuszy ani uchwała Rady Dyrektorów nie mogą sanować transakcji zakazanej przez prawo.
   \item Jeżeli planowany nabywca jest Niedopuszczalnym Nabywcą, zbywca może wskazać innego Dopuszczalnego Nabywcę i przeprowadzić transakcję z zachowaniem pozostałych postanowień niniejszej umowy, w szczególności prawa pierwszeństwa, prawa przyłączenia, prawa przymusowego współzbycia oraz ograniczeń obowiązujących Założycieli.
-  \item \NOWE Zgody Spółki nie wymaga zbycie akcji w postępowaniu egzekucyjnym (art.~300$^{39}$ §~6 KSH) ani nabycie akcji w wykonaniu prawa pierwszeństwa, prawa przyłączenia, prawa przymusowego współzbycia, mechanizmu zwrotnego zbycia akcji albo w ramach Kwalifikowanej Rundy Finansowania zatwierdzonej zgodnie z §~\ref{art:kwalifikowana-runda} --- weryfikacja, czy nabywca jest Dopuszczalnym Nabywcą, pozostaje jednak wymagana w każdym przypadku. \ZM Wyłączenie wymogu zgody Spółki nie uchyla wymogu spełniania przez nabywcę Kryterium Bezpieczeństwa EU/NATO: nabycie akcji przez osobę lub podmiot niespełniający tego Kryterium --- także w wykonaniu prawa pierwszeństwa, prawa przyłączenia, prawa przymusowego współzbycia, mechanizmu zwrotnego zbycia akcji albo w ramach Kwalifikowanej Rundy Finansowania --- wymaga zgody Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}. Przy wykonaniu prawa przymusowego współzbycia spełnienie Kryterium albo uzyskanie tej zgody weryfikuje się przed doręczeniem zawiadomienia o wykonaniu prawa. Zdania poprzedzające nie dotyczą zbycia akcji w postępowaniu egzekucyjnym.
+  \item Zgody Spółki nie wymaga zbycie akcji w postępowaniu egzekucyjnym (art.~300$^{39}$ §~6 KSH) ani nabycie akcji w wykonaniu prawa pierwszeństwa, prawa przyłączenia, prawa przymusowego współzbycia, mechanizmu zwrotnego zbycia akcji albo w ramach Kwalifikowanej Rundy Finansowania zatwierdzonej zgodnie z §~\ref{art:kwalifikowana-runda} --- weryfikacja, czy nabywca jest Dopuszczalnym Nabywcą, pozostaje jednak wymagana w każdym przypadku. Wyłączenie wymogu zgody Spółki nie uchyla wymogu spełniania przez nabywcę Kryterium Bezpieczeństwa EU/NATO: nabycie akcji przez osobę lub podmiot niespełniający tego Kryterium --- także w wykonaniu prawa pierwszeństwa, prawa przyłączenia, prawa przymusowego współzbycia, mechanizmu zwrotnego zbycia akcji albo w ramach Kwalifikowanej Rundy Finansowania --- wymaga zgody Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}. Przy wykonaniu prawa przymusowego współzbycia spełnienie Kryterium albo uzyskanie tej zgody weryfikuje się przed doręczeniem zawiadomienia o wykonaniu prawa. Zdania poprzedzające nie dotyczą zbycia akcji w postępowaniu egzekucyjnym.
   \item Naruszenie wymogów dotyczących Dopuszczalnego Nabywcy stanowi istotne naruszenie niniejszej umowy. Zbywca i nabywca, w zakresie w jakim są związani niniejszą umową, są zobowiązani niezwłocznie usunąć skutki naruszenia i doprowadzić stan prawny do zgodności z bezwzględnie obowiązującymi przepisami prawa. Postanowienie to nie przesądza sposobu działania podmiotu prowadzącego rejestr akcjonariuszy, który działa zgodnie z przepisami prawa.
 \end{enumerate}
-
-\begin{Bylo}
-ust.~1: „Zbycie albo obciążenie akcji na rzecz Dopuszczalnego Nabywcy nie wymaga odrębnej zgody Spółki, chyba że obowiązek uzyskania zgody wynika wyraźnie z innego postanowienia niniejszej umowy, w szczególności z Okresu Ograniczenia Zbywania Akcji Założycieli.”
-
-ust.~2: „Przed dokonaniem zbycia albo obciążenia akcji nabywca przekazuje, na uzasadnione żądanie Rady Dyrektorów, informacje niezbędne do ustalenia, czy jest Dopuszczalnym Nabywcą. Rada Dyrektorów nie może odmówić uznania nabywcy za Dopuszczalnego Nabywcę z przyczyn innych niż prawna niedopuszczalność planowanej transakcji.”
-
-Ustępy 3, 4 i 7 (mechanizm wskazania nabywcy z art.~300$^{39}$ §~3--6 KSH oraz wyłączenia spod zgody) nie istniały. Dawne ust.~3--5 zachowano jako ust.~5, 6 i 8.
-
-Rewizja 0.9.3 --- ust.~7 w brzmieniu rewizji 0.9 kończył się na słowach „[...] weryfikacja, czy nabywca jest Dopuszczalnym Nabywcą, pozostaje jednak wymagana w każdym przypadku.” --- bez zdań o Kryterium Bezpieczeństwa EU/NATO, momencie weryfikacji przy przymusowym współzbyciu i wyjątku egzekucyjnym.
-\end{Bylo}
 \end{ContractClause}
 \begin{ContractClause}{Okres Ograniczenia Zbywania Akcji Założycieli}
 \label{art:okres-ograniczenia-zbywania}
-\ZmianaKomentarz{13}{Rewizja 0.9.3 (Etap 1). W ust.~2 lit.~a rewizja 0.9 posługiwała się niezdefiniowanym pojęciem „zatwierdzonej rundy finansowania”, podczas gdy umowa definiuje „Kwalifikowaną Rundę Finansowania” (§~\ref{art:kwalifikowana-runda}) --- niespójność terminologiczna groziła sporem, czy wyjątek od lock-upu obejmuje rundy poniżej progu Kwalifikowanej Rundy. Rozstrzygnięto szeroko: wyjątek obejmuje Kwalifikowaną Rundę oraz każdą inną rundę zatwierdzoną przez WZ większością 75\% wszystkich głosów (ta sama większość, która może uchylić lock-up w trybie ust.~1, więc nie osłabia to ochrony). Dodano „objęcie akcji”, bo udział w rundzie to objęcie nowych akcji, nie zbycie.}
-\ZmianaKomentarz{3}{Lock-up osadzono w ustawowym reżimie ograniczenia rozporządzania akcją (art.~300$^{39}$ §~1--2 KSH) zamiast „twardego” zakazu umownego, którego skuteczność zakwestionował audyt (pkt~2 „Podsumowania audytu”): w Okresie Ograniczenia Spółka odmawia zgody na rozporządzenie, a --- na podstawie art.~300$^{39}$ §~2, dopuszczającego odmienne uregulowanie §~3--6 w umowie spółki --- mechanizm wskazania innego nabywcy jest w tym okresie wyłączony. DO WERYFIKACJI PRZEZ PRAWNIKA: granice dopuszczalnej derogacji §~3--6 (czy czasowe wyłączenie wskazania nabywcy na 12 miesięcy mieści się w „chyba że umowa spółki stanowi inaczej”); alternatywnie można w tym okresie utrzymać wskazanie nabywcy za Wartość Godziwą.}
 \begin{enumerate}
-  \item \ZM Założyciel Pierwotny przez 12 miesięcy od dnia wpisu Spółki do rejestru, a Założyciel Funkcjonalny Serii F przez 12 miesięcy od jego Dnia Przyznania Serii F, nie może zbyć ani obciążyć objętych tym statusem akcji bez uprzedniej zgody Walnego Zgromadzenia podjętej większością 75\% Głosów Uprawnionych w Sprawie, przy czym osoba występująca o zgodę jest w tej sprawie wyłączona od głosowania. Ograniczenie to stanowi ograniczenie rozporządzenia akcją w rozumieniu art.~300$^{39}$ §~1 KSH; na podstawie art.~300$^{39}$ §~2 KSH strony postanawiają, że w Okresie Ograniczenia Zbywania Akcji przepisy art.~300$^{39}$ §~3--6 KSH oraz mechanizm wskazania innego nabywcy z §~\ref{art:zbywanie} ust.~3 nie znajdują zastosowania, a odmowa zgody nie rodzi po stronie Spółki obowiązku wskazania nabywcy.
+  \item Założyciel Pierwotny przez 12 miesięcy od dnia wpisu Spółki do rejestru, a Założyciel Funkcjonalny Serii F przez 12 miesięcy od jego Dnia Przyznania Serii F, nie może zbyć ani obciążyć objętych tym statusem akcji bez uprzedniej zgody Walnego Zgromadzenia podjętej większością 75\% Głosów Uprawnionych w Sprawie, przy czym osoba występująca o zgodę jest w tej sprawie wyłączona od głosowania. Ograniczenie to stanowi ograniczenie rozporządzenia akcją w rozumieniu art.~300$^{39}$ §~1 KSH; na podstawie art.~300$^{39}$ §~2 KSH strony postanawiają, że w Okresie Ograniczenia Zbywania Akcji przepisy art.~300$^{39}$ §~3--6 KSH oraz mechanizm wskazania innego nabywcy z §~\ref{art:zbywanie} ust.~3 nie znajdują zastosowania, a odmowa zgody nie rodzi po stronie Spółki obowiązku wskazania nabywcy.
   \item Ograniczenie nie dotyczy:
   \begin{enumerate}[label=\alph*)]
-    \item \ZM zbycia albo objęcia akcji w ramach Kwalifikowanej Rundy Finansowania (§~\ref{art:kwalifikowana-runda}) albo innej rundy finansowania zatwierdzonej uchwałą Walnego Zgromadzenia podjętą większością 75\% wszystkich głosów;
+    \item zbycia albo objęcia akcji w ramach Kwalifikowanej Rundy Finansowania (§~\ref{art:kwalifikowana-runda}) albo innej rundy finansowania zatwierdzonej uchwałą Walnego Zgromadzenia podjętą większością 75\% wszystkich głosów;
     \item wykonania prawa przyłączenia albo prawa przymusowego współzbycia;
     \item obowiązkowego zbycia wynikającego z mechanizmu zwrotnego zbycia akcji;
     \item przeniesienia do podmiotu w całości kontrolowanego przez Założyciela Pierwotnego albo Założyciela Funkcjonalnego Serii F, jeżeli podmiot ten jest Dopuszczalnym Nabywcą, przystąpi do wszystkich obowiązków związanych z przenoszonymi akcjami, a zbywający pozostanie solidarnie odpowiedzialny i zapewni zwrotne przeniesienie akcji przed utratą kontroli.
   \end{enumerate}
   \item Upływ Okresu Ograniczenia Zbywania Akcji nie wpływa na dalsze obowiązywanie mechanizmu zwrotnego zbycia akcji ani obowiązku zbycia akcji, które nie zostały jeszcze zwolnione z tego obowiązku.
 \end{enumerate}
-
-\begin{Bylo}
-ust.~1 kończył się na słowach „[...] osoba występująca o zgodę jest w tej sprawie wyłączona od głosowania.” --- bez zdania drugiego osadzającego ograniczenie w art.~300$^{39}$ §~1--2 KSH i wyłączającego mechanizm wskazania nabywcy na czas Okresu Ograniczenia.
-
-Rewizja 0.9.3 --- ust.~2 lit.~a w brzmieniu rewizji 0.9 (i 0.8): „zbycia w ramach zatwierdzonej rundy finansowania;”.
-\end{Bylo}
 \end{ContractClause}
 
 \begin{ContractClause}{Prawo pierwszeństwa nabycia akcji}
@@ -528,41 +412,24 @@ Rewizja 0.9.3 --- ust.~2 lit.~a w brzmieniu rewizji 0.9 (i 0.8): „zbycia w ram
 
 \begin{ContractClause}{Dziedziczenie akcji}
 \label{art:dziedziczenie}
-\ZmianaKomentarz{14}{Rewizja 0.9.3 (Etap 1) --- DECYZJA DO POTWIERDZENIA przez Założycieli. W rewizji 0.9 spadkobierca przechodził wyłącznie weryfikację Dopuszczalnego Nabywcy (test sankcyjny), więc osoba spoza EU/NATO wstępowała do Spółki bez żadnej bramki --- niespójnie z celem ZMIANY 3 (ochrona struktury właścicielskiej pod EDF/DIANA i zamówienia obronne). Po zmianie spadkobierca niespełniający Kryterium Bezpieczeństwa EU/NATO wstępuje tylko za zgodą WZ (75\%); bez tej zgody jest spadkobiercą niewstępującym ze spłatą 100\% Wartości Godziwej --- mechanizm spłaty z art.~300$^{41}$ KSH pozostaje bez zmian, zmienia się wyłącznie katalog warunków wstąpienia. ALTERNATYWA (jeżeli Założyciele uznają ochronę rodzin za ważniejszą): pozostawić brzmienie 0.9 i dopisać w komentarzu ZMIANY 3, że dziedziczenie jest świadomym wyjątkiem od Kryterium. Ryzyko wariantu przyjętego: spłata 100\% FV rodziny zmarłego wymaga realnych środków --- ubezpieczenie z ust.~6 staje się praktycznie obowiązkowe.}
-\ZmianaKomentarz{9}{Domknięcie punktu~3 „Podsumowania audytu”: dotychczasowa 90-dniowa procedura i obowiązkowe zbycie nie miały jasnej relacji do przejścia akcji z mocy prawa. Mechanizm osadzono wprost w art.~300$^{41}$ §~1 KSH, który pozwala umową ograniczyć lub wyłączyć wstąpienie spadkobierców do spółki, pod warunkiem określenia w umowie warunków spłaty spadkobierców niewstępujących --- pod rygorem bezskuteczności ograniczenia. Warunki spłaty określono wprost: 100\% Wartości Godziwej (§~\ref{art:wycena}) płatnej na zasadach ratalnych z ust.~5. Dotychczasowe obowiązkowe zbycie zachowano jako mechanizm rezerwowy. DO WERYFIKACJI PRZEZ PRAWNIKA: technika wykonania spłaty i los akcji spadkobierców niewstępujących (nabycie przez wskazanego Dopuszczalnego Nabywcę, ewentualnie nabycie własne albo umorzenie w trybie ustawowym) oraz zgodność 90-dniowego terminu z art.~300$^{41}$ KSH.}
 \begin{enumerate}
-  \item \ZM Na podstawie art.~300$^{41}$ §~1 KSH wstąpienie do Spółki spadkobierców na miejsce zmarłego akcjonariusza jest ograniczone w sposób określony w niniejszym paragrafie. Spadkobierca wstępuje do Spółki i może wykonywać prawa z akcji po wykazaniu następstwa prawnego oraz przejściu weryfikacji Dopuszczalnego Nabywcy zgodnie z §~\ref{art:dopuszczalny-nabywca}, a jeżeli nie spełnia Kryterium Bezpieczeństwa EU/NATO --- także po uzyskaniu zgody Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}.
-  \item \ZM Spadkobierca, który nie jest Dopuszczalnym Nabywcą, który nie spełnia Kryterium Bezpieczeństwa EU/NATO i w terminie 90 dni od wezwania nie uzyskał zgody Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}, albo który nie przedstawi wymaganych informacji w terminie 90 dni od wezwania, nie wstępuje do Spółki. Spadkobiercy niewstępującemu przysługuje spłata w wysokości 100\% Wartości Godziwej akcji przypadających mu ze spadku, ustalonej zgodnie z §~\ref{art:wycena} na dzień otwarcia spadku, płatna na zasadach określonych w ust.~5; warunki spłaty określa się na podstawie art.~300$^{41}$ §~1 zdanie drugie KSH. Akcje spadkobiercy niewstępującego podlegają nabyciu przez wskazanego przez Spółkę Dopuszczalnego Nabywcę za cenę równą spłacie; jeżeli mechanizm ograniczenia wstąpienia okazałby się w danym przypadku bezskuteczny, akcje podlegają obowiązkowemu zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy za Wartość Godziwą.
+  \item Na podstawie art.~300$^{41}$ §~1 KSH wstąpienie do Spółki spadkobierców na miejsce zmarłego akcjonariusza jest ograniczone w sposób określony w niniejszym paragrafie. Spadkobierca wstępuje do Spółki i może wykonywać prawa z akcji po wykazaniu następstwa prawnego oraz przejściu weryfikacji Dopuszczalnego Nabywcy zgodnie z §~\ref{art:dopuszczalny-nabywca}, a jeżeli nie spełnia Kryterium Bezpieczeństwa EU/NATO --- także po uzyskaniu zgody Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}.
+  \item Spadkobierca, który nie jest Dopuszczalnym Nabywcą, który nie spełnia Kryterium Bezpieczeństwa EU/NATO i w terminie 90 dni od wezwania nie uzyskał zgody Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}, albo który nie przedstawi wymaganych informacji w terminie 90 dni od wezwania, nie wstępuje do Spółki. Spadkobiercy niewstępującemu przysługuje spłata w wysokości 100\% Wartości Godziwej akcji przypadających mu ze spadku, ustalonej zgodnie z §~\ref{art:wycena} na dzień otwarcia spadku, płatna na zasadach określonych w ust.~5; warunki spłaty określa się na podstawie art.~300$^{41}$ §~1 zdanie drugie KSH. Akcje spadkobiercy niewstępującego podlegają nabyciu przez wskazanego przez Spółkę Dopuszczalnego Nabywcę za cenę równą spłacie; jeżeli mechanizm ograniczenia wstąpienia okazałby się w danym przypadku bezskuteczny, akcje podlegają obowiązkowemu zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy za Wartość Godziwą.
   \item Jeżeli akcje przypadają kilku spadkobiercom, są oni zobowiązani wskazać jednego wspólnego przedstawiciela do wykonywania praw korporacyjnych do czasu działu spadku.
   \item Cena może zostać rozłożona na nie więcej niż 36 równych miesięcznych rat, jeżeli jednorazowa zapłata zagrażałaby płynności Spółki lub nabywcy; niespłacona część jest oprocentowana według stopy referencyjnej NBP powiększonej o 3 punkty procentowe. Pierwsza rata jest płatna najpóźniej w dniu przeniesienia akcji, a kolejne w równych odstępach miesięcznych. Nabywca może dokonać wcześniejszej spłaty bez dodatkowej opłaty i ustanawia w umowie zbycia zabezpieczenie pozostałej ceny adekwatne do jej wysokości i ryzyka. Opóźnienie przekraczające 30 dni w zapłacie dwóch rat, nieusunięte w terminie 14 dni od pisemnego wezwania, powoduje wymagalność całej pozostałej ceny.
   \item Spółka może zawrzeć ubezpieczenie na życie kluczowych Założycieli w celu sfinansowania nabycia akcji od spadkobierców.
 \end{enumerate}
-
-\begin{Bylo}
-ust.~1: „Spadkobierca może wykonywać prawa z akcji po wykazaniu następstwa prawnego oraz przejściu weryfikacji Dopuszczalnego Nabywcy.”
-
-ust.~2: „Jeżeli spadkobierca nie jest Dopuszczalnym Nabywcą albo nie przedstawi wymaganych informacji w terminie 90 dni od wezwania, akcje podlegają obowiązkowemu zbyciu na rzecz wskazanego przez Spółkę Dopuszczalnego Nabywcy za Wartość Godziwą.”
-
-Brak było odwołania do art.~300$^{41}$ KSH i wyraźnie określonych warunków spłaty spadkobierców niewstępujących.
-
-Rewizja 0.9.3 --- w brzmieniu rewizji 0.9: ust.~1 kończył się na słowach „[...] przejściu weryfikacji Dopuszczalnego Nabywcy zgodnie z §~[Dopuszczalny Nabywca].” (bez warunku Kryterium Bezpieczeństwa EU/NATO), a ust.~2 zaczynał się od słów „Spadkobierca, który nie jest Dopuszczalnym Nabywcą albo nie przedstawi wymaganych informacji w terminie 90 dni od wezwania, nie wstępuje do Spółki.” (bez przesłanki braku Kryterium i zgody WZ).
-\end{Bylo}
 \end{ContractClause}
 
 \begin{ContractClause}{Stosunki majątkowe małżeńskie i akcje}
 \label{art:malzonek}
-\ZmianaKomentarz{14}{Rewizja 0.9.3 (Etap 1) --- spójnie ze zmianą w §~\ref{art:dziedziczenie}: nabycie akcji przez małżonka (podział majątku, orzeczenie sądu) było w rewizji 0.9 drugą ścieżką wejścia do Spółki omijającą Kryterium Bezpieczeństwa EU/NATO. Rozszerzono odesłanie w ust.~3; pierwszeństwo rozliczenia pieniężnego bez przenoszenia akcji (ust.~4) pozostaje bez zmian i dodatkowo ogranicza praktyczne ryzyko. DECYZJA DO POTWIERDZENIA razem z wariantem dla spadkobierców.}
 \begin{enumerate}
   \item Każdy akcjonariusz będący osobą fizyczną zobowiązuje się, w granicach prawnie dopuszczalnych, niezwłocznie informować Spółkę o zmianie ustroju majątkowego albo innym zdarzeniu mogącym wpływać na przynależność akcji, ich podział lub sposób wykonywania praw z akcji.
   \item \BoilerplateStrike{Nabycie albo ustalenie przynależności akcji w związku ze stosunkami majątkowymi małżeńskimi następuje zgodnie z bezwzględnie obowiązującymi przepisami prawa.} Sam fakt objęcia akcji wspólnością majątkową małżeńską albo ustania tej wspólności nie powoduje sam przez się, wobec Spółki, nabycia przez drugiego małżonka statusu akcjonariusza ani samodzielnego prawa wykonywania praw korporacyjnych. Jeżeli zgodnie z prawem powstanie współuprawnienie z akcji, prawa wobec Spółki wykonuje się zgodnie z właściwymi przepisami KSH, w szczególności art. 300$^{38}$ KSH.
-  \item \ZM Jeżeli wskutek prawomocnego orzeczenia sądu, ugody, umowy o podział majątku albo innego prawnie skutecznego zdarzenia małżonek albo były małżonek skutecznie nabędzie akcje, stosuje się do niego na zasadach ogólnych postanowienia niniejszej umowy dotyczące Dopuszczalnego Nabywcy i Kryterium Bezpieczeństwa EU/NATO (w tym wymóg zgody Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}, jeżeli Kryterium nie jest spełnione) oraz --- jeżeli po skutecznym nabyciu powstanie odpowiednia podstawa prawna --- Prawnie Niedopuszczalnego Posiadacza. Niniejszy paragraf nie usuwa skutków zakazu wynikającego z bezwzględnie obowiązujących przepisów prawa i nie stanowi samodzielnej podstawy nabycia akcji.
+  \item Jeżeli wskutek prawomocnego orzeczenia sądu, ugody, umowy o podział majątku albo innego prawnie skutecznego zdarzenia małżonek albo były małżonek skutecznie nabędzie akcje, stosuje się do niego na zasadach ogólnych postanowienia niniejszej umowy dotyczące Dopuszczalnego Nabywcy i Kryterium Bezpieczeństwa EU/NATO (w tym wymóg zgody Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}, jeżeli Kryterium nie jest spełnione) oraz --- jeżeli po skutecznym nabyciu powstanie odpowiednia podstawa prawna --- Prawnie Niedopuszczalnego Posiadacza. Niniejszy paragraf nie usuwa skutków zakazu wynikającego z bezwzględnie obowiązujących przepisów prawa i nie stanowi samodzielnej podstawy nabycia akcji.
   \item Jeżeli przed skutecznym nabyciem akcji przez małżonka albo byłego małżonka możliwe jest zgodne z prawem rozliczenie pieniężne bez przenoszenia akcji, akcjonariusz zobowiązuje się, w granicach prawnie dopuszczalnych, dążyć w pierwszej kolejności do takiego rozwiązania.
   \item Akcjonariusz jest zobowiązany, na uzasadnione żądanie Spółki i w zakresie dopuszczalnym przez prawo, przedstawić dokumenty niezbędne do ustalenia wpływu stosunków majątkowych małżeńskich na prawa do akcji.
 \end{enumerate}
-
-\begin{Bylo}
-Rewizja 0.9.3 --- ust.~3 w brzmieniu rewizji 0.9 (i 0.8) odsyłał wyłącznie do „postanowień niniejszej umowy dotyczących Dopuszczalnego Nabywcy oraz [...] Prawnie Niedopuszczalnego Posiadacza” --- bez Kryterium Bezpieczeństwa EU/NATO.
-\end{Bylo}
 \end{ContractClause}
 
 
@@ -595,13 +462,11 @@ Rewizja 0.9.3 --- ust.~3 w brzmieniu rewizji 0.9 (i 0.8) odsyłał wyłącznie d
 
 \begin{ContractClause}{Rada Dyrektorów}
 \label{art:rada}
-\ZmianaKomentarz{4}{Usunięto magnes na paraliż: przy cap table 50/20/10/10/10 żadna dwójka Założycieli nie osiąga 75\% wszystkich głosów, więc nieobecność lub bierność jednego z większych akcjonariuszy blokowała obsadę Rady --- a mechanizm impasu z §~\ref{art:impas} wprost nie obejmuje spraw personalnych. Po zmianie: powołanie dyrektora --- bezwzględna większość głosów oddanych; odwołanie z ważnych powodów --- bezwzględna większość głosów oddanych; odwołanie bez ważnych powodów przed upływem kadencji --- nadal 75\% wszystkich głosów (ochrona przed wrogim czyszczeniem Rady). Dodano ust.~o ciągłości mandatu do powołania następcy (maks.~6 miesięcy) --- DO WERYFIKACJI PRZEZ PRAWNIKA dopuszczalność prorogacji mandatu w P.S.A.}
-\ZmianaKomentarz{3}{W ust.~3 kryterium bezpieczeństwa dla dyrektora dostosowano do nowego Kryterium Bezpieczeństwa EU/NATO z §~\ref{art:dopuszczalny-nabywca} --- dotychczasowe odesłanie do „kryteriów Dopuszczalnego Nabywcy” było puste treściowo, bo Dopuszczalnym Nabywcą jest każdy niesankcjonowany.}
 \begin{enumerate}
   \item Rada Dyrektorów prowadzi sprawy Spółki, reprezentuje Spółkę i sprawuje stały nadzór nad jej działalnością.
-  \item \ZM Rada Dyrektorów składa się z 3 do 7 dyrektorów. Dyrektorów powołuje Walne Zgromadzenie uchwałą podjętą bezwzględną większością głosów oddanych. Odwołanie dyrektora przed upływem kadencji z ważnych powodów następuje uchwałą podjętą bezwzględną większością głosów oddanych, a bez ważnych powodów --- uchwałą podjętą większością 75\% wszystkich głosów.
-  \item \ZM Kadencja dyrektora trwa trzy lata i jest wspólna, chyba że uchwała o powołaniu stanowi inaczej. Dopuszczalne jest ponowne powołanie. Dyrektorem może być wyłącznie osoba fizyczna spełniająca Kryterium Bezpieczeństwa EU/NATO w rozumieniu §~\ref{art:dopuszczalny-nabywca} i niebędąca osobą, wobec której obowiązuje bezwzględnie obowiązujący zakaz pełnienia funkcji, chyba że bezwzględnie obowiązujące przepisy prawa wymagają rozwiązania odmiennego.
-  \item \NOWE W celu zapewnienia ciągłości działania Spółki mandat dyrektora, którego kadencja upłynęła, trwa do dnia powołania jego następcy, nie dłużej jednak niż 6 miesięcy od dnia upływu kadencji, chyba że bezwzględnie obowiązujące przepisy prawa stanowią inaczej. Jeżeli liczba dyrektorów spadnie poniżej minimum określonego w ust.~2, każdy akcjonariusz może żądać niezwłocznego zwołania Walnego Zgromadzenia z porządkiem obrad obejmującym uzupełnienie składu Rady Dyrektorów.
+  \item Rada Dyrektorów składa się z 3 do 7 dyrektorów. Dyrektorów powołuje Walne Zgromadzenie uchwałą podjętą bezwzględną większością głosów oddanych. Odwołanie dyrektora przed upływem kadencji z ważnych powodów następuje uchwałą podjętą bezwzględną większością głosów oddanych, a bez ważnych powodów --- uchwałą podjętą większością 75\% wszystkich głosów.
+  \item Kadencja dyrektora trwa trzy lata i jest wspólna, chyba że uchwała o powołaniu stanowi inaczej. Dopuszczalne jest ponowne powołanie. Dyrektorem może być wyłącznie osoba fizyczna spełniająca Kryterium Bezpieczeństwa EU/NATO w rozumieniu §~\ref{art:dopuszczalny-nabywca} i niebędąca osobą, wobec której obowiązuje bezwzględnie obowiązujący zakaz pełnienia funkcji, chyba że bezwzględnie obowiązujące przepisy prawa wymagają rozwiązania odmiennego.
+  \item W celu zapewnienia ciągłości działania Spółki mandat dyrektora, którego kadencja upłynęła, trwa do dnia powołania jego następcy, nie dłużej jednak niż 6 miesięcy od dnia upływu kadencji, chyba że bezwzględnie obowiązujące przepisy prawa stanowią inaczej. Jeżeli liczba dyrektorów spadnie poniżej minimum określonego w ust.~2, każdy akcjonariusz może żądać niezwłocznego zwołania Walnego Zgromadzenia z porządkiem obrad obejmującym uzupełnienie składu Rady Dyrektorów.
   \item Rada wybiera ze swojego grona Przewodniczącego i może wybrać Wiceprzewodniczącego.
   \item Rada wyznacza co najmniej jednego dyrektora wykonawczego, któremu deleguje prowadzenie bieżącej działalności. Jeżeli Rada liczy co najmniej trzy osoby, co najmniej jeden dyrektor powinien być dyrektorem niewykonawczym.
   \item Dyrektorzy niewykonawczy sprawują w szczególności nadzór nad finansami, ryzykiem, bezpieczeństwem informacji, kontrolą eksportu, sankcjami, zgodnością, transakcjami z podmiotami powiązanymi oraz ochroną własności intelektualnej.
@@ -611,13 +476,6 @@ Rewizja 0.9.3 --- ust.~3 w brzmieniu rewizji 0.9 (i 0.8) odsyłał wyłącznie d
   \item Regulamin Rady Dyrektorów określa szczegółowy podział kompetencji, limity wydatków, zasady raportowania, komitety i politykę konfliktów interesów.
 \end{enumerate}
 
-\begin{Bylo}
-ust.~2: „Rada Dyrektorów składa się z 3 do 7 dyrektorów, powoływanych i odwoływanych uchwałą Walnego Zgromadzenia podjętą większością 75\% wszystkich głosów.”
-
-ust.~3, zdanie trzecie: „Dyrektorem może być wyłącznie osoba spełniająca kryteria bezpieczeństwa określone dla osoby fizycznej będącej Dopuszczalnym Nabywcą, chyba że bezwzględnie obowiązujące przepisy prawa wymagają rozwiązania odmiennego.”
-
-ust.~4 (ciągłość mandatu i żądanie zwołania WZ): nie istniał.
-\end{Bylo}
 \end{ContractClause}
 
 \begin{ContractClause}{Reprezentacja Spółki}
@@ -655,11 +513,10 @@ ust.~4 (ciągłość mandatu i żądanie zwołania WZ): nie istniał.
 
 \begin{ContractClause}{Walne Zgromadzenie i sposób obliczania głosów}
 \label{art:wz}
-\ZmianaKomentarz{8}{Domknięcie punktu~4 „Podsumowania audytu”. Po pierwsze: art.~300$^{88}$ KSH wskazuje miejsce Walnego Zgromadzenia, a art.~300$^{92}$ reguluje jedynie elektroniczne \emph{uczestnictwo} --- dotychczasowe sformułowanie („albo z wykorzystaniem środków komunikacji elektronicznej”) mogło być czytane jako w pełni wirtualne WZ bez miejsca, co jest wątpliwe. Po zmianie WZ ma zawsze miejsce fizyczne (siedziba Spółki albo Warszawa), a udział elektroniczny jest trybem uczestnictwa. Po drugie: art.~300$^{87}$ KSH przewiduje zwołanie na adres e-mail \emph{wpisany do rejestru akcjonariuszy} --- adres jedynie „wskazany Spółce” może nie spełniać ustawowego sposobu doręczenia, więc go usunięto, dodając obowiązek wpisania i aktualizacji adresu w rejestrze.}
 \begin{enumerate}
   \item \BoilerplateStrike{Walne Zgromadzenie może być zwyczajne albo nadzwyczajne i działa zgodnie z przepisami prawa oraz niniejszą umową.}
-  \item \ZM Walne Zgromadzenia odbywają się w siedzibie Spółki albo w Warszawie. Nie wyłącza to uczestnictwa w Walnym Zgromadzeniu przy wykorzystaniu środków komunikacji elektronicznej na zasadach określonych w ust.~6.
-  \item \ZM Zawiadomienia o Walnym Zgromadzeniu są przesyłane na adres poczty elektronicznej akcjonariusza wpisany do rejestru akcjonariuszy, z zachowaniem terminów ustawowych. Każdy akcjonariusz jest zobowiązany zapewnić wpisanie swojego adresu poczty elektronicznej do rejestru akcjonariuszy i jego aktualizację; skutki braku aktualnego adresu w rejestrze obciążają akcjonariusza w zakresie dopuszczalnym przez prawo.
+  \item Walne Zgromadzenia odbywają się w siedzibie Spółki albo w Warszawie. Nie wyłącza to uczestnictwa w Walnym Zgromadzeniu przy wykorzystaniu środków komunikacji elektronicznej na zasadach określonych w ust.~6.
+  \item Zawiadomienia o Walnym Zgromadzeniu są przesyłane na adres poczty elektronicznej akcjonariusza wpisany do rejestru akcjonariuszy, z zachowaniem terminów ustawowych. Każdy akcjonariusz jest zobowiązany zapewnić wpisanie swojego adresu poczty elektronicznej do rejestru akcjonariuszy i jego aktualizację; skutki braku aktualnego adresu w rejestrze obciążają akcjonariusza w zakresie dopuszczalnym przez prawo.
   \item Uchwały akcjonariuszy mogą być podejmowane na Walnym Zgromadzeniu albo poza Walnym Zgromadzeniem, w tym przy wykorzystaniu środków komunikacji elektronicznej.
   \item Głosowanie przy wykorzystaniu środków komunikacji elektronicznej może odbywać się za pośrednictwem systemu teleinformatycznego wskazanego przez Spółkę albo za pomocą innych środków pozwalających na identyfikację akcjonariusza, ustalenie treści oddanego głosu oraz jego utrwalenie.
   \item Umowa Spółki dopuszcza uczestnictwo w Walnym Zgromadzeniu przy wykorzystaniu środków komunikacji elektronicznej zgodnie z art.~300\textsuperscript{92} KSH, w szczególności przez dwustronną komunikację w czasie rzeczywistym oraz wykonywanie prawa głosu na odległość.
@@ -670,17 +527,10 @@ ust.~4 (ciągłość mandatu i żądanie zwołania WZ): nie istniał.
   \item „Głosy Uprawnione w Sprawie” oznaczają głosy z akcji, z których zgodnie z ustawą albo wyraźnym postanowieniem niniejszej umowy prawo głosu może być wykonywane w danej sprawie. Jeżeli akcjonariusz jest wyłączony od głosowania, głosów z jego akcji nie uwzględnia się ani w liczniku, ani w mianowniku większości określonej jako procent Głosów Uprawnionych w Sprawie.
   \item Zasada z ust. 11 nie zmienia większości określonych w niniejszej umowie jako procent „wszystkich głosów w Spółce”; takie progi oblicza się od pełnej liczby głosów istniejących w Spółce, chyba że bezwzględnie obowiązujący przepis prawa stanowi inaczej.
 \end{enumerate}
-
-\begin{Bylo}
-ust.~2: „Walne Zgromadzenia mogą odbywać się w siedzibie Spółki, w Warszawie albo z wykorzystaniem środków komunikacji elektronicznej.”
-
-ust.~3: „Zawiadomienia mogą być przesyłane na adres poczty elektronicznej wpisany do rejestru akcjonariuszy lub wskazany Spółce, z zachowaniem terminów ustawowych.”
-\end{Bylo}
 \end{ContractClause}
 
 \begin{ContractClause}{Sprawy Zastrzeżone dla Walnego Zgromadzenia}
 \label{art:walne-zastrzezone}
-\ZmianaKomentarz{4}{W lit.~i usunięto powołanie i odwołanie dyrektorów z katalogu spraw wymagających 75\% wszystkich głosów --- większości dla tych uchwał określa teraz §~\ref{art:rada} ust.~2 (powołanie i odwołanie z ważnych powodów: bezwzględna większość głosów oddanych; odwołanie bez ważnych powodów: 75\% wszystkich głosów). Zatwierdzenie wynagrodzenia dyrektorów i program ubezpieczenia pozostają w katalogu bez zmian.}
 \begin{enumerate}
   \item Uchwały w następujących sprawach wymagają większości 75\% wszystkich głosów w Spółce:
   \begin{enumerate}[label=\alph*)]
@@ -692,7 +542,7 @@ ust.~3: „Zawiadomienia mogą być przesyłane na adres poczty elektronicznej w
     \item sprzedaż przedsiębiorstwa, zorganizowanej części przedsiębiorstwa albo aktywów stanowiących ponad 25\% wartości aktywów Spółki;
     \item przeniesienie, zbycie albo udzielenie wyłącznej, nieodwołalnej lub bezterminowej licencji na Kluczową Własność Intelektualną poza zwykłym tokiem działalności;
     \item istotna zmiana profilu działalności, rezygnacja z działalności badawczo-rozwojowej lub zmiana zasadniczej strategii produktów podwójnego zastosowania;
-    \item \ZM zatwierdzenie wynagrodzenia dyrektorów oraz przyjęcie programu ubezpieczenia odpowiedzialności; powołanie i odwołanie dyrektorów następuje większościami określonymi w §~\ref{art:rada} ust.~2;
+    \item zatwierdzenie wynagrodzenia dyrektorów oraz przyjęcie programu ubezpieczenia odpowiedzialności; powołanie i odwołanie dyrektorów następuje większościami określonymi w §~\ref{art:rada} ust.~2;
     \item nabycie akcji własnych, ich umorzenie lub wypłata z kapitału akcyjnego, jeżeli wymaga uchwały;
     \item zaciągnięcie zobowiązania, ustanowienie zabezpieczenia lub dokonanie transakcji poza zatwierdzonym budżetem o wartości przekraczającej 500 000 zł;
     \item zawarcie ugody albo zrzeczenie się roszczenia dotyczącego własności intelektualnej lub naruszenia bezpieczeństwa o wartości przekraczającej 500 000 zł;
@@ -702,10 +552,6 @@ ust.~3: „Zawiadomienia mogą być przesyłane na adres poczty elektronicznej w
   \item Zgoda na zbycie akcji Założyciela w Okresie Ograniczenia Zbywania Akcji wymaga większości 75\% Głosów Uprawnionych w Sprawie, zgodnie z §~\ref{art:wz}.
   \item Głos akcjonariusza pozostającego w konflikcie interesów może zostać wyłączony wyłącznie w zakresie dopuszczalnym przez prawo albo wyraźnie przewidzianym w niniejszej umowie.
 \end{enumerate}
-
-\begin{Bylo}
-ust.~1 lit.~i: „powołanie i odwołanie dyrektorów, zatwierdzenie ich wynagrodzenia oraz przyjęcie programu ubezpieczenia odpowiedzialności;”
-\end{Bylo}
 \end{ContractClause}
 
 
@@ -771,7 +617,6 @@ ust.~1 lit.~i: „powołanie i odwołanie dyrektorów, zatwierdzenie ich wynagro
 
 \begin{ContractClause}{Zakaz konkurencji, konflikt interesów i transakcje z podmiotami powiązanymi}
 \label{art:konkurencja}
-\ZmianaKomentarz{10}{Domknięcie punktu~5 „Podsumowania audytu”: dotychczasowy ust.~8 pozwalał zastąpić uchwałę Rady Dyrektorów uchwałą Walnego Zgromadzenia także tam, gdzie uchwały Rady wymaga \emph{sama ustawa} (w szczególności decyzje strategiczne z art.~300$^{75}$ §~2 KSH) --- a nie ma pewności, że uchwała WZ może skutecznie zastąpić ustawowo wymaganą uchwałę Rady. Po zmianie fallback WZ działa wyłącznie w sprawach, w których wymóg uchwały Rady wynika tylko z niniejszej umowy; tam, gdzie uchwały Rady wymaga ustawa, transakcja czeka na przywrócenie zdolności decyzyjnej Rady (w szczególności przez powołanie dodatkowego dyrektora wolnego od konfliktu), a uchwała WZ może stanowić jedynie dodatkową zgodę właścicielską.}
 \begin{enumerate}
   \item Akcjonariusz Funkcjonalny, w okresie zaangażowania w Spółkę, nie może bez uprzedniej zgody Walnego Zgromadzenia prowadzić ani wspierać działalności konkurencyjnej dotyczącej produktów wskazanych w §~\ref{art:pkd}, uczestniczyć w podmiocie konkurencyjnym ani wykorzystywać szans biznesowych należących do Spółki.
 
@@ -797,7 +642,7 @@ ust.~1 lit.~i: „powołanie i odwołanie dyrektorów, zatwierdzenie ich wynagro
 
   \item Dyrektor pozostający w konflikcie nie uczestniczy w rozstrzyganiu sprawy i jego głosu nie uwzględnia się przy ustalaniu wyniku głosowania. Wyłączenie dyrektora z udziału w rozstrzyganiu sprawy nie zmniejsza pełnego składu Rady Dyrektorów stanowiącego podstawę obliczenia quorum wymaganego przez art. 300$^{58}$ § 2 KSH. Uchwała dotycząca transakcji konfliktowej wymaga ponadto udziału co najmniej dwóch dyrektorów niepozostających w konflikcie, jeżeli Rada Dyrektorów liczy co najmniej trzy osoby.
 
-  \item \ZM Jeżeli wskutek wyłączenia dyrektorów pozostających w konflikcie Rada Dyrektorów nie może podjąć wymaganej uchwały, stosuje się następujące zasady:
+  \item Jeżeli wskutek wyłączenia dyrektorów pozostających w konflikcie Rada Dyrektorów nie może podjąć wymaganej uchwały, stosuje się następujące zasady:
   \begin{enumerate}[label=\alph*)]
     \item jeżeli wymóg uchwały Rady Dyrektorów wynika wyłącznie z niniejszej umowy, zawarcie transakcji wymaga uprzedniej uchwały Walnego Zgromadzenia zatwierdzającej transakcję;
     \item jeżeli uchwały Rady Dyrektorów wymaga bezwzględnie obowiązujący przepis prawa, w szczególności art.~300$^{75}$ §~2 KSH, uchwała Walnego Zgromadzenia nie zastępuje uchwały Rady; transakcja nie może zostać zawarta do czasu przywrócenia zdolności Rady do podjęcia uchwały, w szczególności przez powołanie przez Walne Zgromadzenie dodatkowego dyrektora niepozostającego w konflikcie interesów; Walne Zgromadzenie może dodatkowo wyrazić właścicielską zgodę na transakcję.
@@ -819,10 +664,6 @@ ust.~1 lit.~i: „powołanie i odwołanie dyrektorów, zatwierdzenie ich wynagro
   \item \BoilerplateStrike{Postanowienia niniejszego paragrafu nie naruszają art. 300$^{79}$ KSH.} Jeżeli stroną umowy ze Spółką albo stroną sporu ze Spółką jest dyrektor, Spółka jest reprezentowana przez pełnomocnika powołanego uchwałą akcjonariuszy, a w przypadku dyrektora wykonawczego — również przez dyrektora niewykonawczego, jeżeli spełnione są warunki określone w §~\ref{art:reprezentacja} i art. 300$^{79}$ § 3 KSH. Jeżeli wszystkie akcje Spółki przysługują jednemu akcjonariuszowi będącemu zarazem dyrektorem, stosuje się art. 300$^{79}$ § 4 KSH. Ogólna zasada działania osób niepozostających w konflikcie interesów nie zastępuje tego szczególnego trybu.
   \item Jeżeli mimo podjęcia wymaganej uchwały nie można zapewnić prawidłowej reprezentacji Spółki, transakcja nie może zostać zawarta do czasu zapewnienia prawidłowej reprezentacji, w szczególności przez powołanie dodatkowego dyrektora przez Walne Zgromadzenie.
 \end{enumerate}
-
-\begin{Bylo}
-ust.~8: „Jeżeli wskutek wyłączenia dyrektorów pozostających w konflikcie Rada Dyrektorów nie może podjąć wymaganej uchwały, zawarcie transakcji wymaga uprzedniej uchwały Walnego Zgromadzenia zatwierdzającej transakcję, o ile bezwzględnie obowiązujące przepisy prawa nie przewidują innego trybu. Uchwała Walnego Zgromadzenia nie zastępuje szczególnego sposobu reprezentacji Spółki wynikającego z art. 300$^{79}$ KSH.”
-\end{Bylo}
 \end{ContractClause}
 
 
@@ -854,19 +695,15 @@ ust.~8: „Jeżeli wskutek wyłączenia dyrektorów pozostających w konflikcie 
 
 \begin{ContractClause}{Kwalifikowana Runda Finansowania}
 \label{art:kwalifikowana-runda}
-\ZmianaKomentarz{6}{Paragraf w całości NOWY --- przygotowuje umowę na rundę inwestycyjną. Dotychczas umowa nie przewidywała trybu wpuszczenia inwestora: każdy standardowy warunek term-sheetu wymagałby negocjowania zmian umowy pod presją czasu. Paragraf: (a) definiuje Kwalifikowaną Rundę, (b) tworzy zobowiązanie współdziałania w dobrej wierze po podjęciu uchwały kierunkowej (nadal 75\% --- nikt nie jest zmuszany do rundy, ale po decyzji nikt nie może jej blokować w szczegółach), (c) wyznacza katalog zwyczajowych warunków inwestorskich, które nie naruszają filozofii umowy, (d) podporządkowuje inwestora Kryterium Bezpieczeństwa EU/NATO. Prawo poboru (4/5 głosów przy jego wyłączeniu --- art.~300$^{106}$ KSH) i status emisji jako Sprawy Zastrzeżonej pozostają nienaruszone. DO WERYFIKACJI PRZEZ PRAWNIKA: skuteczność i granice zobowiązań do głosowania (ust.~3) w prawie polskim. Pełna mapa paragrafów przygotowujących rundę --- Załącznik nr~10.}
 \begin{enumerate}
-  \item \NOWE „Kwalifikowana Runda Finansowania” oznacza emisję nowych akcji Spółki skierowaną do jednego lub kilku inwestorów, z których każdy jest Dopuszczalnym Nabywcą i spełnia Kryterium Bezpieczeństwa EU/NATO (albo uzyskał zgodę Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}), jeżeli łączna cena emisyjna nowych akcji wynosi co najmniej \field{2\,000\,000 zł} albo emisja następuje przy wycenie Spółki przed emisją wynoszącej co najmniej \field{kwota}.
-  \item \NOWE Rozpoczęcie Kwalifikowanej Rundy Finansowania wymaga uchwały kierunkowej Walnego Zgromadzenia podjętej większością 75\% wszystkich głosów, określającej co najmniej: widełki wyceny lub minimalną cenę emisyjną, maksymalną liczbę nowych akcji, dopuszczalny krąg inwestorów oraz ramowe warunki z ust.~4.
-  \item \NOWE Po podjęciu uchwały kierunkowej każdy akcjonariusz zobowiązuje się współdziałać w dobrej wierze w celu przeprowadzenia Kwalifikowanej Rundy Finansowania na warunkach zgodnych z tą uchwałą, w szczególności: uczestniczyć w Walnych Zgromadzeniach zwołanych w związku z Rundą, głosować za uchwałami niezbędnymi do jej przeprowadzenia oraz zawrzeć zwyczajowe dokumenty transakcyjne. Zobowiązanie to nie obejmuje głosowania sprzecznego z bezwzględnie obowiązującymi przepisami prawa, uchwałą kierunkową albo interesem Spółki i nie zobowiązuje żadnego akcjonariusza do objęcia nowych akcji ani wniesienia dodatkowych środków.
-  \item \NOWE Następujące zwyczajowe warunki inwestorskie mogą zostać przyznane w uchwale emisyjnej i dokumentach transakcyjnych Kwalifikowanej Rundy Finansowania bez konieczności odrębnej zmiany pozostałych postanowień niniejszej umowy, w granicach prawa: (a) uprzywilejowanie likwidacyjne bez prawa udziału (non-participating) do wysokości jednokrotności ceny emisyjnej; (b) ochrona antyrozwodnieniowa metodą szerokiej średniej ważonej (broad-based weighted average); (c) prawo nominacji jednego dyrektora albo obserwatora przy Radzie Dyrektorów, z zachowaniem §~\ref{art:rada} ust.~3; (d) prawa informacyjne; (e) prawo uczestnictwa w przyszłych emisjach proporcjonalnie do udziału (pro-rata). Warunki dalej idące, w szczególności uprzywilejowanie likwidacyjne z prawem udziału, ochrona antyrozwodnieniowa typu full ratchet albo prawo weta wykraczające poza katalog Spraw Zastrzeżonych, wymagają odrębnej uchwały Walnego Zgromadzenia podjętej większością 75\% wszystkich głosów.
-  \item \NOWE Emisja akcji w ramach Kwalifikowanej Rundy Finansowania pozostaje Sprawą Zastrzeżoną i następuje zgodnie z §~\ref{art:walne-zastrzezone}, z zachowaniem zasad prawa poboru i większości wymaganych przez prawo dla jego ograniczenia lub wyłączenia.
-  \item \NOWE Umowę przygotowują na Kwalifikowaną Rundę Finansowania w szczególności: §~\ref{art:akcje} i §~\ref{art:cap-table} (struktura akcji), §~\ref{art:program-motywacyjny} (pula ESOP), §~\ref{art:zwrotne-zbycie} (vesting założycielski), §~\ref{art:dopuszczalny-nabywca} i §~\ref{art:zbywanie} (weryfikacja inwestora), §~\ref{art:pierwszenstwo}, §~\ref{art:przylaczenie} i §~\ref{art:przymusowe-wspolzbycie} (obrót wtórny), §~\ref{art:wycena} (standard wyceny), §~\ref{art:finansowanie} ust.~4 (instrumenty zamienne) oraz §~\ref{art:walne-zastrzezone} (ład emisyjny); zestawienie informacyjne zawiera Załącznik nr~10.
+  \item „Kwalifikowana Runda Finansowania” oznacza emisję nowych akcji Spółki skierowaną do jednego lub kilku inwestorów, z których każdy jest Dopuszczalnym Nabywcą i spełnia Kryterium Bezpieczeństwa EU/NATO (albo uzyskał zgodę Walnego Zgromadzenia zgodnie z §~\ref{art:dopuszczalny-nabywca}), jeżeli łączna cena emisyjna nowych akcji wynosi co najmniej \field{2\,000\,000 zł} albo emisja następuje przy wycenie Spółki przed emisją wynoszącej co najmniej \field{kwota}.
+  \item Rozpoczęcie Kwalifikowanej Rundy Finansowania wymaga uchwały kierunkowej Walnego Zgromadzenia podjętej większością 75\% wszystkich głosów, określającej co najmniej: widełki wyceny lub minimalną cenę emisyjną, maksymalną liczbę nowych akcji, dopuszczalny krąg inwestorów oraz ramowe warunki z ust.~4.
+  \item Po podjęciu uchwały kierunkowej każdy akcjonariusz zobowiązuje się współdziałać w dobrej wierze w celu przeprowadzenia Kwalifikowanej Rundy Finansowania na warunkach zgodnych z tą uchwałą, w szczególności: uczestniczyć w Walnych Zgromadzeniach zwołanych w związku z Rundą, głosować za uchwałami niezbędnymi do jej przeprowadzenia oraz zawrzeć zwyczajowe dokumenty transakcyjne. Zobowiązanie to nie obejmuje głosowania sprzecznego z bezwzględnie obowiązującymi przepisami prawa, uchwałą kierunkową albo interesem Spółki i nie zobowiązuje żadnego akcjonariusza do objęcia nowych akcji ani wniesienia dodatkowych środków.
+  \item Następujące zwyczajowe warunki inwestorskie mogą zostać przyznane w uchwale emisyjnej i dokumentach transakcyjnych Kwalifikowanej Rundy Finansowania bez konieczności odrębnej zmiany pozostałych postanowień niniejszej umowy, w granicach prawa: (a) uprzywilejowanie likwidacyjne bez prawa udziału (non-participating) do wysokości jednokrotności ceny emisyjnej; (b) ochrona antyrozwodnieniowa metodą szerokiej średniej ważonej (broad-based weighted average); (c) prawo nominacji jednego dyrektora albo obserwatora przy Radzie Dyrektorów, z zachowaniem §~\ref{art:rada} ust.~3; (d) prawa informacyjne; (e) prawo uczestnictwa w przyszłych emisjach proporcjonalnie do udziału (pro-rata). Warunki dalej idące, w szczególności uprzywilejowanie likwidacyjne z prawem udziału, ochrona antyrozwodnieniowa typu full ratchet albo prawo weta wykraczające poza katalog Spraw Zastrzeżonych, wymagają odrębnej uchwały Walnego Zgromadzenia podjętej większością 75\% wszystkich głosów.
+  \item Emisja akcji w ramach Kwalifikowanej Rundy Finansowania pozostaje Sprawą Zastrzeżoną i następuje zgodnie z §~\ref{art:walne-zastrzezone}, z zachowaniem zasad prawa poboru i większości wymaganych przez prawo dla jego ograniczenia lub wyłączenia.
+  \item Umowę przygotowują na Kwalifikowaną Rundę Finansowania w szczególności: §~\ref{art:akcje} i §~\ref{art:cap-table} (struktura akcji), §~\ref{art:program-motywacyjny} (pula ESOP), §~\ref{art:zwrotne-zbycie} (vesting założycielski), §~\ref{art:dopuszczalny-nabywca} i §~\ref{art:zbywanie} (weryfikacja inwestora), §~\ref{art:pierwszenstwo}, §~\ref{art:przylaczenie} i §~\ref{art:przymusowe-wspolzbycie} (obrót wtórny), §~\ref{art:wycena} (standard wyceny), §~\ref{art:finansowanie} ust.~4 (instrumenty zamienne) oraz §~\ref{art:walne-zastrzezone} (ład emisyjny); zestawienie informacyjne zawiera Załącznik nr~10.
 \end{enumerate}
 
-\begin{Bylo}
-Paragraf nie istniał w wersji 0.8 --- całość jest nowa.
-\end{Bylo}
 \end{ContractClause}
 
 \begin{ContractClause}{Zysk, wypłaty i rezerwy}
@@ -923,20 +760,13 @@ Paragraf nie istniał w wersji 0.8 --- całość jest nowa.
   \item Spory związane z niniejszą umową strony w pierwszej kolejności poddają negocjacjom i mediacji. W razie braku ugody właściwy jest sąd powszechny właściwy dla siedziby Spółki, chyba że bezwzględnie obowiązujące przepisy stanowią inaczej.
   \item Obowiązek negocjacji i mediacji nie ogranicza prawa strony do żądania zabezpieczenia, podjęcia czynności koniecznej do przerwania lub zawieszenia biegu przedawnienia ani innej czynności niecierpiącej zwłoki.
   \item Załączniki nr 1--3 stanowią integralną część niniejszej umowy.
-  \item \ZM Załączniki nr 4--11 mają wyłącznie charakter informacyjny i porządkujący, nie stanowią części normatywnej niniejszej umowy i nie tworzą samodzielnych praw ani obowiązków.
+  \item Załączniki nr 4--11 mają wyłącznie charakter informacyjny i porządkujący, nie stanowią części normatywnej niniejszej umowy i nie tworzą samodzielnych praw ani obowiązków.
 \end{enumerate}
-
-\ZmianaKomentarz{11}{W ust.~7 rozszerzono zakres z „4--9” na „4--11” w związku z dodaniem Załącznika nr~10 (mapa przygotowania pod rundę inwestycyjną) i nr~11 (punkty do weryfikacji podatkowej) --- oba wyłącznie informacyjne.}
-\begin{Bylo}
-ust.~7: „Załączniki nr 4--9 mają wyłącznie charakter informacyjny i porządkujący, nie stanowią części normatywnej niniejszej umowy i nie tworzą samodzielnych praw ani obowiązków.”
-\end{Bylo}
 \end{ContractClause}
 
 \newpage
 \section*{Załącznik nr 1 — Założyciele, akcje i wkłady}
 \addcontentsline{toc}{section}{Załącznik nr 1 — Założyciele, akcje i wkłady}
-
-\ZmianaKomentarz{7}{Dwie zmiany. Po pierwsze --- KOREKTA RACHUNKOWA: kolumna „Cena łączna” zawierała kwoty 50\,000 / 20\,000 / 10\,000 / 10\,000 / 10\,000 zł (suma 100\,000 zł), podczas gdy przy cenie emisyjnej 0,01 zł za akcję (§~\ref{art:akcje}) łączna cena emisyjna 1\,000\,000 akcji serii A wynosi 10\,000 zł; kwoty były dziesięciokrotnie zawyżone. Skorygowano do 5\,000 / 2\,000 / 1\,000 / 1\,000 / 1\,000 zł. Wartość wkładów może przewyższać cenę emisyjną --- §~\ref{art:wklady} ust.~3 wymaga jedynie „co najmniej”. Po drugie --- zgodnie ze zmianą §~\ref{art:wklady} dodano tabelę wkładów pieniężnych; ich suma stanowi kapitał akcyjny wykazywany przy rejestracji.}
 
 \begin{longtable}{@{}p{1.1cm} p{3.0cm} p{1.9cm} p{2.1cm} p{6.0cm}@{}}
 \toprule
@@ -955,7 +785,7 @@ E & \field{pełne dane} & A0900001--A1000000 & 1 000 zł & \field{kod / sprzęt 
 \bottomrule
 \end{longtable}
 
-\NOWE \textbf{Wkłady pieniężne Założycieli (§~\ref{art:wklady} ust.~1 lit.~d i ust.~4):}
+\textbf{Wkłady pieniężne Założycieli (§~\ref{art:wklady} ust.~1 lit.~d i ust.~4):}
 
 \begin{longtable}{@{}p{1.1cm} p{4.0cm} p{4.0cm} p{5.0cm}@{}}
 \toprule
@@ -972,10 +802,6 @@ E & \field{kwota} & przed wpisem do rejestru & \field{---} \\
 \end{longtable}
 
 Dla każdego składnika należy dołączyć protokół wydania, wykaz plików lub repozytoriów, sumy kontrolne albo oznaczenie wersji, dokumentację nabycia praw, wykaz twórców, wykaz licencji zewnętrznych oraz — w przypadku patentów lub zgłoszeń — numery, terytoria i dokumenty cesji.
-
-\begin{Bylo}
-Kolumna „Cena łączna”: A --- 50 000 zł; B --- 20 000 zł; C --- 10 000 zł; D --- 10 000 zł; E --- 10 000 zł. Tabela wkładów pieniężnych nie istniała.
-\end{Bylo}
 
 \section*{Załącznik nr 2 — Założyciele Pierwotni objęci mechanizmem czasowym}
 \addcontentsline{toc}{section}{Załącznik nr 2 — Założyciele Pierwotni objęci mechanizmem czasowym}
@@ -1028,7 +854,7 @@ E & \field{TAK/NIE} & \field{liczba} & \field{data} & \field{rola} \\
 \begin{enumerate}
   \item \textbf{Prawo głosu i udziału w decyzjach właścicielskich.} Akcjonariusz wykonuje prawo głosu zgodnie z liczbą głosów przypadających na jego akcje oraz uczestniczy w podejmowaniu uchwał na Walnym Zgromadzeniu albo poza Walnym Zgromadzeniem, w tym przy wykorzystaniu środków komunikacji elektronicznej --- §~\ref{art:akcje}, §~\ref{art:wz}; dla akcji serii F także §~\ref{art:seria-f}.
   \item \textbf{Prawo do udziału w zysku i majątku likwidacyjnym.} W zakresie wynikającym z rodzaju posiadanych akcji akcjonariusz uczestniczy w dywidendzie oraz w majątku pozostałym po likwidacji; wypłaty następują z zachowaniem ograniczeń ustawowych i zasad określonych w umowie --- §~\ref{art:akcje}, §~\ref{art:zysk} i §~\ref{art:likwidacja}; dla akcji serii F także §~\ref{art:seria-f}.
-  \item \ZM \textbf{Prawo rozporządzania akcjami w granicach umowy i prawa.} Akcjonariusz może zbyć lub obciążyć akcje na rzecz Dopuszczalnego Nabywcy po uzyskaniu zgody Spółki udzielanej wyłącznie według obiektywnych kryteriów (w reżimie art.~300$^{39}$ KSH, z ustawowym mechanizmem wskazania innego nabywcy za Wartość Godziwą) i po spełnieniu właściwych ograniczeń i procedur --- §~\ref{art:dopuszczalny-nabywca}, §~\ref{art:zbywanie}, §~\ref{art:pierwszenstwo} oraz, jeżeli ma zastosowanie, §~\ref{art:okres-ograniczenia-zbywania}.
+  \item \textbf{Prawo rozporządzania akcjami w granicach umowy i prawa.} Akcjonariusz może zbyć lub obciążyć akcje na rzecz Dopuszczalnego Nabywcy po uzyskaniu zgody Spółki udzielanej wyłącznie według obiektywnych kryteriów (w reżimie art.~300$^{39}$ KSH, z ustawowym mechanizmem wskazania innego nabywcy za Wartość Godziwą) i po spełnieniu właściwych ograniczeń i procedur --- §~\ref{art:dopuszczalny-nabywca}, §~\ref{art:zbywanie}, §~\ref{art:pierwszenstwo} oraz, jeżeli ma zastosowanie, §~\ref{art:okres-ograniczenia-zbywania}.
   \item \textbf{Prawo pierwszeństwa nabycia.} W przypadku zamiaru sprzedaży akcji przez innego akcjonariusza akcjonariusz może skorzystać z prawa pierwszeństwa na zasadach i w terminach określonych w umowie --- §~\ref{art:pierwszenstwo}.
   \item \textbf{Prawo przyłączenia do zbycia.} W przypadku transakcji prowadzącej do przejęcia ponad 50\% głosów akcjonariusz może żądać objęcia transakcją wszystkich albo części swoich akcji na warunkach określonych w umowie --- §~\ref{art:przylaczenie}.
   \item \textbf{Prawo wykonania przymusowego współzbycia przez większość kwalifikowaną oraz ochrona akcjonariusza zobowiązanego do współzbycia.} Akcjonariusz albo grupa akcjonariuszy posiadająca co najmniej 75\% wszystkich głosów może, po spełnieniu warunków umowy, uruchomić przymusowe współzbycie; akcjonariusz mniejszościowy korzysta przy tym z określonych w umowie gwarancji ceny, rodzaju świadczenia i ograniczenia odpowiedzialności --- §~\ref{art:przymusowe-wspolzbycie}.
@@ -1043,7 +869,7 @@ E & \field{TAK/NIE} & \field{liczba} & \field{data} & \field{rola} \\
   \item \textbf{Zachowanie akcji zwolnionych przy Odejściu Usprawiedliwionym.} Akcje już zwolnione z obowiązku zbycia pozostają przy Akcjonariuszu Funkcjonalnym; Walne Zgromadzenie może również przyspieszyć zwolnienie całości albo części pozostałych akcji --- §~\ref{art:zwrotne-zbycie}.
   \item \textbf{Przyspieszenie po zmianie kontroli.} Jeżeli po zmianie kontroli nad Spółką w terminie wskazanym w umowie Spółka rozwiąże współpracę bez istotnej przyczyny, wszystkie pozostałe akcje objęte mechanizmem zostają zwolnione z obowiązku zbycia --- §~\ref{art:zwrotne-zbycie}.
   \item \textbf{Prawa korporacyjne w okresie mechanizmu.} Do chwili zwolnienia z obowiązku zbycia akcje pozostają akcjami istniejącymi i dają prawa korporacyjne zgodnie z prawem i umową, mimo że mogą podlegać obowiązkowi zbycia po wystąpieniu określonego zdarzenia --- §~\ref{art:zwrotne-zbycie}.
-  \item \ZM \textbf{Ochrona ceny przy odejściach w odniesieniu do akcji zwolnionych.} Jeżeli uruchomione zostanie prawo nabycia akcji już zwolnionych z obowiązku zbycia, cena wynosi: przy Odejściu Zawinionym --- 80\% Wartości Godziwej, nie niżej niż cena emisyjna; przy Odejściu Dobrowolnym --- 100\% Wartości Godziwej, a prawo nabycia wygasa po 6 miesiącach od odejścia; przy Odejściu Usprawiedliwionym prawo nabycia akcji zwolnionych nie przysługuje --- §~\ref{art:zwrotne-zbycie} i §~\ref{art:wycena}.
+  \item \textbf{Ochrona ceny przy odejściach w odniesieniu do akcji zwolnionych.} Jeżeli uruchomione zostanie prawo nabycia akcji już zwolnionych z obowiązku zbycia, cena wynosi: przy Odejściu Zawinionym --- 80\% Wartości Godziwej, nie niżej niż cena emisyjna; przy Odejściu Dobrowolnym --- 100\% Wartości Godziwej, a prawo nabycia wygasa po 6 miesiącach od odejścia; przy Odejściu Usprawiedliwionym prawo nabycia akcji zwolnionych nie przysługuje --- §~\ref{art:zwrotne-zbycie} i §~\ref{art:wycena}.
 \end{enumerate}
 
 \subsection*{3. Obowiązki dotyczące każdego akcjonariusza}
@@ -1063,13 +889,13 @@ E & \field{TAK/NIE} & \field{liczba} & \field{data} & \field{rola} \\
   \item \textbf{Wniesienie wkładów.} Założyciel Pierwotny wnosi przypisane mu wkłady, dokonuje dodatkowych czynności potrzebnych do skutecznego przeniesienia praw i do czasu skutecznego wniesienia wkładu przestrzega ograniczeń rozporządzania jego przedmiotem — §~\ref{art:wklady} oraz Załącznik nr 1.
   \item \textbf{Oświadczenia i współdziałanie dotyczące własności intelektualnej.} Założyciel odpowiada za prawdziwość oświadczeń dotyczących praw do przekazywanych aktywów oraz podpisuje dokumenty i udziela pomocy niezbędnej do ochrony praw Spółki, także po ustaniu współpracy, na warunkach określonych w umowie — §~\ref{art:wlasnosc-intelektualna}.
   \item \textbf{Okres Ograniczenia Zbywania Akcji.} Założyciel Pierwotny przez 12 miesięcy od wpisu Spółki do rejestru podlega ograniczeniu zbywania i obciążania akcji, z wyjątkami wskazanymi w umowie — §~\ref{art:okres-ograniczenia-zbywania}.
-  \item \ZM \textbf{Mechanizm czasowy, jeżeli ma zastosowanie.} Założyciel Pierwotny wskazany w Załączniku nr 2 jako funkcjonalny podlega mechanizmowi stopniowego zwalniania akcji z obowiązku zbycia oraz obowiązkom dotyczącym Odejścia Usprawiedliwionego, Odejścia Dobrowolnego i Odejścia Zawinionego — §~\ref{art:zwrotne-zbycie} i Załącznik nr 2.
+  \item \textbf{Mechanizm czasowy, jeżeli ma zastosowanie.} Założyciel Pierwotny wskazany w Załączniku nr 2 jako funkcjonalny podlega mechanizmowi stopniowego zwalniania akcji z obowiązku zbycia oraz obowiązkom dotyczącym Odejścia Usprawiedliwionego, Odejścia Dobrowolnego i Odejścia Zawinionego — §~\ref{art:zwrotne-zbycie} i Załącznik nr 2.
 \end{enumerate}
 
 \subsection*{5. Dodatkowe obowiązki Założyciela Funkcjonalnego Serii F i Akcjonariusza Funkcjonalnego}
 \begin{enumerate}
   \item \textbf{Trwałe strategiczne zaangażowanie.} Status Założyciela Funkcjonalnego Serii F zakłada osobistą, trwałą i strategiczną odpowiedzialność za istotny obszar rozwoju Spółki oraz długoterminowe, istotne zaangażowanie operacyjne — §~\ref{art:seria-f}.
-  \item \ZM \textbf{Mechanizm 48-miesięczny.} Akcje Akcjonariusza Funkcjonalnego podlegają przez 48 miesięcy stopniowemu zwalnianiu z obowiązku zbycia; zasady obejmują 12-miesięczny okres początkowy, Odejście Usprawiedliwione, Odejście Dobrowolne, Odejście Zawinione i przypadki obowiązkowego zbycia — §~\ref{art:zwrotne-zbycie}; dla serii F początek okresu określa §~\ref{art:seria-f}.
+  \item \textbf{Mechanizm 48-miesięczny.} Akcje Akcjonariusza Funkcjonalnego podlegają przez 48 miesięcy stopniowemu zwalnianiu z obowiązku zbycia; zasady obejmują 12-miesięczny okres początkowy, Odejście Usprawiedliwione, Odejście Dobrowolne, Odejście Zawinione i przypadki obowiązkowego zbycia — §~\ref{art:zwrotne-zbycie}; dla serii F początek okresu określa §~\ref{art:seria-f}.
   \item \textbf{Umowa wykonawcza.} Akcjonariusz Funkcjonalny zawiera odrębną umowę wykonawczą określającą procedurę zbycia, ofertę, ograniczone pełnomocnictwo, terminy, zapłatę i moment przeniesienia akcji — §~\ref{art:zwrotne-zbycie} oraz §~\ref{art:breach}.
   \item \textbf{Okres Ograniczenia Zbywania Akcji serii F.} Założyciel Funkcjonalny Serii F podlega 12-miesięcznemu ograniczeniu zbywania liczonym od Dnia Przyznania Serii F — §~\ref{art:seria-f} i §~\ref{art:okres-ograniczenia-zbywania}.
   \item \textbf{Zakaz konkurencji w okresie zaangażowania.} Akcjonariusz Funkcjonalny nie może bez wymaganej zgody prowadzić ani wspierać działalności konkurencyjnej w zakresie określonym w umowie ani przejmować szans biznesowych należących do Spółki — §~\ref{art:konkurencja}.
@@ -1611,7 +1437,7 @@ Wspólne pojęcie nie zaciera różnicy pochodzenia akcji. Pierwsza grupa posiad
 \begin{enumerate}
   \item \textbf{Osobiste i istotne zaangażowanie.} Obie grupy są objęte kategorią funkcjonalną dlatego, że ich pozycja jest związana ze stałym albo długoterminowym, osobistym i istotnym zaangażowaniem w rozwój Spółki --- §~\ref{art:zwrotne-zbycie}; dla Serii F dodatkowo §~\ref{art:seria-f}.
   \item \textbf{Mechanizm 48-miesięczny.} Akcje obu grup podlegają stopniowemu zwalnianiu z obowiązku zbycia przez 48 miesięcy, z 12-miesięcznym okresem początkowym oraz dalszym miesięcznym zwalnianiem --- §~\ref{art:zwrotne-zbycie}. Różni się wyłącznie punkt rozpoczęcia okresu: dla Założyciela Pierwotnego wskazuje go Załącznik nr 2, a dla Założyciela Funkcjonalnego Serii F --- Dzień Przyznania Serii F z §~\ref{art:seria-f}.
-  \item \ZM \textbf{Skutki ustania zaangażowania.} Obie grupy podlegają wspólnym definicjom Odejścia Usprawiedliwionego, Odejścia Dobrowolnego i Odejścia Zawinionego oraz odpowiadającym im zasadom pozostawienia lub obowiązkowego zbycia akcji --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Skutki ustania zaangażowania.} Obie grupy podlegają wspólnym definicjom Odejścia Usprawiedliwionego, Odejścia Dobrowolnego i Odejścia Zawinionego oraz odpowiadającym im zasadom pozostawienia lub obowiązkowego zbycia akcji --- §~\ref{art:zwrotne-zbycie}.
   \item \textbf{Wykonanie obowiązku zbycia.} Jeżeli zgodnie z umową powstaje obowiązek zbycia akcji, Akcjonariusz Funkcjonalny wykonuje go na rzecz wskazanego Dopuszczalnego Nabywcy, na warunkach przewidzianych w §~\ref{art:zwrotne-zbycie}, z uwzględnieniem §~\ref{art:dopuszczalny-nabywca}.
   \item \textbf{Umowa wykonawcza.} Każdy Akcjonariusz Funkcjonalny podpisuje odrębną umowę wykonawczą regulującą mechanizm zbycia, w tym ofertę, pełnomocnictwo, terminy, zapłatę i moment przeniesienia akcji --- §~\ref{art:zwrotne-zbycie}.
   \item \textbf{Ograniczenie zbywania.} Obie grupy podlegają 12-miesięcznemu Okresowi Ograniczenia Zbywania Akcji, z odmiennym momentem rozpoczęcia właściwym dla każdej grupy --- §~\ref{art:okres-ograniczenia-zbywania}; dla Serii F także §~\ref{art:seria-f}.
@@ -1627,7 +1453,7 @@ Wspólne pojęcie nie zaciera różnicy pochodzenia akcji. Pierwsza grupa posiad
   \item \textbf{Prawa korporacyjne w czasie trwania mechanizmu.} Akcje pozostają istniejącymi akcjami i dają prawa korporacyjne mimo niezakończonego procesu zwalniania z obowiązku zbycia --- §~\ref{art:zwrotne-zbycie}.
   \item \textbf{Odejście Usprawiedliwione.} Akcje już zwolnione z obowiązku zbycia pozostają przy Akcjonariuszu Funkcjonalnym, a Walne Zgromadzenie może przyspieszyć zwolnienie pozostałych akcji --- §~\ref{art:zwrotne-zbycie}.
   \item \textbf{Zmiana kontroli.} W przypadku przewidzianym w umowie rozwiązanie współpracy przez Spółkę bez istotnej przyczyny po zmianie kontroli powoduje przyspieszone zwolnienie pozostałych akcji --- §~\ref{art:zwrotne-zbycie}.
-  \item \ZM \textbf{Standard Wartości Godziwej.} W odniesieniu do zwolnionych akcji objętych prawem nabycia umowa odwołuje się przy Odejściu Zawinionym do 80\% Wartości Godziwej (nie mniej niż cena emisyjna), a przy Odejściu Dobrowolnym do 100\% Wartości Godziwej z 6-miesięcznym terminem wykonania prawa nabycia; zasady wyceny określa §~\ref{art:wycena}, a sam mechanizm §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Standard Wartości Godziwej.} W odniesieniu do zwolnionych akcji objętych prawem nabycia umowa odwołuje się przy Odejściu Zawinionym do 80\% Wartości Godziwej (nie mniej niż cena emisyjna), a przy Odejściu Dobrowolnym do 100\% Wartości Godziwej z 6-miesięcznym terminem wykonania prawa nabycia; zasady wyceny określa §~\ref{art:wycena}, a sam mechanizm §~\ref{art:zwrotne-zbycie}.
   \item \textbf{Pozostałe prawa akcjonariusza.} Obie grupy korzystają również z praw wynikających z posiadania właściwych akcji i z ogólnych postanowień umowy, zestawionych informacyjnie w Załączniku nr 4, w szczególności z §~\ref{art:wz}, §~\ref{art:pierwszenstwo}, §~\ref{art:przylaczenie}, §~\ref{art:przymusowe-wspolzbycie}, §~\ref{art:zysk} i §~\ref{art:finansowanie}.
 \end{enumerate}
 
@@ -1654,8 +1480,6 @@ Sposób wejścia do Spółki & objęcie akcji przy zawiązaniu Spółki --- §~\
 \label{annex:audyt-paragraf-po-paragrafie}
 
 \textbf{Status załącznika.} Niniejszy załącznik ma charakter wyłącznie informacyjny i audytowy. Nie zmienia, nie uzupełnia ani nie interpretuje wiążąco postanowień umowy. W szczególności oznaczenie ryzyka w niniejszym załączniku \textbf{nie powoduje zmiany zakwestionowanego paragrafu}. Celem jest wskazanie, dlaczego przyjętą konstrukcję można uznać za zgodną z prawem albo gdzie pozostaje konkretna wątpliwość wymagająca dalszej weryfikacji.
-
-\NOWE \textbf{Nota rewizyjna 0.9.} Audyt odnosi się do tekstu umowy w wersji 0.8. Zmiany rewizji 0.9, oznaczone w tekście blokami [ZMIANA 1--11], nie były przedmiotem niniejszego audytu i wymagają odrębnej weryfikacji prawnej. Zestawienie zmian oraz ich relacja do „Podsumowania audytu” znajdują się w Nocie rewizyjnej na początku dokumentu.
 
 \textbf{Stan prawny audytu: 18 sierpnia 2026 r.} Punktem odniesienia jest w szczególności \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{Kodeks spółek handlowych — tekst jednolity Dz.U. 2024 poz. 18 z późniejszymi zmianami}, \href{https://eli.gov.pl/eli/DU/2026/795/ogl}{Kodeks cywilny — Dz.U. 2026 poz. 795}, \href{https://eli.gov.pl/eli/DU/2026/468/ogl}{Kodeks postępowania cywilnego — Dz.U. 2026 poz. 468} oraz \href{https://eli.gov.pl/eli/DU/2026/236/ogl}{Kodeks rodzinny i opiekuńczy — Dz.U. 2026 poz. 236}. Ustawa z 23 stycznia 2026 r. zmieniająca KSH została ogłoszona 17 lutego 2026 r.; jej zasadniczy termin wejścia w życie przypada na 18 lutego 2027 r., dlatego audyt nie stosuje przepisów, które na dzień audytu nie weszły jeszcze w życie. \href{https://eli.gov.pl/eli/DU/2026/176/ogl}{Tekst nowelizacji w ELI}.
 
@@ -1868,14 +1692,10 @@ W obecnym brzmieniu audyt nie stwierdził systemowej sprzeczności konstrukcji P
 
 Żaden z powyższych paragrafów nie został w ramach niniejszego audytu zmieniony.
 
-\NOWE \textbf{Dopisek rewizji 0.9.} Rewizja 0.9 adresuje wszystkie pięć powyższych punktów: pkt 1 --- nowy ustęp o obowiązkach osoby niebędącej jeszcze akcjonariuszem w §~\ref{art:dopuszczalny-nabywca} [ZMIANA 3]; pkt 2 --- osadzenie lock-upu i zgody Spółki w art.~300$^{39}$ KSH w §~\ref{art:zbywanie} i §~\ref{art:okres-ograniczenia-zbywania} [ZMIANA 3]; pkt 3 --- oparcie §~\ref{art:dziedziczenie} na art.~300$^{41}$ §~1 KSH z określonymi warunkami spłaty [ZMIANA 9]; pkt 4 --- miejsce fizyczne WZ i e-mail z rejestru akcjonariuszy w §~\ref{art:wz} [ZMIANA 8]; pkt 5 --- rozdzielenie umownego i ustawowego wymogu uchwały Rady w §~\ref{art:konkurencja} ust.~8 [ZMIANA 10]. Skuteczność przyjętych rozwiązań wymaga potwierdzenia przez prawnika w punktach oznaczonych „DO WERYFIKACJI”.
-
 \clearpage
 \section*{Załącznik nr 10 — Mapa przygotowania pod rundę inwestycyjną}
 \addcontentsline{toc}{section}{Załącznik nr 10 — Mapa przygotowania pod rundę inwestycyjną}
 \label{annex:mapa-rundy}
-
-\ZmianaKomentarz{6}{Załącznik w całości NOWY (informacyjny). Odpowiada na pytanie: „które paragrafy umowy przygotowują rundę inwestycyjną i czemu odpowiadają w typowym term-sheecie VC”.}
 
 \textbf{Status załącznika.} Załącznik ma charakter wyłącznie informacyjny. Zestawia typowe elementy term-sheetu inwestycyjnego z postanowieniami umowy, które je obsługują.
 
@@ -1909,8 +1729,6 @@ Zakaz konkurencji i IP założycieli & §~\ref{art:konkurencja}, §~\ref{art:wla
 \section*{Załącznik nr 11 — Punkty do weryfikacji podatkowej}
 \addcontentsline{toc}{section}{Załącznik nr 11 — Punkty do weryfikacji podatkowej}
 \label{annex:podatki}
-
-\ZmianaKomentarz{11}{Załącznik w całości NOWY (informacyjny). Zbiera znane punkty sporne podatkowe wymagające analizy doradcy podatkowego przed podpisaniem umowy i przed pierwszym grantem z programu motywacyjnego.}
 
 \textbf{Status załącznika.} Załącznik ma charakter wyłącznie informacyjny; nie stanowi porady podatkowej ani prawnej.
 
