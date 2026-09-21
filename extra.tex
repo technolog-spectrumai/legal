@@ -1,0 +1,612 @@
+% !TeX program = pdflatex
+% Kompilacja: najpierw pdflatex psa.tex (dwukrotnie), potem pdflatex extra.tex (dwukrotnie);
+% odesłania do paragrafów umowy (\ref{art:...}) są pobierane z psa.aux przez pakiet xr-hyper.
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+\externaldocument{psa}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- projekt umowy P.S.A.}
+\BusinessPlanConfidentialText{Dokumenty dodatkowe --- nie stanowią części umowy}
+\BusinessPlanFooterText{Basilisk Systems --- dokumenty dodatkowe do umowy P.S.A.}
+\BusinessPlanVersionText{Wersja 0.9.4-C --- dokumenty dodatkowe}
+
+\setstretch{1.18}
+\setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.18}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{%
+  \paragraf{#1}%
+}{%
+  \par
+}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\CompanyShort}{Basilisk Systems P.S.A.}
+\newcommand{\KSH}{Kodeks spółek handlowych}
+\newcommand{\BoilerplateStrike}[1]{\sout{#1}}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- dokumenty dodatkowe do projektu umowy spółki},
+  pdfauthor={Basilisk Systems --- projekt umowy P.S.A.}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 0.9.4-C --- dokumenty dodatkowe}
+  {Dokumenty dodatkowe}
+  {Spis dokumentów dodatkowych do projektu umowy P.S.A.}
+  {Nie stanowią części umowy}
+  {0.9.4-C}
+
+\tableofcontents
+\newpage
+
+\chapter*{Spis dokumentów dodatkowych do projektu umowy}
+\addcontentsline{toc}{chapter}{Spis dokumentów dodatkowych do projektu umowy}
+
+Niniejszy plik zawiera dokumenty dodatkowe towarzyszące projektowi umowy spółki. Nie są one załącznikami do umowy, nie stanowią jej części normatywnej, nie zmieniają treści żadnego jej postanowienia i nie tworzą samodzielnych praw ani obowiązków. Odesłania do paragrafów (§) wskazują numery z pliku umowy (\texttt{psa.tex}); Załączniki nr 1--3, o których mowa w treści, są załącznikami do umowy i znajdują się w tym pliku.
+
+\textbf{Spis dokumentów dodatkowych}
+\begin{enumerate}
+  \item Dokument dodatkowy nr 1 — Prawa i obowiązki akcjonariusza — zestawienie informacyjne
+  \item Dokument dodatkowy nr 2 — Proces emisji akcji — checklista informacyjna
+  \item Dokument dodatkowy nr 3 — Proces podejmowania decyzji i zarządzania Spółką
+  \item Dokument dodatkowy nr 4 — Akcjonariusz Funkcjonalny — wyjaśnienie wspólnej kategorii
+  \item Dokument dodatkowy nr 5 — Mapa przygotowania pod rundę inwestycyjną
+  \item Dokument dodatkowy nr 6 — Punkty do weryfikacji podatkowej
+\end{enumerate}
+
+Analiza projektu (jak rozwiązaliśmy wątpliwości, audyt paragraf po paragrafie) oraz opinie kancelarii są prowadzone w odrębnym pliku \texttt{psa\_feedback.tex}.
+
+\clearpage
+\section*{Dokument dodatkowy nr 1 — Prawa i obowiązki akcjonariusza — zestawienie informacyjne}
+\addcontentsline{toc}{section}{Dokument dodatkowy nr 1 — Prawa i obowiązki akcjonariusza — zestawienie informacyjne}
+\label{annex:obowiazki-akcjonariusza}
+
+\textbf{Status dokumentu.} Dokument ma charakter wyłącznie informacyjny i porządkujący. Nie tworzy nowych praw ani obowiązków i nie rozszerza praw ani obowiązków wynikających z tekstu umowy. W razie rozbieżności rozstrzygające znaczenie ma właściwe postanowienie umowy wskazane poniżej przez odesłanie do paragrafu.
+
+\subsection*{1. Prawa każdego akcjonariusza}
+
+\begin{enumerate}
+  \item \textbf{Prawo głosu i udziału w decyzjach właścicielskich.} Akcjonariusz wykonuje prawo głosu zgodnie z liczbą głosów przypadających na jego akcje oraz uczestniczy w podejmowaniu uchwał na Walnym Zgromadzeniu albo poza Walnym Zgromadzeniem, w tym przy wykorzystaniu środków komunikacji elektronicznej --- §~\ref{art:akcje}, §~\ref{art:wz}; dla akcji serii F także §~\ref{art:seria-f}.
+  \item \textbf{Prawo do udziału w zysku i majątku likwidacyjnym.} W zakresie wynikającym z rodzaju posiadanych akcji akcjonariusz uczestniczy w dywidendzie oraz w majątku pozostałym po likwidacji; wypłaty następują z zachowaniem ograniczeń ustawowych i zasad określonych w umowie --- §~\ref{art:akcje}, §~\ref{art:zysk} i §~\ref{art:likwidacja}; dla akcji serii F także §~\ref{art:seria-f}.
+  \item \textbf{Prawo rozporządzania akcjami w granicach umowy i prawa.} Akcjonariusz może zbyć lub obciążyć akcje na rzecz Dopuszczalnego Nabywcy po uzyskaniu zgody Spółki udzielanej wyłącznie według obiektywnych kryteriów (w reżimie art.~300$^{39}$ KSH, z ustawowym mechanizmem wskazania innego nabywcy za Wartość Godziwą) i po spełnieniu właściwych ograniczeń i procedur --- §~\ref{art:dopuszczalny-nabywca}, §~\ref{art:zbywanie}, §~\ref{art:pierwszenstwo} oraz, jeżeli ma zastosowanie, §~\ref{art:okres-ograniczenia-zbywania}.
+  \item \textbf{Prawo pierwszeństwa nabycia.} W przypadku zamiaru sprzedaży akcji przez innego akcjonariusza akcjonariusz może skorzystać z prawa pierwszeństwa na zasadach i w terminach określonych w umowie --- §~\ref{art:pierwszenstwo}.
+  \item \textbf{Prawo przyłączenia do zbycia.} W przypadku transakcji prowadzącej do przejęcia ponad 50\% głosów akcjonariusz może żądać objęcia transakcją wszystkich albo części swoich akcji na warunkach określonych w umowie --- §~\ref{art:przylaczenie}.
+  \item \textbf{Prawo wykonania przymusowego współzbycia przez większość kwalifikowaną oraz ochrona akcjonariusza zobowiązanego do współzbycia.} Akcjonariusz albo grupa akcjonariuszy posiadająca co najmniej 75\% wszystkich głosów może, po spełnieniu warunków umowy, uruchomić przymusowe współzbycie; akcjonariusz mniejszościowy korzysta przy tym z określonych w umowie gwarancji ceny, rodzaju świadczenia i ograniczenia odpowiedzialności --- §~\ref{art:przymusowe-wspolzbycie}.
+  \item \textbf{Prawo udziału w rozstrzyganiu Spraw Zastrzeżonych.} Akcjonariusz uprawniony do głosowania uczestniczy w podejmowaniu decyzji należących do Walnego Zgromadzenia, z uwzględnieniem szczególnych większości i zasad obliczania głosów --- §~\ref{art:wz} i §~\ref{art:walne-zastrzezone}.
+  \item \textbf{Ochrona przed przymusowym dalszym finansowaniem.} Samo posiadanie akcji nie zobowiązuje akcjonariusza do dalszego finansowania Spółki; dodatkowe finansowanie wymaga jego odrębnej pisemnej zgody --- §~\ref{art:finansowanie}.
+  \item \textbf{Prawo do Wartości Godziwej, gdy umowa posługuje się tym standardem.} Jeżeli określona procedura przewiduje rozliczenie według Wartości Godziwej, sposób jej ustalania i Dzień Wyceny określa §~\ref{art:wycena}.
+\end{enumerate}
+
+\subsection*{2. Dodatkowe prawa Akcjonariusza Funkcjonalnego}
+
+\begin{enumerate}
+  \item \textbf{Zachowanie akcji zwolnionych przy Odejściu Usprawiedliwionym.} Akcje już zwolnione z obowiązku zbycia pozostają przy Akcjonariuszu Funkcjonalnym; Walne Zgromadzenie może również przyspieszyć zwolnienie całości albo części pozostałych akcji --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Przyspieszenie po zmianie kontroli.} Jeżeli po zmianie kontroli nad Spółką w terminie wskazanym w umowie Spółka rozwiąże współpracę bez istotnej przyczyny, wszystkie pozostałe akcje objęte mechanizmem zostają zwolnione z obowiązku zbycia --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Prawa korporacyjne w okresie mechanizmu.} Do chwili zwolnienia z obowiązku zbycia akcje pozostają akcjami istniejącymi i dają prawa korporacyjne zgodnie z prawem i umową, mimo że mogą podlegać obowiązkowi zbycia po wystąpieniu określonego zdarzenia --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Ochrona ceny przy odejściach w odniesieniu do akcji zwolnionych.} Jeżeli uruchomione zostanie prawo nabycia akcji już zwolnionych z obowiązku zbycia, cena wynosi: przy Odejściu Zawinionym --- 80\% Wartości Godziwej, nie niżej niż cena emisyjna; przy Odejściu Dobrowolnym --- 100\% Wartości Godziwej, a prawo nabycia wygasa po 6 miesiącach od odejścia; przy Odejściu Usprawiedliwionym prawo nabycia akcji zwolnionych nie przysługuje --- §~\ref{art:zwrotne-zbycie} i §~\ref{art:wycena}.
+\end{enumerate}
+
+\subsection*{3. Obowiązki dotyczące każdego akcjonariusza}
+\begin{enumerate}
+  \item \textbf{Legalność nabycia, zbycia i obciążenia akcji.} Akcjonariusz jest związany zasadami dotyczącymi Dopuszczalnego Nabywcy, Niedopuszczalnego Nabywcy i Prawnie Niedopuszczalnego Posiadacza oraz obowiązkiem współdziałania w zakresie wymaganym do ustalenia prawnej dopuszczalności transakcji — §~\ref{art:dopuszczalny-nabywca} i §~\ref{art:zbywanie}.
+  \item \textbf{Prawo pierwszeństwa.} Akcjonariusz zamierzający zbyć akcje osobie trzeciej przeprowadza procedurę uprzedniego zaoferowania akcji Spółce, a następnie pozostałym akcjonariuszom — §~\ref{art:pierwszenstwo}.
+  \item \textbf{Przymusowe współzbycie.} Akcjonariusz objęty prawidłowo uruchomionym prawem przymusowego współzbycia podpisuje dokumenty i wykonuje czynności konieczne do zamknięcia transakcji, na warunkach określonych w umowie — §~\ref{art:przymusowe-wspolzbycie}.
+  \item \textbf{Poufność i bezpieczeństwo informacji.} Akcjonariusz korzysta z informacji poufnych wyłącznie w celu wykonywania praw i obowiązków wobec Spółki, nie udostępnia ich osobom trzecim bez wymaganej zgody oraz przestrzega okresu poufności — §~\ref{art:security}.
+  \item \textbf{Zgłaszanie incydentów.} Każdy akcjonariusz niezwłocznie zgłasza podejrzenie wycieku, naruszenia, utraty urządzenia, nieuprawnionego dostępu, próby pozyskania technologii lub konfliktu interesów — §~\ref{art:security}.
+  \item \textbf{Kontrola eksportu i sankcje.} Akcjonariusz przestrzega obowiązujących ograniczeń dotyczących produktów podwójnego zastosowania, transferu technologii, sankcji i embarg; naruszenie przez akcjonariusza niebędącego Akcjonariuszem Funkcjonalnym stanowi istotne naruszenie umowy — §~\ref{art:export}.
+  \item \textbf{Stosunki majątkowe małżeńskie.} Akcjonariusz będący osobą fizyczną informuje Spółkę o zmianach ustroju majątkowego i innych zdarzeniach mogących wpływać na przynależność akcji, ich podział lub wykonywanie praw z akcji oraz, na uzasadnione żądanie, przedstawia dokumenty przewidziane w tym paragrafie — §~\ref{art:malzonek}.
+  \item \textbf{Usunięcie skutków naruszeń.} Akcjonariusz naruszający obowiązki dotyczące zbywania akcji, poufności, własności intelektualnej, sankcji, kontroli eksportu lub bezpieczeństwa jest zobowiązany do zaniechania naruszenia, usunięcia jego skutków i naprawienia szkody — §~\ref{art:breach}.
+\end{enumerate}
+
+\subsection*{4. Dodatkowe obowiązki Założyciela Pierwotnego}
+\begin{enumerate}
+  \item \textbf{Wniesienie wkładów.} Założyciel Pierwotny wnosi przypisane mu wkłady, dokonuje dodatkowych czynności potrzebnych do skutecznego przeniesienia praw i do czasu skutecznego wniesienia wkładu przestrzega ograniczeń rozporządzania jego przedmiotem — §~\ref{art:wklady} oraz Załącznik nr 1.
+  \item \textbf{Oświadczenia i współdziałanie dotyczące własności intelektualnej.} Założyciel odpowiada za prawdziwość oświadczeń dotyczących praw do przekazywanych aktywów oraz podpisuje dokumenty i udziela pomocy niezbędnej do ochrony praw Spółki, także po ustaniu współpracy, na warunkach określonych w umowie — §~\ref{art:wlasnosc-intelektualna}.
+  \item \textbf{Okres Ograniczenia Zbywania Akcji.} Założyciel Pierwotny przez 12 miesięcy od wpisu Spółki do rejestru podlega ograniczeniu zbywania i obciążania akcji, z wyjątkami wskazanymi w umowie — §~\ref{art:okres-ograniczenia-zbywania}.
+  \item \textbf{Mechanizm czasowy, jeżeli ma zastosowanie.} Założyciel Pierwotny wskazany w Załączniku nr 2 jako funkcjonalny podlega mechanizmowi stopniowego zwalniania akcji z obowiązku zbycia oraz obowiązkom dotyczącym Odejścia Usprawiedliwionego, Odejścia Dobrowolnego i Odejścia Zawinionego — §~\ref{art:zwrotne-zbycie} i Załącznik nr 2.
+\end{enumerate}
+
+\subsection*{5. Dodatkowe obowiązki Założyciela Funkcjonalnego Serii F i Akcjonariusza Funkcjonalnego}
+\begin{enumerate}
+  \item \textbf{Trwałe strategiczne zaangażowanie.} Status Założyciela Funkcjonalnego Serii F zakłada osobistą, trwałą i strategiczną odpowiedzialność za istotny obszar rozwoju Spółki oraz długoterminowe, istotne zaangażowanie operacyjne — §~\ref{art:seria-f}.
+  \item \textbf{Mechanizm 48-miesięczny.} Akcje Akcjonariusza Funkcjonalnego podlegają przez 48 miesięcy stopniowemu zwalnianiu z obowiązku zbycia; zasady obejmują 12-miesięczny okres początkowy, Odejście Usprawiedliwione, Odejście Dobrowolne, Odejście Zawinione i przypadki obowiązkowego zbycia — §~\ref{art:zwrotne-zbycie}; dla serii F początek okresu określa §~\ref{art:seria-f}.
+  \item \textbf{Umowa wykonawcza.} Akcjonariusz Funkcjonalny zawiera odrębną umowę wykonawczą określającą procedurę zbycia, ofertę, ograniczone pełnomocnictwo, terminy, zapłatę i moment przeniesienia akcji — §~\ref{art:zwrotne-zbycie} oraz §~\ref{art:breach}.
+  \item \textbf{Okres Ograniczenia Zbywania Akcji serii F.} Założyciel Funkcjonalny Serii F podlega 12-miesięcznemu ograniczeniu zbywania liczonym od Dnia Przyznania Serii F — §~\ref{art:seria-f} i §~\ref{art:okres-ograniczenia-zbywania}.
+  \item \textbf{Zakaz konkurencji w okresie zaangażowania.} Akcjonariusz Funkcjonalny nie może bez wymaganej zgody prowadzić ani wspierać działalności konkurencyjnej w zakresie określonym w umowie ani przejmować szans biznesowych należących do Spółki — §~\ref{art:konkurencja}.
+  \item \textbf{Zaostrzone skutki określonych naruszeń.} Naruszenia wskazane w definicji Odejścia Zawinionego, w tym określone naruszenia poufności, własności intelektualnej, zakazu konkurencji, sankcji, kontroli eksportu lub cyberbezpieczeństwa, mogą uruchomić skutki mechanizmu zwrotnego zbycia — §~\ref{art:zwrotne-zbycie} i §~\ref{art:export}.
+\end{enumerate}
+
+\subsection*{6. Obowiązki uruchamiane przez szczególne zdarzenia}
+\begin{enumerate}
+  \item \textbf{Prawnie Niedopuszczalny Posiadacz.} Jeżeli po legalnym nabyciu akcji powstanie wiążący zakaz lub ograniczenie prawne, akcjonariusz i Spółka stosują środki wynikające z prawa; jeżeli zbycie jest prawnie dopuszczalnym sposobem usunięcia stanu niedopuszczalności, akcjonariusz dokonuje zbycia zgodnie z §~\ref{art:dopuszczalny-nabywca}.
+  \item \textbf{Dziedziczenie.} Osoba nabywająca akcje w drodze dziedziczenia wykonuje obowiązki przewidziane w §~\ref{art:dziedziczenie}, w tym dotyczące wykazania następstwa prawnego, Dopuszczalnego Nabywcy i wspólnego przedstawiciela współuprawnionych.
+  \item \textbf{Podział majątku małżeńskiego.} Skuteczne nabycie akcji przez małżonka albo byłego małżonka podlega zasadom ogólnym dotyczącym Dopuszczalnego Nabywcy i — jeżeli później powstanie odpowiednia podstawa — Prawnie Niedopuszczalnego Posiadacza — §~\ref{art:malzonek} i §~\ref{art:dopuszczalny-nabywca}.
+\end{enumerate}
+
+\subsection*{7. Brak automatycznego obowiązku dalszego finansowania}
+Posiadanie akcji nie powoduje obowiązku dalszego finansowania Spółki. Dodatkowe finansowanie przez akcjonariusza wymaga jego odrębnej pisemnej zgody — §~\ref{art:finansowanie}.
+
+
+\clearpage
+\section*{Dokument dodatkowy nr 2 — Proces emisji akcji — checklista informacyjna}
+\addcontentsline{toc}{section}{Dokument dodatkowy nr 2 — Proces emisji akcji — checklista informacyjna}
+\label{annex:proces-emisji}
+
+\textbf{Status dokumentu.} Dokument ma charakter wyłącznie informacyjny i porządkujący. Nie zastępuje uchwał, umów objęcia, zgłoszeń rejestrowych ani innych czynności wymaganych przez KSH. W razie rozbieżności pierwszeństwo mają bezwzględnie obowiązujące przepisy prawa oraz właściwe postanowienia umowy Spółki.
+
+\textbf{Terminologia ustawowa.} Zgodnie z art. 4 § 2$^{1}$ KSH, jeżeli w przepisach KSH poza art. 300$^{52}$--300$^{67}$ mowa jest o zarządzie albo członku zarządu, w P.S.A. z Radą Dyrektorów należy przez to rozumieć odpowiednio Radę Dyrektorów albo dyrektora. Dlatego poniższa checklista posługuje się terminologią organów przyjętą w niniejszej umowie. \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{Podstawa: art. 4 § 2$^{1}$ KSH}.
+
+\subsection*{1. Najpierw wybór podstawy prawnej emisji}
+
+Przed przygotowaniem dokumentów Rada Dyrektorów ustala, z którego trybu korzysta planowana emisja:
+\begin{enumerate}
+  \item \textbf{Seria F.} Emisja mieści się w §~\ref{art:seria-f}: maksymalnie 250 000 istniejących i wyemitowanych akcji serii F, nie więcej niż 20\% wszystkich akcji istniejących bezpośrednio po danej emisji, oraz termin emisji do 31 grudnia 2036 r. Jeżeli przed emisją istnieje $F$ akcji serii F, a wszystkich akcji Spółki jest $T$, liczba nowych akcji $x$ musi spełniać jednocześnie $F+x\leq 250\,000$ oraz $F+x\leq 20\%\,(T+x)$.
+  \item \textbf{Seria P.} Emisja mieści się w §~\ref{art:program-motywacyjny}: łączny limit programu wynosi 176 471 akcji serii P, a emisje mogą następować do 31 grudnia 2036 r.
+  \item \textbf{Inna emisja albo przekroczenie obecnej podstawy.} Jeżeli emisja nie mieści się w aktualnej podstawie dla serii F lub P, w szczególności przekracza właściwy limit albo termin, emisja stanowi zmianę umowy Spółki. Należy zastosować §~\ref{art:walne-zastrzezone} oraz przepisy o zmianie umowy Spółki, w tym art. 300$^{100}$ § 2, art. 300$^{102}$ i art. 300$^{103}$ KSH.
+\end{enumerate}
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{100}$ § 2 oraz art. 300$^{102}$--300$^{103}$ KSH}. Art. 300$^{103}$ KSH pozwala przeprowadzić emisję bez zachowania przepisów o zmianie umowy, jeżeli dotychczasowa umowa określa maksymalną liczbę akcji i termin emisji; tę konstrukcję wykorzystują w niniejszej umowie serie F i P.
+
+\subsection*{2. Przygotowanie emisji przed Walnym Zgromadzeniem}
+
+Rada Dyrektorów przygotowuje emisję w zakresie wykonawczym przewidzianym w §~\ref{art:rada-zastrzezone}, nie przejmując kompetencji Walnego Zgromadzenia określonych w §~\ref{art:walne-zastrzezone}. Przed zwołaniem Walnego Zgromadzenia należy przygotować co najmniej:
+\begin{enumerate}
+  \item aktualną tabelę akcjonariatu, liczbę istniejących akcji każdej serii i liczbę głosów;
+  \item ustalenie liczby nowych akcji, serii i numerów oraz potwierdzenie, że emisja mieści się w odpowiednim limicie;
+  \item wskazanie proponowanej ceny emisyjnej albo projektu upoważnienia właściwego organu do jej ustalenia;
+  \item wskazanie daty, od której nowe akcje uczestniczą w dywidendzie;
+  \item określenie terminów i sposobu wniesienia wkładów albo projektu upoważnienia do określenia ich w umowie objęcia;
+  \item przy wkładach niepieniężnych --- dokładny przedmiot wkładu, osobę wnoszącą wkład i liczbę przypadających jej akcji; jeżeli wkładem jest praca lub usługi --- również ich rodzaj i czas świadczenia;
+  \item ustalenie, czy zachowane zostaje prawo poboru, czy konieczna jest jego częściowa albo całkowita eliminacja;
+  \item projekty uchwał, umów objęcia i pozostałych dokumentów wykonawczych.
+\end{enumerate}
+
+Akcje mogą być obejmowane za wkłady pieniężne lub niepieniężne. Świadczenie pracy lub usług może stanowić wkład na akcje PSA, jednak przy ustalaniu kapitału akcyjnego należy uwzględnić ograniczenie wynikające z art. 300$^{3}$ § 1 w związku z art. 14 § 1 KSH.
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{2}$--300$^{3}$ oraz art. 300$^{104}$ KSH}.
+
+\subsection*{3. Zwołanie Walnego Zgromadzenia}
+
+Walne Zgromadzenie zwołuje się zgodnie z §~\ref{art:wz}. Zawiadomienie powinno zawierać szczegółowy porządek obrad obejmujący emisję oraz, jeżeli ma to zastosowanie, pozbawienie prawa poboru. Co do zasady zawiadomienie wysyła się co najmniej dwa tygodnie przed terminem Walnego Zgromadzenia.
+
+Jeżeli emisja wymaga zmiany umowy Spółki, zawiadomienie powinno również wskazywać dotychczasowe postanowienia i projektowane zmiany. Uchwałę dotyczącą zmiany umowy Spółki umieszcza się w protokole sporządzonym przez notariusza. Przy emisji serii F albo P mieszczącej się w istniejącej podstawie z art. 300$^{103}$ KSH zachowanie przepisów o zmianie umowy Spółki nie jest wymagane wyłącznie z tego powodu.
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{87}$, art. 300$^{100}$ § 2 i art. 300$^{103}$ KSH}.
+
+\subsection*{4. Uchwały emisyjne}
+
+\begin{enumerate}
+  \item \textbf{Uchwała o emisji.} Każda emisja wymaga uchwały Walnego Zgromadzenia podjętej większością 75\% wszystkich głosów w Spółce zgodnie z §~\ref{art:walne-zastrzezone}, z wyjątkiem szczególnej zasady dla serii F z §~\ref{art:seria-f}. Dla serii P stosuje się §~\ref{art:program-motywacyjny}.
+  \item \textbf{Treść uchwały.} Uchwała powinna obejmować elementy wymagane przez art. 300$^{104}$ KSH: liczbę, serię i numery akcji; ewentualne uprzywilejowanie; cenę emisyjną lub upoważnienie do jej ustalenia; dzień uczestnictwa w dywidendzie; terminy i sposób wniesienia wkładów albo właściwe upoważnienie; oraz dane dotyczące wkładów niepieniężnych.
+  \item \textbf{Prawo poboru.} Jeżeli emisja ma być skierowana do oznaczonej osoby, a dotychczasowi akcjonariusze nie mają obejmować nowych akcji proporcjonalnie, należy rozstrzygnąć prawo poboru. Pozbawienie prawa poboru w całości lub części wymaga odrębnej uchwały podjętej większością co najmniej czterech piątych głosów, w interesie Spółki, zgodnie z §~\ref{art:walne-zastrzezone} i art. 300$^{106}$ § 2 KSH.
+\end{enumerate}
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{104}$ i art. 300$^{106}$ KSH}.
+
+\subsection*{5. Dodatkowa ścieżka dla serii F}
+
+Przed objęciem akcji przez nowego późniejszego współzałożyciela należy wykonać dodatkowe kroki wynikające z §~\ref{art:seria-f}:
+\begin{enumerate}
+  \item Walne Zgromadzenie większością 75\% Głosów Uprawnionych w Sprawie nadaje kandydatowi status Założyciela Funkcjonalnego Serii F i określa jego rolę strategiczną, minimalne zaangażowanie, maksymalną liczbę akcji i Dzień Przyznania Serii F; kandydat będący akcjonariuszem jest wyłączony od głosowania;
+  \item uchwała kwalifikacyjna nie jest jeszcze ofertą objęcia akcji ani nie tworzy akcji;
+  \item następnie podejmuje się właściwą uchwałę emisyjną i, jeżeli jest to potrzebne, odrębną uchwałę o pozbawieniu prawa poboru;
+  \item przed zgłoszeniem emisji do KRS należy zapewnić podpisanie dokumentów potrzebnych do objęcia osoby mechanizmem z §~\ref{art:zwrotne-zbycie}, w szczególności odrębnej umowy wykonawczej, tak aby akcje po ich powstaniu nie pozostawały bez przewidzianego w umowie mechanizmu wykonawczego.
+\end{enumerate}
+
+\subsection*{6. Dodatkowa ścieżka dla serii P}
+
+Dla emisji w ramach programu motywacyjnego stosuje się §~\ref{art:program-motywacyjny}:
+\begin{enumerate}
+  \item Rada Dyrektorów rekomenduje uczestnika i warunki przyznania;
+  \item sprawdza się pozostałą niewykorzystaną część limitu 176 471 akcji serii P;
+  \item Walne Zgromadzenie podejmuje uchwałę emisyjną większością 75\% wszystkich głosów albo --- dla kilku transz --- uchwałę ramową zgodnie z §~\ref{art:program-motywacyjny} ust.~3, której poszczególne transze wykonuje Rada Dyrektorów;
+  \item jeżeli akcje mają być oferowane oznaczonemu uczestnikowi z pominięciem prawa poboru dotychczasowych akcjonariuszy, podejmuje się odrębną uchwałę większością co najmniej czterech piątych głosów;
+  \item przyznanie praw w programie nie daje statusu akcjonariusza przed powstaniem akcji i właściwym wpisem w rejestrze akcjonariuszy.
+\end{enumerate}
+
+\subsection*{7. Prawo poboru --- wariant zachowany}
+
+Jeżeli prawo poboru nie zostało wyłączone, lista akcjonariuszy uprawnionych do jego wykonania jest ustalana na dzień podjęcia uchwały o emisji. Oferta objęcia nowych akcji jest kierowana do akcjonariuszy w sposób właściwy dla zawiadomień o Walnym Zgromadzeniu, a termin na przyjęcie oferty nie może być krótszy niż 14 dni. Akcjonariusze mogą także złożyć dodatkowe oświadczenie na wypadek niewykonania prawa poboru przez innych akcjonariuszy; przydział takich akcji następuje proporcjonalnie do zgłoszeń.
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{106}$ § 1 i § 3--6 KSH}.
+
+\subsection*{8. Umowa objęcia akcji}
+
+Po podjęciu wymaganych uchwał Spółka składa oznaczonemu adresatowi ofertę objęcia akcji. Nowe akcje są obejmowane na podstawie umowy objęcia, w której Spółka zobowiązuje się wyemitować akcje, a subskrybent zobowiązuje się wnieść wkład.
+
+\begin{enumerate}
+  \item przyjęcie oferty objęcia nie może być uzależnione od warunku ani terminu;
+  \item umowa objęcia wymaga formy dokumentowej pod rygorem nieważności;
+  \item jej treść powinna być zgodna z uchwałą emisyjną, w szczególności co do liczby akcji, ceny, wkładu i terminów jego wniesienia.
+\end{enumerate}
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{105}$ KSH}.
+
+\subsection*{9. Wniesienie wymaganej części wkładów i dokumenty Rady Dyrektorów}
+
+Przed zgłoszeniem emisji do KRS wkłady na nowe akcje muszą zostać wniesione co najmniej w części przewidzianej w uchwale emisyjnej lub umowach objęcia. Następnie wszyscy dyrektorzy składają wymagane oświadczenia, stosownie do art. 4 § 2$^{1}$ KSH:
+\begin{enumerate}
+  \item że wkłady na pokrycie nowych akcji zostały wniesione w wymaganej części;
+  \item o aktualnej wysokości kapitału akcyjnego.
+\end{enumerate}
+
+Oświadczenie o wniesieniu wkładów powinno być oparte na rzeczywistym stanie, ponieważ KSH przewiduje odpowiedzialność dyrektorów za podanie fałszywych danych w takim oświadczeniu, przy odpowiednim zastosowaniu przepisów dotyczących członków zarządu.
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{107}$ § 2 pkt 3--4 oraz art. 300$^{123}$ KSH}.
+
+\subsection*{10. Zgłoszenie emisji do KRS}
+
+Emisję zgłasza Rada Dyrektorów, zgodnie z ustawowym odpowiednim stosowaniem przepisów dotyczących zarządu. Do zgłoszenia należy dołączyć co najmniej:
+\begin{enumerate}
+  \item uchwałę o emisji akcji;
+  \item wszystkie umowy objęcia akcji;
+  \item oświadczenie wszystkich dyrektorów o wniesieniu wymaganej części wkładów;
+  \item oświadczenie wszystkich dyrektorów o wysokości kapitału akcyjnego;
+  \item jeżeli emisja wymagała zmiany umowy Spółki --- również dokumenty wymagane dla rejestracji tej zmiany, w tym właściwy wypis aktu notarialnego.
+\end{enumerate}
+
+W przypadku ścieżki wymagającej zmiany umowy Spółki zgłoszenie tej zmiany nie może nastąpić po upływie sześciu miesięcy od uchwały Walnego Zgromadzenia.
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{102}$ § 2 oraz art. 300$^{107}$ § 1--2 KSH}.
+
+\subsection*{11. Moment powstania nowych akcji}
+
+\textbf{Umowa objęcia akcji nie powoduje jeszcze powstania akcji.} W zwykłej emisji nowe akcje powstają dopiero z chwilą wpisu emisji do rejestru przedsiębiorców KRS. Do tej chwili subskrybent ma prawa wynikające z umowy objęcia, ale nie jest jeszcze właścicielem nowych akcji.
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{107}$ § 3 KSH}.
+
+\subsection*{12. Rejestr akcjonariuszy i zamknięcie procesu}
+
+Po wpisie nowej emisji do KRS Spółka przekazuje podmiotowi prowadzącemu rejestr akcjonariuszy dokumenty potrzebne do zarejestrowania nowych akcji i ich posiadaczy. W przypadku objęcia akcji wpis do rejestru akcjonariuszy następuje dopiero po wpisie nowej emisji do KRS.
+
+Po zakończeniu procesu należy również:
+\begin{enumerate}
+  \item zaktualizować tabelę akcjonariatu i liczbę głosów;
+  \item zaktualizować ewidencję pozostałych limitów serii F lub P;
+  \item dla serii F zaktualizować dokumentację Dnia Przyznania, mechanizmu zwrotnego zbycia i 12-miesięcznego ograniczenia zbywania;
+  \item dla serii P zaktualizować ewidencję programu motywacyjnego;
+  \item przekazać akcjonariuszowi i osobom odpowiedzialnym za księgowość informacje niezbędne do prawidłowego ujęcia emisji.
+\end{enumerate}
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{30}$ § 1--2 oraz art. 300$^{33}$--300$^{34}$ KSH}.
+
+\subsection*{13. Skrócona checklista dokumentów}
+
+\begin{enumerate}
+  \item aktualna tabela akcjonariatu i kontrola limitu emisji;
+  \item projekt uchwały kwalifikacyjnej --- tylko seria F, jeżeli dotyczy nowej osoby;
+  \item zawiadomienie o Walnym Zgromadzeniu z prawidłowym porządkiem obrad;
+  \item uchwała emisyjna;
+  \item odrębna uchwała o pozbawieniu prawa poboru --- jeżeli potrzebna;
+  \item dokumentacja wkładów, w tym wkładów niepieniężnych;
+  \item oferta objęcia i umowa objęcia akcji;
+  \item dla serii F --- uchwała kwalifikacyjna oraz umowa wykonawcza mechanizmu zwrotnego zbycia;
+  \item dowody wniesienia wymaganej części wkładów;
+  \item oświadczenia wszystkich dyrektorów wymagane przez art. 300$^{107}$ § 2 KSH w związku z art. 4 § 2$^{1}$ KSH;
+  \item wniosek i załączniki do KRS;
+  \item po rejestracji emisji --- dyspozycja i dokumenty do podmiotu prowadzącego rejestr akcjonariuszy;
+  \item zaktualizowana tabela akcjonariatu, rejestr limitów F/P i dokumentacja korporacyjna.
+\end{enumerate}
+
+
+
+\clearpage
+\section*{Dokument dodatkowy nr 3 — Proces podejmowania decyzji i zarządzania Spółką}
+\addcontentsline{toc}{section}{Dokument dodatkowy nr 3 — Proces podejmowania decyzji i zarządzania Spółką}
+\label{annex:proces-decyzyjny}
+
+\textbf{Status dokumentu.} Niniejszy dokument ma charakter wyłącznie informacyjny i porządkujący. Nie tworzy nowych kompetencji organów, progów większości, uprawnień ani obowiązków. W razie rozbieżności pierwszeństwo mają bezwzględnie obowiązujące przepisy prawa i właściwe postanowienia umowy Spółki. Odwołania do paragrafów oznaczają paragrafy niniejszej umowy.
+
+\subsection*{1. Model zarządzania — trzy poziomy decyzji}
+
+Spółka działa w systemie monistycznym, zgodnie z §~\ref{art:organy}. Praktyczny podział decyzji powinien następować na trzech poziomach:
+\begin{enumerate}
+  \item \textbf{Bieżące prowadzenie przedsiębiorstwa — dyrektorzy wykonawczy.} Dyrektor wykonawczy prowadzi sprawy mieszczące się w powierzonym zakresie, zatwierdzonym budżecie i przyjętych politykach, o ile dana sprawa nie wymaga uchwały Rady Dyrektorów albo Walnego Zgromadzenia. Podstawę delegacji stanowi §~\ref{art:rada}; delegacja nie obejmuje spraw, które ustawa lub umowa zastrzegają dla uchwały Rady albo akcjonariuszy.
+  \item \textbf{Decyzje strategiczne, organizacyjne i kontrolne — Rada Dyrektorów.} Rada prowadzi sprawy Spółki, reprezentuje ją i sprawuje stały nadzór zgodnie z §~\ref{art:rada}. Sprawy wymagające uchwały Rady określa w szczególności §~\ref{art:rada-zastrzezone}.
+  \item \textbf{Decyzje właścicielskie i fundamentalne — Walne Zgromadzenie.} Sprawy zastrzeżone dla akcjonariuszy określa §~\ref{art:walne-zastrzezone}; sposób podejmowania i obliczania głosów określa §~\ref{art:wz}.
+\end{enumerate}
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{73}$, art. 300$^{75}$--300$^{76}$ oraz art. 300$^{80}$--300$^{81}$ KSH}.
+
+\subsection*{2. Pierwsze pytanie przy każdej decyzji — kto jest właściwy?}
+
+Przed rozpoczęciem negocjacji lub składaniem wiążących oświadczeń osoba prowadząca sprawę kwalifikuje ją do jednej z poniższych kategorii:
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{>{\bfseries}p{3.0cm} X X}
+\toprule
+Kategoria & Typowa sprawa & Właściwa ścieżka \\
+\midrule
+A — operacyjna & Czynność w zatwierdzonym budżecie i w granicach delegacji, niewymieniona jako sprawa zastrzeżona & Dyrektor wykonawczy; następnie prawidłowa reprezentacja zgodnie z §~\ref{art:reprezentacja} \\
+B — Rada & Strategia, budżet, organizacja, istotna transakcja, finansowanie poza Planem Finansowania powyżej 100 000 zł, wydatek poza budżetem powyżej 250 000 zł, sprawy bezpieczeństwa, eksportu, IP i podmiotów powiązanych, Przedsięwzięcia Produkcyjne do 500 000 zł & Uchwała Rady zgodnie z §~\ref{art:rada} i §~\ref{art:rada-zastrzezone} \\
+C — Walne Zgromadzenie & Emisja, zmiana umowy, dyrektorzy, transakcje właścicielskie i pozostałe Sprawy Zastrzeżone; poza budżetem powyżej 500 000 zł; Przedsięwzięcia Produkcyjne powyżej 500 000 zł, z utratą kontroli albo z partnerem spoza Kryterium EU/NATO & Uchwała akcjonariuszy zgodnie z §~\ref{art:wz} i §~\ref{art:walne-zastrzezone} \\
+D — konflikt / szczególna reprezentacja & Transakcja z dyrektorem, osobą bliską albo podmiotem powiązanym; osobisty interes dyrektora & Najpierw §~\ref{art:konkurencja}, następnie §~\ref{art:reprezentacja}; w razie potrzeby Walne Zgromadzenie \\
+E — impas & Sprawa Zastrzeżona nierozstrzygnięta na dwóch Walnych Zgromadzeniach i zagrażająca działalności & Procedura §~\ref{art:impas} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Jeżeli sprawa spełnia kryteria kilku kategorii, stosuje się ścieżkę wymagającą decyzji organu wyższego szczebla oraz wszystkie dodatkowe wymogi szczególne.
+
+\subsection*{3. Karta decyzji — minimalny materiał przed podjęciem decyzji}
+
+Dla spraw wymagających uchwały Rady albo Walnego Zgromadzenia rekomenduje się przygotowanie krótkiej „Karty decyzji”, zawierającej co najmniej:
+\begin{enumerate}
+  \item opis decyzji i wskazanie osoby odpowiedzialnej za jej przygotowanie;
+  \item wskazanie właściwej podstawy kompetencyjnej: §~\ref{art:rada-zastrzezone}, §~\ref{art:walne-zastrzezone} albo innego właściwego paragrafu;
+  \item wartość transakcji, wpływ na budżet i informację, czy wydatek mieści się w zatwierdzonym budżecie;
+  \item co najmniej dwa racjonalne warianty działania, jeżeli charakter sprawy na to pozwala, oraz rekomendację wraz z uzasadnieniem;
+  \item ocenę wpływu na płynność, własność intelektualną, bezpieczeństwo informacji, kontrolę eksportu i sankcje — jeżeli dotyczy;
+  \item oświadczenie o występowaniu albo braku konfliktu interesów;
+  \item wskazanie wymaganej większości, sposobu reprezentacji i osób uprawnionych do podpisania dokumentów po podjęciu decyzji;
+  \item projekt uchwały oraz, jeżeli decyzja ma prowadzić do zawarcia umowy, projekt albo podstawowe warunki tej umowy.
+\end{enumerate}
+
+\subsection*{4. Bramka zgodności przed skierowaniem sprawy do organu}
+
+Przed głosowaniem należy ustalić, czy sprawa wymaga dodatkowej kontroli:
+\begin{enumerate}
+  \item \textbf{konflikt interesów lub podmiot powiązany} — stosuje się §~\ref{art:konkurencja}; dyrektor w konflikcie ujawnia konflikt i nie bierze udziału w przygotowaniu ani rozstrzyganiu sprawy;
+  \item \textbf{własność intelektualna} — stosuje się §~\ref{art:wlasnosc-intelektualna}, a przy rozporządzeniu Kluczową Własnością Intelektualną również §~\ref{art:rada-zastrzezone} albo §~\ref{art:walne-zastrzezone};
+  \item \textbf{bezpieczeństwo informacji} — stosuje się §~\ref{art:security};
+  \item \textbf{eksport, transfer technologii lub sankcje} — stosuje się §~\ref{art:export}; wymagane klasyfikacje i zezwolenia muszą zostać ustalone przed wykonaniem decyzji;
+  \item \textbf{finansowanie lub wypłata} — stosuje się odpowiednio §~\ref{art:finansowanie} oraz postanowienia dotyczące wypłat i kapitału akcyjnego;
+  \item \textbf{emisja akcji} — stosuje się §~\ref{art:walne-zastrzezone}, a dla serii F i P odpowiednio §~\ref{art:seria-f} i §~\ref{art:program-motywacyjny}; praktyczna procedura znajduje się w Dokumencie dodatkowym nr 3.
+\end{enumerate}
+
+Pozytywna decyzja biznesowa nie zastępuje wymaganej zgody regulacyjnej, zezwolenia, szczególnego sposobu reprezentacji ani odrębnej uchwały wymaganej przez prawo lub umowę.
+
+\subsection*{5. Podejmowanie decyzji przez Radę Dyrektorów}
+
+Standardowy proces decyzji Rady powinien przebiegać następująco:
+\begin{enumerate}
+  \item osoba prowadząca sprawę przekazuje członkom Rady Kartę decyzji i projekt uchwały;
+  \item przed głosowaniem identyfikuje się dyrektorów pozostających w konflikcie interesów zgodnie z §~\ref{art:konkurencja};
+  \item sprawdza się quorum i wymaganą większość zgodnie z §~\ref{art:rada};
+  \item uchwała zapada bezwzględną większością głosów przy obecności co najmniej połowy pełnego składu Rady, o ile umowa nie wymaga surowszej większości; w razie równości głosów rozstrzyga głos Przewodniczącego, z wyjątkiem spraw dotyczących jego interesu osobistego;
+  \item dla spraw wskazanych w §~\ref{art:rada-zastrzezone}, dla których umowa wymaga udziału dyrektora niewykonawczego odpowiedzialnego za bezpieczeństwo lub zgodność, przed zamknięciem głosowania potwierdza się spełnienie tego warunku;
+  \item wynik, głosy, wyłączenia z powodu konfliktu oraz przyjęte uzasadnienie utrwala się w protokole albo innym prawidłowym dokumencie korporacyjnym;
+  \item uchwała wskazuje osobę odpowiedzialną za wykonanie decyzji, termin i — jeżeli potrzeba — limit finansowy lub warunki brzegowe.
+\end{enumerate}
+
+Posiedzenie i głosowanie Rady może odbywać się zdalnie na zasadach określonych w §~\ref{art:rada}.
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{55}$, art. 300$^{58}$ oraz art. 300$^{73}$--300$^{76}$ KSH}.
+
+\subsection*{6. Podejmowanie decyzji przez Walne Zgromadzenie}
+
+Jeżeli sprawa należy do kompetencji akcjonariuszy:
+\begin{enumerate}
+  \item Rada Dyrektorów albo osoba uprawniona przygotowuje propozycję decyzji i projekt uchwały;
+  \item uchwała może zostać podjęta na Walnym Zgromadzeniu albo poza Walnym Zgromadzeniem, w tym przy wykorzystaniu środków komunikacji elektronicznej, na zasadach §~\ref{art:wz};
+  \item przed głosowaniem ustala się właściwy mianownik: „Głosy Uprawnione w Sprawie” albo „wszystkie głosy w Spółce” — zgodnie z §~\ref{art:wz};
+  \item zwykłe uchwały zapadają bezwzględną większością głosów oddanych, jeżeli ustawa albo umowa nie wymaga więcej;
+  \item Sprawy Zastrzeżone z §~\ref{art:walne-zastrzezone} wymagają co do zasady 75\% wszystkich głosów w Spółce;
+  \item pozbawienie prawa poboru wymaga co najmniej czterech piątych głosów oraz spełnienia wymogów ustawowych;
+  \item zgoda na zbycie akcji Założyciela w Okresie Ograniczenia Zbywania Akcji wymaga 75\% Głosów Uprawnionych w Sprawie;
+  \item uchwałę wraz z wynikiem głosowania i dokumentami stanowiącymi podstawę decyzji archiwizuje się w dokumentacji korporacyjnej.
+\end{enumerate}
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{80}$--300$^{81}$ oraz art. 300$^{92}$ KSH}.
+
+\subsection*{7. Uchwała nie jest jeszcze wykonaniem — reprezentacja Spółki}
+
+Po podjęciu decyzji należy oddzielnie sprawdzić, kto może złożyć oświadczenie woli w imieniu Spółki. Zgodnie z §~\ref{art:reprezentacja} co do zasady wymagane jest współdziałanie dwóch dyrektorów albo jednego dyrektora łącznie z prokurentem.
+
+Powołanie prokurenta wymaga zgody wszystkich dyrektorów; odwołanie prokury może nastąpić przez każdego dyrektora. Jeżeli stroną umowy albo sporu ze Spółką jest dyrektor, stosuje się szczególny sposób reprezentacji określony w §~\ref{art:reprezentacja} i art. 300$^{79}$ KSH. Sam fakt zatwierdzenia transakcji przez Radę albo Walne Zgromadzenie nie usuwa obowiązku zachowania właściwego sposobu reprezentacji.
+
+\textbf{Podstawa prawna:} \href{https://eli.gov.pl/api/acts/DU/2024/18/text.html}{art. 300$^{75}$ § 3 oraz art. 300$^{79}$ KSH}.
+
+\subsection*{8. Zalecany rytm zarządzania operacyjnego}
+
+Poniższy rytm ma charakter organizacyjnej rekomendacji i nie ustanawia dodatkowych obowiązków korporacyjnych:
+\begin{enumerate}
+  \item \textbf{na bieżąco} — dyrektorzy wykonawczy prowadzą działalność w ramach delegacji, budżetu i polityk; istotne odstępstwa eskalują do Rady;
+  \item \textbf{co miesiąc} — przegląd zarządczy obejmujący środki pieniężne i płynność, realizację budżetu, sprzedaż i kontrakty, rozwój produktów, ryzyka techniczne, bezpieczeństwo, IP, kontrolę eksportu, stan zatrudnienia i najważniejsze zobowiązania;
+  \item \textbf{co kwartał} — formalny przegląd Rady Dyrektorów obejmujący realizację strategii, budżetu, kluczowe ryzyka i aktualizację priorytetów;
+  \item \textbf{raz w roku} — Rada przyjmuje strategię, budżet i plan finansowy zgodnie z §~\ref{art:rada-zastrzezone}; odbywa się również zwyczajne Walne Zgromadzenie w zakresie wymaganym przez prawo;
+  \item \textbf{niezwłocznie} — incydenty bezpieczeństwa, konflikt interesów, ryzyko sankcyjne lub eksportowe oraz zdarzenia mogące zagrozić płynności są eskalowane zgodnie z właściwymi paragrafami umowy.
+\end{enumerate}
+
+Ten rytm może zostać rozwinięty w Regulaminie Rady Dyrektorów, o którym mowa w §~\ref{art:rada}.
+
+\subsection*{9. Decyzje pilne i ciągłość działalności}
+
+Pilność sprawy nie zmienia ustawowej lub umownej właściwości organu ani wymaganej większości. Jeżeli czynność wymaga uchwały Rady lub Walnego Zgromadzenia, należy wykorzystać dopuszczone przez umowę tryby elektroniczne, zamiast zastępować wymaganą uchwałę decyzją operacyjną.
+
+W przypadku Impasu Decyzyjnego stosuje się §~\ref{art:impas}. Do czasu jego rozwiązania obowiązuje ostatni zatwierdzony budżet, proporcjonalnie przedłużony, a Rada może podejmować wyłącznie czynności konieczne dla ciągłości, bezpieczeństwa, ochrony praw Spółki i wykonania obowiązków ustawowych.
+
+\subsection*{10. Rejestr decyzji i kontrola wykonania}
+
+Dla uchwał Rady i Walnego Zgromadzenia rekomenduje się prowadzenie jednego rejestru decyzji zawierającego co najmniej:
+\begin{enumerate}
+  \item numer i datę decyzji;
+  \item organ i tryb podjęcia;
+  \item podstawę kompetencyjną w umowie Spółki;
+  \item wymaganą i uzyskaną większość;
+  \item informację o konfliktach interesów i wyłączeniach;
+  \item krótkie rozstrzygnięcie oraz warunki jego wykonania;
+  \item osobę odpowiedzialną za wykonanie i termin;
+  \item sposób reprezentacji i osoby podpisujące dokumenty;
+  \item odnośniki do umowy, faktury, zamówienia, dokumentacji KRS albo innego rezultatu wykonania;
+  \item status: planowana / podjęta / w wykonaniu / wykonana / uchylona.
+\end{enumerate}
+
+Rejestr decyzji nie zastępuje protokołów ani dokumentów wymaganych przez KSH lub umowę Spółki. Ma umożliwiać szybkie ustalenie: \textit{kto podjął decyzję, na jakiej podstawie, kto ją wykonuje i czy została wykonana}.
+
+\subsection*{11. Skrócony algorytm decyzji}
+
+\begin{enumerate}
+  \item \textbf{Zdefiniuj sprawę.}
+  \item \textbf{Sprawdź kompetencję:} operacyjna / Rada / Walne Zgromadzenie.
+  \item \textbf{Sprawdź progi:} budżet, 100 000 zł, 500 000 zł, 75\%, cztery piąte albo inny próg szczególny.
+  \item \textbf{Sprawdź bramki:} konflikt interesów, IP, bezpieczeństwo, eksport, sankcje, finansowanie.
+  \item \textbf{Przygotuj Kartę decyzji i projekt uchwały}, jeżeli uchwała jest wymagana.
+  \item \textbf{Podejmij decyzję} przez właściwy organ i utrwal wynik.
+  \item \textbf{Sprawdź reprezentację} przed podpisaniem dokumentów.
+  \item \textbf{Wykonaj decyzję} przez wskazaną osobę w określonym terminie i limicie.
+  \item \textbf{Zamknij decyzję} przez wpis do rejestru decyzji i dołączenie dowodów wykonania.
+\end{enumerate}
+
+
+\clearpage
+\section*{Dokument dodatkowy nr 4 — Akcjonariusz Funkcjonalny — wyjaśnienie wspólnej kategorii}
+\addcontentsline{toc}{section}{Dokument dodatkowy nr 4 — Akcjonariusz Funkcjonalny — wyjaśnienie wspólnej kategorii}
+\label{annex:akcjonariusz-funkcjonalny}
+
+\textbf{Status dokumentu.} Dokument ma charakter wyłącznie informacyjny i porządkujący. Nie tworzy odrębnego rodzaju akcji ani nowych praw lub obowiązków. Wyjaśnia sposób posługiwania się w umowie pojęciem „Akcjonariusz Funkcjonalny” i wskazuje właściwe postanowienia normatywne przez odesłania \texttt{\string\ref}.
+
+\subsection*{1. Kogo umowa nazywa Akcjonariuszem Funkcjonalnym}
+
+Pojęcie „Akcjonariusz Funkcjonalny” jest wspólną kategorią używaną w §~\ref{art:zwrotne-zbycie} dla dwóch grup osób:
+\begin{enumerate}
+  \item \textbf{Założyciel Pierwotny objęty mechanizmem czasowym} --- osoba, która zawarła umowę przy zawiązaniu Spółki, objęła akcje serii A i została wskazana w Załączniku nr 2 jako osoba zobowiązana do stałego, osobistego i istotnego zaangażowania operacyjnego; status Założyciela Pierwotnego wynika z §~\ref{art:cap-table}, a objęcie mechanizmem z §~\ref{art:zwrotne-zbycie} i Załącznika nr 2;
+  \item \textbf{Założyciel Funkcjonalny Serii F} --- późniejszy współzałożyciel spełniający kryteria strategicznego i długoterminowego zaangażowania z §~\ref{art:seria-f}, który staje się Akcjonariuszem Funkcjonalnym od chwili powstania przysługujących mu akcji serii F, zgodnie z §~\ref{art:zwrotne-zbycie}.
+\end{enumerate}
+
+Wspólne pojęcie nie zaciera różnicy pochodzenia akcji. Pierwsza grupa posiada akcje serii A i istnieje od zawiązania Spółki; druga grupa wchodzi później przez kwalifikację i emisję serii F na zasadach §~\ref{art:seria-f}. Wspólny jest natomiast reżim związany z funkcjonalnym zaangażowaniem w Spółkę.
+
+\subsection*{2. Wspólne obowiązki obu rodzajów Akcjonariuszy Funkcjonalnych}
+
+\begin{enumerate}
+  \item \textbf{Osobiste i istotne zaangażowanie.} Obie grupy są objęte kategorią funkcjonalną dlatego, że ich pozycja jest związana ze stałym albo długoterminowym, osobistym i istotnym zaangażowaniem w rozwój Spółki --- §~\ref{art:zwrotne-zbycie}; dla Serii F dodatkowo §~\ref{art:seria-f}.
+  \item \textbf{Mechanizm 48-miesięczny.} Akcje obu grup podlegają stopniowemu zwalnianiu z obowiązku zbycia przez 48 miesięcy, z 12-miesięcznym okresem początkowym oraz dalszym miesięcznym zwalnianiem --- §~\ref{art:zwrotne-zbycie}. Różni się wyłącznie punkt rozpoczęcia okresu: dla Założyciela Pierwotnego wskazuje go Załącznik nr 2, a dla Założyciela Funkcjonalnego Serii F --- Dzień Przyznania Serii F z §~\ref{art:seria-f}.
+  \item \textbf{Skutki ustania zaangażowania.} Obie grupy podlegają wspólnym definicjom Odejścia Usprawiedliwionego, Odejścia Dobrowolnego i Odejścia Zawinionego oraz odpowiadającym im zasadom pozostawienia lub obowiązkowego zbycia akcji --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Wykonanie obowiązku zbycia.} Jeżeli zgodnie z umową powstaje obowiązek zbycia akcji, Akcjonariusz Funkcjonalny wykonuje go na rzecz wskazanego Dopuszczalnego Nabywcy, na warunkach przewidzianych w §~\ref{art:zwrotne-zbycie}, z uwzględnieniem §~\ref{art:dopuszczalny-nabywca}.
+  \item \textbf{Umowa wykonawcza.} Każdy Akcjonariusz Funkcjonalny podpisuje odrębną umowę wykonawczą regulującą mechanizm zbycia, w tym ofertę, pełnomocnictwo, terminy, zapłatę i moment przeniesienia akcji --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Ograniczenie zbywania.} Obie grupy podlegają 12-miesięcznemu Okresowi Ograniczenia Zbywania Akcji, z odmiennym momentem rozpoczęcia właściwym dla każdej grupy --- §~\ref{art:okres-ograniczenia-zbywania}; dla Serii F także §~\ref{art:seria-f}.
+  \item \textbf{Zakaz konkurencji i konflikt interesów.} Obie grupy, jako Akcjonariusze Funkcjonalni, podlegają obowiązkom dotyczącym działalności konkurencyjnej, przejmowania szans biznesowych i konfliktu interesów w zakresie określonym w §~\ref{art:konkurencja}.
+  \item \textbf{Poufność i bezpieczeństwo.} Obie grupy podlegają obowiązkom poufności, bezpieczeństwa informacji, cyberbezpieczeństwa i zgłaszania incydentów określonym w §~\ref{art:security}.
+  \item \textbf{Kontrola eksportu i sankcje.} Obie grupy przestrzegają obowiązków wynikających z §~\ref{art:export}; określone naruszenia tych obowiązków mogą równocześnie stanowić Odejście Zawinione zgodnie z §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Ogólne obowiązki akcjonariusza.} Niezależnie od reżimu funkcjonalnego obie grupy pozostają akcjonariuszami i podlegają ogólnym zasadom dotyczącym Dopuszczalnego Nabywcy, zbywania akcji, prawa pierwszeństwa, przymusowego współzbycia, poufności oraz wykonania obowiązków --- w szczególności §~\ref{art:dopuszczalny-nabywca}, §~\ref{art:zbywanie}, §~\ref{art:pierwszenstwo}, §~\ref{art:przymusowe-wspolzbycie}, §~\ref{art:security} i §~\ref{art:breach}.
+\end{enumerate}
+
+\subsection*{3. Wspólne prawa i zabezpieczenia obu rodzajów Akcjonariuszy Funkcjonalnych}
+
+\begin{enumerate}
+  \item \textbf{Prawa korporacyjne w czasie trwania mechanizmu.} Akcje pozostają istniejącymi akcjami i dają prawa korporacyjne mimo niezakończonego procesu zwalniania z obowiązku zbycia --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Odejście Usprawiedliwione.} Akcje już zwolnione z obowiązku zbycia pozostają przy Akcjonariuszu Funkcjonalnym, a Walne Zgromadzenie może przyspieszyć zwolnienie pozostałych akcji --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Zmiana kontroli.} W przypadku przewidzianym w umowie rozwiązanie współpracy przez Spółkę bez istotnej przyczyny po zmianie kontroli powoduje przyspieszone zwolnienie pozostałych akcji --- §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Standard Wartości Godziwej.} W odniesieniu do zwolnionych akcji objętych prawem nabycia umowa odwołuje się przy Odejściu Zawinionym do 80\% Wartości Godziwej (nie mniej niż cena emisyjna), a przy Odejściu Dobrowolnym do 100\% Wartości Godziwej z 6-miesięcznym terminem wykonania prawa nabycia; zasady wyceny określa §~\ref{art:wycena}, a sam mechanizm §~\ref{art:zwrotne-zbycie}.
+  \item \textbf{Pozostałe prawa akcjonariusza.} Obie grupy korzystają również z praw wynikających z posiadania właściwych akcji i z ogólnych postanowień umowy, zestawionych informacyjnie w Dokumencie dodatkowym nr 1, w szczególności z §~\ref{art:wz}, §~\ref{art:pierwszenstwo}, §~\ref{art:przylaczenie}, §~\ref{art:przymusowe-wspolzbycie}, §~\ref{art:zysk} i §~\ref{art:finansowanie}.
+\end{enumerate}
+
+\subsection*{4. Najważniejsze różnice między obiema grupami}
+
+\begin{longtable}{p{4.2cm} p{5.0cm} p{5.0cm}}
+\toprule
+\textbf{Cecha} & \textbf{Założyciel Pierwotny funkcjonalny} & \textbf{Założyciel Funkcjonalny Serii F} \\
+\midrule
+Pochodzenie statusu & zawarcie umowy przy zawiązaniu Spółki oraz wskazanie w Załączniku nr 2 & późniejsza kwalifikacja uchwałą Walnego Zgromadzenia zgodnie z §~\ref{art:seria-f} \\
+Akcje & seria A --- §~\ref{art:akcje} i §~\ref{art:cap-table} & seria F --- §~\ref{art:seria-f} \\
+Początek 48 miesięcy & data rozpoczęcia wskazana w Załączniku nr 2 --- §~\ref{art:zwrotne-zbycie} & Dzień Przyznania Serii F --- §~\ref{art:seria-f} i §~\ref{art:zwrotne-zbycie} \\
+Początek 12-miesięcznego ograniczenia zbywania & dzień wpisu Spółki do rejestru --- §~\ref{art:okres-ograniczenia-zbywania} & Dzień Przyznania Serii F --- §~\ref{art:seria-f} i §~\ref{art:okres-ograniczenia-zbywania} \\
+Sposób wejścia do Spółki & objęcie akcji przy zawiązaniu Spółki --- §~\ref{art:cap-table} & kwalifikacja, uchwała emisyjna i objęcie akcji serii F --- §~\ref{art:seria-f}; proces informacyjnie opisuje Dokument dodatkowy nr 2 \\
+\bottomrule
+\end{longtable}
+
+\textbf{Reguła interpretacyjna.} Jeżeli umowa posługuje się pojęciem „Akcjonariusz Funkcjonalny”, należy stosować wspólny reżim z §~\ref{art:zwrotne-zbycie} do obu powyższych grup, chyba że dane postanowienie wyraźnie dotyczy tylko Założyciela Pierwotnego, tylko Założyciela Funkcjonalnego Serii F albo określonej serii akcji.
+
+
+\clearpage
+\section*{Dokument dodatkowy nr 5 — Mapa przygotowania pod rundę inwestycyjną}
+\addcontentsline{toc}{section}{Dokument dodatkowy nr 5 — Mapa przygotowania pod rundę inwestycyjną}
+\label{annex:mapa-rundy}
+
+\textbf{Status dokumentu.} Dokument ma charakter wyłącznie informacyjny. Zestawia typowe elementy term-sheetu inwestycyjnego z postanowieniami umowy, które je obsługują.
+
+\begin{longtable}{@{}p{5.2cm} p{3.4cm} p{6.2cm}@{}}
+\toprule
+\textbf{Element term-sheetu} & \textbf{Paragraf umowy} & \textbf{Jak umowa go obsługuje} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Element term-sheetu} & \textbf{Paragraf umowy} & \textbf{Jak umowa go obsługuje} \\
+\midrule
+\endhead
+Tryb rundy, zobowiązanie współdziałania, katalog warunków inwestorskich & §~\ref{art:kwalifikowana-runda} & uchwała kierunkowa 75\%, obowiązek głosowania za uchwałami wykonawczymi, dopuszczalne: liquidation preference non-participating do 1x, broad-based weighted average, dyrektor/obserwator inwestora, prawa informacyjne, pro-rata \\
+Cap table i nowe serie akcji & §~\ref{art:akcje}, §~\ref{art:cap-table} & 1\,000\,000 akcji serii A, zdefiniowane serie F i P, rezerwa emisyjna \\
+Pula opcyjna (ESOP) & §~\ref{art:program-motywacyjny} & pula 15\% po pełnym rozwodnieniu (seria P), standardowo wymagana przez inwestorów przed rundą \\
+Vesting założycieli & §~\ref{art:zwrotne-zbycie}, Załącznik nr 2 & 48 miesięcy z 12-miesięcznym okresem początkowym, kategorie odejść --- inwestorzy zwykle wymagają istniejącego vestingu \\
+Screening inwestora & §~\ref{art:dopuszczalny-nabywca}, §~\ref{art:zbywanie} & test sankcyjny + Kryterium Bezpieczeństwa EU/NATO + zgoda Spółki w reżimie art.~300$^{39}$ KSH \\
+ROFR (prawo pierwszeństwa) & §~\ref{art:pierwszenstwo} & prawo pierwszeństwa proporcjonalne z procedurą zawiadomień \\
+Tag-along & §~\ref{art:przylaczenie} & prawo przyłączenia przy transakcji ponad 50\% głosów \\
+Drag-along & §~\ref{art:przymusowe-wspolzbycie} & przymusowe współzbycie od progu 75\% z gwarancjami ceny dla mniejszości \\
+Standard wyceny & §~\ref{art:wycena} & Wartość Godziwa, Niezależny Ekspert, Dzień Wyceny \\
+Nowe emisje i prawo poboru & §~\ref{art:walne-zastrzezone}, §~\ref{art:wz} & emisje jako Sprawa Zastrzeżona 75\%; wyłączenie prawa poboru według większości ustawowej \\
+Instrumenty zamienne (SAFE, pożyczka konwertowalna, warranty) & §~\ref{art:finansowanie} ust.~4 & wymagają uchwały WZ jako Sprawa Zastrzeżona \\
+Zakaz konkurencji i IP założycieli & §~\ref{art:konkurencja}, §~\ref{art:wlasnosc-intelektualna} & standardowe wymogi due diligence inwestora \\
+Spółki celowe i wspólne przedsięwzięcia produkcyjne & §~\ref{art:przedsiewziecia} & IP zostaje w Spółce; licencja niewyłączna ograniczona do zakresu przedsięwzięcia z prawami do ulepszeń dla Spółki; screening partnerów (sankcje, Kryterium EU/NATO przy dostępie do IP lub kontroli); progi: Rada do 500\,000 zł, WZ 75\% powyżej; transakcje z podmiotami powiązanymi na warunkach rynkowych --- odpowiedź na pytania due diligence o wyciek wartości \\
+\bottomrule
+\end{longtable}
+
+\textbf{Czego umowa świadomie nie przesądza.} Konkretna wycena, struktura rundy (equity/SAFE), tożsamość inwestora i ostateczne parametry uprzywilejowania pozostają do decyzji Walnego Zgromadzenia w uchwale kierunkowej i emisyjnej (§~\ref{art:kwalifikowana-runda}).
+
+\clearpage
+\section*{Dokument dodatkowy nr 6 — Punkty do weryfikacji podatkowej}
+\addcontentsline{toc}{section}{Dokument dodatkowy nr 6 — Punkty do weryfikacji podatkowej}
+\label{annex:podatki}
+
+\textbf{Status dokumentu.} Dokument ma charakter wyłącznie informacyjny; nie stanowi porady podatkowej ani prawnej.
+
+\subsection*{1. ESOP w P.S.A. a art. 24 ust. 11--12b ustawy o PIT --- znany punkt sporny}
+\begin{enumerate}
+  \item \textbf{Istota preferencji.} W programie motywacyjnym spełniającym warunki art.~24 ust.~11--12b ustawy o PIT objęcie lub nabycie akcji poniżej wartości rynkowej nie rodzi przychodu w chwili objęcia; przychód powstaje dopiero przy odpłatnym zbyciu akcji i jest opodatkowany 19\% jako kapitały pieniężne.
+  \item \textbf{Punkt sporny dla P.S.A.} Od 1 stycznia 2022 r. (tzw. Polski Ład) przepisy o programach motywacyjnych objęły obok spółki akcyjnej także prostą spółkę akcyjną; mimo to w komentarzach i starszych opracowaniach nadal spotyka się pogląd, że preferencja dotyczy wyłącznie „klasycznej” spółki akcyjnej. Opodatkowanie objęcia akcji serii P po cenie emisyjnej 0,01 zł przez osoby uprawnione --- w szczególności moment powstania przychodu i jego kwalifikacja --- pozostaje punktem wymagającym potwierdzenia. \textbf{Zalecenie: przed pierwszym grantem wystąpić o interpretację indywidualną.}
+  \item \textbf{Warunki preferencji do zaprojektowania w programie:} program utworzony na podstawie uchwały Walnego Zgromadzenia (§~\ref{art:program-motywacyjny} to przewiduje); uczestnik faktycznie obejmuje lub nabywa akcje (nie wyłącznie instrument rozliczany gotówkowo); uczestnik uzyskuje od Spółki przychody ze stosunku pracy (art.~12 PIT) albo z działalności wykonywanej osobiście (art.~13 PIT); siedziba spółki w UE/EOG albo w państwie z umową o unikaniu podwójnego opodatkowania.
+  \item \textbf{Wyłączenie B2B.} Preferencja nie obejmuje współpracowników rozliczających się w ramach jednoosobowej działalności gospodarczej (przychody z działalności gospodarczej nie mieszczą się w art.~12 i 13 PIT) --- co w polskich startupach technologicznych dotyczy często kluczowych inżynierów. Dla tych osób skutki podatkowe grantu wymagają odrębnej analizy (ryzyko przychodu już w chwili objęcia akcji poniżej wartości rynkowej).
+  \item \textbf{Konsekwencja sporu.} Jeżeli preferencja nie znajdzie zastosowania, objęcie akcji po 0,01 zł przy wyższej wartości rynkowej może rodzić przychód (ze stosunku pracy, działalności wykonywanej osobiście, działalności gospodarczej albo z innych źródeł) już w chwili objęcia --- z obowiązkami płatnika po stronie Spółki w niektórych wariantach.
+\end{enumerate}
+
+\subsection*{2. Aport IP Założycieli (§~\ref{art:wklady}, Załącznik nr 1)}
+\begin{enumerate}
+  \item Objęcie akcji za wkład niepieniężny rodzi po stronie Założyciela przychód z kapitałów pieniężnych (art.~17 ust.~1 pkt~9 ustawy o PIT) --- co do zasady w wysokości wartości wkładu określonej w umowie, nie niższej niż wartość rynkowa. Do analizy: wartość wkładów względem ceny emisyjnej, koszty uzyskania przychodu, dostępne wyłączenia i moment powstania obowiązku.
+  \item Dokumentacja wyceny wkładów (Załącznik nr 1) powinna być spójna z deklaracjami podatkowymi Założycieli.
+\end{enumerate}
+
+\subsection*{3. Wkłady pieniężne i pożyczki założycielskie (§~\ref{art:wklady} ust.~7, §~\ref{art:finansowanie})}
+\begin{enumerate}
+  \item Wniesienie wkładu pieniężnego na akcje co do zasady nie rodzi przychodu po stronie wnoszącego; do potwierdzenia skutki w PCC po stronie Spółki.
+  \item Pożyczki założycielskie: warunki rynkowe (odsetki), przepisy o cenach transferowych przy podmiotach powiązanych, podatek u źródła od odsetek oraz zwolnienia z PCC dla pożyczek akcjonariusza --- do potwierdzenia z doradcą w dacie transakcji.
+\end{enumerate}
+
+\subsection*{4. Przedsięwzięcia Produkcyjne (§~\ref{art:przedsiewziecia})}
+\begin{enumerate}
+  \item Wniesienie albo licencjonowanie Kluczowej Własności Intelektualnej do spółki celowej: moment i wysokość przychodu, wycena licencji i ceny transferowe wobec podmiotu powiązanego, VAT od opłat licencyjnych, wpływ na kwalifikację dochodów do ulgi IP Box oraz dokumentacja cen transferowych --- do potwierdzenia z doradcą przed zawarciem umowy Przedsięwzięcia.
+  \item Poręczenia i gwarancje Spółki za zobowiązania Przedsięwzięcia Produkcyjnego: skutki w podatku dochodowym (nieodpłatne świadczenia po stronie Przedsięwzięcia) --- warunki rynkowe albo wynagrodzenie za poręczenie.
+\end{enumerate}
+
+\end{document}
