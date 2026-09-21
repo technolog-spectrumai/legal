@@ -3,22 +3,25 @@
 ## Zasady numeracji
 
 - **Q*n*** — nasze wiadomości do kancelarii (Q1, Q2, …), numerowane chronologicznie.
-- **R*n*** — odpowiedzi kancelarii; R*n* odpowiada na Q*n*. Jeżeli jedna odpowiedź dotyczy kilku wiadomości, wskazujemy zakres (np. R3 → Q2–Q3).
+- **Q*n*.*m*** — kolejne wersje tej samej wiadomości przed wysłaniem (Q1.1, Q1.2, …); wysyłamy ostatnią wersję i oznaczamy ją statusem „wysłano" z datą. Wcześniejsze wersje zostają w pliku.
+- **R*n*** — odpowiedzi kancelarii; R*n* odpowiada na Q*n*. Jeżeli jedna odpowiedź dotyczy kilku wiadomości, wskazujemy zakres (np. R3 → Q2–Q3); poprawioną odpowiedź kancelarii oznaczamy R*n*.2 itd.
 - Każdy wpis zawiera: numer, status, datę, nadawcę i adresata, temat, załączniki (z commitem, z którego pochodzi załączony PDF) oraz dosłowną treść.
-- Nowe wpisy dopisujemy na końcu pliku; wcześniejszych nie edytujemy — plik ma zachować pełną historię wymiany.
-- Status „projekt" oznacza wiadomość przygotowaną, jeszcze niewysłaną; po wysłaniu uzupełniamy datę i zmieniamy status na „wysłano".
+- Nowe wpisy i wersje dopisujemy na końcu właściwej sekcji; wcześniejszych nie edytujemy — plik ma zachować pełną historię wymiany.
+- Status „projekt" oznacza wiadomość przygotowaną, jeszcze niewysłaną.
 
 ---
 
 ## Q1 — prośba o wycenę weryfikacji projektu umowy
 
-- **Status:** projekt (niewysłany)
-- **Data:** —
 - **Od → do:** Założyciele → kancelaria [nazwa]
 - **Temat:** Projekt umowy P.S.A. (Physical AI) — prośba o wycenę weryfikacji
 - **Załącznik:** projekt umowy P.S.A. (PDF) — wariant hybrydowy, gałąź `psa_hybrid`, commit `227931c`
 
-### Treść
+### Q1.1 — wersja aktualna
+
+- **Status:** projekt (niewysłany)
+- **Data wersji:** 2026-09-21
+- **Data wysłania:** —
 
 Szanowni Państwo,
 
