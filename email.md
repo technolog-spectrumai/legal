@@ -9,6 +9,8 @@
 - Każdy wpis zawiera: numer, status, datę, nadawcę i adresata, temat, załączniki (z commitem, z którego pochodzi załączony PDF) oraz dosłowną treść.
 - Nowe wpisy i wersje dopisujemy na końcu właściwej sekcji; wcześniejszych nie edytujemy — plik ma zachować pełną historię wymiany.
 - Status „projekt" oznacza wiadomość przygotowaną, jeszcze niewysłaną.
+- Treść otrzymanych opinii (R*n*) wklejamy również do `psa_feedback.tex`, Część 3, pod tym samym oznaczeniem, wraz ze stanowiskiem Założycieli; `email.md` jest rejestrem korespondencji, `psa_feedback.tex` — miejscem pracy nad opiniami.
+- Załącznik do wysyłki (`psa.pdf`) generujemy poleceniem `./build.sh psa` z czystego katalogu; w metadanych wpisu podajemy gałąź i commit, z którego pochodzi.
 
 ---
 
@@ -78,7 +80,7 @@ Zmiany względem Q1.1 (pozostała treść bez zmian):
 
 1. Sekcja 1, dwa pierwsze zdania → „Załączony projekt liczy około 40 stron: tekst umowy (38 paragrafów) oraz trzy załączniki (założyciele i wkłady, założyciele objęci mechanizmem czasowym, ujawnione aktywności). Materiały informacyjne — m.in. roboczy audyt paragraf po paragrafie (stan prawny na 18 sierpnia 2026 r., nieobejmujący późniejszych zmian tekstu) z wyróżnioną uwagą o pięciu elementach do weryfikacji oraz punkty podatkowe — prowadzimy w odrębnym dokumencie, który prześlemy na życzenie."
 
-### Q1.3 — wersja aktualna
+### Q1.3
 
 - **Status:** projekt (niewysłany)
 - **Data wersji:** 2026-09-21
@@ -130,3 +132,15 @@ Z poważaniem,
 [imię i nazwisko]
 w imieniu Założycieli
 [telefon] · [e-mail]
+
+### Q1.4 — wersja aktualna
+
+- **Status:** projekt (niewysłany)
+- **Data wersji:** 2026-09-21
+- **Data wysłania:** —
+- **Załącznik:** `psa.pdf` zbudowany przez `./build.sh psa` z gałęzi `psa_correction` @ `c200d3c` (po merge PR #1; `psa.tex` identyczny na `psa_hybrid`) — umowa z Załącznikami nr 1–3, 43 strony
+- **Nie załączamy:** `extra.pdf` (dokumenty dodatkowe nr 1–6) ani `psa_feedback.pdf` (nasza analiza i miejsce na opinie) — wysyłamy na życzenie
+
+Zmiany względem Q1.3 (pozostała treść bez zmian):
+
+1. Sekcja 1, zdanie o materiałach informacyjnych → „Materiały informacyjne — dokumenty dodatkowe (m.in. proces emisji, proces decyzyjny, punkty podatkowe) oraz naszą analizę projektu z roboczym audytem paragraf po paragrafie (stan prawny na 18 sierpnia 2026 r., nieobejmujący późniejszych zmian tekstu) — prowadzimy w odrębnych dokumentach, które prześlemy na życzenie."
