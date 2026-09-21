@@ -158,6 +158,25 @@ To jest miejsce, gdzie regulacje spotykają się z umową spółki.
 
 ---
 
+## 3a. Wspólnik z Wielkiej Brytanii (albo innego państwa NATO spoza UE)
+
+Pytanie Założycieli przy tabeli z sekcji 3. Odpowiedź zależy od trzech rzeczy: czy wspólnik ma **kontrolę**, gdzie **fizycznie pracuje** i jaki ma **dostęp do technologii**.
+
+| Reżim | Wspólnik mniejszościowy z UK | Wspólnik z UK z kontrolą (większość, weto, decydujący wpływ) |
+|---|---|---|
+| Umowa spółki, Kryterium § 11 ust. 6 | dopuszczalny bez zgody WZ (UK jest w NATO) **[Z]** | dopuszczalny, ale zob. skutki niżej |
+| PFR Deep Tech / Otwarte Innowacje | brak zakazu w publicznych warunkach programów; warunkiem jest polska spółka („Polish nexus"), a przy spółce zagranicznej polscy założyciele i kapitał na działalność w Polsce; ostateczne warunki ustala konkretny fundusz VC **[Z/W]** | jak obok, ale fundusze z komponentem obronnym mogą badać strukturę właścicielską ostrzej **[?]** |
+| EDF, AGILE, EUDIS | dopuszczalny: art. 9 EDF zakazuje **kontroli** przez państwo trzecie niestowarzyszone, nie udziału; UK nie jest stowarzyszone z EDF i nie przystąpiło do SAFE (grudzień 2025 r.) **[Z]** | firma traci kwalifikowalność, chyba że uzyska gwarancje państwa członkowskiego (art. 9 ust. 4); zarząd wykonawczy i infrastruktura użyta w projekcie muszą być w UE **[Z/W]** |
+| NATO DIANA | bez przeszkód **[Z]** | bez przeszkód |
+| EIC Accelerator | bez przeszkód, UK jest stowarzyszone z Horyzontem Europa **[W]** | do sprawdzenia przy naborze dual-use **[?]** |
+| Koncesja MSWiA (bramka G3) | może być akcjonariuszem; przy udziale co najmniej 20 % musi wykazać niekaralność (zaświadczenie z UK, tłumaczenie); we wniosku podaje się udział kapitału zagranicznego i adresy wspólników **[Z]** | jak obok; ale co najmniej dwóch członków Rady (albo członek i prokurent) musi mieć obywatelstwo Polski, UE, Szwajcarii albo EFTA-EOG, albo polskie zezwolenie na pobyt stały — obywatel UK bez takiego zezwolenia nie liczy się do tej dwójki **[Z]** |
+| Kontrola obrotu strategicznego (dual-use) | jeżeli pracuje **w Polsce**: brak eksportu, obowiązuje tylko § 27 ust. 6 (UK w NATO, więc bez dodatkowej zgody). Jeżeli pracuje **z UK**: każde udostępnienie kontrolowanego kodu lub dokumentacji jest eksportem; UK jest na liście unijnego zezwolenia generalnego EU001, co upraszcza sprawę, ale wymaga rejestracji w MRiT przed pierwszym użyciem i ewidencji **[W]** | jak obok |
+| Informacje niejawne (bramka G4) | dostęp cudzoziemca do informacji niejawnych wymaga poświadczenia w trybie umowy dwustronnej o ochronie informacji; na starcie bez znaczenia **[W]** | jak obok |
+| Kontrola inwestycji | przy zawiązaniu bez znaczenia; przy późniejszym nabyciu znaczącego pakietu w spółce z sektora chronionego stosuje się § 12 ust. 2 lit. e **[W]** | jak obok |
+| Podatki, CRBR | podatek u źródła według umowy Polska–UK, wpis do CRBR jako beneficjent rzeczywisty przy ponad 25 % **[W]** | jak obok |
+
+**Wniosek.** Wspólnik z UK jako współzałożyciel mniejszościowy jest bezpieczny dla wszystkich programów i dla umowy. Trzy warunki, które warto zapisać w umowie wspólników: (1) wspólnicy spoza UE/EOG łącznie nie uzyskują kontroli ani weta nad zarządem, dopóki firma korzysta z EDF, AGILE lub EUDIS; (2) co najmniej dwóch członków Rady ma obywatelstwo UE/EOG, z myślą o koncesji; (3) jeżeli wspólnik pracuje spoza UE, przed pierwszym udostępnieniem kodu robimy checkpoint G2 (rejestracja EU001 albo zezwolenie). Do potwierdzenia przez kancelarię: dokładne brzmienie wymogów koncesyjnych po nowelizacji z 2026 r. i zakres EU001 dla pozycji Basiliska.
+
 ## 4. Checkpointy prawne w cyklu rozwoju
 
 | Bramka | Zdarzenie | Co sprawdzić przed | Kto |
