@@ -177,6 +177,70 @@ Pytanie Założycieli przy tabeli z sekcji 3. Odpowiedź zależy od trzech rzecz
 
 **Wniosek.** Wspólnik z UK jako współzałożyciel mniejszościowy jest bezpieczny dla wszystkich programów i dla umowy. Trzy warunki, które warto zapisać w umowie wspólników: (1) wspólnicy spoza UE/EOG łącznie nie uzyskują kontroli ani weta nad zarządem, dopóki firma korzysta z EDF, AGILE lub EUDIS; (2) co najmniej dwóch członków Rady ma obywatelstwo UE/EOG, z myślą o koncesji; (3) jeżeli wspólnik pracuje spoza UE, przed pierwszym udostępnieniem kodu robimy checkpoint G2 (rejestracja EU001 albo zezwolenie). Do potwierdzenia przez kancelarię: dokładne brzmienie wymogów koncesyjnych po nowelizacji z 2026 r. i zakres EU001 dla pozycji Basiliska.
 
+## 3b. Konsorcjum albo pracownik z Estonii, Szwecji, Norwegii, Ukrainy, UK, USA lub Turcji
+
+Pytanie Założycieli: co się dzieje, gdy podpisujemy umowę konsorcjum z firmą z jednego z tych państw albo zatrudniamy stamtąd pracownika. Najpierw pozycja każdego państwa w reżimach, potem dwa scenariusze.
+
+### 3b.1 Pozycja państw
+
+| Państwo | UE | EOG | NATO | Horyzont Europa (stowarzyszone) | EDF (stowarzyszone) | Zezwolenie generalne EU001 | Kryterium § 11 |
+|---|---|---|---|---|---|---|---|
+| Estonia | tak | tak | tak | tak | tak | rynek wewnętrzny, bez eksportu | tak |
+| Szwecja | tak | tak | tak | tak | tak | rynek wewnętrzny, bez eksportu | tak |
+| Norwegia | nie | tak | tak | tak | tak **[W]** | tak **[W]** | tak |
+| Ukraina | nie | nie | nie | tak **[W]** | nie; instrumenty specjalne: EUDIS 2026 otwarty dla podmiotów ukraińskich, EDIP **[Z/W]** | nie | **nie** |
+| Wielka Brytania | nie | nie | tak | tak **[W]** | nie; UK nie przystąpiło do SAFE **[Z]** | tak **[W]** | tak |
+| USA | nie | nie | tak | nie | nie | tak **[W]** | tak |
+| Turcja | nie | nie | tak | tak **[W]** | nie | nie | tak |
+
+Trzy grupy: **Estonia i Szwecja** (pełna swoboda), **Norwegia** (jak UE poza formalnością eksportową), **UK, USA, Turcja** (NATO bez UE: Kryterium i DIANA tak, EDF i swobodny transfer technologii nie), **Ukraina** (poza Kryterium, poza NATO, poza EU001; osobne instrumenty wsparcia).
+
+### 3b.2 Konsorcjum
+
+Zasady wspólne, niezależnie od państwa:
+
+1. **Umowa spółki.** Konsorcjum jest Przedsięwzięciem Produkcyjnym w rozumieniu § 33 ust. 1. Wymaga uchwały Rady, a powyżej progu kwotowego albo przy utracie kontroli — Walnego Zgromadzenia większością 75 % (§ 33 ust. 2, § 25 ust. 1). Partner przechodzi weryfikację jak Dopuszczalny Nabywca; partner z dostępem do Kluczowej Własności Intelektualnej albo z kontrolą musi spełniać Kryterium, inaczej potrzebna jest zgoda WZ 75 % (§ 33 ust. 4, § 11 ust. 6). Licencja dla partnera jest niewyłączna, ograniczona do zakresu przedsięwzięcia, z prawami do ulepszeń dla Spółki (§ 33 ust. 3). Umowa konsorcjum musi zapewniać prawa informacyjne, klauzule bezpieczeństwa i kontroli eksportu (§ 33 ust. 5).
+2. **Kontrola obrotu strategicznego.** Udostępnienie partnerowi spoza UE kontrolowanego oprogramowania, dokumentacji albo pomocy technicznej jest eksportem; udostępnienie partnerowi z UE nie jest (poza załącznikiem IV). Zakres udostępnianej technologii określa się w umowie konsorcjum z wyprzedzeniem, bo zezwolenie dotyczy konkretnych pozycji i odbiorcy.
+3. **Prawo partnera.** Partner z UK, USA i Turcji przekazuje nam własną technologię pod swoimi przepisami eksportowymi; przy USA oznacza to ITAR albo EAR i możliwe skażenie naszego produktu ograniczeniami reeksportu („ITAR taint"). Warto utrzymać własny stos autonomii wolny od danych ITAR.
+4. **Programy.** EDF: partner z państwa niestowarzyszonego nie dostaje finansowania UE, nie może kontrolować wyników ani ograniczać transferu technologii; może uczestniczyć jako partner stowarzyszony na warunkach art. 9 ust. 6, a podwykonawstwo poza UE ma limity **[Z/W]**. Horyzont Europa i EIC Pathfinder: partnerzy z państw stowarzyszonych są finansowani jak unijni, partner z USA uczestniczy zwykle bez finansowania UE **[W]**. DIANA: aplikuje pojedyncza firma z siedzibą w NATO; partnerzy z NATO bez przeszkód, partner z Ukrainy tylko nieformalnie **[W]**.
+5. **Informacje niejawne.** W projektach z klauzulą UE (EUCI) dostęp mają podmioty i osoby z UE albo państw ze stosownymi umowami; partnerzy z UK, USA i Turcji wymagają odrębnych uzgodnień, ukraińscy praktycznie nie **[W]**.
+
+| Partner konsorcjum | Umowa spółki | Kontrola eksportu (nasza technologia do partnera) | EDF / DIANA / Horyzont | Szczególne ryzyka |
+|---|---|---|---|---|
+| **Estonia, Szwecja** | Rada albo WZ według progu; partner spełnia Kryterium | brak eksportu (rynek wewnętrzny), wyjątek: pozycje z załącznika IV | wszystko dostępne; naturalny skład konsorcjum EDF (trzy państwa: Polska, Estonia, Szwecja) | brak istotnych; różnice w krajowych przepisach o informacjach niejawnych |
+| **Norwegia** | jak wyżej | formalnie eksport; EU001 po rejestracji w MRiT **[W]** | EDF tak (państwo stowarzyszone), DIANA tak, Horyzont tak | Norwegia stosuje własną kontrolę eksportu przy przekazywaniu nam technologii |
+| **Ukraina** | partner **nie spełnia Kryterium**: przy dostępie do IP albo kontroli wymagana uchwała WZ 75 %; sam udział bez dostępu do Kluczowej Własności Intelektualnej wymaga tylko trybu z § 33 ust. 2 | zezwolenie indywidualne albo globalne MRiT na każdą pozycję kontrolowaną; brak EU001; przy zastosowaniu wojskowym sprawdzić także wykaz uzbrojenia i WSK **[W]** | EDF nie (poza instrumentami dla Ukrainy: EUDIS 2026, EDIP) **[Z/W]**; DIANA nie; Horyzont tak (stowarzyszona) **[W]** | strefa wojny: końcowe zastosowanie niemal zawsze wojskowe; cyberzagrożenie dla wspólnych repozytoriów (§ 27 ust. 4); ryzyko, że technologia trafi do użytkownika końcowego bez naszej kontroli; sankcje wobec osób — test sankcyjny partnera i jego właścicieli |
+| **Wielka Brytania** | Rada albo WZ według progu; Kryterium spełnione (NATO) | eksport; EU001 po rejestracji **[W]** | EDF: partner niefinansowany, bez kontroli wyników; DIANA tak; Horyzont tak (stowarzyszona) | brytyjska kontrola eksportu po ich stronie (licencje OGEL/SIEL); po wyjściu z UE brak automatycznego uznawania poświadczeń bezpieczeństwa **[W]** |
+| **USA** | jak UK | eksport; EU001 po rejestracji **[W]** | EDF: jak UK; DIANA tak; Horyzont: partner zwykle bez finansowania UE | ITAR/EAR: partner potrzebuje TAA albo licencji, aby przekazać nam dane; dane ITAR u nas ograniczają dostęp pracowników spoza USA według obywatelstwa („deemed export") i reeksport; presja na amerykańskie warunki umów (prawo właściwe, FOCI po ich stronie) **[W]** |
+| **Turcja** | jak UK (NATO) | eksport; **brak EU001** — zezwolenie indywidualne albo globalne MRiT; przy zastosowaniu wojskowym część państw UE ogranicza eksport uzbrojenia do Turcji **[W]** | EDF: jak UK; DIANA tak; Horyzont tak (stowarzyszona) **[W]** | turecka kontrola eksportu po ich stronie; ograniczenia amerykańskie wobec tureckiego sektora obronnego (CAATSA) mogą blokować łączenie z komponentami z USA **[W]**; silna konkurencja w dronach — ochrona IP i zakres licencji |
+
+### 3b.3 Pracownik
+
+Zasady wspólne:
+
+1. **Umowa spółki nie ogranicza pracowników według obywatelstwa.** Kryterium dotyczy akcjonariuszy, dyrektorów, inwestorów i partnerów, nie pracowników. § 27 ust. 6 wymaga zgody na dostęp do Kluczowej Własności Intelektualnej **z jurysdykcji** spoza UE i NATO, czyli decyduje miejsce, z którego następuje dostęp, nie paszport. Pracownik z Ukrainy pracujący w Polsce nie potrzebuje tej zgody; pracownik z Estonii logujący się z Kijowa potrzebuje.
+2. **Kontrola obrotu strategicznego.** Prawo UE nie zna „deemed export": udostępnienie kontrolowanej technologii cudzoziemcowi pracującemu w Polsce nie jest eksportem. Eksportem jest praca zdalna spoza UE, wyjazd z laptopem i kodem, dostęp z zagranicy do repozytorium. Dla UK, USA i Norwegii wystarczy EU001, dla Turcji i Ukrainy potrzebne zezwolenie **[W]**.
+3. **ITAR/EAR.** Jeżeli mamy dane amerykańskie, prawo USA traktuje ich udostępnienie osobie innej narodowości jako eksport do państwa jej obywatelstwa; obywatele Ukrainy i Turcji wymagają wtedy zgody amerykańskiej, także gdy pracują w Warszawie **[W]**.
+4. **Koncesja MSWiA (bramka G3).** Osoby zatrudnione przy działalności koncesjonowanej muszą spełniać wymogi ustawy (m.in. niekaralność); obywatelstwo ma znaczenie dla członków Rady, nie dla szeregowych pracowników — zakres wymogów wobec pracowników przy technologii do potwierdzenia **[W]**.
+5. **Informacje niejawne (bramka G4).** Poświadczenie bezpieczeństwa dla cudzoziemca jest możliwe na podstawie umów dwustronnych; realne dla obywateli UE i NATO, praktycznie niedostępne dla obywateli Ukrainy **[W]**.
+6. **Prawo pracy i antydyskryminacja.** Obywateli UE i EOG nie wolno różnicować; wobec obywateli państw trzecich ograniczenie dostępu do technologii jest dopuszczalne, gdy wynika z obowiązków eksportowych, i powinno być zapisane jako reguła dostępu do danych, nie jako kryterium zatrudnienia **[W]**.
+7. **IP i poufność.** Przeniesienie praw na Spółkę (§ 26 ust. 3), NDA i rejestr dostępu (§ 26 ust. 6) obowiązują tak samo; przy pracy zdalnej z zagranicy dodatkowo prawo właściwe dla umowy i podatki.
+
+| Pracownik z | Pobyt i praca w Polsce | Dostęp do technologii w Polsce | Praca zdalna z kraju pochodzenia | Poświadczenie bezpieczeństwa |
+|---|---|---|---|---|
+| **Estonia, Szwecja** | swoboda przepływu, bez zezwolenia | bez ograniczeń | bez eksportu (UE) | możliwe, tryb dla obywateli UE |
+| **Norwegia** | EOG, bez zezwolenia | bez ograniczeń | eksport, EU001 **[W]** | możliwe (NATO, EOG) |
+| **Ukraina** | reżim specjalny ustawy o pomocy obywatelom Ukrainy wygasł 5 marca 2026 r.; obecnie zezwolenia na pobyt (w tym przejściowe dla osób ze statusem UKR) i uproszczona ścieżka oświadczenia o powierzeniu pracy **[Z/W]** | bez ograniczeń z umowy; ograniczenia tylko przy danych ITAR i przy kontraktach niejawnych | eksport bez EU001: zezwolenie MRiT, w praktyce trudne; dodatkowo bezpieczeństwo fizyczne sprzętu i danych w strefie wojny | praktycznie niedostępne |
+| **Wielka Brytania** | państwo trzecie: zezwolenie na pracę albo Niebieska Karta UE, chyba że ma status z umowy o wystąpieniu **[W]** | bez ograniczeń | eksport, EU001 **[W]** | możliwe na podstawie umowy dwustronnej **[W]** |
+| **USA** | zezwolenie na pracę albo Niebieska Karta UE | bez ograniczeń; przy danych ITAR najbezpieczniejsza narodowość | eksport, EU001 **[W]** | możliwe na podstawie umowy dwustronnej **[W]** |
+| **Turcja** | zezwolenie na pracę albo Niebieska Karta UE | bez ograniczeń z umowy; przy danych ITAR wymagana zgoda amerykańska **[W]** | eksport bez EU001: zezwolenie MRiT | możliwe formalnie (NATO), w praktyce ocena indywidualna **[W]** |
+
+### 3b.4 Checklista przed podpisaniem
+
+**Konsorcjum:** (1) klasyfikacja tego, co udostępnimy, i zezwolenie albo rejestracja EU001 przed przekazaniem; (2) uchwała Rady albo WZ z § 33; test sankcyjny i Kryterium partnera, dla Ukrainy uchwała WZ 75 % przy dostępie do IP; (3) umowa konsorcjum z klauzulami: zakres licencji, ulepszenia dla Spółki, kontrola eksportu obu stron, brak danych ITAR bez naszej zgody, bezpieczeństwo repozytoriów, prawo właściwe; (4) przy EDF: skład konsorcjum tylko z państw stowarzyszonych, partner spoza nich jako niefinansowany partner stowarzyszony; (5) przy USA: TAA i ocena skażenia ITAR.
+
+**Pracownik:** (1) legalizacja pobytu i pracy; (2) umowa z przeniesieniem IP, NDA, regulamin dostępu; (3) wpis do rejestru dostępu z obywatelstwem i miejscem pracy; (4) zakaz pracy zdalnej spoza UE bez zgody i bez zezwolenia eksportowego; (5) przy danych ITAR lista osób dopuszczonych według obywatelstwa; (6) przy przyszłych kontraktach niejawnych: planowanie poświadczeń z wyprzedzeniem.
+
 ## 4. Checkpointy prawne w cyklu rozwoju
 
 | Bramka | Zdarzenie | Co sprawdzić przed | Kto |
@@ -243,3 +307,8 @@ Zasada: **B+R można zacząć bez koncesji; przed pierwszym prototypem wojskowym
 - NATO DIANA 2026 — https://www.nato.int/cps/en/natohq/news_235771.htm ; https://www.techuk.org/resource/nato-s-2026-diana-innovation-challenges-announced.html
 - EDF, art. 9 — https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0697 ; https://gowlingwlg.com/en/insights-resources/articles/2026/the-european-defence-fund
 - EUDIS — https://eudis.europa.eu/eudis-tracks/business-accelerator_en ; https://eudis.europa.eu/eudis-tracks/cascade-funding_en
+- UK a SAFE (grudzień 2025) — https://www.defenceonline.co.uk/2025/12/02/uk-wont-be-joining-safe-programme/
+- Wymogi koncesji MSWiA (obywatelstwo członków zarządu, niekaralność akcjonariuszy ≥ 20 %) — https://cgolegal.pl/baza-wiedzy/biezace-doradztwo-prawne/koncesja-na-obrot-specjalny/
+- Pobyt obywateli Ukrainy po 4 marca 2026 r. — https://www.gov.pl/web/udsc/zmiany-w-szczegolnych-zasadach-dotyczacych-legalnosci-pobytu-obywateli-ukrainy-na-terytorium-rzeczypospolitej-polskiej
+- EDF art. 9 (partnerzy z państw niestowarzyszonych) — https://eur-lex.europa.eu/eli/reg/2021/697/oj/eng
+- PFR Otwarte Innowacje (spółki zagraniczne z polskimi założycielami do 40 % portfela) — https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje
