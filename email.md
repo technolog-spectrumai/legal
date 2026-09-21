@@ -133,7 +133,7 @@ Z poważaniem,
 w imieniu Założycieli
 [telefon] · [e-mail]
 
-### Q1.4 — wersja aktualna
+### Q1.4
 
 - **Status:** projekt (niewysłany)
 - **Data wersji:** 2026-09-21
@@ -144,3 +144,17 @@ w imieniu Założycieli
 Zmiany względem Q1.3 (pozostała treść bez zmian):
 
 1. Sekcja 1, zdanie o materiałach informacyjnych → „Materiały informacyjne — dokumenty dodatkowe (m.in. proces emisji, proces decyzyjny, punkty podatkowe) oraz naszą analizę projektu z roboczym audytem paragraf po paragrafie (stan prawny na 18 sierpnia 2026 r., nieobejmujący późniejszych zmian tekstu) — prowadzimy w odrębnych dokumentach, które prześlemy na życzenie."
+
+### Q1.5 — wersja aktualna
+
+- **Status:** projekt (niewysłany)
+- **Data wersji:** 2026-09-21
+- **Data wysłania:** —
+- **Załącznik:** `psa.pdf` zbudowany przez `./build.sh psa` z gałęzi `psa_hybrid` @ `55416c7` (twarda bramka Kryterium) — umowa z Załącznikami nr 1–3, 43 strony
+- **Nie załączamy:** `extra.pdf` ani `psa_feedback.pdf` — wysyłamy na życzenie; wariant alternatywny (miękka bramka, gałąź `psa_soft`) prześlemy, jeżeli kancelaria zechce porównać brzmienia
+
+Zmiany względem Q1.4 (pozostała treść bez zmian):
+
+1. Sekcja 3, pkt 1) — na końcu dopisać: „Dodatkowo: obowiązki akcjonariusza, który po nabyciu przestał spełniać Kryterium (zawiadomienie Rady, zbycie w 6 miesięcy, w braku zbycia nabywca wskazany przez Spółkę za Wartość Godziwą), oraz wyłączenie z Kryterium osób nabywających akcje na rachunek, w interesie albo na polecenie podmiotu spoza Kryterium (powiernik, pełnomocnik, porozumienie o wykonywaniu praw z akcji)."
+2. Sekcja 3, pkt 2) → „Zgoda Spółki na rozporządzenie akcją (art. 300³⁹ KSH): odmowa zgody z powodu Kryterium oraz lock-up założycieli wyłączają § 3–6 tego przepisu, więc Spółka nie ma obowiązku wskazania innego nabywcy, a akcjonariusz może zbyć akcje innemu nabywcy spełniającemu Kryterium — prosimy o ocenę dopuszczalności takiej derogacji na tle art. 300³⁹ § 2 KSH oraz jej skuteczności wobec podmiotu prowadzącego rejestr akcjonariuszy i sądu rejestrowego. Przygotowaliśmy również wariant łagodniejszy: przy odmowie z powodu Kryterium Spółka wskazuje nabywcę w terminie 3 miesięcy za Wartość Godziwą z zapłatą ratalną na zasadach przewidzianych dla spłaty spadkobierców, a w braku nabywcy albo pierwszej raty akcjonariusz zbywa akcje swobodnie. Prosimy o stanowisko, która konstrukcja jest skuteczniejsza i bezpieczniejsza dla Spółki oraz jak obie będą odbierane przez inwestorów; wyboru dokonają Założyciele po zapoznaniu się z Państwa stanowiskiem."
+3. Sekcja 3, nowy pkt 12) → „Procedura rozporządzenia akcją — treść zgłoszenia zamiaru rozporządzenia, kolejność zgody Spółki i prawa pierwszeństwa (oferta po uzyskaniu zgody albo równocześnie ze zgłoszeniem), wstrzymanie biegu terminu do czasu uzyskania wymaganej zgody organu (kontrola inwestycji, koncentracja) — zgodność z 14-dniowym terminem i formą dokumentową."
