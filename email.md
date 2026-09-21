@@ -76,10 +76,6 @@ Zgodność regulacyjna i zawiązanie
 
 19) Ścieżka zawiązania i rejestracji — forma (bez wzorca S24), dokumenty do KRS, rejestr akcjonariuszy i ujawnienie ograniczeń, ryzyko zastrzeżeń sądu rejestrowego wobec niestandardowych postanowień.
 
-Perspektywa
-
-20) Wybór jurysdykcji i struktura na przyszłość — spółka nie została jeszcze zawiązana i wybór jurysdykcji pozostaje otwarty: wariantem podstawowym jest P.S.A. w Polsce, ale rozważamy także spółkę w innym państwie UE/EOG (np. w Estonii) z polskim zespołem albo strukturę holdingową ze spółką zależną w UK lub USA pod programy NATO i klientów zagranicznych. Prosimy o wstępną uwagę w ramach memorandum, w zakresie prawa polskiego i bez analizy prawa obcego: które z przyjętych mechanizmów dałoby się przenieść do innej jurysdykcji, jakie są koszty i ryzyka przekształcenia transgranicznego po zawiązaniu oraz jak wybór struktury wpływa na dostęp do finansowania publicznego w Polsce i UE (PFR, FENG, EDF).
-
 ## 4. Prośba o ofertę
 
 Prosimy o wycenę w podziale na zakresy A–E (ryczałt albo widełki z szacunkiem godzin i stawkami), wskazanie osoby prowadzącej i zespołu, realny termin przygotowania memorandum, potwierdzenie braku konfliktu interesów oraz warunki współpracy. Zawiązanie spółki planujemy na [miesiąc/rok]. W kolejnych etapach — wdrożenie zmian, runda, program motywacyjny, spółki celowe — zależy nam na stałej współpracy.

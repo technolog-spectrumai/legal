@@ -268,20 +268,6 @@ W wariancie B § 12 ust. 4 i § 13 ust. 1 nie odsyłają już do mechanizmu wska
 
 3.4.4 Przekreślone zdania i ustęp: czy ich usunięcie jest bezpieczne, czy któreś powinny zostać; spójność definicji po usunięciu.
 
-### 3.5 Wybór jurysdykcji i struktura na przyszłość
-
-**Co przewiduje projekt.** Spółka nie została jeszcze zawiązana. Projekt zakłada P.S.A. z siedzibą w Polsce, Kryterium Bezpieczeństwa EU/NATO wobec akcjonariuszy, dyrektorów, inwestorów i partnerów (§ 11 ust. 6), mechanizm zwrotnego zbycia (§ 10), serie P i F (§ 8–9) oraz tryb rundy (§ 32). Założyciele rozważają równolegle spółkę w innym państwie UE/EOG z zespołem w Polsce albo strukturę holdingową ze spółką zależną w UK lub USA pod programy NATO i klientów zagranicznych. Prosimy o uwagi w zakresie prawa polskiego, bez analizy prawa obcego.
-
-**Pytania.**
-
-3.5.1 Które z przyjętych mechanizmów (Kryterium, zwrotne zbycie jako obowiązek związany z akcją, serie P i F z art. 300¹⁰³ KSH, prawo pierwszeństwa, drag-along) są specyficzne dla P.S.A. i nie mają odpowiednika w spółce z o.o. ani w typowych formach zagranicznych, a które dałoby się odtworzyć w umowie wspólników?
-
-3.5.2 Jeżeli spółka zostanie zawiązana w Polsce, jakie są koszty, czas i ryzyka późniejszego przekształcenia transgranicznego albo przeniesienia siedziby (procedura z KSH po wdrożeniu dyrektywy o mobilności, podatek od niezrealizowanych zysków, wkłady niepieniężne, ciągłość programu motywacyjnego i zwrotnego zbycia)?
-
-3.5.3 Jak struktura holdingowa (spółka matka w innej jurysdykcji, spółka operacyjna w Polsce) wpływa na Kryterium liczone przez beneficjentów rzeczywistych, na kwalifikowalność do finansowania publicznego w Polsce i UE (PFR, FENG, EDF, EIC) oraz na późniejsze wymogi koncesyjne i dotyczące informacji niejawnych?
-
-3.5.4 Gdzie w takiej strukturze powinna być własność intelektualna i jakie skutki ma jej umiejscowienie dla rundy, kontroli eksportu i programów wymagających IP w UE?
-
 ---
 
 ## 4. Zgodność regulacyjna i zawiązanie
