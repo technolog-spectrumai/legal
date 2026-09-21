@@ -4,6 +4,7 @@
 
 - **Q*n*** — nasze wiadomości do kancelarii (Q1, Q2, …), numerowane chronologicznie.
 - **Q*n*.*m*** — kolejne wersje tej samej wiadomości przed wysłaniem (Q1.1, Q1.2, …); wysyłamy ostatnią wersję i oznaczamy ją statusem „wysłano" z datą. Wcześniejsze wersje zostają w pliku.
+- Wersję zapisujemy w całości albo jako listę zmian względem wersji poprzedniej („Zmiany względem Q*n*.*m*"); ostatnia wersja w sekcji jest wersją aktualną.
 - **R*n*** — odpowiedzi kancelarii; R*n* odpowiada na Q*n*. Jeżeli jedna odpowiedź dotyczy kilku wiadomości, wskazujemy zakres (np. R3 → Q2–Q3); poprawioną odpowiedź kancelarii oznaczamy R*n*.2 itd.
 - Każdy wpis zawiera: numer, status, datę, nadawcę i adresata, temat, załączniki (z commitem, z którego pochodzi załączony PDF) oraz dosłowną treść.
 - Nowe wpisy i wersje dopisujemy na końcu właściwej sekcji; wcześniejszych nie edytujemy — plik ma zachować pełną historię wymiany.
@@ -17,7 +18,7 @@
 - **Temat:** Projekt umowy P.S.A. (Physical AI) — prośba o wycenę weryfikacji
 - **Załącznik:** projekt umowy P.S.A. (PDF) — wariant hybrydowy, gałąź `psa_hybrid`, commit `227931c`
 
-### Q1.1 — wersja aktualna
+### Q1.1
 
 - **Status:** projekt (niewysłany)
 - **Data wersji:** 2026-09-21
@@ -65,3 +66,14 @@ Z poważaniem,
 [imię i nazwisko]
 w imieniu Założycieli
 [telefon] · [e-mail]
+
+### Q1.2 — wersja aktualna
+
+- **Status:** projekt (niewysłany)
+- **Data wersji:** 2026-09-21
+- **Data wysłania:** —
+- **Załącznik:** projekt umowy P.S.A. (PDF) — `psa_hybrid` @ `111b942`; załączniki informacyjne są od tej wersji wydzielone do `extra.tex` i nie są załączane
+
+Zmiany względem Q1.1 (pozostała treść bez zmian):
+
+1. Sekcja 1, dwa pierwsze zdania → „Załączony projekt liczy około 40 stron: tekst umowy (38 paragrafów) oraz trzy załączniki (założyciele i wkłady, założyciele objęci mechanizmem czasowym, ujawnione aktywności). Materiały informacyjne — m.in. roboczy audyt paragraf po paragrafie (stan prawny na 18 sierpnia 2026 r., nieobejmujący późniejszych zmian tekstu) z wyróżnioną uwagą o pięciu elementach do weryfikacji oraz punkty podatkowe — prowadzimy w odrębnym dokumencie, który prześlemy na życzenie."
