@@ -1,0 +1,359 @@
+% !TeX program = pdflatex
+% Kompilacja: najpierw pdflatex psa.tex (dwukrotnie), potem pdflatex shareholder_agreement.tex (dwukrotnie);
+% odesłania do paragrafów Umowy Spółki (\ref{art:...}) są pobierane z psa.aux przez pakiet xr-hyper.
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+\externaldocument{psa}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- projekt umowy wspólników}
+\BusinessPlanConfidentialText{Projekt umowy --- tekst czysty}
+\BusinessPlanFooterText{Basilisk Systems --- umowa wspólników}
+\BusinessPlanVersionText{Wersja 0.9.4-C --- umowa wspólników}
+
+\setstretch{1.18}
+\setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.18}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{%
+  \paragraf{#1}%
+}{%
+  \par
+}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\CompanyShort}{Basilisk Systems P.S.A.}
+\newcommand{\KSH}{Kodeks spółek handlowych}
+\newcommand{\BoilerplateStrike}[1]{\sout{#1}}
+\newcommand{\US}{Umowy Spółki}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- projekt umowy wspólników},
+  pdfauthor={Basilisk Systems --- projekt umowy wspólników}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 0.9.4-C --- umowa wspólników}
+  {Umowa wspólników}
+  {Projekt umowy wspólników i umowy wykonawczej mechanizmu zwrotnego zbycia akcji}
+  {Dokument towarzyszący umowie prostej spółki akcyjnej}
+  {0.9.4-C}
+
+\tableofcontents
+\newpage
+
+\chapter*{Projekt umowy wspólników}
+\addcontentsline{toc}{chapter}{Projekt umowy wspólników}
+
+\begin{center}
+{\Large\bfseries UMOWA WSPÓLNIKÓW}\par
+\vspace{0.2cm}
+{\large\bfseries wraz z umową wykonawczą mechanizmu zwrotnego zbycia akcji}\par
+\vspace{0.25cm}
+{\LARGE\bfseries \CompanyFull}\par
+\vspace{0.6cm}
+\end{center}
+
+zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
+
+\begin{enumerate}
+  \item \field{Założyciel A --- imię, nazwisko, adres, PESEL},
+  \item \field{Założyciel B --- imię, nazwisko, adres, PESEL},
+  \item \field{Założyciel C --- imię, nazwisko, adres, PESEL},
+  \item \field{Założyciel D --- imię, nazwisko, adres, PESEL},
+  \item \field{Założyciel E --- imię, nazwisko, adres, PESEL},
+\end{enumerate}
+
+zwanymi dalej łącznie „Założycielami”, a każdy z osobna „Założycielem”, oraz --- od chwili przystąpienia zgodnie z §~\ref{sha:strony} --- \CompanyFull{} z siedzibą w Pruszkowie, zwaną dalej „Spółką”.
+
+\textbf{Preambuła.} Założyciele zawiązali Spółkę umową prostej spółki akcyjnej z dnia \field{data} („Umowa Spółki”). Umowa Spółki przewiduje, że szczegółowy tryb wykonania mechanizmu zwrotnego zbycia akcji (§~\ref{art:zwrotne-zbycie} ust.~13 \US), pełnomocnictwa i oferty niezbędne do wykonania obowiązkowego zbycia akcji (§~\ref{art:breach} ust.~3 \US) oraz zakaz konkurencji po ustaniu funkcjonalnego zaangażowania (§~\ref{art:konkurencja} ust.~3 \US) określa odrębna umowa wykonawcza. Niniejsza umowa jest tą umową wykonawczą, a ponadto reguluje wzajemne zobowiązania Założycieli związane z ich zaangażowaniem w Spółkę. Umowa nie zmienia Umowy Spółki i nie zastępuje żadnego jej postanowienia.
+
+\begin{ContractClause}{Definicje i stosunek do Umowy Spółki}
+\label{sha:definicje}
+\begin{enumerate}
+  \item Pojęcia pisane wielką literą, niezdefiniowane odmiennie w niniejszej umowie, mają znaczenie nadane im w Umowie Spółki; dotyczy to w szczególności pojęć: Akcjonariusz Funkcjonalny, Założyciel Pierwotny, Odejście Usprawiedliwione, Odejście Dobrowolne, Odejście Zawinione, Dopuszczalny Nabywca, Niedopuszczalny Nabywca, Kryterium Bezpieczeństwa EU/NATO, Wartość Godziwa, Dzień Wyceny, Niezależny Ekspert, Kluczowa Własność Intelektualna, Przedsięwzięcie Produkcyjne, Kwalifikowana Runda Finansowania, Sprawy Zastrzeżone.
+  \item „Dzień Odejścia” oznacza dzień ustania funkcjonalnego zaangażowania Akcjonariusza Funkcjonalnego w Spółkę, ustalony zgodnie z §~\ref{sha:odejscie}.
+  \item „Akcje Objęte Mechanizmem” oznaczają akcje Akcjonariusza Funkcjonalnego wskazane w Załączniku nr~2 do Umowy Spółki jako objęte mechanizmem zwrotnego zbycia; „Akcje Niezwolnione” oznaczają Akcje Objęte Mechanizmem, które w Dniu Odejścia nie zostały jeszcze zwolnione z obowiązku zbycia zgodnie z §~\ref{art:zwrotne-zbycie} ust.~2 \US; „Akcje Zwolnione” oznaczają pozostałe Akcje Objęte Mechanizmem.
+  \item „Nabywca Wskazany” oznacza Dopuszczalnego Nabywcę wskazanego przez Spółkę zgodnie z §~\ref{sha:nabywca}.
+  \item Odesłania do paragrafów Umowy Spółki (§~\ref{art:firma} i następne) odnoszą się do Umowy Spółki w brzmieniu obowiązującym w dniu wykonania danego obowiązku; odesłania bez tego oznaczenia dotyczą niniejszej umowy.
+  \item W razie sprzeczności między niniejszą umową a Umową Spółki pierwszeństwo ma Umowa Spółki; postanowienia niniejszej umowy wykłada się tak, aby służyły wykonaniu Umowy Spółki. Niniejsza umowa nie tworzy obowiązków korporacyjnych związanych z akcją innych niż przewidziane w Umowie Spółki i nie ogranicza uprawnień organów Spółki.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Strony, przystąpienie Spółki i nowych akcjonariuszy}
+\label{sha:strony}
+\begin{enumerate}
+  \item Umowa wiąże Założycieli od dnia jej zawarcia. Do chwili przystąpienia Spółki uprawnienia zastrzeżone dla Spółki wykonują pozostali Założyciele działający łącznie, a zobowiązania Założycieli wobec Spółki mają charakter zobowiązań na rzecz osoby trzeciej (art.~393 Kodeksu cywilnego).
+  \item Spółka przystępuje do umowy przez złożenie oświadczenia o przystąpieniu według wzoru z Załącznika nr~D niezwłocznie po wpisie Spółki do rejestru przedsiębiorców, nie później niż w terminie 14 dni od wpisu. Założyciele zobowiązują się głosować za uchwałami i podjąć czynności potrzebne do przystąpienia Spółki.
+  \item Każda osoba, która nabywa akcje Założyciela Pierwotnego w wykonaniu niniejszej umowy albo obejmuje status Akcjonariusza Funkcjonalnego na podstawie zmiany Umowy Spółki, przystępuje do niniejszej umowy przez złożenie oświadczenia o przystąpieniu według wzoru z Załącznika nr~D przed wpisem do rejestru akcjonariuszy. Założyciele i Spółka mogą uzależnić skuteczność zbycia od takiego przystąpienia w zakresie, w jakim dopuszcza to prawo.
+  \item Umowa nie wiąże inwestorów obejmujących akcje w Kwalifikowanej Rundzie Finansowania ani innych akcjonariuszy, którzy nie złożyli oświadczenia o przystąpieniu; stosunki z nimi regulują Umowa Spółki i dokumenty transakcyjne.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Status Akcjonariusza Funkcjonalnego i harmonogram zwalniania akcji}
+\label{sha:status}
+\begin{enumerate}
+  \item Każdy Założyciel wskazany w Załączniku nr~2 do Umowy Spółki jako funkcjonalny potwierdza wpisane tam: liczbę Akcji Objętych Mechanizmem, datę rozpoczęcia oraz rolę i minimalne zaangażowanie. Dane te powtarza Załącznik nr~E do niniejszej umowy; w razie rozbieżności rozstrzyga Załącznik nr~2 do Umowy Spółki.
+  \item Akcje Objęte Mechanizmem są zwalniane z obowiązku zbycia zgodnie z §~\ref{art:zwrotne-zbycie} ust.~2 \US: po nieprzerwanym upływie 12 miesięcy od daty rozpoczęcia --- 25\% Akcji Objętych Mechanizmem, a następnie w każdym kolejnym miesiącu --- 1/36 pozostałych 75\%, do pełnego zwolnienia po 48 miesiącach. Liczbę akcji zwolnionych zaokrągla się w dół do pełnej akcji; różnica wynikająca z zaokrągleń jest zwalniana w ostatnim miesiącu.
+  \item Zaangażowanie uważa się za nieprzerwane mimo urlopu, choroby albo innej usprawiedliwionej przerwy nieprzekraczającej łącznie \field{90} dni w roku; dłuższa przerwa zawiesza bieg okresu zwalniania na czas jej trwania, chyba że Rada Dyrektorów postanowi inaczej.
+  \item Spółka prowadzi ewidencję stanu zwolnienia akcji każdego Akcjonariusza Funkcjonalnego i na jego żądanie wydaje w terminie 14 dni zaświadczenie o liczbie Akcji Zwolnionych i Akcji Niezwolnionych na wskazany dzień.
+  \item Zmiana roli albo minimalnego zaangażowania wymaga zgody Rady Dyrektorów i nie przerywa biegu okresu zwalniania, jeżeli zaangażowanie pozostaje stałe, osobiste i istotne w rozumieniu §~\ref{art:zwrotne-zbycie} ust.~1 \US.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zdarzenie uruchamiające i stwierdzenie rodzaju Odejścia}
+\label{sha:odejscie}
+\begin{enumerate}
+  \item Zdarzeniem uruchamiającym procedurę zwrotnego zbycia jest ustanie funkcjonalnego zaangażowania Akcjonariusza Funkcjonalnego przed pełnym zwolnieniem Akcji Objętych Mechanizmem, w szczególności: rozwiązanie albo wygaśnięcie stosunku prawnego będącego podstawą zaangażowania, złożenie rezygnacji, śmierć, trwała niezdolność do pracy albo uchwała Walnego Zgromadzenia o uzgodnionym odejściu.
+  \item Akcjonariusz Funkcjonalny i Spółka zawiadamiają się wzajemnie o zdarzeniu uruchamiającym w terminie 7 dni od jego wystąpienia, w formie dokumentowej, wskazując datę ustania zaangażowania i okoliczności istotne dla kwalifikacji Odejścia.
+  \item Rodzaj Odejścia (Usprawiedliwione, Dobrowolne albo Zawinione) stwierdza Rada Dyrektorów uchwałą podjętą w terminie 30 dni od zawiadomienia, po umożliwieniu Akcjonariuszowi Funkcjonalnemu złożenia wyjaśnień; dyrektor będący tym Akcjonariuszem albo pozostający z nim w konflikcie interesów nie uczestniczy w głosowaniu. W przypadkach wymagających uchwały Walnego Zgromadzenia (§~\ref{art:zwrotne-zbycie} ust.~4 lit.~d--e \US) Rada Dyrektorów zwołuje Walne Zgromadzenie w terminie 14 dni od zawiadomienia.
+  \item Uchwała określa Dzień Odejścia, rodzaj Odejścia, liczbę Akcji Zwolnionych i Akcji Niezwolnionych na Dzień Odejścia oraz cenę należną za Akcje Niezwolnione. Dniem Odejścia jest dzień ustania zaangażowania, a w razie sporu co do tej daty --- dzień doręczenia pierwszego zawiadomienia z ust.~2.
+  \item Jeżeli Rada Dyrektorów nie podejmie uchwały w terminie z ust.~3, Odejście uważa się za Odejście Dobrowolne, chyba że Akcjonariusz Funkcjonalny wykaże okoliczności Odejścia Usprawiedliwionego; Spółka może w każdym czasie stwierdzić Odejście Zawinione, jeżeli okoliczności z §~\ref{art:zwrotne-zbycie} ust.~5 \US{} zostały ujawnione po Dniu Odejścia.
+  \item Akcjonariusz Funkcjonalny może w terminie 14 dni od doręczenia uchwały zgłosić sprzeciw co do rodzaju Odejścia lub Dnia Odejścia. Sprzeciw kieruje sprawę do negocjacji i mediacji na zasadach §~\ref{art:final} ust.~4 \US; jeżeli spór dotyczy wyłącznie liczby akcji albo ceny, rozstrzyga go Niezależny Ekspert zgodnie z §~\ref{art:wycena} \US. Sprzeciw nie wstrzymuje obowiązku zbycia Akcji Niezwolnionych po cenie emisyjnej, a jedynie wykonanie prawa nabycia Akcji Zwolnionych.
+  \item Od Dnia Odejścia do zakończenia procedury Akcjonariusz Funkcjonalny nie zbywa ani nie obciąża Akcji Objętych Mechanizmem inaczej niż w wykonaniu niniejszej umowy; Spółka może zażądać ujawnienia tego ograniczenia w rejestrze akcjonariuszy zgodnie z §~\ref{art:zwrotne-zbycie} ust.~14 \US.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wskazanie Dopuszczalnego Nabywcy}
+\label{sha:nabywca}
+\begin{enumerate}
+  \item Nabywcę Wskazanego wyznacza Rada Dyrektorów uchwałą w terminie 60 dni od stwierdzenia rodzaju Odejścia. Nabywcą Wskazanym może być w szczególności: inny Założyciel, osoba wskazana do objęcia statusu Akcjonariusza Funkcjonalnego, uczestnik programu motywacyjnego albo inwestor; Nabywcą Wskazanym nie może być Spółka ani osoba działająca na jej rachunek, z zastrzeżeniem §~\ref{art:zwrotne-zbycie} ust.~12 \US.
+  \item Nabywca Wskazany musi być Dopuszczalnym Nabywcą i spełniać Kryterium Bezpieczeństwa EU/NATO zgodnie z §~\ref{art:dopuszczalny-nabywca} \US{} oraz przystąpić do niniejszej umowy w zakresie obowiązków związanych z nabywanymi akcjami.
+  \item Przed wskazaniem osoby trzeciej Rada Dyrektorów oferuje nabycie Akcji Niezwolnionych pozostałym Założycielom proporcjonalnie do liczby posiadanych przez nich akcji, z prawem objęcia części niewykorzystanej; Założyciele składają oświadczenia w terminie 14 dni. Postanowienie to nie uchybia §~\ref{art:pierwszenstwo} \US.
+  \item Jeżeli Rada Dyrektorów nie wskaże Nabywcy Wskazanego w terminie, Akcje Niezwolnione pozostają objęte obowiązkiem zbycia, a Spółka może wskazać nabywcę w każdym późniejszym czasie; Akcjonariusz Funkcjonalny zachowuje w tym okresie prawa korporacyjne zgodnie z §~\ref{art:zwrotne-zbycie} ust.~3 \US.
+  \item Jeżeli Akcje Niezwolnione mają zostać nabyte przez kilku Nabywców Wskazanych, uchwała określa podział akcji między nich; oferta i pełnomocnictwo z §§~\ref{sha:oferta} i~\ref{sha:pelnomocnictwo} obejmują każdego z nich w przypadającej mu części.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Nieodwołalna oferta sprzedaży akcji}
+\label{sha:oferta}
+\begin{enumerate}
+  \item Każdy Akcjonariusz Funkcjonalny składa przy zawarciu niniejszej umowy, według wzoru z Załącznika nr~A, nieodwołalną ofertę sprzedaży Akcji Objętych Mechanizmem na rzecz Nabywcy Wskazanego, ze skutkiem na wypadek Odejścia. Oferta obejmuje: (a)~Akcje Niezwolnione --- po cenie emisyjnej; (b)~Akcje Zwolnione --- w przypadku Odejścia Zawinionego po cenie równej 80\% Wartości Godziwej, nie niższej niż cena emisyjna, a w przypadku Odejścia Dobrowolnego po cenie równej 100\% Wartości Godziwej.
+  \item Oferta jest nieodwołalna przez czas trwania mechanizmu zwrotnego zbycia i wygasa w części dotyczącej akcji zwolnionych z obowiązku zbycia, gdy w Dniu Odejścia nie zachodzi podstawa do ich nabycia, a w całości --- z chwilą zwolnienia wszystkich Akcji Objętych Mechanizmem albo ustania obowiązku zbycia z innej przyczyny.
+  \item Ofertę przyjmuje Nabywca Wskazany przez oświadczenie złożone Akcjonariuszowi Funkcjonalnemu i Spółce w formie wymaganej przez \KSH{} dla zbycia akcji prostej spółki akcyjnej, w terminie: (a)~30 dni od doręczenia uchwały o wskazaniu --- co do Akcji Niezwolnionych oraz Akcji Zwolnionych przy Odejściu Zawinionym; (b)~6 miesięcy od Dnia Odejścia --- co do Akcji Zwolnionych przy Odejściu Dobrowolnym (§~\ref{art:zwrotne-zbycie} ust.~9 lit.~b \US). Bezskuteczny upływ terminu z lit.~b powoduje wygaśnięcie prawa nabycia Akcji Zwolnionych.
+  \item Przyjęcie oferty wymaga wskazania w oświadczeniu liczby nabywanych akcji, ceny albo sposobu jej ustalenia oraz rachunku Nabywcy Wskazanego w rejestrze akcjonariuszy. Umowa sprzedaży dochodzi do skutku z chwilą doręczenia przyjęcia; przeniesienie akcji następuje z chwilą wpisu w rejestrze akcjonariuszy zgodnie z \KSH.
+  \item Akcjonariusz Funkcjonalny zobowiązuje się w terminie 7 dni od doręczenia przyjęcia oferty złożyć podmiotowi prowadzącemu rejestr akcjonariuszy dyspozycję wpisu oraz podpisać dokumenty wymagane przez ten podmiot. Spółka współdziała przy dokonaniu wpisu.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Pełnomocnictwo do wykonania obowiązku zbycia}
+\label{sha:pelnomocnictwo}
+\begin{enumerate}
+  \item Na zabezpieczenie wykonania obowiązku zbycia każdy Akcjonariusz Funkcjonalny udziela przy zawarciu niniejszej umowy, według wzoru z Załącznika nr~B, pełnomocnictwa do: (a)~złożenia w jego imieniu oświadczenia o zbyciu Akcji Objętych Mechanizmem na rzecz Nabywcy Wskazanego na warunkach z §~\ref{sha:oferta}; (b)~złożenia dyspozycji wpisu w rejestrze akcjonariuszy i podpisania dokumentów wymaganych przez podmiot prowadzący rejestr; (c)~odbioru ceny na rachunek Akcjonariusza Funkcjonalnego wskazany w pełnomocnictwie.
+  \item Pełnomocnictwo jest nieodwołalne i nie wygasa ze śmiercią mocodawcy (art.~101 Kodeksu cywilnego), ponieważ jego nieodwołalność jest uzasadniona treścią stosunku prawnego będącego podstawą jego udzielenia; obejmuje ono wyłącznie czynności wymienione w ust.~1 i może zostać wykorzystane wyłącznie po łącznym spełnieniu warunków z ust.~3.
+  \item Pełnomocnik może działać dopiero, gdy: (a)~rodzaj Odejścia został stwierdzony zgodnie z §~\ref{sha:odejscie} i --- w razie sprzeciwu --- spór został rozstrzygnięty; (b)~Nabywca Wskazany przyjął ofertę zgodnie z §~\ref{sha:oferta}; (c)~Akcjonariusz Funkcjonalny nie złożył dyspozycji wpisu w terminie z §~\ref{sha:oferta} ust.~5 mimo pisemnego wezwania z dodatkowym terminem 7 dni; (d)~cena została zapłacona albo złożona do depozytu zgodnie z §~\ref{sha:cena}.
+  \item Pełnomocnikiem jest osoba wskazana przez Radę Dyrektorów spośród osób niebędących Nabywcą Wskazanym, członkiem jego organu, jego pełnomocnikiem ani osobą z nim powiązaną, tak aby wykluczyć czynność z samym sobą i reprezentowanie obu stron (art.~108 Kodeksu cywilnego); pełnomocnikiem może być radca prawny, adwokat albo notariusz. Spółka zawiadamia Akcjonariusza Funkcjonalnego o osobie pełnomocnika przed dokonaniem czynności.
+  \item Pełnomocnictwo wygasa z chwilą zwolnienia wszystkich Akcji Objętych Mechanizmem, wykonania obowiązku zbycia w całości albo ustania obowiązku zbycia z innej przyczyny; Spółka wydaje na żądanie potwierdzenie wygaśnięcia.
+  \item Niezależnie od pełnomocnictwa Spółka i Nabywca Wskazany mogą dochodzić wykonania obowiązku zbycia na drodze sądowej, w tym żądać orzeczenia zastępującego oświadczenie woli (§~\ref{art:zwrotne-zbycie} ust.~15 \US).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Cena, zapłata i przeniesienie akcji}
+\label{sha:cena}
+\begin{enumerate}
+  \item Ceną Akcji Niezwolnionych jest cena emisyjna zapłacona za te akcje przy ich objęciu (0,01 zł za akcję serii A, chyba że z rejestru akcjonariuszy wynika inna cena emisyjna).
+  \item Wartość Godziwą Akcji Zwolnionych ustala się zgodnie z §~\ref{art:wycena} \US, przy czym Dniem Wyceny jest Dzień Odejścia. Do czasu ostatecznego ustalenia Wartości Godziwej Nabywca Wskazany może przyjąć ofertę ze wskazaniem ceny „według Wartości Godziwej”; termin zapłaty biegnie wówczas od dnia ostatecznego ustalenia wartości.
+  \item Cena jest płatna przelewem na rachunek Akcjonariusza Funkcjonalnego w terminie 30 dni od doręczenia przyjęcia oferty albo od ostatecznego ustalenia Wartości Godziwej, w zależności od tego, co nastąpi później. Jeżeli Akcjonariusz Funkcjonalny nie wskazał rachunku albo odmawia przyjęcia zapłaty, Nabywca Wskazany może złożyć cenę do depozytu sądowego albo notarialnego ze skutkiem zapłaty.
+  \item Dyspozycja wpisu w rejestrze akcjonariuszy jest składana nie wcześniej niż po zapłacie albo złożeniu ceny do depozytu; podmiot prowadzący rejestr działa na podstawie dokumentów przewidzianych prawem, a niniejsza umowa nie przesądza jego sposobu działania.
+  \item Koszty wyceny ponosi się zgodnie z §~\ref{art:wycena} ust.~6 \US; koszty wpisu w rejestrze ponosi Nabywca Wskazany. Każda strona ponosi własne podatki związane ze zbyciem; Spółka informuje strony o obowiązkach płatnika, jeżeli na niej ciążą.
+  \item Rozliczenie z §~\ref{art:zwrotne-zbycie} \US{} nie wyłącza roszczeń Spółki z tytułu Odejścia Zawinionego ani obowiązków trwających po Dniu Odejścia (§~\ref{sha:konkurencja}, §~\ref{sha:ip}, §~\ref{sha:poufnosc}).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Śmierć i zmiana kontroli}
+\label{sha:smierc}
+\begin{enumerate}
+  \item Śmierć Akcjonariusza Funkcjonalnego stanowi Odejście Usprawiedliwione. Akcje Zwolnione podlegają dziedziczeniu na zasadach §~\ref{art:dziedziczenie} \US; Akcje Niezwolnione podlegają zbyciu na rzecz Nabywcy Wskazanego po cenie emisyjnej, a obowiązek ten wykonują spadkobiercy albo pełnomocnik zgodnie z §~\ref{sha:pelnomocnictwo}. Spółka może w takim przypadku przyspieszyć zwolnienie całości albo części akcji zgodnie z §~\ref{art:zwrotne-zbycie} ust.~7 lit.~c \US.
+  \item Każdy Założyciel wyraża zgodę na objęcie go ubezpieczeniem na życie na rzecz Spółki zgodnie z §~\ref{art:dziedziczenie} ust.~5 \US{} i zobowiązuje się poddać badaniom oraz złożyć oświadczenia wymagane przez ubezpieczyciela; wysokość sumy ubezpieczenia określa Rada Dyrektorów.
+  \item W razie zmiany kontroli nad Spółką stosuje się §~\ref{art:zwrotne-zbycie} ust.~10 \US. Za zmianę kontroli uważa się nabycie przez osobę albo grupę osób działających w porozumieniu ponad 50\% głosów w Spółce albo prawa do powoływania większości dyrektorów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zakaz konkurencji po ustaniu zaangażowania}
+\label{sha:konkurencja}
+\begin{enumerate}
+  \item Na podstawie §~\ref{art:konkurencja} ust.~3 \US{} każdy Akcjonariusz Funkcjonalny zobowiązuje się, że przez 12 miesięcy od Dnia Odejścia nie będzie bez pisemnej zgody Spółki: (a)~prowadzić, w jakiejkolwiek formie, działalności konkurencyjnej w zakresie produktów i technologii określonych w §~\ref{art:cel} i §~\ref{art:pkd} \US, w szczególności oprogramowania autonomii, percepcji, koordynacji zespołowej i dowodzenia dla systemów bezzałogowych; (b)~świadczyć pracy ani usług na rzecz podmiotu konkurencyjnego ani uczestniczyć w nim kapitałowo powyżej 2\% (z wyjątkiem spółek publicznych); (c)~nakłaniać pracowników, współpracowników, klientów, partnerów Przedsięwzięć Produkcyjnych ani dostawców Spółki do zakończenia albo ograniczenia współpracy ze Spółką.
+  \item Zakaz obowiązuje na terytorium Unii Europejskiej, Europejskiego Obszaru Gospodarczego i państw NATO oraz każdego innego państwa, w którym Spółka w Dniu Odejścia prowadzi sprzedaż albo prace rozwojowe.
+  \item Z tytułu zakazu Spółka wypłaca Akcjonariuszowi Funkcjonalnemu odszkodowanie w wysokości \field{kwota albo procent} miesięcznie, jeżeli wymagają tego bezwzględnie obowiązujące przepisy prawa (w szczególności przepisy prawa pracy), a w pozostałych przypadkach --- w wysokości ustalonej w umowie będącej podstawą zaangażowania; brak ustalenia oznacza \field{kwota} miesięcznie. Spółka może w terminie 30 dni od Dnia Odejścia zwolnić Akcjonariusza Funkcjonalnego z zakazu, co zwalnia ją z obowiązku zapłaty odszkodowania za okres po zwolnieniu.
+  \item Zakaz nie obejmuje działalności ujawnionej i zatwierdzonej w Załączniku nr~3 do Umowy Spółki, udziału w Przedsięwzięciu Produkcyjnym zatwierdzonego zgodnie z §~\ref{art:przedsiewziecia} ust.~7 \US{} ani działalności naukowej i dydaktycznej niezwiązanej z komercjalizacją technologii konkurencyjnych.
+  \item Za każde naruszenie zakazu Akcjonariusz Funkcjonalny zapłaci Spółce karę umowną w wysokości \field{kwota}, a w razie naruszenia trwającego --- dodatkowo \field{kwota} za każdy rozpoczęty miesiąc naruszenia; Spółka może dochodzić odszkodowania przewyższającego karę umowną. Naruszenie zakazu w okresie zaangażowania stanowi Odejście Zawinione zgodnie z §~\ref{art:zwrotne-zbycie} ust.~5 lit.~c \US.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Własność intelektualna}
+\label{sha:ip}
+\begin{enumerate}
+  \item Każdy Założyciel potwierdza, że przeniósł na Spółkę prawa stanowiące jego wkład niepieniężny zgodnie z §~\ref{art:wklady} \US{} i Załącznikiem nr~1 do Umowy Spółki, na podstawie dokumentów wymienionych w Załączniku nr~C do niniejszej umowy, oraz że oświadczenia złożone w §~\ref{art:wlasnosc-intelektualna} \US{} są prawdziwe i kompletne.
+  \item Wszelkie utwory, wynalazki, wzory, know-how, dane, projekty i inne rezultaty prac powstałe w okresie zaangażowania Założyciela w związku z działalnością Spółki albo z wykorzystaniem jej zasobów stanowią Kluczową Własność Intelektualną Spółki. Założyciel zobowiązuje się: (a)~zawrzeć ze Spółką, przed rozpoczęciem prac, umowę przenoszącą autorskie prawa majątkowe i prawa do wynalazków na wszystkich polach eksploatacji znanych w chwili zawarcia, z prawem do wykonywania praw zależnych, w zakresie, w jakim prawa te nie przechodzą na Spółkę z mocy prawa; (b)~niezwłocznie ujawniać Spółce powstałe rezultaty i współdziałać przy ich ochronie, także po Dniu Odejścia; (c)~nie wykonywać autorskich praw osobistych w sposób utrudniający korzystanie z utworów przez Spółkę.
+  \item Wynagrodzenie za przeniesienie praw, o którym mowa w ust.~2, jest objęte wynagrodzeniem z umowy będącej podstawą zaangażowania, chyba że bezwzględnie obowiązujące przepisy wymagają odrębnego wynagrodzenia; w takim przypadku strony ustalą je w umowie przenoszącej prawa.
+  \item Założyciel nie wnosi do prac dla Spółki komponentów objętych prawami osób trzecich ani otwartego oprogramowania o licencjach wymienionych w Załączniku nr~3 do Umowy Spółki jako licencje o podwyższonym ryzyku bez uprzedniej zgody Rady Dyrektorów i ujawnia wykorzystane komponenty zgodnie z §~\ref{art:wlasnosc-intelektualna} \US.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Poufność, bezpieczeństwo i obowiązki informacyjne}
+\label{sha:poufnosc}
+\begin{enumerate}
+  \item Założyciele potwierdzają obowiązki poufności i bezpieczeństwa informacji z §~\ref{art:security} \US, w tym okres 10 lat po zakończeniu posiadania akcji (§~\ref{art:security} ust.~3 \US), oraz obowiązki z §~\ref{art:export} \US. Obowiązki te trwają po Dniu Odejścia niezależnie od rodzaju Odejścia.
+  \item Każdy Założyciel aktualizuje ujawnienia z Załącznika nr~3 do Umowy Spółki, w tym udziały i funkcje w Przedsięwzięciach Produkcyjnych oraz aktywności konkurencyjne, w terminie 14 dni od zmiany, w formie dokumentowej skierowanej do Rady Dyrektorów. Aktualizacja nie wymaga zmiany Umowy Spółki; jej zatwierdzenie należy do Rady Dyrektorów zgodnie z §~\ref{art:konkurencja} i §~\ref{art:przedsiewziecia} ust.~7 \US.
+  \item Założyciel informuje Spółkę o każdej zmianie ustroju majątkowego małżeńskiego, postępowaniu egzekucyjnym dotyczącym akcji oraz innym zdarzeniu mogącym wpływać na przynależność akcji, zgodnie z §~\ref{art:malzonek} \US.
+  \item Za naruszenie obowiązku poufności Założyciel zapłaci Spółce karę umowną w wysokości \field{kwota} za każde naruszenie; Spółka może dochodzić odszkodowania przewyższającego karę umowną.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Współdziałanie Założycieli}
+\label{sha:wspoldzialanie}
+\begin{enumerate}
+  \item Założyciele zobowiązują się współdziałać w dobrej wierze przy przeprowadzeniu Kwalifikowanej Rundy Finansowania zgodnie z §~\ref{art:kwalifikowana-runda} ust.~3 \US, w tym zawrzeć zwyczajowe dokumenty transakcyjne oraz złożyć oświadczenia i zapewnienia dotyczące Spółki w zakresie ich wiedzy, na zasadach uzgodnionych w uchwale kierunkowej.
+  \item Założyciele zobowiązują się głosować za uchwałami niezbędnymi do wykonania niniejszej umowy, w szczególności za uchwałami o stwierdzeniu Odejścia Usprawiedliwionego w przypadkach uznaniowych (§~\ref{art:walne-zastrzezone} \US), jeżeli zachodzą przesłanki §~\ref{art:zwrotne-zbycie} ust.~4 \US, oraz nie podejmować działań zmierzających do obejścia mechanizmu zwrotnego zbycia, w szczególności przez przeniesienie akcji na podmiot kontrolowany bez przystąpienia tego podmiotu do niniejszej umowy.
+  \item Założyciel zamierzający zbyć akcje na rzecz podmiotu w całości przez siebie kontrolowanego (§~\ref{art:okres-ograniczenia-zbywania} ust.~2 lit.~d \US) zapewnia, że podmiot ten przystąpi do niniejszej umowy, a Założyciel pozostaje odpowiedzialny solidarnie za wykonanie obowiązków z niej wynikających.
+  \item Założyciele uzgadniają, że w sprawach objętych niniejszą umową będą dążyć do rozstrzygnięć jednomyślnych, a w razie ich braku --- stosować procedury Umowy Spółki; niniejsza umowa nie ustanawia porozumienia co do sposobu głosowania w innych sprawach.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Czas trwania i zmiana umowy}
+\label{sha:czas}
+\begin{enumerate}
+  \item Umowa obowiązuje od dnia zawarcia do dnia, w którym wszystkie Akcje Objęte Mechanizmem wszystkich Akcjonariuszy Funkcjonalnych zostaną zwolnione z obowiązku zbycia albo zbyte w wykonaniu niniejszej umowy, z tym że obowiązki z §~\ref{sha:konkurencja}, §~\ref{sha:ip} i §~\ref{sha:poufnosc} trwają przez okresy w nich określone, a pełnomocnictwo i oferta --- do chwili ich wygaśnięcia.
+  \item Umowa wygasa wobec Założyciela, który przestał być akcjonariuszem Spółki, z zastrzeżeniem obowiązków trwających po Dniu Odejścia.
+  \item Zmiana lub rozwiązanie umowy wymaga formy pisemnej pod rygorem nieważności i zgody wszystkich Założycieli będących w danym czasie Akcjonariuszami Funkcjonalnymi oraz Spółki; zmiana nie może prowadzić do sprzeczności z Umową Spółki. Zmiana Umowy Spółki w zakresie mechanizmu zwrotnego zbycia stosuje się do niniejszej umowy bez potrzeby jej zmiany, w granicach ust.~4.
+  \item Postanowienia niniejszej umowy, które w wyniku zmiany Umowy Spółki stałyby się z nią sprzeczne, tracą moc w zakresie sprzeczności; strony uzupełnią wówczas umowę zgodnie z §~\ref{sha:koncowe} ust.~2.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\label{sha:koncowe}
+\begin{enumerate}
+  \item Umowa podlega prawu polskiemu.
+  \item Jeżeli postanowienie umowy jest nieważne albo niewykonalne, pozostałe postanowienia zachowują moc, a strony zastąpią wadliwe postanowienie rozwiązaniem prawnie dopuszczalnym, możliwie najbliższym jego celowi; dotyczy to w szczególności pełnomocnictwa, oferty i kar umownych.
+  \item Spory związane z umową strony poddają w pierwszej kolejności negocjacjom i mediacji na zasadach §~\ref{art:final} ust.~4--5 \US; w razie braku ugody właściwy jest sąd powszechny właściwy dla siedziby Spółki.
+  \item Zawiadomienia składa się w formie dokumentowej na adresy poczty elektronicznej wskazane w Załączniku nr~E, a wobec Spółki --- na adres wpisany do rejestru przedsiębiorców; strony aktualizują adresy w terminie 7 dni od zmiany.
+  \item Załączniki nr~A--E stanowią integralną część umowy. Umowę sporządzono w \field{liczba} jednobrzmiących egzemplarzach, po jednym dla każdej ze stron.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1cm}
+\begin{center}
+\begin{tabularx}{\textwidth}{X X}
+\field{Założyciel A --- podpis} & \field{Założyciel B --- podpis} \\
+\\[1.3cm]
+\field{Założyciel C --- podpis} & \field{Założyciel D --- podpis} \\
+\\[1.3cm]
+\field{Założyciel E --- podpis} & \field{Spółka --- przystąpienie, data i podpisy zgodnie z reprezentacją} \\
+\end{tabularx}
+\end{center}
+
+\newpage
+\section*{Załącznik nr A — Wzór nieodwołalnej oferty sprzedaży akcji}
+\addcontentsline{toc}{section}{Załącznik nr A — Wzór nieodwołalnej oferty sprzedaży akcji}
+
+Ja, niżej podpisany \field{imię, nazwisko, PESEL}, Akcjonariusz Funkcjonalny \CompanyFull{} („Spółka”), działając na podstawie §~\ref{art:zwrotne-zbycie} Umowy Spółki oraz umowy wspólników z dnia \field{data}, składam niniejszym nieodwołalną ofertę sprzedaży przysługujących mi akcji serii A oznaczonych numerami \field{od--do} („Akcje Objęte Mechanizmem”) na rzecz Dopuszczalnego Nabywcy wskazanego przez Spółkę zgodnie z umową wspólników, na następujących warunkach:
+
+\begin{enumerate}
+  \item oferta obejmuje Akcje Niezwolnione po cenie emisyjnej oraz --- w przypadku Odejścia Zawinionego albo Odejścia Dobrowolnego --- Akcje Zwolnione po cenie określonej odpowiednio w §~\ref{art:zwrotne-zbycie} ust.~8 lit.~b albo ust.~9 lit.~b Umowy Spółki, ustalonej zgodnie z §~\ref{art:wycena} Umowy Spółki;
+  \item liczbę Akcji Niezwolnionych i Akcji Zwolnionych ustala się na Dzień Odejścia zgodnie z umową wspólników;
+  \item oferta może zostać przyjęta wyłącznie po stwierdzeniu rodzaju Odejścia, w terminach określonych w umowie wspólników, w formie wymaganej przez \KSH{} dla zbycia akcji;
+  \item oferta jest nieodwołalna do chwili zwolnienia wszystkich Akcji Objętych Mechanizmem z obowiązku zbycia albo ustania obowiązku zbycia z innej przyczyny;
+  \item cena jest płatna na rachunek bankowy nr \field{numer} w terminie określonym w umowie wspólników.
+\end{enumerate}
+
+\field{miejscowość, data} \hfill \field{podpis}
+
+\newpage
+\section*{Załącznik nr B — Wzór pełnomocnictwa}
+\addcontentsline{toc}{section}{Załącznik nr B — Wzór pełnomocnictwa}
+
+Ja, niżej podpisany \field{imię, nazwisko, PESEL}, Akcjonariusz Funkcjonalny \CompanyFull{} („Spółka”), udzielam niniejszym osobie wskazanej przez Radę Dyrektorów Spółki zgodnie z §~\ref{sha:pelnomocnictwo} ust.~4 umowy wspólników z dnia \field{data} pełnomocnictwa do:
+
+\begin{enumerate}
+  \item złożenia w moim imieniu oświadczenia o zbyciu Akcji Objętych Mechanizmem, oznaczonych numerami \field{od--do}, na rzecz Dopuszczalnego Nabywcy wskazanego przez Spółkę, na warunkach określonych w mojej nieodwołalnej ofercie z dnia \field{data} i w umowie wspólników;
+  \item złożenia dyspozycji wpisu zbycia w rejestrze akcjonariuszy oraz podpisania dokumentów wymaganych przez podmiot prowadzący rejestr;
+  \item odbioru ceny sprzedaży na rachunek bankowy nr \field{numer}.
+\end{enumerate}
+
+Pełnomocnictwo jest nieodwołalne i nie wygasa z chwilą mojej śmierci (art.~101 Kodeksu cywilnego), a jego nieodwołalność jest uzasadniona treścią stosunku prawnego wynikającego z Umowy Spółki i umowy wspólników. Pełnomocnik może działać wyłącznie po łącznym spełnieniu warunków określonych w §~\ref{sha:pelnomocnictwo} ust.~3 umowy wspólników i nie może być stroną czynności ani osobą powiązaną z nabywcą. Pełnomocnictwo wygasa z chwilą zwolnienia wszystkich Akcji Objętych Mechanizmem z obowiązku zbycia albo wykonania obowiązku zbycia.
+
+\field{miejscowość, data} \hfill \field{podpis notarialnie poświadczony, jeżeli wymaga tego podmiot prowadzący rejestr}
+
+\newpage
+\section*{Załącznik nr C — Wykaz dokumentów przeniesienia własności intelektualnej}
+\addcontentsline{toc}{section}{Załącznik nr C — Wykaz dokumentów przeniesienia własności intelektualnej}
+
+\begin{longtable}{@{}p{1.3cm} p{4.2cm} p{4.0cm} p{4.6cm}@{}}
+\toprule
+\textbf{Zał.} & \textbf{Przedmiot wkładu} & \textbf{Dokument przenoszący} & \textbf{Data i strony} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Zał.} & \textbf{Przedmiot wkładu} & \textbf{Dokument przenoszący} & \textbf{Data i strony} \\
+\midrule
+\endhead
+A & \field{opis zgodny z Załącznikiem nr~1 do Umowy Spółki} & \field{umowa przeniesienia / cesja / protokół wydania} & \field{data} \\
+B & \field{opis} & \field{dokument} & \field{data} \\
+C & \field{opis} & \field{dokument} & \field{data} \\
+D & \field{opis} & \field{dokument} & \field{data} \\
+E & \field{opis} & \field{dokument} & \field{data} \\
+\bottomrule
+\end{longtable}
+
+\newpage
+\section*{Załącznik nr D — Wzór oświadczenia o przystąpieniu}
+\addcontentsline{toc}{section}{Załącznik nr D — Wzór oświadczenia o przystąpieniu}
+
+\field{Spółka / nabywca akcji / nowy Akcjonariusz Funkcjonalny --- oznaczenie}, oświadcza, że zapoznał się z umową wspólników \CompanyFull{} z dnia \field{data} i przystępuje do niej z dniem \field{data} jako \field{Spółka / nabywca akcji nr od--do / Akcjonariusz Funkcjonalny}, przyjmując wszystkie prawa i obowiązki wynikające z tej umowy w zakresie \field{całości / nabywanych akcji}, w tym --- jeżeli dotyczy --- składając ofertę według Załącznika nr~A i udzielając pełnomocnictwa według Załącznika nr~B.
+
+\field{miejscowość, data} \hfill \field{podpis(y) zgodnie z reprezentacją}
+
+\newpage
+\section*{Załącznik nr E — Akcjonariusze Funkcjonalni i dane do zawiadomień}
+\addcontentsline{toc}{section}{Załącznik nr E — Akcjonariusze Funkcjonalni i dane do zawiadomień}
+
+Dane powtarzają Załącznik nr~2 do Umowy Spółki; w razie rozbieżności rozstrzyga Załącznik nr~2 do Umowy Spółki.
+
+\begin{longtable}{@{}p{1.3cm} p{2.2cm} p{2.6cm} p{2.4cm} p{2.6cm} p{3.0cm}@{}}
+\toprule
+\textbf{Zał.} & \textbf{Funkcjonalny?} & \textbf{Akcje objęte (nr od--do)} & \textbf{Data rozpoczęcia} & \textbf{Rola} & \textbf{E-mail do zawiadomień} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Zał.} & \textbf{Funkcjonalny?} & \textbf{Akcje objęte (nr od--do)} & \textbf{Data rozpoczęcia} & \textbf{Rola} & \textbf{E-mail do zawiadomień} \\
+\midrule
+\endhead
+A & \field{TAK/NIE} & \field{od--do} & \field{data} & \field{rola} & \field{e-mail} \\
+B & \field{TAK/NIE} & \field{od--do} & \field{data} & \field{rola} & \field{e-mail} \\
+C & \field{TAK/NIE} & \field{od--do} & \field{data} & \field{rola} & \field{e-mail} \\
+D & \field{TAK/NIE} & \field{od--do} & \field{data} & \field{rola} & \field{e-mail} \\
+E & \field{TAK/NIE} & \field{od--do} & \field{data} & \field{rola} & \field{e-mail} \\
+\bottomrule
+\end{longtable}
+
+\end{document}
