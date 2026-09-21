@@ -46,6 +46,49 @@ Każdy z tych progów jest osobnym checkpointem (sekcja 4). Ta konstrukcja jest 
 - **Czego nie uruchamia:** rozwój i testy w Polsce oraz w UE bez przekazania kontrolowanej technologii poza UE; sprzedaż na rynek polski i unijny pozycji spoza załącznika IV.
 - **Pułapki:** klasyfikacja jest obowiązkiem firmy; nieświadomy „eksport" przez chmurę albo współpracownika spoza UE; komponenty z USA objęte ITAR/EAR mają własne ograniczenia reeksportu i dostępu osób, niezależne od prawa UE **[W]**.
 
+### 2.2a Cywilne technologie strategiczne: budowanie a obrót
+
+Pytanie Założycieli: autonomiczny lot jest technologią o znaczeniu strategicznym, choć cywilną. Co wolno, a co wymaga zezwolenia?
+
+**Budowanie jest wolne, obrót z zagranicą jest kontrolowany.** Ustawa o obrocie z zagranicą towarami, technologiami i usługami o znaczeniu strategicznym reguluje wyłącznie obrót z zagranicą: eksport, transfer wewnątrzunijny wybranych pozycji, import części pozycji, tranzyt, pośrednictwo i pomoc techniczną. Nie reguluje prac rozwojowych, produkcji na własne potrzeby ani sprzedaży w Polsce. Rozwijanie autonomii lotu w Polsce nie wymaga zezwolenia, koncesji ani zgłoszenia **[W]**.
+
+**Czy autonomia lotu jest pozycją kontrolowaną?** Prawdopodobnie tak, w zależności od parametrów platformy **[W]**:
+
+- 9A012.a obejmuje UAV sterowane poza zasięgiem wzroku operatora o określonej wytrzymałości (co najmniej 30 minut przy odporności na podmuchy albo co najmniej 1 godzina);
+- 9A012.b.2 obejmuje systemy nawigacji, orientacji, naprowadzania lub sterowania **specjalnie zaprojektowane, aby zapewnić UAV zdolność autonomicznego sterowania lotem lub nawigacji** — to jest dokładnie warstwa Basiliska;
+- 9D (oprogramowanie) i 9E (technologia) obejmują oprogramowanie i technologię do rozwoju, produkcji lub użytkowania powyższych; kategoria 7 obejmuje nawigację inercyjną i nawigację bez GNSS o określonej dokładności; 5A002 kryptografię w łączności między platformami;
+- małe platformy o krótkim czasie lotu mogą wypadać poza 9A012.a, ale oprogramowanie i technologia mogą pozostać kontrolowane przez kategorie 7 albo przez klauzulę catch-all (końcowe zastosowanie wojskowe w państwie objętym embargiem albo broń masowego rażenia);
+- koordynacja roju nie ma, według naszej wiedzy, osobnej pozycji w wykazie, ale jako oprogramowanie „do użytkowania" kontrolowanego UAV może być kontrolowana pośrednio **[?]**;
+- wykaz w załączniku I jest aktualizowany co roku rozporządzeniem delegowanym; klasyfikację robi się na aktualnej wersji.
+
+**Co dokładnie jest „obrotem" technologią i oprogramowaniem** (rozporządzenie 2021/821, art. 2) **[W]**:
+
+- eksport to także transmisja elektroniczna poza obszar celny UE oraz **udostępnienie** oprogramowania lub technologii osobie spoza UE, w tym przez chmurę i zdalny dostęp;
+- w praktyce: repozytorium kodu na serwerach poza UE, kopie zapasowe w chmurze poza UE, dostęp zdalny współpracownika przebywającego poza UE, przesłanie dokumentacji do partnera w USA, prezentacja szczegółów technicznych na targach poza UE, testy w ośrodku poza UE (np. centra testowe DIANA poza UE);
+- pomoc techniczna (szkolenie, doradztwo, przekazanie umiejętności) dotycząca pozycji kontrolowanych na rzecz osób spoza UE podlega osobnej kontroli;
+- transfer wewnątrz UE jest wolny poza pozycjami z załącznika IV; czy któraś pozycja Basiliska tam trafia (np. 9A120 przy zasięgu co najmniej 300 km) — do sprawdzenia;
+- zatrudnienie obywatela państwa spoza UE pracującego w Polsce nie jest eksportem w rozumieniu prawa UE (brak konstrukcji „deemed export"), ale § 27 ust. 6 umowy i Kryterium nakładają własny, surowszy wymóg zgody na dostęp spoza UE/NATO **[W]**.
+
+**Wyłączenia, z których korzysta B+R** (uwagi ogólne do załącznika I) **[W]**:
+
+- technologia i oprogramowanie **powszechnie dostępne** (public domain) nie są kontrolowane; publikacja wyników i kod otwarty wychodzą spod kontroli, ale samo opublikowanie technologii kontrolowanej może być traktowane jak jej udostępnienie — decyzję o publikacji poprzedza klasyfikacja;
+- **podstawowe badania naukowe** (basic scientific research) są wyłączone; prace nad produktem już nie;
+- oprogramowanie masowego rynku (mass market) — wyłączenie nie obejmuje typowo oprogramowania autonomii.
+
+**Import i rynek krajowy** **[W]**: sprzedaż w Polsce i w UE nie wymaga zezwolenia (poza załącznikiem IV); przy imporcie niektórych pozycji polska ustawa przewiduje obowiązki ewidencyjne i oświadczenia użytkownika końcowego; komponenty z USA objęte ITAR/EAR niosą własne ograniczenia reeksportu i dostępu osób.
+
+**Zezwolenia, gdy obrót już jest potrzebny** **[W]**: indywidualne, globalne albo generalne. Unijne generalne zezwolenie EU001 obejmuje eksport większości pozycji z załącznika I do USA, Kanady, Wielkiej Brytanii, Norwegii, Szwajcarii, Japonii, Australii i Nowej Zelandii, z wyłączeniami; czy obejmuje pozycje Basiliska — do sprawdzenia przy pierwszym eksporcie. Organ: MRiT; po nowelizacji z 2026 r. wnioski elektroniczne przez Tracker 2.0 **[Z]**.
+
+**Konsekwencje praktyczne od dnia 1:**
+
+1. Klasyfikacja produktu, kodu i dokumentacji przed pierwszym udostępnieniem poza firmę (§ 28 ust. 2 umowy), z zapisem wyniku i wersji wykazu; przy wątpliwości wniosek do MRiT o ustalenie, czy pozycja podlega kontroli.
+2. Kod i dokumentacja techniczna na serwerach w UE albo we własnej infrastrukturze; chmura i repozytoria z regionem UE i kontrolą dostępu według obywatelstwa i miejsca pobytu.
+3. Rejestr dostępu do Kluczowej Własności Intelektualnej (§ 26 ust. 6 umowy) rozszerzony o miejsce pobytu i obywatelstwo osób z dostępem.
+4. Program zgodności eksportowej (§ 28 ust. 4) prowadzony od początku, choć WSK jest obowiązkowy dopiero przy uzbrojeniu; ułatwia późniejsze zezwolenia i due diligence inwestorów.
+5. Przy DIANA, EIC i partnerach spoza UE: przed przekazaniem czegokolwiek poza UE checkpoint G2/G5.
+
+Wniosek: to, że technologia jest cywilna, nie ma znaczenia dla kontroli obrotu; liczy się pozycja wykazu, kraj i użytkownik końcowy. Budować można swobodnie, ale granica UE jest dla oprogramowania autonomii granicą prawną, także w chmurze.
+
 ### 2.3 Prawo lotnicze — bezzałogowe systemy powietrzne
 
 - **Podstawa:** rozporządzenia (UE) 2019/945 (projektowanie, produkcja, klasy UAS, wprowadzanie do obrotu) i 2019/947 (operacje: kategorie „otwarta", „szczególna", „certyfikowana"), ustawa Prawo lotnicze znowelizowana ustawą z 24 stycznia 2025 r., w mocy od 27 lutego 2025 r. **[Z]**.
@@ -141,6 +184,7 @@ Zasada: **B+R można zacząć bez koncesji; przed pierwszym prototypem wojskowym
 | Cywilny quadcopter + własne badania to inny reżim niż wojskowy BSP | trafna | zgodne z WT V („specjalnie zaprojektowane lub zmodyfikowane") |
 | Napis „prototyp" nie wyłącza koncesji | trafna | istotna przestroga |
 | Elektroniczne przekazanie oprogramowania poza UE jest eksportem | trafna **[W]** | definicja eksportu w 2021/821 obejmuje transmisję i udostępnienie elektroniczne |
+| Autonomiczny lot jako technologia strategiczna cywilna | ChatGPT nie odpowiedział wprost | prawdopodobnie pozycja 9A012.b.2 z oprogramowaniem 9D i technologią 9E; budowanie wolne, obrót z zagranicą kontrolowany; szczegóły w sekcji 2.2a |
 | Nowelizacja kontroli obrotu od 22 kwietnia 2026 r. | trafna **[Z]** | ustawa z 13 marca 2026 r., Dz.U. 2026 poz. 471; zmienia także ustawę koncesyjną |
 | Testy UAV: kategoria szczególna, SORA, ULC; radio; broń osobno | trafna | pominął prawo morskie przy USV i zgodność produktową (AI Act, maszynowe, CRA) |
 | Świadectwo ABW dopiero przy informacjach „poufne" i wyżej | trafna **[W]** | dodać: procedura trwa długo, start z wyprzedzeniem |
