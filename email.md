@@ -1,16 +1,14 @@
-# Mail do kancelarii — prośba o wycenę
+# Mail 1 do kancelarii — prośba o wycenę (bez załączników)
 
 Temat: Projekt umowy P.S.A. (Physical AI) — prośba o wycenę weryfikacji i pisemnej opinii
 
-Załączniki: projekt umowy P.S.A. (PDF, 43 strony); lista pytań szczegółowych z odesłaniami do paragrafów (law.md)
-
 Szanowni Państwo,
 
-Proszę o wycenę sprawdzenia załączonego projektu umowy P.S.A. dla startupu z branży Physical AI oraz o pisemne stanowisko co do jego zgodności z prawem, wykonalności przyjętych mechanizmów i modyfikacji, które uznają Państwo za niezbędne lub wskazane. Firma jest na etapie przed zawiązaniem; pięciu założycieli — osób fizycznych — obejmuje akcje za wkłady niepieniężne (kod, modele, sprzęt, zgłoszenia patentowe) i pieniężne. Firma będzie rozwijać fizyczną sztuczną inteligencję i autonomiczne systemy bezzałogowe, przede wszystkim roje dronów, o zastosowaniach cywilnych, przemysłowych i — po uzyskaniu koncesji — obronnych. Umowa ma obsłużyć rundę inwestycyjną, program motywacyjny, dołączanie późniejszych współzałożycieli, udział w spółkach celowych z partnerami przemysłowymi oraz finansowanie dłużne i grantowe.
+Proszę o wycenę sprawdzenia projektu umowy P.S.A. dla startupu z branży Physical AI oraz o pisemne stanowisko co do jego zgodności z prawem, wykonalności przyjętych mechanizmów i modyfikacji, które uznają Państwo za niezbędne lub wskazane. Firma jest na etapie przed zawiązaniem; pięciu założycieli — osób fizycznych — obejmuje akcje za wkłady niepieniężne (kod, modele, sprzęt, zgłoszenia patentowe) i pieniężne. Firma będzie rozwijać fizyczną sztuczną inteligencję i autonomiczne systemy bezzałogowe, przede wszystkim roje dronów, o zastosowaniach cywilnych, przemysłowych i — po uzyskaniu koncesji — obronnych. Umowa ma obsłużyć rundę inwestycyjną, program motywacyjny, dołączanie późniejszych współzałożycieli, udział w spółkach celowych z partnerami przemysłowymi oraz finansowanie dłużne i grantowe.
 
 ## 1. Jak zbudowany jest projekt
 
-Projekt liczy 43 strony: 38 paragrafów i trzy załączniki (założyciele i wkłady, założyciele objęci mechanizmem czasowym, ujawnione aktywności). Spółka ma system monistyczny (Rada Dyrektorów 3–7 osób). Główne mechanizmy: ograniczenie struktury właścicielskiej do państw UE/EOG/NATO, zgoda Spółki na rozporządzenie akcją w reżimie art. 300³⁹ KSH z 12-miesięcznym lock-upem założycieli, prawo pierwszeństwa, tag-along i drag-along, 48-miesięczny mechanizm zwrotnego zbycia akcji założycieli, ograniczenie wstąpienia spadkobierców (art. 300⁴¹ KSH), serie P (program motywacyjny) i F (późniejsi współzałożyciele) na podstawie art. 300¹⁰³ KSH, tryb rundy inwestycyjnej, zasady udziału w spółkach celowych, kontrola eksportu i bezpieczeństwo informacji. Projekt zawiera 58 pól do uzupełnienia danymi, siedem przekreślonych zdań oznaczonych do usunięcia jako powtórzenia ustawy oraz jeden przekreślony ustęp merytoryczny wraz z odesłaniem do niego (wyjątek dla funduszy inwestycyjnych), o którego ocenę prosimy osobno. Załączona lista pytań szczegółowych odsyła przy każdym pytaniu do paragrafu i ustępu projektu. Roboczy audyt paragraf po paragrafie i materiały informacyjne prześlemy na życzenie.
+Projekt liczy 43 strony: 38 paragrafów i trzy załączniki (założyciele i wkłady, założyciele objęci mechanizmem czasowym, ujawnione aktywności). Spółka ma system monistyczny (Rada Dyrektorów 3–7 osób). Główne mechanizmy: ograniczenie struktury właścicielskiej do państw UE/EOG/NATO, zgoda Spółki na rozporządzenie akcją w reżimie art. 300³⁹ KSH z 12-miesięcznym lock-upem założycieli, prawo pierwszeństwa, tag-along i drag-along, 48-miesięczny mechanizm zwrotnego zbycia akcji założycieli, ograniczenie wstąpienia spadkobierców (art. 300⁴¹ KSH), serie P (program motywacyjny) i F (późniejsi współzałożyciele) na podstawie art. 300¹⁰³ KSH, tryb rundy inwestycyjnej, zasady udziału w spółkach celowych, kontrola eksportu i bezpieczeństwo informacji. Projekt zawiera 58 pól do uzupełnienia danymi, siedem przekreślonych zdań oznaczonych do usunięcia jako powtórzenia ustawy oraz jeden przekreślony ustęp merytoryczny wraz z odesłaniem do niego (wyjątek dla funduszy inwestycyjnych), o którego ocenę prosimy osobno. Do projektu przygotowaliśmy listę pytań szczegółowych, która przy każdym pytaniu odsyła do paragrafu i ustępu. Roboczy audyt paragraf po paragrafie i materiały informacyjne prześlemy na życzenie.
 
 ## 2. Zakres prac, o którego wycenę prosimy
 
@@ -24,11 +22,11 @@ D. Uwagi pod inwestora VC — które postanowienia w Państwa doświadczeniu bud
 
 E. Opcjonalnie, do odrębnej wyceny: umowa wykonawcza mechanizmu zwrotnego zbycia, regulaminy Rady i programu motywacyjnego, wzory uchwał, wzór umowy spółki celowej, kwestie podatkowe (m.in. interpretacja indywidualna dla programu motywacyjnego w P.S.A.).
 
-Forma wyniku, na której nam zależy: stanowisko pisemne (memorandum przesłane e-mailem) z oceną, zidentyfikowanymi ryzykami i rekomendacjami, w numeracji załączonej listy pytań; ewentualne propozycje brzmienia — jako sugestie do rozważenia. Na tym etapie nie prosimy o wprowadzanie zmian do projektu ani o przygotowanie jego nowej wersji: decyzje podejmą Założyciele wspólnie po zapoznaniu się z Państwa stanowiskiem, a wdrożenie uzgodnionych zmian i przygotowanie wersji do aktu notarialnego zlecimy odrębnie. Poza zakresem pozostają negocjacje z inwestorami, umowa inwestycyjna i due diligence.
+Forma wyniku, na której nam zależy: stanowisko pisemne (memorandum przesłane e-mailem) z oceną, zidentyfikowanymi ryzykami i rekomendacjami, w numeracji listy pytań szczegółowych; ewentualne propozycje brzmienia — jako sugestie do rozważenia. Na tym etapie nie prosimy o wprowadzanie zmian do projektu ani o przygotowanie jego nowej wersji: decyzje podejmą Założyciele wspólnie po zapoznaniu się z Państwa stanowiskiem, a wdrożenie uzgodnionych zmian i przygotowanie wersji do aktu notarialnego zlecimy odrębnie. Poza zakresem pozostają negocjacje z inwestorami, umowa inwestycyjna i due diligence.
 
 ## 3. Pytania i wątpliwości — w skrócie
 
-Poniżej lista ogólna na potrzeby wyceny; rozwinięcie każdego punktu, z odesłaniami do paragrafów, znajduje się w załączonej liście pytań szczegółowych.
+Poniżej lista ogólna na potrzeby wyceny; rozwinięcie każdego punktu, z odesłaniami do paragrafów, znajduje się w liście pytań szczegółowych, którą prześlemy razem z projektem.
 
 Struktura właścicielska i obrót akcjami
 
@@ -80,7 +78,7 @@ Zgodność regulacyjna i zawiązanie
 
 Prosimy o wycenę w podziale na zakresy A–E (ryczałt albo widełki z szacunkiem godzin i stawkami), wskazanie osoby prowadzącej i zespołu, realny termin przygotowania memorandum, potwierdzenie braku konfliktu interesów oraz warunki współpracy. Zawiązanie spółki planujemy na [miesiąc/rok]. W kolejnych etapach — wdrożenie zmian, runda, program motywacyjny, spółki celowe — zależy nam na stałej współpracy.
 
-Załączniki: projekt umowy P.S.A. (PDF); lista pytań szczegółowych.
+Projekt umowy (PDF) i listę pytań szczegółowych prześlemy niezwłocznie po Państwa odpowiedzi; jeżeli są Państwu potrzebne już do przygotowania wyceny, prosimy o sygnał — wyślemy je od razu.
 
 Z poważaniem,
 [imię i nazwisko]
