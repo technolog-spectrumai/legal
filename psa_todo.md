@@ -19,6 +19,7 @@ Konwencja: `- [ ]` do zrobienia, `- [x]` zrobione; przy pozycji podajemy plik, k
 
 ## 2. Po otrzymaniu memorandum kancelarii
 
+- [ ] Wcześniej: po odpowiedzi kancelarii (albo na jej prośbę o projekt do wyceny) wysłać `mail.md` z `psa.pdf` i `law.md`; zapisać datę wysłania i commit załączników w `psa_feedback.tex`, Część 3.
 - [ ] Wkleić odpowiedź jako R1 do `psa_feedback.tex`, Część 3, ze stanowiskiem Założycieli przy każdej uwadze; odesłania według numeracji `law.md`.
 - [ ] **Decyzja: bramka miękka czy twarda** przy odmowie zgody z powodu Kryterium (`law.md` 1.2). Miękka jest w `psa_hybrid`, twarda na gałęzi `psa_hard`; brzmienia obu w `psa_feedback.tex`, Część 1 pkt 1.
 - [ ] **Decyzja: przekreślony wyjątek dla funduszy** (§ 11 ust. 14, `law.md` 1.4): usunąć albo przywrócić w poprawionym brzmieniu.
