@@ -89,6 +89,34 @@ Pytanie Założycieli: autonomiczny lot jest technologią o znaczeniu strategicz
 
 Wniosek: to, że technologia jest cywilna, nie ma znaczenia dla kontroli obrotu; liczy się pozycja wykazu, kraj i użytkownik końcowy. Budować można swobodnie, ale granica UE jest dla oprogramowania autonomii granicą prawną, także w chmurze.
 
+### 2.2b Klient spoza NATO: sprzedaż produktów i technologii (np. Katar)
+
+Pytanie Założycieli: co, jeżeli państwo spoza NATO, np. Katar, chce kupić produkty albo technologię.
+
+**Zasada.** Umowa spółki nie zabrania sprzedaży poza NATO. Kryterium z § 11 dotyczy właścicieli, dyrektorów, inwestorów i partnerów z dostępem do IP, nie klientów. O klientach spoza NATO rozstrzygają: kontrola obrotu strategicznego (2.2 i 2.2a), koncesja przy wyrobie wojskowym (2.1) oraz wewnętrzne zgody: uchwała Rady o klasyfikacji i zatwierdzeniu eksportu (§ 23 ust. 1 lit. h), pisemna zgoda Rady na dostęp do Kluczowej Własności Intelektualnej z jurysdykcji spoza UE i NATO (§ 27 ust. 6), zakazy z § 28 ust. 3 (brak zezwolenia, odbiorca objęty ograniczeniami, ryzyko reeksportu lub niedozwolonego zastosowania, nieustalony użytkownik końcowy albo źródło finansowania), a przy licencji wyłącznej albo przedsięwzięciu z partnerem spoza Kryterium — uchwała WZ 75 % (§ 25 ust. 1 lit. g i n, § 33 ust. 3–4).
+
+**Cztery scenariusze**
+
+| Scenariusz | Zezwolenia w Polsce | Zgody wewnętrzne | Typowy czas | Główne ryzyka |
+|---|---|---|---|---|
+| Produkt cywilny spoza wykazów (np. dron inspekcyjny poniżej progów 9A012, oprogramowanie bez cech kontrolowanych) | brak zezwolenia; udokumentowana klasyfikacja i ocena użytkownika końcowego; klauzula catch-all przy wiedzy o zastosowaniu wojskowym w państwie objętym embargiem albo o broni masowego rażenia (Katar nie jest objęty embargiem UE) **[W]** | uchwała Rady (§ 23 ust. 1 lit. h), § 28 ust. 2–3 | tygodnie | błędna klasyfikacja; reeksport |
+| Produkt dual-use z załącznika I (autonomia lotu 9A012.b.2, nawigacja bez GNSS, kryptografia łączności) | zezwolenie indywidualne albo globalne MRiT; Katar nie jest na liście EU001; certyfikat użytkownika końcowego | jak wyżej | 2–3 miesiące **[W]** | odmowa albo warunki zezwolenia; kontrola po dostawie |
+| Wyrób albo technologia wojskowa | koncesja MSWiA na obrót (bramka G3), zezwolenie eksportowe MRiT oceniane według kryteriów wspólnego stanowiska UE o eksporcie uzbrojenia, obowiązkowy WSK; konsultacje MSZ i służb **[W]** | jak wyżej plus WZ, jeżeli transakcja przekracza progi z § 25 | kwartały | decyzja polityczna, indywidualna; państwa UE sprzedają uzbrojenie Katarowi, więc zgoda jest możliwa |
+| Lokalna produkcja albo licencja na technologię | eksport technologii i pomoc techniczna wymagają zezwolenia; przy wyrobie wojskowym „obrót technologią” objęty koncesją | WZ 75 % dla partnera spoza Kryterium z dostępem do IP (§ 25 ust. 1 lit. n, § 33 ust. 4); licencja tylko niewyłączna i ograniczona do zakresu (§ 33 ust. 3); licencja wyłączna, nieodwołalna lub bezterminowa — WZ 75 % (§ 25 ust. 1 lit. g); § 27 ust. 6 dla każdego dostępu z Kataru | kwartały i dłużej | utrata kontroli nad technologią; kolizja z oczekiwaniami klientów z NATO i programów UE |
+
+**Plan prawny w ośmiu etapach**
+
+1. **Triage.** Co, komu, w jakim zastosowaniu: produkt, usługa, dane techniczne, kod, szkolenie, produkcja lokalna. To rozstrzyga, który wiersz tabeli obowiązuje.
+2. **Klasyfikacja i użytkownik końcowy.** Klasyfikacja według aktualnego załącznika I do 2021/821 i wykazu uzbrojenia; certyfikat użytkownika końcowego; KYC odbiorcy, pośredników i źródła finansowania; test sankcyjny; ocena ryzyka dywersji w stronę Iranu i Rosji. Bez tego § 28 ust. 3 lit. c i d zakazuje transakcji.
+3. **Zgody wewnętrzne.** Uchwała Rady (§ 23 ust. 1 lit. h); pisemna zgoda Rady na dostęp do Kluczowej IP z Kataru, także zdalny i serwisowy (§ 27 ust. 6); WZ 75 % przy licencji wyłącznej albo przedsięwzięciu z partnerem spoza Kryterium.
+4. **Zezwolenia.** Wniosek do MRiT (Tracker 2.0) z dokumentami z etapu 2; przy uzbrojeniu wcześniej koncesja MSWiA i WSK; komponenty z USA — osobna zgoda amerykańska na reeksport (ITAR/EAR).
+5. **Klauzule umowne.** Warunek zawieszający uzyskania zezwoleń; zakaz reeksportu i zmiany zastosowania; prawo audytu użytkownika końcowego; klauzula „no Russia” dla pozycji wysokiego priorytetu, jeżeli produkt jej podlega **[W]**; wypowiedzenie przy naruszeniu sankcji; prawo właściwe i arbitraż poza Katarem; brak przeniesienia IP; ograniczenie odpowiedzialności za odmowę zezwolenia.
+6. **Sposób dostawy.** Reguła „produkt tak, technologia nie”: gotowe systemy i usługi, bez kodu źródłowego i dokumentacji projektowej; szkolenia i serwis w UE albo własnym zespołem na miejscu bez przekazywania danych technicznych; aktualizacje i konfiguracja pod kontrolą Spółki; zabezpieczenia techniczne przed odczytem oprogramowania.
+7. **Strona katarska.** Pozwolenie importowe, lokalny agent przy zamówieniach publicznych, zgoda tamtejszego urzędu lotnictwa cywilnego na operacje bezzałogowe, zgoda na częstotliwości radiowe, ewentualny offset przy kontraktach obronnych **[W]**.
+8. **Po transakcji.** Ewidencja i raportowanie do MRiT, przechowywanie dokumentów, weryfikacja użytkownika końcowego przy serwisie i aktualizacjach, zgłaszanie incydentów (§ 28 ust. 4).
+
+**Wnioski strategiczne.** Sprzedaż produktów poza NATO jest wykonalna bez zmian w umowie, ale trzeba ją zaprojektować tak, aby technologia zostawała w UE. Rynki NATO i programy UE (EDF, DIANA) mogą oglądać sprzedaż do państw trzecich nieufnie, więc warto mieć osobne warianty produktów eksportowych i warianty dla sojuszników oraz jawną politykę eksportową przyjętą przez Radę (§ 28 ust. 4).
+
 ### 2.3 Prawo lotnicze — bezzałogowe systemy powietrzne
 
 - **Podstawa:** rozporządzenia (UE) 2019/945 (projektowanie, produkcja, klasy UAS, wprowadzanie do obrotu) i 2019/947 (operacje: kategorie „otwarta", „szczególna", „certyfikowana"), ustawa Prawo lotnicze znowelizowana ustawą z 24 stycznia 2025 r., w mocy od 27 lutego 2025 r. **[Z]**.

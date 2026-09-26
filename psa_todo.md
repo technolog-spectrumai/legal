@@ -54,6 +54,7 @@ Konwencja: `- [ ]` do zrobienia, `- [x]` zrobione; przy pozycji podajemy plik, k
 - [ ] **G3, przed pierwszym wariantem wojskowym:** kwalifikacja wyrobu do wykazu WT; koncesja MSWiA przed wytwarzaniem lub modyfikacją; ujawnienie 30.32.Z w KRS.
 - [ ] **G4, przed kontraktem z MON lub NATO:** świadectwo bezpieczeństwa przemysłowego (start procedury co najmniej 12 miesięcy wcześniej), pion ochrony, poświadczenia osób.
 - [ ] **G5, przed pierwszym eksportem:** zezwolenie MRiT albo potwierdzenie braku kontroli; kraj i użytkownik końcowy; sankcje.
+- [ ] Przed pierwszą ofertą dla klienta spoza NATO: procedura z `regulations.md` 2.2b (triage, klasyfikacja, certyfikat użytkownika końcowego, zezwolenie MRiT, uchwała Rady z § 23 ust. 1 lit. h, zgoda z § 27 ust. 6, klauzule eksportowe w umowie).
 - [ ] Sprawdzić obowiązki z AI Act, rozporządzenia maszynowego 2023/1230 i Cyber Resilience Act dla produktów cywilnych (terminy 2026–2027).
 
 ## 6. Finansowanie — terminy do pilnowania
