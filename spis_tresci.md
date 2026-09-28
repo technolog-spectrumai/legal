@@ -11,7 +11,7 @@ Dokument towarzyszący projektowi umowy (plik PDF, 43 strony). Numery stron wed�
 | Punkty literowe (lit. a, b, …) | 116 |
 | Załączniki normatywne | 3 |
 | Pola do uzupełnienia danymi (`[…]`) | 58 (w tym 51 w Załącznikach) |
-| Fragmenty przekreślone (do usunięcia jako powtórzenia ustawy albo do decyzji) | 9 (8 zdań, 1 ustęp merytoryczny: § 11 ust. 14) |
+| Fragmenty przekreślone (do usunięcia jako powtórzenia ustawy albo do decyzji) | 9 (7 zdań, 1 odesłanie, 1 ustęp merytoryczny: § 11 ust. 14) |
 | Strony części normatywnej | 37 (str. 3–39) |
 | Strony załączników | 4 (str. 40–43) |
 
