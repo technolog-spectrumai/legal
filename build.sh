@@ -2,7 +2,7 @@
 # Buduje dokumenty PDF w poprawnej kolejności i z czystymi plikami pomocniczymi.
 #
 # Użycie:
-#   ./build.sh                      -> psa.pdf, extra.pdf, psa_feedback.pdf, shareholder_agreement.pdf
+#   ./build.sh                      -> psa.pdf, extra.pdf, psa_feedback.pdf, shareholder_agreement.pdf, memorandum.pdf
 #   ./build.sh extra psa_feedback   -> wybrane dokumenty (psa.tex zawsze jako pierwszy, bo dostarcza psa.aux
 #                                      z numerami paragrafów dla pozostałych plików)
 #
@@ -12,7 +12,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-docs=(psa extra psa_feedback shareholder_agreement)
+docs=(psa extra psa_feedback shareholder_agreement memorandum)
 if [ $# -gt 0 ]; then
   docs=(psa)
   for d in "$@"; do [ "$d" != psa ] && docs+=("${d%.tex}"); done
