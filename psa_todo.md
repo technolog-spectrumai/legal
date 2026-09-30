@@ -19,7 +19,7 @@ Konwencja: `- [ ]` do zrobienia, `- [x]` zrobione; przy pozycji podajemy plik, k
 
 ## 2. Po otrzymaniu memorandum kancelarii
 
-- [ ] **Plan prac dla zakresu 1–27** (memorandum do `law.md`, wdrożenie zmian, dokumenty do KRS, dokumenty wykonawcze) z bramkami decyzyjnymi Założycieli: `plan_prac.md`.
+- [ ] **Plan prac dla zakresu 1–27** (memorandum do `law.md`, wdrożenie zmian, dokumenty do KRS, dokumenty wykonawcze) z bramkami decyzyjnymi Założycieli: `plan_prac.md`; oczekiwania funduszy VC i ich mapowanie na umowę: `vc.md`.
 - [ ] Wcześniej: po odpowiedzi kancelarii (albo na jej prośbę o projekt do wyceny) wysłać `mail.md` z `psa.pdf` i `law.md`; zapisać datę wysłania i commit załączników w `psa_feedback.tex`, Część 3.
 - [ ] Wkleić odpowiedź jako R1 do `psa_feedback.tex`, Część 3, ze stanowiskiem Założycieli przy każdej uwadze; odesłania według numeracji `law.md`.
 - [ ] **Decyzja: bramka miękka czy twarda** przy odmowie zgody z powodu Kryterium (`law.md` 1.2). Miękka jest w `psa_hybrid`, twarda na gałęzi `psa_hard`; brzmienia obu w `psa_feedback.tex`, Część 1 pkt 1.
