@@ -1,0 +1,88 @@
+OK    pl_2024_18_ksh_tj.pdf  (KSH tekst jednolity Dz.U. 2024 poz. 18)
+SKIP  pl_2024_18_ksh_tj.html
+SKIP  pl_2000_1037_ksh_ujednolicony.pdf
+SKIP  pl_2026_176_ksh_nowelizacja.pdf
+OK    pl_2026_176_ksh_nowelizacja.html  (Ustawa z 23.01.2026 o zmianie KSH (HTML))
+SKIP  pl_2026_471_obrot_strategiczny_nowela.pdf
+OK    pl_2026_471_obrot_strategiczny_nowela.html  (Ustawa z 13.03.2026 (HTML))
+SKIP  pl_2019_1214_koncesje_2019.pdf
+SKIP  pl_2019_1214_koncesje_2019_ujednolicony.pdf
+SKIP  pl_2019_1888_wykaz_WT.pdf
+SKIP  pl_2019_1888_wykaz_WT_ujednolicony.pdf
+SKIP  pl_2024_1936_pkd_2025.pdf
+SKIP  pl_2026_795_kc_tj.pdf
+SKIP  pl_2026_468_kpc_tj.pdf
+SKIP  pl_2026_236_kro_tj.pdf
+SKIP  pl_2015_1272_kontrola_inwestycji_ujednolicony.pdf
+SKIP  pl_1997_769_krs_ujednolicony.pdf
+SKIP  pl_1994_83_prawo_autorskie_ujednolicony.pdf
+SKIP  pl_2001_508_pwp_ujednolicony.pdf
+SKIP  pl_1991_350_pit_ujednolicony.pdf
+SKIP  pl_2000_959_pcc_ujednolicony.pdf
+SKIP  pl_2018_723_aml_ujednolicony.pdf
+SKIP  pl_2022_835_sankcje_2022_ujednolicony.pdf
+SKIP  pl_2005_1538_obrot_instrumentami_ujednolicony.pdf
+SKIP  pl_2000_1250_obrot_strategiczny_ujednolicony.pdf
+SKIP  pl_1997_483_konstytucja_ujednolicony.pdf
+SKIP  pl_1994_591_rachunkowosc_ujednolicony.pdf
+SKIP  pl_1974_141_kodeks_pracy_ujednolicony.pdf
+SKIP  pl_2002_1112_prawo_lotnicze_ujednolicony.pdf
+SKIP  pl_2005_1398_koszty_sadowe_ujednolicony.pdf
+SKIP  pl_1993_211_uznk_ujednolicony.pdf
+SKIP  pl_2010_1228_informacje_niejawne_ujednolicony.pdf
+SKIP  pl_1997_926_ordynacja_ujednolicony.pdf
+OK    eu_32021R0697_edf_PL.html  (Rozp. 2021/697 - Europejski Fundusz Obronny (art. 9) (HTML, PL))
+INFO  eu_32021R0697_edf_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32021R0821_dual_use_PL.html  (Rozp. 2021/821 - produkty podwójnego zastosowania (zał. I, IV) (HTML, PL))
+INFO  eu_32021R0821_dual_use_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32019R0452_fdi_screening_PL.html  (Rozp. 2019/452 - monitorowanie BIZ (HTML, PL))
+INFO  eu_32019R0452_fdi_screening_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32026R0877_ttber_2026_PL.html  (Rozp. 2026/877 - porozumienia o transferze technologii (od 1.05.2026) (HTML, PL))
+INFO  eu_32026R0877_ttber_2026_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32014R0316_ttber_2014_PL.html  (Rozp. 316/2014 - TTBER (wygasło 30.04.2026, dla porównania) (HTML, PL))
+INFO  eu_32014R0316_ttber_2014_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32024R1689_ai_act_PL.html  (Rozp. 2024/1689 - AI Act (HTML, PL))
+INFO  eu_32024R1689_ai_act_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32023R1230_maszynowe_PL.html  (Rozp. 2023/1230 - maszyny (HTML, PL))
+INFO  eu_32023R1230_maszynowe_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32024R2847_cra_PL.html  (Rozp. 2024/2847 - Cyber Resilience Act (HTML, PL))
+INFO  eu_32024R2847_cra_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32019R0945_uas_945_PL.html  (Rozp. 2019/945 - bezzałogowe systemy powietrzne (produkty) (HTML, PL))
+INFO  eu_32019R0945_uas_945_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32019R0947_uas_947_PL.html  (Rozp. 2019/947 - operacje BSP (HTML, PL))
+INFO  eu_32019R0947_uas_947_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32014R0269_sankcje_269_PL.html  (Rozp. 269/2014 - środki ograniczające (zamrożenie aktywów) (HTML, PL))
+INFO  eu_32014R0269_sankcje_269_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32014R0833_sankcje_833_PL.html  (Rozp. 833/2014 - sankcje sektorowe (HTML, PL))
+INFO  eu_32014R0833_sankcje_833_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_12016E_TXT_tfue_PL.html  (TFUE (art. 49, 63, 65, 101, 346) (HTML, PL))
+INFO  eu_12016E_TXT_tfue_PL.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32021R0697_edf_EN.html  (EDF (HTML, EN))
+INFO  eu_32021R0697_edf_EN.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+OK    eu_32026R0877_ttber_2026_EN.html  (TTBER 2026 (HTML, EN))
+INFO  eu_32026R0877_ttber_2026_EN.pdf: EUR-Lex nie wydał PDF (wystarczy wersja HTML)
+SKIP  sn_V_CSK_522_18.html
+SKIP  sn_II_CSKP_593_22.html
+SKIP  sn_III_CSKP_65_21.html
+SKIP  sn_III_CZP_109_22.html
+SKIP  sn_III_CZP_32_16.html
+OK    web_pfr_umowa_inwestycyjna.txt  (PFR: prawo w umowie z VC; przez czytnik r.jina.ai)
+OK    web_pfr_jak_wyglada_umowa.txt  (PFR: jak wygląda umowa inwestycyjna; przez czytnik r.jina.ai)
+OK    web_pfr_term_sheet.txt  (PFR: term sheet; przez czytnik r.jina.ai)
+OK    web_pfrv_feng_dokumentacja.txt  (PFR Ventures: dokumentacja programów FENG (wzory term sheet); przez czytnik r.jina.ai)
+OK    web_pfrv_otwarte_innowacje.txt  (PFR Otwarte Innowacje; przez czytnik r.jina.ai)
+SKIP  web_startuppoland_termsheet.html
+SKIP  web_nvca_2025_press.html
+SKIP  web_nvca_2025_foley.html
+SKIP  web_nvca_model_docs.html
+OK    web_bvca_model_docs.txt  (BVCA: model documents; przez czytnik r.jina.ai)
+SKIP  web_nif_about.html
+OK    web_eu_startups_defence_investors.txt  (Inwestorzy obronni w Europie; przez czytnik r.jina.ai)
+SKIP  nif_report_2026.pdf
+SKIP  web_edf_gowling.html
+SKIP  web_olesinski_poz471.html
+SKIP  web_cgolegal_koncesja.html
+SKIP  web_psa_uprzywilejowanie.html
+SKIP  web_psa_biznes_gov.html
+SKIP  web_prs_info.html
+SKIP  web_gus_pkd2025.html
