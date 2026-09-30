@@ -1,0 +1,1248 @@
+12.5.2021   
+
+PL
+
+Dziennik Urzędowy Unii Europejskiej
+
+L 170/149
+
+ ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2021/697
+
+z dnia 29 kwietnia 2021 r.
+
+ustanawiające Europejski Fundusz Obronny i uchylające rozporządzenie (UE) 2018/1092
+
+(Tekst mający znaczenie dla EOG)
+
+PARLAMENT EUROPEJSKI I RADA UNII EUROPEJSKIEJ,
+
+uwzględniając Traktat o funkcjonowaniu Unii Europejskiej, w szczególności jego art. 173 ust. 3, art. 182 ust. 4, art. 183 i art. 188 akapit drugi,
+
+uwzględniając wniosek Komisji Europejskiej,
+
+po przekazaniu projektu aktu ustawodawczego parlamentom narodowym,
+
+uwzględniając opinię Europejskiego Komitetu Ekonomiczno-Społecznego (1),
+
+stanowiąc zgodnie ze zwykłą procedurą ustawodawczą (2),
+
+a także mając na uwadze, co następuje:
+
+(1)
+
+W ciągu ostatniego dziesięciolecia diametralnie zmieniła się sytuacja geopolityczna Unii. Sytuacja w regionach sąsiadujących z Europą jest niestabilna, a Unia stoi w obliczu złożonych i trudnych wyzwań związanych zarówno z występowaniem nowych zagrożeń, takich jak ataki hybrydowe i cyberataki, jak i z ponownym pojawieniem się bardziej tradycyjnych zagrożeń. W tym kontekście zarówno obywatele Europy, jak i ich polityczni przywódcy podzielają pogląd, że należy podjąć więcej wspólnych działań w dziedzinie obronności.
+
+(2)
+
+Sektor obronności cechują rosnące koszty wyposażenia wojskowego i wysokie koszty badań i rozwoju, które utrudniają uruchamianie nowych programów w dziedzinie obronności i bezpośrednio wpływają na konkurencyjność i zdolności innowacyjne europejskiej bazy technologiczno-przemysłowej sektora obronnego (EDTIB). W związku z tym wzrostem kosztów należy wspierać na szczeblu Unii rozwój nowej generacji kluczowych systemów obronnych oraz nowych technologii obronnych, aby zacieśnić współpracę między państwami członkowskimi w zakresie inwestycji w wyposażenie obronne.
+
+(3)
+
+W komunikacie z dnia 30 listopada 2016 r. zatytułowanym: „Europejski plan działań w sektorze obrony”, Komisja zobowiązała się do uzupełniania, lewarowania i konsolidowania wspólnych wysiłków państw członkowskich na rzecz rozbudowy zdolności technologicznych i przemysłowych w dziedzinie obronności z myślą o reagowaniu na wyzwania związane z bezpieczeństwem, jak również dla wsparcia konkurencyjnego, innowacyjnego i wydajnego europejskiego przemysłu obronnego w całej Unii oraz poza nią. Ponadto, Komisja zobowiązała się do wspierania utworzenia bardziej zintegrowanego rynku obronnego w Unii oraz efektywniejszego wprowadzania na rynek wewnętrzny europejskich produktów i technologii obronnych, zwiększając tym samym uniezależnienie od źródeł spoza Unii. Komisja zaproponowała w szczególności uruchomienie Europejskiego Funduszu Obronnego w celu wspierania inwestycji we wspólne badania naukowe i wspólny rozwój produktów i technologii obronnych, a co za tym idzie, wspierania synergii i opłacalności, a także promowania wspólnych zakupów i wspólnego utrzymania wyposażenia obronnego przez państwa członkowskie. Europejski Fundusz Obronny powinien uzupełniać przeznaczone już na ten cel finansowanie krajowe i działać jako zachęta dla państw członkowskich do większej współpracy i większych inwestycji w dziedzinie obronności oraz wspierać współpracę w trakcie całego cyklu życia produktów i technologii obronnych.
+
+(4)
+
+Europejski Fundusz Obronny powinien przyczyniać się do silnej, konkurencyjnej i innowacyjnej europejskiej bazy technologiczno-przemysłowej sektora obronnego (EDTIB) oraz uzupełniać inicjatywy unijne na rzecz bardziej zintegrowanego europejskiego rynku obronnego, a w szczególności przyjęte w 2009 r. dyrektywy Parlamentu Europejskiego i Rady 2009/43/WE (3) i 2009/81/WE (4) w sprawie unijnych transferów oraz zamówień publicznych w sektorze obronności.
+
+(5)
+
+W celu przyczynienia się do zwiększenia konkurencyjności i potencjału innowacyjnego unijnego przemysłu obronnego należy ustanowić Europejski Fundusz Obronny (zwany dalej „Funduszem”) na okres siedmiu lat w celu dostosowania jego czasu trwania do okresu obowiązywania wieloletnich ram finansowych na lata 2021–2027 (zwanych dalej „WRF na lata 2021–2027”) określonych w rozporządzeniu Rady (UE, Euratom) 2020/2093 (5) w oparciu o zintegrowane podejście. Celem Funduszu jest zwiększenie konkurencyjności, innowacyjności, wydajności oraz autonomii technologicznej unijnego przemysłu obronnego, przyczyniając się w ten sposób do osiągnięcia autonomii strategicznej Unii poprzez wspieranie współpracy transgranicznej między państwami członkowskimi a także współpracy między przedsiębiorstwami, ośrodkami badawczymi, administracjami krajowymi, organizacjami międzynarodowymi i szkołami wyższymi w całej Unii, zarówno w fazie badawczej, jak i w fazie rozwoju produktów i technologii obronnych. Aby osiągnąć bardziej innowacyjne rozwiązania i zwiększyć otwarcie rynku wewnętrznego, Fundusz powinien wspierać i ułatwiać rozszerzenie transgranicznej współpracy działających w sektorze obronności małych i średnich przedsiębiorstw (MŚP) oraz spółek o średniej kapitalizacji. W obrębie Unii wspólne braki w zakresie zdolności obronnych są wskazywane w ramach wspólnej polityki bezpieczeństwa i obrony, w szczególności za pośrednictwem Planu rozwoju zdolności (CDP), podczas gdy Ramowy strategiczny plan badań (OSRA) określa również wspólne cele dotyczące badań w dziedzinie obronności.
+
+Inne procesy unijne, takie jak skoordynowany roczny przegląd w zakresie obronności (CARD) i stała współpraca strukturalna (PESCO) maja na celu wspieranie realizacji odpowiednich priorytetów poprzez wskazywanie i wykorzystywanie możliwości wzmocnionej współpracy, z myślą o osiągnięciu unijnego poziomu ambicji w dziedzinie bezpieczeństwa i obrony. W stosownych przypadkach można również uwzględnić priorytety regionalne i międzynarodowe, w tym w ramach Organizacji Traktatu Północnoatlantyckiego (NATO), jeżeli są one zgodne z priorytetami Unii i nie uniemożliwiają udziału żadnemu państwu członkowskiemu ani państwu stowarzyszonemu, dążąc przy tym do unikania zbędnego powielania działań.
+
+(6)
+
+Faza badawcza związana z rozwojem zdolności obronnych jest kluczowa, ponieważ warunkuje zdolności i autonomię europejskiego przemysłu w zakresie rozwoju produktów obronnych oraz niezależność państw członkowskich jako użytkowników końcowych takich produktów. Faza badawcza może obejmować istotne ryzyka, w szczególności związane z niskim poziomem dojrzałości oraz z przełomowym charakterem technologii. Faza rozwoju, która zwykle następuje po fazie badawczej, pociąga za sobą również istotne ryzyka i koszty, które utrudniają dalsze wykorzystywanie wyników badań i niekorzystnie wpływają na konkurencyjność i innowacyjność unijnego przemysłu obronnego. Fundusz powinien zatem zwiększać powiązanie między fazą badawczą a fazą rozwoju.
+
+(7)
+
+Fundusz nie wspiera badań podstawowych, które powinny być wspierane przez inne programy zapewniające finansowanie, jego wsparcie może jednak dotyczyć badań podstawowych ukierunkowanych na obronność, które mogą stworzyć podstawy opracowania rozwiązań dostrzeżonych lub spodziewanych problemów bądź stworzyć nowe możliwości.
+
+(8)
+
+Fundusz mógłby wspierać działania odnoszące się zarówno do tworzenia nowych, jak i modernizacji istniejących produktów i technologii obronnych, w tym ich interoperacyjności. Działania służące modernizacji już istniejących produktów i technologii obronnych powinny kwalifikować się do wsparcia jedynie wtedy, gdy istniejące wcześniej informacje potrzebne do przeprowadzenia danego działania nie są objęte żadnymi ograniczeniami ze strony niestowarzyszonego państwa trzeciego lub podmiotu z niestowarzyszonego państwa trzeciego w sposób uniemożliwiający przeprowadzenie danego działania. W przypadku ubiegania się o finansowanie unijne podmioty prawne powinny mieć obowiązek przekazywania stosownych informacji w celu stwierdzenia braku ograniczeń. W przypadku braku takich informacji finansowanie unijne nie powinno być udzielane.
+
+(9)
+
+Fundusz powinien wspierać działania sprzyjające rozwojowi przełomowych technologii obronnych. Ponieważ przełomowe technologie mogą opierać się na koncepcjach lub pomysłach pochodzących od nietradycyjnych podmiotów działających w dziedzinie obronności, Fundusz powinien zapewniać wystarczającą elastyczność w zakresie konsultacji z zainteresowanymi stronami i przeprowadzania takich działań.
+
+(10)
+
+Aby podczas wdrażania niniejszego rozporządzenia zapewnić przestrzeganie międzynarodowych zobowiązań Unii i jej państw członkowskich, działania związane z produktami lub technologiami obronnymi, których stosowanie, rozwój lub produkcja są zakazane na mocy prawa międzynarodowego, nie powinny otrzymywać wsparcia z Funduszu. W związku z tym kwalifikowalność działań w zakresie nowych produktów lub technologii obronnych powinna również być uzależniona od zmian w prawie międzynarodowym. Ponadto, działania służące opracowywaniu śmiercionośnej broni autonomicznej bez zapewnienia możliwości sprawowania przez człowieka merytorycznej kontroli nad decyzjami w sprawie wyboru i zaatakowania celu przy przeprowadzaniu ataków na ludzi, również nie powinny kwalifikować się do wsparcia z Funduszu, bez uszczerbku dla możliwości zapewnienia finansowania działań służących opracowaniu systemów wczesnego ostrzegania i środków przeciwdziałania do celów obronnych.
+
+(11)
+
+Trudności związane z uzgodnieniem zharmonizowanych wymogów dotyczących zdolności obronnych i wspólnych specyfikacji technicznych lub norm przeszkadzają we współpracy transgranicznej między państwami członkowskimi oraz między podmiotami prawnymi mającymi siedziby w różnych państwach członkowskich. Brak takich wymogów, specyfikacji i norm doprowadził do zwiększonej fragmentacji sektora obronności, złożoności technicznej, opóźnień, nadmiernych kosztów, zbędnego powielania działań, a także zmniejszonej interoperacyjności. Uzgodnienie wspólnych specyfikacji technicznych powinno być warunkiem wstępnym działań wiążących się z wyższym poziomem gotowości technologicznej. Działalność prowadząca do wypracowania zharmonizowanych wymogów w zakresie zdolności obronnych, a także działalność mająca na celu wspieranie tworzenia wspólnej definicji specyfikacji technicznych lub norm powinny się również kwalifikować do wsparcia z Funduszu, zwłaszcza jeśli wspierają one interoperacyjność.
+
+(12)
+
+Ponieważ celem Funduszu jest wspieranie konkurencyjności, wydajności i innowacyjności przemysłu obronnego Unii poprzez lewarowanie i uzupełnienie opartej na współpracy działalności w dziedzinie badań i technologii obronnych oraz ograniczanie ryzyka dotyczącego fazy rozwoju wspólnych projektów, działania związane z badaniami i rozwojem produktów lub technologii obronnych powinny kwalifikować się do wsparcia z Funduszu.
+
+(13)
+
+Mając na uwadze cel Funduszu, jakim jest w szczególności wzmocnienie współpracy między podmiotami prawnymi i państwami członkowskimi w całej Unii, dane działanie powinno się kwalifikować do otrzymania finansowania tylko w przypadku, gdy jest podejmowane przez podmioty prawne współpracujące w ramach konsorcjum złożonego z co najmniej trzech kwalifikujących się podmiotów prawnych z siedzibą w co najmniej trzech różnych państwach członkowskich lub państwach stowarzyszonych. Co najmniej trzy z tych kwalifikujących się podmiotów prawnych mających siedzibę w co najmniej dwóch różnych państwach członkowskich lub państwach stowarzyszonych nie powinny w trakcie całego okresu przeprowadzania działania być kontrolowane, bezpośrednio lub pośrednio, przez ten sam podmiot prawny ani nie powinny kontrolować siebie nawzajem. W tym kontekście kontrolę należy rozumieć jako zdolność do wywierania decydującego wpływu na podmiot prawny, bezpośrednio lub pośrednio, poprzez co najmniej jeden pośredniczący podmiot prawny. Biorąc pod uwagę szczególne cechy technologii przełomowych w dziedzinie obronności, jak również szczególne cechy prac studyjnych, działania takie mogłyby być prowadzone przez pojedynczy podmiot prawny. W celu pobudzenia współpracy między państwami członkowskimi, powinna również istnieć możliwość wspierania w ramach Funduszu wspólnych zamówień przedkomercyjnych.
+
+(14)
+
+Zgodnie z decyzją Rady 2013/755/UE (6) podmioty z siedzibą w krajach lub terytoriach zamorskich kwalifikują się do otrzymania finansowania, z zastrzeżeniem zasad i celów Funduszu oraz ewentualnych uzgodnień mających zastosowanie do państwa członkowskiego, z którym dany kraj zamorski lub dane terytorium zamorskie są powiązane.
+
+(15)
+
+Ponieważ Fundusz ma na celu zwiększenie konkurencyjności i wydajności unijnego przemysłu obronnego, do otrzymania wsparcia powinny zasadniczo kwalifikować się wyłącznie podmioty prawne, które mają siedzibę w Unii lub w państwach stowarzyszonych i które nie są kontrolowane przez niestowarzyszone państwa trzecie ani podmioty z niestowarzyszonych państw trzecich. W tym kontekście kontrolę należy rozumieć jako zdolność do wywierania decydującego wpływu na podmiot prawny, bezpośrednio lub pośrednio, poprzez co najmniej jeden pośredniczący podmiot prawny. Ponadto – w celu zapewnienia ochrony podstawowych interesów Unii i jej państw członkowskich w zakresie bezpieczeństwa i obrony – infrastruktura, obiekty, aktywa i zasoby odbiorców i podwykonawców uczestniczących w działaniach wspieranych z Funduszu powinny być zlokalizowane na terytorium państwa członkowskiego lub stowarzyszonego państwa trzeciego przez cały czas trwania działania, a odbiorcy i podwykonawcy uczestniczący w działaniu powinni posiadać zarządcze struktury wykonawcze w Unii lub w państwie stowarzyszonym. W związku z tym podmiot prawny mający siedzibę w niestowarzyszonym państwie trzecim lub podmiot prawny mający siedzibę w Unii lub w stowarzyszonym państwie trzecim, ale którego zarządcze struktury wykonawcze znajdują się w niestowarzyszonym państwie trzecim, nie powinien kwalifikować się do tego, by być odbiorcą lub podwykonawcą uczestniczącym w danym działaniu. W celu zapewnienia ochrony podstawowych interesów Unii i jej państw członkowskich w zakresie bezpieczeństwa i obrony wspomniane kryteria kwalifikowalności powinny mieć również zastosowanie do finansowania zapewnianego w drodze udzielania zamówienia, na zasadzie odstępstwa od art. 176 rozporządzenia Parlamentu Europejskiego i Rady (UE, Euratom) 2018/1046 (7) (zwanego dalej „rozporządzeniem finansowym”).
+
+(16)
+
+W pewnych okolicznościach powinno być możliwe odstąpienie od zasady, zgodnie z którą odbiorcy i podwykonawcy uczestniczący w działaniu wspieranym z Funduszu nie podlegają kontroli niestowarzyszonych państw trzecich ani podmiotów z niestowarzyszonych państw trzecich. W tym kontekście podmioty prawne z siedzibą w Unii lub w państwie stowarzyszonym, które są kontrolowane przez niestowarzyszone państwo trzecie lub przez podmiot z niestowarzyszonego państwa trzeciego, powinny kwalifikować się do tego, by być odbiorcą lub podwykonawcą uczestniczącym w działaniu, o ile zostały spełnione restrykcyjne warunki dotyczące interesów Unii i jej państw członkowskich w zakresie bezpieczeństwa i obrony. Udział takich podmiotów prawnych nie powinien być sprzeczny z celami Funduszu. Wnioskodawcy powinni przedstawić wszelkie odpowiednie informacje na temat infrastruktury, obiektów, aktywów i zasobów przeznaczonych do wykorzystania w ramach działania. W tym kontekście należy również uwzględnić obawy państw członkowskich dotyczące bezpieczeństwa dostaw.
+
+(17)
+
+W ramach unijnych środków ograniczających przyjętych na podstawie art. 29 Traktatu o Unii Europejskiej (TUE) i art. 215 ust. 2 Traktatu o funkcjonowaniu Unii Europejskiej (TFUE), środki finansowe ani zasoby gospodarcze nie mogą być udostępniane, bezpośrednio lub pośrednio, dla lub na rzecz wyznaczonych osób prawnych, podmiotów lub organów. Takie wyznaczone podmioty oraz podmioty będące ich własnością lub przez nie kontrolowane nie mogą być zatem wspierane z Funduszu.
+
+(18)
+
+Finansowanie unijne powinno być przyznawane na podstawie konkurencyjnych zaproszeń do składania wniosków, ogłaszanych zgodnie z rozporządzeniem finansowym. Jednak w niektórych należycie uzasadnionych i wyjątkowych okolicznościach, powinna również istnieć możliwość przyznawania finansowania unijnego bez zaproszenia do składania wniosków zgodnie z art. 195 akapit pierwszy lit. e) rozporządzenia finansowego. Ponieważ przyznawanie finansowania zgodnie z art. 195 akapit pierwszy lit. e) rozporządzenia finansowego stanowi odstępstwo od ogólnej zasady, zgodnie z którą finansowanie jest przyznawane na podstawie konkurencyjnych zaproszeń do składania wniosków, te wyjątkowe okoliczności należy interpretować w sposób ścisły. W tym kontekście, aby dotacja została udzielona bez zaproszenia do składania wniosków, Komisja, wspomagana przez komitet państw członkowskich (zwany dalej „komitetem”) powinna ocenić stopień, w jakim proponowane działanie jest zgodne z celami Funduszu w odniesieniu do transgranicznej współpracy przemysłowej i konkurencji w ramach całego łańcucha dostaw.
+
+(19)
+
+Jeżeli w jednym z działań kwalifikowalnych pragnie uczestniczyć konsorcjum, a unijne wsparcie ma mieć formę dotacji, konsorcjum takie powinno wyznaczyć jednego ze swoich członków na koordynatora. Koordynator powinien stanowić główny punkt kontaktowy w relacjach konsorcjum z Komisją.
+
+(20)
+
+Jeżeli działanie wspierane z Funduszu jest zarządzane przez wyznaczonego przez państwa członkowskie lub państwa stowarzyszone kierownika projektu, przed dokonaniem płatności na rzecz odbiorców Komisja powinna skonsultować się z kierownikiem projektu w sprawie postępów w realizacji działania, tak aby mógł on zapewnić przestrzeganie ram czasowych przez odbiorców. Kierownik projektu powinien przedstawić Komisji uwagi na temat postępów w realizacji działania, tak aby Komisja mogła stwierdzić, czy zostały spełnione warunki do dokonania płatności.
+
+(21)
+
+Fundusz powinien być wdrażany w ramach zarządzania bezpośredniego, tak aby zmaksymalizować skuteczność i efektywność realizacji oraz zapewnić pełną spójność z innymi inicjatywami Unii. W związku z tym Komisja powinna pozostać odpowiedzialna za procedury kwalifikacji i wyboru, w tym w odniesieniu do przeglądu i oceny pod względem etyczności. W uzasadnionych przypadkach Komisja powinna jednak mieć możliwość powierzenia zadań związanych z wykonywaniem budżetu w odniesieniu do konkretnych działań wspieranych z Funduszu organom, o których mowa w art. 62 ust. 1 akapit pierwszy lit. c) rozporządzenia finansowego, na przykład, gdy kierownik projektu został powołany przez państwa członkowskie współfinansujące działanie, pod warunkiem spełnienia wymogów rozporządzenia finansowego. Takie powierzenie zadań związanych z wykonywaniem budżetu pomogłoby usprawnić zarządzanie współfinansowanymi działaniami i zapewnić sprawne skoordynowanie umowy w sprawie finansowania z umową podpisaną przez konsorcjum i kierownika projektu powołanego przez państwa członkowskie współfinansujące działanie.
+
+(22)
+
+W celu zapewnienia, by finansowane działania rozwojowe były finansowo opłacalne, konieczne jest, aby wnioskodawcy wykazali, że koszty działania nieobjęte finansowaniem unijnym są pokrywane z innych źródeł.
+
+(23)
+
+Państwa członkowskie powinny mieć do dyspozycji różne rodzaje rozwiązań finansowych na potrzeby wspólnego rozwoju i nabywania zdolności obronnych. Komisja mogłaby oferować różne rodzaje rozwiązań, które państwa członkowskie mogłyby wykorzystywać na zasadzie dobrowolności, aby sprostać wyzwaniom związanym z finansowaniem w zakresie wspólnego rozwoju i udzielania zamówień. Stosowanie takich rozwiązań finansowych mogłoby dodatkowo sprzyjać uruchamianiu opartych na współpracy transgranicznych projektów w dziedzinie obronności i zwiększyć efektywność wydatków na obronność, również w odniesieniu do projektów wspieranych z Funduszu.
+
+(24)
+
+Biorąc pod uwagę specyfikę przemysłu obronnego, gdzie popyt pochodzi prawie wyłącznie ze strony państw członkowskich i państw stowarzyszonych, które także kontrolują całość zakupów produktów i technologii związanych z obronnością, w tym ich eksport, do sektora obronności nie mają zastosowania konwencjonalne zasady i modele biznesowe, które obowiązują na bardziej tradycyjnych rynkach. W związku z tym sektor ten nie może podejmować znaczących projektów badawczo-rozwojowych finansowanych ze środków własnych, a państwa członkowskie i państwa stowarzyszone często w pełni pokrywają wszystkie koszty badań i rozwoju. Aby osiągnąć cele Funduszu, w szczególności wzmacniać współpracę między podmiotami prawnymi z różnych państw członkowskich i państw stowarzyszonych, uwzględniając specyfikę sektora obronności, w przypadku działań, które mają miejsce przed fazą prototypu pokrywana powinna być nawet całość kosztów kwalifikowalnych.
+
+(25)
+
+Faza prototypu stanowi kluczowy etap, w którym państwa członkowskie lub państwa stowarzyszone zazwyczaj podejmują decyzję w sprawie wieloletnich inwestycji i rozpoczynają proces nabywania przyszłych produktów lub technologii obronnych. Z tego względu na tym szczególnym etapie państwa członkowskie i państwa stowarzyszone uzgadniają niezbędne zobowiązania, w tym kwestie podziału kosztów i własności projektu. Aby zapewnić wiarygodność ich zaangażowania, wsparcie z Funduszu nie powinno zwykle przekraczać 20 % kosztów kwalifikowalnych.
+
+(26)
+
+W odniesieniu do działań wykraczających poza fazę prototypu należy przewidzieć finansowanie do maksymalnego poziomu 80 %. Takie działania, które są bardziej zbliżone do finalizacji produktów i technologii, mogą nadal wiązać się z dużymi kosztami.
+
+(27)
+
+Zainteresowane strony działające w sektorze obronności ponoszą szczególne koszty pośrednie związane z ochroną. Ponadto zainteresowane strony działają na specyficznym rynku, na którym – bez popytu ze strony nabywców – nie mogą odzyskać kosztów badań i rozwoju, jak ma to miejsce w sektorze cywilnym. W związku z tym uzasadnione jest dopuszczenie stawki zryczałtowanej wynoszącej 25 % łącznych kwalifikowalnych bezpośrednich kosztów działania, jak również możliwości naliczania kwalifikowalnych kosztów pośrednich określonych zgodnie ze zwyczajowymi praktykami księgowania kosztów stosowanymi przez odbiorców, jeżeli takie praktyki są akceptowane przez ich organy krajowe w przypadku porównywalnej działalności w dziedzinie obronności oraz jeżeli odbiorca powiadomił o nich Komisję.
+
+(28)
+
+Działania z udziałem transgranicznych MŚP i spółek o średniej kapitalizacji wspierają otwarcie łańcuchów dostaw i przyczyniają się do osiągania celów Funduszu. Takie działania powinny zatem kwalifikować się do zastosowania podwyższonej stopy finansowania, z której skorzystają wszystkie uczestniczące podmioty prawne.
+
+(29)
+
+W celu zapewnienia, aby finansowane działania przyczyniały się do konkurencyjności i wydajności europejskiego przemysłu obronnego, ważne jest, aby państwa członkowskie miały zamiar wspólnie zakupić produkt końcowy lub korzystać z technologii, w szczególności poprzez wspólne transgraniczne zamówienia, gdy organizują one wspólnie swoje postępowania o udzielenie zamówienia, w szczególności z wykorzystaniem centralnej jednostki zakupującej.
+
+(30)
+
+W celu zapewnienia, by działania wspierane z Funduszu przyczyniały się do zwiększenia konkurencyjności i wydajności europejskiego przemysłu obronnego, powinny być one zorientowane na rynek, uzależnione od popytu i rentowne w perspektywie średnio- i długoterminowej. Kryteria kwalifikowalności w odniesieniu do działań rozwojowych powinny zatem uwzględniać fakt, że państwa członkowskie zamierzają, w tym w drodze memorandum o porozumieniu lub listu intencyjnego, w skoordynowany sposób zamawiać produkt końcowy lub korzystać z technologii. Kryteria przyznawania finansowania w odniesieniu do działań rozwojowych powinny ponadto uwzględniać fakt, że państwa członkowskie zobowiązały się politycznie lub prawnie, że w skoordynowany sposób będą wspólnie wykorzystywać, posiadać lub utrzymywać produkt końcowy lub końcową technologię.
+
+(31)
+
+Promowanie innowacyjności i rozwoju technologicznego w unijnym przemyśle obronnym powinno odbywać się w sposób spójny z interesami Unii w zakresie bezpieczeństwa i obrony. W związku z tym jednym z kryteriów przyznawania finansowania powinno być przyczynianie się danego działania do realizacji tych interesów oraz wspólnie uzgodnionych przez państwa członkowskie priorytetów w zakresie badań w dziedzinie obronności i zdolności obronnych.
+
+(32)
+
+Działania kwalifikowalne realizowane w kontekście projektów PESCO w ramach instytucjonalnych Unii powinny zapewnić ciągłość wzmocnionej współpracy między podmiotami prawnymi w różnych państwach członkowskich i w ten sposób powinny bezpośrednio przyczyniać się do realizacji celów Funduszu. W przypadku ich wyboru takie działania powinny zatem kwalifikować się do uzyskania podwyższonej stopy finansowania.
+
+(33)
+
+Komisja weźmie pod uwagę inną działalność finansowaną w ramach programu ramowego w zakresie badań naukowych i innowacji „Horyzont Europa” ustanowionego rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2021/695 (8), aby uniknąć zbędnego powielania działań oraz zapewnić wzajemne inspirowanie się i synergie między badaniami cywilnymi a badaniami w dziedzinie obronności.
+
+(34)
+
+Cyberbezpieczeństwo i cyberobrona to wyzwania o coraz większym znaczeniu, a Komisja i Wysoki Przedstawiciel Unii do Spraw Zagranicznych i Polityki Bezpieczeństwa uznali konieczność stworzenia synergii między działaniami dotyczącymi cyberobrony objętymi zakresem niniejszego rozporządzenia a unijnymi inicjatywami w dziedzinie cyberbezpieczeństwa, takimi jak inicjatywy ogłoszone we wspólnym komunikacie Komisji z dnia 13 września 2017 r. zatytułowanym: „Odporność, prewencja i obrona: budowa solidnego bezpieczeństwa cybernetycznego Unii Europejskiej”. W szczególności zainteresowane strony powinny dążyć do uzyskania synergii między wymiarem cywilnym a wymiarem obronnym cyberbezpieczeństwa w celu zwiększenia odporności w zakresie cyberbezpieczeństwa.
+
+(35)
+
+Należy zapewnić zintegrowane podejście poprzez połączenie zadań objętych działaniem przygotowawczym w dziedzinie badań obronnych (PADR), zainicjowanym przez Komisję zgodnie z art. 58 ust. 2 lit. b) rozporządzenia finansowego, z Europejskim programem rozwoju przemysłu obronnego (EDIDP) ustanowionym rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2018/1092 (9), a także poprzez harmonizację warunków uczestnictwa. Takie zintegrowane podejście powinno stworzyć bardziej spójny zestaw instrumentów oraz zwiększyć efekty Funduszu w zakresie innowacji, współpracy i gospodarki, przy jednoczesnym unikaniu zbędnego powielania i fragmentacji działań. Przyczyniłoby się ono również do lepszego wykorzystania wyników badań w dziedzinie obronności, likwidując lukę między fazą badawczą a fazą rozwoju, z uwzględnieniem specyfiki sektora obronności, oraz wspierając wszystkie formy innowacji, w tym przełomowe technologie w dziedzinie obronności. Ponadto w stosownych przypadkach można również oczekiwać pozytywnych skutków ubocznych w sektorze cywilnym.
+
+(36)
+
+W stosownych przypadkach, ze względu na specyfikę danego działania, cele Funduszu powinny być również realizowane za pomocą instrumentów finansowych i gwarancji budżetowych w ramach funduszu InvestEU ustanowionego rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2021/523 (10).
+
+(37)
+
+Wsparcie z Funduszu należy wykorzystywać w celu odpowiadania na niedoskonałości rynku lub niedostateczny poziom inwestycji na rynku w proporcjonalny sposób, a działania nie powinny powielać ani wypierać finansowania prywatnego ani też zakłócać konkurencji na rynku wewnętrznym. Działania powinny charakteryzować się wyraźną wartością dodaną dla Unii.
+
+(38)
+
+Wybór form unijnego finansowania i metod wdrażania Funduszu powinien opierać się na ocenie ich zdatności do osiągnięcia szczegółowych celów działań i zapewnienia rezultatów, przy uwzględnieniu w szczególności kosztów kontroli, obciążenia administracyjnego oraz spodziewanego ryzyka nieprzestrzegania przepisów. Przy dokonywaniu takiego wyboru należy m.in. rozważyć wykorzystanie płatności ryczałtowych, finansowania według stawek zryczałtowanych i kosztów jednostkowych, a także finansowania niepowiązanego z kosztami, o którym mowa w art. 125 ust. 1 rozporządzenia finansowego.
+
+(39)
+
+Komisja powinna w drodze aktów wykonawczych przyjmować roczne programy prac zgodnie z celami Funduszu i z uwzględnieniem wstępnych doświadczeń i wniosków wyciągniętych z Europejskiego programu rozwoju przemysłu obronnego oraz działania przygotowawczego w dziedzinie badań obronnych. Przy ustanawianiu programu prac Komisję powinien wspierać komitet. Komisja powinna dążyć do wypracowania takich rozwiązań, które zyskałyby możliwie największe poparcie w ramach komitetu. W tym kontekście komitet powinien być w stanie obradować w składzie krajowych ekspertów w dziedzinie obrony i bezpieczeństwa w celu udzielania Komisji konkretnej pomocy, w tym porad w zakresie ochrony informacji niejawnych w ramach przeprowadzanych działań. Do państw członkowskich należy wyznaczenie swoich przedstawicieli w tym komitecie. Członkowie komitetu powinni mieć wystarczająco dużo czasu i stosowne warunki, by mogli właściwie przeanalizować projekty aktów wykonawczych i wyrazić swoje opinie.
+
+(40)
+
+Kategorie określone w programach prac powinny w stosownych przypadkach zawierać wymogi funkcjonalne w celu wyjaśnienia podmiotom z odnośnego sektora, jakie funkcje i zadania mają być wykonywane w ramach zdolności, które mają być rozwijane. Wymogi takie powinny jasno określać spodziewane wyniki działania, ale nie powinny być nakierowane na konkretne rozwiązania ani skierowane do konkretnych podmiotów prawnych oraz nie powinny uniemożliwiać konkurencji na poziomie zaproszeń do składania wniosków.
+
+(41)
+
+Podczas opracowywania programów prac Komisja powinna również zapewnić, w drodze stosownych konsultacji z komitetem, by proponowane działania w zakresie badań lub rozwoju nie były niepotrzebnie powielane. W tym kontekście Komisja może przeprowadzić wstępną ocenę ewentualnych przypadków powielania z istniejącymi zdolnościami lub już finansowanymi projektami badawczymi lub rozwojowymi w Unii.
+
+(42)
+
+Komisja powinna zapewnić spójność programów prac na wszystkich etapach cyklu życia przemysłowego produktów i technologii obronnych.
+
+(43)
+
+W programach prac należy również zapewnić przeznaczenie wiarygodnej części całkowitego budżetu na działania umożliwiające transgraniczne uczestnictwo MŚP.
+
+(44)
+
+Aby umożliwić korzystanie z fachowej wiedzy Europejskiej Agencji Obrony w sektorze obronności, powinna ona uzyskać status obserwatora w komitecie. Mając na względzie specyfikę obszaru obronności, Europejska Służba Działań Zewnętrznych powinna również uczestniczyć w pracach komitetu.
+
+(45)
+
+W celu zapewnienia efektywności niniejszego rozporządzenia, należy przekazać Komisji uprawnienia do przyjmowania aktów zgodnie z art. 290 TFUE w celu zmiany załącznika do niniejszego rozporządzenia w odniesieniu do wskaźników w przypadkach, gdy jest to uznawane za konieczne oraz w celu uzupełniania niniejszego rozporządzenia o przepisy dotyczące ustanowienia ram monitorowania i ewaluacji. Szczególnie ważne jest, aby w czasie prac przygotowawczych Komisja prowadziła stosowne konsultacje, w tym na poziomie ekspertów, oraz aby konsultacje te prowadzone były zgodnie z zasadami określonymi w Porozumieniu międzyinstytucjonalnym z dnia 13 kwietnia 2016 r. w sprawie lepszego stanowienia prawa (11). W szczególności, aby zapewnić Parlamentowi Europejskiemu i Radzie udział na równych zasadach w przygotowaniu aktów delegowanych, instytucje te otrzymują wszelkie dokumenty w tym samym czasie co eksperci państw członkowskich, a eksperci tych instytucji mogą systematycznie brać udział w posiedzeniach grup eksperckich Komisji zajmujących się przygotowaniem aktów delegowanych.
+
+(46)
+
+W celu zapewnienia jednolitych warunków wykonania niniejszego rozporządzenia Komisji należy powierzyć uprawnienia wykonawcze w odniesieniu do przyjmowania programów prac oraz przyznawania finansowania na wybrane działania badawcze i rozwojowe. W szczególności przy przeprowadzaniu działań badawczych i rozwojowych należy wziąć pod uwagę specyfikę sektora obronności, a zwłaszcza odpowiedzialność państw członkowskich lub państw stowarzyszonych w zakresie procesu planowania oraz nabywania. Te uprawnienia powinny być wykonywane zgodnie z rozporządzeniem Parlamentu Europejskiego i Rady (UE) nr 182/2011 (12).
+
+(47)
+
+Komisja powinna stworzyć wykaz niezależnych ekspertów. Dane uwierzytelniające tych niezależnych ekspertów powinny zostać potwierdzone przez odnośne państwa członkowskie. Wykaz ten nie powinien być podawany do wiadomości publicznej. Niezależni eksperci powinni być wybierani na podstawie ich umiejętności, doświadczenia i wiedzy, z uwzględnieniem zadań, które mają im zostać powierzone. Przy powoływaniu niezależnych ekspertów Komisja powinna w zakresie, w jakim jest to możliwe podejmować właściwe środki, by dążyć do osiągnięcia wyważonego składu grup niezależnych ekspertów i paneli oceniających pod względem zróżnicowania umiejętności, doświadczenia, wiedzy, pochodzenia geograficznego i płci, uwzględniając sytuację w obszarze danego działania. Należy również dążyć do zapewnienia odpowiedniej rotacji niezależnych ekspertów i odpowiedniej równowagi między sektorem prywatnym a publicznym.
+
+(48)
+
+Niezależni eksperci nie powinni dokonywać ocen ani udzielać porad lub pomocy w sprawach, w przypadku których znajdują się w sytuacji konfliktu interesów, szczególnie ze względu na stanowiska zajmowane przez nich w czasie dokonywania oceny. W szczególności nie powinni oni się znaleźć w sytuacji, w której mogliby wykorzystać uzyskane informacje na niekorzyść ocenianego przez nich konsorcjum.
+
+(49)
+
+Po dokonaniu oceny wniosków z pomocą niezależnych ekspertów Komisja powinna dokonać wyboru działań, które mają uzyskać wsparcie z Funduszu. Państwa członkowskie powinny być informowane o wynikach oceny wraz z rankingiem wybranych działań i o postępach w realizacji finansowanych działań.
+
+(50)
+
+Przy proponowaniu nowych produktów lub technologii obronnych lub modernizacji już istniejących produktów lub technologii obronnych wnioskodawcy powinni zobowiązać się do przestrzegania zasad etyki, takich jak zasady dotyczące dobrostanu ludzi i ochrony ludzkiego genomu, które znajdują również odzwierciedlenie w odpowiednim prawie unijnym, krajowym i międzynarodowym, w tym w Karcie praw podstawowych Unii Europejskiej i Europejskiej konwencji o ochronie praw człowieka i podstawowych wolności oraz, w stosownych przypadkach, w protokołach do niej. Komisja powinna systematycznie poddawać wnioski przeglądowi w celu wskazania działań, które rodzą poważne wątpliwości natury etycznej. W stosownych przypadkach takie wnioski powinny podlegać ocenie pod względem etyczności.
+
+(51)
+
+Aby wspierać otwarty rynek wewnętrzny, należy zachęcać transgraniczne MŚP i spółki o średniej kapitalizacji do udziału w charakterze członków konsorcjów, podwykonawców lub innych podmiotów prawnych w łańcuchu dostaw.
+
+(52)
+
+Komisja powinna dążyć do utrzymania dialogu z państwami członkowskimi i odnośnym sektorem w celu zapewnienia powodzenia Funduszu. Jako współprawodawca i jeden z kluczowych zainteresowanych podmiotów włączany w ten proces powinien być też Parlament Europejski.
+
+(53)
+
+W niniejszym rozporządzeniu określono pulę środków finansowych Funduszu, która podczas rocznej procedury budżetowej ma stanowić dla Parlamentu Europejskiego i Rady główną kwotę odniesienia w rozumieniu pkt 18 Porozumienia międzyinstytucjonalnego z dnia 16 grudnia 2020 r. pomiędzy Parlamentem Europejskim, Radą i Komisją Europejską w sprawie dyscypliny budżetowej, współpracy w kwestiach budżetowych i należytego zarządzania finansami oraz w sprawie nowych zasobów własnych, w tym również harmonogramu wprowadzania nowych zasobów własnych (13) (zwanego dalej „porozumieniem międzyinstytucjonalnym z dnia 16 grudnia 2020 r.). Komisja powinna zapewnić, aby procedury administracyjne były jak najprostsze i wiązały się z minimalnymi dodatkowymi wydatkami.
+
+(54)
+
+O ile nie określono inaczej, do Funduszu stosuje się rozporządzenie finansowe. Rozporządzenie finansowe określa zasady wykonania budżetu Unii, w tym zasady dotyczące dotacji, nagród, zamówień, zarządzania pośredniego, instrumentów finansowych, gwarancji budżetowych i pomocy finansowej.
+
+(55)
+
+Do niniejszego rozporządzenia zastosowanie mają horyzontalne zasady finansowe przyjęte przez Parlament Europejski i Radę na podstawie art. 322 TFUE. Zasady te zostały określone w rozporządzeniu finansowym i określają w szczególności procedurę uchwalania i wykonywania budżetu w drodze dotacji, nagród, zamówień i wykonania pośredniego oraz przewidują kontrolę odpowiedzialności podmiotów upoważnionych do działań finansowych. Zasady przyjęte na podstawie art. 322 TFUE obejmują także ogólny system warunkowości służący ochronie budżetu Unii.
+
+(56)
+
+Zgodnie z rozporządzeniem finansowym, rozporządzeniem Parlamentu Europejskiego i Rady (UE, Euratom) nr 883/2013 (14) i rozporządzeniami Rady (WE, Euratom) nr 2988/95 (15), (Euratom, WE) nr 2185/96 (16) i (UE) 2017/1939 (17) interesy finansowe Unii należy chronić za pomocą proporcjonalnych środków, w tym środków zapobiegania nieprawidłowościom – w tym nadużyciom finansowym – ich wykrywania, korygowania i prowadzenia w ich sprawie postępowań, odzyskiwania środków utraconych, nienależnie wypłaconych lub nieodpowiednio wykorzystanych oraz, w stosownych przypadkach, nakładania kar administracyjnych. W szczególności, zgodnie z rozporządzeniami (Euratom, WE) nr 2185/96 i (UE, Euratom) nr 883/2013, Europejski Urząd ds. Zwalczania Nadużyć Finansowych (OLAF) jest uprawniony do prowadzenia dochodzeń administracyjnych, w tym kontroli na miejscu i inspekcji, w celu ustalenia, czy miały miejsce nadużycia finansowe, korupcja lub wszelka inna nielegalna działalność na szkodę interesów finansowych Unii.
+
+Zgodnie z rozporządzeniem Rady (UE) 2017/1939 Prokuratura Europejska (EPPO) jest uprawniona do prowadzenia postępowań przygotowawczych oraz wnoszenia i popierania oskarżeń w sprawie przestępstw naruszających interesy finansowe Unii, jak przewidziano w dyrektywie Parlamentu Europejskiego i Rady (UE) 2017/1371 (18). Zgodnie z rozporządzeniem finansowym każda osoba lub podmiot, które otrzymują środki finansowe Unii, mają w pełni współpracować w celu ochrony interesów finansowych Unii, przyznać Komisji, OLAF, Trybunałowi Obrachunkowemu oraz, w przypadku państw członkowskich, które uczestniczą we wzmocnionej współpracy na podstawie rozporządzenia (UE) 2017/1939, EPPO, niezbędne prawa i dostęp, a także zapewniać, aby wszelkie osoby trzecie uczestniczące w wykonywaniu środków finansowych Unii przyznały tym organom równoważne prawa.
+
+(57)
+
+Państwa trzecie będące członkami Europejskiego Obszaru Gospodarczego (EOG) mogą uczestniczyć w programach unijnych w ramach współpracy ustanowionej na mocy Porozumienia o Europejskim Obszarze Gospodarczym (19), które przewiduje realizację programów w drodze decyzji wydanej na mocy tego porozumienia. W niniejszym rozporządzeniu należy wprowadzić przepis szczególny zobowiązujący te państwa trzecie do przyznania właściwemu urzędnikowi zatwierdzającemu, OLAF oraz Trybunałowi Obrachunkowemu praw i dostępu niezbędnych do wykonywania w pełni ich odpowiednich kompetencji.
+
+(58)
+
+Zgodnie z pkt 22 i 23 porozumienia międzyinstytucjonalnego z dnia 13 kwietnia 2016 r. w sprawie lepszego stanowienia prawa Fundusz powinien być poddany ewaluacji na podstawie informacji zgromadzonych zgodnie ze szczególnymi wymogami dotyczącymi monitorowania, przy czym należy unikać obciążeń administracyjnych, w szczególności dla państw członkowskich, a także nadmiernej regulacji. Wymogi te powinny, w stosownych przypadkach, obejmować mierzalne wskaźniki jako podstawę ewaluacji skutków Funduszu w praktyce. Komisja powinna przeprowadzić śródokresową ewaluację nie później niż cztery lata po rozpoczęciu okresu wdrażania Funduszu, również z myślą o przedłożeniu wniosków dotyczących ewentualnych stosownych zmian w niniejszym rozporządzeniu. Komisja powinna również przeprowadzić ewaluację końcową na zakończenie okresu wdrażania Funduszu, zawierającą analizę działalności finansowej pod względem rezultatów wykonania finansowego oraz, w zakresie, w jakim jest to możliwe w danym momencie, analizę rezultatów wykonania i wpływu Funduszu. W tym kontekście sprawozdanie z ewaluacji końcowej powinno również pomóc określić dziedziny, w których Unia uzależniona jest od państw trzecich pod względem rozwoju produktów i technologii obronnych. W sprawozdaniu końcowym powinien również zostać przeanalizowany transgraniczny udział MŚP i spółek o średniej kapitalizacji w projektach wspieranych z Funduszu, a także udział MŚP i spółek o średniej kapitalizacji w globalnym łańcuchu wartości, jak również wkład Funduszu w eliminowanie braków wskazanych w Planie rozwoju zdolności; sprawozdanie końcowe powinno także zawierać informacje o państwach pochodzenia odbiorców, o liczbie państw członkowskich i państw stowarzyszonych zaangażowanych w poszczególne działania oraz o rozdziale powstałych praw własności intelektualnej. Komisja może również zaproponować zmiany do niniejszego rozporządzenia w celu reakcji na możliwy rozwój sytuacji w trakcie wdrażania Funduszu.
+
+(59)
+
+Komisja powinna regularnie monitorować wdrażanie Funduszu oraz co roku składać Parlamentowi Europejskiemu i Radzie sprawozdanie z poczynionych postępów, które powinno określać też, w jaki sposób w procesie wdrażania Funduszu uwzględnione zostały doświadczenia i wnioski wyciągnięte z Europejskiego programu rozwoju przemysłu obronnego oraz działania przygotowawczego w dziedzinie badań obronnych. W tym celu Komisja powinna wprowadzić niezbędne mechanizmy monitorowania. Sprawozdanie to nie powinno zawierać informacji wrażliwych.
+
+(60)
+
+Odzwierciedlając znaczenie przeciwdziałania zmianie klimatu zgodnie z zobowiązaniami Unii na rzecz realizacji Porozumienia paryskiego przyjętego na mocy Ramowej konwencji Narodów Zjednoczonych w sprawie zmian klimatu (20) i celów Organizacji Narodów Zjednoczonych dotyczących zrównoważonego rozwoju, Fundusz przyczynia się do uwzględnienia działań w dziedzinie klimatu w politykach Unii i do osiągnięcia celu ogólnego zakładającego, że 30 % wydatków budżetowych Unii zostanie przeznaczonych na wspieranie celów klimatycznych. Stosowne działania zostaną określone na etapie przygotowania i wdrażania Funduszu oraz ponownie ocenione w ramach jego ewaluacji śródokresowej.
+
+(61)
+
+Odzwierciedlając znaczenie przeciwdziałania radykalnej utracie różnorodności biologicznej, niniejsze rozporządzenie przyczynia się do uwzględnienia działań na rzecz różnorodności biologicznej w politykach Unii oraz do osiągnięcia ogólnego celu, jakim jest przeznaczenie 7,5 % rocznych wydatków w ramach WRF na lata 2021–2027 na cele w zakresie różnorodności biologicznej w 2024 r. oraz 10 % tych wydatków w 2026 r. i 2027 r., przy jednoczesnym uwzględnieniu obecnego pokrywania się celów w zakresie klimatu i różnorodności biologicznej zgodnie z porozumieniem międzyinstytucjonalnym z dnia 16 grudnia 2020 r.
+
+(62)
+
+W związku z tym, że Fundusz powinien wspierać jedynie fazę badawczą i fazę rozwoju produktów i technologii obronnych, zasadniczo Unia nie powinna posiadać praw własności ani praw własności intelektualnej w stosunku do produktów lub technologii obronnych powstałych w wyniku finansowanych działań, chyba że wsparcie unijne jest udzielane w drodze zamówień publicznych. Jednakże w przypadku działań badawczych, zainteresowane państwa członkowskie i państwa stowarzyszone powinny mieć możliwość korzystania z rezultatów finansowanych działań, aby uczestniczyć w następczych pracach rozwojowych opartych na współpracy.
+
+(63)
+
+Wsparcie unijne nie powinno mieć wpływu na transfer produktów związanych z obronnością w obrębie Unii, zgodnie z dyrektywą 2009/43/WE, ani na eksport produktów, wyposażenia lub technologii. Eksport wyposażenia wojskowego i technologii wojskowych przez państwa członkowskie jest regulowany wspólnym stanowiskiem Rady 2008/944/WPZiB (21).
+
+(64)
+
+Korzystanie z wrażliwych informacji wnoszonych, w tym danych, know-how lub informacji, wytworzonych przed rozpoczęciem funkcjonowania Funduszu lub poza jego ramami, lub dostęp osób nieupoważnionych do rezultatów uzyskanych w związku działaniami wspieranymi z Funduszu, może mieć niekorzystny wpływ na interesy Unii lub co najmniej jednego z państw członkowskich. Przetwarzanie informacji wrażliwych powinno zatem podlegać stosownym przepisom prawa unijnego i krajowego.
+
+(65)
+
+Aby zapewnić wymagany poziom bezpieczeństwa informacji niejawnych, przy podpisywaniu niejawnych umów o finansowaniu i umów w sprawie finansowania należy przestrzegać minimalnych norm w zakresie bezpieczeństwa przemysłowego. W tym celu oraz zgodnie z decyzją Komisji (UE, Euratom) 2015/444 (22) ma ona przekazać w celach doradczych niezależnym ekspertom wyznaczonym przez państwa członkowskie instrukcje bezpieczeństwa programu, w tym przewodnik nadawania klauzul.
+
+(66)
+
+Ponieważ cele niniejszego rozporządzenia nie mogą zostać osiągnięte w sposób wystarczający przez państwa członkowskie, natomiast możliwe jest lepsze ich osiągnięcie na poziomie Unii, może ona podjąć działania zgodnie z zasadą pomocniczości określoną w art. 5 TUE. Zgodnie z zasadą proporcjonalności określoną w tym artykule niniejsze rozporządzenie nie wykracza poza to, co jest konieczne do osiągnięcia tych celów.
+
+(67)
+
+Komisja powinna zarządzać Funduszem z należytym poszanowaniem wymogów poufności i bezpieczeństwa, w szczególności w odniesieniu do informacji wrażliwych, w tym informacji niejawnych.
+
+(68)
+
+Aby zapewniona została ciągłość udzielania wsparcia w odpowiednim obszarze polityki oraz aby umożliwić wdrożenie od początku WRF na lata 2021–2027, niniejsze rozporządzenie powinno wejść w życie w trybie pilnym i powinno być stosowane z mocą wsteczną od dnia 1 stycznia 2021 r.
+
+(69)
+
+Należy w związku z tym uchylić rozporządzenie (UE) 2018/1092,
+
+PRZYJMUJĄ NINIEJSZE ROZPORZĄDZENIE:
+
+TYTUŁ I
+
+ PRZEPISY WSPÓLNE MAJĄCE ZASTOSOWANIE DO BADAŃ I ROZWOJU
+
+Artykuł 1
+
+Przedmiot
+
+Niniejsze rozporządzenie ustanawia Europejski Fundusz Obronny (zwany dalej „Funduszem”), zgodnie z art. 1 ust. 2 lit. b) rozporządzenia (UE) 2021/695, na okres od dnia 1 stycznia 2021 r. do dnia 31 grudnia 2027 r. Czas trwania Funduszu jest dostosowany do okresu obowiązywania WRF na lata 2021–2027.
+
+Niniejsze rozporządzenie określa cele Funduszu, jego budżet na okres od dnia 1 stycznia 2021 r. do dnia 31 grudnia 2027 r., formy finansowania unijnego oraz zasady dotyczące przyznawania takiego finansowania.
+
+Artykuł 2
+
+Definicje
+
+Na użytek niniejszego rozporządzenia stosuje się następujące definicje:
+
+1)
+
+„podmiot prawny” oznacza osobę prawną utworzoną i uznaną za taką na mocy prawa unijnego, krajowego lub międzynarodowego, która posiada osobowość prawną i zdolność do działania w swoim imieniu, korzystania z praw i podlegania obowiązkom, lub podmiot nieposiadający osobowości prawnej, o którym mowa w art. 197 ust. 2 lit. c) rozporządzenia finansowego;
+
+2)
+
+„wnioskodawca” oznacza podmiot prawny przedkładający wniosek o wsparcie z Funduszu w następstwie zaproszenia do składania wniosków lub zgodnie z art. 195 akapit pierwszy lit. e) rozporządzenia finansowego;
+
+3)
+
+„odbiorca” oznacza podmiot prawny, z którym podpisano umowę o finansowaniu lub umowę w sprawie finansowania lub który został powiadomiony o decyzji o finansowaniu lub o decyzji w sprawie finansowania;
+
+4)
+
+„konsorcjum” oznacza grupę współpracujących ze sobą wnioskodawców lub odbiorców, która podlega umowie i została utworzona w celu przeprowadzenia działania w ramach Funduszu;
+
+5)
+
+„koordynator” oznacza podmiot prawny, który jest członkiem konsorcjum i został wyznaczony przez wszystkich członków konsorcjum jako główny punkt kontaktowy na potrzeby relacji konsorcjum z Komisją;
+
+6)
+
+„kontrola” oznacza zdolność do wywierania decydującego wpływu na podmiot prawny, bezpośrednio lub pośrednio, poprzez co najmniej jeden pośredniczący podmiot prawny;
+
+7)
+
+„zarządcza struktura wykonawcza” oznacza organ podmiotu prawnego, powołany zgodnie z prawem krajowym i, w stosownych przypadkach, podlegający dyrektorowi generalnemu, uprawniony do określania strategii, celów i ogólnego kierunku działania danego podmiotu prawnego, który to organ nadzoruje i monitoruje proces podejmowania decyzji przez kierownictwo;
+
+8)
+
+„prototyp systemu” oznacza model produktu lub technologii, na którym można zademonstrować jego działanie w środowisku operacyjnym;
+
+9)
+
+„kwalifikowanie” oznacza całość procesu, w którym wykazuje się, że projekt produktu obronnego, materialnego lub niematerialnego komponentu lub technologii obronnych spełnia określone wymogi, dostarczając obiektywnych dowodów potwierdzających, że wykazano spełnienie określonych wymogów projektu;
+
+10)
+
+„certyfikacja” oznacza proces, w którym organ krajowy zaświadcza, że dany produkt obronny, materialny lub niematerialny komponent lub technologia obronne są zgodne z mającymi zastosowanie przepisami;
+
+11)
+
+„działanie badawcze” oznacza działanie obejmujące głównie działalność badawczą, w szczególności badania stosowane i w razie potrzeby badania podstawowe, celem którego to działania jest zdobycie nowej wiedzy i które koncentruje się wyłącznie na zastosowaniach w dziedzinie obronności;
+
+12)
+
+„działanie rozwojowe” oznacza działanie obejmujące działalność ukierunkowaną na obronność głównie w fazie rozwoju, dotyczące nowych produktów lub technologii obronnych bądź modernizacji istniejących produktów lub technologii, z wyłączeniem produkcji lub użytkowania broni;
+
+13)
+
+„przełomowa technologia obronna” oznacza udoskonaloną lub całkowicie nową technologię, skutkującą radykalną zmianą, w tym zmianą paradygmatu w koncepcji i prowadzeniu spraw obronnych, na przykład poprzez zastąpienie istniejących technologii obronnych lub sprawienie, że staną się one przestarzałe;
+
+14)
+
+„małe lub średnie przedsiębiorstwa” lub „MŚP” oznaczają małe i średnie przedsiębiorstwa, zgodnie z definicją zawartą w art. 2 załącznika do zalecenia Komisji 2003/361/WE (23);
+
+15)
+
+„spółka o średniej kapitalizacji” oznacza przedsiębiorstwo, które nie jest MŚP i które zatrudnia nie więcej niż 3 000 pracowników, przy czym liczba zatrudnionych jest obliczana zgodnie z art. 3–6 załącznika do zalecenia 2003/361/WE;
+
+16)
+
+„działania łączone” oznaczają działania wspierane z budżetu Unii, w tym działania w ramach instrumentu łączonego lub platformy łączonej zdefiniowanych w art. 2 pkt 6) rozporządzenia finansowego, które łączą bezzwrotne formy wsparcia lub instrumenty finansowe z budżetu Unii oraz zwrotne formy wsparcia z instytucji finansowania rozwoju lub innych publicznych instytucji finansowych, a także z komercyjnych instytucji finansowych i od inwestorów;
+
+17)
+
+„zamówienie przedkomercyjne” oznacza zamawianie usług badawczych i rozwojowych obejmujące podział ryzyka i korzyści na warunkach rynkowych oraz rozwój konkurencyjny w poszczególnych fazach, przy czym zamówione usługi badawcze i rozwojowe są wyraźnie oddzielone od etapu wprowadzania na rynek komercyjnych ilości produktów końcowych;
+
+18)
+
+„kierownik projektu” oznacza instytucję zamawiającą z siedzibą w państwie członkowskim lub państwie stowarzyszonym, której państwo członkowskie lub państwo stowarzyszone lub grupa państw członkowskich lub państw stowarzyszonych powierzyła zadanie zarządzania wielonarodowymi projektami w zakresie uzbrojenia na stałe lub doraźnie;
+
+19)
+
+„rezultaty” oznaczają materialne lub niematerialne skutki działania, takie jak dane, know-how lub informacje, bez względu na ich formę lub charakter oraz niezależnie od tego, czy mogą być one chronione, jak również wszelkie związane z nimi prawa, w tym prawa własności intelektualnej;
+
+20)
+
+„nowe informacje” oznaczają dane, know-how lub informacje wytworzone w toku działania Funduszu, bez względu na ich formę lub charakter;
+
+21)
+
+„informacje niejawne” oznaczają informacje lub materiały, niezależnie od ich formy, których nieuprawnione ujawnienie mogłoby w różnym stopniu wyrządzić szkodę interesom Unii lub interesom co najmniej jednego państwa członkowskiego i którym nadana jest jedna z klauzul tajności UE lub odpowiadająca im klauzula tajności, określona w Umowie między państwami członkowskimi Unii Europejskiej, zebranymi w Radzie, w sprawie ochrony informacji niejawnych wymienianych w interesie Unii Europejskiej (24);
+
+22)
+
+„informacje wrażliwe” oznaczają informacje i dane, w tym informacje niejawne, które mają być chronione przed nieuprawnionym dostępem lub ujawnieniem z uwagi na obowiązki określone w prawie unijnym lub krajowym lub w celu ochrony prywatności lub bezpieczeństwa osoby fizycznej lub prawnej;
+
+23)
+
+„raport specjalny” oznacza konkretny wynik działania badawczego streszczający jego rezultaty, zawierający obszerne informacje na temat podstawowych zasad, celów, wyników, podstawowych właściwości, przeprowadzonych testów, potencjalnych korzyści, potencjalnych zastosowań w dziedzinie obronności i spodziewanej ścieżki wykorzystania badań na rzecz rozwoju, w tym informacje na temat uprawnień do praw własności intelektualnej, lecz bez wymogu uwzględnienia informacji na temat praw własności intelektualnej;
+
+24)
+
+„podmiot z niestowarzyszonego państwa trzeciego” oznacza podmiot prawny mający siedzibę w niestowarzyszonym państwie trzecim lub, w przypadku gdy ma on siedzibę w Unii lub w państwie stowarzyszonym, posiadający swoje zarządcze struktury wykonawcze w niestowarzyszonym państwie trzecim.
+
+Artykuł 3
+
+Cele
+
+1.   Celem ogólnym Funduszu jest wzmacnianie konkurencyjności, wydajności i innowacyjności europejskiej bazy technologiczno-przemysłowej sektora obronnego (EDTIB) w całej Unii, co przyczynia się do strategicznej autonomii Unii i jej swobody działania, poprzez wspieranie wspólnych działań i współpracy transgranicznej między podmiotami prawnymi w całej Unii, w szczególności MŚP i spółek o średniej kapitalizacji, a także poprzez wzmacnianie i poprawę elastyczności zarówno łańcucha dostaw, jak i łańcucha wartości w sektorze obronności, rozszerzanie współpracy transgranicznej między podmiotami prawnymi oraz promowanie lepszego wykorzystania potencjału przemysłowego w zakresie innowacji, badań i rozwoju technologicznego, na każdym etapie cyklu życia produktów i technologii obronnych.
+
+2.   Cele szczegółowe Funduszu są następujące:
+
+a)
+
+wspieranie opartych na współpracy badań, które mogłyby znacznie zwiększyć potencjał przyszłych zdolności w całej Unii, mając na celu maksymalizację innowacji i wprowadzenie nowych produktów i technologii obronnych, w tym przełomowych produktów i technologii obronnych, a także mając na celu jak największą efektywność wydatków na badania w dziedzinie obronności w Unii;
+
+b)
+
+wspieranie opartego na współpracy rozwoju produktów i technologii obronnych, przyczyniając się tym samym do większej efektywności wydatków na obronność w Unii, osiągnięcia większych korzyści skali, zmniejszenia ryzyka zbędnego powielania działań, a przez to do zachęcania do wprowadzania na rynek europejskich produktów i technologii obronnych oraz zmniejszenia fragmentacji produktów i technologii obronnych w całej Unii, doprowadzając ostatecznie do zwiększenia standaryzacji systemów obrony i zwiększenia interoperacyjności między zdolnościami państw członkowskich.
+
+Taka współpraca powinna być spójna z priorytetami w zakresie zdolności obronnych uzgodnionymi wspólnie przez państwa członkowskie w ramach wspólnej polityki zagranicznej i bezpieczeństwa (WPZiB), w szczególności w kontekście Planu rozwoju zdolności.
+
+W tym względzie, w stosownych przypadkach, można brać także pod uwagę regionalne i międzynarodowe priorytety, gdy służą one interesom Unii w zakresie bezpieczeństwa i obrony określonym w ramach WPZiB, uwzględniając potrzeby unikania zbędnego powielania działań jeżeli priorytety te nie wykluczają możliwości udziału żadnego państwa członkowskiego ani państwa stowarzyszonego.
+
+Artykuł 4
+
+Budżet
+
+1.   Zgodnie z art. 12 ust. 1 rozporządzenia (UE) 2021/695 pula środków finansowych na realizację Funduszu na okres od dnia 1 stycznia 2021 r. do dnia 31 grudnia 2027 r. wynosi 7 953 000 000 EUR w cenach bieżących.
+
+2.   Podział kwoty, o której mowa w ust. 1, jest następujący:
+
+a)
+
+2 651 000 000 EUR na działania badawcze;
+
+b)
+
+5 302 000 000 EUR na działania rozwojowe.
+
+Aby reagować na nieprzewidziane sytuacje lub rozwój wydarzeń i nowe potrzeby, Komisja może dokonać realokacji kwot między środkami na działania badawcze a środkami na działania rozwojowe w wysokości maksymalnie 20 %.
+
+3.   Kwota, o której mowa w ust. 1, może być również wykorzystana na pomoc techniczną i administracyjną w ramach wdrażania Funduszu, taką jak działalność związana z przygotowaniem, monitorowaniem, kontrolą, audytem i ewaluacją, w tym projektowaniem, tworzeniem, obsługą i utrzymaniem wewnętrznych systemów informatycznych.
+
+4.   Co najmniej 4 % i maksymalnie 8 % puli środków finansowych, o której mowa w ust. 1, przydziela się na zaproszenia do składania wniosków lub przyznawanie finansowania na wsparcie przełomowych technologii obronnych.
+
+Artykuł 5
+
+Państwa stowarzyszone
+
+Uczestnictwo w Funduszu jest otwarte dla członków Europejskiego Stowarzyszenia Wolnego Handlu, którzy są członkami EOG, zgodnie z warunkami ustanowionymi w Porozumieniu o Europejskim Obszarze Gospodarczym (zwanych dalej „państwami stowarzyszonymi”).
+
+Artykuł 6
+
+Wsparcie na rzecz przełomowych technologii obronnych
+
+1.   Komisja przyznaje, w drodze aktów wykonawczych, finansowanie w wyniku otwartych i publicznych konsultacji dotyczących przełomowych technologii obronnych w obszarach interwencji określonych w programach prac, o których mowa w art. 24. Te akty wykonawcze przyjmuje się zgodnie z procedurą sprawdzającą, o której mowa w art. 34 ust. 2
+
+2.   Programy prac określają najbardziej odpowiednie formy finansowania przełomowych technologii obronnych.
+
+Artykuł 7
+
+Etyka
+
+1.   Działania prowadzone w ramach Funduszu muszą być zgodne z odpowiednimi przepisami prawa unijnego, krajowego i międzynarodowego, w tym z Kartą praw podstawowych Unii Europejskiej. Ponadto, działania te muszą być również zgodne z zasadami etyki określonymi również w odpowiednich przepisach prawa unijnego, krajowego i międzynarodowego.
+
+2.   Przed podpisaniem umowy o finansowaniu Komisja poddaje wnioski przeglądowi w oparciu o samoocenę etyczną przygotowaną przez konsorcjum, w celu określenia tych działań, które budzą poważne wątpliwości etyczne, w tym w odniesieniu do warunków prowadzenia działalności. W stosownych przypadkach, takie wnioski przedkłada się do oceny pod względem etyczności.
+
+Przegląd i ocena pod względem etyczności przeprowadzane są przez Komisję przy wsparciu niezależnych ekspertów powoływanych zgodnie z art. 26. Ci niezależni eksperci muszą posiadać różnorodne doświadczenie, w szczególności potwierdzone doświadczenie w zakresie kwestii etyki w dziedzinie obronności i muszą być obywatelami państw członkowskich oraz pochodzić z możliwie jak największej liczby państw.
+
+Warunki prowadzenia działalności obejmującej kwestie wrażliwe z etycznego punktu widzenia są określone w umowie o finansowaniu.
+
+Komisja zapewnia, by procedury etyczne były możliwie jak najbardziej przejrzyste i umieszcza je w swoim sprawozdaniu z ewaluacji śródokresowej zgodnie z art. 29.
+
+3.   Podmioty prawne uczestniczące w danym działaniu muszą uzyskać przed rozpoczęciem odpowiedniej działalności wszelkie stosowne zgody lub inne dokumenty wymagane przez krajowe lub lokalne komisje etyczne i inne organy, takie jak organy ochrony danych. Te zgody i inne dokumenty przechowuje się i udostępnia Komisji na żądanie.
+
+4.   Propozycje, które uznaje się za nieakceptowalne ze względów etycznych, są odrzucane.
+
+Artykuł 8
+
+Realizacja i formy finansowania unijnego
+
+1.   Fundusz jest wdrażany w ramach zarządzania bezpośredniego zgodnie z rozporządzeniem finansowym.
+
+2.   Na zasadzie odstępstwa od ust. 1 niniejszego artykułu działania szczególne mogą być przeprowadzane, w uzasadnionych przypadkach, w ramach zarządzania pośredniego przez podmioty, o których mowa w art. 62 ust. 1 lit. c) rozporządzenia finansowego. Nie obejmuje to procedury kwalifikacji i wyboru, o której mowa w art. 11 niniejszego rozporządzenia.
+
+3.   Fundusz może zapewniać finansowanie zgodnie z rozporządzeniem finansowym, za pomocą dotacji, nagród i zamówień oraz – w stosownych przypadkach z uwagi na specyfikę danego działania – instrumentów finansowych w ramach działań łączonych.
+
+4.   Działania łączone przeprowadza się zgodnie z tytułem X rozporządzenia finansowego i rozporządzeniem (UE) 2021/523.
+
+5.   Instrumenty finansowe są ściśle kierowane wyłącznie do odbiorców.
+
+Artykuł 9
+
+Kwalifikujące się podmioty prawne
+
+1.   Odbiorcy i podwykonawcy uczestniczący w działaniu muszą mieć siedzibę w Unii lub w państwie stowarzyszonym.
+
+2.   Infrastruktura, obiekty, aktywa i zasoby odbiorców i podwykonawców uczestniczących w danym działaniu, które są wykorzystywane do celów działania wspieranego z Funduszu, muszą być zlokalizowane na terytorium państwa członkowskiego lub państwa stowarzyszonego w całym okresie realizacji danego działania, a ich zarządcze struktury wykonawcze muszą mieć siedzibę w Unii lub w państwie stowarzyszonym.
+
+3.   Na potrzeby działania wspieranego z Funduszu odbiorcy i podwykonawcy uczestniczący w danym działaniu nie podlegają kontroli niestowarzyszonego państwa trzeciego lub podmiotu z niestowarzyszonego państwa trzeciego.
+
+4.   Na zasadzie odstępstwa od ust. 3 podmiot prawny mający siedzibę w Unii lub w państwie stowarzyszonym i kontrolowany przez niestowarzyszone państwo trzecie lub przez podmiot z niestowarzyszonego państwa trzeciego kwalifikuje się jako odbiorca lub podwykonawca uczestniczący w działaniu jedynie w przypadku, gdy Komisji zostaną udostępnione gwarancje zatwierdzone przez państwo członkowskie lub państwo stowarzyszone, w którym ten podmiot prawny ma siedzibę, zgodnie z jego procedurami krajowymi. Gwarancje te mogą odnosić się do zarządczej struktury wykonawczej danego podmiotu prawnego mającego siedzibę w Unii lub w państwie stowarzyszonym. Jeżeli państwo członkowskie lub państwo stowarzyszone, w którym dany podmiot prawny ma siedzibę, uznają to za stosowne, gwarancje te mogą się również odnosić do szczególnych uprawnień państwowych w zakresie kontroli nad podmiotem prawnym.
+
+Gwarancje te muszą zapewniać, by udział takiego podmiotu prawnego w działaniu nie był sprzeczny z interesami Unii i jej państw członkowskich w zakresie bezpieczeństwa i obrony ustalonymi w ramach WPZiB na podstawie tytułu V TUE, lub z celami określonymi w art. 3 niniejszego rozporządzenia. Gwarancje muszą też być zgodne z art. 20 i 23 niniejszego rozporządzenia. W szczególności gwarancje muszą potwierdzać, że na użytek działania istnieją środki zapewniające, by:
+
+a)
+
+kontrola nad danym podmiotem prawnym nie była sprawowana w sposób ograniczający lub obniżający jego zdolność do przeprowadzenia tego działania i do osiągnięcia rezultatów, nie wprowadzała ograniczeń dotyczących jego infrastruktury, obiektów, aktywów, zasobów, własności intelektualnej lub know-how, niezbędnych dla danego działania, ani nie osłabiała jego zdolności i standardów potrzebnych do przeprowadzenia danego działania;
+
+b)
+
+niestowarzyszone państwa trzecie ani podmioty z niestowarzyszonego państwa trzeciego nie miały dostępu do informacji wrażliwych związanych z tym działaniem, oraz aby pracownicy lub inne osoby uczestniczące w działaniu posiadały krajowe poświadczenie bezpieczeństwa wydane odpowiednio przez państwo członkowskie lub państwo stowarzyszone;
+
+c)
+
+odbiorca pozostał właścicielem praw własności intelektualnej wynikających z działania oraz rezultatów działania w jego trakcie i po jego zakończeniu oraz by te prawa i rezultaty nie podlegały kontroli ani ograniczeniu ze strony niestowarzyszonego państwa trzeciego ani podmiotu z niestowarzyszonego państwa trzeciego, a także by nie mogły one zostać wyeksportowane poza Unię lub poza państwa stowarzyszone ani nie były dostępne spoza Unii lub spoza państw stowarzyszonych bez zgody państwa członkowskiego lub państwa stowarzyszonego, w którym dany podmiot prawny ma siedzibę, oraz zgodnie z celami określonymi w art. 3.
+
+Jeżeli państwo członkowskie lub państwo stowarzyszone, w którym dany podmiot prawny ma siedzibę, uznają to za stosowne, można udzielić dodatkowych gwarancji.
+
+Komisja informuje komitet, o którym mowa w art. 34, o każdym podmiocie prawnym uznanym za kwalifikujący się zgodnie z niniejszym ustępem.
+
+5.   Jeżeli w Unii ani w państwie stowarzyszonym nie ma łatwo dostępnych konkurencyjnych zamienników, odbiorcy i podwykonawcy uczestniczący w danym działaniu mogą korzystać ze swoich aktywów, infrastruktury, obiektów i zasobów zlokalizowanych lub przechowywanych poza terytorium państw członkowskich lub państw stowarzyszonych, pod warunkiem że korzystanie takie nie jest sprzeczne z interesami Unii i jej państw członkowskich w zakresie bezpieczeństwa i obrony, odbywa się w sposób spójny z celami określonymi w art. 3 i jest zgodne z art. 20 i 23.
+
+Koszty związane z taką działalnością nie kwalifikują się do wsparcia z Funduszu.
+
+6.   Przeprowadzając kwalifikujące się działanie, odbiorcy i podwykonawcy uczestniczący w działaniu mogą także współpracować z podmiotami prawnymi mającymi siedzibę poza terytorium państw członkowskich lub państw stowarzyszonych, lub kontrolowanymi przez niestowarzyszone państwo trzecie lub przez podmiot z niestowarzyszonego państwa trzeciego, w tym poprzez wykorzystywanie aktywów, infrastruktury, obiektów i zasobów takich podmiotów prawnych, pod warunkiem że nie jest to sprzeczne z interesami Unii i jej państw członkowskich w zakresie bezpieczeństwa i obrony. Współpraca taka musi przebiegać w sposób spójny z celami określonymi w art. 3 i być zgodna z art. 20 i 23.
+
+Niestowarzyszone państwo trzecie lub inny podmiot z niestowarzyszonego państwa trzeciego nie mogą uzyskać nieuprawnionego dostępu do informacji niejawnych związanych z prowadzeniem danego działania; unika się też potencjalnych negatywnych skutków, jakie dla bezpieczeństwa dostaw mogą mieć czynniki o kluczowym znaczeniu dla danego działania.
+
+Koszty związane z taką działalnością nie kwalifikują się do wsparcia z Funduszu.
+
+7.   Wnioskodawcy dostarczają wszelkie stosowne informacje niezbędne do dokonania oceny spełniania kryteriów kwalifikowalności. W przypadku zmiany wprowadzonej w trakcie przeprowadzania działania, która może budzić wątpliwości w zakresie spełniania kryteriów kwalifikowalności, dany podmiot prawny informuje o tym Komisję, która ocenia, czy kryteria kwalifikowalności są nadal spełniane, i analizuje potencjalny wpływ takiej zmiany na finansowanie danego działania.
+
+8.   Na użytek niniejszego artykułu określenie „podwykonawcy uczestniczący w działaniu” odnosi się do podwykonawców związanych bezpośrednim stosunkiem umownym z odbiorcą, innych podwykonawców, którym przydzielono co najmniej 10 % łącznych kosztów kwalifikowalnych danego działania, oraz podwykonawców, którzy mogą potrzebować dostępu do informacji niejawnych w celu przeprowadzenia działania. Podwykonawcy uczestniczący w działaniu nie są członkami konsorcjum.
+
+Artykuł 10
+
+Działania kwalifikowalne
+
+1.   Do otrzymania finansowania kwalifikują się wyłącznie działania służące realizacji celów, o których mowa w art. 3.
+
+2.   Fundusz zapewnia wsparcie dla działań obejmujących nowe produkty i technologie obronne oraz modernizację już istniejących produktów i technologii obronnych, pod warunkiem że wykorzystanie istniejących wcześniej informacji potrzebnych do przeprowadzenia danego działania służącego modernizacji nie jest objęte ograniczeniami nałożonymi przez niestowarzyszone państwo trzecie lub podmiot z niestowarzyszonego państwa trzeciego, bezpośrednio lub pośrednio, poprzez co najmniej jeden pośredniczący podmiot prawny, w taki sposób, że działanie nie może zostać przeprowadzone.
+
+3.   Działanie kwalifikowalne musi dotyczyć co najmniej jednej z poniższych rodzajów działalności:
+
+a)
+
+działalności mającej na celu stworzenie, zapewnienie podstaw i poprawę stanu wiedzy, produktów i technologii, w tym przełomowych technologii obronnych, które mogą wywrzeć istotny wpływ w obszarze obronności;
+
+b)
+
+działalności mającej na celu zwiększenie interoperacyjności i odporności, w tym chronionej produkcji i wymiany danych, opanowanie krytycznych technologii obronnych, zwiększenie bezpieczeństwa dostaw lub umożliwienie skutecznego wykorzystania rezultatów na potrzeby produktów i technologii obronnych;
+
+c)
+
+prac studyjnych, takich jak studia wykonalności w celu sprawdzenia wykonalności nowych lub ulepszonych produktów, technologii, procesów, usług i rozwiązań;
+
+d)
+
+projektu produktu obronnego, materialnego lub niematerialnego komponentu lub technologii obronnych, a także określenia specyfikacji technicznych, na podstawie których dany projekt został opracowany, wraz z częściowymi testami w zakresie zmniejszania ryzyka w środowisku przemysłowym lub reprezentatywnym;
+
+e)
+
+tworzenie prototypów systemów produktu obronnego, materialnych lub niematerialnych komponentów lub technologii obronnych;
+
+f)
+
+testowania produktu, materialnego lub niematerialnego komponentu lub technologii obronnych;
+
+g)
+
+kwalifikowania produktu obronnego, materialnego lub niematerialnego komponentu lub technologii obronnych;
+
+h)
+
+certyfikacji produktu obronnego, materialnego lub niematerialnego komponentu lub technologii obronnych;
+
+i)
+
+opracowywania technologii lub aktywów zwiększających wydajność w całym cyklu życia produktów i technologii obronnych.
+
+4.   Dane działanie jest przeprowadzane przez podmioty prawne współpracujące w ramach konsorcjum składającego się z co najmniej trzech kwalifikujących się podmiotów prawnych, które mają siedzibę w co najmniej trzech różnych państwach członkowskich lub państwach stowarzyszonych. Co najmniej trzy z tych kwalifikujących się podmiotów prawnych, które mają siedziby w co najmniej dwóch różnych państwach członkowskich lub państwach stowarzyszonych, nie mogą, w trakcie całego okresu przeprowadzania działania, być kontrolowane, bezpośrednio lub pośrednio, przez ten sam podmiot prawny, ani nie mogą kontrolować siebie nawzajem.
+
+5.   Ust. 4 nie ma zastosowania do działań związanych z przełomowymi technologiami obronnymi ani do działalności, o której mowa w ust. 3 lit. c).
+
+6.   Działania służące rozwijaniu produktów i technologii, których stosowanie, rozwój lub produkcja są zakazane na mocy mających zastosowanie postanowień prawa międzynarodowego, nie kwalifikują się do wsparcia z Funduszu.
+
+Ponadto działania służące opracowywaniu śmiercionośnej broni autonomicznej bez zapewnienia możliwości sprawowania przez człowieka znaczącej kontroli nad decyzjami w sprawie wyboru i zaatakowania celu przy przeprowadzaniu ataków na ludzi, nie kwalifikują się do wsparcia z Funduszu, bez uszczerbku dla możliwości finansowania działań służących opracowaniu systemów wczesnego ostrzegania i środków przeciwdziałania do celów obronnych.
+
+Artykuł 11
+
+Procedura selekcji i wyboru
+
+1.   Finansowanie unijne jest przyznawane na podstawie konkurencyjnych zaproszeń do składania wniosków ogłaszanych zgodnie z rozporządzeniem finansowym.
+
+W niektórych należycie uzasadnionych i wyjątkowych okolicznościach finansowanie unijne może również być przyznawane bez zaproszenia do składania wniosków zgodnie z art. 195 lit. e) akapit pierwszy rozporządzenia finansowego.
+
+2.   Komisja w drodze aktów wykonawczych przyznaje finansowanie, o którym mowa w ust. 1 niniejszego artykułu. Te akty wykonawcze przyjmowane są zgodnie z procedurą sprawdzającą, o której mowa w art. 34 ust. 2.
+
+Artykuł 12
+
+Kryteria wyboru
+
+Każda propozycja jest oceniana w oparciu o następujące kryteria:
+
+a)
+
+jej wkład w doskonałość lub potencjał dokonania przełomu w dziedzinie obronności, w szczególności przez wykazanie, że spodziewane rezultaty proponowanego działania mają istotną przewagę nad istniejącymi produktami lub technologiami obronnymi;
+
+b)
+
+jej wkład w innowacje i rozwój technologiczny europejskiego przemysłu obronnego, w szczególności poprzez wykazanie, że proponowane działanie obejmuje przełomowe lub nowatorskie koncepcje i podejścia, nowe obiecujące przyszłościowe udoskonalenia technologiczne bądź zastosowania technologii lub koncepcji wcześniej nie stosowanych w sektorze obronności, z jednoczesnym unikaniem zbędnego powielania działań;
+
+c)
+
+jej wkład w konkurencyjność europejskiego przemysłu obronnego przez wykazanie, że w wyniku proponowanego działania w oczywisty sposób zostanie osiągnięta pozytywna równowaga między opłacalnością a skutecznością, a tym samym zostaną stworzone nowe możliwości rynkowe w całej Unii i poza nią oraz zostanie przyspieszony wzrost przedsiębiorstw w całej Unii;
+
+d)
+
+jej wkład w niezależność europejskiej bazy technologiczno-przemysłowej sektora obronnego, w tym przez zwiększenie uniezależnienia od źródeł spoza Unii oraz zwiększenie bezpieczeństwa dostaw, a także wkład w interesy Unii w zakresie bezpieczeństwa i obronności zgodnie z priorytetami, o których mowa w art. 3;
+
+e)
+
+jej wkład w tworzenie nowej współpracy transgranicznej między podmiotami prawnymi mającymi siedzibę w państwach członkowskich lub państwach stowarzyszonych, w szczególności w odniesieniu do MŚP i spółek o średniej kapitalizacji w znaczącym stopniu uczestniczących w danym działaniu, w charakterze odbiorców, podwykonawców lub innych podmiotów prawnych w łańcuchu dostaw i mających siedzibę w państwach członkowskich lub państwach stowarzyszonych innych niż państwa, w których mają siedzibę podmioty prawne współpracujące w ramach konsorcjum niebędące MŚP i spółkami o średniej kapitalizacji;
+
+f)
+
+jakość i efektywność przeprowadzenia działania.
+
+Artykuł 13
+
+Stopa współfinansowania
+
+1.   Fundusz może finansować do 100 % kosztów kwalifikowalnych działalności, o której mowa w art. 10 ust. 3 niniejszego rozporządzenia, bez uszczerbku dla art. 190 rozporządzenia finansowego.
+
+2.   Na zasadzie odstępstwa od ust. 1 niniejszego artykułu:
+
+a)
+
+w odniesieniu do rodzajów działalności, o których mowa w art. 10 ust. 3 lit. e), wsparcie z Funduszu nie może przekraczać 20 % kosztów kwalifikowalnych;
+
+b)
+
+w odniesieniu do rodzajów działalności, o których mowa w art. 10 ust. 3 lit. f), g) i h), wsparcie z Funduszu nie może przekraczać 80 % kosztów kwalifikowalnych.
+
+3.   W przypadku działań rozwojowych stopy finansowania podwyższa się w następujących przypadkach:
+
+a)
+
+działanie podjęte w związku z projektem w ramach stałej współpracy strukturalnej (PESCO) ustanowionej decyzją Rady (WPZiB) 2017/2315 (25) może korzystać ze stopy finansowania podwyższonej o dodatkowe 10 punktów procentowych;
+
+b)
+
+działalność może korzystać z podwyższonej stopy finansowania, o której mowa w niniejszej literze, w przypadku gdy co najmniej 10 % łącznych kosztów kwalifikowalnych danej działalności zostało przydzielonych MŚP, które mają siedzibę w państwach członkowskich lub w państwach stowarzyszonych i które uczestniczą w danej działalności jako odbiorcy, podwykonawcy lub inne podmioty prawne w łańcuchu dostaw.
+
+Stopę finansowania można podwyższyć o ilość punktów procentowych równą odsetkowi łącznych kosztów kwalifikowalnych danej działalności przydzielonych MŚP mającym siedzibę w państwach członkowskich lub w państwach stowarzyszonych, w których odbiorcy niebędący MŚP mają siedzibę, i uczestniczącym w danej działalności jako odbiorcy, podwykonawcy lub inne podmioty prawne w łańcuchu dostaw, maksymalnie o dodatkowych 5 punktów procentowych.
+
+Stopę finansowania można podwyższyć o ilość punktów procentowych równą dwukrotności odsetka łącznych kosztów kwalifikowalnych danej działalności przydzielonych MŚP mającym siedzibę w państwach członkowskich lub w państwach stowarzyszonych innych niż państwa, w których odbiorcy niebędący MŚP mają siedzibę, i uczestniczącym w danej działalności jako odbiorcy, podwykonawcy lub inne podmioty prawne w łańcuchu dostaw;
+
+c)
+
+działalność może skorzystać ze stopy finansowania podwyższonej o dodatkowe 10 punktów procentowych, w przypadku gdy co najmniej 15 % jej łącznych kosztów kwalifikowalnych przypada na spółki o średniej kapitalizacji mające siedzibę w państwach członkowskich lub w państwach stowarzyszonych.
+
+Łączne podwyższenie stopy finansowania danej działalności na skutek zastosowania lit. a), b) i c) nie może przekraczać 35 punktów procentowych.
+
+Wsparcie z Funduszu, w tym podwyższone stopy finansowania, nie może pokrywać więcej niż 100 % kosztów kwalifikowalnych danego działania.
+
+Artykuł 14
+
+Zdolność finansowa
+
+1.   Niezależnie od art. 198 ust. 5 rozporządzenia finansowego, zdolność finansową weryfikuje się tylko w odniesieniu do koordynatora i tylko wówczas, gdy wnioskowane finansowanie z Unii wynosi co najmniej 500 000 EUR.
+
+Jeżeli istnieją jednak uzasadnione wątpliwości w odniesieniu do zdolności finansowej jednego z wnioskodawców lub koordynatora, Komisja weryfikuje również zdolność finansową wszystkich wnioskodawców i koordynatora w przypadku gdy wnioskowane finansowanie z Unii wynosi poniżej 500 000 EUR.
+
+2.   Nie weryfikuje się zdolności finansowej w odniesieniu do podmiotów prawnych, których żywotność gospodarcza jest gwarantowana przez odpowiednie organy państwa członkowskiego.
+
+3.   Jeżeli zdolność finansowa jest strukturalnie gwarantowana przez inny podmiot prawny, weryfikuje się jego zdolność finansową.
+
+Artykuł 15
+
+Koszty pośrednie
+
+1.   Na zasadzie odstępstwa od art. 181 ust. 6 rozporządzenia finansowego pośrednie koszty kwalifikowalne ustala się przez zastosowanie stawki zryczałtowanej wynoszącej 25 % łącznych kwalifikowalnych bezpośrednich kosztów działania, z wyłączeniem bezpośrednich kosztów kwalifikowalnych podwykonawstwa i wsparcia na rzecz osób trzecich oraz kosztów jednostkowych lub płatności ryczałtowych, które obejmują koszty pośrednie.
+
+2.   Alternatywnie pośrednie koszty kwalifikowalne mogą zostać ustalone zgodnie ze zwyczajową praktyką odbiorcy w zakresie księgowania kosztów na podstawie rzeczywistych kosztów pośrednich, pod warunkiem że te praktyki księgowania kosztów są akceptowane przez organy krajowe w odniesieniu do porównywalnych rodzajów działalności w dziedzinie obronności zgodnie z art. 185 rozporządzenia finansowego i zostały zgłoszone Komisji przez odbiorcę.
+
+Artykuł 16
+
+Stosowanie wkładu niepowiązanego z kosztami lub jednorazowej płatności ryczałtowej
+
+W przypadku gdy dotacja unijna współfinansuje mniej niż 50 % łącznych kosztów danego działania, Komisja może zastosować:
+
+a)
+
+albo wkład niepowiązany z kosztami, o którym mowa w art. 180 ust. 3 rozporządzenia finansowego, oparty na osiąganiu rezultatów mierzonych przez odniesienie do wcześniej ustalonych celów pośrednich lub przy użyciu wskaźników realizacji; albo
+
+b)
+
+jednorazową płatność ryczałtową, o której mowa w art. 182 rozporządzenia finansowego, opartą na tymczasowym budżecie działania, które zostało już zatwierdzone przez organy krajowe współfinansujących państw członkowskich i państw stowarzyszonych.
+
+Koszty pośrednie uwzględnia się w płatności ryczałtowej, o której mowa w akapicie pierwszym lit. b).
+
+Artykuł 17
+
+Zamówienia przedkomercyjne
+
+1.   Unia może wspierać zamówienia przedkomercyjne poprzez przyznawanie dotacji instytucjom zamawiającym lub podmiotom zamawiającym w rozumieniu dyrektyw Parlamentu Europejskiego i Rady 2014/24/UE (26) i 2014/25/UE (27), które wspólnie zamawiają usługi badawcze i rozwojowe w dziedzinie obronności lub koordynują swoje procedury udzielania zamówień.
+
+2.   Procedury udzielania zamówień, o których mowa w ust. 1:
+
+a)
+
+muszą być zgodne z niniejszym rozporządzeniem;
+
+b)
+
+mogą zezwalać na udzielenie wielu zamówień w ramach tej samej procedury (zakupy u wielu dostawców);
+
+c)
+
+zapewniają udzielenie zamówień oferentowi lub oferentom, których oferta jest najkorzystniejsza ekonomicznie, przy jednoczesnym zapewnieniu braku konfliktów interesów.
+
+Artykuł 18
+
+Fundusz gwarancyjny
+
+Z wkładów do mechanizmu wzajemnego ubezpieczenia pokrywane może być ryzyko związane z odzyskiwaniem środków należnych od odbiorców i wkłady te uznaje się za wystarczającą gwarancję zgodnie z rozporządzeniem finansowym. Zastosowanie ma art. 37 rozporządzenia (UE) 2021/695.
+
+Artykuł 19
+
+Kryteria kwalifikowalności dotyczące zamówień i nagród
+
+1.   Art. 9 i 10 stosuje się odpowiednio do nagród.
+
+2.   Na zasadzie odstępstwa od art. 176 rozporządzenia finansowego art. 9 niniejszego rozporządzenia jak również art. 10 niniejszego rozporządzenia stosuje się odpowiednio do zamówień na prace studyjne, o których mowa w art. 10 ust. 3 lit. c) niniejszego rozporządzenia.
+
+TYTUŁ II
+
+ PRZEPISY SZCZEGÓŁOWE MAJĄCE ZASTOSOWANIE DO DZIAŁAŃ BADAWCZYCH
+
+Artykuł 20
+
+Własność wyników działań badawczych
+
+1.   Wyniki działań badawczych wspieranych z Funduszu są własnością odbiorców, którzy je generują. W przypadku gdy podmioty prawne wspólnie generują wyniki i gdy nie można ustalić ich odpowiednich wkładów lub w przypadku gdy nie można wyodrębnić takich wspólnych wyników, wyniki te stanowią współwłasność danych podmiotów prawnych. Współwłaściciele zawierają umowę dotyczącą przysługujących im udziałów i warunków korzystania ze swojej współwłasności zgodnie z ich zobowiązaniami wynikającymi z umowy o udzielenie dotacji.
+
+2.   Na zasadzie odstępstwa od ust. 1, jeżeli unijnego wsparcia udziela się w formie zamówień publicznych, wyniki działań badawczych wspieranych z Funduszu są własnością Unii. Państwa członkowskie i państwa stowarzyszone korzystają – bezpłatnie i na pisemny wniosek – z praw dostępu do wyników.
+
+3.   Wyniki działań badawczych wspieranych z Funduszu nie mogą bezpośrednio lub pośrednio, poprzez co najmniej jeden pośredniczący podmiot prawny, podlegać kontroli ani ograniczeniom ze strony niestowarzyszonych państw trzecich lub podmiotów z niestowarzyszonych państw trzecich, w tym w zakresie transferu technologii.
+
+4.   Bez uszczerbku dla ust. 9 niniejszego artykułu Komisja jest uprzednio powiadamiana o każdym przypadku przeniesienia własności bądź o udzieleniu wyłącznej licencji w odniesieniu do wyników osiągniętych przez odbiorców na skutek działań badawczych wspieranych z Funduszu na rzecz niestowarzyszonego państwa trzeciego lub podmiotu z niestowarzyszonego państwa trzeciego. Jeżeli takie przeniesienie własności lub udzielenie wyłącznej licencji jest sprzeczne z interesami Unii i jej państw członkowskich w zakresie bezpieczeństwa i obronności lub z celami określonymi w art. 3, wsparcie udzielone w ramach Funduszu podlega zwrotowi.
+
+5.   Organom krajowym państw członkowskich i państw stowarzyszonych przysługuje prawo dostępu do raportów specjalnych. Takie prawo dostępu jest nieodpłatnie i jest przyznawane przez Komisję państwom członkowskim i państwom stowarzyszonym po zapewnieniu przez Komisję wprowadzenia stosownych obowiązków zachowania poufności.
+
+6.   Organy krajowe państw członkowskich i państw stowarzyszonych korzystają z raportu specjalnego wyłącznie do celów związanych z wykorzystaniem przez swoje siły zbrojne lub służby bezpieczeństwa lub służby wywiadu, bądź na rzecz tych sił lub służb, w tym w ramach ich programów współpracy. Takie wykorzystanie obejmuje między innymi prace studyjne, ewaluację, ocenę, badania, projektowanie oraz akceptację i certyfikację produktów, obsługę, szkolenia oraz wycofywanie, a także ocenę i opracowanie wymogów technicznych na potrzeby zamówień.
+
+7.   Odbiorcy nieodpłatnie przyznają unijnym instytucjom, organom lub jednostkom organizacyjnym prawo dostępu do wyników działań badawczych wspieranych z Funduszu na należycie uzasadnione potrzeby opracowania, realizacji i monitorowania istniejących polityk lub programów Unii w dziedzinach ich kompetencji. Takie prawa dostępu są ograniczone do zastosowania niekomercyjnego i niekonkurencyjnego.
+
+8.   Aby zapewnić maksymalne wykorzystanie wyników w praktyce oraz zapobiec nienależnym korzyściom, do umów o finansowaniu i umów dotyczących zamówień przedkomercyjnych włącza się postanowienia szczegółowe dotyczące własności, praw dostępu i udzielania licencji. Instytucjom zamawiającym przysługuje co najmniej nieodpłatne prawo dostępu do wyników na własny użytek oraz prawo udzielania lub wymagania od odbiorców udzielania licencji niewyłącznych osobom trzecim do celów wykorzystania wyników, na sprawiedliwych i rozsądnych warunkach, bez prawa do udzielania sublicencji. Wszystkie państwa członkowskie i państwa stowarzyszone uzyskują nieodpłatny dostęp do raportu specjalnego. Jeżeli wykonawca nie wykorzysta komercyjnie wyników w określonym, wskazanym w umowie okresie po udzieleniu zamówienia przedkomercyjnego, jest on zobowiązany do przeniesienia własności wyników na instytucje zamawiające.
+
+9.   Niniejsze rozporządzenie nie wpływa na eksport produktów, wyposażenia lub technologii obejmujących wyniki działań badawczych wspieranych z Funduszu, ani na swobodę państw członkowskich w odniesieniu do ich polityki dotyczącej eksportu produktów związanych z obronnością.
+
+10.   Jeżeli co najmniej dwa państwa członkowskie lub państwa stowarzyszone wspólnie zawarły – wielostronnie lub w ramach Unii – co najmniej jedną umowę z co najmniej jednym odbiorcą w celu dalszego wspólnego opracowania wyników działań badawczych wspieranych z Funduszu, korzystają one z prawa dostępu do tych wyników w zakresie, w jakim są one własnością takich odbiorców i są niezbędne do wykonania danej umowy lub danych umów. Takie prawa dostępu udzielane są nieodpłatnie i na podstawie szczegółowych warunków mających zapewnić, by prawa te były wykorzystywane wyłącznie na użytek danej umowy lub danych umów i by wprowadzone zostały odpowiednie obowiązki zachowania poufności.
+
+TYTUŁ III
+
+ PRZEPISY SZCZEGÓŁOWE MAJĄCE ZASTOSOWANIE DO DZIAŁAŃ ROZWOJOWYCH
+
+Artykuł 21
+
+Dodatkowe kryteria kwalifikowalności dotyczące działań rozwojowych
+
+1.   Konsorcjum wykazuje, że koszty działania, które nie są objęte unijnym wsparciem, zostaną pokryte z innych źródeł, takich jak wkłady państw członkowskich lub państw stowarzyszonych bądź współfinansowanie przez podmioty prawne.
+
+2.   Działalność, o której mowa w art. 10 ust. 3 lit. d), jest oparta na zharmonizowanych wymaganiach dotyczących zdolności obronnych uzgodnionych wspólnie przez co najmniej dwa państwa członkowskie lub państwa stowarzyszone.
+
+3.   W odniesieniu do rodzajów działalności, o których mowa w art. 10 ust. 3 lit. e)–h), konsorcjum wykazuje za pomocą dokumentów wydanych przez organy krajowe, że:
+
+a)
+
+co najmniej dwa państwa członkowskie lub państwa stowarzyszone zamierzają zamówić końcowy produkt lub wykorzystać technologię w skoordynowany sposób, w tym – w stosownych przypadkach – poprzez wspólne zamówienie;
+
+b)
+
+działalność jest oparta na wspólnych specyfikacjach technicznych uzgodnionych wspólnie przez państwa członkowskie lub państwa stowarzyszone, które mają współfinansować dane działanie lub zamierzają wspólnie zamówić dany końcowy produkt lub wspólnie wykorzystywać daną technologię.
+
+Artykuł 22
+
+Dodatkowe kryteria wyboru dotyczące działań rozwojowych
+
+Oprócz kryteriów wyboru, o których mowa w art. 12, program prac uwzględnia również:
+
+a)
+
+wkład w zwiększenie wydajności w całym cyklu życia produktów i technologii obronnych, z uwzględnieniem opłacalności i możliwości osiągania synergii w procesach zamawiania, utrzymania i wycofania;
+
+b)
+
+wkład w dalszą integrację europejskiego przemysłu obronnego w całej Unii poprzez wykazanie przez odbiorców, że państwa członkowskie zobowiązały się do wspólnego wykorzystywania – w sposób skoordynowany – produktu końcowego lub technologii końcowej, bycia właścicielami tego produktu końcowego lub technologii końcowej lub ich utrzymywania.
+
+Artykuł 23
+
+Własność wyników działań rozwojowych
+
+1.   Unia nie jest właścicielem produktów ani technologii obronnych powstałych w wyniku działań rozwojowych wspieranych z Funduszu, ani też nie przysługują jej roszczenia do własności intelektualnej w odniesieniu do wyników tych działań.
+
+2.   Wyniki działań rozwojowych wspieranych z Funduszu nie mogą podlegać kontroli ani ograniczeniom ze strony niestowarzyszonych państw trzecich lub podmiotów z niestowarzyszonych państw trzecich, bezpośrednio lub pośrednio, poprzez co najmniej jeden pośredniczący podmiot prawny, również w zakresie transferu technologii.
+
+3.   Niniejsze rozporządzenie nie wpływa na swobodę państw członkowskich w odniesieniu do ich polityki dotyczącej eksportu produktów związanych z obronnością.
+
+4.   Jeżeli chodzi o wyniki osiągnięte przez odbiorców za pomocą działań rozwojowych wspieranych z Funduszu, oraz bez uszczerbku dla ust. 3 niniejszego artykułu, Komisja jest uprzednio powiadamiana o każdym przypadku przeniesienia własności na rzecz niestowarzyszonego państwa trzeciego lub podmiotu z niestowarzyszonego państwa trzeciego. Jeżeli takie przeniesienie własności jest sprzeczne z interesami Unii i jej państw członkowskich w zakresie bezpieczeństwa i obronności lub z celami określonymi w art. 3, wsparcie udzielone w ramach Funduszu podlega zwrotowi.
+
+5.   Jeżeli unijne wsparcie ma postać zamówienia publicznego na pracę studyjną, wszystkie państwa członkowskie lub państwa stowarzyszone nieodpłatnie uzyskują, na pisemny wniosek, prawo do niewyłącznej licencji na wykorzystanie tej pracy studyjnej.
+
+TYTUŁ IV
+
+ ZARZĄDZANIE, MONITOROWANIE, EWALUACJA I KONTROLA
+
+Artykuł 24
+
+Programy prac
+
+1.   Fundusz jest wdrażany za pomocą rocznych programów prac, o których mowa w art. 110 ust. 2 rozporządzenia finansowego. W stosownych przypadkach programy prac określają całkowitą kwotę zarezerwowaną na działania łączone. Programy prac określają całkowity budżet przeznaczony na transgraniczny udział MŚP.
+
+2.   Komisja przyjmuje, w drodze aktów wykonawczych, programy prac, o których mowa w ust. 1 niniejszego artykułu. Te akty wykonawcze są przyjmowane zgodnie z procedurą sprawdzającą, o której mowa w art. 34 ust. 2.
+
+3.   W programach prac szczegółowo określa się tematy badań i kategorie działań, które mają być wspierane z Funduszu. Kategorie te muszą być zgodne z priorytetami w zakresie obronności, o których mowa w art. 3.
+
+Z wyjątkiem części programu prac poświęconej technologiom przełomowym do celów zastosowań w dziedzinie obronności, tematy badań i kategorie działań, o których mowa w akapicie pierwszym, obejmują produkty i technologie obronne w następujących dziedzinach:
+
+a)
+
+przygotowanie, ochrona, rozmieszczenie i zrównoważoność;
+
+b)
+
+zarządzanie informacjami i przewaga informacyjna oraz dowodzenie, kontrola, łączność, komputery, wywiad, obserwacja i rozpoznanie (C4ISR), cyberobrona i cyberbezpieczeństwo; oraz
+
+c)
+
+zaangażowanie i efektory.
+
+4.   W stosownych przypadkach, programy prac zawierają wymogi funkcjonalne oraz określają formę finansowania unijnego zgodnie z art. 8, nie uniemożliwiając przy tym konkurencji na poziomie zaproszeń do składania wniosków.
+
+W programach prac można również uwzględnić przełożenie wyników działań badawczych – wykazujących wartość dodaną i już wspieranych z Funduszu – na fazę rozwoju.
+
+Artykuł 25
+
+Konsultacje z kierownikiem projektu
+
+W przypadku gdy powołany został kierownik projektu, przed dokonaniem płatności Komisja konsultuje się z nim w sprawie postępów w realizacji działania.
+
+Artykuł 26
+
+Niezależni eksperci
+
+1.   Komisja powołuje niezależnych ekspertów pomagających przeprowadzaniu przeglądów i ocen pod względem etyczności zgodnie z art. 7 niniejszego rozporządzenia oraz w ewaluacji propozycji zgodnie z art. 237 rozporządzenia finansowego.
+
+2.   Niezależni eksperci, o których mowa w ust. 1 niniejszego artykułu, muszą pochodzić z jak największej liczby państw członkowskich i muszą być wybrani na podstawie zaproszeń do wyrażenia zainteresowania skierowanych do ministerstw obrony i podległych im agencji, innych stosownych organów rządowych, placówek badawczych, uczelni, stowarzyszeń przedsiębiorców lub przedsiębiorstw sektora obronności w celu stworzenia wykazu niezależnych ekspertów. Na zasadzie odstępstwa od art. 237 rozporządzenia finansowego ten wykaz niezależnych ekspertów nie jest podawany do wiadomości publicznej.
+
+3.   Dane uwierzytelniające powołanych niezależnych ekspertów muszą zostać zatwierdzone przez odpowiednie państwo członkowskie.
+
+4.   Komitet, o którym mowa w art. 34, co roku otrzymuje informacje na temat wykazu niezależnych ekspertów, aby zapewnić przejrzystość w odniesieniu do danych uwierzytelniających ekspertów. Komisja zapewnia również, by niezależni eksperci nie dokonywali ocen ani nie udzielali porad ani pomocy w sprawach, w przypadku których zachodzi konflikt interesów.
+
+5.   Niezależni eksperci wybierani są na podstawie ich umiejętności, doświadczenia i wiedzy odpowiednio do zadań, które mają być im powierzone.
+
+Artykuł 27
+
+Stosowanie przepisów dotyczących informacji niejawnych
+
+1.   W ramach zakresu stosowania niniejszego rozporządzenia:
+
+a)
+
+każde państwo członkowskie zapewnia, by stopień ochrony informacji niejawnych UE był równoważny stopniowi ochrony przewidzianemu w przepisach bezpieczeństwa Rady określonych w decyzji Rady 2013/488/UE (28);
+
+b)
+
+Komisja chroni informacje niejawne zgodnie z przepisami bezpieczeństwa określonymi w decyzji (UE, Euratom) 2015/444;
+
+c)
+
+osoby fizyczne zamieszkałe w państwie trzecim i osoby prawne mające siedzibę w państwie trzecim mogą przetwarzać informacje niejawne UE dotyczące Funduszu, wyłącznie jeżeli w tych państwach osoby te podlegają przepisom bezpieczeństwa zapewniającym stopień ochrony co najmniej równoważny stopniowi ochrony przewidzianemu przez przepisy bezpieczeństwa Komisji i Rady, określone odpowiednio w decyzji (UE, Euratom) 2015/444 i w decyzji 2013/488/UE;
+
+d)
+
+równoważność przepisów bezpieczeństwa stosowanych w państwie trzecim lub przez organizację międzynarodową określa się w umowie o bezpieczeństwie informacji, obejmującej – w stosownych przypadkach – kwestie bezpieczeństwa przemysłowego, zawieranej między Unią a takim państwem trzecim lub organizacją międzynarodową zgodnie z procedurą przewidzianą w art. 218 TFUE oraz z uwzględnieniem art. 13 decyzji 2013/488/UE; oraz
+
+e)
+
+bez uszczerbku dla art. 13 decyzji 2013/488/UE oraz przepisów w dziedzinie bezpieczeństwa przemysłowego określonych w decyzji (UE, Euratom) 2015/444, osoba fizyczna lub prawna, państwo trzecie lub organizacja międzynarodowa mogą uzyskać dostęp do informacji niejawnych UE w przypadku uznania tego za konieczne na podstawie analizy poszczególnych przypadków, stosownie do charakteru i treści takich informacji, zasady ograniczonego dostępu oraz tego, w jakim stopniu jest to korzystne dla Unii.
+
+2.   W przypadku gdy działania obejmują informacje niejawne, wymagają ich lub takie informacje zawierają, odpowiedni organ finansujący określa w dokumentach dotyczących zaproszeń do składania wniosków lub zamówień środki i wymogi niezbędne do zapewnienia bezpieczeństwa takich informacji na wymaganym poziomie.
+
+3.   Komisja tworzy zabezpieczony system wymiany w celu ułatwienia wymiany informacji wrażliwych, w tym informacji niejawnych, między Komisją i państwami członkowskimi a państwami stowarzyszonymi oraz, w stosownych przypadkach, wnioskodawcami i odbiorcami. System uwzględnia krajowe przepisy państw członkowskich dotyczące bezpieczeństwa.
+
+4.   O pochodzeniu nowych informacji niejawnych wytworzonych w trakcie przeprowadzania działania badawczego lub rozwojowego decydują państwa członkowskie, na terytorium których mają siedzibę odbiorcy. W tym celu te państwa członkowskie mogą zdecydować o szczególnych uregulowaniach w zakresie bezpieczeństwa dotyczących ochrony i przetwarzania informacji niejawnych związanych z działaniem, oraz informują o tym Komisję. Takie uregulowania w zakresie bezpieczeństwa pozostają bez uszczerbku dla możliwości uzyskania przez Komisję dostępu do informacji niezbędnych do przeprowadzenia działania badawczego lub rozwojowego.
+
+Jeżeli takie szczególne uregulowania w zakresie bezpieczeństwa nie zostały przyjęte przez te państwa członkowskie, Komisja przyjmuje uregulowania w zakresie bezpieczeństwa dla danego działania zgodnie z decyzją Komisji (UE, Euratom) 2015/444.
+
+Uregulowania w zakresie bezpieczeństwa mające zastosowanie do danego działania muszą być określone przed podpisaniem umowy o finansowaniu lub umowy.
+
+Artykuł 28
+
+Monitorowanie i sprawozdawczość
+
+1.   Wskaźniki na potrzeby sprawozdawczości dotyczącej postępów Funduszu w realizacji szczegółowych celów określonych w art. 3 ust. 2 określa załącznik.
+
+2.   Aby zapewnić skuteczną ocenę postępów w realizacji celów Funduszu, Komisja jest uprawniona zgodnie z art. 33 do przyjmowania aktów delegowanych zmieniających załącznik w odniesieniu do tych wskaźników, jeżeli uznaje się to za konieczne, oraz uzupełniających niniejsze rozporządzenie o uregulowania dotyczące monitorowania i ewaluacji.
+
+3.   Komisja regularnie monitoruje wdrażanie Funduszu oraz co roku przedkłada Parlamentowi Europejskiemu i Radzie sprawozdanie z poczynionych postępów, obejmujące również sposób uwzględnienia we wdrażaniu Funduszu zebranych doświadczeń i wniosków z realizacji Europejskiego programu rozwoju przemysłu obronnego i działania przygotowawczego w dziedzinie badań obronnych. W tym celu Komisja wprowadza niezbędne mechanizmy monitorowania.
+
+4.   System sprawozdawczości dotyczącej realizacji celów zapewnia efektywne, skuteczne i terminowe gromadzenie danych na potrzeby monitorowania realizacji Funduszu i jego rezultatów.
+
+W tym celu na odbiorców środków finansowych Unii oraz, w stosownych przypadkach, na państwa członkowskie, nakłada się proporcjonalne wymogi dotyczące sprawozdawczości.
+
+Artykuł 29
+
+Ewaluacja Funduszu
+
+1.   Ewaluacje Funduszu przeprowadza się terminowo w celu uwzględnienia ich wyników w procesie decyzyjnym.
+
+2.   Ewaluację śródokresową Funduszu przeprowadza się, gdy dostępne są wystarczające informacje na temat jego wdrożenia, jednak nie później niż cztery lata od rozpoczęcia okresu wdrażania Funduszu.
+
+Sprawozdanie z ewaluacji śródokresowej dotyczącej okresu do dnia 31 lipca 2024 r. dotyczy w szczególności:
+
+a)
+
+oceny zarządzania Funduszem, w tym w odniesieniu do:
+
+(i)
+
+przepisów dotyczących niezależnych ekspertów;
+
+(ii)
+
+wdrożenia procedur w zakresie etyki, określonych w art. 7 niniejszego rozporządzenia;
+
+b)
+
+doświadczeń i wniosków z wdrażania Europejskiego programu rozwoju przemysłu obronnego i działania przygotowawczego w dziedzinie badań obronnych;
+
+c)
+
+wskaźników wykonania;
+
+d)
+
+wyników wyboru projektów, z uwzględnieniem poziomu uczestnictwa MŚP i spółek o średniej kapitalizacji oraz stopnia ich udziału transgranicznego;
+
+e)
+
+wskaźników zwrotu kosztów pośrednich określonych w art. 15 niniejszego rozporządzenia;
+
+f)
+
+kwot przydzielonych na przełomowe technologie obronne w zaproszeniach do składania wniosków; oraz
+
+g)
+
+finansowania przyznanego zgodnie z art. 195 rozporządzenia finansowego.
+
+Ewaluacja śródokresowa zawiera również informacje na temat krajów pochodzenia odbiorców, liczby państw zaangażowanych w poszczególne projekty oraz, w miarę możliwości, na temat rozdziału powstałych praw własności intelektualnej. Komisja może przedłożyć wnioski dotyczące ewentualnych odpowiednich zmian do niniejszego rozporządzenia.
+
+3.   Po zakończeniu okresu realizacji, lecz nie później niż dnia 31 grudnia 2031 r., Komisja przeprowadzi ewaluację końcową i sporządzi sprawozdanie z wdrożenia Funduszu.
+
+Sprawozdanie z ewaluacji końcowej:
+
+a)
+
+zawiera rezultaty wdrożenia oraz, w miarę możliwości skutki Funduszu;
+
+b)
+
+jest przygotowywane na podstawie odpowiednich konsultacji z państwami członkowskimi i państwami stowarzyszonymi oraz najważniejszymi zainteresowanymi podmiotami i w szczególności zawiera ocenę postępów poczynionych w osiąganiu celów określonych w art. 3;
+
+c)
+
+pomaga wskazać dziedziny, w których Unia jest uzależniona od państw trzecich pod względem rozwoju produktów i technologii obronnych;
+
+d)
+
+obejmuje analizę transgranicznego udziału, w tym MŚP i spółek o średniej kapitalizacji, w działaniach przeprowadzonych w ramach Funduszu, a także integrację MŚP i spółek o średniej kapitalizacji w globalnym łańcuchu wartości oraz wkład Funduszu w eliminowanie braków wskazanych w Planie rozwoju zdolności; oraz
+
+e)
+
+zawiera informacje na temat krajów pochodzenia odbiorców oraz, w miarę możliwości, na temat rozdziału powstałych praw własności intelektualnej.
+
+4.   Komisja przekazuje wnioski z tych ewaluacji, opatrzone własnymi uwagami, Parlamentowi Europejskiemu, Radzie, Europejskiemu Komitetowi Ekonomiczno-Społecznemu i Komitetowi Regionów.
+
+Artykuł 30
+
+Audyty
+
+Audyty dotyczące wykorzystania wkładu Unii przeprowadzane przez osoby lub podmioty, w tym przez osoby lub podmioty inne niż te, które zostały upoważnione przez instytucje, organy lub jednostki organizacyjne Unii, stanowią podstawę ogólnej pewności zgodnie z art. 127 rozporządzenia finansowego. Trybunał Obrachunkowy kontroluje rachunki wszystkich dochodów i wydatków Unii zgodnie z art. 287 TFUE.
+
+Artykuł 31
+
+Ochrona interesów finansowych Unii
+
+W przypadku gdy państwo trzecie uczestniczy w Funduszu na podstawie decyzji przyjętej na mocy umowy międzynarodowej lub na podstawie jakiegokolwiek innego instrumentu prawnego, przyznaje ono właściwemu urzędnikowi zatwierdzającemu, OLAF i Trybunałowi Obrachunkowemu niezbędne prawa i dostęp umożliwiające tym podmiotom wykonywanie w pełni ich odpowiednich kompetencji. W przypadku OLAF takie prawa obejmują prawo do prowadzenia dochodzeń, w tym kontroli na miejscu i inspekcji, przewidzianych w rozporządzeniu (UE, Euratom) nr 883/2013.
+
+Artykuł 32
+
+Informacja, komunikacja i upublicznianie
+
+1.   Odbiorcy finansowania unijnego podają informacje o pochodzeniu tych środków oraz zapewniają eksponowanie finansowania unijnego, w szczególności podczas promowania działań i ich rezultatów, poprzez dostarczanie spójnych, skutecznych i proporcjonalnych ukierunkowanych informacji przeznaczonych dla różnych grup odbiorców, w tym dla mediów i opinii publicznej. Umowa o finansowaniu lub umowa w sprawie finansowania zawiera postanowienia dotyczące ewentualnej publikacji prac naukowych opartych na wynikach działań badawczych.
+
+2.   Komisja prowadzi działania informacyjne i komunikacyjne związane z Funduszem oraz realizowanymi w jego ramach działaniami i uzyskanymi rezultatami.
+
+Zasoby finansowe przydzielone na Fundusz przyczyniają się również do komunikacji instytucjonalnej na temat priorytetów politycznych Unii, w zakresie, w jakim priorytety te są związane z celami, o których mowa w art. 3.
+
+3.   Zasoby finansowe przydzielone na Fundusz mogą również przyczynić się do organizacji działań w zakresie upowszechniania, imprez ułatwiających nawiązywanie kontaktów i działalności mającej na celu podnoszenie świadomości, w szczególności mającej na celu otwarcie łańcuchów dostaw w celu wsparcia transgranicznego uczestnictwa MŚP.
+
+TYTUŁ V
+
+ AKTY DELEGOWANE, AKTY WYKONAWCZE, PRZEPISY PRZEJŚCIOWE I PRZEPISY KOŃCOWE
+
+Artykuł 33
+
+Wykonywanie przekazanych uprawnień
+
+1.   Powierzenie Komisji uprawnień do przyjęcia aktów delegowanych podlega warunkom określonym w niniejszym artykule.
+
+2.   Uprawnienia do przyjmowania aktów delegowanych, o których mowa w art. 28, powierza się Komisji na czas nieokreślony od dnia 12 maja 2021 r.
+
+3.   Przekazanie uprawnień, o którym mowa w art. 28, może zostać w dowolnym momencie odwołane przez Parlament Europejski lub przez Radę. Decyzja o odwołaniu kończy przekazanie określonych w niej uprawnień. Decyzja o odwołaniu staje się skuteczna następnego dnia po jej opublikowaniu w Dzienniku Urzędowym Unii Europejskiej lub w późniejszym terminie określonym w tej decyzji. Nie wpływa ona na ważność już obowiązujących aktów delegowanych.
+
+4.   Przed przyjęciem aktu delegowanego Komisja konsultuje się z ekspertami wyznaczonymi przez każde państwo członkowskie zgodnie z zasadami określonymi w Porozumieniu międzyinstytucjonalnym z dnia 13 kwietnia 2016 r. w sprawie lepszego stanowienia prawa.
+
+5.   Niezwłocznie po przyjęciu aktu delegowanego Komisja przekazuje go równocześnie Parlamentowi Europejskiemu i Radzie.
+
+6.   Akt delegowany przyjęty zgodnie z art. 28 wchodzi w życie tylko wówczas, gdy ani Parlament Europejski, ani Rada nie wyraziły sprzeciwu w terminie dwóch miesięcy od przekazania tego aktu Parlamentowi Europejskiemu i Radzie, lub gdy, przed upływem tego terminu, zarówno Parlament Europejski, jak i Rada poinformowały Komisję, że nie wniosą sprzeciwu. Termin ten przedłuża się o dwa miesiące z inicjatywy Parlamentu Europejskiego lub Rady.
+
+Artykuł 34
+
+Procedura komitetowa
+
+1.   Komisję wspomaga komitet. Komitet ten jest komitetem w rozumieniu rozporządzenia (UE) nr 182/2011.
+
+Europejska Agencja Obrony jest zapraszana do przedstawiania komitetowi swoich opinii i wiedzy fachowej jako obserwator. Europejska Służba Działań Zewnętrznych jest również zapraszana do udzielania komitetowi wsparcia.
+
+Komitet zbiera się także w specjalnych składach, między innymi w celu omówienia aspektów dotyczących obronności i bezpieczeństwa, związanych z działaniami prowadzonymi w ramach Funduszu.
+
+2.   W przypadku odesłania do niniejszego ustępu stosuje się art. 5 rozporządzenia (UE) nr 182/2011.
+
+W przypadku gdy komitet nie przedstawi opinii, Komisja nie przyjmuje projektu aktu wykonawczego i zastosowanie ma art. 5 ust. 4 akapit trzeci rozporządzenia (UE) nr 182/2011.
+
+Artykuł 35
+
+Uchylenie
+
+Rozporządzenie (UE) 2018/1092 traci moc ze skutkiem od dnia 1 stycznia 2021 r.
+
+Artykuł 36
+
+Przepisy przejściowe
+
+1.   Niniejsze rozporządzenie nie ma wpływu na kontynuację lub modyfikację działań rozpoczętych na podstawie rozporządzenia (UE) 2018/1092 lub działania przygotowawczego w dziedzinie badań obronnych, które nadal stosuje się do tych działań aż do ich zamknięcia oraz do ich wyników.
+
+2.   Z puli środków finansowych przeznaczonych na Fundusz pokrywane mogą być również wydatki na pomoc techniczną i administracyjną w celu zapewnienia przejścia między Funduszem a środkami przyjętymi na podstawie rozporządzenia (UE) 2018/1092 oraz w ramach działania przygotowawczego w dziedzinie badań obronnych.
+
+3.   W razie potrzeby w budżecie Unii obejmującym okres po dniu 31 grudnia 2027 r. mogą zostać zapisane środki na pokrycie wydatków przewidzianych w art. 4 ust. 4, aby umożliwić zarządzanie działaniami, które nie zostaną zakończone przed końcem czasu trwania Funduszu.
+
+Artykuł 37
+
+Wejście w życie i rozpoczęcie stosowania
+
+Niniejsze rozporządzenie wchodzi w życie z dniem jego opublikowania w Dzienniku Urzędowym Unii Europejskiej.
+
+Niniejsze rozporządzenie stosuje się od dnia 1 stycznia 2021 r.
+
+Niniejsze rozporządzenie wiąże w całości i jest bezpośrednio stosowane we wszystkich państwach członkowskich.
+
+Sporządzono w Brukseli dnia 29 kwietnia 2021 r.
+
+ W imieniu Parlamentu Europejskiego
+
+D. M. SASSOLI
+
+ Przewodniczący
+
+ W imieniu Rady
+
+A. P. ZACARIAS
+
+ Przewodnicząca
+
+ (1)  
+ Dz.U. C 110 z 22.3.2019, s. 75.
+
+ (2)  Stanowisko Parlamentu Europejskiego z dnia 18 kwietnia 2019 r. (dotychczas nieopublikowane w Dzienniku Urzędowym) oraz stanowisko Rady w pierwszym czytaniu z dnia 16 marca 2021 r. (dotychczas nieopublikowane w Dzienniku Urzędowym). Stanowisko Parlamentu Europejskiego z dnia 29 kwietnia 2021 r. (dotychczas nieopublikowane w Dzienniku Urzędowym).
+
+ (3)  Dyrektywa Parlamentu Europejskiego i Rady 2009/43/WE z dnia 6 maja 2009 r. w sprawie uproszczenia warunków transferów produktów związanych z obronnością we Wspólnocie (Dz.U. L 146 z 10.6.2009, s. 1).
+
+ (4)  Dyrektywa Parlamentu Europejskiego i Rady 2009/81/WE z dnia 13 lipca 2009 r. w sprawie koordynacji procedur udzielania niektórych zamówień na roboty budowlane, dostawy i usługi przez instytucje lub podmioty zamawiające w dziedzinach obronności i bezpieczeństwa i zmieniająca dyrektywy 2004/17/WE i 2004/18/WE (Dz.U. L 216 z 20.8.2009, s. 76).
+
+ (5)  Rozporządzenie Rady (UE, EURATOM) 2020/2093 z dnia 17 grudnia 2020 r. określające wieloletnie ramy finansowe na lata 2021–2027 (Dz.U. L 433I z 22.12.2020, s. 11).
+
+ (6)  Decyzja Rady 2013/755/UE z dnia 25 listopada 2013 r. w sprawie stowarzyszenia krajów i terytoriów zamorskich z Unią Europejską („decyzja o stowarzyszeniu zamorskim”) (Dz.U. L 344 z 19.12.2013, s. 1).
+
+ (7)  Rozporządzenie Parlamentu Europejskiego i Rady (UE, Euratom) 2018/1046 z dnia 18 lipca 2018 r. w sprawie zasad finansowych mających zastosowanie do budżetu ogólnego Unii, zmieniające rozporządzenia (UE) nr 1296/2013, (UE) nr 1301/2013, (UE) nr 1303/2013, (UE) nr 1304/2013, (UE) nr 1309/2013, (UE) nr 1316/2013, (UE) nr 223/2014 i (UE) nr 283/2014 oraz decyzję nr 541/2014/UE, a także uchylające rozporządzenie (UE, Euratom) nr 966/2012 (Dz.U. L 193 z 30.7.2018, s. 1).
+
+ (8)  Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2021/695 z dnia 28 kwietnia 2021 r. ustanawiające program ramowy w zakresie badań naukowych i innowacji „Horyzont Europa”, zasady uczestnictwa i upowszechniania obowiązujące w tym programie oraz uchylające rozporządzenie (UE) nr 1290/2013 i (UE) nr 1291/2013 (zob. s. 1 niniejszego Dziennika Urzędowego).
+
+ (9)  Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2018/1092 z dnia 18 lipca 2018 r. ustanawiające Europejski program rozwoju przemysłu obronnego mający na celu wspieranie konkurencyjności i zdolności innowacyjnych przemysłu obronnego Unii (Dz.U. L 200 z 7.8.2018, s. 30).
+
+ (10)  Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2021/523 z dnia 24 marca 2021 r. ustanawiające Program InvestEU i zmieniające rozporządzenie (UE) 2015/1017 (Dz.U. L 107 z 26.3.2021, s. 30).
+
+ (11)  
+ Dz.U. L 123 z 12.5.2016, s. 1.
+
+ (12)  Rozporządzenie Parlamentu Europejskiego i Rady (UE) nr 182/2011 z dnia 16 lutego 2011 r. ustanawiające przepisy i zasady ogólne dotyczące trybu kontroli przez państwa członkowskie wykonywania uprawnień wykonawczych przez Komisję (Dz.U. L 55 z 28.2.2011, s. 13).
+
+ (13)  
+ Dz.U. L 433I z 22.12.2020, s. 28.
+
+ (14)  Rozporządzenie Parlamentu Europejskiego i Rady (UE, Euratom) nr 883/2013 z dnia 11 września 2013 r. dotyczące dochodzeń prowadzonych przez Europejski Urząd ds. Zwalczania Nadużyć Finansowych (OLAF) oraz uchylające rozporządzenie (WE) nr 1073/1999 Parlamentu Europejskiego i Rady i rozporządzenie Rady (Euratom) nr 1074/1999 (Dz.U. L 248 z 18.9.2013, s. 1).
+
+ (15)  Rozporządzenie Rady (WE, Euratom) nr 2988/95 z dnia 18 grudnia 1995 r. w sprawie ochrony interesów finansowych Wspólnot Europejskich (Dz.U. L 312 z 23.12.1995, s. 1).
+
+ (16)  Rozporządzenie Rady (Euratom, WE) nr 2185/96 z dnia 11 listopada 1996 r. w sprawie kontroli na miejscu oraz inspekcji przeprowadzanych przez Komisję w celu ochrony interesów finansowych Wspólnot Europejskich przed nadużyciami finansowymi i innymi nieprawidłowościami (Dz.U. L 292 z 15.11.1996, s. 2).
+
+ (17)  Rozporządzenie Rady (UE) 2017/1939 z dnia 12 października 2017 r. wdrażające wzmocnioną współpracę w zakresie ustanowienia Prokuratury Europejskiej (EPPO) (Dz.U. L 283 z 31.10.2017, s. 1).
+
+ (18)  Dyrektywa Parlamentu Europejskiego i Rady (UE) 2017/1371 z dnia 5 lipca 2017 r. w sprawie zwalczania za pośrednictwem prawa karnego nadużyć na szkodę interesów finansowych Unii (Dz.U. L 198 z 28.7.2017, s. 29).
+
+ (19)  
+ Dz.U. L 1 z 3.1.1994, s. 3.
+
+ (20)  
+ Dz.U. L 282 z 19.10.2016, s. 4.
+
+ (21)  Wspólne stanowisko Rady 2008/944/WPZiB z dnia 8 grudnia 2008 r. określające wspólne zasady kontroli wywozu technologii wojskowych i sprzętu wojskowego (Dz.U. L 335 z 13.12.2008, s. 99).
+
+ (22)  Decyzja Komisji (UE, Euratom) 2015/444 z dnia 13 marca 2015 r. w sprawie przepisów bezpieczeństwa dotyczących ochrony informacji niejawnych UE (Dz.U. L 72 z 17.3.2015, s. 53).
+
+ (23)  Zalecenie Komisji 2003/361/WE z dnia 6 maja 2003 r. w sprawie definicji mikroprzedsiębiorstw oraz małych i średnich przedsiębiorstw (Dz.U. L 124 z 20.5.2003, s. 36).
+
+ (24)  Umowa między państwami członkowskimi Unii Europejskiej, zebranymi w Radzie, w sprawie ochrony informacji niejawnych wymienianych w interesie Unii Europejskiej (Dz.U. C 202 z 8.7.2011, s. 13).
+
+ (25)  Decyzja Rady (WPZiB) 2017/2315 z dnia 11 grudnia 2017 r. w sprawie ustanowienia stałej współpracy strukturalnej (PESCO) oraz ustalenia listy uczestniczących w niej państw członkowskich (Dz.U. L 331 z 14.12.2017, s. 57).
+
+ (26)  Dyrektywa Parlamentu Europejskiego i Rady 2014/24/UE z dnia 26 lutego 2014 r. w sprawie zamówień publicznych, uchylająca dyrektywę 2004/18/WE. (Dz.U. L 94 z 28.3.2014, s. 65).
+
+ (27)  Dyrektywa Parlamentu Europejskiego i Rady 2014/25/UE z dnia 26 lutego 2014 r. w sprawie udzielania zamówień przez podmioty działające w sektorach gospodarki wodnej, energetyki, transportu i usług pocztowych, uchylająca dyrektywę 2004/17/WE (Dz.U. L 94 z 28.3.2014, s. 243).
+
+ (28)  Decyzja Rady 2013/488/UE z dnia 23 września 2013 r. w sprawie przepisów bezpieczeństwa dotyczących ochrony informacji niejawnych UE (Dz.U. L 274 z 15.10.2013, s. 1).
+
+ZAŁĄCZNIK
+
+WSKAŹNIKI NA POTRZEBY PRZEKAZYWANIA SPRAWOZDAŃ Z POSTĘPÓW FUNDUSZU W REALIZACJI JEGO CELÓW SZCZEGÓŁOWYCH
+
+Cel szczegółowy określony w art. 3 ust. 2 lit. a):
+
+Wskaźnik 1:
+
+uczestnicy
+
+Stosowana miara:
+
+liczba uczestniczących podmiotów prawnych (podział według wielkości, rodzaju i państwa siedziby)
+
+Wskaźnik 2:
+
+badania realizowane w ramach współpracy
+
+Stosowana miara:
+
+2.1.
+
+liczba i wartość finansowanych projektów
+
+2.2.
+
+współpraca transgraniczna: udział zamówień udzielonych MŚP i spółkom o średniej kapitalizacji, z podaniem wartości zamówień udzielonych w ramach współpracy transgranicznej
+
+2.3.
+
+udział odbiorców, którzy nie prowadzili działalności badawczej o zastosowaniach w dziedzinie obronności przed dniem 12 maja 2021 r.
+
+Wskaźnik 3:
+
+produkty innowacyjne
+
+Stosowana miara:
+
+3.1.
+
+liczba nowych patentów będących wynikiem projektów wspieranych z Funduszu
+
+3.2.
+
+zagregowany rozdział patentów pomiędzy MŚP, spółki o średniej kapitalizacji i podmioty prawne niebędące ani MŚP, ani spółkami o średniej kapitalizacji
+
+3.3.
+
+zagregowany rozdział patentów w podziale na państwa członkowskie
+
+Cel szczegółowy określony w art. 3 ust. 2 lit. b):
+
+Wskaźnik 4:
+
+wspólny rozwój zdolności
+
+Stosowana miara:
+
+liczba i wartość finansowanych działań służących eliminowaniu braków w zdolnościach wskazanych w Planie rozwoju zdolności
+
+Wskaźnik 5:
+
+stałe wsparcie w całym cyklu badawczo-rozwojowym
+
+Stosowana miara:
+
+obecność – w ramach informacji wnoszonych – praw własności intelektualnej powstałych w ramach wcześniej wspieranych działań lub rezultatów osiągniętych w ramach wcześniej wspieranych działań
+
+Wskaźnik 6:
+
+tworzenie miejsc pracy/wspieranie miejsc pracy
+
+Stosowana miara:
+
+liczba wspieranych pracowników zajmujących się badaniami i rozwojem w dziedzinie obronności, w podziale na państwa członkowskie

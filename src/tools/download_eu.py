@@ -13,8 +13,8 @@ Użycie:             ./src/tools/download_eu.py              # wszystko, czego b
                     ./src/tools/download_eu.py --jobs 6     # liczba równoległych kart (domyślnie 4)
 Kolejność dla każdej pozycji: najpierw pobranie bez renderowania (żądanie HTTP z ciasteczkami przeglądarki),
 dopiero gdy odpowiedź jest pusta albo niepełna — otwarcie strony w karcie; obrazy, czcionki, CSS i analityka są blokowane.
-Wynik: src/legal/<nazwa>.html; potem ./src/tools/extract_text.py zamienia je na .txt (uszkodzone .txt są usuwane,
-żeby extract_text.py je nadpisał).
+Wynik: src/legal/eu/eu_*.html, src/legal/sn/sn_*.html, src/legal/web/web_*.html; potem ./src/tools/extract_text.py
+zamienia je na .txt (uszkodzone .txt są usuwane, żeby extract_text.py je nadpisał).
 """
 import sys, os, time, re, asyncio
 
@@ -114,10 +114,17 @@ def file_ok(path: str, needle: str = None) -> bool:
     return needle.lower() in data.lower()
 
 def state(html_path: str, needle=None) -> str:
-    txt = os.path.splitext(html_path)[0] + ".txt"
-    if file_ok(txt, needle) or file_ok(html_path, needle): return "OK"
-    if os.path.exists(txt) or os.path.exists(html_path): return "USZKODZONY"
-    return "BRAK"
+    """Stan pozycji; sprawdza też dawną płaską lokalizację w src/legal/ (pliki sprzed podziału na podkatalogi)."""
+    flat = os.path.join(LEGAL, os.path.basename(html_path))
+    found = False
+    for hp in (html_path, flat):
+        txt = os.path.splitext(hp)[0] + ".txt"
+        if file_ok(txt, needle) or file_ok(hp, needle): return "OK"
+        found = found or os.path.exists(txt) or os.path.exists(hp)
+    return "USZKODZONY" if found else "BRAK"
+
+def subdir(fn: str) -> str:
+    return {"eu": "eu", "sn": "sn", "web": "web", "pfr": "pfr"}.get(fn.split("_")[0], "")
 
 def targets():
     """Lista (klucze, ścieżka .html, adresy, opis, needle); needle=None oznacza akt UE."""
@@ -125,12 +132,12 @@ def targets():
     for celex, name, lang in EU:
         safe = celex.replace("/", "_")
         fn = f"eu_{safe}_{name}_{lang}"
-        out.append(({celex, fn}, os.path.join(LEGAL, fn + ".html"),
+        out.append(({celex, fn}, os.path.join(LEGAL, subdir(fn), fn + ".html"),
                     [f"https://eur-lex.europa.eu/legal-content/{lang}/TXT/HTML/?uri=CELEX:{celex}",
                      f"https://eur-lex.europa.eu/legal-content/{lang}/TXT/?uri=CELEX:{celex}"],
                     f"EUR-Lex {celex} ({lang})", None))
     for fn, urls, desc, needle in PAGES:
-        out.append(({fn}, os.path.join(LEGAL, fn + ".html"), urls, desc, needle))
+        out.append(({fn}, os.path.join(LEGAL, subdir(fn), fn + ".html"), urls, desc, needle))
     return out
 
 COOKIE_SELECTORS = ("button:has-text('Akceptuj')", "button:has-text('Akceptuję')", "a:has-text('Akceptuję')",
@@ -205,10 +212,13 @@ async def process(ctx, sem, out, urls, desc, needle):
             if check(html): break
     dt = time.time() - t0
     if check(html):
+        os.makedirs(os.path.dirname(out), exist_ok=True)
         with open(out, "w", encoding="utf-8") as fh: fh.write(html)
-        txt = os.path.splitext(out)[0] + ".txt"
-        if os.path.exists(txt) and not file_ok(txt, needle):
-            os.remove(txt)  # uszkodzony .txt; extract_text.py zapisze nowy
+        for d in (os.path.dirname(out), LEGAL):  # uszkodzone .txt/.html (także w dawnej płaskiej lokalizacji) do usunięcia
+            for ext in (".txt", ".html"):
+                old = os.path.join(d, os.path.splitext(base)[0] + ext)
+                if old != out and os.path.exists(old) and not file_ok(old, needle):
+                    os.remove(old)
         print(f"OK    {base}  ({len(html)//1000} kB, {dt:.0f} s)  {desc}"); return True
     snippet = strip_tags(html)[:160]
     print(f"BLAD  {base}  ({dt:.0f} s)  {desc}\n      adresy: {' | '.join(urls)}\n      odpowiedź: {len(html)} B: {snippet}"); return False

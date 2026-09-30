@@ -9,14 +9,15 @@ Użycie:             ./src/tools/pfr.py                 # strony startowe + doku
                     ./src/tools/pfr.py --list          # co zostałoby pobrane (bez pobierania dokumentów)
                     ./src/tools/pfr.py -f              # pobierz ponownie także istniejące pliki
                     ./src/tools/pfr.py --show          # z widocznym oknem przeglądarki
-Wynik: src/legal/pfr_<nazwa>.html (strony) i src/legal/pfr_<nazwa>.<pdf|docx|xlsx> (dokumenty);
+Wynik: src/legal/pfr/pfr_<nazwa>.html (strony) i src/legal/pfr/pfr_<nazwa>.<pdf|docx|xlsx> (dokumenty);
 potem ./src/tools/extract_text.py zamienia PDF, HTML i DOCX na .txt.
 """
 import sys, os, re, time, asyncio
 from urllib.parse import urljoin, urlparse, unquote
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from download_eu import LEGAL, BAD_MARKERS, strip_tags, accept_cookies, route_filter  # noqa: E402
+from download_eu import LEGAL as _LEGAL, BAD_MARKERS, strip_tags, accept_cookies, route_filter  # noqa: E402
+LEGAL = os.path.join(_LEGAL, "pfr")
 
 # strony startowe: (nazwa pliku bez rozszerzenia, adres)
 SEEDS = [
@@ -59,7 +60,13 @@ async def get_page(ctx, url: str, wait_s: int = 10) -> str:
             await page.wait_for_function("document.body && document.body.innerText.length > 1500", timeout=wait_s * 1000)
         except Exception:
             pass
-        await page.wait_for_timeout(1500)  # doładowanie list dokumentów renderowanych skryptem
+        # listy dokumentów bywają renderowane skryptem po przewinięciu: przewiń i poczekaj na linki do plików
+        try:
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            await page.wait_for_selector("a[href$='.pdf'], a[href$='.docx'], a[href$='.xlsx'], a[href*='download']", timeout=6000)
+        except Exception:
+            pass
+        await page.wait_for_timeout(1000)
         return await page.content()
     except Exception as e:
         print(f"  {url[:70]}: {str(e).splitlines()[0][:100]}"); return ""
@@ -73,19 +80,30 @@ def links(html: str, base: str):
         out.append((href, text))
     return out
 
+CT_EXT = {"application/pdf": ".pdf", "application/vnd.openxmlformats-officedocument.wordprocessingml.document": ".docx",
+          "application/msword": ".doc", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": ".xlsx",
+          "application/vnd.ms-excel": ".xls", "application/zip": ".zip"}
+
 async def save_doc(ctx, url: str, text: str, force: bool) -> str:
-    path = urlparse(url).path
-    ext = os.path.splitext(path)[1].lower()
-    name = slug(os.path.splitext(os.path.basename(path))[0] or text)
-    out = os.path.join(LEGAL, f"pfr_{name}{ext}")
-    txt = os.path.splitext(out)[0] + ".txt"
-    if not force and ((os.path.exists(out) and os.path.getsize(out) > 1000) or os.path.exists(txt)):
-        return "SKIP"
+    """Pobiera dokument; nazwę i rozszerzenie bierze z nagłówka Content-Disposition, a gdy go nie ma — z adresu i Content-Type."""
     try:
         resp = await ctx.request.get(url, timeout=120000, max_redirects=5)
         if resp.status >= 400: return f"BLAD HTTP {resp.status}"
+        cd = resp.headers.get("content-disposition", "")
+        m = re.search(r"filename\*?=(?:UTF-8\'\')?\"?([^\";]+)", cd, re.I)
+        fname = unquote(m.group(1)).strip() if m else os.path.basename(urlparse(url).path)
+        stem, ext = os.path.splitext(fname)
+        ext = ext.lower() if ext.lower() in DOC_EXT else CT_EXT.get(resp.headers.get("content-type", "").split(";")[0].strip(), "")
+        if not ext: return "BLAD nie plik (HTML?)"
+        name = slug(stem if m else (text or stem) + ("_" + stem if not m else ""))
+        if "/en/" in url.lower() and not name.endswith("_en"): name += "_en"
+        out = os.path.join(LEGAL, f"pfr_{name}{ext}")
+        txt = os.path.splitext(out)[0] + ".txt"
+        if not force and ((os.path.exists(out) and os.path.getsize(out) > 1000) or os.path.exists(txt)):
+            return "SKIP"
         body = await resp.body()
         if len(body) < 1000: return f"BLAD {len(body)} B"
+        os.makedirs(LEGAL, exist_ok=True)
         with open(out, "wb") as fh: fh.write(body)
         return f"OK {len(body)//1024} kB -> {os.path.basename(out)}"
     except Exception as e:
@@ -112,10 +130,13 @@ async def run(argv):
                 print(f"BLAD  {name}  <- {url}  ({len(html)} B)"); pages_bad += 1; continue
             if force or not os.path.exists(txt):
                 with open(out, "w", encoding="utf-8") as fh: fh.write(html)
-            print(f"OK    {name}.html  ({len(html)//1000} kB)"); pages_ok += 1
+            n_docs = len(re.findall(r"\.(pdf|docx|xlsx)", html, re.I))
+            print(f"OK    {name}.html  ({len(html)//1000} kB, linków do plików: {n_docs})"); pages_ok += 1
+            if n_docs == 0 and "dokumentacja" in name:
+                print(f"      UWAGA: brak linków do dokumentów na {url}; pobierz je ręcznie z przeglądarki do src/legal/pfr/")
             for href, text in links(html, url):
                 low = href.lower()
-                if low.endswith(DOC_EXT) or "/download" in low or "/pobierz" in low or "/files/" in low or "/uploads/" in low:
+                if low.endswith(DOC_EXT) or "/document/" in low or "/download" in low or "/pobierz" in low or "/files/" in low or "/uploads/" in low:
                     docs.setdefault(href.split("?")[0] if low.endswith(DOC_EXT) else href, text)
                 elif deep and is_pfr(href) and href not in seen_pages and any(k in low or k in text.lower() for k in PAGE_KEYS):
                     sub = "pfr_" + slug(urlparse(href).netloc.split(".")[0] + "_" + urlparse(href).path)

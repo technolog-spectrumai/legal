@@ -52,3 +52,7 @@ Pozycje nieudane są w `src/legal/BLEDY_EU.txt` z adresem do zapisania strony r�
 ./src/tools/pfr.py --deep     # dodatkowo podstrony o programach i dokumentach
 ./src/tools/extract_text.py
 ```
+
+## Układ `src/legal/` i porządek
+
+Podkatalogi: `eu/` (prawo UE), `sn/` (orzeczenia SN), `web/` (strony rynkowe), `pfr/` (PFR), akty krajowe w korzeniu. W repozytorium mają być wyłącznie pliki `.txt` (oraz `todo.md`, `MANIFEST*.txt`). `extract_text.py` uruchomiony bez argumentów robi porządek sam: usuwa pliki 0-bajtowe, przenosi katalogi `*_files` (strony zapisane z przeglądarki) do `bkp/`, zmienia nazwy stron EUR-Lex zapisanych z przeglądarki (`CELEX_…`, `OJ_L_…`, `Traktat … _ EUR-Lex.html`) na `eu_<CELEX>_<nazwa>_<JEZYK>`, konwertuje PDF/HTML/DOCX na `.txt` obok i przenosi oryginały do `bkp/` (poza repozytorium). Czego brakuje: `src/legal/todo.md`. Spostrzeżenia: `src/notatki.md`.
