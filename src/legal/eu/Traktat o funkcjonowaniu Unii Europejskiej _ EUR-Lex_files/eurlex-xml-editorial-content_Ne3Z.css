@@ -1,0 +1,610 @@
+/* To be removed/not merged, temporary solution that will be fixed with next version - hide Twitter follow me in EUR-Lex footer */
+.ecl-site-footer__section:has(a[title="X"]) {
+  display: none !important;
+}
+.shareApi {
+  display: none !important;
+}
+
+/* This file contains the styling of the editorial content located in .xml files */
+
+.emphasis-text {
+    font-weight: bold;
+    color: #087FAA;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.nowrap-text {
+    white-space: nowrap;
+}
+
+/* Used in development_2017-03.xml */
+.background-green {
+    background-color: #66cc00;
+}
+.background-yellow {
+    background-color: #ffff00;
+}
+.background-red {
+    background-color: #ff0000;
+}
+
+/* Homepage banner widget*/
+
+.homepage-banner {
+    width: 100%;
+    height: 115px;
+}
+.homepage-banner-text {
+	background: #004d99;
+    height: auto;
+    margin: 10px auto 0;
+    padding: 25px 25px 25px 25px;
+} 
+.homepage-banner a {
+    color: #f2f2f2;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 0px;
+}
+.homepage-banner a:hover, .homepage-banner a:focus {
+    color: #5B5B5B;
+    outline: medium none;
+    text-decoration: none;
+}
+p.homepage-button {
+    width:40%;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+}
+.homepage-banner i {
+    padding-left: 10px;
+    color: #f2f2f2;
+}
+
+.carouselArrow{
+	top: 20%;
+	position: relative;
+	background: none; important;
+}
+
+
+#homepageCarousel .carousel-indicators {
+    position: relative;
+    color: #868686;
+}
+
+.align-indicators {
+    text-align: left;
+    position: relative;
+    left: 25%;
+    top: 7px;
+}
+
+.labelBannerPlacement1{
+    display: inline;
+    margin-top: 14px;
+    margin-left: 5px;
+    margin-right: 30px;
+    width: 50ch;
+    position: fixed;
+    z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .labelBannerPlacement1{
+        top: 0px;
+	    left: 123px;
+	    height: 118px !important;
+	    width: inherit;
+	    max-width: 210px;	    
+	    margin: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .labelBannerPlacement1{
+        top: 0px;
+	    left: 123px;
+	    height: 118px !important;
+	    width: inherit;
+	    max-width: 210px;	    
+	    margin: 0;
+    }
+}
+
+.labelBannerPlacement2{
+    display: inline;
+    margin-top: 14px;
+    margin-left: 5px;
+    margin-right: 30px;
+    width: 50ch;
+    position: fixed;
+    z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .labelBannerPlacement2{
+        top: 0px;
+	    left: 123px;
+	    height: 118px !important;
+	    width: inherit;
+	    max-width: 210px;	    
+	    margin: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .labelBannerPlacement2{
+        top: 0px;
+	    left: 123px;
+	    height: 118px !important;
+	    width: inherit;
+	    max-width: 210px;	    
+	    margin: 0;
+    }
+}
+
+.labelBannerPlacement3{
+    display: inline;
+    margin-top: 14px;
+    margin-left: 5px;
+    margin-right: 30px;
+    width: 50ch;
+    position: fixed;
+    z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .labelBannerPlacement3{
+        top: 0px;
+	    left: 123px;
+	    height: 118px !important;
+	    width: inherit;
+	    max-width: 210px;	    
+	    margin: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .labelBannerPlacement3{
+        top: 0px;
+	    left: 123px;
+	    height: 118px !important;
+	    width: inherit;
+	    max-width: 210px;	    
+	    margin: 0;
+    }
+}
+.labelBannerPlacement4{
+    display: inline;
+    margin-top: 14px;
+    margin-left: 5px;
+    margin-right: 30px;
+    width: 50ch;
+    position: fixed;
+    z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .labelBannerPlacement4{
+        top: 0px;
+	    left: 123px;
+	    height: 118px !important;
+	    width: inherit;
+	    max-width: 210px;	    
+	    margin: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .labelBannerPlacement4{
+        top: 0px;
+	    left: 123px;
+	    height: 118px !important;
+	    width: inherit;
+	    max-width: 210px;	    
+	    margin: 0;
+    }
+}
+
+.main-img {
+  height: 250px;
+  width:100%;
+  background-image: url(images/banners/Eur_Lex_mobile_02.jpg);
+} 
+
+/* EURLEX-6075 - Accessibility - Help pages revamp - P1 (start) */
+/* E-Learning homepage banner in help page */
+#e-learning-homepage-banner {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px 0 15px;
+    text-align: center; /* THIS IS A NEW DECLARATION by GL */
+}
+
+#e-learning-homepage-banner .e-learning-link {
+	background-color: #fff; /* ADDED GL */
+	width: 100%;
+	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+}
+
+/* ADDED BY GL */
+@media (max-width: 991px) {
+   #e-learning-homepage-banner .e-learning-link {
+       background-color: #fff;
+       width: 50%;
+   }
+}
+
+.helpMainLinks {
+    margin-top: 122px !important; /* WAS 155px - NEED TO BE UPDATED IN FILE EURLEX.CSS ASAP*/
+}
+
+/* END ADDED BY GL */
+
+#e-learning-homepage-banner .e-learning-link .e-learning-img{
+	border-radius: 4px;
+}
+
+.HelpContent .menu-image-container img {
+    height: 20px;
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.HelpContent .menu-image-container img[src*="My_EUR-Lex-icon.svg"] {
+    height: 16px;
+    width: 30px;
+}
+
+.HelpContent .menu-image-container img[src*="Data_reuse-icon.svg"] {
+    height: 25px;
+    width: 25px;
+}
+/* EURLEX-6075 - Accessibility - Help pages revamp - P1 (end) */
+
+/* Used in legis/avis.xml */
+.legis-amendments {
+	font-size: 0.9em;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+.legis-codelist {
+    margin-left: 5em;
+    text-indent: -1.5em;
+}
+
+/* Used in faq/oj-series-subseries-special_edition.xml */
+.faq-oj-series-col1 {
+    width: 10em;
+}
+
+/* Used in help pages to set a reasonnable width for the first column of tables */
+.help-table-fields-col1 {
+    width: 12em;
+}
+
+/* Used in help/my-eurlex-preferences/update-website-preferences.xml */
+.help-website-prefs-col1 {
+    width: 16em;
+}
+
+/* Used in intro/old-celex.xml */
+.table-old-celex {
+    width: auto;
+}
+.table-old-celex th,
+.table-old-celex td {
+   text-align: center;
+}
+.table-old-celex td:first-child {
+   text-align: left;
+}
+.table-old-celex-code {
+    width: 4em;
+}
+.table-old-celex-doctype {
+    width: 25em;
+}
+
+/* Used in grid for summaries by topic in summaries of legislation */
+.summaryGridBox {
+    padding: 0 0.5em 0.5em 0;
+}
+.summaryGridTitle {
+    background-color: #eee;
+    font-weight: bold;
+    padding: 1em 1em 5em 1em;
+    border-style: solid;
+    border-color: #097eaa;
+    border-width: 0.05em;
+    height: 5em;
+    color: #666666;
+}
+.summaryGridTitle img {
+    float: left;
+    padding: 0 1em 2em 0;
+}
+/* Fix outline for the "summaries by topic" boxes */
+a:focus > .summaryGridTitle {
+    outline: 3px solid #ffd617;
+}
+.summaryGridBox a {
+    outline: 0 none !important;
+}
+
+/* Used in glossary entries for summaries of legislation */
+#main_menu_glossary {
+    overflow: hidden;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+#main_menu_glossary li {
+    list-style: none;
+    float: left;
+    margin-top: 0px;
+    padding: 0px;
+}
+#main_menu_glossary li a {
+    background-color: #087FAA;
+    padding: 0px 5px 0px 5px;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+#main_menu_glossary li.summary-glossary-lettergroup-start {
+    margin-left: 10px;
+}
+
+/* Prevent the right edge of tables to be hidden */
+.tableTreatiesAutomatic {
+    margin-left: 0px !important;
+}
+/* INFO and DANGER messages on Homepage */
+.homepageMessage {
+    font-size: 13px;
+    background-color: transparent;
+    border: none;
+    padding: 15px 15px 0px 15px;
+    background-position: 0 top;
+    margin-bottom: 0px;
+}
+/* Change Bootstrap default colour for warning messages */
+.alert-warning {
+    color: #801515;
+}
+.userMsgSimple {
+    font-size: 0.9em;
+    background-color: transparent;
+    border: none;
+    padding: 0 0 0 20px;
+    background-position: 0 top;
+}
+@media screen and (max-width: 991px) {
+    .homepageMessage {
+        padding: 15px
+    }
+}
+
+/* Addition for treaties tables */
+.maybehiddenTreatiesAutomatic {
+    color: #00CC00;
+    font-weight: bolder;
+    visibility : hidden; display: none;
+}
+.treaties-table-column1 {
+    width: 65%;
+}
+.screenreaderNoDisplay {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+.link-treaty-article {
+    border: 1px solid;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 4px 3px;
+    min-width: 34px;
+    text-align: center;
+}
+.treatiesTableMobile {
+    white-space: normal;
+}
+
+/* UPPERCASE transform rule for QS button and MENU button */
+.QuickSearchBtn {
+    text-transform: uppercase;
+}
+#EurlexNavBtn {
+    text-transform: uppercase;
+}
+
+/* Video container for embedded videos */
+.video-container,
+.video-script-container {
+    margin-bottom: 10px;
+}
+
+/* Used to change to link color languages acronyms in doc page */
+.PubFormat .PubFormatVIEW > li > a { color:#0e47cb !important;}
+.homepage-banner a {
+  width: 100%;
+  height: 115px; 
+}
+
+/* Banner's label type */
+#homepageCarousel div.homepage-banner a div p {
+    font-size: 23px;
+    color: white;
+    max-height: 20px;
+    width: 665px;
+
+    min-width: 1ch;    
+    max-width: 50ch;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+/* one line banner */
+#homepageCarousel div.homepage-banner a div p:only-of-type {
+    min-height: 60px;
+}
+
+#homepageCarousel div.homepage-banner a label {
+    width: fit-content;
+    height: 18px;
+    font-size: 16px;
+    color: white;
+}
+
+.homepage-banner a img {
+    width: 115px;
+    min-width: 115px;
+    max-width: 115px;
+    
+    height: 115px;
+    min-height: 115px;
+    max-height: 115px;
+    
+	margin-left: 30px;
+	display: inline;
+}
+
+/* Bring new banner transparent main icon in the front to not be hidden by the background color */
+.homepage-banner a img,
+#homepageCarousel div.carousel-inner a.left.carousel-control img,
+#homepageCarousel div.carousel-inner a.right-arrow.carousel-control img {
+    position: relative;
+    z-index: 1;
+}
+
+/* Banner type: Law in focus banner */
+.homepage-banner .icon-1 {
+    background-color: #1971a1;
+}
+.homepage-banner .icon-1:after {
+    background-color: #176793 !important;
+}
+#homepageCarousel .arrow-1-slide:after {
+    background-color: #145B81;
+}
+
+/* Banner type: Rediscover EUR-Lex */
+.homepage-banner .icon-2 {
+    background-color: #2C862D;
+}
+.homepage-banner .icon-2:after {
+    background-color: #287928 !important;
+}
+#homepageCarousel .arrow-2-slide:after {
+    background-color: #1F5E00;
+}
+
+/* Banner type: What's new? */
+.homepage-banner .icon-3 {
+    background-color: #76017a;
+}
+.homepage-banner .icon-3:after {
+    background-color: #641B62 !important;
+}
+#homepageCarousel .arrow-3-slide:after {
+    background-color: #451244;
+}
+
+/* Banner type: Word of the week */
+.homepage-banner .icon-4 {
+    background-color: #DA3510;
+}
+.homepage-banner .icon-4:after {
+    background-color: #CB310F !important;
+}
+#homepageCarousel .arrow-4-slide:after {
+    background-color: #9E270C;
+}
+
+
+
+
+/* Transition state arrows from one slide to the other */
+#homepageCarousel .sliding:after {
+    background-color: inherit !important;
+}
+
+@media screen and (max-width: 991px) {
+    .homepage-banner a {
+      height: 115px; 
+    }
+    
+    #homepageCarousel div.homepage-banner a div p {
+        font-size: 23px;
+        color: white;
+        max-height: 20px;
+        width: 665px;
+        
+        min-width: 1ch;    
+        max-width: 50ch;
+        
+        display: flex;
+        align-items: center;
+        text-align: justify;
+    }
+}
+
+/* Mobile version */
+@media screen and (max-width: 767px) {
+
+    #homepageCarousel div.homepage-banner a div p {
+        font-size: 14px;
+        width: inherit;
+        line-height: 1.07;
+    }
+    
+    .carousel-inner,
+    .carousel-inner .active,
+    .homepage-banner,
+    .homepage-banner a {
+        height: 118px;
+    }
+
+    .left.carousel-control,
+    .right-arrow.carousel-control {
+        background-color: transparent;
+        z-index: 1;
+        padding-top: 118px !important;
+    }
+    
+    .homepage-banner a img {
+        margin-left: 0px;
+        
+        width: 118px;
+        min-width: 118px;
+        max-width: 118px;
+        
+        height: 118px;
+        min-height: 118px;
+        max-height: 118px;
+    }
+
+    #homepageCarousel .left.carousel-control:after,
+    #homepageCarousel .right-arrow.carousel-control:after {
+    	background-color: transparent !important;
+    }
+
+
+
+}
