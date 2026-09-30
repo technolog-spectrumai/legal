@@ -90,7 +90,65 @@ Polski rynek używa tego samego słownika, ale osadza go w KSH: umowa inwestycyj
 
 ---
 
-## 5. Mapowanie oczekiwań na projekt umowy
+## 5. Polskie VC a światowe VC: różnice, które widać w dokumentach
+
+| Wymiar | Fundusze polskie (PFR, ASI, aniołowie) | Fundusze światowe (USA, UK, DACH, Nordics) | Skutek dla Basiliska |
+|---|---|---|---|
+| Źródło kapitału i jego warunki | większość kapitału publiczna (PFR Ventures, BGK/FENG, EIF); umowa z PFR narzuca funduszowi warunki, które fundusz przenosi na spółkę: „Polish nexus”, MŚP, limity ticketów, sektory wykluczone, raportowanie, brak powiązań, zakaz inwestycji w spółkę już finansowaną z tego samego programu w niedozwolony sposób **[W]** | kapitał prywatny (LP instytucjonalni, family offices, fundusze funduszy); wymogi LP dotyczą ESG, sankcji, wykluczeń (broń kontrowersyjna), rzadziej lokalizacji spółki **[W]** | polski fundusz zapyta o siedzibę i zespół w Polsce; fundusz zagraniczny o strukturę (flip) i o to, czy broń autonomiczna nie jest na jego liście wykluczeń |
+| Forma dokumentów | umowa inwestycyjna po polsku pod prawem polskim + zmiana umowy spółki u notariusza; term sheet niewiążący poza poufnością, wyłącznością i kosztami | term sheet wzorcowy (NVCA, BVCA, Series Seed), potem SPA, IRA, ROFR/co-sale, voting agreement, statut z klasami akcji; po angielsku; arbitraż lub sąd Delaware/Anglii **[W]** | dwie warstwy dokumentów; polska umowa spółki zostaje pod prawem polskim, umowa inwestycyjna może być angielska |
+| Rodzaj akcji | często akcje/udziały zwykłe z prawami osobistymi w umowie spółki; uprzywilejowanie co do likwidacji w sp. z o.o. bywa zastępowane umownym waterfall | zawsze osobna klasa preferred z prawami w statucie | P.S.A. pozwala na klasę preferred jak na Zachodzie (art. 300²⁵–300²⁶ KSH — numery do sprawdzenia) |
+| Preferencja likwidacyjna | 1× non-participating jako norma, ale participating spotykane częściej niż na Zachodzie na etapie seed **[W]** | 1× non-participating; participating tylko w trudnym rynku **[Z]** co do standardu USA | umowa dopuszcza 1× NP bez odrębnej uchwały (§ 32 ust. 4 lit. a); participating wymaga uchwały 75 % |
+| Vesting założycieli | reverse vesting z opcją call i pełnomocnictwem; bad leaver po cenie nominalnej także dla akcji nabytych bywa żądany **[W]** | 4 lata / 1 rok cliff, nabyte zostają u założyciela zawsze; bad leaver dotyczy tylko nienabytych (USA) albo nabytych po niższej z cen (UK) **[W]** | § 10 jest bliżej standardu UK; polski fundusz może chcieć ostrzej |
+| Kary umowne i zabezpieczenia | powszechne: kary za naruszenie zakazu konkurencji, poufności, obowiązku informacyjnego; weksle i poręczenia założycieli zdarzają się w starszych umowach **[W]** | kary umowne rzadkie (w USA nieegzekwowalne jako penalty); zabezpieczenia osobiste założycieli nietypowe **[W]** | odrzucać poręczenia osobiste; kary tylko wzajemne i limitowane |
+| Zgoda inwestora | katalog spraw zastrzeżonych dla inwestora często szeroki, obejmujący sprawy operacyjne (zatrudnienie, umowy powyżej progu, zmiana wynagrodzeń) **[W]** | protective provisions ograniczone do spraw strukturalnych; operacyjne przez radę **[W]** | bronić katalogu § 25 jako maksimum; sprawy operacyjne do Rady z obserwatorem |
+| Rada | rada nadzorcza z członkiem inwestora (sp. z o.o.) albo Rada Dyrektorów; obserwator rzadziej **[W]** | board seat dla lidera, obserwator dla mniejszych, niezależny członek | § 21 ust. 3 (Kryterium wobec dyrektora) do złagodzenia dla dyrektora inwestora |
+| Exit | zobowiązanie do wspólnej sprzedaży po 5–7 latach, „prawo do zorganizowania sprzedaży” z doradcą; opcja put wobec założycieli sporadycznie **[W]** | drag po okresie, registration rights (USA), IPO ratchet; redemption rzadko wykonywane **[W]** | § 16 wymaga uzupełnienia o prawa inwestora niezależnie od pochodzenia funduszu |
+| Szybkość i due diligence | 2–4 miesiące; badanie prawne skupione na IP, umowach z założycielami, dotacjach i ich trwałości **[W]** | 4–10 tygodni przy standardowych dokumentach; due diligence eksportowe i sankcyjne głębsze u funduszy z USA **[W]** | data room według sekcji 10 (checklista) |
+| Podatki inwestora | ulga dla inwestujących w ASI; PCC od zmiany umowy | QSBS (USA), EIS/SEIS (UK) niedostępne dla polskiej spółki bez flipu **[W]** | argument funduszy brytyjskich i amerykańskich za flipem |
+
+---
+
+## 6. Fundusze obronne i dual-use a zwykłe VC
+
+„Fundusze obronne” to tu: NATO Innovation Fund, fundusze z programów PFR Deep Tech z komponentem obronnym (np. Expeditions, Balnord), fundusze korzystające z kapitału EIF/EDF/EUDIS, korporacyjne VC producentów uzbrojenia oraz fundusze specjalistyczne (dual-use, security). „Zwykłe VC” to fundusze generalistyczne i deep tech bez mandatu obronnego.
+
+| Obszar | Fundusze obronne / dual-use | Zwykłe VC | Umowa Basiliska |
+|---|---|---|---|
+| Struktura właścicielska spółki | wymóg siedziby i kontroli w państwach NATO (NIF) albo UE/stowarzyszonych (EDF art. 9); badają łańcuch kontroli spółki, akceptują ograniczenia zbywalności wobec podmiotów spoza sojuszu i sami je proponują **[Z]** co do NIF/EDF, **[W]** co do praktyki | brak wymogów; ograniczenia zbywalności traktują jako obniżenie płynności i ryzyko dla wyjścia | Kryterium § 11 jest atutem wobec pierwszej grupy, kosztem wobec drugiej |
+| Struktura właścicielska funduszu | sami przechodzą podobne testy (LP z państw sojuszniczych, brak kapitału z państw wrogich); potrafią złożyć oświadczenie o kontroli i beneficjentach zarządzającego, ale nie ujawnią wszystkich LP **[W]** | LP z całego świata, w tym Zatoka, Azja; oświadczenia ograniczone do sankcji i AML **[W]** | § 11 ust. 14 w wersji uszczelnionej potrzebny dla obu grup, ale z różnych powodów |
+| Kontrola eksportu i klasyfikacja | wymagają klasyfikacji produktów i programu zgodności przed inwestycją; fundusz z USA sprawdza ITAR/EAR i OISP **[Z]** co do OISP | pytają dopiero, gdy pojawi się klient spoza UE | § 28 i bramka G2 gotowe; klasyfikacja produktów do zrobienia |
+| Klienci i end-use | akceptują sprzedaż do sił zbrojnych; wymagają polityki eksportowej i zakazu sprzedaży do państw objętych embargiem; niektóre wykluczają broń autonomiczną bez nadzoru człowieka (LAWS) **[W]** | część funduszy ma w umowie z LP wykluczenie „broni i amunicji” — nie zainwestuje w wariant wojskowy, a czasem nawet w dual-use **[W]** | § 3 ust. 3 (zastosowania) i § 28 ust. 3 (zakazy) czytać razem z listą wykluczeń funduszu |
+| Horyzont i płynność | dłuższy horyzont (10–15 lat), akceptacja przychodów z grantów i kontraktów rządowych, tolerancja dla braku „venture-scale” exitu; NIF inwestuje do 15 mln EUR **[Z]** | 7–10 lat, oczekiwanie szybkiego wzrostu i rundy w 18–24 miesiące | § 34 ust. 2 (reinwestycja) i profil produkcyjny (Załącznik nr 12 wcześniejszych wersji) pasują do pierwszej grupy |
+| Informacje niejawne | rozumieją, że raporty dla inwestora nie mogą zawierać informacji niejawnych; akceptują ograniczone prawa informacyjne po uzyskaniu świadectwa bezpieczeństwa przemysłowego **[W]** | pełne prawa informacyjne bez wyjątków | prawa informacyjne w rundzie z klauzulą „w granicach prawa i klauzul niejawności” |
+| Kadra | akceptują wymóg obywatelstwa dla dyrektorów (§ 21 ust. 3), bo znają go z koncesji i poświadczeń | traktują jak ograniczenie rekrutacji | wyjątek za zgodą WZ rozwiązuje obie sytuacje |
+| Wyjście | częściej sprzedaż do koncernu obronnego lub integratora (podlega kontroli inwestycji, koncesji, zgodom MON/NATO); IPO rzadziej | sprzedaż strategiczna albo IPO bez ograniczeń | § 16 (drag) musi uwzględniać, że nabywca przechodzi weryfikację § 11 i § 28; harmonogram wyjścia dłuższy |
+| Współfinansowanie publiczne | oczekują i pomagają uzyskać EDF, EDIP, DIANA, granty krajowe; wymagają, aby struktura nie zamykała tych ścieżek (kontrola UE/EOG) | neutralne; granty widzą jako „nierozwadniający kapitał” bez wpływu na dokumenty | warunki z `regulations.md` 3a w umowie akcjonariuszy (D6) |
+
+---
+
+## 7. Sprzeczności między wymaganiami różnych funduszy i rodzajów finansowania
+
+Poniżej wymagania, które nie dają się spełnić jednocześnie, oraz sposób, w jaki umowa i dokumenty rundy mogą je pogodzić albo który wybór trzeba świadomie podjąć.
+
+| Sprzeczność | Strona A | Strona B | Jak pogodzić / co wybrać |
+|---|---|---|---|
+| Kontrola przez podmiot z NATO spoza UE | fundusz z USA lub UK z pakietem kontrolnym (dopuszczalny według Kryterium) | EDF, AGILE, EUDIS: brak kontroli przez państwo niestowarzyszone (art. 9 rozporządzenia 2021/697); PFR: polska spółka | nie zawężać Kryterium; w umowie akcjonariuszy klauzula: dopóki Spółka korzysta z EDF/AGILE/EUDIS, akcjonariusze spoza UE/EOG nie uzyskują kontroli ani weta; przy rundzie z takim funduszem świadomy wybór programu albo inwestora (D6) |
+| Look-through inwestorów funduszu | Kryterium § 11 ust. 6 lit. b: beneficjenci rzeczywiści muszą spełniać Kryterium | fundusze (obronne i zwykłe): brak ujawnienia LP; fundusze obronne same mają LP tylko z NATO, ale nie pokażą listy | § 11 ust. 14: test na poziomie zarządzającego, siedziby i kontroli + oświadczenie funduszu; look-through tylko dla inwestora z ≥ 25 % udziałów w funduszu (próg jak w AML) |
+| Ograniczenia zbywalności | fundusze obronne, koncesja, programy: ograniczenia wobec podmiotów spoza sojuszu | zwykłe VC i wtórny rynek: swoboda wyjścia, permitted transfers, brak ROFR wobec inwestora | ograniczenia zostają, ale z „przeniesieniami dozwolonymi” w grupie funduszu i ścieżką wyjścia za Wartość Godziwą (wariant A); wariant B jest z tą grupą nie do pogodzenia bez wentyla |
+| Flip do Delaware/UK | fundusze z USA/UK: holding za granicą, IP w holdingu | PFR/FENG: polska spółka i IP w Polsce; EDF: infrastruktura i zarząd w UE; kontrola eksportu: przeniesienie IP poza UE to eksport technologii | jeżeli flip, to tylko do UE/EOG (np. Holandia, Estonia) i z IP pozostawionym w polskiej spółce operacyjnej; decyzja D1 przed rundą, nie w rundzie |
+| Preferencja likwidacyjna a granty | inwestor: 1× NP, w kryzysie participating | granty (EIC, SMART, EDF): brak wpływu, ale kontrakty rządowe i offset wymagają stabilnej struktury właścicielskiej i zakazują „zmiany kontroli” bez zgody zamawiającego | preferencja nie koliduje; klauzule change-of-control w kontraktach obronnych trzeba wpisać do listy warunków drag-along (§ 16 ust. 2) |
+| Prawa informacyjne | zwykłe VC: pełne prawa, inspekcja, dostęp do danych | informacje niejawne, ITAR, umowy z MON: zakaz ujawniania; § 27 ust. 6: dostęp spoza UE/NATO za zgodą | prawa informacyjne „w granicach prawa”; obserwator inwestora musi spełniać wymogi dostępu; fundusz z USA i dane ITAR to osobny reżim |
+| Broń autonomiczna | fundusze obronne: akceptują, część wyklucza LAWS | zwykłe VC z wykluczeniem „broni i amunicji” w umowie z LP; ESG | § 3 ust. 3 i § 28 to wewnętrzne ramy; polityka „nadzoru człowieka” (human-in/on-the-loop) przyjęta przez Radę jako dokument pokazywany obu grupom |
+| Venture debt i finansowanie dłużne | banki i fundusze dłużne: zabezpieczenie na IP, kowenanty, warranty | § 31 ust. 4: zabezpieczenie na Kluczowej IP i warranty wymagają uchwały WZ 75 %; inwestor equity: zakaz obciążania IP bez jego zgody; programy obronne: IP w UE | § 31 ust. 4 zostaje (uchwała 75 % jako bramka), ale w umowie akcjonariuszy ustalić z góry dopuszczalny zakres zabezpieczeń dla venture debt (np. zastaw na udziałach w SPV, nie na IP) |
+| Tempo rundy | fundusze zagraniczne: closing w tygodnie, dokumenty angielskie | P.S.A.: akt notarialny, wpis emisji do KRS (akcje powstają z wpisem), tłumaczenia | rachunek escrow i podpisanie umowy objęcia przed wpisem; przygotowanie tłumaczenia roboczego umowy przed rundą |
+| ESOP | inwestor: pula 10–15 % w pre-money, rozwodnienie po stronie założycieli | fundusze obronne i granty: neutralne; podatki P.S.A. dla B2B niejasne (T9 memorandum) | pula § 8 już istnieje; kwestia, kto ponosi rozwodnienie, tylko w term sheet |
+| Kontrola inwestycji (FDI) | inwestor spoza UE: chce closingu bez czekania na organ | ustawa o kontroli niektórych inwestycji: zgłoszenie przed nabyciem znaczącego uczestnictwa w podmiocie chronionym; § 12 ust. 2 lit. e | warunek zawieszający w umowie inwestycyjnej; harmonogram uwzględnia termin organu |
+| Zakaz konkurencji założycieli | inwestor: 24 miesiące, szeroki zakres, kary | prawo pracy (odszkodowanie), fundusze obronne bez specjalnych wymagań, założyciele: zdolność do pracy naukowej | § 29 ust. 3 (maks. 12 miesięcy po odejściu) jako granica; dłuższy zakaz tylko za odszkodowaniem w umowie akcjonariuszy |
+
+Wniosek: najgłębsze sprzeczności dotyczą trzech decyzji, które trzeba podjąć przed rundą, a nie w jej trakcie: (1) czy Spółka chce być kwalifikowalna do EDF/AGILE (wtedy kontrola zostaje w UE/EOG i fundusz z USA/UK może być tylko mniejszościowy), (2) czy dopuszcza flip (wtedy tylko do UE/EOG), (3) czy dopuszcza inwestora, który wyklucza zastosowania wojskowe (wtedy wariant obronny musi być w osobnej spółce celowej z § 33). Umowa w obecnym kształcie nie zamyka żadnej z tych dróg, ale też nie rozstrzyga; rozstrzygnięcie należy do Założycieli (decyzje D1, D6).
+
+
+## 8. Mapowanie oczekiwań na projekt umowy
 
 Oznaczenia stanu: **OK** — projekt spełnia standard; **CZ** — spełnia częściowo, do doprecyzowania; **BRAK** — nie ma, dodać w rundzie albo przed nią; **KOL** — koliduje ze standardem, do negocjacji.
 
@@ -122,7 +180,7 @@ Oznaczenia stanu: **OK** — projekt spełnia standard; **CZ** — spełnia czę
 | Antyrozwodnienie BBWA | § 32 ust. 4 lit. b | OK | mechanika emisji dodatkowych akcji wymaga uchwał 75 % i 4/5; zobowiązanie do głosowania z § 32 ust. 3 (pytanie 3.3.1) |
 | Zobowiązanie do głosowania za rundą | § 32 ust. 3 | CZ | skuteczność wobec akcjonariuszy do potwierdzenia; fundusz zażąda tego samego w umowie akcjonariuszy z karą umowną **[W]** |
 | Instrumenty zamienne (SAFE, pożyczka) | § 31 ust. 4 | OK | uchwała 75 % jako Sprawa Zastrzeżona; konwersja to emisja z prawem poboru do wyłączenia (`emisja/inwestor.md` sekcja 4) |
-| Zakaz finansowania przez podmioty spoza Kryterium | § 31 ust. 3 | CZ | fundusze akceptują; banki i leasingodawcy spoza UE/NATO są rzadkością; venture debt z USA wymaga wyjątku **[W]** |
+| Ograniczenia finansowania | § 31 ust. 3–4, § 11 ust. 13 | OK | ust. 3 odsyła do testu Dopuszczalnego Nabywcy (sankcje), nie do Kryterium, więc venture debt spoza UE/NATO nie jest zakazany; Kryterium działa dopiero przy prawach do akcji (§ 11 ust. 13); zabezpieczenie na IP i warranty wymagają uchwały 75 % (ust. 4) — fundusz to zaakceptuje, ale zakres zabezpieczeń dla venture debt warto ustalić z góry w umowie akcjonariuszy **[W]** |
 | Zakaz konkurencji założycieli | § 29 ust. 1–3 | CZ | po odejściu tylko na podstawie odrębnej umowy (umowa akcjonariuszy § Zakaz konkurencji); fundusz oczekuje 12–24 miesięcy i kar umownych |
 | Transakcje z podmiotami powiązanymi | § 29–30 | CZ | § 30 „[WYMAGA OPINII PRAWNIKA]”: fundusz zażąda zgody inwestora powyżej progu i pełnego ujawnienia |
 | IP w spółce | § 7, § 26 | CZ | warunek zawieszający rundy: podpisane umowy przeniesienia praw od wszystkich Założycieli, pracowników i B2B (etap B, `krs/przeniesienie_praw.tex` w `plan_prac.md`) |
@@ -136,7 +194,7 @@ Oznaczenia stanu: **OK** — projekt spełnia standard; **CZ** — spełnia czę
 
 ---
 
-## 6. Zalecenia: przed rundą i w rundzie
+## 9. Zalecenia: przed rundą i w rundzie
 
 **Przed rundą (etap A i B z `plan_prac.md`), w umowie spółki:**
 
@@ -153,14 +211,14 @@ Oznaczenia stanu: **OK** — projekt spełnia standard; **CZ** — spełnia czę
 
 ---
 
-## 7. Co fundusz sprawdzi w due diligence i gdzie to jest w repozytorium
+## 10. Co fundusz sprawdzi w due diligence i gdzie to jest w repozytorium
 
 | Pytanie inwestora | Dokument |
 |---|---|
 | Kto ma jakie akcje, po jakiej cenie, za jaki wkład | `psa.tex` § 5–7, Załącznik nr 1 |
 | Czy IP należy do spółki | § 26, umowy przeniesienia praw (do przygotowania), Załącznik nr 3 (licencje OSS, prawa osób trzecich) |
 | Czy założyciele mają vesting i jak jest wykonywany | § 10, Załącznik nr 2, umowa wykonawcza (`shareholder_agreement.tex`) |
-| Kto może kupić akcje i jak wychodzi inwestor | § 11–16, `vc.md` sekcja 5 |
+| Kto może kupić akcje i jak wychodzi inwestor | § 11–16, `vc.md` sekcja 8 |
 | Jak spółka podejmuje decyzje | § 21–25, `extra.tex` Dokument nr 3, regulamin Rady (do przygotowania) |
 | Zgodność eksportowa i sankcyjna, klasyfikacja produktów | § 27–28, `regulations.md`, program zgodności (do przygotowania) |
 | Podatki ESOP i aportu | `extra.tex` Dokument nr 6, interpretacja indywidualna (pkt 27) |
@@ -169,7 +227,7 @@ Oznaczenia stanu: **OK** — projekt spełnia standard; **CZ** — spełnia czę
 
 ---
 
-## 8. Źródła sprawdzone 30 września 2026 r.
+## 11. Źródła sprawdzone 30 września 2026 r.
 
 - NVCA, aktualizacja dokumentów wzorcowych z 2 października 2025 r.: https://nvca.org/press_releases/nvca-releases-2025-updates-to-model-legal-documents/ ; omówienia: https://natlawreview.com/article/breaking-down-october-2-2025-nvca-updates-model-legal-documents-what-founders-and ; https://www.foley.com/insights/publications/2025/10/breaking-down-the-nvca-what-founders-and-vcs-need-to-know/
 - Preferencja likwidacyjna, standard 1× non-participating: https://www.hustlefund.vc/post/angel-squad-liquidation-preference-the-term-sheet-clause-that-actually-matters ; https://www.morse.law/news/liquidation-preference/
