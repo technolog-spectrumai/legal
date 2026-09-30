@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Wyciąga tekst z plików PDF (i HTML) w katalogu src/ i zapisuje obok jako .txt.
+"""Wyciąga tekst z plików PDF, HTML i DOCX w katalogu src/legal/ i zapisuje obok jako .txt.
 
 Użycie:  ./src/tools/extract_text.py            # wszystkie *.pdf, *.html, *.htm, *.xhtml w src/
          ./src/tools/extract_text.py plik.pdf   # wybrane pliki
@@ -15,7 +15,7 @@ from html.parser import HTMLParser
 
 SRC = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "legal")  # katalog src/legal/
 BKP = os.path.join(SRC, "bkp")
-EXTS = ("pdf", "html", "htm", "xhtml")
+EXTS = ("pdf", "html", "htm", "xhtml", "docx")
 
 def pdf_to_text(path):
     if shutil.which("pdftotext"):
@@ -50,6 +50,20 @@ class _Text(HTMLParser):
             self.out.append("\n")
     def handle_data(self, data):
         if not self.skip: self.out.append(data)
+
+def docx_to_text(path):
+    """DOCX bez zależności: word/document.xml z archiwum ZIP, akapity i komórki tabel jako linie."""
+    import zipfile
+    with zipfile.ZipFile(path) as z:
+        xml = z.read("word/document.xml").decode("utf-8", "replace")
+    xml = re.sub(r"<w:tab/>", "\t", xml)
+    xml = re.sub(r"<w:(br|cr)/>", "\n", xml)
+    xml = re.sub(r"</w:p>", "\n", xml)
+    xml = re.sub(r"</w:tc>", "\t", xml)
+    t = html.unescape(re.sub(r"<[^>]+>", "", xml))
+    t = re.sub(r"[ \t]+\n", "\n", t)
+    t = re.sub(r"\n\s*\n+", "\n\n", t)
+    return t.strip() + "\n", "zipfile"
 
 def html_to_text(path):
     raw = open(path, "rb").read()
@@ -89,7 +103,8 @@ def main(argv):
                 print(f"BKP   {base}  (.txt aktualny, oryginał -> bkp/)")
             skip += 1; continue
         try:
-            text, tool = pdf_to_text(f) if f.lower().endswith(".pdf") else html_to_text(f)
+            low = f.lower()
+            text, tool = pdf_to_text(f) if low.endswith(".pdf") else docx_to_text(f) if low.endswith(".docx") else html_to_text(f)
             if not text.strip():
                 raise RuntimeError("pusty wynik ekstrakcji (skan bez warstwy tekstowej?)")
             if not in_bkp:

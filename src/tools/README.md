@@ -31,10 +31,24 @@ pip install playwright && python -m playwright install chromium
 ./src/tools/download_eu.py --list    # stan każdej pozycji: OK / USZKODZONY / BRAK
 ./src/tools/download_eu.py           # pobiera brakujące i uszkodzone; --show pokazuje okno, gdy trzeba kliknąć zgodę
 ./src/tools/download_eu.py -f        # pobiera ponownie wszystko z listy
+./src/tools/download_eu.py --jobs 6  # liczba równoległych kart (domyślnie 4)
 ./src/tools/download_eu.py 32021R0697 sn_III_CZP_109_22   # wybrane pozycje (CELEX albo nazwa pliku)
 ./src/tools/extract_text.py          # .html -> .txt (uszkodzone .txt są usuwane przy pobraniu, więc zostaną nadpisane)
 ```
 
+Każda pozycja jest najpierw pobierana żądaniem HTTP z ciasteczkami przeglądarki (sekundy), a dopiero gdy odpowiedź jest pusta albo niepełna — renderowana w karcie; obrazy, CSS, czcionki i analityka są blokowane, pozycje idą równolegle, a wynik pokazuje czas każdej z nich.
+
 Wariant curl z kilkoma strategiami (`./src/tools/download_eu.sh`) zostaje jako zapasowy; wypisuje linie `DIAG` z kodem HTTP.
 
 Pozycje nieudane są w `src/legal/BLEDY_EU.txt` z adresem do zapisania strony ręcznie z przeglądarki.
+
+## Materiały PFR (strony i dokumenty)
+
+`pfr.py` otwiera przeglądarką strony PFR Ventures i startup.pfr.pl (lista `SEEDS`), zapisuje je jako `src/legal/pfr_<nazwa>.html` i pobiera wszystkie podlinkowane z nich dokumenty (PDF, DOCX, XLSX: term sheet, umowy inwestycyjne, dokumentacja FENG, regulaminy) jako `src/legal/pfr_<nazwa>.<rozszerzenie>`. `extract_text.py` obsługuje także DOCX.
+
+```
+./src/tools/pfr.py --list     # które dokumenty zostałyby pobrane
+./src/tools/pfr.py            # strony startowe i ich dokumenty
+./src/tools/pfr.py --deep     # dodatkowo podstrony o programach i dokumentach
+./src/tools/extract_text.py
+```

@@ -10,10 +10,13 @@ Użycie:             ./src/tools/download_eu.py              # wszystko, czego b
                     ./src/tools/download_eu.py -f           # pobierz ponownie także pozycje już poprawne
                     ./src/tools/download_eu.py 32021R0697 sn_III_CZP_109_22   # wybrane pozycje (CELEX albo nazwa pliku)
                     ./src/tools/download_eu.py --list       # wypisz pozycje i ich stan, nic nie pobieraj
+                    ./src/tools/download_eu.py --jobs 6     # liczba równoległych kart (domyślnie 4)
+Kolejność dla każdej pozycji: najpierw pobranie bez renderowania (żądanie HTTP z ciasteczkami przeglądarki),
+dopiero gdy odpowiedź jest pusta albo niepełna — otwarcie strony w karcie; obrazy, czcionki, CSS i analityka są blokowane.
 Wynik: src/legal/<nazwa>.html; potem ./src/tools/extract_text.py zamienia je na .txt (uszkodzone .txt są usuwane,
 żeby extract_text.py je nadpisał).
 """
-import sys, os, time, re
+import sys, os, time, re, asyncio
 
 LEGAL = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "legal")
 
@@ -130,34 +133,112 @@ def targets():
         out.append(({fn}, os.path.join(LEGAL, fn + ".html"), urls, desc, needle))
     return out
 
-def accept_cookies(page):
-    for sel in ("button:has-text('Akceptuj')", "button:has-text('Akceptuję')", "a:has-text('Akceptuję')",
-                "button:has-text('Zgadzam')", "a.wt-ecl-button:has-text('Accept')", "button:has-text('Accept all')",
-                "button:has-text('Accept')", "button:has-text('Allow all')", "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
-                "button:has-text('Zezwól na wszystkie')", "button:has-text('OK')"):
+COOKIE_SELECTORS = ("button:has-text('Akceptuj')", "button:has-text('Akceptuję')", "a:has-text('Akceptuję')",
+                    "button:has-text('Zgadzam')", "a.wt-ecl-button:has-text('Accept')", "button:has-text('Accept all')",
+                    "button:has-text('Accept')", "button:has-text('Allow all')",
+                    "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", "button:has-text('Zezwól na wszystkie')")
+BLOCK_TYPES = {"image", "font", "media", "stylesheet"}
+BLOCK_HOSTS = ("google-analytics", "googletagmanager", "doubleclick", "facebook", "hotjar", "matomo", "piwik", "cookiebot", "clarity.ms")
+
+async def accept_cookies(page):
+    for sel in COOKIE_SELECTORS:
         try:
-            page.locator(sel).first.click(timeout=1500); return True
+            await page.locator(sel).first.click(timeout=800); return True
         except Exception:
             pass
     return False
 
-def fetch(page, url: str, ok, wait_s: int = 60) -> str:
+async def route_filter(route):
+    req = route.request
+    if req.resource_type in BLOCK_TYPES or any(h in req.url for h in BLOCK_HOSTS):
+        await route.abort()
+    else:
+        await route.continue_()
+
+async def fetch_request(ctx, url: str, check) -> str:
+    """Pobranie bez renderowania: żądanie HTTP z ciasteczkami i nagłówkami kontekstu przeglądarki."""
+    try:
+        resp = await ctx.request.get(url, timeout=45000, max_redirects=5)
+        if resp.status >= 400: return ""
+        html = await resp.text()
+        return html if check(html) else ""
+    except Exception:
+        return ""
+
+async def fetch_render(ctx, url: str, check, needle, wait_s: int) -> str:
+    """Otwarcie strony w karcie i czekanie na warunek w DOM (bez pollingu page.content())."""
+    page = await ctx.new_page()
     html = ""
-    for attempt in range(3):
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=90000)
-            accept_cookies(page)
-            for _ in range(wait_s):
-                html = page.content()
-                if ok(html): return html
-                time.sleep(1)
-        except Exception as e:
-            print(f"  próba {attempt+1}: {e}")
-        time.sleep(3)
-    return html
+    try:
+        for attempt in range(2):
+            try:
+                await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                await accept_cookies(page)
+                # strona błędu widoczna od razu -> nie czekaj
+                head = await page.evaluate("(document.title || '') + ' ' + (document.body ? document.body.innerText.slice(0, 3000) : '')")
+                if any(m.lower() in head.lower() for m in BAD_MARKERS): return ""
+                cond = ("document.body && document.body.innerText.length > 20000" if needle is None
+                        else "document.body && document.body.innerText.toLowerCase().includes(%r)" % needle.lower())
+                try:
+                    await page.wait_for_function(cond, timeout=wait_s * 1000)
+                except Exception:
+                    pass
+                html = await page.content()
+                if check(html): return html
+            except Exception as e:
+                print(f"  próba {attempt+1} {url[:70]}: {str(e).splitlines()[0][:100]}")
+            await asyncio.sleep(2)
+        return html
+    finally:
+        await page.close()
+
+async def process(ctx, sem, out, urls, desc, needle):
+    check = valid_eu if needle is None else (lambda h, n=needle: valid_page(h, n))
+    base = os.path.basename(out); t0 = time.time()
+    async with sem:
+        print(f"START {base}")
+        html = ""
+        for url in urls:
+            html = await fetch_request(ctx, url, check)
+            if not check(html):
+                html = await fetch_render(ctx, url, check, needle, wait_s=30 if needle is None else 10)
+            if check(html): break
+    dt = time.time() - t0
+    if check(html):
+        with open(out, "w", encoding="utf-8") as fh: fh.write(html)
+        txt = os.path.splitext(out)[0] + ".txt"
+        if os.path.exists(txt) and not file_ok(txt, needle):
+            os.remove(txt)  # uszkodzony .txt; extract_text.py zapisze nowy
+        print(f"OK    {base}  ({len(html)//1000} kB, {dt:.0f} s)  {desc}"); return True
+    snippet = strip_tags(html)[:160]
+    print(f"BLAD  {base}  ({dt:.0f} s)  {desc}\n      adresy: {' | '.join(urls)}\n      odpowiedź: {len(html)} B: {snippet}"); return False
+
+async def run(todo, show: bool, jobs: int):
+    from playwright.async_api import async_playwright
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=not show)
+        ctx = await browser.new_context(locale="pl-PL", viewport={"width": 1280, "height": 900},
+                                        user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36")
+        await ctx.route("**/*", route_filter)
+        if any(u.startswith("https://eur-lex") for _, urls, _, _ in todo for u in urls):
+            page = await ctx.new_page()
+            try:  # pierwsze wejście ustawia ciasteczka EUR-Lex, których potrzebują dalsze żądania
+                await page.goto("https://eur-lex.europa.eu/homepage.html?locale=pl", wait_until="domcontentloaded", timeout=45000)
+                await accept_cookies(page)
+            except Exception as e:
+                print(f"UWAGA strona główna EUR-Lex: {str(e).splitlines()[0][:100]}")
+            finally:
+                await page.close()
+        sem = asyncio.Semaphore(max(1, jobs))
+        results = await asyncio.gather(*(process(ctx, sem, *t) for t in todo))
+        await browser.close()
+    return sum(1 for r in results if r), sum(1 for r in results if not r)
 
 def main(argv):
     show = "--show" in argv; force = "-f" in argv or "--force" in argv; only_list = "--list" in argv
+    jobs = 4
+    if "--jobs" in argv:
+        i = argv.index("--jobs"); jobs = int(argv[i + 1]); argv = argv[:i] + argv[i + 2:]
     only = {a for a in argv if not a.startswith("-")}
     os.makedirs(LEGAL, exist_ok=True)
     todo = []
@@ -172,39 +253,12 @@ def main(argv):
     if not todo:
         print("Wszystkie pozycje są już pobrane (użyj -f, żeby pobrać ponownie)."); return 0
     try:
-        from playwright.sync_api import sync_playwright
+        import playwright.async_api  # noqa: F401
     except ImportError:
         print("Brak Playwright: pip install playwright && python -m playwright install chromium"); return 2
-    ok = bad = 0
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=not show)
-        ctx = browser.new_context(locale="pl-PL", viewport={"width": 1280, "height": 900},
-                                  user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36")
-        page = ctx.new_page()
-        if any(u.startswith("https://eur-lex") for _, urls, _, _ in todo for u in urls):
-            try:  # pierwsze wejście ustawia ciasteczka EUR-Lex
-                page.goto("https://eur-lex.europa.eu/homepage.html?locale=pl", wait_until="domcontentloaded", timeout=60000)
-                accept_cookies(page)
-            except Exception as e:
-                print(f"UWAGA strona główna EUR-Lex: {e}")
-        for out, urls, desc, needle in todo:
-            check = valid_eu if needle is None else (lambda h, n=needle: valid_page(h, n))
-            html = ""
-            for url in urls:
-                html = fetch(page, url, check, wait_s=60 if needle is None else 20)
-                if check(html): break
-            base = os.path.basename(out)
-            if check(html):
-                with open(out, "w", encoding="utf-8") as fh: fh.write(html)
-                txt = os.path.splitext(out)[0] + ".txt"
-                if os.path.exists(txt) and not file_ok(txt, needle):
-                    os.remove(txt)  # uszkodzony .txt; extract_text.py zapisze nowy
-                print(f"OK    {base}  ({len(html)//1000} kB)  {desc}"); ok += 1
-            else:
-                snippet = strip_tags(html)[:160]
-                print(f"BLAD  {base}  {desc}\n      adresy: {' | '.join(urls)}\n      odpowiedź: {len(html)} B: {snippet}"); bad += 1
-        browser.close()
-    print(f"\npobrane: {ok}, błędy: {bad}")
+    t0 = time.time()
+    ok, bad = asyncio.run(run(todo, show, jobs))
+    print(f"\npobrane: {ok}, błędy: {bad}, czas: {time.time()-t0:.0f} s")
     if ok: print("Teraz: ./src/tools/extract_text.py  (zamiana .html na .txt)")
     return 1 if bad else 0
 
