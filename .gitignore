@@ -69,4 +69,5 @@ Thumbs.db
 # Pobrane źródła prawne (src/download.sh)
 src/*
 !src/download.sh
+!src/extract_text.py
 !src/README.md
