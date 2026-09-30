@@ -22,14 +22,17 @@ Numery pozycji Dz.U. dla tekstów ujednoliconych ISAP są podane według pierwot
 
 Wymaga `pdftotext` (pakiet poppler-utils) albo `pip install pypdf`. Pliki `.txt` też są poza git.
 
-## Prawo UE
+## Prawo UE, orzeczenia SN i strony z zaporą (przeglądarka)
 
-EUR-Lex odpowiada pustą treścią albo stroną zastępczą na zapytania bez przeglądarki. Zalecana droga to prawdziwa przeglądarka (headless Chromium przez Playwright):
+EUR-Lex odpowiada pustą treścią na zapytania bez przeglądarki, sn.pl oddaje stronę 404 pod dawnymi adresami, a PFR Ventures i BVCA stawiają zaporę cookie/JS. `download_eu.py` pobiera wszystkie te pozycje prawdziwą przeglądarką (headless Chromium przez Playwright): akty UE (lista `EU`), orzeczenia SN, strony PFR Ventures, BVCA oraz każdą inną stronę z listy `PAGES`, której plik w `src/legal/` jest pusty albo zawiera stronę błędu (stan `USZKODZONY`). Poprawne pliki pomija.
 
 ```
 pip install playwright && python -m playwright install chromium
-./src/tools/download_eu.py           # --show pokazuje okno, gdy trzeba kliknąć zgodę
-./src/tools/extract_text.py
+./src/tools/download_eu.py --list    # stan każdej pozycji: OK / USZKODZONY / BRAK
+./src/tools/download_eu.py           # pobiera brakujące i uszkodzone; --show pokazuje okno, gdy trzeba kliknąć zgodę
+./src/tools/download_eu.py -f        # pobiera ponownie wszystko z listy
+./src/tools/download_eu.py 32021R0697 sn_III_CZP_109_22   # wybrane pozycje (CELEX albo nazwa pliku)
+./src/tools/extract_text.py          # .html -> .txt (uszkodzone .txt są usuwane przy pobraniu, więc zostaną nadpisane)
 ```
 
 Wariant curl z kilkoma strategiami (`./src/tools/download_eu.sh`) zostaje jako zapasowy; wypisuje linie `DIAG` z kodem HTTP.
