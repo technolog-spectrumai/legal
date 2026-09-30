@@ -80,6 +80,13 @@ def main(argv):
         in_bkp = os.path.dirname(os.path.abspath(f)) == os.path.abspath(BKP)
         out = os.path.join(SRC, os.path.splitext(base)[0] + ".txt")
         if not force and os.path.exists(out) and os.path.getmtime(out) >= os.path.getmtime(f):
+            # .txt aktualny: oryginał i tak przenosimy do bkp/ (np. pliki przepisane wcześniejszą wersją skryptu)
+            if not in_bkp and not keep:
+                dst = os.path.join(BKP, base)
+                if not os.path.exists(dst) or os.path.getmtime(f) > os.path.getmtime(dst):
+                    shutil.copy2(f, dst)
+                os.remove(f)
+                print(f"BKP   {base}  (.txt aktualny, oryginał -> bkp/)")
             skip += 1; continue
         try:
             text, tool = pdf_to_text(f) if f.lower().endswith(".pdf") else html_to_text(f)
