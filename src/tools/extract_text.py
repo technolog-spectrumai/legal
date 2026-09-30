@@ -13,7 +13,7 @@ Instalacja zapasowa: pip install pypdf   (albo: apt install poppler-utils)
 import sys, os, subprocess, shutil, re, html, glob
 from html.parser import HTMLParser
 
-SRC = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # katalog src/ (skrypt leży w src/tools/)
+SRC = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "legal")  # katalog src/legal/
 BKP = os.path.join(SRC, "bkp")
 EXTS = ("pdf", "html", "htm", "xhtml")
 

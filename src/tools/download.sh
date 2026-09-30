@@ -4,7 +4,7 @@
 # Pliki lądują w katalogu src/ (poza git; wersjonowane są tylko skrypt i README); istniejące pliki są pomijane.
 # Wynik: src/MANIFEST.txt (status każdej pozycji), src/BLEDY.txt (nieudane).
 set -u
-cd "$(dirname "$0")/.."   # katalog src/ (skrypt leży w src/tools/)
+cd "$(dirname "$0")/../legal" 2>/dev/null || { mkdir -p "$(dirname "$0")/../legal"; cd "$(dirname "$0")/../legal"; }   # pliki do src/legal/
 UA="Mozilla/5.0 (X11; Linux x86_64) Basilisk-legal-sources/1.0"
 : > MANIFEST.txt; : > BLEDY.txt
 ok=0; bad=0; skip=0
@@ -15,7 +15,7 @@ have() { # have <plik>: pobrany już (w src/, w bkp/ albo przepisany na .txt prz
 get() { # get <plik_docelowy> <url> [opis]
   local out="$1" url="$2" desc="${3:-}"
   if have "$out"; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
-  if curl -sS -L --fail --retry 3 --retry-delay 2 --max-time 120 -A "$UA" -o "$out" "$url"; then
+  if curl -sS -L --fail --retry 3 --retry-delay 2 --max-time 120 -A "$UA" -o "$out" "$url" && [ -s "$out" ]; then
     # ELI/ISAP zwracają czasem HTML z błędem zamiast PDF; sprawdź nagłówek
     if [[ "$out" == *.pdf ]] && ! head -c 5 "$out" | grep -q '%PDF'; then
       echo "BLAD  $out (nie-PDF) <- $url" | tee -a MANIFEST.txt BLEDY.txt; rm -f "$out"; bad=$((bad+1)); return
@@ -95,34 +95,8 @@ isapU 1993 211 WDU19930470211 uznk        "Ustawa o zwalczaniu nieuczciwej konku
 isapU 2010 1228 WDU20101821228 informacje_niejawne "Ustawa o ochronie informacji niejawnych (Dz.U. 2010 Nr 182 poz. 1228)"
 isapU 1997 926 WDU19971370926 ordynacja   "Ordynacja podatkowa (Dz.U. 1997 Nr 137 poz. 926)"
 
-# ---------- Prawo UE: EUR-Lex ----------
-# EUR-Lex odpowiada stroną HTML na zapytanie o PDF bez sesji przeglądarki; pobieramy wersję HTML (pełny tekst),
-# a PDF próbujemy dodatkowo z parametrem from= i akceptacją application/pdf.
-eu() { # eu <CELEX> <nazwa> <opis> [jezyk]
-  local celex="$1" name="$2" desc="$3" lang="${4:-PL}"; local safe="${celex//\//_}"
-  get "eu_${safe}_${name}_${lang}.html" "https://eur-lex.europa.eu/legal-content/${lang}/TXT/HTML/?uri=CELEX:${celex}" "$desc (HTML, $lang)"
-  local out="eu_${safe}_${name}_${lang}.pdf"
-  if ! have "$out"; then
-    if curl -sS -L --fail --retry 2 --max-time 120 -A "$UA" -H "Accept: application/pdf" -o "$out" "https://eur-lex.europa.eu/legal-content/${lang}/TXT/PDF/?uri=CELEX:${celex}&from=${lang}" && head -c 5 "$out" | grep -q '%PDF'; then
-      echo "OK    $out  ($desc, PDF)" | tee -a MANIFEST.txt; ok=$((ok+1))
-    else rm -f "$out"; echo "INFO  $out: EUR-Lex nie wydał PDF (wystarczy wersja HTML)" | tee -a MANIFEST.txt; fi
-  fi
-}
-eu 32021R0697 edf             "Rozp. 2021/697 - Europejski Fundusz Obronny (art. 9)"
-eu 32021R0821 dual_use        "Rozp. 2021/821 - produkty podwójnego zastosowania (zał. I, IV)"
-eu 32019R0452 fdi_screening   "Rozp. 2019/452 - monitorowanie BIZ"
-eu 32026R0877 ttber_2026      "Rozp. 2026/877 - porozumienia o transferze technologii (od 1.05.2026)"
-eu 32014R0316 ttber_2014      "Rozp. 316/2014 - TTBER (wygasło 30.04.2026, dla porównania)"
-eu 32024R1689 ai_act          "Rozp. 2024/1689 - AI Act"
-eu 32023R1230 maszynowe       "Rozp. 2023/1230 - maszyny"
-eu 32024R2847 cra             "Rozp. 2024/2847 - Cyber Resilience Act"
-eu 32019R0945 uas_945         "Rozp. 2019/945 - bezzałogowe systemy powietrzne (produkty)"
-eu 32019R0947 uas_947         "Rozp. 2019/947 - operacje BSP"
-eu 32014R0269 sankcje_269     "Rozp. 269/2014 - środki ograniczające (zamrożenie aktywów)"
-eu 32014R0833 sankcje_833     "Rozp. 833/2014 - sankcje sektorowe"
-eu 12016E/TXT tfue            "TFUE (art. 49, 63, 65, 101, 346)"
-eu 32021R0697 edf             "EDF" EN
-eu 32026R0877 ttber_2026      "TTBER 2026" EN
+# ---------- Prawo UE ----------
+# EUR-Lex obsługuje osobny skrypt: ./src/tools/download_eu.sh (kilka strategii, kontrola treści).
 
 # ---------- Orzecznictwo SN cytowane w repozytorium ----------
 get sn_V_CSK_522_18.html  "https://www.sn.pl/sites/orzecznictwo/OrzeczeniaHTML/v%20csk%20522-18-1.docx.html" "SN V CSK 522/18 (pełnomocnictwo nieodwołalne)"

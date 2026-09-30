@@ -6,7 +6,7 @@
 ./src/tools/download.sh
 ```
 
-Pliki trafiają do katalogu `src/` (poza git; wersjonowany jest tylko `src/tools/`); `MANIFEST.txt` zawiera status każdej pozycji, `BLEDY.txt` pozycje nieudane. Po pobraniu można zweryfikować tezy oznaczone [W] w memorandum i zmienić je na [Z] albo poprawić.
+Pliki trafiają do katalogu `src/legal/` (wersjonowane razem z `src/tools/`); `MANIFEST.txt` zawiera status każdej pozycji, `BLEDY.txt` pozycje nieudane. Po pobraniu można zweryfikować tezy oznaczone [W] w memorandum i zmienić je na [Z] albo poprawić.
 
 Numery pozycji Dz.U. dla tekstów ujednoliconych ISAP są podane według pierwotnej publikacji aktu (ISAP udostępnia pod nią aktualny tekst ujednolicony). Jeżeli wzorzec adresu nie zadziała dla którejś pozycji, otwórz ją w ISAP ręcznie i zapisz pod nazwą z listy.
 
@@ -21,3 +21,14 @@ Numery pozycji Dz.U. dla tekstów ujednoliconych ISAP są podane według pierwot
 ```
 
 Wymaga `pdftotext` (pakiet poppler-utils) albo `pip install pypdf`. Pliki `.txt` też są poza git.
+
+## Prawo UE
+
+EUR-Lex odpowiada pustą treścią na proste zapytania, dlatego akty UE pobiera osobny skrypt z kilkoma strategiami (adresy ELI z sesją, negocjacja treści, serwer Urzędu Publikacji, PDF) i kontrolą, czy odpowiedź zawiera tekst aktu:
+
+```
+./src/tools/download_eu.sh
+./src/tools/extract_text.py
+```
+
+Pozycje nieudane są w `src/legal/BLEDY_EU.txt` z adresem do zapisania strony ręcznie z przeglądarki.
