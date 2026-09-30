@@ -26,6 +26,7 @@ Spółka-matka poza UE/EOG (USA, UK, Szwajcaria, Izrael, Singapur, ZEA) narusza 
 | `estonia.md` | OÜ przez e-Residency, 0 %/22 % CIT, brak podatku u źródła, opcje po 3 latach; Komisja ds. Towarów Strategicznych; SmartCap, EIS, DIANA Tallinn i Tartu; klaster dronowy; ukraińskie firmy w Estonii | siedziba bez przewagi nad Polską; spółka zależna: tak, druga po Niemczech i Francji; holding: możliwy, ale prosty i bez PFR |
 | `finlandia_nordyki.md` | Oy, AB, ApS, AS; podatki, licencje (MO Finlandii, ISP, Ministerstwo Sprawiedliwości Danii, MSZ Norwegii); Business Finland, Tesi, Vinnova, Defence Tech Denmark, EIFO, Innovation Norway; DIANA i SAFE | Finlandia: siedziba możliwa, spółka zależna tak; Szwecja, Dania, Norwegia: tylko spółka zależna pod kontrakt; Norwegia poza UE, ale w EOG i stowarzyszona z EDF |
 | `czechy_baltowie.md` | s.r.o., UAB, SIA; CIT 21/17/0-20 %; ustawa 38/1994, licencje Litwy i Łotwy (test obywatelstwa); MILInvest, Coinvest, LIAA/Altum; DIANA test centra; SAFE 2,06/6,38/3,50 mld EUR | Czechy: rynek zbytu przez CSG, nie miejsce spółki; Litwa: najtańsza spółka zależna w regionie; Łotwa: tylko pod kontrakt z lokalnym partnerem |
+| `portugalia.md` | Lda i S.A., IRC 19 % → 17 %, SIFIDE II, patent box 85 %, IFICI 20 %, opcje 14 %; Lei 49/2009 (licencja tylko dla spółek portugalskich), DGRDN i GNS; idD, DIANA Alfeite i Tróia, SAFE 5,8 mld EUR, EDF 16 projektów; dodana z powodu `case_studies/tekever.md` | siedziba nie; spółka zależna tak w wariancie morskim albo testowym; holding nie |
 | `wielka_brytania.md` | Ltd za 100 GBP, CT 25 %, scalona ulga B+R, EMI (niedostępne dla spółki zależnej), SSE; ECJU/SPIRE, FSC (brytyjscy dyrektorzy), NSI Act; SDR 2025, UKDI, NSSIF, DIANA HQ, NIF; SAFE odrzucone | siedziba nie (poza UE/EOG); spółka zależna pod MOD, UKDI, NSSIF; holding nie |
 | `usa.md` | Delaware C-corp, Teksas SB 29; § 174A, QSBS; ITAR, EAR 9A012, deemed export, CFIUS, FOCI (SCA/SSA/Proxy), SBIR, DIU/OTA, Blue UAS; H-1B 100 tys. USD, E-2; ICEYE US i WB America | flip nie w fazie A–C; spółka zależna z FOCI pod Department of War; holding nie |
 | `ukraina.md` | TOV, Defence City (ustawa 4577-IX), limit dywidend 1 mln EUR/mies., Brave1, „Build with Ukraine", kontrolowany eksport; WB Ukraina | siedziba nie; spółka zależna do integracji i testów po pierwszym kontrakcie; holding nie |
@@ -51,6 +52,7 @@ Spółka-matka poza UE/EOG (USA, UK, Szwajcaria, Izrael, Singapur, ZEA) narusza 
 | Czechy | tak | tak | tak | tak | tak | 2,06 mld EUR | tak | nieodnalezione | tak | [Z]/[?] |
 | Litwa | tak | tak | tak | tak | tak | 6,38 mld EUR | tak | 6 test centrów | tak | [Z] |
 | Łotwa | tak | tak | tak | tak | tak | 3,50 mld EUR | tak | test centrum Ādaži | tak | [Z] |
+| Portugalia | tak | tak | tak (założyciel) | tak | tak | 5,8 mld EUR (1. fala; prowadzi projekt dronowy) | tak | akcelerator Alfeite, test centrum Tróia | tak | [Z]/[M] |
 | Wielka Brytania | nie | nie | tak | tak (NATO) | nie | nie (rozmowy zerwane 28 listopada 2025 r.) | bez EIC Fund | HQ Londyn, miejsca Imperial | tak | [Z] |
 | USA | nie | nie | tak | tak (NATO) | nie | nie | nie | Seattle, Boston | nie | [Z] |
 | Ukraina | nie | nie | nie | nie | nie | partner wspólnych zamówień | tak (stowarzyszona) | nie | nie | [Z]/[?] |
@@ -76,6 +78,7 @@ Kryterium § 11: inwestor musi być z UE, EOG albo NATO (bez wyjątku dla fundus
 | Niemcy | droga | Forschungszulage 35 %, największy budżet, CIHBw, Palladion | CIT ok. 29,8 %, FDI od 10 % także dla UE, notariusz |
 | Francja | możliwa | SAS 1 EUR, CIR 30 %, JEI, BSPCE, Definvest 0,5–10 mln EUR, FID, SAFE 15,09 mld EUR | nie LP NIF; AFCI; brak PFR |
 | Litwa | możliwa, bez przewagi | CIT 17 %, 300 % B+R, opcje po 3 latach, UAB w 1–3 dni, MILInvest | mały rynek VC; brak PFR |
+| Portugalia | nie | UE, NATO od 1949 r., SIFIDE, patent box 85 %, IFICI, DIANA, SAFE 5,8 mld EUR | mały rynek (Tekever: zamówienia krajowe poniżej 10 mln EUR), odległość od wschodniej flanki, brak PFR i SMART |
 | Szwecja, Dania, Norwegia, Czechy, Łotwa | nie | — | licencje (ISP, Ministerstwo Sprawiedliwości, MO Łotwy z testem obywatelstwa), koszt talentu, brak przewagi |
 | Luksemburg, Irlandia | nie | — | Luksemburg bez przemysłu; Irlandia nie-NATO |
 | UK, USA | nie (poza UE/EOG) | EMI, SEIS/EIS, VC 2,9 mld USD (UK); QSBS, § 174A, Anduril 61 mld USD (USA) | Kryterium § 11 i EDF naruszone; SAFE i EIC zamknięte; flip 19 % PIT |
@@ -94,6 +97,7 @@ Kryterium § 11: inwestor musi być z UE, EOG albo NATO (bez wyjątku dla fundus
 | 7 | Litwa | kontrakt z MON Litwy | MILInvest, Coinvest, 6 test centrów DIANA, SAFE 6,38 mld EUR | sprawdzić, czy MILInvest przyjmuje spółki z zagranicznym właścicielem |
 | 8 | Holandia | konsorcjum EDF albo RNLAF | SecFund do 5 mln EUR | Vifo, WWM |
 | 9 | Ukraina | pierwszy grant Brave1 albo kontrakt | Brave1, Defence City, testy bojowe | TOV jako centrum kosztów; limit dywidend; licencja eksportowa z Polski |
+| 9a | Portugalia | zastosowania morskie, testy, partnerstwo z Tekever, Beyond Vision, UAVision | DIANA Tróia i Alfeite, REPMUS, projekt dronowy SAFE, SIFIDE, IFICI | licencja Lei 49/2009 wymaga spółki portugalskiej; GNS |
 | 10 | Czechy, Szwecja, Dania, Norwegia, Łotwa | wyłącznie pod konkretny kontrakt | rynek | licencje krajowe; Łotwa: test obywatelstwa wspólników |
 
 ### 4.3 Spółka bazowa (holding)
@@ -105,6 +109,7 @@ Kryterium § 11: inwestor musi być z UE, EOG albo NATO (bez wyjątku dla fundus
 | Luksemburg | tylko dla grup notowanych albo IP | zwolnienie 10 %/1,2 mln EUR/12 m/8,5 %, IP box 4,774 %; koszt 3–8 tys. EUR |
 | Estonia, Łotwa | technicznie proste | 0 % od zysku zatrzymanego, brak podatku u źródła; bez PFR i bez substancji podpadają pod CFC |
 | Szwecja | atrakcyjna podatkowo | näringsbetingade andelar; bez powodu biznesowego |
+| Portugalia | bez przewagi | ta sama dyrektywa i zwolnienie 10 %/12 m; Madera 5 % wymaga substancji i psuje wizerunek u zamawiającego wojskowego |
 | Cypr, Malta | niezalecane | UE, ale nie NATO; pay-and-refund i test beneficjenta; wiarygodność u klienta obronnego |
 | UK, USA, Szwajcaria, Izrael, Singapur, ZEA | nie | kontrola spoza UE/EOG; flip opodatkowany 19 % |
 
@@ -128,6 +133,7 @@ Kryterium § 11: inwestor musi być z UE, EOG albo NATO (bez wyjątku dla fundus
 | Czechy | s.r.o. 1 CZK | 21 % | 5 % [?] | 150 % do 50 mln CZK | reforma 2026 [?] | MPO (38/1994); FDI 10 % |
 | Litwa | UAB 1 tys. EUR | 17 %/7 % | 0 % (10 %, 12 m) / 15 % | 300 %; IP 5 % (7 %?) | zwolnienie po 3 latach | MGiI ≤25 dni |
 | Łotwa | SIA 2,8 tys. EUR | 0 %/20 % (20/80) | 0 % | brak | ? | MO z testem obywatelstwa; 9 lat |
+| Portugalia | Lda 1 EUR/udział; S.A. 50 tys. EUR [W] | 19 % (18 % 2027, 17 % 2028); MŚP 15 % do 50 tys. EUR | 0 % dyrektywa (10 %, 12 m) | SIFIDE II 32,5 % + 50 %; patent box 85 % | Lei 21/2023: 14 % efektywnie | Lei 49/2009 (MO, DGRDN, GNS) |
 | Wielka Brytania | Ltd, 100 GBP | 25 %/19 % [W] | 0 % (brak podatku u źródła) | scalona 20 % (netto 15 %); ERIS | EMI (nie dla spółki zależnej) | ECJU/SPIRE; FSC; NSI |
 | USA | Delaware C-corp, 109 USD | 21 % + stanowy | 5/15 % umowa 1974 r. [?] | § 174A; QSBS | ISO/NSO | ITAR/EAR; CFIUS; FOCI |
 | Ukraina | TOV [?] | 18 %; Defence City 0 % przy reinwestycji [W] | limit 1 mln EUR/mies. | Defence City | ? | SSECU [?] |
@@ -185,7 +191,7 @@ Rekomendacja do D1 i U.5: **S0 od dnia zawiązania, S1 od etapu C, S2 tylko na �
 2. Uzupełnić `psa_todo.md` sekcję 6 o terminy 2026 z sekcji 7 i kolejność spółek zależnych z sekcji 4.2.
 3. Zamówić u doradcy podatkowego stawki traktatowe i potwierdzenie art. 24 ust. 8b pkt 3 (pierwsza wymiana) dla scenariusza S2.
 4. Klasyfikacja eksportowa oprogramowania (Polska: ZG-PL-U-1 i lista wojskowa; USA: commodity jurisdiction) przed pierwszą umową zagraniczną.
-5. Kolejny katalog case studies (`case_studies/`, gałąź `vc2`): firmy defence tech, robotyka i physical AI z państw spoza tego katalogu wymagają dopisania profili jurysdykcji tutaj.
+5. Druga seria case studies (`case_studies/`, gałąź `vc2`: Anduril, Shield AI, Helsing, Destinus, Tekever, Milrem, Creotech, APS, Figure AI, Nomagic) wymagała dopisania profilu Portugalii (`portugalia.md`); pozostałe firmy pochodzą z państw już opisanych (USA, Niemcy, Szwajcaria i Holandia, Estonia, Polska). Wnioski przekrojowe: `case_studies/conclusions.md`.
 
 ---
 
