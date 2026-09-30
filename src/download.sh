@@ -9,9 +9,12 @@ UA="Mozilla/5.0 (X11; Linux x86_64) Basilisk-legal-sources/1.0"
 : > MANIFEST.txt; : > BLEDY.txt
 ok=0; bad=0; skip=0
 
+have() { # have <plik>: pobrany już (w src/, w bkp/ albo przepisany na .txt przez extract_text.py)
+  [ -s "$1" ] || [ -s "bkp/$1" ] || [ -s "${1%.*}.txt" ]
+}
 get() { # get <plik_docelowy> <url> [opis]
   local out="$1" url="$2" desc="${3:-}"
-  if [ -s "$out" ]; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
+  if have "$out"; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
   if curl -sS -L --fail --retry 3 --retry-delay 2 --max-time 120 -A "$UA" -o "$out" "$url"; then
     # ELI/ISAP zwracają czasem HTML z błędem zamiast PDF; sprawdź nagłówek
     if [[ "$out" == *.pdf ]] && ! head -c 5 "$out" | grep -q '%PDF'; then
@@ -36,7 +39,7 @@ JAR=$(mktemp)
 isapU() {
   local rok="$1" poz="$2" id="$3" name="$4" desc="$5"
   local out="pl_${rok}_${poz}_${name}_ujednolicony.pdf"
-  if [ -s "$out" ]; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
+  if have "$out" || have "pl_${rok}_${poz}_${name}_ogloszony.pdf"; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
   local meta; meta=$(curl -sS -L --retry 3 --max-time 60 -A "$UA" -H "Accept: application/json" "https://eli.gov.pl/api/acts/DU/$rok/$poz") || meta=""
   local fn; fn=$(printf '%s' "$meta" | grep -oE '"fileName" *: *"[^"]*Lj\.pdf"' | head -1 | sed -E 's/.*"([^"]*Lj\.pdf)"/\1/')
   if [ -n "$fn" ]; then
@@ -52,7 +55,7 @@ isapU() {
   rm -f "$out"
   # zapas 2: tekst ogłoszony z ELI (zawsze dostępny), z adnotacją, że to nie tekst ujednolicony
   local outO="pl_${rok}_${poz}_${name}_ogloszony.pdf"
-  if [ ! -s "$outO" ] && curl -sS -L --fail --retry 2 --max-time 180 -A "$UA" -o "$outO" "https://eli.gov.pl/api/acts/DU/$rok/$poz/text.pdf" && head -c 5 "$outO" | grep -q '%PDF'; then
+  if ! have "$outO" && curl -sS -L --fail --retry 2 --max-time 180 -A "$UA" -o "$outO" "https://eli.gov.pl/api/acts/DU/$rok/$poz/text.pdf" && head -c 5 "$outO" | grep -q '%PDF'; then
     echo "CZESC $outO  ($desc; brak tekstu ujednoliconego przez API — pobrano tekst ogłoszony; ujednolicony ręcznie: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=$id)" | tee -a MANIFEST.txt BLEDY.txt; ok=$((ok+1)); return; fi
   rm -f "$outO"
   echo "BLAD  $out (pobierz ręcznie: https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=$id -> „Tekst ujednolicony”)" | tee -a MANIFEST.txt BLEDY.txt; bad=$((bad+1))
@@ -99,7 +102,7 @@ eu() { # eu <CELEX> <nazwa> <opis> [jezyk]
   local celex="$1" name="$2" desc="$3" lang="${4:-PL}"; local safe="${celex//\//_}"
   get "eu_${safe}_${name}_${lang}.html" "https://eur-lex.europa.eu/legal-content/${lang}/TXT/HTML/?uri=CELEX:${celex}" "$desc (HTML, $lang)"
   local out="eu_${safe}_${name}_${lang}.pdf"
-  if [ ! -s "$out" ]; then
+  if ! have "$out"; then
     if curl -sS -L --fail --retry 2 --max-time 120 -A "$UA" -H "Accept: application/pdf" -o "$out" "https://eur-lex.europa.eu/legal-content/${lang}/TXT/PDF/?uri=CELEX:${celex}&from=${lang}" && head -c 5 "$out" | grep -q '%PDF'; then
       echo "OK    $out  ($desc, PDF)" | tee -a MANIFEST.txt; ok=$((ok+1))
     else rm -f "$out"; echo "INFO  $out: EUR-Lex nie wydał PDF (wystarczy wersja HTML)" | tee -a MANIFEST.txt; fi
@@ -134,7 +137,7 @@ get sn_III_CZP_32_16.html  "https://www.sn.pl/sprawy/SitePages/Zagadnienia_prawn
 web() {
   local name="$1" url="$2" desc="$3"
   local out="web_${name}.html"
-  if [ -s "$out" ] || [ -s "web_$1.txt" ]; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
+  if have "$out" || [ -s "web_${name}.txt" ]; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
   if curl -sS -L --fail --compressed --retry 2 --max-time 60 -A "$UA" -H "Accept: text/html,*/*" -H "Accept-Language: pl,en" -o "$out" "$url"; then
     echo "OK    $out  ($desc)" | tee -a MANIFEST.txt; ok=$((ok+1)); return; fi
   rm -f "$out"

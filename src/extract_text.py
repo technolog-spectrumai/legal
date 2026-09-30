@@ -3,14 +3,18 @@
 
 Użycie:  ./src/extract_text.py            # wszystkie *.pdf i *.html w src/
          ./src/extract_text.py plik.pdf   # wybrane pliki
+         ./src/extract_text.py -f         # nadpisz istniejące .txt (także z plików leżących już tylko w bkp/)
+         ./src/extract_text.py --keep     # nie usuwaj oryginałów z src/
+Przebieg: oryginał jest kopiowany do src/bkp/, tekst zapisany jako <nazwa>.txt w src/, a po udanym zapisie
+niepustego .txt oryginał jest usuwany z src/ (zostaje w bkp/). Przy błędzie oryginał zostaje.
 Kolejność narzędzi dla PDF: pdftotext (poppler-utils) -> pypdf -> pdfminer.six.
 Instalacja zapasowa: pip install pypdf   (albo: apt install poppler-utils)
-Istniejące .txt nowsze niż źródło są pomijane; -f wymusza nadpisanie.
 """
 import sys, os, subprocess, shutil, re, html, glob
 from html.parser import HTMLParser
 
 SRC = os.path.dirname(os.path.abspath(__file__))
+BKP = os.path.join(SRC, "bkp")
 
 def pdf_to_text(path):
     if shutil.which("pdftotext"):
@@ -60,21 +64,38 @@ def html_to_text(path):
 
 def main(argv):
     force = "-f" in argv
-    files = [a for a in argv if a != "-f"]
+    keep = "--keep" in argv
+    files = [a for a in argv if a not in ("-f", "--keep")]
+    os.makedirs(BKP, exist_ok=True)
     if not files:
         files = sorted(glob.glob(os.path.join(SRC, "*.pdf")) + glob.glob(os.path.join(SRC, "*.html")))
+        if force:  # przy -f także pliki, które są już tylko w bkp/
+            have = {os.path.basename(f) for f in files}
+            files += sorted(f for f in glob.glob(os.path.join(BKP, "*.pdf")) + glob.glob(os.path.join(BKP, "*.html"))
+                            if os.path.basename(f) not in have)
     ok = bad = skip = 0
     for f in files:
-        out = os.path.splitext(f)[0] + ".txt"
+        base = os.path.basename(f)
+        in_bkp = os.path.dirname(os.path.abspath(f)) == os.path.abspath(BKP)
+        out = os.path.join(SRC, os.path.splitext(base)[0] + ".txt")
         if not force and os.path.exists(out) and os.path.getmtime(out) >= os.path.getmtime(f):
             skip += 1; continue
         try:
             text, tool = pdf_to_text(f) if f.lower().endswith(".pdf") else html_to_text(f)
+            if not text.strip():
+                raise RuntimeError("pusty wynik ekstrakcji (skan bez warstwy tekstowej?)")
+            if not in_bkp:
+                dst = os.path.join(BKP, base)
+                if not os.path.exists(dst) or os.path.getmtime(f) > os.path.getmtime(dst):
+                    shutil.copy2(f, dst)
             with open(out, "w", encoding="utf-8") as fh: fh.write(text)
-            print(f"OK    {os.path.basename(out)}  ({tool}, {len(text)//1000} kB)"); ok += 1
+            removed = ""
+            if not in_bkp and not keep:
+                os.remove(f); removed = ", oryginał -> bkp/"
+            print(f"OK    {os.path.basename(out)}  ({tool}, {len(text)//1000} kB{removed})"); ok += 1
         except Exception as e:
-            print(f"BLAD  {os.path.basename(f)}: {e}"); bad += 1
-    print(f"\nzapisane: {ok}, pominięte: {skip}, błędy: {bad}")
+            print(f"BLAD  {base}: {e} (oryginał zostaje)"); bad += 1
+    print(f"\nzapisane: {ok}, pominięte: {skip}, błędy: {bad}; kopie oryginałów: {BKP}")
     return 1 if bad else 0
 
 if __name__ == "__main__":

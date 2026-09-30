@@ -12,11 +12,12 @@ Numery pozycji Dz.U. dla tekstów ujednoliconych ISAP są podane według pierwot
 
 ## Tekst z pobranych plików
 
-`extract_text.py` wyciąga tekst z każdego `*.pdf` i `*.html` w tym katalogu i zapisuje obok plik `*.txt` (do przeszukiwania i cytowania w memorandum):
+`extract_text.py` wyciąga tekst z każdego `*.pdf` i `*.html` w tym katalogu i zapisuje plik `*.txt` (do przeszukiwania i cytowania w memorandum). Oryginał jest wcześniej kopiowany do `bkp/`, a po udanym zapisie usuwany z `src/`, więc po przebiegu w `src/` zostają tylko pliki `.txt`; `--keep` zostawia oryginały. `download.sh` traktuje plik jako pobrany, jeżeli istnieje w `src/`, w `bkp/` albo jako `.txt`.
 
 ```
 ./src/extract_text.py          # wszystkie pliki
-./src/extract_text.py -f       # nadpisz istniejące .txt
+./src/extract_text.py -f       # nadpisz istniejące .txt (także z bkp/)
+./src/extract_text.py --keep   # nie usuwaj oryginałów
 ```
 
 Wymaga `pdftotext` (pakiet poppler-utils) albo `pip install pypdf`. Pliki `.txt` też są poza git.
