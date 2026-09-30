@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Wyciąga tekst z plików PDF (i HTML) w katalogu src/ i zapisuje obok jako .txt.
 
-Użycie:  ./src/extract_text.py            # wszystkie *.pdf i *.html w src/
+Użycie:  ./src/extract_text.py            # wszystkie *.pdf, *.html, *.htm, *.xhtml w src/
          ./src/extract_text.py plik.pdf   # wybrane pliki
          ./src/extract_text.py -f         # nadpisz istniejące .txt (także z plików leżących już tylko w bkp/)
          ./src/extract_text.py --keep     # nie usuwaj oryginałów z src/
@@ -15,6 +15,7 @@ from html.parser import HTMLParser
 
 SRC = os.path.dirname(os.path.abspath(__file__))
 BKP = os.path.join(SRC, "bkp")
+EXTS = ("pdf", "html", "htm", "xhtml")
 
 def pdf_to_text(path):
     if shutil.which("pdftotext"):
@@ -36,7 +37,7 @@ def pdf_to_text(path):
         raise RuntimeError("brak narzędzia: zainstaluj poppler-utils (pdftotext) albo `pip install pypdf`")
 
 class _Text(HTMLParser):
-    SKIP = {"script", "style", "noscript", "svg"}
+    SKIP = {"script", "style", "noscript", "svg", "head", "nav", "header", "footer", "aside", "iframe"}
     def __init__(self):
         super().__init__(); self.out = []; self.skip = 0
     def handle_starttag(self, tag, attrs):
@@ -68,10 +69,10 @@ def main(argv):
     files = [a for a in argv if a not in ("-f", "--keep")]
     os.makedirs(BKP, exist_ok=True)
     if not files:
-        files = sorted(glob.glob(os.path.join(SRC, "*.pdf")) + glob.glob(os.path.join(SRC, "*.html")))
+        files = sorted(sum((glob.glob(os.path.join(SRC, "*." + e)) for e in EXTS), []))
         if force:  # przy -f także pliki, które są już tylko w bkp/
             have = {os.path.basename(f) for f in files}
-            files += sorted(f for f in glob.glob(os.path.join(BKP, "*.pdf")) + glob.glob(os.path.join(BKP, "*.html"))
+            files += sorted(f for f in sum((glob.glob(os.path.join(BKP, "*." + e)) for e in EXTS), [])
                             if os.path.basename(f) not in have)
     ok = bad = skip = 0
     for f in files:
