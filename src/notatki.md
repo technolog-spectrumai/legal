@@ -23,6 +23,15 @@ Luźne obserwacje z prac nad memorandum i pobieraniem źródeł; rzeczy, które 
 - **PKD 2025**: wszystkie 19 kodów z § 4 umowy zgadza się co do znaku z rozporządzeniem; 72.10.Z istnieje.
 - **Wykaz WT**: BSP są w WT V ust. 3 („oraz ich systemy i urządzenia… kierowania i kontroli lotu”); wyłączenie dla statków cywilnych dotyczy tylko WT V ust. 2 (załogowe). Oprogramowanie autonomii może być „technologią” z definicji pkt 12 i 15 załącznika.
 
+## Prawo UE — spostrzeżenia z weryfikacji 1.2
+
+- **EDF (2021/697)**: art. 5 określa państwa stowarzyszone jako członków EFTA będących członkami EOG; tekst nie wymienia Norwegii z nazwy. „Kontrola” to decydujący wpływ, także pośredni (art. 2 pkt 6); podmiot z siedzibą w UE, którego zarządcza struktura wykonawcza jest w państwie trzecim, traktuje się jak podmiot z państwa trzeciego (art. 2 pkt 24). Derogacja z art. 9 ust. 4 wymaga gwarancji zatwierdzonych przez państwo członkowskie.
+- **2021/821, załącznik I (konsolidacja 2023)**: 9A012.b.1–b.2 mają status „Not used” — hipoteza „9A012.b.2 = autonomia” z `regulations.md` jest nieaktualna; BSP to 9A012.a, oprogramowanie do ich działania 9D004.e, technologia 9E001; 9A120 to zbiorniki paliwa rakietowego, nie BSP. Załącznik I zmieniano po 2023 r. — do klasyfikacji brać najnowszą konsolidację.
+- **EU001** nie obejmuje Turcji; z krajów NATO/EOG obejmuje m.in. Norwegię, Islandię, Kanadę, USA, UK i Szwajcarię z Liechtensteinem — katalog UE/EOG/NATO w umowie (§ 27 ust. 6) nie pokrywa się z EU001.
+- **AI Act**: wyłączenie z art. 2 ust. 3 dotyczy systemów wprowadzanych „wyłącznie” do celów wojskowych, obronnych lub bezpieczeństwa narodowego; produkt dual-use sprzedawany także cywilnie podlega rozporządzeniu. Stosowanie od 2.08.2026 r., art. 6 ust. 1 od 2.08.2027 r.
+- **2026/877 (TTBER)**: art. 5 ust. 1 lit. a wyłącza spod zwolnienia grupowego także obowiązek przeniesienia (nie tylko licencji wyłącznej) ulepszeń na licencjodawcę; obowiązuje od 1.05.2026 do 30.04.2038.
+- **PFR Otwarte Innowacje**: strona jest wewnętrznie niespójna — opis programu mówi o do 40% portfela w spółkach z zagraniczną siedzibą i polskimi founderami, FAQ o do 15% w spółkach z UE/EFTA/EOG+UK znacząco obecnych w Polsce. Memorandum podaje obie liczby.
+
 ## Narzędzia i repozytorium
 
 - `build.sh` kompiluje `psa.tex` jako pierwszy, bo `memorandum.tex` i `psa_feedback.tex` biorą numery § z `psa.aux` (`xr-hyper`).

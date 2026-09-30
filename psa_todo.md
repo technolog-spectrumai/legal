@@ -20,7 +20,7 @@ Konwencja: `- [ ]` do zrobienia, `- [x]` zrobione; przy pozycji podajemy plik, k
 ## 2. Po otrzymaniu memorandum kancelarii
 
 - [x] **Memorandum (etap A, pkt 1–14)**: `memorandum.tex` — odpowiedzi na 79 pytań, sekcje T1–T9, załączniki (uwagi K1–K18, decyzje D1–D16, lista do weryfikacji). Wersja 1.1: podstawy krajowe zweryfikowane na tekstach aktów w `src/legal/` (skrypty `src/tools/`). Runda uzupełniająca (pkt 15): `law_uzup.md`.
-- [ ] **Weryfikacja memorandum na prawie UE i orzeczeniach SN**: uruchomić `./src/tools/download_eu.py` (Playwright) i `./src/tools/extract_text.py`, wypchnąć `src/legal/`, potem sprawdzić tezy oznaczone [W] o TFUE, 2019/452, 2021/697 art. 9, 2021/821, 2026/877, AI Act, CRA, BSP oraz orzeczenia SN z `psa_feedback.tex` → memorandum 1.2.
+- [ ] **Weryfikacja memorandum na TFUE, orzeczeniach SN i pozostałych aktach UE** (memorandum 1.2 sprawdziło EDF, 2021/821, 269/2014, 2019/947, AI Act, 2026/877 i 2026/1386): pobrać brakujące pozycje z `src/legal/todo.md`, `./src/tools/extract_text.py`, potem podnieść tezy [W] → memorandum 1.3.
 - [ ] **Plan prac dla zakresu 1–27** (memorandum do `law.md`, wdrożenie zmian, dokumenty do KRS, dokumenty wykonawcze) z bramkami decyzyjnymi Założycieli: `plan_prac.md`; oczekiwania funduszy VC i ich mapowanie na umowę: `vc.md`.
 - [ ] Wcześniej: po odpowiedzi kancelarii (albo na jej prośbę o projekt do wyceny) wysłać `mail.md` z `psa.pdf` i `law.md`; zapisać datę wysłania i commit załączników w `psa_feedback.tex`, Część 3.
 - [ ] Wkleić odpowiedź jako R1 do `psa_feedback.tex`, Część 3, ze stanowiskiem Założycieli przy każdej uwadze; odesłania według numeracji `law.md`.
