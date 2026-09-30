@@ -65,3 +65,8 @@ Thumbs.db
 # Optional: generated PDFs
 # Uncomment if PDFs should NOT be versioned
 # *.pdf
+
+# Pobrane źródła prawne (pl/src/download.sh)
+pl/src/*
+!pl/src/download.sh
+!pl/src/README.md
