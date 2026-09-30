@@ -91,6 +91,8 @@ Oznaczenia stanu jak w `vc.md` sekcja 8: **OK** — umowa to przewiduje; **CZ** 
 | Cypr, Malta | holdingi dla Europy Środkowej, niskie podatki | UE, ale poza NATO; Cypr bywa problemem przy weryfikacji beneficjentów rzeczywistych i sankcjach |
 | Litwa, Łotwa, Czechy | sąsiedzi z rosnącym defense tech (CSG, Frankenburg w Estonii), fundusze państwowe | UE i NATO; bez kolizji z Kryterium |
 
+Szczegółowe profile tych jurysdykcji (założenie spółki, podatki 2026, licencje obronne, fundusze, DIANA, NIF, SAFE) i rekomendacja co do siedziby, spółek zależnych i holdingu: katalog `jurisdictions/` (`jurisdictions/README.md`).
+
 ---
 
 ## 6. Co dalej
