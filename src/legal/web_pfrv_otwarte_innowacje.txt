@@ -1,0 +1,205 @@
+Title: PFR Otwarte Innowacje | Serwis Spółki PFR Ventures
+
+URL Source: https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje
+
+Published Time: Mon, 04 Apr 2022 07:23:49 GMT
+
+Markdown Content:
+*   
+Niezbędne pliki cookie przyczyniają się do użyteczności strony poprzez umożliwianie podstawowych funkcji takich jak nawigacja na stronie i dostęp do bezpiecznych obszarów strony internetowej. Strona internetowa nie może funkcjonować poprawnie bez tych ciasteczek.
+
+    *   [Airtable 6](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 1: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://airtable.com/privacy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Airtable - otwiera się w nowym oknie")**__Host-airtable-session**Contains a specific ID for the current session. This is necessary for running the website correctly.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP **__Host-airtable-session.sig**Contains a specific ID for the current session. This is necessary for running the website correctly.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP **AWSALBTG**Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.
+
+**Maksymalny okres przechowywania**: 7 dni**Rodzaj**: Plik cookie HTTP **AWSALBTGCORS**Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.
+
+**Maksymalny okres przechowywania**: 7 dni**Rodzaj**: Plik cookie HTTP **brw**Detects and logs potential errors on third-party provided functions on the website.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP **login-status-p**This cookie is necessary for the login function on the website.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP  
+    *   [Cookiebot 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 2: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.cookiebot.com/goto/privacy-policy/ "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Cookiebot - otwiera się w nowym oknie")**CookieConsent**Stores the user's cookie consent state for the current domain
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP 
+    *   [Google 2](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 3: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Google - otwiera się w nowym oknie")Niektóre dane zgromadzone przez tego dostawcę służą do personalizacji i pomiaru skuteczności reklam. Dostawca może wykorzystywać adresy IP do pomiaru skuteczności reklam i ich personalizacji.
+
+**rc::a**This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **rc::c**This cookie is used to distinguish between humans and bots.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML  
+    *   [LinkedIn 4](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 4: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.linkedin.com/legal/privacy-policy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy LinkedIn - otwiera się w nowym oknie")**bcookie**Used in order to detect spam and improve the website's security.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP **li_gc**Stores the user's cookie consent state for the current domain
+
+**Maksymalny okres przechowywania**: 180 dni**Rodzaj**: Plik cookie HTTP **bscookie**This cookie is used to identify the visitor through an application. This allows the visitor to login to a website through their LinkedIn application for example.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP **JSESSIONID**Preserves users states across page requests.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP  
+    *   [Stripe 3](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 5: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://stripe.com/privacy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Stripe - otwiera się w nowym oknie")**__stripe_mid**This cookie is necessary for making credit card transactions on the website. The service is provided by Stripe.com which allows online transactions without storing any credit card information.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP **__stripe_sid**This cookie is necessary for making credit card transactions on the website. The service is provided by Stripe.com which allows online transactions without storing any credit card information.
+
+**Maksymalny okres przechowywania**: 1 dzień**Rodzaj**: Plik cookie HTTP **m**Determines the device used to access the website. This allows the website to be formatted accordingly.
+
+**Maksymalny okres przechowywania**: 400 dni**Rodzaj**: Plik cookie HTTP  
+    *   [client.protechts.net 3](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**_px3**Used in context with the website's BotManager. The BotManager detects, categorizes and compiles reports on potential bots trying to access the website.
+
+**Maksymalny okres przechowywania**: 1 dzień**Rodzaj**: Plik cookie HTTP **_pxvid**This cookie is used to distinguish between humans and bots.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP **pxcts**This cookie is used to distinguish between humans and bots.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP  
+    *   [evenea.pl 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**PHPSESSID**Preserves user session state across page requests.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP 
+    *   [linkedin.com pfrventures.pl 2](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**__cf_bm[x2]**This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+
+**Maksymalny okres przechowywania**: 1 dzień**Rodzaj**: Plik cookie HTTP 
+    *   [m.stripe.com 3](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 6: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://stripe.com/privacy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy m.stripe.com - otwiera się w nowym oknie")**_ab**This cookie is necessary for making credit card transactions on the website. The service is provided by Stripe.com which allows online transactions without storing any credit card information.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML **_mf**This cookie is necessary for making credit card transactions on the website. The service is provided by Stripe.com which allows online transactions without storing any credit card information.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML **id**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML  
+
+*   
+Pliki cookie dotyczące preferencji umożliwiają stronie zapamiętanie informacji, które zmieniają wygląd lub funkcjonowanie strony, np. preferowany język lub region, w którym znajduje się użytkownik.
+
+    *   [Airtable 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 7: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://airtable.com/privacy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Airtable - otwiera się w nowym oknie")**internal/page_view**Stores data entered with a form so that when you return to the website you don't have to fill in the data again.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Śledzenie pikseli 
+    *   [LinkedIn 3](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 8: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.linkedin.com/legal/privacy-policy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy LinkedIn - otwiera się w nowym oknie")**lang**Necessary for maintaining language-settings across subpages on the website.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **lidc**Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.
+
+**Maksymalny okres przechowywania**: 1 dzień**Rodzaj**: Plik cookie HTTP **li_alerts**Used to determine when and where certain pop-ups on the website should be presented for the user and remember whether the user has closed these, to keep them from showing multiple times.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP  
+    *   [m.stripe.com 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 9: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://stripe.com/privacy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy m.stripe.com - otwiera się w nowym oknie")**1**This cookie is used in conjunction with the payment window - The cookie is necessary for making secure transactions on the website.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML 
+
+*   
+Statystyczne pliki cookie pomagają właścicielem stron internetowych zrozumieć, w jaki sposób różni użytkownicy zachowują się na stronie, gromadząc i zgłaszając anonimowe informacje.
+
+    *   [Google 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 10: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Google - otwiera się w nowym oknie")Niektóre dane zgromadzone przez tego dostawcę służą do personalizacji i pomiaru skuteczności reklam. Dostawca może wykorzystywać adresy IP do pomiaru skuteczności reklam i ich personalizacji.
+
+**_gat**Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+
+**Maksymalny okres przechowywania**: 1 dzień**Rodzaj**: Plik cookie HTTP  
+    *   [us-an.gr-cdn.com 2](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**gaVisitorUuid**Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.
+
+**Maksymalny okres przechowywania**: 1 rok**Rodzaj**: Plik cookie HTTP **gaUserPageSessionVisit**Stores data on the time spent on the website and its sub-pages, during the current session.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML  
+
+*   
+Marketingowe pliki cookie stosowane są w celu śledzenia użytkowników na stronach internetowych. Celem jest wyświetlanie reklam, które są istotne i interesujące dla poszczególnych użytkowników i tym samym bardziej cenne dla wydawców i reklamodawców strony trzeciej.
+
+    *   [Meta Platforms, Inc. 2](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 11: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.facebook.com/policy.php/ "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy  Meta Platforms, Inc. - otwiera się w nowym oknie")**_fbp[x2]**Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.
+
+**Maksymalny okres przechowywania**: 3 miesięcy**Rodzaj**: Plik cookie HTTP 
+    *   [Google 3](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 12: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Google - otwiera się w nowym oknie")Niektóre dane zgromadzone przez tego dostawcę służą do personalizacji i pomiaru skuteczności reklam. Dostawca może wykorzystywać adresy IP do pomiaru skuteczności reklam i ich personalizacji.
+
+**_ga**Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+
+**Maksymalny okres przechowywania**: 25 miesięcy**Rodzaj**: Plik cookie HTTP **_ga_#**Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+
+**Maksymalny okres przechowywania**: 25 miesięcy**Rodzaj**: Plik cookie HTTP **_gid**Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+
+**Maksymalny okres przechowywania**: 1 dzień**Rodzaj**: Plik cookie HTTP  
+    *   [LinkedIn 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 13: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.linkedin.com/legal/privacy-policy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy LinkedIn - otwiera się w nowym oknie")**pxsid**Registers data on visitor such as IP addresses, geographical location and advertisement interaction. This information is used optimize the advertisement on websites that make use of Rubicon Project-services.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML 
+    *   [Marketo 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 14: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://documents.marketo.com/legal/cookies/ "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Marketo - otwiera się w nowym oknie")**_mkto_trk**Contains data on visitor behaviour and website interaction. This is used in context with the email marketing service Marketo.com, which allows the website to target visitors via email.
+
+**Maksymalny okres przechowywania**: 2 lat**Rodzaj**: Plik cookie HTTP 
+    *   [YouTube 11](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 15: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy YouTube - otwiera się w nowym oknie")**__Secure-ROLLOUT_TOKEN**Used to track user’s interaction with embedded content.
+
+**Maksymalny okres przechowywania**: 180 dni**Rodzaj**: Plik cookie HTTP **__Secure-YEC**Stores the user's video player preferences using embedded YouTube video
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **__Secure-YNID**Used to track user’s interaction with embedded content.
+
+**Maksymalny okres przechowywania**: 180 dni**Rodzaj**: Plik cookie HTTP **LAST_RESULT_ENTRY_KEY**Used to track user’s interaction with embedded content.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **LogsDatabaseV2:V#||LogsRequestsStore**Used to track user’s interaction with embedded content.
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: IndexedDB **TESTCOOKIESENABLED**Used to track user’s interaction with embedded content.
+
+**Maksymalny okres przechowywania**: 1 dzień**Rodzaj**: Plik cookie HTTP **VISITOR_INFO1_LIVE**Tries to estimate the users' bandwidth on pages with integrated YouTube videos.
+
+**Maksymalny okres przechowywania**: 180 dni**Rodzaj**: Plik cookie HTTP **YSC**Registers a unique ID to keep statistics of what videos from YouTube the user has seen.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **yt-icons-last-purged**Necessary for the implementation and functionality of YouTube video-content on the website.
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **ytidb::LAST_RESULT_ENTRY_KEY**Used to track user’s interaction with embedded content.
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **YtIdbMeta#databases**Used to track user’s interaction with embedded content.
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: IndexedDB  
+    *   [app.evenea.pl 3](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**fbssls_#**Collects data on the visitor’s use of the comment system on the website, and what blogs/articles the visitor has read. This can be used for marketing purposes.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML **lastExternalReferrer**Detects how the user reached the website by registering their last URL-address.
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **lastExternalReferrerTime**Detects how the user reached the website by registering their last URL-address.
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML  
+    *   [us-an.gr-cdn.com 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**grUuidHasBeenSet**Collects information on what products the visitor has viewed and the content of the shopping-cart. This is used to increase the website's conversion rate through targeted advertisement and product promotions through emails.
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML 
+
+*   Nieklasyfikowane pliki cookie, to pliki, które są w procesie klasyfikowania, wraz z dostawcami poszczególnych ciasteczek. 
+
+    *   [Airtable 9](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 16: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://airtable.com/privacy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy Airtable - otwiera się w nowym oknie")**__Host-airtable-target-cell**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **__Host-airtable-target-cell.sig**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **acq**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **acq.sig**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **brwConsent**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: 1 dzień**Rodzaj**: Plik cookie HTTP **AirtableLocalPersister.leftNavigationWidthByAppId.appCIqjHcWxW3V7ua**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **AirtableLocalPersister.leftNavigationWidthByAppId.appPtXD2gDSyJv41J**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **AirtableLocalPersister.pageDefaultURLSettings.appCIqjHcWxW3V7ua.pag0elNbXvzhvk96m**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **AirtableLocalPersister.pageDefaultURLSettings.appCIqjHcWxW3V7ua.pagfj41ZiNwd2UwK7**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML  
+    *   [LinkedIn 7](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)[Dowiedz się więcej na temat tego dostawcy![Image 17: otwiera się w nowym oknie](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.linkedin.com/legal/privacy-policy "Dowiedz się więcej na temat tego dostawcy Polityka prywatności firmy LinkedIn - otwiera się w nowym oknie")**PXdOjV695v_px_c_p_PXdOjV695v**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML **PXdOjV695v_px_hvd**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **PXdOjV695v_px_nfsp**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Lokalny magazyn HTML **PXdOjV695v_px-ff**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML **li_apfcdc[x2]**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP **sequenceNumber#sequenceNumber**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: IndexedDB  
+    *   [app.evenea.pl 1](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**fbapc_180662738631570**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: Lokalny magazyn HTML 
+    *   [client.protechts.net 2](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**_pxttld[x2]**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Sesyjne**Rodzaj**: Plik cookie HTTP 
+    *   [pfrventures.pl 4](https://pfrventures.pl/en/program-dla-vc/pfr-otwarte-innowacje#)**gr-popups-renderer#content**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: IndexedDB **gr-popups-renderer#meta**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: IndexedDB **gr-popups-renderer#translation**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: IndexedDB **gr-translations#translations**W oczekiwaniu
+
+**Maksymalny okres przechowywania**: Stałe**Rodzaj**: IndexedDB

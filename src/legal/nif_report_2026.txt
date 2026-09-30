@@ -1,0 +1,1218 @@
+Defence, Security
+and Resilience in
+Europe
+The state of startups and
+venture capital - 2026
+
+
+February 2026
+           Leading €1B+ fund investing in Deep Tech for                                  Global startup           &    venture       capital      intelligence
+           Defence, Security, Resilience.                                                platform.
+
+           A standalone venture capital fund backed by 24 NATO allies deploying €1+      Dealroom.co is a global intelligence platform for discovering and tracking
+           billion in deep tech. The NATO Innovation Fund empowers founders to           the most promising companies, technologies and ecosystems. Clients
+           address challenges in Defence, Security, and Resilience, and secure the       include many of the worldʼs foremost organizations such as Sequoia,
+           future of the Allianceʼs citizens. It focuses both on direct investments in   Accel, Index Ventures, NATO Innovation Fund, NATO Diana, European
+           startups and fund investments.                                                Defence Fund, ESA, McKinsey, BCG, Deloitte, Google, AWS, Microsoft,
+                                                                                         Stripe.
+           Key focus areas
+           The NATO Innovation Fund invests in emerging disruptive technology            Dealroom partners closely with local tech ecosystem development
+           areas including artificial intelligence (AI), autonomy, quantum,              agencies and enablers, to create a comprehensive multi-dimensional
+           biotechnology, hypersonic systems, space, novel materials and                 blueprint of the tech ecosystem, including capital, talent, innovation,
+           manufacturing, energy and propulsion, and next-generation                     entrepreneurship and overall economic dynamism.
+           communications.
+
+
+
+                                         Direct investments
+
+
+
+
+                                          Funds supported
+
+
+
+
+Page / 2
+    Key Takeaways
+
+
+           Overall market trends                   Regional trends                          Revenue, exits and                       Thematic trends
+                                                                                            collaborations
+           ● Venture Capital (VC) funding in       ● The UK and Germany lead in DSR                                                  ● Security of critical technologies
+             European Deep Tech Defence,             investing with Finland, Spain,                                                    saw strongest growth across all
+                                                                                            ● Data shows early signs that startups
+             Security and Resilience (DSR) is at     Norway and Bulgaria on the rise.                                                  stages while defence challenge
+                                                                                              are accessing capital, generating
+             an all time high reaching $8.7B in                                                                                        areas also grew strongly at early
+                                                   ● The UK attracted the most VC             revenue and fostering partnerships
+             2025.                                                                                                                     and late stage.
+                                                     funding in 2025 with $2.9B.              as the sectorʼs growth cements
+           ● Funding is up 55% from last year,       Germany is closing the gap with          Europeʼs technological                 ● Energy security and resilience
+             nearly 4 times higher than 5 years      $2.1B.                                   sovereignty.                             saw negative growth across all
+             ago.                                                                                                                      stages.
+                                                   ● Finland notably ranked 4th by          ● Increasing evidence DSR startups
+           ● 43% of all European Deep Tech VC        DSR funding in 2025 and lead             are building strategic and             ● AI underpinned 44% of DSR funding
+             funding went into DSR in 2025.          among the Nordics with $636M             financial partnerships with              in 2025, the highest share in the last
+             This represented 13% of all VC          raised.                                  defence primes whilst also winning       6 years.
+             funding, up 3x in the last 3 years.                                              public tenders.
+                                                   ● Germany and the Netherlands                                                     ● VC funding in the sub-area of
+           ● Late-stage mega-funding is              have the highest share of VC           ● While VC financing is predominant        Awareness, Understanding and
+             driving this growth by tripling         funding going to DSR in 2025 at          source of income for startups, debt      Decision Making reached a record
+             from last year to $4.7B driven by       over 15% each.                           and grants are increasing. Grant         $1.7B in 2025, up 60% from last
+             mega rounds in AI & Autonomy,                                                    funding trends suggest they could        year fuelled by interest in drones
+             Quantum, Computing, and Space.        ● Central and Eastern Europe               match or exceed VC funding in the        and UAVs and satellite imaging.
+                                                     showed the fastest growth in deal        following years.
+           ● AI dominated the sector,                velocity, with a 2.7x increase since                                            ● Quantum and AI chips pushed
+             underpinning 44% of all DSR             2020 led by Bulgariaʼs EnduroSat       ● Mergers and acquisitions are up
+                                                                                                                                       funding in Security of critical
+             funding.                                space technology company.                4x than four years ago, despite no
+                                                                                                                                       technologies startups to reach
+                                                                                              public listings in 2025.
+           ● Early and breakout stages show                                                                                            $2.4B in 2025, more than
+                                                   ● Munich, London and Paris are the
+             mixed signals, overall a small                                                                                            doubling from last year.
+                                                      top hubs in Europe for VC funding
+             decline from last yearʼs                 in DSR since 2020 with Helsinki
+             all-time-high, but strongly              rising to 4th hub for VC funding in
+             dependent on the challenge area.         DSR in 2025. Sofia and Oslo both
+                                                      rose in prominence, making it into
+                                                      the top European cities for VC
+                                                      investment in five years.
+
+
+
+
+Page / 3
+    The European Deep Tech Defence, Security and Resilience landscape in a snapshot
+
+
+
+           $8.7B                                   +55%                                             13%
+           In VC funding raised by European        Growth in VC funding year-over-year.             Share of total VC in Europe going to
+           Defence, Security and Resilience                                                         Defence, Security and Resilience
+                                                   …while the overall VC market grew by only 16%.
+           startups in 2025.                       4x growth for DSR in the last five years.        startups in 2025.
+
+
+
+
+           43%                                     UK                                               Munich
+           Of all European Deep Tech funding in    Attracted the most funding towards the           Top hub in Europe with $1.7B in VC
+           2025 went to Defence, Security and      sector since 2020.                               funding in 2025.
+           Resilience startups.
+                                                   Germany and France complete the podium.          43% was raised by Helsing. London and
+                                                                                                    Cambridge follow with a combined $2.4B.
+
+
+
+
+           940+                                    7.4x                                             $2.4B
+           Investors were active in at least one   Growth since 2020 in VC funding                  VC funding in Security of critical
+           DSR deal in Europe in 2025.             towards Awareness, Understanding                 technologies startups in 2025, driven
+           Of this sample we also curated 100+     and Decision Making with a record                by Quantum and AI chips.
+           particularly notable DSR investors.     $1.8B in 2025.
+
+
+
+
+Page / 4       Source: Dealroom.co
+                                                               Defence                                     Security                           Resilience
+
+
+
+
+                                                                   Awareness,                                Energy security and                Supply chain
+                                                                   understanding and                         climate change                     resilience
+                                                                   decision making
+                                                                                                                                                E.g. novel manufacturing,
+                                                                                                             E.g. energy storage solutions,
+   This report focuses                                             E.g. novel solutions to
+                                                                   operating in complex
+                                                                                                             nuclear energy, and water
+                                                                                                                                                high-quality semiconductor
+                                                                                                                                                materials, critical material
+   on Deep Tech for                                                environments, land and air
+                                                                                                             management.
+                                                                                                                                                supply.
+                                                                   situational awareness and
+   Defence, Security                                               threat detection.
+
+   and Resilience,
+   addressing six major
+   challenges for Allied
+   nations                                                         Freedom of                                Security of critical               Crisis preparedness
+                                                                   operations and                            technologies
+                                                                   mobility                                                                     E.g. biotechnologies, water
+                                                                                                             E.g. quantum technologies, AI      access and food supply.
+                                                                   E.g. novel and autonomous                 and compute hardware
+                                                                   capabilities on the battlefield,          infrastructure.
+                                                                   space sovereignty
+                                                                   infrastructure, novel maritime
+                                                                   autonomy.
+
+
+
+
+                     NIF, Dealroom.co Subsegments mentioned are not exhaustive but just some examples of
+Page / 5   Source:
+                     a broader set of relevant areas in the sector
+                                                                   Next-gen                                                                            AI & computing                                     Autonomy
+                                                                communication                                                                          ● AI chips & processors                       ● Advanced drones & aerial
+                                                                  ● Optical and space                                                                                             Edge                          UAVs
+                                                                                                                                                      ● Photonics for computing computing
+                                                                    communications                                                                      (e.g. optical interconnectors,   hardware     ● Marine submarine and
+                                                                                                                                                               photonics chips)                             surface UAVs
+                                                              ● Underwater communication
+                                                                                                                                              Semi-          ● AI x defence
+                                                                 ● Hardware-embedded                                                                                                                  ● Collaborative robotics
+                                                                      cybersecurity                  Novel materials & conductor
+                                                                                                                       materials
+                                                                                                                                                                                                           ● Humanoids
+                                                                                                      manufacturing
+   This report                                                         Quantum
+                                                                       Comms.
+                                                                                                     ● High-performance materials
+                                                                                                      (e.g. next-gen composite materials,
+                                                                                                                                                                                                              Synthetic
+                                                                                                                                                                                                               biology
+   focuses on nine key                                                                                  nanomaterials, smart materials)
+                                                                                                           ● Critical materials
+                                                                                                                                                           Energy &                                  Biotechnologies
+   technology areas                                                 Quantum
+                                                                                          Material
+                                                                                         Discovery
+                                                                                                          (e.g. rare earths, lithium)
+                                                                                                        ● AI material discovery
+                                                                                                                                           Critical
+                                                                                                                                           mineral
+                                                                                                                                          mining &
+                                                                                                                                          recycling
+                                                                                                                                                          propulsion                                 ● Multi Omics e.g. protein
+   within Defence,                                              ● Quantum computers &
+                                                                       processors
+                                                                                                                                                      ● Nuclear fusion & fission
+                                                                                                                                                         ● Next-gen battery                 Bio-
+                                                                                                                                                                                                             sequencing
+                                                                                                                                                                                                    ● Predictive & engineering
+
+   Security and                                                 ● Quantum cryptography
+                                                                  ● Quantum sensing
+                                                                                                                                                             chemistries
+                                                                                                                                                       ● Long-duration storage
+                                                                                                                                                                                           fuels               biology
+                                                                                                                                                                                                         ● Decentralised
+
+   Resilience                                                  ● Post-quantum encryption                                                              ● Grid technology & smart
+                                                                                                                                                                 grids
+                                                                                                                                                                                                         biomanufacturing
+                                                                                                                                                                                                    ● Pandemic preparedness
+                                                                                                                                          Debris
+                                                                                                                                        management      ● Water management                          ● Brain computer interfaces
+                                                                                                                                                       (e.g. wastewater treatment,                   ● Human enhancement
+                                                                                                                                                               desalination)
+
+                                                                                                                           Space Tech
+                                                                                                                        ● Reusable and next-gen
+                                                                                                                                rockets
+                                                                                                                                  ● GNSS
+                                                                                                                     ● In-space transportation and             Hypersonic
+                                                                                                                             manufacturing
+                                                                                                                           ● Space situational
+                                                                                                                                awareness
+
+
+
+
+                     NIF, Dealroom.co Subsegments mentioned are not exhaustive but just some examples of
+Page / 6   Source:
+                     a broader set of relevant areas in the sector
+    Notable examples of Defence, Security and Resilience startups across the six
+    challenge areas*
+
+
+              Awareness,                    Freedom of              Energy security and         Security of critical           Supply chain                Crisis
+           understanding and               operations and             climate change              technologies                  resilience             preparedness
+            decision making                   mobility
+
+
+
+
+             AI-enabled UAVs for         UGV for mass deployment      Iron-air batteries for    AI accelerator chips for   In-space manufacturing of    Full-length protein
+              military and civilian           in defence and          multi-day renewable          edge inference in        advanced semiconductor          sequencing
+           intelligence-as-a-service     commercial applications       energy storage and        vision, robotics and              materials
+                                                                         grid reliability         embedded systems
+
+
+
+
+           SAR satellite constellation    Next generation space          Next generation          Full-stack quantum           Software-driven           Rapid molecular
+             providing all-weather        rockets for small and         stellarator fusion        computing systems               precision            bacterial diagnostics
+             Earth observation for          medium satellites                 reactor                and software              manufacturing              using AI-driven
+           defence and commercial                                                                                                                            profiling
+                  intelligence
+
+
+
+
+              Hydrogen-powered              Hydrogen-powered            Line-powered grid            In-memory               Chemical recycling of        Foundation
+                 airships for             hypersonic aircraft and     monitoring solution for      computing for AI          advanced composites       model for simulating
+               long-endurance              autonomous systems          real-time monitoring           inference                to recover critical        clinical trials
+                 intelligence                                           and drone charging                                         materials
+
+
+
+
+Page / 7          Source: Dealroom.co
+                          “Across Europe, DSR continues to scale
+                           rapidly, with business growth evident
+                           across markets and substantial venture
+                           capital deployed through large rounds.
+                           With proven revenue streams and clear trajectories for
+                           continued growth, the opportunity is now for the
+                           remainder of capital providers - from banks to private
+                           equity - to step in and support the next phase of funding
+                           for late-stage DSR companies.”
+
+
+       Sander Verbrugge
+       Partner
+
+
+
+Page / 8
+300+ selected Deep Tech Defence, Security   » Explore the landscape
+and Resilience startups in Europe
+            1 Overall market trends
+            2 Regional trends
+            3 Revenue, exits and collaborations
+            4 Thematic Trends
+
+
+
+
+Page / 10
+    VC funding in
+    European Deep
+    Tech Defence,                              Venture Capital investment in European Deep Tech Defence, Security
+                                                                     and Resilience startups
+    Security and
+                                     ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B) ▊$40–100m (series C) ▊
+    Resilience is at                                         $100–250m (mega rounds) ▊$250m+ (mega+)
+    an all time high,
+    reaching $8.7B in
+    2025
+    Funding is up 55% since
+    last year and went up
+    nearly 4x over the last five
+    years.
+
+
+
+
+Page / 11                          Source: Dealroom.co *excluding OneWeb.
+    A record 13% of
+    all VC funding in
+    Europe went to                      Share of European VC funding and Deep tech VC funding going to Defence,
+                                                            Security and Resilience startups
+    Defence,
+    Security and                                      — % share of deep tech VC funding — % share of total VC funding
+    Resilience in
+    2025, up 3x from
+    three years back
+    DSR also accounted for
+    43% of Deep Tech funding,
+    up from 20% in 2022.
+
+
+
+
+Page / 12                       Source: Dealroom.co
+    Late stage has driven most of the growth, tripling from last year and showing a
+    maturing startup scene. Early and breakout stage shows marginal decline last year
+
+
+            Early                                            Breakout                                         Late
+            $1.1B funded, a -10% decline compared to 2024.   $2.8B funded, a -13% decline compared to 2024.   $4.7B funded, a 154% growth compared to 2024.
+            ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m          ▊$15–40m (series B) ▊$40–100m (series C)         ▊$100–250m (mega rounds) ▊$250m+ (mega+)
+            (series A)
+
+
+
+
+Page / 13         Source: Dealroom.co
+    The number of
+    VC rounds (≥
+    $1M) in                                       Number of VC rounds (≥$1M) in European Deep Tech Defence, Security
+                                                                       and Resilience startups*
+    European Deep
+                                    ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B) ▊$40–100m (series C) ▊$100–250m (mega rounds)
+    Tech Defence,                                                           ▊$250m+ (mega+)
+    Security and
+    Resilience
+    remained stable,
+    with late stage
+    rounds ($100M+)
+    reaching an all
+    time high
+    Number of deals went up
+    more than 2x in the last five
+    years.
+
+
+
+
+                                              Dealroom.co *Excluding rounds <$1M due to reporting lag in disclosure of some angel
+Page / 14                           Source:
+                                              and pre-seed rounds in the last 6-12 months.
+    Most of the
+    growth has come                 VC funding in European Deep Tech Defence, Security and Resilience
+    from startups                                      startups by challenge areas
+    focusing on
+    Defence                         Defence
+                                                                        Security
+                                                            ▊Energy security and climate change
+                                                                                                        Resilience
+                                                                                                  ▊Supply chain resilience
+                        ▊Awareness, understanding and
+    challenges, and           decision making
+                                                             ▊Security of critical technologies    ▊Crisis preparedness
+                      ▊Freedom of operations and mobility
+    Security of
+    critical
+    technologies
+
+
+
+
+Page / 15             Source: Dealroom.co
+    VC investment in                                 Defence, Security and Resilience VC rounds in 2025 by challenge areas
+    European                                                        (bubble size = round amount in USD M)
+    Defence,
+    Security and
+    Resilience
+    startups in 2025,
+    by challenges
+
+
+
+
+                                  Round amount (USD M)
+                                                700
+                                                300
+                                                70
+
+
+Page / 16   Source: Dealroom.co
+    The largest Deep               Security of critical technologies      Awareness and decision making               AI-drug discovery
+                                        Quantum computing                        AI for defence                          London, UK
+    Tech Defence,                           Cambridge, UK                       Munich, Germany
+
+    Security and
+    Resilience VC
+    rounds in 2025
+                                                  $800M                                 €600M                                $600M
+                                        Late VC - Sept & Nov 2025
+    With a focus on Quantum                                                       Series D - Jun 2025                  Late VC - Mar 2025
+
+    computing, AI, Drones, and
+                                   Awareness and decision making          Security of critical technologies    Security of critical technologies
+    Space.                                   ISR drones                        Quantum computing                    Quantum computing
+                                         Gilching, Germany                         Espoo, Finland                   San Sebastián, Spain
+
+
+
+
+                                                   €340M                                $320M                                €189M
+                                    Series C & Late VC - May & Nov 2025           Series B - Sep 2025                  Series B - Jun 2025
+
+
+                                  Freedom of operations and mobility      Awareness and decision making       Freedom of operations and mobility
+                                     Launchers for small satellites        Earth Observation satellites              Hypersonic aircraft
+                                         Ottobrunn, Germany                       Espoo, Finland                       Valkenburg, NL
+
+
+
+
+                                                 €150M                                  €150M                               €140M
+                                          Convertible - Jun 2025                  Series E - Dec 2025                Convertible - Sep 2025
+
+
+
+
+Page / 17   Source: Dealroom.co
+    Defence challenge areas and Security of critical technologies are showing growth
+    also at the early-stage
+
+
+
+            VC funding growth by challenge area and stage
+
+
+
+
+                                                            ●   Overall, DSR saw significant growth
+                                                                at late stage (+254%) since 2024
+       Defence
+                                                            ●   Security of critical technologies
+                                                                saw the strongest growth across all
+                                                                stages while defence challenge areas
+                                                                also grew strongly at early and late
+       Security                                                 stage
+
+                                                            ●   Energy security and resilience saw
+                                                                negative growth across all stages
+       Security
+
+
+
+
+Page / 18       Source: Dealroom.co
+    Defence,
+    Security and
+    Resilience has
+                                                        Comparison of VC funding by selected sectors in Europe*
+    experienced
+    significant
+    growth, in line
+    with the wider
+    trend in Europe
+    It was the 2nd fastest
+    growing segment in terms
+    of European VC funding
+    just behind
+    Security when excluding
+    DSR from all other
+                                                *
+    segments.
+
+
+
+
+                                       Dealroom.co Data of 7/01/2026 *This means Deep Tech not considered as part of Defence, Security and
+Page / 19                      Source: Resilience.
+                                       Defence, Security and Resilience has been excluded from all segments.
+    VC is still the
+    main source of
+                                                VC funding and non-dilutive funding for European Defence, Security
+    funding for DSR                                             and Resilience startups since 2015
+    startups,
+                                                                      ▊VC funding ▊Debt ▊Grants
+    represent 80%+,
+    but Debt and
+    Grants are also
+    increasing
+    Debt funding to DSR
+    startups multiplied by 26x
+    over the last 5 years,
+    reaching $1.4B in 2025.
+
+    Despite growth in debt
+    financing, debt providers
+    need to step up in order to
+    capture the opportunity
+    generated by later-stage
+    companies whose
+    financing hit a record-high
+    this year.
+
+
+
+
+Page / 20                         Source: Dealroom.co
+    Investors have
+    become
+    increasingly                       Number of unique investors in European Defence, Security and Resilience by year
+    involved in the
+    Defence,
+    Security and
+    Resilience sector
+    The number of investors
+    doing at least one deal has
+    increased 2.6x in the last
+    five years.
+
+
+
+
+                                          Dealroom.co. *2025 numbers to showcase a reporting lag. Includes all investors participating
+Page / 21                         Source: in at least one round in each respective year. Investors counted only once within the year,
+                                          regardless of the frequency of their investments.
+    Slightly more
+    than half of VC
+    funding in                                 European Defence, Security and Resilience VC funding by investor HQ
+    European
+                                                        ▊Domestic ▊Other European ▊North America ▊Rest of world
+    Defence,
+    Security and
+    Resilience comes
+    from European
+    investors
+    An increasing share of
+    funds has come from North
+    American investors over
+    the last three years as the
+    sector matures and attracts
+    larger rounds.
+
+
+
+
+Page / 22                         Source: Dealroom.co
+    Most active investors in Defence, Security and Resilience in Europe in 2025
+
+
+
+                                   (Pre) Seed                    Series A+
+
+
+
+
+Page / 23   Source   Dealroom.co
+    Notable European Defence, Security and Resilience investors
+
+
+
+                                                   Deep Tech funds                                   Other funds                                     Corporate investors**   International investors
+
+
+
+
+      (Pre)                                                                                                                     **
+      Seed*
+
+
+
+
+                           NATO Innovation Fund (NIF)
+
+
+
+
+      Series A
+
+
+
+
+      Series B
+
+
+
+
+                          Dealroom.co Funds selected based on number of rounds and amount invested in 2024, number and amount invested since 2019, % of their
+                          total activity allocated to rounds in Defence, Security and Resilience. Investors are shown only at the most common entry stage point. Global
+Page / 24        Source
+                          investors investing in European based Defence, Security and Resilience. *Including accelerators **Only looking at direct investment
+                          activity, not LP activity in funds
+    European
+    countries are
+    launching
+    dedicated
+    Defence,
+    Security and                 Selected national public funds focused on Defence, Security and Resilience
+    Resilience funds
+
+
+
+
+                               Dealroom.co. In addition to direct investments in defence startups, the Estonian
+Page / 25              Source: Defence Fund also operates a fund-of-funds programme, investing in VC and private
+                               equity funds.
+            1 Overall market trends
+            2 Regional trends
+            3 Revenue, exits and collaborations
+            4 Thematic Trends
+
+
+
+
+Page / 26
+    The UK leads VC funding since 2020 and in 2025; Germany and the Netherlands have the highest share
+    of funding going to the sector. Finland leads the Nordics in 2025 thanks to IQM $320m Series B
+
+
+
+
+                                    Defence, security and resilience (DSR) VC funding in Europe by region
+
+
+
+
+Page / 27   Source:   Dealroom.co
+    UK, Germany
+    and France lead
+    by VC                Top European countries for VC investment in Defence, Security
+                                           and Resilience in 2025
+    investment in
+    2025, Finland
+    does not trail far
+    behind in 4th
+
+    Bulgaria in 9th
+    place leading
+    CEE driven by
+    Endurosat
+
+
+
+
+Page / 28
+    VC investment in                              Defence, Security and Resilience VC rounds in 2025 by country
+    European                                                   (bubble size = round amount in USD M)
+    Defence,
+    Security and
+    Resilience
+    startups in 2025,
+    by countries
+
+
+
+
+                                  Round amount (USD M)
+                                                700
+                                                300
+                                                70
+
+
+
+Page / 29   Source: Dealroom.co
+    Germany, UK and France dominate funding volume, but CEE is on the rise
+    Whilst the Germany, UK and France represent 68% of the total amount raised in 2025 (with no strong change over the past few years), they only represent 44% of the
+    number of rounds. CEE is the main geography rising up in the number of rounds, even if for now still not reflecting strongly in large amounts.
+
+
+
+
+                                                                % of VC funding in DSR by countries
+
+                                    By amount                                                                        By number of rounds
+
+
+
+
+Page / 30   Source:   Dealroom.co
+    Munich is the top hub for VC funding in Defence, Security, and Resilience since
+    2020. The UK has four hubs in the top ten, while Germany and France have two
+
+
+
+            Top European cities for VC investment in Defence, Security                       Top European cities for VC investment in Defence, Security
+                              and Resilience, 2025                                                         and Resilience, 2020-2025
+
+
+
+
+Page / 31   Source:   Dealroom.co *43% of funding in Munich in 2025 was raised by Helsing.
+    Munich has imposed itself as the leading Defence, Security and Resilience
+    hub in Europe
+
+    Key stats for Deep Tech Defence, Security and resilience in Munich
+
+
+       42                               $1.7B                 18x                         “Munichʼs leadership is shaped by its
+       VC-backed startups               VC funding in 2025    In VC funding since 2020.
+                                                                                           strong industrial base, diverse
+                                                                                           international talent, and a vibrant
+                                                                                           deep tech ecosystem—all of which
+       $22.7B                           1st                   53%                          are driving future growth.
+       Combined enterprise              Hub in Europe by VC   Of all VC funding in 2025
+       value                            funding in 2025       in Munich went to the
+                                                              sector.                      This ecosystem is enabling
+                                                                                           next-generation space and defence
+                                                                                           companies to scale faster and move
+                                                                                           from innovation to deployment.”
+            Successes
+
+
+
+
+                                                                                                            Daniel Metzler
+                                                                                                            Co-Founder & CEO,
+            Rising Stars                                                                                      at Isar Aerospace
+
+
+
+
+Page / 32        Source   Dealroom.co
+            1 Overall market trends
+            2 Regional trends
+            3 Revenue, exits and collaborations
+            4 Thematic Trends
+
+
+
+
+Page / 33
+    Defence,
+    Security and
+    Resilience
+    startups are      Selected European Defence, Security and Resilience startups which won public tenders
+    increasingly
+                                                                                    ▊Drone-related
+    winning public
+    tenders,
+    particularly in
+    the drone
+    industry
+
+
+
+
+                                Dealroom.co. Based on disclosed European public procurement contracts since
+Page / 34             Source:
+                                2020 (incl. defence ministries and public agencies).
+    Several Defence,
+    Security and
+    Resilience
+    startups have
+                               Selected revenues from European Defence, Security and Resilience startups
+    scaled revenues
+    substantially
+
+
+
+
+Page / 35              Source: Dealroom.co.
+    Defence primes are increasingly investing and establishing strategic development
+    partnership with DSR startups
+
+      Defence primes investment in European Deep Tech Defence, Security               Selected partnerships between Defence Primes and European Defence,
+                    and Resilience startups » view online                                                Security and Resilience startups
+
+
+             ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B)
+                ▊$40–100m (series C) ▊$100–250m (mega rounds) ▊$250m+ (mega+)
+
+
+
+
+Page / 36   Source:   Dealroom.co
+    Consolidation with new “defence primes” acquiring DSR startups to expand
+    their oﬀering or expand geographically
+
+
+
+            Acquisitions
+
+
+                                                                           Ground autonomy                                  Aviation AI solutions
+
+
+
+                                                                                                    Strike and air
+                                                                                                   defence systems
+
+
+
+
+                                                                          Drone-as-a-service*                                 Multicopter UAVs
+
+
+
+
+                      UAVs and sensors                                                                                           Autonomous
+                           for ISR                                           AI for robotics                                      Robot Dogs
+
+
+
+
+                                                                           Electric powertrain   Defence AI for sea, land
+                                                                                 systems                                             AUVS
+                                                                                                   and air autonomy
+
+
+
+
+                                                                            ISR copter UAVs
+
+
+
+
+                                                                                                                                    Composite
+                                                                                                                                     aircrafts
+
+
+
+
+Page / 37   Source:         Dealroom.co *Quantum Systems acquired only Nordic Unmanned UK
+    M&A activity is at
+    an all time high
+    in 2025, 4x more
+    than four years      Number of VC-backed exits of European Defence, Security and Resilience startups
+    ago                                                  ▊M&A ▊IPO & SPACʼs
+
+
+    Whilst 2021 had
+    seen a flurry of
+    public listings,
+    none took place
+    in 2025
+
+
+
+
+Page / 38                Source: Dealroom.co
+    The value of
+    VC-backed exits
+    of European DSR
+    startups peaked     Value of VC-backed exits of European Defence, Security and Resilience startups
+    in 2021                                            ▊M&A ▊IPO & SPACʼs
+
+
+    2024-2025 saw
+    M&A value start
+    to pick up
+
+
+
+
+Page / 39             Source: Dealroom.co
+    Notable                                                                   Selected VC-backed European Defence, Security and Resilience exits since 2024
+    VC-backed
+    Defence,
+    Security and
+    Resilience exits
+    in 2024-2025
+                                                                                             Acquisition - €1.1B                 Acquisition - $225m
+                                                                                                 Jun. 2025                            Aug. 2025
+                                                                                                     By                                   By
+
+
+
+
+                                                                                                                   *
+
+
+
+                                                                                            Acquisition - €220M                   Acquisition - Und.
+                                                                                                Jun. 2024                             Feb. 2024
+                                                                                                     By                                   By
+
+
+
+
+Page / 40   Source   Dealroom.co *Previously listed through IPO in Oct. 2021 at a $2.9B valuation
+                               “While capital continues to flow into a
+                                sector that has never been more
+                                strategically important, investment
+                                alone doesnʼt automatically translate
+                                into stronger European defence
+                                capabilities.
+                                What matters is how eﬀectively DSR startups and
+                                scaleups are turning funding into real technologies, real
+                                contracts, and real operational impact. European
+                                ministries of defence have a critical role to play by
+                                making it easier for startups and scaleups to compete
+                                for acquisition contracts and by reshaping the
+                                relationships between new entrants and established
+       John Ridge               defence primes.”
+       Chief Adoption Oﬀicer
+
+
+
+Page / 41
+            1 Overall market trends
+            2 Regional trends
+            3 Revenue, exits and collaborations
+            4 Thematic Trends
+
+
+
+
+Page / 42
+    AI & Computing
+    have attracted
+    the most funding
+    as a technological               VC funding in European Defence, Security and Resilience startups
+    area in Defence,                                       by technology area
+    Security and
+    Resilience
+
+    Quantum had a
+    standout year
+
+
+
+
+Page / 43                Source: Dealroom.co
+    AI underpinned 44% of DSR funding in 2025, the highest share in the last 6 years
+
+
+
+                                                                   Awareness, understanding         Freedom of operations and mobility
+                            % of AI in DSR funding in Europe         and decision making <
+
+
+
+
+                                                               Energy security and climate change    Security of critical technologies
+
+
+
+
+                                                                    Supply chain resilience                Crisis preparedness
+
+
+
+
+Page / 44   Source:   Dealroom.co
+    Europe leads in
+    Quantum and
+    Earth
+    Observation and                   Share of VC funding in key Defence, security and resilience areas (2023 - 2025)*
+    show strength in                                                   ▊Europe ▊US ▊Rest of NATO ▊China ▊Rest of World
+    Grid Technology,
+    In-space
+    manufacturing
+    and operations,
+    and Photonics
+    Simultaneously, the region
+    trails behind in AI chips and
+    processors, launch
+    vehicles, nuclear, and
+    space exploration.
+
+
+
+
+                                            Dealroom.co Some startups might be included in more than one category
+Page / 45                           Source: *China is a leader in some of these segments but not in the lens of VC funding, such as Quantum and
+                                            Batteries.
+    Awareness, understanding and decision making - VC funding in Europe rose by 60% in
+    2025, fuelled by interest in drones and UAVs, satellite imaging, AI and defence
+
+
+
+            VC investment in European Awareness, understanding and
+                      decision making Deep Tech startups
+      ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B) ▊   Insights and Context
+           $40–100m (series C) ▊$100–250m (mega rounds) ▊$250m+ (mega+)
+                                                                                    ●     Advancements in Drones for surveillance of critical
+                                                                                          infrastructure, Earth Observation Satellites and Space
+                                                                                          Situational Awareness, among others, are changing the game
+                                                                                          for Awareness, understanding and decision making.
+
+                                                                                    ●     VC funding reached $1.8B in 2025, up 7.4x since 2020 and
+                                                                                          nearly 1.6x from last year.
+
+                                                                                    ●     The use of drones for defence has increased exponentially.
+                                                                                          Ukraine produced approximately 4 million drones in 2025 and
+                                                                                          has set a target of 7 million for 2026 compared to around one
+                                                                                          million globally in 2023. Most use-cases are for AI-driven
+                                                                                          surveillance, intelligence gathering, and strikes.
+
+                                                                                    ●     Space Situational Awareness (SSA) is on the rise to mitigate
+                                                                                          space-based threats, like the 40,000 tracked objects larger than
+                                                                                          10 cm in Earth's orbit (as of 2025) or hostile interference.
+
+
+
+
+Page / 46      Source: Dealroom.co
+    Freedom of operations and mobility - Startups raised a record amount in 2025 driven by space
+    sovereignty infrastructure, like launch vehicles, and autonomous capabilities for the battlefield
+
+
+
+
+      VC investment in European Freedom of operations and mobility
+                           Deep tech startups
+      ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B) ▊   Insights and Context
+           $40–100m (series C) ▊$100–250m (mega rounds) ▊$250m+ (mega+)
+                                                                                    ●     The nature of warfare is rapidly changing, with small-scale,
+                                                                                          modular, low-cost, and often autonomous tech taking a major
+                                                                                          role, from drones and UAVs, to UGVs and AUVs. Space is also
+                                                                                          increasingly becoming a fourth major domain of confrontation.
+
+                                                                                    ●     VC funding reached $845M in 2025, up 1.6x year on year, with
+                                                                                          notable growth both at early and late stage.
+
+                                                                                    ●     Most of the funding went into space sovereignty, especially
+                                                                                          launch vehicles, missiles strike capabilities and defence
+                                                                                          including hypersonic, as well as autonomous capabilities for
+                                                                                          the battlefield.
+
+                                                                                    ●     Counter-UAS has emerged as a critical investment theme,
+                                                                                          spanning detection, electronic warfare, kinetic interceptors and
+                                                                                          AI-driven threat identification, as drone proliferation reshapes
+                                                                                          force protection.
+
+
+
+
+Page / 47   Source: Dealroom.co
+    Energy security and climate change - VC funding in Europe reached $860M in 2025, the
+    third most-active year ever, driven mostly by nuclear fission and fusion
+
+
+
+       VC investment in European Energy security and climate change              Insights and Context
+                            Deep Tech startups
+                                                                                    ●     Clean and reliable energy generation is a strategic imperative for
+      ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B) ▊            Europeʼs energy security. Europe is dependent on costly (€400
+           $40–100m (series C) ▊$100–250m (mega rounds) ▊$250m+ (mega+)                   billion/year) and insecure fossil fuels imports and its energy transition
+                                                                                          importance has intensified due to a volatile new geopolitical trade
+                                                                                          dynamic.
+
+                                                                                    ●     VC funding fell slightly in 2025, just below $860M. Still the 3rd highest
+                                                                                          year for VC and over 2.8x more than 2020.
+
+                                                                                    ●     Most of the funding went into nuclear fission and fusion, that
+                                                                                          attracted seven of the top ten deals in 2025. New battery chemistries
+                                                                                          and earth observation from climate change also attracted significant
+                                                                                          funding.
+
+                                                                                    ●     Climate-change driven disasters, such as catastrophic wildfires and
+                                                                                          systemic droughts, are increasingly treated as national security threats,
+                                                                                          forcing a strategic convergence of climate adaptation and defense
+                                                                                          spending.
+
+                                                                                    ●     Water scarcity is a key cause of instability. In 2024 over 420 new
+                                                                                          conflicts were associated with water resources and systems. 17% of
+                                                                                          Europeʼs people are at risk to face high to extreme water scarcity risks
+                                                                                          by 2050. The EU adopted in June the European Water Resilience
+                                                                                          Strategy positioning water not just as an environmental issue, but as a
+                                                                                          security and competitiveness issue.
+
+
+
+
+Page / 48   Source: Dealroom.co
+    Security of critical technologies - Startups in Europe raised 2.4x more in 2025 than in
+    2024, a record high, driven mostly by quantum computing and AI chips
+
+
+
+            VC investment in Security of critical technologies Deep Tech
+                                     startups*                                   Insights and Context
+
+      ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B) ▊      ●     VC funding reached $2.4B in 2025, driven by late stage. This is a
+           $40–100m (series C) ▊$100–250m (mega rounds) ▊$250m+ (mega+)                   2.4x increase compared to 2024.
+
+                                                                                    ●     Secure communications are becoming a reality through
+                                                                                          quantum cryptography deployed via satellite and urban optical
+                                                                                          networks, addressing critical national security and data
+                                                                                          privacy needs. At the same time, photonic processors and
+                                                                                          AI-specialized chips are enabling energy-eﬀicient,
+                                                                                          high-performance computing, bridging classical and quantum
+                                                                                          technologies.
+
+                                                                                    ●     NATO has recently released its first-ever quantum strategy to
+                                                                                          ensure the Alliance is ''quantum-ready''. Quantum can be
+                                                                                          applied to defence and security in areas such as sensing,
+                                                                                          imaging, precise positioning, navigation and timing. It can also
+                                                                                          improve the detection of submarines, and secure data
+                                                                                          communications via quantum resistant cryptography.
+
+                                                                                    ●     Computing hardware, like AI specialized chips, is increasingly
+                                                                                          seen as a matter of national security and subject to export
+                                                                                          restrictions and geopolitical tension. Funding and support is on
+                                                                                          the rise to build domestic sovereignty in this area.
+
+
+
+
+Page / 49       Source: Dealroom.co; *Excluding OneWeb
+    Supply chain resilience - Funding is at all-time-high in Europe, with record activity at
+    the breakout and late stages, surpassing $1B
+
+
+
+       VC investment in European Supply Chain Resilience Deep Tech               Insights and Context
+                                startups
+                                                                                    ●     A resilient industrial base is now a core pillar of European
+      ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B) ▊            defence and security. Ensuring uninterrupted access to critical
+           $40–100m (series C) ▊$100–250m (mega rounds) ▊$250m+ (mega+)                   materials, components, and manufacturing capacity is essential
+                                                                                          for defence readiness, crisis response, and long-term strategic
+                                                                                          autonomy.
+
+                                                                                    ●     VC funding reached a new all-time high of $1.1B, led by
+                                                                                          breakout and late-stage round, reflecting growing confidence
+                                                                                          in scaling supply-chain-resilience technologies from pilot to
+                                                                                          industrial deployment, with increasing relevance for defence and
+                                                                                          security supply chains.
+
+                                                                                    ●     Funding spans multiple strategically important segments.
+                                                                                          Capital is distributed across advanced materials, critical-mineral
+                                                                                          recycling, semiconductors, composites, biomanufacturing, and
+                                                                                          in-space manufacturing being key enablers of resilient defence
+                                                                                          supply chains.
+
+                                                                                    ●     Europeʼs dependence on critical materials remains a structural
+                                                                                          vulnerability. Limited access to rare earths, battery minerals,
+                                                                                          and high-purity inputs heightens risk, increasing the importance
+                                                                                          of recycling, substitution, and alternative sourcing to secure
+                                                                                          long-term supply.
+
+
+
+
+Page / 50   Source: Dealroom.co
+    Crisis preparedness - VC funding in Europe is the second highest ever, but far below
+    peak 2021
+
+
+
+
+     VC investment in European Crisis preparedness Deep Tech startups
+      ▊$0–1m (pre-seed) ▊$1–4m (seed) ▊$4–15m (series A) ▊$15–40m (series B) ▊   Insights and Context
+           $40–100m (series C) ▊$100–250m (mega rounds) ▊$250m+ (mega+)
+                                                                                    ●     VC funding continues to rebound after the 2021 peak, with a
+                                                                                          strong performance at mega rounds.
+
+                                                                                    ●     Breakthroughs in proteomics, de novo sequencing, and
+                                                                                          programmable biology are enhancing bio-defence capabilities
+                                                                                          and enabling faster responses to emerging health threats. At
+                                                                                          the same time, synthetic biology and precision
+                                                                                          bio-manufacturing are being leveraged to ensure reliable
+                                                                                          production of critical health compounds, reduce supply chain
+                                                                                          dependencies, and support sustainable agriculture.
+
+                                                                                    ●     In parallel, innovations in non-invasive medical monitoring,
+                                                                                          precision fermentation, and sustainable crop engineering are
+                                                                                          expanding the frontiers of healthcare and food systems,
+                                                                                          highlighting the strategic role of biotechnology as both a
+                                                                                          national security priority and a driver of economic and societal
+                                                                                          resilience.
+
+
+
+
+Page / 51   Source: Dealroom.co
+    A few words on our methodology
+
+        What is a startup?                                Defence, Security, and Resilience                Underlying Data
+        Companies designed to grow fast. Generally,       In this report we define Defence, Security and   Dealroomʼs proprietary database and software
+        such companies are VC-investable businesses.      Resilience according to the NATO Innovation      aggregate data from multiple sources:
+        Sometimes they can become very big (e.g. $1B+     Fund challenge areas, as explained in slides     harvesting public information, user-submitted
+        valuation). When startups are successful, they    7-8 of the report. We considered only Deep       data verified by Dealroom, data engineering.
+        develop into scaleups (>50 people), grownups      Tech startups focusing on these challenges to    Data is verified and curated with an extensive
+        (>500 people) and result in big companies. Only   secure the future whether by protecting          manual process.
+        companies founded since 1990 are included in      infrastructure from subsea to space, enabling
+                                                                                                           The data on which this report builds is
+        this report.                                      the climate and energy transition, or ensuring
+                                                                                                           available via app.dealroom.co. For more info
+                                                          resilient supply chains across all sectors.
+        Blog post: What is a Startup?                                                                      please visit dealroom.co or contact
+                                                          For more on how Deep Tech is defined see the
+                                                                                                           support@dealroom.co.
+                                                          European Deep Tech report.
+                                                                                                           Venture Capital, Investors
+        Industries, Segments
+                                                                                                           Investment are referred to by their round labels
+        Dealroomʼs Intelligence Unit has developed a                                                       such as Seed, Series A, B, C, … late stage, and
+        proprietary technology taxonomy that acts as a                                                     growth equity. VC investments excludes debt or
+        foundation and helps navigate existing and                                                         other non-equity funding, lending capital,
+        emerging technologies. We welcome                                                                  grants and ICOs.
+        suggestions and feedback at
+                                                                                                           Buyouts, M&A, secondary rounds, and IPOs are
+        support@dealroom.co.
+                                                                                                           treated as exits: excluded from funding data,
+        Blog post: Tech taxonomy                                                                           but included in exit data.
+
+
+
+
+Page / 52    Source: Dealroom.co
+

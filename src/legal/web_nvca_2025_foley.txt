@@ -1,0 +1,591 @@
+Breaking Down the October 2, 2025 NVCA Updates to the Model Legal Documents: What Founders and VCs Need to Know | Foley & Lardner
+
+ Subscribe 
+
+ Alumni 
+
+ Newsroom 
+
+ Offices 
+
+ Contact Us 
+
+ About Us 
+
+ Careers 
+
+ All
+ Sectors
+
+Sectors
+
+ Energy & Infrastructure 
+
+ Innovation in Energy & Infrastructure 
+
+ Airport & Aviation 
+
+ Aviation & Aircraft Transactions 
+
+ Food & Beverage 
+
+ Regulatory Compliance, Food Safety 
+
+ Retail 
+
+ Infringement Litigation, Leasing 
+
+ Health Care & Life Sciences 
+
+ Advances in Health Care & Life Sciences 
+
+ Cannabis 
+
+ Banking & Finance, Cannabis Litigation 
+
+ Hospitality & Leisure 
+
+ Hotels & Resorts, Golf Clubs 
+
+ Sports & Entertainment 
+
+ Sports Facility Development, Media Deals 
+
+ Innovative Technology 
+
+ Leveraging AI, Cloud Computing, Genomics 
+
+ Family Offices 
+
+ Generational Wealth, Wealth Management 
+
+ Maritime 
+
+ Offshore Oil & Gas, Admiralty Law 
+
+ Manufacturing 
+
+ End-to-End Business Solutions 
+
+ Fashion, Apparel & Beauty 
+
+ Trademark, Manufacturing, Supply Chain 
+
+ Racial Justice & Equity 
+
+ Public Affairs, Small Business Services 
+
+ All Sectors 
+
+Practice Areas
+
+ Corporate 
+
+ Intellectual Property 
+
+ Litigation 
+
+ All Practice Areas 
+
+ Corporate
+
+ Corporate Overview 
+
+ Capital Markets & Public Company Advisory 
+
+ Equity, Debt, Governance, Transactions 
+
+ Employee Benefits & Executive Compensation 
+
+ Health Plans, 401 (k), and Pension Plans 
+
+ Environmental 
+
+ Permitting, Environmental Litigation 
+
+ Environmental, Social, and Governance (ESG) 
+
+ Impact Investing, Energy Transition 
+
+ Estate Planning 
+
+ Family Offices, Wealth Management, Trust 
+
+ Finance 
+
+ Financial Institutions, Public Private Partnerships 
+
+ Fund Formation & Investment Management 
+
+ GPs, LPs, Middle Market Investment 
+
+ Government Solutions 
+
+ Lobbying, Policy, State Attorneys General 
+
+ Health Care 
+
+ Health Care Regulatory and Transactions 
+
+ Insurance 
+
+ Reinsurance, Insurance Transactions 
+
+ Private Equity 
+
+ Middle Market PE, Investment Lifecycle 
+
+ Real Estate 
+
+ Real Estate Law, Commercial Development 
+
+ Securities, Commodities & Exchange Regulation 
+
+ Securities Law, Commodities 
+
+ Taxation 
+
+ State and Local Tax, Opportunity Zones 
+
+ Transactions 
+
+ Mergers and Acquisitions 
+
+ Venture & Growth Capital 
+
+ Angel Funds, Venture Funds 
+
+ Intellectual Property
+
+ Intellectual Property Overview 
+
+ Chemical, Biotechnology & Pharmaceutical 
+
+ Full Cycle Patent Strategy and Services 
+
+ Electronics 
+
+ Full Cycle Patent Strategy and Services 
+
+ IP Asset Management 
+
+ IP Portfolio Strategy and Management 
+
+ IP Due Diligence 
+
+ IP Audit, Investment, and Monetization 
+
+ IP Litigation 
+
+ IP Asset Enforcement and Defense 
+
+ ITC Section 337 Proceedings 
+
+ IP Import Infringement Investigations 
+
+ Mechanical & Electromechanical Technologies 
+
+ Full Cycle Patent Strategy and Services 
+
+ PTAB Trials 
+
+ Post-Grant Proceedings 
+
+ Technology Transactions, Cybersecurity, and Privacy 
+
+ IT Contracting and Data Governance 
+
+ Trademark, Copyright & Advertising Counseling 
+
+ Trademark Protection, Copyright Defense 
+
+ Litigation
+
+ Litigation Overview 
+
+ Antitrust & Competition 
+
+ Antitrust Litigation, Antitrust Regulation 
+
+ Appellate 
+
+ Appellate Attorneys 
+
+ Bankruptcy & Business Reorganizations 
+
+ Asset Acquisition, Restructuring 
+
+ Commercial Litigation 
+
+ Bet the Company Litigation, eDiscovery 
+
+ Construction 
+
+ Construction Litigation, Arbitrations 
+
+ Consumer Law, Finance & Class Action Group 
+
+ Consumer Class Action Defense 
+
+ Distribution & Franchise 
+
+ Antitrust and Competition, Trademarks 
+
+ Energy Litigation 
+
+ Oil & Gas Litigation, Dispute Resolution 
+
+ Government Enforcement Defense & Investigations 
+
+ False Claims Act, International Trade 
+
+ Health Care Litigation 
+
+ Dispute Resolution, Civil Lawsuits 
+
+ Hospitality Litigation 
+
+ TCPA Compliance, Franchise Disputes 
+
+ Insurance & Reinsurance Litigation 
+
+ Casualty Insurance, Insurance Fraud 
+
+ International Arbitration 
+
+ Cross-Border Dispute Resolution 
+
+ Labor & Employment 
+
+ Union/Employer Matters, Harassment Claims 
+
+ Privacy, Security & Information Management 
+
+ Privacy Litigation, Privacy Compliance 
+
+ Product Liability 
+
+ Life Sciences Product Liability 
+
+ Securities Enforcement & Litigation 
+
+ SEC Enforcement, Auditor Defense 
+
+ Tax Controversy 
+
+ Tax Dispute, Tax Audit, Tax Litigation 
+
+ Trade Secret Noncompete Litigation 
+
+ Unfair Competition, Noncompete Agreement 
+
+ Trial Team 
+
+ Federal & State Courts, Jury Trials 
+
+People
+
+Insights
+
+Events
+
+LearningLab
+
+ Language
+
+ EnglishSimplified ChineseSpanish 
+
+ Search
+
+Popular Searches
+
+IP Litigation
+
+Trump Administration Resources
+
+Patent
+
+Energy & Infrastructure
+
+Artificial Intelligence
+
+Back
+
+ Foley Ignite 
+
+ Breaking Down the October 2, 2025 NVCA Updates to the Model Legal Documents: What Founders and VCs Need to Know 
+
+ October 21, 2025
+
+Share on LinkedIn
+
+Share on Twitter
+
+Print
+
+Share by Email
+
+Share
+
+ Back to top
+
+On October 2, 2025, the National Venture Capital Association (NVCA) released it’s most recent updates to its model legal documents to reflect recent legal developments, market practices and regulatory priorities. The NVCA model legal documents (the “NVCA Docs”) remain the industry benchmark for venture financings in the U.S and have only become ubiquitous over the last five years in financing transactions – where they are commonly the starting point or benchmark for Company financing documents in such transactions.  Due to such widespread adoption, any updates to such documents can carry significant ramifications for start-up companies and VC investors alike.
+
+The most recent updates refresh the NVCA agreements to reflect an evolving regulatory environment, investing principles and landscape, and introduce new alternatives and key updates, including around tranched financings, national security compliance, and corporate governance. For founders and investors, the practical takeaway is that these changes are designed to make diligence faster, representations more accurate and re-allocate risk where there is heightened uncertainty.
+
+Below, we unpack three areas that founders and investors should be aware of.
+
+1. Tranched Financings Get a Formal Introduction (Stock Purchase Agreement)
+
+First, milestone-based or “tranched” financings are now formally addressed in the Stock Purchase Agreement (SPA) as an option where appropriate, and the NVCA updates include language for companies and investors to consider when the terms of the transaction call for implementing a tranched financing.
+
+A tranched financing is a venture round that is split into multiple closings, each contingent on the company achieving specific milestones. For example, rather than wiring the entire $10 million for a Series A financing upfront, an investor might instead:
+
+Fund $5 million at an initial closing, and
+
+Fund another $5 million only if and when the company meets certain defined milestones (for example, when the Company achieves $10 million in ARR or some other product or regulatory milestone such as FDA approval).
+
+Tranched financing structures are not a new development, they have been employed in certain instances, including when appropriate to help manage elevated risk – such as risks tied to market uncertainty or heightened risks related to execution or achievement of a Company’s business plan.  Tranched structures also allow investors to deploy money at a “just-in-time” basis, as milestones are often tied to the Company’s cash needs in accordance with its business plan, while also creating additional risk for the Company that an investor may or may not invest in accordance with its trance.   Until the most recent updates, a tranched structure was not supported in the standard NVCA SPA.
+
+Now, companies and investors can use Annex to the SPA as a framework to define what “milestones” a company must achieve before a subsequent tranche closing is to take place. This aligns certain incentives but materially raises the stakes for investors who commit to staged funding and the company’s who are executing in reliance of those additional stages of funding. Given the evolution of market conditions, anecdotally, we can share that we are seeing tranche mechanics migrate from later-stage life sciences (where tranches commonly track stages of regulatory approval of drugs and other treatments) into earlier-stage “tech” transactions, particularly where go-to-market or regulatory risk is significant. Unfortunately this invariably comes with an increase in disputes in these same structures.  Tranche-based investing can align capital with progress, but it also increases the surface area for disputes, and the potential for significant issues if those disputes lead to cash uncertainty. For that reason, it is imperative that investors and companies engage early with their advisors to define milestones, investment timing and dispute resolution procedures if the parties elect a tranche-based investing approach.  Examples of such concerns include:
+
+How is a milestone and “achievement” of that milestone defined?
+
+ For example, might the investor and company have a different definition of ARR? Or, if the milestones are based on an operational milestone such as launching a “version 2.0” product or signing a certain number of enterprise clients, who ultimately makes the call on whether these milestones have been achieved? What happens where investor approvals and controls prevent the achievement of a milestone?
+
+What happens if Investor cannot meet its later tranche obligations?
+
+Investors will need to consider whether they will be penalized if they fail to fund a required tranche. The model SPA now contains optional language that would convert the investor’s preferred stock into common stock of the company upon the investor’s failure to fund. This conversion would strip away an investor’s liquidation preference, anti-dilution, and other protective rights from previously purchased shares.  Does the investor then need to consider segmenting such funds separately from the rest of its investment vehicle?   Does the Company need further information to confirm the Investor will be in a position to fund?
+
+Tranche financing has appropriate uses, but where it is adopted it will be a significant change from standard financing approach and given the potential for uncertainty and conflict – founders will need to clearly define who determines milestone achievement (board, stockholders, or both) and ensure that the conditions are sufficiently objective and attainable and should model their cash runway with and without subsequent tranches; build fallbacks if a tranche is delayed; and ensure disclosure does not over-promise milestone feasibility. Investors will need to understand the risk of losing preferred rights in a tranched financing and confirm internal liquidity planning and side letter flexibility to ensure tranche obligations can be met without breaching fund concentration or borrowing limits.
+
+Both sides should work with their trusted advisors to document milestones thoughtfully to objective, auditable criteria, and include approval mechanics early to prevent future disputes which, if not quickly resolved, can lead to gridlock and ultimately, corporate failure.
+
+2. Regulatory Compliance Takes Center Stage (Stock Purchase Agreement)
+
+Second, the updated SPA introduces new representations and warranties reflecting heightened U.S. national security and data security oversight. These provisions extend beyond traditional export controls and sanctions and, importantly, apply two‑ways—both to the company and to each purchaser. Two‑way representations matter because regulatory exposure often travels in both directions. For founders, an investor with undisclosed foreign beneficial ownership or control could jeopardize customer contracts, federal grants, or exit timing. For investors, a company’s unrecognized DSP status or OISP‑implicated activities could introduce enforcement risk, limit follow‑on financing options, or cause the investor unnecessary scrutiny across its portfolio. Reciprocal representations encourage both parties to actively consider the data and national security concerns up front, and support faster closings by allowing counsel to diligence to a common standard. From a negotiation standpoint, two‑way reps also encourage early disclosure and constructive problem‑solving—if either party anticipates a limitation, it can be resolved through disclosure schedules, targeted covenants, or sometimes through more complex deal designs (for example, SPV structuring, data segregation, or remediation timelines).
+
+A. Outbound Investment Security Program (OISP)
+
+Effective January 2, 2025, final regulations under the Outbound Investment Security Program (OISP) implemented an Executive Order from the White House limiting or requiring notification of certain “covered transactions” by U.S. persons involving “covered foreign persons,” with particular focus on activities in semiconductors, artificial intelligence, and quantum computing linked to countries of concern, including China (and other specified territories such as Hong Kong and Macau).
+
+Following implementation of these regulations, the updated SPA includes representations and warranties requiring companies engaged in a VC financing to confirm that they:
+
+are not engaged in any “covered activity” as defined in the OISP;
+
+have no intention of becoming a “person of a country of concern” as defined in the OISP; and
+
+that the company has no intention of becoming “a person that directly or indirectly holds a board seat or a voting or equity interest in, or any contractual power to direct or cause the direction of the management of policies of, any “covered foreign person” as defined in the OISP.
+
+If a company’s product roadmap contemplates AI model training with foreign compute, or you maintain development subsidiaries or JVs in higher‑risk jurisdictions, treat OISP exposure as a gating diligence item before you launch a financing. Early scoping can avoid mid‑process surprises.
+
+B. Data Security Program (DSP)
+
+Effective April 8, 2025, the Data Security Program (DSP) imposes new restrictions on foreign-connected entities’ ability to access or process certain categories of U.S. government-related data or bulk personal data, including genomic, biometric, geolocation, and sensitive health information.
+
+To align with this framework, the updated SPA adds new representations and warranties from the company and each purchaser confirming that no party is a “covered person” under the DSP. Specifically, the parties must now represent that they are not:
+
+entities organized in or controlled by China, Cuba, Iran, North Korea, Russia, or Venezuela;
+
+majority-owned affiliates of such jurisdictions;
+
+data brokers handling large-scale genomic, biometric, or location datasets;
+
+U.S. government contractors with access to restricted federal data; or
+
+any entity designated by the U.S. Attorney General as controlled by a “country of concern.”
+
+Companies and investors must now understand how their data flows, third-party vendors, and ownership structures intersect with these DSP regulated activities. For example, Companies handling health, mobility, or biometrics data must map data flows, vendors, and compute locations and investors with international LPs or co‑investment SPVs should test whether any beneficial ownership, control, or service provider relationships could inadvertently trip DSP definitions.
+
+C. Purchaser Representation — “Not a Person of Concern”
+
+The most recent NVCA update also introduces a two-way compliance obligation that applies to the company and investors. Investors (and not just companies) must now represent that they are not “persons of concern” under either the OISP or DSP regimes. This addition reflects the growing focus on the capital-flow side of national security – and therefore the acknowledgement that managing important technology and data cannot be wholly achieved by focusing only on the owners an distributors of the same, but also the investors who have financially supported those who hold such technology and data..
+
+Practically, this means that even if a U.S. venture fund is an exempt reporting adviser, they should nonetheless review:
+
+LP composition to ensure no prohibited beneficial ownership or control under the OISP or DSP regimes;
+
+their LP onboarding procedures to ensure that co-investment vehicles and SPVs verify there is no indirect “covered person” participation through such vehicles; and
+
+fund documents and side letters to confirm the ability to rely on such documentation to make the investor representation without qualification in the SPA.
+
+For cross-border investors or funds with international LPs, this new clause may require legal opinions or disclosure schedules to confirm compliance.
+
+D. Qualified Small Business Stock (QSBS) Update
+
+The updated SPA also revises the QSBS representation to reflect the expanded capital-gains exclusion enacted under the One Big Beautiful Bill tax legislation.
+
+The model language now references the more generous exclusion threshold, which can exempt up to 100% of eligible capital gains for qualifying issuances if, among other conditions, the Company’s aggregate gross assets have not exceeded $75 million at any point since incorporation. Because QSBS outcomes are fact‑dependent and time‑sensitive, companies should align early with tax advisors on qualified trade/business status, active business requirements, redemptions, and aggregation of assets, and ensure cap tables and corporate records support QSBS eligibility for purchasers.
+
+Further, companies should implement ongoing monitoring of aggregate gross assets, redemptions, and stock repurchases, while investors should track holding periods, issuer eligibility, and potential tacking rules across reorganizations.
+
+3. Adopting NVCA Corporate Governance Policies (Investors’ Rights Agreement)
+
+The NVCA’s updated Investors’ Rights Agreement (IRA) now encourages adoption of the NVCA’s governance policy suite, including HR and EEO frameworks, DEI initiatives, anti-harassment and whistleblower programs, and talent attraction and retention strategies.
+
+While not mandatory, these policies’ presence in the NVCA documents may cause them to become an expectation among institutional investors and can be a selling point in later-stage financing or exits, especially with institutional investors. Companies and investors should consider whether adopting these policies could streamline portfolio compliance, recruiting, and later‑stage due diligence. Many of the policies have a beneficial effect on the Company’s compliance culture but policies are restrictive in their nature and so should be adopted with an understanding of the restrictions and consequences for failure to abide by them.  Adopting a form policy without a good understanding of how it may affect your business can lead to significant repercussions down the road.
+
+4. Practical Guidance for Companies: Conduct a “Regulatory Health Check” Before Fundraising
+
+Founders should budget two to four weeks before a material fundraising to complete a regulatory health check aligned to the new NVCA representations and investor expectations. At a minimum, scope the following:
+
+OISP/DSP Exposure. Identify any foreign subsidiaries, contractors, board observers, or data‑access arrangements that implicate countries of concern. Map compute resources and AI training workflows, particularly those using foreign cloud or GPU providers.
+
+Data Flows and Vendor Risk. Catalogue sensitive data types (for example, biometric, genomic, precise geolocation, health) and third‑party processors. Confirm DPAs, access controls, and data residency. If you sell to federal or defense customers, assess additional overlays.
+
+Cap Table and Beneficial Ownership. Validate beneficial ownership and control. If foreign investors participate, test CFIUS‑style risk factors and confirm your ability to deliver NVCA representations without carve‑outs.
+
+QSBS Status. Review aggregate gross assets since incorporation, original‑issue documentation, and any redemptions or significant asset acquisitions that could taint eligibility. Memorialize the analysis to support investor diligence.
+
+5. Practical Guidance for Investors: Update Diligence, IC Memos, and LP Communications
+
+The NVCA changes should trigger immediate updates to form term sheets, diligence checklists, investment committee templates, and LP communications—particularly around OISP/DSP.  Consider the following actions:
+
+Review your form term sheet: Many serial investors do not update their form term sheets as often as the NVCA documents are updated.  If you have not done so recently it is time to work with your counsel and your team to update your form term sheet.
+
+Diligence Checklist Refresh. Insert targeted questions on OISP/DSP, including covered activities, foreign person links, data categories, compute locations, and government‑customer exposure. Request data‑flow diagrams and vendor inventories for DSP‑relevant sectors. Add QSBS confirmation requests, including gross‑assets history and redemption logs.
+
+LP and Co‑investor Transparency. LP relations teams should brief LPs on how the firm is diligencing OISP/DSP risk and monitoring portfolio exposure. Where fund documents or side letters restrict investments involving certain jurisdictions or data types, confirm alignment before term sheet issuance.
+
+Purchaser Representation Readiness. Ensure the fund and any SPVs can give clean OISP/DSP representations. This may require beneficial ownership attestations, counsel memos, or periodic audits of intermediary entities and service providers.
+
+Portfolio Monitoring. Post‑closing, implement periodic reviews for shifts in data practices, foreign hiring, or strategic partnerships that could retroactively create OISP/DSP issues
+
+Bottom Line
+
+The October 2025 NVCA updates are a pragmatic response to the “new normal” of national security oversight, data sensitivity, and capital‑flow scrutiny. They are not meant to chill investment; they are meant to clarify expectations and streamline execution. For founders and funds alike, proactively addressing these new requirements will close deals efficiently and avoid costly surprises.  
+
+In response to these changes, companies should consider defining tranche milestones clearly (if any), understanding their data flows and foreign-ownership exposure, and evaluate whether they would benefit from adopting baseline NVCA governance policies.
+
+Investors should take care to review fund documentation, confirm that they can make OISP/DSP representations, and update diligence workflows with their attorneys to reflect the new normal.
+
+ Disclaimer
+
+ Close
+ This blog is made available by Foley & Lardner LLP (“Foley” or “the Firm”) for informational purposes only. It is not meant to convey the Firm’s legal position on behalf of any client, nor is it intended to convey specific legal advice. Any opinions expressed in this article do not necessarily reflect the views of Foley & Lardner LLP, its partners, or its clients. Accordingly, do not act upon this information without seeking counsel from a licensed attorney. This blog is not intended to create, and receipt of it does not constitute, an attorney-client relationship. Communicating with Foley through this website by email, blog post, or otherwise, does not create an attorney-client relationship for any legal matter. Therefore, any communication or material you transmit to Foley through this blog, whether by email, blog post or any other manner, will not be treated as confidential or proprietary. The information on this blog is published “AS IS” and is not guaranteed to be complete, accurate, and or up-to-date. Foley makes no representations or warranties of any kind, express or implied, as to the operation or content of the site. Foley expressly disclaims all other guarantees, warranties, conditions and representations of any kind, either express or implied, whether arising under any statute, law, commercial use or otherwise, including implied warranties of merchantability, fitness for a particular purpose, title and non-infringement. In no event shall Foley or any of its partners, officers, employees, agents or affiliates be liable, directly or indirectly, under any theory of law (contract, tort, negligence or otherwise), to you or anyone else, for any claims, losses or damages, direct, indirect special, incidental, punitive or consequential, resulting from or occasioned by the creation, use of or reliance on this site (including information and other content) or any third party websites or the information, resources or material accessed through any such websites. In some jurisdictions, the contents of this blog may be considered Attorney Advertising. If applicable, please note that prior results do not guarantee a similar outcome. Photographs are for dramatization purposes only and may include models. Likenesses do not necessarily imply current client, partnership or employee status. 
+
+Authors
+
+ Louis Lehot 
+
+ Gurpreet S. Bal 
+
+ Scott Lin 
+
+ Saige G. Gallop 
+
+Show More
+
+Practice Areas
+
+ Transactions
+
+ Venture & Growth Capital
+
+Author(s)
+
+ Louis Lehot 
+
+ [email protected]
+
+ Silicon Valley
+ 650.251.1222
+
+ Gurpreet S. Bal 
+
+ [email protected]
+
+ Silicon Valley
+ 650.251.1138
+
+ Scott Lin 
+
+ [email protected]
+
+ San Francisco
+ 415.438.6431
+
+ Saige G. Gallop 
+
+ [email protected]
+
+ San Diego
+ 858.847.6729
+
+Related Insights
+
+View All Posts
+
+ September 21, 2026
+
+ Foley Ignite
+
+Private Equity's Hard Year Has Real Openings
+
+ War in the Gulf, an oil spike, rate risk and an AI shock that erased $285 billion of software value in a day have battered sponsors in 2026. Capital is still flowing to firms that return cash — and the law has moved mostly in their favor. 
+
+ July 29, 2026
+
+ Foley Viewpoints
+
+The M&A Recovery: Two Markets Moving at Different Speeds
+
+ If you just read the surface headlines, the merger and acquisition (M&A) market appears to be recovered. According to BCG, deal value in the first half of 2026 came in around $1.6 trillion, up roughly 28% year over year and the strongest first half since the 2021 boom. Bain, measuring a slightly different window, put the first five months at $2.4 trillion, up 41%, and PwC has full-year value on track for about $4 trillion. 
+
+ July 2, 2026
+
+ Foley Viewpoints
+
+What Directors Should be Asking About the Audit and the Auditors Now
+
+ Last week, we hosted an evening that filled out some of the answers to that question we had never thought of. We brought the NACD Northern California Chapter to our Palo Alto office, right on the heels of Stanford Directors' College. 
+
+We look beyond the law to focus on the constantly evolving demands facing our clients.
+
+About Us
+
+Offices
+
+Careers
+
+Alumni
+
+Subscribe
+
+Sectors
+
+Practice Areas
+
+Insights
+
+Terms of Use
+
+Privacy Policy
+
+Policy Center
+
+Cookie Preferences
+
+Accessibility
+
+Client Login
+
+Fraud Alert
+
+Contact Us
+
+© 2026 Foley & Lardner LLP 
+
+Attorney Advertisement 
+
+Images of people may not be Foley personnel. 
+
+Connect on LinkedIn
+
+Connect on Instagram
+
+Connect on Facebook
+
+Connect on Twitter
+
+Connect on Youtube

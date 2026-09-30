@@ -69,6 +69,7 @@ Thumbs.db
 # Pobrane źródła prawne (src/tools/download.sh); wersjonowane tylko src/tools/
 src/*
 !src/tools/
+!src/legal/
 
 # Python
 __pycache__/
