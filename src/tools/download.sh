@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Pobiera źródła prawne i rynkowe potrzebne do weryfikacji memorandum (memorandum.tex, vc.md).
-# Uruchamiać poza proxy blokującym ELI/ISAP/EUR-Lex:  ./src/download.sh
+# Uruchamiać poza proxy blokującym ELI/ISAP/EUR-Lex:  ./src/tools/download.sh
 # Pliki lądują w katalogu src/ (poza git; wersjonowane są tylko skrypt i README); istniejące pliki są pomijane.
 # Wynik: src/MANIFEST.txt (status każdej pozycji), src/BLEDY.txt (nieudane).
 set -u
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."   # katalog src/ (skrypt leży w src/tools/)
 UA="Mozilla/5.0 (X11; Linux x86_64) Basilisk-legal-sources/1.0"
 : > MANIFEST.txt; : > BLEDY.txt
 ok=0; bad=0; skip=0
@@ -171,4 +171,4 @@ rm -f "$JAR"
 
 echo
 echo "Pobrane: $ok, pominięte (już były): $skip, błędy: $bad  -> MANIFEST.txt, BLEDY.txt"
-echo "Po pobraniu: ./src/extract_text.py zamienia PDF i HTML na .txt. Pozycje z BLEDY.txt zapisz ręcznie z przeglądarki pod nazwą z listy."
+echo "Po pobraniu: ./src/tools/extract_text.py zamienia PDF i HTML na .txt. Pozycje z BLEDY.txt zapisz ręcznie z przeglądarki pod nazwą z listy."

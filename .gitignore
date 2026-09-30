@@ -66,8 +66,6 @@ Thumbs.db
 # Uncomment if PDFs should NOT be versioned
 # *.pdf
 
-# Pobrane źródła prawne (src/download.sh)
+# Pobrane źródła prawne (src/tools/download.sh); wersjonowane tylko src/tools/
 src/*
-!src/download.sh
-!src/extract_text.py
-!src/README.md
+!src/tools/

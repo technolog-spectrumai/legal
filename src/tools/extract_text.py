@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Wyciąga tekst z plików PDF (i HTML) w katalogu src/ i zapisuje obok jako .txt.
 
-Użycie:  ./src/extract_text.py            # wszystkie *.pdf, *.html, *.htm, *.xhtml w src/
-         ./src/extract_text.py plik.pdf   # wybrane pliki
-         ./src/extract_text.py -f         # nadpisz istniejące .txt (także z plików leżących już tylko w bkp/)
-         ./src/extract_text.py --keep     # nie usuwaj oryginałów z src/
+Użycie:  ./src/tools/extract_text.py            # wszystkie *.pdf, *.html, *.htm, *.xhtml w src/
+         ./src/tools/extract_text.py plik.pdf   # wybrane pliki
+         ./src/tools/extract_text.py -f         # nadpisz istniejące .txt (także z plików leżących już tylko w bkp/)
+         ./src/tools/extract_text.py --keep     # nie usuwaj oryginałów z src/
 Przebieg: oryginał jest kopiowany do src/bkp/, tekst zapisany jako <nazwa>.txt w src/, a po udanym zapisie
 niepustego .txt oryginał jest usuwany z src/ (zostaje w bkp/). Przy błędzie oryginał zostaje.
 Kolejność narzędzi dla PDF: pdftotext (poppler-utils) -> pypdf -> pdfminer.six.
@@ -13,7 +13,7 @@ Instalacja zapasowa: pip install pypdf   (albo: apt install poppler-utils)
 import sys, os, subprocess, shutil, re, html, glob
 from html.parser import HTMLParser
 
-SRC = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # katalog src/ (skrypt leży w src/tools/)
 BKP = os.path.join(SRC, "bkp")
 EXTS = ("pdf", "html", "htm", "xhtml")
 
