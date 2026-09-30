@@ -38,14 +38,16 @@ eu() { # eu <CELEX> <eli-sciezka: reg/2021/697 | "-"> <nazwa> <opis> [jezyk PL|E
   if { [ -s "$html" ] && valid "$html" html; } || [ -s "$txt" ] || { [ -s "bkp/$html" ] && [ -s "$txt" ]; } || [ -s "$pdf" ]; then
     echo "SKIP  $html" | tee -a MANIFEST_EU.txt; skip=$((skip+1)); return; fi
   rm -f "$html" "$pdf"
+  try "$html" html "https://eur-lex.europa.eu/legal-content/$lang/TXT/HTML/?uri=CELEX:$celex" -H "Accept: text/html,application/xhtml+xml;q=0.9,*/*;q=0.8" && { echo "OK    $html  ($desc; legal-content html)" | tee -a MANIFEST_EU.txt; ok=$((ok+1)); return; }
   if [ "$eli" != "-" ]; then
     try "$html" html "https://eur-lex.europa.eu/eli/$eli/oj/$eli_lang/html" && { echo "OK    $html  ($desc; ELI html)" | tee -a MANIFEST_EU.txt; ok=$((ok+1)); return; }
     try "$html" html "https://eur-lex.europa.eu/eli/$eli/oj/$eli_lang" -H "Accept: text/html" && { echo "OK    $html  ($desc; ELI negocjacja)" | tee -a MANIFEST_EU.txt; ok=$((ok+1)); return; }
   fi
-  try "$html" html "https://eur-lex.europa.eu/legal-content/$lang/TXT/HTML/?uri=CELEX:$celex" -H "Accept: text/html" && { echo "OK    $html  ($desc; legal-content html)" | tee -a MANIFEST_EU.txt; ok=$((ok+1)); return; }
   try "$html" html "http://publications.europa.eu/resource/celex/$celex" -H "Accept: text/html" -H "Accept-Language: $eli_lang" && { echo "OK    $html  ($desc; CELLAR)" | tee -a MANIFEST_EU.txt; ok=$((ok+1)); return; }
   try "$pdf" pdf "https://eur-lex.europa.eu/legal-content/$lang/TXT/PDF/?uri=CELEX:$celex" -H "Accept: application/pdf" && { echo "OK    $pdf  ($desc; legal-content pdf)" | tee -a MANIFEST_EU.txt; ok=$((ok+1)); return; }
+  local diag; diag=$(curl -sS -L -o /dev/null -w "HTTP %{http_code}, %{size_download} B" --compressed --max-time 60 -A "$UA" -c "$JAR" -b "$JAR" -H "Accept: text/html" "https://eur-lex.europa.eu/legal-content/$lang/TXT/HTML/?uri=CELEX:$celex" 2>&1 | tail -1)
   rm -f "$html" "$pdf"
+  echo "DIAG  $celex: $diag" | tee -a MANIFEST_EU.txt
   echo "BLAD  $html <- https://eur-lex.europa.eu/legal-content/$lang/TXT/?uri=CELEX:$celex (zapisz ręcznie z przeglądarki: „Tekst” -> Zapisz stronę jako HTML pod tą nazwą)" | tee -a MANIFEST_EU.txt BLEDY_EU.txt; bad=$((bad+1))
 }
 
