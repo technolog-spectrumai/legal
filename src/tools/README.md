@@ -24,11 +24,14 @@ Wymaga `pdftotext` (pakiet poppler-utils) albo `pip install pypdf`. Pliki `.txt`
 
 ## Prawo UE
 
-EUR-Lex odpowiada pustą treścią na proste zapytania, dlatego akty UE pobiera osobny skrypt z kilkoma strategiami (adresy ELI z sesją, negocjacja treści, serwer Urzędu Publikacji, PDF) i kontrolą, czy odpowiedź zawiera tekst aktu:
+EUR-Lex odpowiada pustą treścią albo stroną zastępczą na zapytania bez przeglądarki. Zalecana droga to prawdziwa przeglądarka (headless Chromium przez Playwright):
 
 ```
-./src/tools/download_eu.sh
+pip install playwright && python -m playwright install chromium
+./src/tools/download_eu.py           # --show pokazuje okno, gdy trzeba kliknąć zgodę
 ./src/tools/extract_text.py
 ```
+
+Wariant curl z kilkoma strategiami (`./src/tools/download_eu.sh`) zostaje jako zapasowy; wypisuje linie `DIAG` z kodem HTTP.
 
 Pozycje nieudane są w `src/legal/BLEDY_EU.txt` z adresem do zapisania strony ręcznie z przeglądarki.
