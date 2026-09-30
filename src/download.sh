@@ -34,7 +34,8 @@ elih() { get "pl_$1_$2_$3.html" "https://eli.gov.pl/api/acts/DU/$1/$2/text.html"
 #      plik: https://eli.gov.pl/api/acts/DU/<rok>/<poz>/text/<type>/<fileName>
 JAR=$(mktemp)
 isapU() {
-  local rok="$1" poz="$2" id="$3" name="$4" desc="$5" out="pl_${rok}_${poz}_${name}_ujednolicony.pdf"
+  local rok="$1" poz="$2" id="$3" name="$4" desc="$5"
+  local out="pl_${rok}_${poz}_${name}_ujednolicony.pdf"
   if [ -s "$out" ]; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
   local meta; meta=$(curl -sS -L --retry 3 --max-time 60 -A "$UA" -H "Accept: application/json" "https://eli.gov.pl/api/acts/DU/$rok/$poz") || meta=""
   local fn; fn=$(printf '%s' "$meta" | grep -oE '"fileName" *: *"[^"]*Lj\.pdf"' | head -1 | sed -E 's/.*"([^"]*Lj\.pdf)"/\1/')
@@ -131,7 +132,8 @@ get sn_III_CZP_32_16.html  "https://www.sn.pl/sprawy/SitePages/Zagadnienia_prawn
 # Strony z ochroną przed botami (PFR, BVCA, eu-startups) odrzucają curl; wtedy pobieramy sam tekst przez czytnik r.jina.ai
 # (publiczny serwis; zapis jako web_<nazwa>.txt). Jeżeli i to zawiedzie, zapisz stronę ręcznie z przeglądarki pod tą nazwą.
 web() {
-  local name="$1" url="$2" desc="$3" out="web_$1.html"
+  local name="$1" url="$2" desc="$3"
+  local out="web_${name}.html"
   if [ -s "$out" ] || [ -s "web_$1.txt" ]; then echo "SKIP  $out" | tee -a MANIFEST.txt; skip=$((skip+1)); return; fi
   if curl -sS -L --fail --compressed --retry 2 --max-time 60 -A "$UA" -H "Accept: text/html,*/*" -H "Accept-Language: pl,en" -o "$out" "$url"; then
     echo "OK    $out  ($desc)" | tee -a MANIFEST.txt; ok=$((ok+1)); return; fi
