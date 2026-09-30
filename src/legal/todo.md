@@ -1,6 +1,6 @@
 # Źródła do pobrania — stan na 30 września 2026 r.
 
-Katalog `src/legal/` po porządkach: akty krajowe `pl_*.txt` (komplet), `eu/` (tylko EDF), `pfr/` (9 stron, bez dokumentów), `web/` (15 stron), `nif_report_2026.txt`, `MANIFEST.txt`. Usunięte jako bez treści: 13 pustych `eu_*.html`, 5 stron 404 `sn_*.txt`, `web_prs_info.txt`, `web_bvca_model_docs.txt` (404), `web_pfrv_feng_dokumentacja.txt` i `web_pfrv_otwarte_innowacje.txt` (sama zapora cookie; zastąpione przez `pfr/`), puste `pl_2026_176_ksh_nowelizacja.html` i `pl_2026_471_obrot_strategiczny_nowela.html` (są `.txt`).
+Katalog `src/legal/` po porządkach: akty krajowe `pl_*.txt` (komplet), `eu/` (EDF PL+EN; w wersji EN także 2021/821 skonsolidowane na 26.05.2023, 269/2014, 2019/947, AI Act, 2026/877 i nowe 2026/1386), `pfr/` (9 stron, bez dokumentów), `web/` (15 stron), `nif_report_2026.txt`, `MANIFEST.txt`. Usunięte jako bez treści: 13 pustych `eu_*.html`, 5 stron 404 `sn_*.txt`, `web_prs_info.txt`, `web_bvca_model_docs.txt` (404), `web_pfrv_feng_dokumentacja.txt` i `web_pfrv_otwarte_innowacje.txt` (sama zapora cookie; zastąpione przez `pfr/`), puste `pl_2026_176_ksh_nowelizacja.html` i `pl_2026_471_obrot_strategiczny_nowela.html` (są `.txt`).
 
 Po każdym pobraniu: `python tools/extract_text.py` (z katalogu `src/`) zamienia PDF, HTML i DOCX na `.txt` obok, oryginały idą do `bkp/` (poza repozytorium). Zapis ręczny z przeglądarki: Ctrl+S, „tylko HTML”, pod nazwą z tabeli. Skrypty: `tools/download_eu.py` (UE, SN, strony z zaporą), `tools/pfr.py` (strony i dokumenty PFR), `tools/download.sh` (ELI/ISAP).
 
@@ -10,24 +10,25 @@ Do czego: tezy memorandum oznaczone [W]; bez tych tekstów nie da się ich podni
 
 | Plik | Adres | Do czego (memorandum) |
 |---|---|---|
-| `eu/eu_12016E_TXT_tfue_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:12016E/TXT | art. 49, 63, 65, 346 TFUE: dopuszczalność Kryterium (1.1.1, T6) |
+| `eu/eu_12016E_TXT_tfue_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:12016E/TXT | art. 49, 63, 65, 346 TFUE: dopuszczalność Kryterium (1.1.1, T6). Uwaga: zapisana wcześniej strona „Traktat o funkcjonowaniu Unii Europejskiej _ EUR-Lex” była streszczeniem (9 kB), nie tekstem — potrzebny adres z `TXT/HTML` |
 | `eu/eu_12016E_TXT_tfue_EN.html` | https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016E/TXT | wersja EN do terminów w dokumentach NATO/VC |
-| `eu/eu_32019R0452_fdi_screening_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32019R0452 | mechanizm współpracy przy kontroli inwestycji (1.1.2, 1.4.1) |
-| `eu/eu_32021R0821_dual_use_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32021R0821 | załącznik I (9A012, 9D/9E, 5A002), art. 4 catch-all (4.2.1–4.2.2); ustawa o obrocie strategicznym odsyła do niego po poz. 471 |
-| `eu/eu_32026R0877_ttber_2026_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32026R0877 | klauzula licencji i ulepszeń § 33 ust. 3 (2.4.1) |
-| `eu/eu_32026R0877_ttber_2026_EN.html` | https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R0877 | j.w., wersja EN |
+| `eu/eu_32019R0452_fdi_screening_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32019R0452 | mechanizm współpracy przy kontroli inwestycji (1.1.2, 1.4.1); obowiązuje do 16.01.2028 |
+| `eu/eu_32026R1386_fdi_screening_2026_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32026R1386 | **nowe** rozporządzenie 2026/1386 o kontroli inwestycji zagranicznych (uchyla 2019/452 od 17.01.2028; część przepisów od 16.07.2026) — wersja EN już jest (`eu_32026R1386_fdi_screening_2026_EN.txt`) |
+| `eu/eu_32021R0821_dual_use_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32021R0821 | załącznik I (9A012, 9D/9E, 5A002), art. 4 catch-all (4.2.1–4.2.2); ustawa o obrocie strategicznym odsyła do niego po poz. 471. Jest EN skonsolidowane na 26.05.2023 — do klasyfikacji produktu potrzebna najnowsza konsolidacja (załącznik I zmieniany co roku) |
+| `eu/eu_32026R0877_ttber_2026_PL.html` (EN jest) | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32026R0877 | klauzula licencji i ulepszeń § 33 ust. 3 (2.4.1) |
+| ~~`eu/eu_32026R0877_ttber_2026_EN.html`~~ (jest) | https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R0877 | j.w., wersja EN |
 | `eu/eu_32014R0316_ttber_2014_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32014R0316 | porównanie (wygasło 30.04.2026) |
-| `eu/eu_32024R1689_ai_act_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32024R1689 | wyłączenie wojskowe art. 2 ust. 3, terminy (T1) |
+| `eu/eu_32024R1689_ai_act_PL.html` (EN jest) | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32024R1689 | wyłączenie wojskowe art. 2 ust. 3, terminy (T1) |
 | `eu/eu_32024R2847_cra_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32024R2847 | produkty z elementami cyfrowymi, terminy (T1) |
 | `eu/eu_32023R1230_maszynowe_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32023R1230 | platformy autonomiczne (T1) |
 | `eu/eu_32018R1139_easa_1139_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32018R1139 | BSP cywilne vs wojskowe, art. 2 ust. 3 (T1, 4.2.1) |
 | `eu/eu_32019R0945_uas_945_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32019R0945 | BSP (T1) |
-| `eu/eu_32019R0947_uas_947_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32019R0947 | BSP, obowiązki operatora (T1) |
-| `eu/eu_32014R0269_sankcje_269_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32014R0269 | test sankcyjny w definicji Dopuszczalnego Nabywcy, § 31 ust. 3 (1.4.2) |
+| `eu/eu_32019R0947_uas_947_PL.html` (EN jest) | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32019R0947 | BSP, obowiązki operatora (T1) |
+| `eu/eu_32014R0269_sankcje_269_PL.html` (EN jest) | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32014R0269 | test sankcyjny w definicji Dopuszczalnego Nabywcy, § 31 ust. 3 (1.4.2) |
 | `eu/eu_32014R0833_sankcje_833_PL.html` | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32014R0833 | j.w. |
 | `eu/eu_32024R1624_aml_PL.html` (opcjonalnie) | https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32024R1624 | definicja beneficjenta rzeczywistego od 2027 r. (wyjątek dla funduszy, 1.4.2); dziś wystarcza ustawa AML |
 
-Już jest: `eu/eu_32021R0697_edf_PL.txt` i `_EN.txt` (EDF, art. 9) — do wykorzystania przy memorandum 1.2 bez czekania na resztę.
+Już jest (`.txt`): EDF PL i EN; po angielsku 2021/821 (konsolidacja 2023), 269/2014, 2019/947, AI Act, 2026/877, 2026/1386. Wersje PL są potrzebne do cytowania w memorandum (język urzędowy), EN wystarczą do weryfikacji tez.
 
 ## 2. Orzeczenia Sądu Najwyższego — `sn/`
 
