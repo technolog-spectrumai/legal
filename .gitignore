@@ -78,3 +78,6 @@ __pycache__/
 
 # kopie oryginałów pobranych źródeł (extract_text.py)
 src/legal/bkp/
+
+# PDF-y budowane lokalnie (./build.sh, kontrole kompilacji)
+/*.pdf
