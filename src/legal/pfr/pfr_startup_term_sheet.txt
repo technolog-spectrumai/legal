@@ -1,0 +1,36 @@
+Przejdź do treści
+
+ Publikacje
+
+ Data publikacji:
+ 31 sierpnia 2021
+
+ Co to jest term sheet i jak wygląda?
+
+Term sheet to zbiór ustaleń między inwestorem a start-upem – porozumienie w sprawie warunków umowy inwestycyjnej. Określa podstawowe cele i charakter współpracy. To dokument, który jest wstępem do podpisania właściwej umowy i jest ważny w dalszych negocjacjach. Co powinien zawierać?
+
+Term sheet to zazwyczaj pierwszy dokument, który otrzymasz od inwestora zainteresowanego Twoim start-upem. Nie jest zazwyczaj szczegółowy i teoretycznie niewiążący. Jednak zawiera ważne klauzule i uprawnienia inwestora, które następnie znajdą się w umowie inwestycyjnej. Dlatego warto zwracać uwagę na to, co się w nim znajduje. I być może warto już na tym etapie skontaktować się z doświadczonym doradcą lub prawnikiem i zwracać uwagę na wszystkie informacje, które wydają nam się istotne lub problematyczne. 
+
+Na stronie Y Combinator znaleźć można typowy term sheet amerykańskiego VC z Doliny Krzemowej, jednak patrząc na europejskie i polskie fundusze, te dane mogą się różnić. Prawidłowo sporządzony Term Sheet powinien zawierać następujące elementy: 
+
+strony porozumienia; 
+
+sposoby finansowania; 
+
+cele współpracy; 
+
+sposób wejścia i exit z inwestycji; 
+
+czas współpracy; 
+
+kwestie dotyczące wyłączności – korzystania z przedmiotu umowy czy udziału w negocjacjach innych podmiotów. 
+
+Opcjonalnie w dokumencie może być zapisana także rola inwestora w projekcie (np. rola i miejsce w zarządzie, zakres ingerencji, w tym określenie nadzoru właścicielskiego – mające na celu ochrony majątku funduszu czy anioła biznesu).  Według analizy PwC Raise – części globalnego giganta zajmującej się akceleracją firm technologicznych i współpracą ze scale-upami, taka klauzula pojawia się w 95% europejskich term sheetów – dane pochodzą z analizy ponad 200 takich dokumentów z całej Europy. 
+
+Inwestorzy też chcą się zabezpieczać
+
+Inne znajdujące się w europejskich term sheet-ach klauzule, które służą ochronie inwestora to klauzula antyrozwodnieniowa – która występowała w 43% badanych przez PwC dokumentów – uprawnia ona inwestora do objęcia dodatkowych udziałów w spółce w momencie kolejnych ich emisji (np. przy kolejnych rundach inwestycji, czy wejściu na giełdę), pozwalając mu zachować ten sam procentowy poziom udziałów.
+
+Innym częstym zapisem jest też drag along – czyli prawo przyciągnięcia. To klauzula, która w momencie, kiedy uprzywilejowany wspólnik (inwestor) chce sprzedać udziały wybranemu podmiotowi (w praktyce do takiej sytuacji może dojść w wypadku sprzedaży firmy), pozostali wspólnicy są zmuszeni do sprzedaży swoich udziałów, tag along – trochę odwrotność poprzedniego, gdzie inwestor ma prawo do sprzedaży takiej samej liczby udziałów na takich samych warunkach i temu samemu podmiotowi w momencie, kiedy jeden z udziałowców pozbywa się swoich. Oczywiście w czasie negocjacji możesz próbować zmienić zapisy term sheetu, jednak nie musisz obawiać się, że podobne zapiski się pojawiają.
+
+Więcej informacji o term sheetach – łącznie z przykładowym dokumentem, znajdziesz w naszym darmowym kursie online „Jak pozyskać finansowanie na rozwój firmy”, gdzie przez zawiłości dokumentów, które musisz podpisać zanim dostaniesz pieniądze na rozwój firmy przeprowadzi Cię Paulina Pul, Partner Zarządzający zajmującej się start-upami kancelarii LAWMORE.

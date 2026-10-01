@@ -1,0 +1,112 @@
+Przejdź do treści
+
+ Publikacje
+
+ Data publikacji:
+ 15 marca 2023
+
+ Jak wygląda umowa inwestycyjna z VC?
+
+Zainteresowałeś już swoim rozwiązaniem VC, podpisałeś term sheet i przechodzisz przez proces due dilligence. Czas na stworzenie i podpisanie umowy inwestycyjnej. Kto powinien ją stworzyć? Jakie elementy zawiera umowa inwestycyjna z funduszem VC? Pisze o tym Wojciech Kalinowski z kancelarii DLA Piper.
+
+Udany pitch czy pozyskanie zainteresowania funduszu VC to dopiero pierwszy krok do zamknięcia rundy finansowania przez startup. Kiedy po (zazwyczaj mniej formalnych) dyskusjach, prezentacjach i uzgodnieniach zarówno founderzy jak i fundusz zdecydują, że chcą zrobić kolejny krok i sfinalizować transakcję, rozpoczyna się bardziej formalny etap obejmujący przede wszystkim badanie due diligence spółki i negocjowania umowy inwestycyjnej. W tym tekście skupimy się na tym drugim strumieniu prac (który jednak jest mocno związany z samym badaniem due diligence, ponieważ jego wyniki często mają wpływ na kształt umowy), żeby przybliżyć czego (i dlaczego) w takim dokumencie możemy się spodziewać. Na wstępie warto zaznaczyć, że nie ma jednego modelowego wzoru umowy inwestycyjnej, natomiast standardy, na których opierają się fundusze VC i ich praktyka pozwalają na wskazanie przynajmniej kilku obszarów i mechanizmów, które w umowie inwestycyjnej zazwyczaj spotykamy. Celem poniższego tekstu nie jest szczegółowa analiza wszystkich mechanizmów funkcjonujących w ramach umowy inwestycyjnej (w innych tekstach z tego cyklu zainteresowani znajdą analizy poszczególnych mechanizmów funkcjonujących w takich umowach) lecz spojrzenie na umowę inwestycyjną z „lotu ptaka”.
+
+Kto tworzy umowę inwestycyjną?
+
+Umowa inwestycyjna podpisywana przez fundusz VC, spółkę, założycieli i (zazwyczaj) pozostałych wspólników spółki, jest produktem końcowym procesu negocjacji pomiędzy wszystkimi stronami. Kto zatem przygotowuje pierwszy projekt takiej umowy, która następnie jest negocjowana? Odpowiedź, wydaje się prosta – prawnicy. Ale czy to prawnicy spółki lub founderów czy funduszu VC powinni przygotować pierwszy projekt? Tu odpowiedź nie jest taka prosta, ponieważ zależy od preferencji funduszu VC oraz sytuacji spółki. Jeśli spółka i jej wspólnicy są już stroną umowy inwestycyjnej, istnieje szansa, że może ona być podstawą do przygotowania nowej umowy, odzwierciedlającej uzgodnienia z funduszem VC. Jeżeli natomiast takiej umowy spółka dotychczas nie zawarła, istnieje duża szansa, że fundusz VC będzie chciał zaproponować pierwszy projekt przygotowany przez swoich prawników.
+
+Ustaliliśmy, kto przygotowuje projekt umowy inwestycyjnej i prawnicy zaczynają ją przygotowywać – co w niej będzie? Pewne wyobrażenie może nam dać term sheet podpisany z funduszem VC. Term sheet wskazuje zazwyczaj „warunki brzegowe” inwestycji, które są szczegółowo uregulowane później w umowie inwestycyjnej. Załóżmy jednak, że nie został podpisany term sheet lub jest on na tyle ogólny, że zawartość umowy inwestycyjnej nadal jest zagadką. Czego możemy zatem spodziewać się w umowie inwestycyjnej?
+
+Główne obszary i mechanizmy regulowane umową inwestycyjną
+
+Poza „technicznymi” elementami i postanowieniami umowy inwestycyjnej (takimi jak np. opis stron umowy, preambuła wskazująca kontekst i intencje stron, wskazanie danych kontaktowych, określenie prawa właściwego i sposobu rozstrzygania sporów pomiędzy stronami) umowa inwestycyjna co do zasady regulować będzie dwa główne zagadnienia:
+
+sposób i warunki przeprowadzenia inwestycji; oraz
+
+warunki współpracy stron i funkcjonowania spółki po przeprowadzeniu inwestycji.
+
+Postanowienia dotyczące inwestycji
+
+Postanowienia umowy regulujące sposób i warunki przeprowadzenia inwestycji zazwyczaj obejmować będą kilka głównych obszarów. Pierwszym, na który warto zwrócić uwagę, jest wskazanie warunków zawieszających (jeśli takie zostaną zastrzeżone) inwestycji, tzn. co musi się zdarzyć, zanim fundusz VC obejmie udziały lub akcje spółki. Takie warunki mogą, przede wszystkim, wynikać z badania due diligence, które fundusz VC przeprowadzi przed podpisaniem umowy, np. konieczność zawarcia umowy przenoszącej na spółkę prawa własności intelektualnej, której do tej pory spółka nie zawarła, lub obowiązek przedłożenia określonych dokumentów przez spółkę. Nierzadko w umowie wskazywane są obowiązki spółki lub założycieli do wykonania określonych czynności już po dokonaniu inwestycji przez fundusz VC (tzw. Post-closing covenants) – zazwyczaj dotyczą one zidentyfikowanych w toku badania due diligence nieprawidłowości, które mogą być naprawione już po dokonaniu inwestycji.
+
+Kolejnym obszarem, który zazwyczaj jest uregulowany w tej części umowy, jest sama procedura inwestycji, tzn. kto, co, kiedy i jak ma zrobić, żeby dokonać inwestycji. Zazwyczaj strony w tej części umowy uzgadniają, że w określonym terminie podejmą wymagane decyzje korporacyjne (w tym uchwałę w sprawie podwyższenia kapitału zakładowego), podpiszą wymagane dokumenty (w tym dokumenty dotyczące objęcia udziałów/akcji w spółce przez inwestora) i dokonają ustalonych płatności w ramach inwestycji oraz wykonają inne czynności niezbędne do tego, żeby inwestor stał się wspólnikiem spółki.
+
+Poza szczegółowym rozpisaniem tych terminów, zazwyczaj w grupie postanowień dotyczących warunków inwestycji znajdziemy również uregulowania dotyczące sposobu wydatkowania środków uzyskanych przez spółkę od inwestora/inwestorów (na co pieniądze z rundy mają zostać wydane), oraz zasady odpowiedzialności za składane inwestorowi przez spółkę (i niekiedy również założycieli) oświadczenia i zapewnienia dotyczące spółkę i jego sytuacji. Oświadczenia i zapewnienia założycieli i spółki są istotne dla funduszu VC, ponieważ uzupełniają badanie due diligence spółki (oświadczenia i zapewnienia zazwyczaj dotyczą kwestii, których nie udało się zweryfikować w toku badania due diligence).
+
+Postanowienia dotyczące współpracy i funkcjonowania spółki po inwestycji
+
+Kolejna część umowy inwestycyjnej zawiera postanowienia regulujące współpracę spółki, założycieli i wspólników (w tym nowego inwestora) po dokonaniu inwestycji. Ta część jest bardzo istotna zarówno dla inwestora jak i założycieli, ponieważ dokonanie inwestycji oznacza rozpoczęcie współpracy (zazwyczaj) na kolejnych kilka lat. Ponadto, postanowienia w tej części pokazują w jaki sposób nowy inwestor będzie miał wpływ na funkcjonowanie firmy (a co za tym idzie, w jakim zakresie założyciele częściowo „dzielą się” kontrolą nad spółką z inwestorami).
+
+Kluczowe obszary regulowane w tej części umowy inwestycyjnej obejmują zwykle:
+
+zasady corporate governance;
+
+obowiązki i ograniczenia założycieli dotyczące działalności spółki;
+
+zasady dokonywania kolejnych podwyższeń kapitału zakładowego spółki;
+
+ograniczenia zbywalności udziałów/akcji w spółce;
+
+zasady dotyczące wyjścia ze spółki (exit) przez fundusz VC (i pozostałych wspólników).
+
+Zasady corporate governance
+
+Postanowienia umowy inwestycyjnej dotyczące corporate governance w dużym skrócie regulują sposób podejmowania decyzji w spółce. Poszczególne postanowienia umowy inwestycyjnej przewidują, jaki będzie skład organów korporacyjnych spółki (zarządu i rady nadzorczej) po inwestycji, kto będzie uprawniony do powoływania członków tych organów i jakie będą kompetencje poszczególnych organów (czasem również sposób funkcjonowania tych organów).
+
+O ile, zazwyczaj, w skład zarządu wchodzą założyciele, którzy są odpowiedzialni za bieżące zarządzanie biznesem i fundusze VC zwykle nie wymagają posiadania prawa powoływania członka zarządu, o tyle z pewnością można się spodziewać, że będą oczekiwać prawa powołania członka rady nadzorczej, która jest organem nadzorującym prace zarządu. Kompetencje rady nadzorczej są dość szczegółowo rozpisane w umowie inwestycyjnej i obejmują (poza standardowymi kompetencjami przyznawanymi przez kodeks spółek handlowych) przede wszystkim wyrażanie zgody na dokonanie przez zarząd spółki określonych czynności. W praktyce fundusze VC najczęściej zastrzegają w umowie inwestycyjnej, że wyrażenie przez radę nadzorczą zgody na dokonanie określonych, istotnych czynności przez zarząd, wymaga zgody członka rady nadzorczej powołanego przez fundusz VC (rada nadzorcza spółki przeważnie liczy od 3 do 5 osób, spośród których fundusz VC ma zwykle prawo powołać 1, więc bez takiego zastrzeżenia, fundusz VC może mieć iluzoryczny wpływ na nadzór nad zarządem).
+
+Poza postanowieniami dotyczącymi zarządu i rady nadzorczej, standardowo umowa inwestycyjna reguluje również sposób organizacji, głosowania i kompetencji zgromadzenia wspólników/walnego zgromadzenia spółki. Ponieważ fundusze VC w większości przypadków są wspólnikiem/akcjonariuszem mniejszościowym, istotne dla zabezpieczenia ich praw jest wskazanie w umowie inwestycyjnej listy decyzji zgromadzenia wspólników/walnego zgromadzenia, na które inwestor chciałby mieć wpływ. Nie ma jednolitego standardu dla sposobu zabezpieczania wpływu funduszu na decyzje zgromadzenia wspólników/walnego zgromadzenia, ale w większości przypadków umowa inwestycyjna zastrzega konieczność głosowania „za” podjęciem danej uchwały przez fundusz VC, albo konieczność uzyskania przez uchwałę w danej sprawie bardzo dużej większości głosów wspólników/akcjonariuszy (np. 75% - 80%). Takie postanowienia dają duży wpływ na decyzje korporacyjne funduszowi VC, ale jest to uzasadnione tym, że inwestuje on stosunkowo duże kwoty w niewielkie pakiety udziałów/akcji spółki i bez takich postanowień miałby niewielki wpływ na zabezpieczenie swojego interesu. A zwykle cel, a przez to również interes funduszu jest zbieżny z interesem założycieli i pozostałych wspólników, a jest nim rozwój spółki i zwiększenie jej wartości.
+
+Obowiązki i ograniczenia założycieli dotyczące działalności spółki
+
+Do tej grupy postanowień umowy inwestycyjnej zaliczam zobowiązania do niepodejmowania się prowadzenia działalności konkurencyjnej wobec działalności spółki (non-compete) i zakaz nakłaniania pracowników (oraz czasem klientów) do odejścia ze spółki w przypadku gdyby założyciel rozstał się ze spółką (non-solicitation), a także nakaz wyłączności operacyjnej.
+
+Pierwsze dwa rodzaje ograniczeń raczej nie budzą wątpliwości ani kontrowersji – jeśli założyciel rozstaje się ze spółką, inwestorzy oczekują, że nie będzie się angażował w działalność konkurencyjną do spółki i nie będzie spółce „podbierał” pracowników i klientów. Zazwyczaj negocjacje postanowień non-compete i non-solicitation sprowadzają się do precyzyjnego i akceptowalnego dla wszystkich stron zakresu działalności konkurencyjnej i okresu zobowiązań non-compete i non-solicitation (nie ma tu złotego standardu, ale należy się zwykle spodziewać, że będzie to od 18 miesięcy do 3 lat).
+
+Druga kategoria obowiązków i ograniczeń założycieli, tj. nakaz wyłączności operacyjnej, nie jest według mojego doświadczenia, tak często spotykana w umowach inwestycyjnych jak non-compete i non-solicitation. Niemniej, nie można wykluczyć, że nowy inwestor/inwestorzy będą oczekiwali od założycieli zadeklarowania w umowie, że poświęcą (zasadniczo) cały swój czas zawodowy na działalność spółki. Uzasadnienie tego oczekiwania nie jest zaskakujące – inwestorzy zazwyczaj inwestują w zespół founderów, bo ufają im, że z zastrzykiem pieniędzy będą w stanie rozwinąć dobrze zapowiadający się produkt lub usługę. Tym samym, inwestorzy wnoszą sporą kwotę pieniędzy na dalszy rozwój spółki i oczekują, że założyciele nie rozejdą się nagle i nie zajmą się innymi rzeczami. Jeśli fundusz VC oczekuje wyłączności operacyjnej założycieli, nie oznacza to automatycznie, że nie mogą oni od tej pory robić nic poza prowadzeniem działalności spółki. W tym zakresie umowy inwestycyjne precyzyjnie powinny wskazywać jakimi „pobocznymi” działalnościami (zawodowymi czy nie) mogą zajmować się założyciele bez ryzyka naruszenia nakazu wyłączności operacyjnej.
+
+Zasady dokonywania kolejnych podwyższeń kapitału zakładowego spółki
+
+W umowie inwestycyjnej zawsze znajdziemy postanowienia regulujące w jaki sposób będą przeprowadzane kolejne podwyższenia kapitału zakładowego spółki (i rundy finansowania). Standardowo, postanowienia te uwzględniają uprawnienie wszystkich wspólników/akcjonariuszy do objęcia nowych udziałów/akcji proporcjonalnie do dotychczasowego udziału w kapitale zakładowym. Takie uprawnienia wynikają również z kodeksu spółek handlowych, więc nie są czymś kontrowersyjnym. Niemniej, zdarza się, że inwestorzy oczekują nieco dalej idących praw, jak np. prawa do objęcia udziałów/akcji z pierwszeństwem przed nowymi („zewnętrznymi”) inwestorami ponad proporcję wynikającą z udziału w kapitale zakładowym.
+
+Niezależnie od postanowień dotyczących uprawnień dotychczasowych wspólników/akcjonariuszy związanych z możliwością objęcia nowych udziałów/akcji w kolejnych rundach finansowania, istotną częścią umowy inwestycyjnej są postanowienia chroniące przed rozwodnieniem (anti-dilution). Z perspektywy funduszu VC, który obejmuje mniejszościowy pakiet udziałów/akcji w spółce przy określonej wycenie tej spółki, jednym z kluczowych aspektów jest ochrona wartości dokonanej inwestycji. Z tego względu standardowo fundusze VC oczekują, że w przypadku gdyby w przyszłości, spółka zaoferowała nowe udziały/akcje nowemu inwestorowi za cenę za udział/akcję niższą niż ta zapłacona przez fundusz VC (i innych inwestorów uczestniczących w rundzie finansowania razem z funduszem VC), wtedy fundusz VC (i pozostali inwestorzy rundy) będą chronieni przed „rozwodnieniem” odpowiednim mechanizmem. Najczęściej taki mechanizm daje funduszowi VC i pozostałym inwestorom rundy prawo do objęcia po najniższej dopuszczalnej prawem cenie dodatkowych udziałów/akcji w takiej liczbie, która zapewni, że średnia cena za udział/akcję spółki zapłacona przez fundusz VC będzie równa cenie za udział/akcję spółki obliczonej na podstawie średniej ważonej (broad-based lub narrow-based). Zdecydowanie rzadziej w umowach inwestycyjnych spotykany jest bardziej korzystny dla inwestorów mechanizm typu „full ratchet”, który ma na celu przede wszystkim ochronę udziału w kapitale, a nie wartości inwestycji.
+
+Ograniczenia zbywalności udziałów/akcji spółki
+
+Dużą część (również objętościowo) umowy inwestycyjnej zajmują postanowienia dotyczące ograniczenia zbywalności udziałów/akcji. Jak wspomniałem wcześniej, inwestycja funduszu VC oznacza (w intencji) współpracę na lata. Strony zazwyczaj godzą się na to, że zamierzają współpracować w ramach stosunkowo wąskiego grona, któremu ufają, w związku z czym możliwość zbycia udziałów/akcji w spółki „na zewnątrz” powinna być ograniczona.
+
+Podstawowe mechanizmy ograniczania zbywalności obejmują:
+
+lock-up (ograniczony czasowo zakaz zbywania udziałów/akcji) dla założycieli – inwestorzy chcą się zabezpieczyć przed nieoczekiwanym odwrotem założyciela – w końcu to z uwagi na tychże założycieli zdecydowali się zainwestować w spółkę;
+
+prawo pierwszeństwa nabycia udziałów/akcji dla dotychczasowych wspólników – mechanizm zapewniający, że gdyby któryś z dotychczasowych wspólników zamierzał sprzedać swoje udziały/akcje, w pierwszej kolejności zaoferuje je pozostałym wspólnikom na tych samych warunkach, na których zamierzał je sprzedać osobie trzeciej;
+
+tag along (prawo przyłączenia się do zbycia) – dzięki temu uprawnieniu, w przypadku gdyby któryś z dotychczasowych wspólników zamierzał sprzedać swoje udziały/akcje (a dotychczasowi wspólnicy nie odkupili ich) pozostali udziałowcy mają prawo przyłączyć się do sprzedającego i również sprzedać swoje udziały/akcje tej samej osobie lub podmiotowi (co istotne, zazwyczaj to na wspólniku sprzedającym ciąży odpowiedzialność doprowadzenia do tego, że potencjalny kupujący nabędzie wszystkie udziały/akcje);
+
+drag along (prawo pociągnięcia) – w przypadku gdyby wspólnicy posiadający ustalony większościowy pakiet udziałów/akcji zamierzali zbyć je na rzecz podmiotu trzeciego, który zainteresowany jest nabyciem wszystkich udziałów/akcji spółki, mają prawo żądać, aby pozostali wspólnicy również sprzedali je na takich samych warunkach – to uprawnienie ma zabezpieczać sytuacje, w których wspólnicy mniejszościowi mogliby „blokować” możliwość sprzedaż udziałów/akcji przez większość.
+
+Zasady dotyczące wyjścia ze spółki (exit) przez fundusz VC (i pozostałych wspólników)
+
+Prawdopodobnie najważniejsza część umowy inwestycyjnej dla inwestorów to postanowienia regulujące wyjście z inwestycji. Postanowienia dotyczące exitu obejmują przede wszystkim wskazanie w jaki sposób może dojść do wyjścia z inwestycji (tzn. jakie zdarzenia będą powodować „exit”) – w tym IPO, przejęcie kontroli nad spółką przez podmiot trzeci, zbycie wszystkich (lub wszystkich najważniejszych) aktywów, i likwidacja spółki, etc., a także sposób podziału środków z wyjścia z inwestycji pomiędzy wspólników, czyli tzw. preferencja likwidacyjna (liquidation preference).
+
+To drugie zagadnienie zazwyczaj budzi wiele emocji, ponieważ stanowi przywilej inwestorów polegający na pierwszeństwie w uzyskaniu środków z wyjścia z inwestycji. W dużym uproszczeniu, w umowie inwestycyjnej wskazuje się kolejność według której wspólnicy otrzymują środki z exitu – zaczynając od wspólników, którzy objęli udziały/akcje za najwyższą cenę (zazwyczaj są to udziały/akcje posiadające najwyższe uprzywilejowanie), kończąc na posiadaczach udziałów zwykłych (w tym założycieli). Najczęściej przedmiotem negocjacji jest to, jaka kwota w ramach pierwszeństwa ma trafić do inwestorów posiadających udziały uprzywilejowane. Zazwyczaj spotykamy dwa modele – w pierwszym – częściej spotykanym w praktyce, inwestorzy otrzymują kwotę, która stanowi równowartość ich inwestycji, albo kwotę, którą uzyskaliby, gdyby środki z wyjścia były dzielone proporcjonalnie na wszystkie udziały – w zależności od tego która kwota jest wyższa, natomiast po otrzymaniu tej kwoty nie uczestniczą w podziale środków pomiędzy pozostałych wspólników (non-participating).
+
+W drugim modelu, inwestorzy dostają w pierwszej kolejności określoną gwarantowaną kwotę (zwykle wartość dokonanej inwestycji w spółkę), ale uczestniczą również w podziale środków pomiędzy pozostałych wspólników w dalszej kolejności (participating).
+
+Zysk z inwestycji jest głównym celem każdego z inwestorów, dlatego trudno się dziwić, że preferencja likwidacyjna często jest negocjowana. Warto jednak pamiętać, zwłaszcza na wczesnym etapie rozwoju spółki, że przed spółką i inwestorami mogą być kolejne rundy finansowania, w których nowi inwestorzy, przystępujący do spółki przy wyższej wycenie, będą oczekiwać większych przywilejów…
+
+Jak wspomniałem na wstępie, nie ma jednego, uniwersalnego wzoru umowy inwestycyjnej ani jednego podejścia do jej pisania. Nie ulega natomiast wątpliwości, że dobrze wynegocjowana i przemyślana umowa inwestycyjna pozwoli oszczędzić wielu nerwów i nieporozumień w toku współpracy pomiędzy spółką a inwestorami, a także stanowić podstawę do kolejnych rund finansowania.
+
+Interesują Cię prawne aspekty inwestycji VC? Zobacz stworzone przez prawników specjalizujących się w start-upach teksty o:
+
+Pożyczkach konwertowalnych
+
+Prawach własności intelektualnej w start-upach
+
+Przywilejach inwestora przy wyjściu z inwestycji
+
+ESOP i udziałach w czasie inwestycji
+
+Kształcie umowy inwestycyjnej
+
+Wybranych ryzykach w due dilligence prawnym

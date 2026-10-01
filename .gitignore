@@ -65,3 +65,16 @@ Thumbs.db
 # Optional: generated PDFs
 # Uncomment if PDFs should NOT be versioned
 # *.pdf
+
+# Pobrane źródła prawne (src/tools/download.sh); wersjonowane tylko src/tools/
+src/*
+!src/tools/
+!src/legal/
+!src/notatki.md
+
+# Python
+__pycache__/
+*.pyc
+
+# kopie oryginałów pobranych źródeł (extract_text.py)
+src/legal/bkp/
