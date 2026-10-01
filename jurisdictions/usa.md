@@ -65,7 +65,7 @@ Stan na 30 września 2026 r. Oznaczenia wiarygodności: **[Z]** — akt prawny, 
 
 | Wniosek | Gdzie u nas | Stan | Co zrobić |
 |---|---|---|---|
-| Flip do Delaware to decyzja o wyjściu z EDF, SAFE, EIC i PFR; po skreśleniu ust. 14 nawet amerykański fundusz w większości narusza § 11 | § 11; `regulations.md` sekcja 3b; `vc.md` sekcja 9 | OK | zachować; flip tylko uchwałą WZ ze zmianą umowy, po utracie albo świadomej rezygnacji z programów UE |
+| Flip do Delaware to decyzja o wyjściu z EDF, SAFE, EIC i PFR; po skreśleniu ust. 14 nawet amerykański fundusz w większości narusza § 11 | § 11; `regulations.md` sekcja 3b; `vc.md` sekcja 3 | OK | zachować; flip tylko uchwałą WZ ze zmianą umowy, po utracie albo świadomej rezygnacji z programów UE |
 | Model ICEYE i WB: polska matka, amerykańska spółka zależna z FOCI, IP i zespół B+R w Polsce; § 174A karze amerykańską matkę za zagraniczne B+R (15 lat) | `case_studies/iceye.md`, `case_studies/wb_electronics.md`; § 33 | DEC | jeśli klient amerykański, spółka zależna z amerykańskim CEO i FSO, technologia amerykańska odgrodzona w USA |
 | Deemed export: dane ITAR nie mogą trafiać do Warszawy bez licencji; roje sterowane naszym oprogramowaniem muszą być klasyfikowane po stronie amerykańskiej osobno | `regulations.md` sekcja 3 | BRAK | przed pierwszą umową amerykańską zamówić klasyfikację (commodity jurisdiction) i politykę ring-fencingu |
 | SBIR zamknięty dla spółki zależnej; DIU i OTA otwarte | `kryteria.md` K4 | OK | celować w DIU CSO, nie w SBIR |

@@ -1,6 +1,6 @@
 # Jurysdykcje dla Basilisk Systems: siedziba, spółka zależna, spółka bazowa
 
-Dokument wewnętrzny Basilisk Systems, informacyjny. Nie jest opinią prawną ani podatkową i nie zmienia umowy spółki. Katalog `jurisdictions/` porównuje państwa, w których Basilisk może mieć siedzibę główną, spółkę zależną albo spółkę bazową (holding). Odesłania do umowy według `psa.tex` w wersji 0.9.4-C (numery § według `spis_tresci.md`). Katalog odpowiada na pytanie U.5 z `law_uzup.md`, przygotowuje decyzję D1 z memorandum i uzupełnia `regulations.md` (sekcje 3, 3a, 3b), `vc.md` (sekcje 3, 4, 9), `psa_todo.md` (sekcja 1) i `case_studies/README.md` (sekcja 5).
+Dokument wewnętrzny Basilisk Systems, informacyjny. Nie jest opinią prawną ani podatkową i nie zmienia umowy spółki. Katalog `jurisdictions/` porównuje państwa, w których Basilisk może mieć siedzibę główną, spółkę zależną albo spółkę bazową (holding). Odesłania do umowy według `psa.tex` w wersji 0.9.4-C (numery § według `spis_tresci.md`). Katalog odpowiada na pytanie U.5 z `law_uzup.md`, przygotowuje decyzję D1 z memorandum i uzupełnia `regulations.md` (sekcje 3, 3a, 3b), `vc.md` (sekcja 3) i `strategikon/vc/vc.md` (sekcje 2 i 3), `psa_todo.md` (sekcja 1) i `case_studies/README.md` (sekcja 5).
 
 Stan na 30 września 2026 r. Oznaczenia wiarygodności: **[Z]** — akt prawny, portal urzędowy albo publikacja kancelarii lub doradcy podatkowego; **[M]** — prasa, portal informacyjny albo doradca komercyjny; **[W]** — wiedza ogólna, do potwierdzenia; **[?]** — szacunek albo teza niepotwierdzona. Uwaga metodyczna: strony źródłowe były w tej sesji niedostępne do pełnego odczytu (blokada sieciowa); fakty pochodzą ze streszczeń wyszukiwarki, a szereg stawek podatkowych i traktatowych jest oznaczony jako luka w plikach szczegółowych.
 
@@ -168,7 +168,7 @@ Rekomendacja do D1 i U.5: **S0 od dnia zawiązania, S1 od etapu C, S2 tylko na �
 | Flip poza UE/EOG jest opodatkowany 19 %; wymiana udziałów neutralna tylko do UE/EOG i tylko pierwsza | `przeniesienie_i_podatki.md` sekcja 3.1; `psa_todo.md` sekcja 1 | DEC | D1: siedziba w Polsce; klauzula anty-flipowa w umowie akcjonariuszy |
 | Estoński CIT przepada z dniem wejścia osoby prawnej, wstecznie za rok (art. 28l ust. 1 pkt 4 lit. a) | `polska.md` sekcja 4; `psa_todo.md` sekcja 6 | OK | wyjść z estońskiego CIT przed zamknięciem rundy z funduszem |
 | Terminy 2026: EIC dual-use do 28 października; SMART 29 października – 29 grudnia; Defence Tech Denmark 1 października; EDF 2026 zamknięty 29 września | `psa_todo.md` sekcja 6; `plan_prac.md` etap C pkt 21–27 | BRAK | wpisać do harmonogramu finansowania |
-| Kolejność spółek zależnych (DE, FR, EE, US, UK, FI, LT, NL, UA) | `plan_prac.md` etap C; `vc.md` sekcja 9 | BRAK | dopisać jako plan ekspansji po pierwszym kontrakcie |
+| Kolejność spółek zależnych (DE, FR, EE, US, UK, FI, LT, NL, UA) | `plan_prac.md` etap C; `vc.md` sekcja 3 | BRAK | dopisać jako plan ekspansji po pierwszym kontrakcie |
 
 ---
 
