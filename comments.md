@@ -16,7 +16,7 @@ Każdy commit można obejrzeć poleceniem `git show <hash>`; pełna lista: `git 
 | memorandum 1.0 | `psa_check` | odpowiedzi na 79 pytań, sekcje T1–T9, 18 zmian koniecznych, 16 decyzji Założycieli | `memorandum.md` |
 | memorandum 1.1 | `psa_check` | weryfikacja na tekstach ustaw polskich (`src/legal/`) | `memorandum.md`, Załącznik nr 5 |
 | memorandum 1.2 | `psa_check` (`cab9b54`) | weryfikacja na tekstach prawa UE (EDF, 2021/821, 2026/1386, 2026/877) | `memorandum.md`, `memorandum.tex` (ramki) |
-| 1.0-RC | `psa_v3` | wdrożenie uwag memorandum, jedna uwaga = jeden commit (82 commitów) | ten plik |
+| 1.0-RC | `psa_v3` | wdrożenie uwag memorandum, jedna uwaga = jeden commit (85 commitów) | ten plik |
 
 ## 2. Przyjęte założenia wdrożenia
 
@@ -960,6 +960,38 @@ Commit `65fc8d4` · memorandum 1.1.1, decyzja D6 · klasa: zalecane
 - **Rekomendacja memorandum:** Zachować Kryterium w obecnym kształcie. Dodać w § 11 ust. 6 zdanie o dodatkowej przesłance dla nabycia *kontroli* (UE/EOG/państwa stowarzyszone z EDF) obowiązującej w okresie korzystania z programów, z możliwością zgody Walnego Zgromadzenia większością 75%; alternatywnie zapisać to w umowie akcjonariuszy jako zobowiązanie do niedopuszczenia do takiej kontroli. Wybór miejsca należy do Założycieli; miejsce w umowie spółki daje skuteczność wobec Spółki i rejestru, umowa akcjonariuszy — elastyczność.
 - **Podstawa prawna:** art. 300³⁹ § 1–2 KSH [Z]; art. 300⁴¹ § 1 KSH [Z]; art. 300¹ § 3 i art. 2 KSH w zw. z art. 353¹, art. 57 i art. 58 KC [Z]; art. 18, 49, 63, 65 ust. 1 lit. b i art. 346 ust. 1 lit. b TFUE [W]; art. 2 pkt 6, 7 i 24, art. 5 oraz art. 9 ust. 1–4 i 7 rozporządzenia (UE) 2021/697 (EDF) [Z]; art. 2 pkt 1, 5 i 7, art. 4 ust. 15 lit. a–b i ust. 17, art. 30 ust. 1, art. 31 oraz motywy 14, 15 i 20 rozporządzenia (UE) 2026/1386 (kontrola inwestycji zagranicznych, stosowane od 17 stycznia 2028 r.) [Z] (tekst EN); art. 12a–12k ustawy z 24 lipca 2015 r. o kontroli niektórych inwestycji [Z].
 
+#### Umowa wykonawcza, Załączniki A–B: oferta skierowana do Spółki z prawem wskazania Nabywcy Wskazanego i zobowiązaniem do zbycia (umowa przedwstępna, art. 300^34 § 4 KSH), warunki, wstrzymanie terminu 6 miesięcy, granica 24 miesięcy, niezapłacenie ceny, dopłata, zgoda na wpis, PCC, depozyt; pełnomocnictwo dla Spółki z substytucją, nieodwołalne (art. 101 § 1 KC), z podpisem notarialnie poświadczonym, dom maklerski
+
+Commit `888e0b3` · memorandum 1.5.3 · klasa: konieczne
+
+- **Pytanie:** Umowa wykonawcza: czy nieodwołalne oferty i pełnomocnictwa (art. 101 § 2 i art. 108 KC) mogą zostać skonstruowane tak, aby mechanizm zadziałał bez dalszego podpisu akcjonariusza, i czy orzeczenie zastępujące oświadczenie woli (art. 64 KC, art. 1047 KPC) jest realną drogą wykonania? Jak wygląda minimalna treść takiej umowy (zdarzenie, stwierdzenie Odejścia, nabywca, cena, terminy)?
+- **Ocena brzmienia 0.9.4-C:** zgodne warunkowo — konstrukcja poprawna co do zasady, projekt umowy wykonawczej ma braki, z których dwa są istotne
+- **Dlaczego zmieniono:** **Oferta.** Oferta z oznaczonym terminem związania wiąże oferenta do upływu tego terminu (art. 66 § 2 KC a contrario — przepis reguluje wprost tylko ofertę bez terminu); po dojściu do adresata (art. 61 § 1 KC) prawo nie przewiduje jej jednostronnego odwołania, a nawet w obrocie między przedsiębiorcami — gdyby założyciel składał ofertę w ramach współpracy B2B — „oferty nie można odwołać, jeżeli wynika to z jej treści lub określono w niej termin przyjęcia” (art. 66² § 2 KC); zastrzeżenie „nieodwołalności” jest więc skuteczne i w istocie deklaratoryjne. Oferta pod warunkiem zawieszającym Odejścia (art. 89 KC) i z ceną oznaczalną „według Wartości Godziwej” (art. 536 § 1 KC) jest dopuszczalna; śmierć oferenta nie umarza oferty (art. 62 KC), co umowa wykonawcza prawidłowo wykorzystuje w § [umowa wspólników: smierc]. Forma: zbycie akcji P.S.A. wymaga formy dokumentowej pod rygorem nieważności (art. 300³⁶ § 4 KSH), więc oferta i przyjęcie w formie dokumentowej wystarczają materialnie; co więcej, „oświadczenie akcjonariusza o zobowiązaniu do przeniesienia akcji” jest samodzielną podstawą wpisu w rejestrze (art. 300³⁴ § 4 zdanie drugie KSH), więc ofertę albo umowę przedwstępną warto zredagować tak, aby mogła pełnić tę rolę. **Brak nr 1**: oferta z Załącznika A jest skierowana do osoby nieoznaczonej („Dopuszczalny Nabywca wskazany przez Spółkę”). […]
+- **Rekomendacja memorandum:** Przebudować Załączniki A–B (oferta do Spółki z prawem wskazania nabywcy plus umowa przedwstępna; pełnomocnictwo dla Spółki z substytucją, z podpisem notarialnie poświadczonym), uzupełnić braki (a)–(g), a w § 10 ust. 13 rozszerzyć katalog obowiązkowej treści. Umowę wykonawczą podpisać tego samego dnia co umowę Spółki; wzory uzgodnić z podmiotem prowadzącym rejestr.
+- **Podstawa prawna:** art. 61 § 1, art. 62, art. 66 § 1–2, art. 66² § 2, art. 89, art. 99 § 1, art. 101 § 1–2, art. 106, art. 108, art. 389–390, art. 393, art. 536 § 1 KC [Z]; art. 64 KC, art. 1047 § 1–2 i art. 786 § 1 KPC [Z]; art. 300³⁶ § 4, art. 300³⁴ § 3–5, art. 300³⁷ § 1 KSH [Z]; SN V CSK 522/18 i II CSKP 593/22 [Z] (tezy według `psa_feedback.tex`; teksty orzeczeń niedostępne); art. 730 i n. KPC [Z]; art. 4 pkt 1 i art. 7 ust. 1 pkt 1 lit. b ustawy o PCC [Z]
+- **Orzecznictwo:** II CSKP 593/22, V CSK 522/18 (zob. sekcja 6)
+
+#### extra.tex: opis emisji serii P zgodny z § 8 (warunkowa emisja)
+
+Commit `ae4636c` · memorandum 3.2.1 · klasa: konieczne
+
+- **Pytanie:** Czy „uchwała ramowa” na wiele transz emisji serii P, wykonywana przez Radę, oraz jedna uchwała 4/5 o pozbawieniu prawa poboru dla wszystkich transz są dopuszczalne na tle art. 300¹⁰³–300¹⁰⁷ KSH, czy każda transza wymaga własnej uchwały o prawie poboru?
+- **Ocena brzmienia 0.9.4-C:** ryzyko (konstrukcja hybrydowa nieznana ustawie; ustawa daje dwa gotowe instrumenty, z których umowa nie korzysta)
+- **Dlaczego zmieniono:** Konstrukcję trzeba rozłożyć na trzy warstwy. *Pierwsza — podstawa w umowie.* Art. 300¹⁰³ KSH stanowi, że emisja akcji jest zmianą umowy spółki, ale „zachowanie przepisów o zmianie umowy spółki nie jest wymagane, jeżeli emisja akcji następuje uchwałą akcjonariuszy podejmowaną na podstawie dotychczasowych postanowień umowy spółki przewidujących maksymalną liczbę akcji i termin ich emisji” [Z]; § 8 ust. 1 i 3 spełniają ten wymóg (zob. 3.2.2). *Druga — uchwała o emisji.* Wbrew założeniu, na którym oparto § 8 ust. 3, P.S.A. zna delegację kompetencji emisyjnej: (a) *upoważnienie Rady Dyrektorów do emisji* (art. 300¹¹⁰–300¹¹³, stosowane do rady dyrektorów jak do zarządu) — umowa spółki może upoważnić organ zarządzający na okres nie dłuższy niż pięć lat, odnawialny zmianą umowy, do jednej albo kilku emisji łącznie nie większych niż jedna czwarta liczby akcji istniejących w dniu udzielenia upoważnienia, za wkłady pieniężne (chyba że upoważnienie dopuszcza niepieniężne), bez akcji uprzywilejowanych i uprawnień indywidualnych; uchwała o zmianie umowy w tym przedmiocie musi być umotywowana (art. 300¹¹¹), uchwała Rady zastępuje uchwałę Walnego Zgromadzenia o emisji (art. 300¹¹²), a pozbawienie prawa poboru wymaga przy każdej emisji uchwały akcjonariuszy 4/5 albo upoważnienia Rady zapisanego w umowie spółki i uchwalonego większością 4/5 (art. 300¹¹³) [Z]; (b) *warunkowa emisja akcji* (art. 300¹¹⁴–300¹¹⁸) — ustawowy instrument programów motywacyjnych: Walne Zgromadzenie uchwala emisję z zastrzeżeniem, że akcje obejmą osoby, „które uzyskały te prawa na podstawie umowy zawartej ze spółką” (art. 300¹¹⁴ § 2 pkt 2), przy czym zawarcie takiej umowy wymaga zgody Walnego Zgromadzenia 3/4 (§ 3), liczba akcji nie może przekroczyć dwukrotności akcji istniejących (§ 4); uchwała określa maksymalną liczbę akcji, cenę emisyjną, cel, termin wykonania prawa i krąg uprawnionych (art. 300¹¹⁵ § 1), sama „skutkuje wyłączeniem prawa poboru” i musi spełniać warunki art. 300¹⁰⁶ § 2, czyli większość 4/5 (art. 300¹¹⁵ § 2); po wpisie tej zmiany umowy do rejestru (art. 300¹¹⁶) uprawnieni obejmują akcje pisemnym oświadczeniem, Rada wydaje dyspozycję wpisu do rejestru akcjonariuszy i z tym wpisem następuje nabycie praw z akcji (art. 300¹¹⁷–300¹¹⁸ § 1), a do sądu rejestrowego trafia tylko roczny wykaz objętych akcji (art. 300¹¹⁸ § 2–3) [Z]; nowelizacja poz. 176 potwierdza ten model, wyłączając od 18 lutego 2027 r. akcje z art. 300¹¹⁸ spod ogólnej zasady, że objęcie akcji nie wymaga wpisu w rejestrze akcjonariuszy do nabycia praw (nowe brzmienie art. 300³⁷ § 2) [Z]. Uchwała ramowa z § 8 ust. 3 nie jest żadnym z tych instrumentów: jest zwykłą emisją z oddziału 1, w której Walne Zgromadzenie chce rozłożyć skutek na transze wykonywane przez Radę. […]
+- **Rekomendacja memorandum:** Przebudować § 8 ust. 3 i 5: (1) przewidzieć jako tryb podstawowy warunkową emisję akcji serii P (jedna uchwała 4/5 na całą pulę albo jej część, zgoda na zawieranie umów uczestnictwa udzielona w tej samej uchwale dla kategorii osób i warunków z regulaminu, objęcie po nabyciu uprawnień pisemnym oświadczeniem, prawa z akcji z chwilą wpisu do rejestru akcjonariuszy); (2) zachować tryb zwykły z uchwałą obejmującą kilka transz jako alternatywę, z pełnym katalogiem art. 300¹⁰⁴ i upoważnieniami dla Rady; (3) wyłączyć w umowie prawo poboru akcji serii P na podstawie art. 300¹⁰⁶ § 1, co czyni ust. 5 zbędnym; (4) potwierdzić z kancelarią, czy termin z art. 300¹⁰² § 2 dotyczy emisji z art. 300¹⁰³, i do czasu potwierdzenia zgłaszać każdą emisję zwykłą w sześć miesięcy od uchwały. Upoważnienie Rady z art. 300¹¹⁰ (limit jednej czwartej akcji, pięć lat) rozważyć jako narzędzie dla drobnych emisji, nie dla puli P. Wybór trybu podstawowego jest decyzją Założycieli; rekomendujemy warunkową emisję.
+- **Podstawa prawna:** art. 300¹⁰³, art. 300¹⁰⁴ § 1 pkt 1–7 i § 2, art. 300¹⁰⁵ § 1–3, art. 300¹⁰⁶ § 1–2 i 6, art. 300¹⁰⁷ § 1–3 KSH [Z]; art. 300¹⁰⁸–300¹¹³ KSH (upoważnienie zarządu albo rady dyrektorów do emisji akcji) [Z]; art. 300¹¹⁴–300¹¹⁸ KSH (warunkowa emisja akcji), art. 300¹¹⁹ KSH (warranty subskrypcyjne), art. 300⁸¹ pkt 4 KSH [Z]; art. 300¹⁰² § 2 KSH (termin sześciu miesięcy na zgłoszenie zmiany umowy) [Z]; art. 300³⁷ § 2 KSH w brzmieniu od 18 lutego 2027 r. (Dz.U. 2026 poz. 176, art. 1 pkt 6) [Z]; art. 444 § 1 KSH (porównawczo) [Z]; art. 300¹ § 3 KSH [Z].
+
+#### Umowa wykonawcza § 6–7: treść główna zgodna z Załącznikami A–B
+
+Commit `a4b0b06` · memorandum 1.5.3 · klasa: konieczne
+
+- **Pytanie:** Umowa wykonawcza: czy nieodwołalne oferty i pełnomocnictwa (art. 101 § 2 i art. 108 KC) mogą zostać skonstruowane tak, aby mechanizm zadziałał bez dalszego podpisu akcjonariusza, i czy orzeczenie zastępujące oświadczenie woli (art. 64 KC, art. 1047 KPC) jest realną drogą wykonania? Jak wygląda minimalna treść takiej umowy (zdarzenie, stwierdzenie Odejścia, nabywca, cena, terminy)?
+- **Ocena brzmienia 0.9.4-C:** zgodne warunkowo — konstrukcja poprawna co do zasady, projekt umowy wykonawczej ma braki, z których dwa są istotne
+- **Dlaczego zmieniono:** **Oferta.** Oferta z oznaczonym terminem związania wiąże oferenta do upływu tego terminu (art. 66 § 2 KC a contrario — przepis reguluje wprost tylko ofertę bez terminu); po dojściu do adresata (art. 61 § 1 KC) prawo nie przewiduje jej jednostronnego odwołania, a nawet w obrocie między przedsiębiorcami — gdyby założyciel składał ofertę w ramach współpracy B2B — „oferty nie można odwołać, jeżeli wynika to z jej treści lub określono w niej termin przyjęcia” (art. 66² § 2 KC); zastrzeżenie „nieodwołalności” jest więc skuteczne i w istocie deklaratoryjne. Oferta pod warunkiem zawieszającym Odejścia (art. 89 KC) i z ceną oznaczalną „według Wartości Godziwej” (art. 536 § 1 KC) jest dopuszczalna; śmierć oferenta nie umarza oferty (art. 62 KC), co umowa wykonawcza prawidłowo wykorzystuje w § [umowa wspólników: smierc]. Forma: zbycie akcji P.S.A. wymaga formy dokumentowej pod rygorem nieważności (art. 300³⁶ § 4 KSH), więc oferta i przyjęcie w formie dokumentowej wystarczają materialnie; co więcej, „oświadczenie akcjonariusza o zobowiązaniu do przeniesienia akcji” jest samodzielną podstawą wpisu w rejestrze (art. 300³⁴ § 4 zdanie drugie KSH), więc ofertę albo umowę przedwstępną warto zredagować tak, aby mogła pełnić tę rolę. **Brak nr 1**: oferta z Załącznika A jest skierowana do osoby nieoznaczonej („Dopuszczalny Nabywca wskazany przez Spółkę”). […]
+- **Rekomendacja memorandum:** Przebudować Załączniki A–B (oferta do Spółki z prawem wskazania nabywcy plus umowa przedwstępna; pełnomocnictwo dla Spółki z substytucją, z podpisem notarialnie poświadczonym), uzupełnić braki (a)–(g), a w § 10 ust. 13 rozszerzyć katalog obowiązkowej treści. Umowę wykonawczą podpisać tego samego dnia co umowę Spółki; wzory uzgodnić z podmiotem prowadzącym rejestr.
+- **Podstawa prawna:** art. 61 § 1, art. 62, art. 66 § 1–2, art. 66² § 2, art. 89, art. 99 § 1, art. 101 § 1–2, art. 106, art. 108, art. 389–390, art. 393, art. 536 § 1 KC [Z]; art. 64 KC, art. 1047 § 1–2 i art. 786 § 1 KPC [Z]; art. 300³⁶ § 4, art. 300³⁴ § 3–5, art. 300³⁷ § 1 KSH [Z]; SN V CSK 522/18 i II CSKP 593/22 [Z] (tezy według `psa_feedback.tex`; teksty orzeczeń niedostępne); art. 730 i n. KPC [Z]; art. 4 pkt 1 i art. 7 ust. 1 pkt 1 lit. b ustawy o PCC [Z]
+- **Orzecznictwo:** II CSKP 593/22, V CSK 522/18 (zob. sekcja 6)
+
 ## 4. Uwagi memorandum niewdrożone osobnym commitem
 
 | Nr | Pytanie | Klasa | Uwaga | Status |
@@ -1011,10 +1043,10 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - art. 58 § 1 KC [Z] — § 11, § 12
 - art. 58 § 2 KC [Z] — § 17
 - art. 60 KC [Z] — § 12
-- art. 61 § 1, art. 62, art. 66 § 1–2, art. 66² § 2, art. 89, art. 99 § 1, art. 101 § 1–2, art. 106, art. 108, art. 389–390, art. 393, art. 536 § 1 KC [Z] — § 10
+- art. 61 § 1, art. 62, art. 66 § 1–2, art. 66² § 2, art. 89, art. 99 § 1, art. 101 § 1–2, art. 106, art. 108, art. 389–390, art. 393, art. 536 § 1 KC [Z] — § 10, inne
 - art. 64 KC [Z] — § 28
 - art. 64 KC, art. 1047 KPC [Z] — § 11, § 17
-- art. 64 KC, art. 1047 § 1–2 i art. 786 § 1 KPC [Z] — § 10
+- art. 64 KC, art. 1047 § 1–2 i art. 786 § 1 KPC [Z] — § 10, inne
 - art. 66 § 1, art. 72 § 2, art. 389 § 1, art. 353¹ KC [Z] — § 9
 - art. 66 § 1–2 KC (oferta i termin związania) [Z] — § 14
 - art. 77² KC (forma dokumentowa) [Z] — § 12
@@ -1032,7 +1064,7 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - art. 130 § 1–3 KPC [Z] — § 30, § 38
 - art. 278 § 1 KPC [Z] — § 19
 - art. 666–667 KPC (kurator spadku) [Z] — § 17
-- art. 730 i n. KPC [Z] — § 10
+- art. 730 i n. KPC [Z] — § 10, inne
 - art. 910 i art. 911³ KPC (egzekucja z praw majątkowych — § 12
 - art. 910 i art. 911³ KPC [Z] — § 13
 
@@ -1040,7 +1072,7 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 
 - SN II CSKP 593/22 [Z] — § 11
 - SN III CZP 109/22, III CSKP 65/21, III CZP 32/16 [Z] (tezy według `psa_feedback.tex` — § 18
-- SN V CSK 522/18 i II CSKP 593/22 [Z] (tezy według `psa_feedback.tex` — § 10
+- SN V CSK 522/18 i II CSKP 593/22 [Z] (tezy według `psa_feedback.tex` — § 10, inne
 - SN, wyrok z 9 grudnia 2022 r., II CSKP 593/22 [Z] — § 32
 - art. 18 § 1, art. 22 § 1, art. 30 § 4, art. 45 § 1, art. 52 § 1, art. 56 § 1, art. 87 § 1, art. 91 § 1, art. 101¹–101², art. 114–122, art. 300 KP [Z] — § 10
 - art. 52 § 1 pkt 2 KP (pomocniczo) [Z] — § 10
@@ -1115,10 +1147,10 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - art. 300³⁵ § 1–3 KSH (jawność dla spółki i akcjonariuszy) [Z] — § 5
 - art. 300³⁶ § 4 (forma dokumentowa zbycia), art. 300³⁷ § 1 (konstytutywny skutek wpisu) i art. 300³⁸ § 1 KSH [Z] — § 5
 - art. 300³⁶ § 4 KSH (forma dokumentowa zbycia) [Z] — § 10, § 12
-- art. 300³⁶ § 4, art. 300³⁴ § 3–5, art. 300³⁷ § 1 KSH [Z] — § 10
+- art. 300³⁶ § 4, art. 300³⁴ § 3–5, art. 300³⁷ § 1 KSH [Z] — § 10, inne
 - art. 300³⁷ § 1 i art. 300³⁸ § 1 KSH (skutek wpisu) [Z] — § 12
 - art. 300³⁷ § 1 i art. 300³⁸ § 1 KSH [Z] — § 10, § 12
-- art. 300³⁷ § 2 KSH w brzmieniu od 18 lutego 2027 r. (Dz.U. 2026 poz. 176, art. 1 pkt 6) [Z] — § 8
+- art. 300³⁷ § 2 KSH w brzmieniu od 18 lutego 2027 r. (Dz.U. 2026 poz. 176, art. 1 pkt 6) [Z] — § 8, inne
 - art. 300³⁷ § 2 i art. 300³⁸ § 1 KSH [Z] — § 17
 - art. 300³⁷–300³⁸ KSH [Z] — § 18
 - art. 300³⁸ § 1 KSH [Z] — § 9
@@ -1135,7 +1167,7 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - art. 300¹ § 3 KSH (akcjonariusz zobowiązany tylko do świadczeń określonych w umowie) [Z] — § 24
 - art. 300¹ § 3 KSH (obowiązki akcjonariusza z umowy) [Z] — § 33
 - art. 300¹ § 3 KSH („akcjonariusze są zobowiązani jedynie do świadczeń określonych w umowie spółki”) [Z] — § 27, § 28
-- art. 300¹ § 3 KSH [Z] — § 8, § 10, § 12, § 21, § 30, § 31, § 32, § 38
+- art. 300¹ § 3 KSH [Z] — § 8, § 10, § 12, § 21, § 30, § 31, § 32, § 38, inne
 - art. 300¹ § 3 i art. 2 KSH w zw. z art. 353¹, art. 57 i art. 58 KC [Z] — inne
 - art. 300¹ § 3 i art. 4 § 2¹ KSH [Z] — § 12
 - art. 300¹ § 3, art. 300³³, art. 300³⁹ § 6 KSH [Z] — § 11
@@ -1152,13 +1184,13 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - art. 300¹¹ § 1–2 KSH (spółka w organizacji) [Z] — § 7
 - art. 300¹¹ § 1–2 KSH [Z] — § 26
 - art. 300¹¹⁰ § 1–3 KSH (pięcioletnie upoważnienie Rady, porównawczo) [Z] — § 9
-- art. 300¹¹⁴–300¹¹⁸ KSH (warunkowa emisja akcji), art. 300¹¹⁹ KSH (warranty subskrypcyjne), art. 300⁸¹ pkt 4 KSH [Z] — § 8
+- art. 300¹¹⁴–300¹¹⁸ KSH (warunkowa emisja akcji), art. 300¹¹⁹ KSH (warranty subskrypcyjne), art. 300⁸¹ pkt 4 KSH [Z] — § 8, inne
 - art. 300¹⁰ § 1 KSH (wyrównanie znacznie zawyżonego wkładu na kapitał akcyjny) [Z] — § 30, § 38
-- art. 300¹⁰² § 2 KSH (termin sześciu miesięcy na zgłoszenie zmiany umowy) [Z] — § 8
+- art. 300¹⁰² § 2 KSH (termin sześciu miesięcy na zgłoszenie zmiany umowy) [Z] — § 8, inne
 - art. 300¹⁰³ KSH (emisja na podstawie postanowień umowy „przewidujących maksymalną liczbę akcji i termin ich emisji” bez trybu zmiany umowy) [Z] — § 11, § 12, § 16, § 21, § 32
 - art. 300¹⁰³ KSH [Z] — § 9
 - art. 300¹⁰³ i 300¹⁰⁶ § 2 KSH (emisja jako zmiana umowy — § 25
-- art. 300¹⁰³, art. 300¹⁰⁴ § 1 pkt 1–7 i § 2, art. 300¹⁰⁵ § 1–3, art. 300¹⁰⁶ § 1–2 i 6, art. 300¹⁰⁷ § 1–3 KSH [Z] — § 8
+- art. 300¹⁰³, art. 300¹⁰⁴ § 1 pkt 1–7 i § 2, art. 300¹⁰⁵ § 1–3, art. 300¹⁰⁶ § 1–2 i 6, art. 300¹⁰⁷ § 1–3 KSH [Z] — § 8, inne
 - art. 300¹⁰³–300¹⁰⁵ KSH (emisja i objęcie akcji nowej emisji) [Z] — § 12
 - art. 300¹⁰³–300¹⁰⁷ KSH [Z] — § 12, § 16, § 32
 - art. 300¹⁰¹ KSH w zw. z art. 422 § 1 KSH [Z] — § 32
@@ -1173,7 +1205,7 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - art. 300¹⁰⁶ § 1–2 KSH (prawo poboru, „jeżeli umowa spółki lub uchwała akcjonariuszy nie stanowią inaczej” — § 11, § 12, § 16, § 21, § 32
 - art. 300¹⁰⁶ § 1–3 i 6 KSH [Z] (§ 1: prawo poboru przysługuje, „jeżeli umowa spółki lub uchwała akcjonariuszy nie stanowią inaczej”) — § 13
 - art. 300¹⁰⁶ § 2 KSH (pozbawienie prawa poboru) [Z] — § 12, § 16, § 32
-- art. 300¹⁰⁸–300¹¹³ KSH (upoważnienie zarządu albo rady dyrektorów do emisji akcji) [Z] — § 8
+- art. 300¹⁰⁸–300¹¹³ KSH (upoważnienie zarządu albo rady dyrektorów do emisji akcji) [Z] — § 8, inne
 - art. 300¹⁵ § 2 i 4–6 KSH [Z] — § 17
 - art. 300¹⁵ § 2 i 5 KSH (test bilansowy — § 30
 - art. 300¹⁵ § 2 i § 4–6 KSH (kwota dostępna do wypłaty i test wypłacalności) [Z] — § 14
@@ -1265,7 +1297,7 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - art. 4 § 1 pkt 4 KSH (definicja spółki dominującej — pomocniczo do pojęcia kontroli) [Z] — § 10
 - art. 4 § 1 pkt 9–10 KSH (głosy „za”, „przeciw” lub „wstrzymujące się” oddane — § 24
 - art. 419 § 1 KSH (S.A., porównawczo) [Z] — § 38
-- art. 444 § 1 KSH (porównawczo) [Z] — § 8, § 9
+- art. 444 § 1 KSH (porównawczo) [Z] — § 8, § 9, inne
 - art. 506 § 1, 541 § 1 (3/4 głosów przy reprezentacji co najmniej połowy kapitału), 575 (2/3 kapitału) i 577 § 1 pkt 1 KSH (3/4 głosów przy połowie kapitału), każdorazowo „chyba że umowa ... przewiduje surowsze warunki” [Z] — § 25
 - ustawa z 23 stycznia 2026 r. (Dz.U. 2026 poz. 176): od 18 lutego 2027 r. art. 300³² § 1¹–1³ i § 3, art. 300³³ § 3, art. 300³⁴ § 3 zdanie drugie i § 9, art. 300³⁵ § 1¹ KSH, art. 38 pkt 8a lit. j ustawy o KRS, art. 83a ust. 4ac ustawy o obrocie instrumentami finansowymi, art. 90a § 1 Prawa o notariacie [Z] — § 5
 
@@ -1454,7 +1486,7 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - t.j. Dz.U. 2023 poz. 1743), zmieniona art. 2 ustawy z 13 marca 2026 r. (Dz.U. 2026 poz. 471) [Z] — § 4, § 11
 - tajne głosowanie z art. 300⁹⁹ § 2 nie ma tu zastosowania) [Z] — § 29
 - tekst niedostępny) [W] — § 12
-- teksty orzeczeń niedostępne) — § 10, § 18
+- teksty orzeczeń niedostępne) — § 10, § 18, inne
 - test wypłacalności na 6 miesięcy) [Z] — § 30
 - umowa może przewidzieć głos rozstrzygający „prezesa, przewodniczącego lub innego członka organu”), § 2 (umowa może przewidywać surowsze wymagania dotyczące kworum) i § 5 (protokół z imionami i nazwiskami głosujących oraz wynikiem) [Z] — § 23
 - umowa „może zawierać inne postanowienia, w szczególności ograniczać prawo odwołania do ważnych powodów”) [Z] — § 21
@@ -1527,7 +1559,7 @@ Przepis → paragrafy umowy zmienione z jego powodu. Pełny kontekst w odpowiedz
 - art. 28 ust. 6 ustawy o rachunkowości (definicja wartości godziwej) [Z] — § 19
 - art. 3 ust. 1 pkt 1, art. 12c ust. 6 i art. 12e ust. 4 ustawy o kontroli niektórych inwestycji (podmiot dominujący, nabycie pośrednie, spółki zależne podmiotów z państw trzecich) [Z] — § 11
 - art. 36 ust. 1 i 2aa ustawy o rachunkowości [Z] — § 7
-- art. 4 pkt 1 i art. 7 ust. 1 pkt 1 lit. b ustawy o PCC [Z] — § 10
+- art. 4 pkt 1 i art. 7 ust. 1 pkt 1 lit. b ustawy o PCC [Z] — § 10, inne
 - art. 4 ust. 1 pkt 7 ustawy o kontroli niektórych inwestycji (wytwarzanie i obrót wyrobami i technologią o przeznaczeniu wojskowym jako działalność, dla której podmiot „może być uznany za podmiot objęty ochroną” rozporządzeniem Rady Ministrów) [Z] — § 33
 - art. 40 pkt 1 ustawy o KRS („nie więcej niż dziesięć pozycji, w tym jeden przedmiot przeważającej działalności na poziomie podklasy”) [Z] — § 4
 - art. 40 pkt 1 ustawy o KRS [Z] — § 30, § 38
