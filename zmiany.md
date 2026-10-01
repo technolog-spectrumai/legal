@@ -178,3 +178,123 @@ Nowy załącznik informacyjny (nie tworzy praw ani obowiązków; § Postanowieni
 - Po każdym commicie sprawdzano bilans nawiasów `{}` (netto zero) i parzystość `\begin{…}`/`\end{…}` dla każdego środowiska; po commicie 28 dodatkowo, że wszystkie `\ref` w Załączniku nr 12 wskazują istniejące etykiety.
 - Historia: `git log 1264ca2..HEAD --format='%b'` nie zawiera treści (same jednoliniowe tematy); autor wszystkich commitów: `technolog <technolog@spectrumai.pl>`.
 - Kompilacji LaTeX nie wykonywano.
+
+
+# Zmiany w `psa.tex` — od wersji 0.9.4-C do 1.0-RC (wdrożenie memorandum)
+
+Gałąź: `psa_v3`. Punkt wyjścia: commit `cab9b54` (`psa_check`, wersja 0.9.4-C wysłana kancelarii, memorandum 1.2). Jedna uwaga memorandum = jeden commit; po każdym commicie push. Uzasadnienie każdej zmiany (pytanie, ocena, rekomendacja, podstawa prawna, orzecznictwo), uwagi niewdrożone i fragmenty redagowane samodzielnie: **`comments.md`**.
+
+## Założenia
+
+Wdrożenie przyjmuje rekomendacje memorandum w miejsce decyzji Założycieli (Załącznik nr 2 memorandum): D2 wariant A, D3 przywrócony wyjątek dla funduszy (§ 11 ust. 14), D4 usunięte przekreślenia, D5 Kryterium wobec spadkobierców i małżonków utrzymane, D6 warstwa kontroli UE/EOG w umowie wykonawczej, D7 PKD 72.10.Z, D10 dom maklerski, D11 warunkowa emisja dla serii P. Pola `\field{}` z danymi pozostają do uzupełnienia.
+
+## Do decyzji przed aktem notarialnym
+
+- **§ 21 ust. 3** — ogólny wyjątek dla dyrektora spoza Kryterium (memorandum 1.1.5) zastąpiono węższym (4.4.2 V: jeden dyrektor niewykonawczy wskazany przez Kwalifikowanego Inwestora Finansowego).
+- **§ 38** — zdanie „W sprawach nieuregulowanych…” nie zostało przywrócone (memorandum 4.3.1 vs D4).
+- **§ 30 ust. 2 i 5** — próg 500 000 zł; **§ 33 ust. 4** — zakres „państw zaufanych” (Ukraina nie wprost); **§ 31 ust. 3** — bez odesłania do Kryterium.
+- Nowe pola: § 16 ust. 5 (48 miesięcy), § 19 ust. 4 (instytucja neutralna), § 32 (5), kara umowna w umowie wykonawczej § 13 ust. 6.
+
+## Wykaz commitów
+
+| Nr | Commit | Zmiana | Memorandum |
+|---:|---|---|---|
+| 01 | `5957c54` | § 4 ust. 7: wskazanie kodu PKD nie jest podstawą do rozpoczęcia działalności regulowanej | 4.1.2 |
+| 02 | `118cdd5` | § 4 ust. 8, § 3 ust. 4: klauzula koncesyjna obejmuje oprogramowanie i technologię, odesłanie dynamiczne; ocena zgodności i zezwolenia operacyjne BSP | 4.1.1 |
+| 03 | `6eb54df` | § 5 ust. 2, § 9 ust. 4 i 6: usunięcie zbędnego określenia akcji imiennych | 4.3.3 |
+| 04 | `d0b769a` | § 5 ust. 6: przywrócenie ustępu o rejestrze akcjonariuszy w brzmieniu merytorycznym (wybór podmiotu, zgłaszanie ograniczeń i obowiązków) | 4.3.2 |
+| 05 | `2ba6155` | § 7 ust. 3: wskazanie podstawy wyceny wkładów niepieniężnych i oświadczenie Założycieli o ich wartości | 3.1.1 |
+| 06 | `9a6a433` | § 7 ust. 4: przeznaczenie na kapitał akcyjny także wkładów niepieniężnych, stwierdzenie wniesienia uchwałą Rady | 3.1.2, K12 |
+| 07 | `e6b6941` | § 8 ust. 3 i 5: emisja serii P w trybie warunkowej emisji akcji (tryb podstawowy) albo zwykłym; wyłączenie prawa poboru serii P w umowie | 3.2.1, K14 |
+| 08 | `e9349ee` | § 9 ust. 3: uchwała kwalifikacyjna nie jest przyrzeczeniem oferty, roszczenie o akcje serii F wyłącznie z umowy objęcia | 3.2.3 |
+| 09 | `9bfd334` | § 9 ust. 4, § 8 ust. 9: termin 31.12.2036 odniesiony do dnia uchwały o emisji; zwiększenie puli serii P tylko zmianą umowy | 3.2.2 |
+| 10 | `9ef37ea` | § 10 ust. 6a: przesłanka przestępstwa, 24-miesięczny limit przekwalifikowania Odejścia, dopłata po ustaleniu innego rodzaju Odejścia | 1.5.4 |
+| 11 | `0102d0c` | § 10 ust. 6b: kwalifikacja Odejścia niezależna od podstawy zaangażowania, skutek prawomocnego ustalenia bezzasadności rozwiązania; umowa wykonawcza: ograniczenie kar umownych wobec założycieli-pracowników | 1.5.5 |
+| 12 | `9790623` | § 10 ust. 8 lit. b: 80% Wartości Godziwej jako cena umowna opcji, nie kara umowna, z zaliczeniem różnicy na odszkodowanie; umowa wykonawcza: wyłączenie nabywcy finansowanego przez Spółkę | 1.5.2 |
+| 13 | `9c212c7` | § 10 ust. 10: definicje Zmiany Kontroli i Istotnej Przyczyny, okno od umowy do 12 miesięcy po zamknięciu, konstruktywne odejście | 1.5.6 |
+| 14 | `b525dd9` | § 10 ust. 13: rozszerzenie obowiązkowej treści umowy wykonawczej (oferta lub umowa przedwstępna, oznaczony pełnomocnik z podpisem poświadczonym, wstrzymanie terminu, niezapłacenie ceny, zbieg z prawem pierwszeństwa) | 1.5.3, K4 |
+| 15 | `1bb60c1` | § 10 ust. 14: obowiązek zbycia obciąża każdoczesnego posiadacza akcji, Spółka żąda wpisu wzmianek w rejestrze (art. 300^33 KSH) | 1.5.1, K3 |
+| 16 | `65fc8d4` | Umowa wykonawcza § 13 ust. 5: warstwa kontroli UE/EOG w okresie finansowania EDF/AGILE/EUDIS, ze zgodą WZ 75% | 1.1.1, decyzja D6 |
+| 17 | `f48967d` | § 11 ust. 6: definicja porozumienia i działania na cudzy rachunek, zawiadomienie o porozumieniu w 14 dni, okresowe ponowienie oświadczenia | 1.1.3 |
+| 18 | `0e85d47` | § 11 ust. 11a: tryb stwierdzenia statusu Prawnie Niedopuszczalnego Posiadacza, wstrzymanie świadczeń i praw, wyłączenie głosów zawieszonych z mianownika, prawa zarządcy przymusowego; § 24 ust. 12 odesłanie | 1.7.3, K9 |
+| 19 | `2f502f1` | .gitignore: pomijaj PDF-y budowane lokalnie w katalogu głównym | — |
+| 20 | `a839982` | § 11 ust. 14, § 32 ust. 1: przywrócenie wyjątku dla Kwalifikowanego Inwestora Finansowego w brzmieniu uszczelnionym (zarządzający regulowany, rozproszenie, progi 25%/50%/10%, ujawnienie beneficjentów, zawiadomienia) i odesłania | 1.4.1, 1.4.3, decyzja D3 |
+| 21 | `802a590` | § 11 ust. 14: test kontroli także nad zarządzającym i przez inwestora spoza Kryterium, zachowanie weryfikacji i obowiązków AML, fundusze siostrzane bez odrębnej uchwały | 4.4.2, brzmienie I |
+| 22 | `06a40d7` | § 11 ust. 15: 3-miesięczny termin na wskazanie nabywcy przez Spółkę, Wartość Godziwa na dzień zdarzenia, wyłączenie Spółki jako nabywcy poza art. 300^47 KSH, skutek braku wskazania | 1.1.4 |
+| 23 | `6255bdf` | § 11 ust. 16: obowiązek akcjonariusza z pakietem co najmniej 20% dostarczenia zaświadczeń o niekaralności i danych do postępowania koncesyjnego | 4.1.1 |
+| 24 | `d67d64e` | § 11 ust. 15: utrata Kryterium przez Kwalifikowanego Inwestora Finansowego ograniczona do zmiany kontroli nad zarządzającym i uprawnień inwestora spoza Kryterium | 4.4.2, brzmienie II |
+| 25 | `06f6c30` | § 12 ust. 1: milczenie Rady Dyrektorów jako fikcja odmowy z przyczyny ust. 2 lit. b uruchamiająca ust. 3 | 1.3.1 |
+| 26 | `69edc0b` | § 12 ust. 8: Przeniesienia Dozwolone Kwalifikowanego Inwestora Finansowego (fundusz następca, równoległy, spółka celowa, wydanie inwestorom) bez zgody Spółki i prawa pierwszeństwa, z weryfikacją i Kryterium | 4.4.1, 4.4.2 brzmienie III |
+| 27 | `5d857c8` | § 12 ust. 2 lit. e: zawiadomienie organu kontroli inwestycji składa nabywca przy współdziałaniu zbywcy i Spółki, termin złożenia i chwila ustania wstrzymania | 1.1.2 |
+| 28 | `dfec229` | § 12 ust. 2 lit. d i e: jedno wezwanie i limit 60 dni wstrzymania, skutek braku informacji; zgoda warunkowa i 30-dniowy termin zawiadomienia organu | 1.3.2 |
+| 29 | `b99588c` | § 12 ust. 2 lit. f: odmowa zgody na zbycie akcji objętych obowiązkiem zbycia nabywcy, który nie przystąpił do umowy wykonawczej | 1.5.1, K2 |
+| 30 | `775f392` | § 12 ust. 4: wyraźna derogacja art. 300^39 § 3-5 KSH (z odesłaniem do § 2) przy odmowie z przyczyny ust. 2 lit. f | 1.2.1 |
+| 31 | `67a005d` | § 12 ust. 3: zaświadczenie Spółki w 7 dni o powstaniu swobody zbycia jako dokument dla rejestru akcjonariuszy | 1.2.2 |
+| 32 | `13c7189` | § 12 ust. 3: 90-dniowy termin końcowy wyceny z płatnością według wartości wskazanej przez Radę, raty bez zgody zbywcy tylko przy 50% z góry, do 12 rat i zastawie albo gwarancji, dzień przeniesienia | 1.2.3 |
+| 33 | `ed56b6f` | § 12 ust. 4: wyraźna derogacja art. 300^39 § 3-5 KSH przy odmowie z powodu Niedopuszczalnego Nabywcy, wstrzymanie terminu nie jest odmową | 1.2.7 |
+| 34 | `7c2d9db` | § 12 ust. 7: potwierdzenie wyniku weryfikacji przez Radę Dyrektorów (niebędące zgodą) jako dokument dla rejestru przy nabyciach zwolnionych ze zgody Spółki | 1.2.8 |
+| 35 | `5593c71` | § 12 ust. 10: obowiązek Rady Dyrektorów ujawnienia ograniczeń i obowiązków w rejestrze akcjonariuszy w 7 dni, wpis nabywcy po przedstawieniu zgody albo potwierdzenia z ust. 7 | 1.1.6 |
+| 36 | `171d699` | § 13 ust. 1: derogacja ograniczona do art. 300^39 § 3-5 KSH, ujawnienie Okresu Ograniczenia z datą końcową; § 12 ust. 7, § 14 ust. 6: przeniesienie do podmiotu kontrolowanego bez zgody Spółki i prawa pierwszeństwa | 1.2.6 |
+| 37 | `6870417` | § 13 ust. 2 lit. a, § 33 ust. 2: wyjątek dla zbycia wtórnego na rzecz inwestora Rundy zatwierdzonego w uchwale kierunkowej, bez prawa pierwszeństwa, z zachowaniem zwrotnego zbycia; zgoda z § 11 ust. 6 w uchwale kierunkowej | 3.3.3 |
+| 38 | `8dce83a` | § 14 ust. 1 i 4: wygaśnięcie oferty przy odmowie zgody, wskazanie nabywcy zastępuje prawo pierwszeństwa, 60 dni od upływu terminów z ust. 3, wymóg Kryterium wobec nabywcy | 1.3.4 |
+| 39 | `8fc2c03` | § 14 ust. 3: nabycie przez Spółkę w granicach upoważnienia WZ (art. 300^47 § 1 pkt 2 i § 2 KSH) albo wskazanie w 20 dni samodzielnego nabywcy spełniającego Kryterium | 1.3.5 |
+| 40 | `b876db3` | § 16 ust. 5: ochrona serii inwestorskiej przy przymusowym współzbyciu (zgoda większości serii albo okres ochronny z ceną minimalną), podział ceny według uprzywilejowania | 4.4.1, 4.4.2 brzmienie IV |
+| 41 | `127376a` | § 17 ust. 2: dłużnik spłaty (nabywca, solidarnie Spółka), 3-miesięczny termin wskazania nabywcy, ścieżka rezerwowa przez nabycie akcji własnych albo umorzenie przymusowe z przesłanką niewstąpienia | 1.6.1, K5 |
+| 42 | `6da7955` | § 17 ust. 2: wstąpienie spadkobierców z akcji za wkład pracy lub usług według § 17 zamiast zgody z art. 300^41 § 2 KSH, proporcjonalne pomniejszenie spłaty | 1.6.1, K6 |
+| 43 | `ed16fed` | § 17 ust. 2: większość dla zgody na wstąpienie spadkobiercy liczona bez głosów z akcji spadkowych, uzasadnienie odmowy | 1.6.2 |
+| 44 | `574cb13` | § 17 ust. 2a: tryb wezwania spadkobierców i bieg 90 dni, wszczęcie postępowania spadkowego przez Spółkę, stwierdzenie niewstąpienia uchwałą Rady, umorzenie automatyczne (art. 300^46 KSH) wobec spadkobiercy niewspółdziałającego | 1.6.3, K8 |
+| 45 | `f016ffa` | § 17 ust. 4: bezwarunkowy termin spłaty (30 dni od ostatecznego ustalenia Wartości Godziwej) i raty na żądanie nabywcy albo Spółki zamiast przesłanki zagrożenia płynności | 1.6.1, K7 |
+| 46 | `dc33d4b` | § 18 ust. 3: odpowiednie stosowanie § 11 ust. 15 do małżonka, który nabył akcje bez zgody Spółki i bez spełnienia Kryterium | 1.7.1 |
+| 47 | `6bb1b2e` | § 19 ust. 2: Wartość Godziwa jako wynagrodzenie za umorzenie bez zgody akcjonariusza, nie niższe od minimum z art. 300^45 § 2 KSH | 1.8.1 |
+| 48 | `47f3d42` | § 19 ust. 4: wspólny wybór Niezależnego Eksperta, rezerwowo przez instytucję neutralną, procedura kontradyktoryjna z terminem 60 dni | 1.8.2, K10 |
+| 49 | `83e8405` | § 19 ust. 7: wyjątek oczywistej sprzeczności z zasadami wyceny i tryb ponownej wyceny przez innego Niezależnego Eksperta | 1.8.2, K11 |
+| 50 | `3d5f0d1` | § 21 ust. 3: dyrektor niespełniający Kryterium za zgodą WZ 75%, przy większości Rady i Przewodniczącym spełniających Kryterium, dostęp do Kluczowej Własności Intelektualnej według § 27 ust. 6 i § 28 | 1.1.5 |
+| 51 | `dcd601e` | § 21 ust. 3-4: wspólna kadencja w latach obrotowych, wygaśnięcie mandatu z powołaniem następcy nie później niż 6 miesięcy po kadencji (art. 300^56 KSH), obowiązek zwołania WZ 3 miesiące przed upływem kadencji | 2.1.1 |
+| 52 | `d72a71c` | § 21 ust. 3: wyjątek od Kryterium ograniczony do jednego dyrektora niewykonawczego wskazanego przez Kwalifikowanego Inwestora Finansowego, test sankcyjny, Przewodniczący i dyrektorzy wykonawczy spełniający Kryterium, wyłączenia w regulaminie Rady | 4.4.2, brzmienie V |
+| 53 | `4f219d4` | § 21 ust. 6: wyznaczenie dyrektora wykonawczego uchwałą (art. 300^76 KSH), obowiązek dyrektora niewykonawczego, delegacja bez spraw z art. 300^75 § 2-3 KSH i § 23, odwołalna | 2.1.3 |
+| 54 | `c52757b` | § 21 ust. 9, § 29 ust. 7: pełny skład Rady jako liczba dyrektorów aktualnie powołanych, dyrektor wyłączony nie liczy się do quorum w danej sprawie | 2.3.2 |
+| 55 | `ff191e0` | § 23 ust. 2: wyznaczenie uchwałą dyrektora ds. bezpieczeństwa lub zgodności, tryb do czasu wyznaczenia i przy wyłączeniu lub nieobecności, skutek braku głosu i przedłożenie sprawy WZ | 2.1.2 |
+| 56 | `d7d6f77` | § 9 ust. 7, § 18 ust. 1, § 22 ust. 3, § 24 ust. 1, § 29 ust. 12, § 39 ust. 1: usunięcie przekreślonych zdań i ustępów, odesłania w § 24 (ust. 5, ust. 10) i w umowie wykonawczej (§ 39 ust. 3-4, § 24 ust. 2) | 3.4.4, decyzja D4 |
+| 57 | `402e224` | § 24 ust. 2: kaskada doręczeń zawiadomień o WZ (e-mail z rejestru, w braku przesyłka polecona albo kurierska), obowiązek podania adresu i zgody przy wpisie, chwila doręczenia, uchwały bez formalnego zwołania | 2.2.2 |
+| 58 | `d900f94` | § 24 ust. 2: 7-dniowy termin zgłaszania zmian danych podlegających wpisowi do rejestru akcjonariuszy, w tym istotnych dla Kryterium; § 38 ust. 6: klauzula dostosowawcza do zmian przepisów | 4.3.3 |
+| 59 | `4b4b6f1` | § 24 ust. 6-7: regulamin WZ jako podstawa zasad udziału elektronicznego (art. 300^92 § 2 KSH) z regułą przejściową dla zawiadomienia, zastrzeżenie zakresu dopuszczalnego przez prawo przy problemach technicznych | 2.2.1 |
+| 60 | `435511a` | § 24 ust. 10-11: zobowiązanie akcjonariusza wyłączonego umownie do niewykonywania głosu, konwersja progu wszystkich głosów na Głosy Uprawnione w Sprawie przy wyłączeniu ustawowym | 2.2.3 |
+| 61 | `77da93d` | § 32 ust. 4 lit. f: katalog spraw wymagających zgody większości akcji serii wyemitowanej w Kwalifikowanej Rundzie bez odrębnej uchwały 75%, wygaśnięcie poniżej progu udziału | 4.4.1, 4.4.2 brzmienie VI |
+| 62 | `f1ded08` | § 25 ust. 5: uchwały WZ w sprawach Rady jako zgoda, zgody ustawowe (art. 300^81 KSH), umowna zgoda WZ na kredyt, pożyczkę i poręczenie z dyrektorem lub prokurentem, nieruchomości do progu z lit. k bez uchwały WZ; ust. 1 lit. f: wydzierżawienie i obciążenie przedsiębiorstwa | 2.2.4 |
+| 63 | `424d7cb` | § 26 ust. 2: obowiązek Założyciela zawarcia pisemnych umów przeniesienia praw (pola eksploatacji, prawa zależne, prawa osobiste, prawa do uzyskania patentu) w dniu umowy i w 30 dni od wpisu Spółki | 3.1.3 |
+| 64 | `db993d8` | § 27 ust. 3: przetrwanie obowiązku poufności po utracie statusu akcjonariusza, pisemne zobowiązania dyrektorów niebędących akcjonariuszami i nabywców akcji | 4.2.3 |
+| 65 | `a072eb9` | § 27 ust. 6: adresaci zakazu dostępu do Kluczowej Własności Intelektualnej (akcjonariusz, dyrektor, osoba działająca na rzecz Spółki), dodanie EOG, odesłanie do § 28 | 4.2.3 |
+| 66 | `1b2b759` | § 28 ust. 1: przykładowe wyliczenie aktów (2021/821, ustawa o obrocie strategicznym, ustawa koncesyjna, środki ograniczające, AI Act w zakresie zastosowania) w brzmieniu obowiązującym | 4.2.1 |
+| 67 | `6456051` | § 28 ust. 5: obowiązek zbycia akcji przez akcjonariusza naruszającego kontrolę eksportu na rzecz wskazanego Dopuszczalnego Nabywcy za Wartość Godziwą jako obowiązek związany z akcją | 4.2.1 |
+| 68 | `14e540a` | Załącznik nr 3 pkt 4: zakres danych klasyfikacji eksportowej (pozycja wykazu, data, wersja wykazu, osoba odpowiedzialna, wiążące wyjaśnienie) | 4.2.2 |
+| 69 | `8ef66e0` | § 29 ust. 8 lit. b: 14-dniowy termin zwołania WZ w celu powołania dodatkowego dyrektora po stwierdzeniu braku zdolności Rady do podjęcia uchwały | 2.3.1 |
+| 70 | `59fa2c7` | § 30: usunięcie oznaczenia roboczego [WYMAGA OPINII PRAWNIKA] | 4.3.1, K16 |
+| 71 | `8c30ca4` | § 30 ust. 2 i 5: granica wartości godziwej (art. 300^21 KSH) z sankcją zwrotu oraz katalog transakcji z akcjonariuszami wymagających uchwały WZ 75% Głosów Uprawnionych w Sprawie | 2.3.4 |
+| 72 | `977b236` | § 31 ust. 4: prawo weta zawężone do sprzeciwu wobec uchwał organów, wyłączenie zwyczajowych kowenantów i postanowień umów o dofinansowanie | 3.3.4 |
+| 73 | `39cedfd` | § 32 ust. 3: zobowiązanie do głosowania obejmuje uchwałę o emisji, zmianie umowy, pozbawieniu prawa poboru i uchwały wykonawcze Rundy; umowa wykonawcza § 13 ust. 6-7: kara umowna i nieodwołalne pełnomocnictwo do głosowania | 3.3.1 |
+| 74 | `44c7526` | § 32 ust. 4: rozróżnienie warunków inwestorskich wprowadzanych zmianą umowy Spółki (uprzywilejowanie, prawo wskazania dyrektora, zgoda serii z lit. f) od kontraktowych; zgoda właścicielska w uchwale kierunkowej | 3.3.2, K15 |
+| 75 | `8b341fa` | § 33 ust. 2a: sposób liczenia łącznego zaangażowania, Limit Zaangażowania zatwierdzany przez WZ, obowiązek informacyjny przed utratą kontroli, reguła kolizyjna z § 25 ust. 1 lit. k i § 31 ust. 5 | 2.4.4 |
+| 76 | `ebc4d12` | § 33 ust. 3: własność ulepszeń niewydzielnych, dla pozostałych licencja niewyłączna z sublicencją i prawo pierwszeństwa, wyłączność w granicach prawa konkurencji, dokumentowana ocena Rady | 2.4.1 |
+| 77 | `2081146` | § 33 ust. 4: kompetencja Rady do dopuszczenia ograniczonego dostępu partnerów z państw EU001 albo związanych umową o bezpieczeństwie informacji z UE lub NATO; warstwa programowa EDF (art. 9) z uchwałą WZ dla kontroli z państwa niestowarzyszonego | 2.4.2 |
+| 78 | `7588070` | § 33 ust. 7: wyjątek od zakazu konkurencji ograniczony (próg 10% i równy udział Spółki, powyżej uchwała WZ z wyłączeniem zainteresowanego, ujawnienie wynagrodzeń, wygaśnięcie z Dniem Odejścia z ofertą udziału dla Spółki, szanse biznesowe); umowa wykonawcza § 10 ust. 4, § 12: dostosowanie | 2.4.3 |
+| 79 | `6976954` | § 35 ust. 1 i 3: stwierdzenie Impasu Decyzyjnego przez Radę albo Przewodniczącego, wybór Niezależnego Eksperta przez niezależną instytucję przy wyłączeniu dyrektorów | 3.4.3 |
+| 80 | `48f3c13` | § 38 ust. 2: zgoda większości akcji serii na uszczuplenie jej praw i zgoda akcjonariuszy dotkniętych zaostrzeniem obowiązków związanych z akcją | 3.4.2 |
+| 81 | `35faad6` | § 38 ust. 5, § 29 ust. 2: dane historyczne Załącznika nr 1 bez aktualizacji, ujawnienia i zgody z Załącznika nr 3 uchwałą WZ bez zmiany umowy z ewidencją Rady | 3.4.1 |
+| 82 | `4267f51` | § 38 ust. 7: uchwały założycielskie objęte aktem (pierwsza Rada, podmiot prowadzący rejestr) i reprezentacja Spółki w organizacji | 4.3.1, K18 |
+| 83 | `1eb1977` | Załącznik nr 1: rozdzielenie numerów akcji obejmowanych za wkłady niepieniężne (Część A, z wartością wkładu i podstawą wyceny) i pieniężne (Część B), zestawienie łączne | 3.1.4, K13 |
+| 84 | `d6108cd` | comments.md: komentarz do zmian 0.9.4-C → 1.0-RC (co, dlaczego, podstawa prawna, orzecznictwo, historia wersji, uwagi niewdrożone) | — |
+| 85 | `888e0b3` | Umowa wykonawcza, Załączniki A–B: oferta skierowana do Spółki z prawem wskazania Nabywcy Wskazanego i zobowiązaniem do zbycia (umowa przedwstępna, art. 300^34 § 4 KSH), warunki, wstrzymanie terminu 6 miesięcy, granica 24 miesięcy, niezapłacenie ceny, dopłata, zgoda na wpis, PCC, depozyt; pełnomocnictwo dla Spółki z substytucją, nieodwołalne (art. 101 § 1 KC), z podpisem notarialnie poświadczonym, dom maklerski | 1.5.3 |
+| 86 | `ae4636c` | extra.tex: opis emisji serii P zgodny z § 8 (warunkowa emisja) | 3.2.1 |
+| 87 | `a4b0b06` | Umowa wykonawcza § 6–7: treść główna zgodna z Załącznikami A–B | 1.5.3 |
+| 88 | `31657fd` | Oznaczenie wersji 1.0-RC w psa.tex, shareholder_agreement.tex i extra.tex (strona tytułowa, stopka) | — |
+| 89 | (ten commit) | wpis 0.9.4-C → 1.0-RC w `zmiany.md` | — |
+
+## Errata opisów commitów (bez force-push)
+
+- `6870417`: w opisie „§ 33 ust. 2” — zmieniono § 32 ust. 2.
+- `d7d6f77`: w opisie „§ 39” — chodzi o § 38.
+- `69edc0b`: w opisie „§ 12 ust. 8” — Przeniesienia Dozwolone są w § 12 ust. 9.
+
+## Weryfikacja
+
+`./build.sh` po commicie `31657fd`: psa 57 s., shareholder_agreement 21 s., extra 29 s., psa_feedback 24 s., memorandum 232 s. — 0 błędów, 0 niezdefiniowanych odwołań. `memorandum.tex` opisuje wersję 0.9.4-C (ramki przy tekście sprzed wdrożenia).
