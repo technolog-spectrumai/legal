@@ -1672,3 +1672,15 @@ Powołane w odpowiedziach: 1.5.3, 3.3.1.
 - Umowa wykonawcza § 13 ust. 6–7 (uwaga 85) — kara umowna (kwota jako pole) i nieodwołalne pełnomocnictwo do głosowania w sprawach Kwalifikowanej Rundy: udzielane w 7 dni od uchwały kierunkowej, ograniczone do jej treści, pełnomocnika wskazuje Rada i nie może nim być inwestor Rundy.
 - Umowa wykonawcza § 10 ust. 4 i § 12 (uwaga 91) — od Dnia Odejścia tylko pasywne posiadanie udziału w Przedsięwzięciu Produkcyjnym do czasu zbycia; aktualizacje Załącznika nr 3 zatwierdza Rada Dyrektorów albo Walne Zgromadzenie.
 
+## 9. Zmiany spoza memorandum (na wniosek Założycieli)
+
+### § 5 ust. 7–8 — nabycie akcji własnych przez Spółkę
+
+Commit `c531141` · wzory uchwał: `uchwaly.tex`, Część 1 (commit `cbb8101`) · pytanie do prawnika: `law_uzup.md` U.6 (commit `2139566`)
+
+- **Co:** Walne Zgromadzenie może upoważnić Radę Dyrektorów do nabywania akcji własnych na okres do 5 lat. Uchwała określa: liczbę akcji (łącznie najwyżej 25%), cele (prawo pierwszeństwa z § 14 ust. 3, akcje spadkobiercy z § 17, program motywacyjny z § 8, umorzenie), widełki ceny (najwyżej Wartość Godziwa z § 19), kapitał rezerwowy na ten cel i sposób rozporządzenia akcjami. Nabywać można tylko akcje w pełni pokryte, za cenę mieszczącą się w kapitale rezerwowym i bez utraty płynności na 6 miesięcy. Poza § 14 i § 17 oferta idzie do wszystkich akcjonariuszy na jednakowych warunkach. Dyrektor-zbywca nie głosuje w Radzie. Nie trzeba odrębnej uchwały z § 30. Spółka nie wykonuje praw z akcji własnych, a zbyć je może tylko Dopuszczalnemu Nabywcy spełniającemu Kryterium.
+- **Dlaczego:** przed tą zmianą umowa dopuszczała nabycie akcji własnych tylko pośrednio (§ 14 ust. 3, § 17 ust. 2–2a) i zostawiała je w całości ustawie. Założyciele chcieli mieć jasną, z góry określoną ścieżkę odkupu, kiedy Spółka będzie miała zyski. Postanowienie przenosi do umowy warunki z KSH i dokłada zabezpieczenia własne: limit ceny, równe traktowanie, Kryterium przy dalszym zbyciu.
+- **Podstawa prawna:** art. 300⁴⁷ § 1 pkt 1–2, § 2, § 3, § 6–9 KSH [Z]; art. 300¹⁵ § 2 i § 4–6 KSH (źródła wypłaty, test wypłacalności) [Z]; art. 300⁴⁴ § 1–2 i § 4 KSH (umorzenie jako zmiana umowy, spłata ze środków z art. 300¹⁵ § 2) [Z]; art. 20 KSH (jednakowe traktowanie akcjonariuszy) [W].
+- **Powiązania:** § 10 ust. 11–12 (zwrotne zbycie nie jest nabyciem akcji własnych), § 25 ust. 1 (uchwała 75%), § 32 ust. 4 lit. f (po rundzie może być potrzebna zgoda serii inwestorskiej).
+- **Do decyzji i weryfikacji:** pytania U.6 w `law_uzup.md` i „Pytania do prawnika” w `uchwaly.tex`.
+
