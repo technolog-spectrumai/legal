@@ -22,4 +22,6 @@ U.5 (do D1, T1) — Jurysdykcja i struktura: które mechanizmy umowy są specyfi
 
 ## Pytania Założycieli
 
-U.6 — [do uzupełnienia]
+U.6 (do 1.5.2, 1.6.x, 3.4.1; nowy § 5 ust. 7–8 w wersji 1.0-RC, wzory w `uchwaly.tex` Część 1) — Nabycie akcji własnych przez Spółkę. Wersja 1.0-RC dodaje do § 5 upoważnienie Rady Dyrektorów do nabywania akcji własnych na podstawie art. 300⁴⁷ § 1 pkt 2 KSH (do 5 lat, limit 25%, cena nie wyższa niż Wartość Godziwa, kapitał rezerwowy z kwot z art. 300¹⁵ § 2, test wypłacalności z art. 300¹⁵ § 5, oferta do wszystkich akcjonariuszy poza trybem § 14 i § 17, zbycie tylko Dopuszczalnemu Nabywcy). Prosimy o ocenę: (a) czy postanowienie jest dopuszczalne i potrzebne w umowie, czy wystarczy sama uchwała akcjonariuszy; (b) czy nabycie od jednego akcjonariusza (np. odchodzącego założyciela, gdy pozostali nie chcą kupić) da się pogodzić z art. 20 KSH i z § 10 ust. 12 (Spółka nie jest nabywcą w zwrotnym zbyciu); (c) czy umorzenie akcji własnych w P.S.A. wymaga obok zmiany § 5 ust. 2 innych czynności; (d) skutki podatkowe dla sprzedającego (PIT: dochód ze zbycia czy z udziału w zyskach przy nabyciu w celu umorzenia) i dla Spółki; (e) czy zbycie akcji własnych uczestnikom programu motywacyjnego jest rozsądną alternatywą dla warunkowej emisji z § 8.
+
+U.7 — [do uzupełnienia]
