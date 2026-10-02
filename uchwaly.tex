@@ -1,0 +1,184 @@
+% !TeX program = pdflatex
+% Kompilacja: najpierw pdflatex psa.tex (dwukrotnie), potem pdflatex uchwaly.tex (dwukrotnie);
+% odesłania do paragrafów umowy (\ref{art:...}) są pobierane z psa.aux przez pakiet xr-hyper.
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+\externaldocument{psa}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- projekt umowy P.S.A.}
+\BusinessPlanConfidentialText{Wzory uchwał --- nie stanowią części umowy}
+\BusinessPlanFooterText{Basilisk Systems --- wzory uchwał}
+\BusinessPlanVersionText{Wersja 1.0-RC --- wzory uchwał}
+
+\setstretch{1.18}
+\setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.18}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{%
+  \paragraf{#1}%
+}{%
+  \par
+}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\CompanyShort}{Basilisk Systems P.S.A.}
+\newcommand{\KSH}{Kodeks spółek handlowych}
+\newcommand{\BoilerplateStrike}[1]{\sout{#1}}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- wzory uchwał},
+  pdfauthor={Basilisk Systems --- projekt umowy P.S.A.}
+}
+
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0-RC --- wzory uchwał}
+  {Wzory uchwał}
+  {Wzory uchwał Walnego Zgromadzenia i Rady Dyrektorów}
+  {Projekt do weryfikacji prawnej --- nie stanowi części umowy}
+  {1.0-RC}
+
+\tableofcontents
+\newpage
+
+\chapter*{Wzory uchwał}
+\addcontentsline{toc}{chapter}{Wzory uchwał}
+
+Wzory uchwał wykonujących postanowienia umowy spółki (\texttt{psa.tex}). Odesłania do paragrafów (§) wskazują numery z umowy. Pola w nawiasach kwadratowych wypełnia się przy podjęciu uchwały. Przed pierwszym użyciem wzory powinien sprawdzić radca prawny albo adwokat; pytania do weryfikacji są na końcu każdej części.
+
+\section*{Część 1 --- Nabycie akcji własnych}
+\addcontentsline{toc}{section}{Część 1 --- Nabycie akcji własnych}
+
+\subsection*{Jak to działa}
+
+Spółka może kupić od akcjonariuszy własne akcje tylko w przypadkach z art.~300$^{47}$ §~1 KSH. Podstawowa ścieżka to upoważnienie udzielone przez Walne Zgromadzenie (art.~300$^{47}$ §~1 pkt~2 KSH, §~\ref{art:akcje} ust.~7--8 umowy). Kolejność:
+
+\begin{enumerate}
+  \item Walne Zgromadzenie zatwierdza sprawozdanie finansowe, z którego wynika zysk albo inne kwoty, które wolno wypłacić akcjonariuszom (art.~300$^{15}$ §~2 KSH).
+  \item Walne Zgromadzenie podejmuje uchwałę nr~1: tworzy kapitał rezerwowy na nabycie akcji i upoważnia Radę Dyrektorów do nabywania akcji (większość 75\% wszystkich głosów, §~\ref{art:walne-zastrzezone} ust.~1; jeżeli po Kwalifikowanej Rundzie inwestorom przyznano prawo zgody z §~\ref{art:kwalifikowana-runda} ust.~4 lit.~f --- także zgoda akcjonariuszy tej serii).
+  \item Rada Dyrektorów podejmuje uchwałę nr~2 przy każdym nabyciu: sprawdza warunki ustawowe, kieruje ofertę do wszystkich akcjonariuszy albo przyjmuje ofertę w trybie §~\ref{art:pierwszenstwo} lub §~\ref{art:dziedziczenie}.
+  \item Spółka zawiera umowę nabycia, płaci cenę i składa dyspozycję wpisu w rejestrze akcjonariuszy. Akcje własne wykazuje się w bilansie w osobnej pozycji aktywów, a kapitał rezerwowy pomniejsza się o cenę (art.~300$^{47}$ §~7 KSH).
+  \item Nabytymi akcjami Spółka rozporządza zgodnie z uchwałą nr~1: zbywa je Dopuszczalnemu Nabywcy (np.\ uczestnikom programu motywacyjnego) albo umarza uchwałą nr~3.
+\end{enumerate}
+
+Spółka nie głosuje z akcji własnych i nie pobiera z nich dywidendy (art.~300$^{47}$ §~8 KSH). Akcje nabyte z naruszeniem warunków trzeba zbyć w ciągu roku, a w przeciwnym razie Rada Dyrektorów umarza je bez uchwały akcjonariuszy (art.~300$^{47}$ §~6 KSH).
+
+\subsection*{Uchwała nr 1 Walnego Zgromadzenia w sprawie utworzenia kapitału rezerwowego i upoważnienia Rady Dyrektorów do nabywania akcji własnych}
+
+\textit{Uchwała nr \field{numer} Walnego Zgromadzenia \CompanyFull{} z siedzibą w \field{miejscowość} z dnia \field{data}}
+
+Działając na podstawie art.~300$^{47}$ §~1 pkt~2 i §~2 Kodeksu spółek handlowych oraz §~\ref{art:akcje} ust.~7--8 i §~\ref{art:walne-zastrzezone} ust.~1 umowy Spółki, Walne Zgromadzenie postanawia:
+
+\textbf{§~1. Kapitał rezerwowy.}
+\begin{enumerate}
+  \item Tworzy się kapitał rezerwowy przeznaczony na nabycie akcji własnych w kwocie \field{kwota} zł.
+  \item Kapitał rezerwowy tworzy się z \field{zysku za rok obrotowy ... / niepodzielonych zysków z lat ubiegłych / innego kapitału rezerwowego utworzonego z zysku}, tj.\ z kwot, które zgodnie z art.~300$^{15}$ §~2 KSH mogą być przeznaczone do podziału między akcjonariuszy.
+  \item Niewykorzystana część kapitału rezerwowego po upływie okresu upoważnienia może zostać przeznaczona na inne cele uchwałą Walnego Zgromadzenia.
+\end{enumerate}
+
+\textbf{§~2. Upoważnienie.}
+\begin{enumerate}
+  \item Upoważnia się Radę Dyrektorów do nabywania przez Spółkę akcji własnych na warunkach określonych w niniejszej uchwale, w okresie od dnia jej podjęcia do dnia \field{data, nie później niż 5 lat od podjęcia uchwały}.
+  \item Spółka może nabyć łącznie nie więcej niż \field{liczba} akcji; liczba ta wraz z akcjami własnymi nabytymi z innych tytułów oraz akcjami nabytymi przez spółki zależne nie może przekroczyć 25\% wszystkich akcji Spółki.
+  \item Nabycie może nastąpić wyłącznie w następujących celach: \field{wybrać:} (a)~przyjęcie oferty zbycia akcji w trybie §~\ref{art:pierwszenstwo} ust.~3 umowy Spółki; (b)~nabycie akcji spadkobiercy niewstępującego w trybie §~\ref{art:dziedziczenie} umowy Spółki; (c)~zaoferowanie akcji uczestnikom programu, o którym mowa w §~\ref{art:program-motywacyjny} umowy Spółki; (d)~umorzenie akcji; (e)~\field{inny cel}.
+  \item Cena nabycia jednej akcji nie może być niższa niż \field{kwota} zł ani wyższa niż \field{kwota} zł, a w każdym przypadku nie może przekroczyć Wartości Godziwej ustalonej zgodnie z §~\ref{art:wycena} umowy Spółki na dzień nie wcześniejszy niż 6 miesięcy przed dniem nabycia. \field{Alternatywnie: Cenę ustala się jako ... }
+  \item Łączna cena nabycia akcji powiększona o koszty nabycia nie może przekroczyć kwoty kapitału rezerwowego, o którym mowa w §~1.
+  \item Nabywane mogą być wyłącznie akcje w pełni pokryte.
+\end{enumerate}
+
+\textbf{§~3. Tryb nabycia.}
+\begin{enumerate}
+  \item Poza nabyciem w celach określonych w §~2 ust.~3 lit.~a i b Rada Dyrektorów kieruje ofertę nabycia do wszystkich akcjonariuszy na jednakowych warunkach. Jeżeli łączna liczba akcji zaoferowanych przez akcjonariuszy przekroczy liczbę akcji objętych ofertą, Spółka nabywa akcje od każdego akcjonariusza proporcjonalnie do liczby akcji zaoferowanych, z zaokrągleniem w dół do pełnej akcji.
+  \item Przed każdą zapłatą ceny Rada Dyrektorów stwierdza w uchwale, że zapłata nie doprowadzi do utraty przez Spółkę, w normalnych okolicznościach, zdolności do wykonywania wymagalnych zobowiązań pieniężnych w terminie 6 miesięcy od dnia zapłaty (art.~300$^{15}$ §~5 w zw.\ z art.~300$^{47}$ §~3 KSH).
+  \item Dyrektor, od którego albo od którego podmiotu powiązanego Spółka nabywa akcje, nie uczestniczy w podejmowaniu uchwały Rady Dyrektorów w tej sprawie.
+\end{enumerate}
+
+\textbf{§~4. Rozporządzenie nabytymi akcjami.}
+\begin{enumerate}
+  \item Akcje nabyte w celu określonym w §~2 ust.~3 lit.~d Rada Dyrektorów przedstawia Walnemu Zgromadzeniu do umorzenia nie później niż w terminie \field{6 miesięcy} od dnia nabycia.
+  \item Pozostałe akcje własne Rada Dyrektorów może zbyć wyłącznie Dopuszczalnemu Nabywcy spełniającemu Kryterium Bezpieczeństwa EU/NATO, na zasadach określonych w §~\ref{art:zbywanie} umowy Spółki, za cenę nie niższą niż \field{cena nabycia / Wartość Godziwa / cena określona w regulaminie programu motywacyjnego}.
+  \item Rada Dyrektorów informuje najbliższe Walne Zgromadzenie o liczbie akcji nabytych i zbytych, cenach, celach nabycia oraz o stanie kapitału rezerwowego.
+\end{enumerate}
+
+\textbf{§~5.} Uchwała wchodzi w życie z dniem podjęcia.
+
+\subsection*{Uchwała nr 2 Rady Dyrektorów w sprawie nabycia akcji własnych}
+
+\textit{Uchwała nr \field{numer} Rady Dyrektorów \CompanyFull{} z dnia \field{data}}
+
+Działając na podstawie uchwały nr \field{numer} Walnego Zgromadzenia z dnia \field{data} (dalej: „Upoważnienie”) oraz §~\ref{art:akcje} ust.~7--8 umowy Spółki, Rada Dyrektorów postanawia:
+
+\textbf{§~1.} Spółka nabywa \field{liczba} akcji serii \field{seria} o numerach \field{od--do} od \field{akcjonariusz / wszystkich akcjonariuszy, którzy przyjmą ofertę} za cenę \field{kwota} zł za jedną akcję, łącznie \field{kwota} zł, w celu \field{cel z §~2 ust.~3 Upoważnienia}.
+
+\textbf{§~2.} Rada Dyrektorów stwierdza, że:
+\begin{enumerate}
+  \item nabywane akcje są w pełni pokryte;
+  \item po nabyciu Spółka będzie posiadać łącznie \field{liczba} akcji własnych, co stanowi \field{procent}\% wszystkich akcji Spółki (nie więcej niż 25\%), wliczając akcje nabyte z innych tytułów i przez spółki zależne;
+  \item łączna cena nabycia powiększona o koszty nabycia wynosi \field{kwota} zł i nie przekracza pozostałej kwoty kapitału rezerwowego utworzonego na ten cel, wynoszącej \field{kwota} zł;
+  \item cena nie przekracza Wartości Godziwej ustalonej na dzień \field{data} (\field{źródło wyceny}) ani granic ceny z Upoważnienia;
+  \item na podstawie \field{prognozy przepływów pieniężnych na 6 miesięcy z dnia ...} zapłata ceny nie doprowadzi do utraty przez Spółkę, w normalnych okolicznościach, zdolności do wykonywania wymagalnych zobowiązań pieniężnych w terminie 6 miesięcy od dnia zapłaty;
+  \item \field{wybrać:} oferta nabycia zostanie skierowana do wszystkich akcjonariuszy na jednakowych warunkach, z terminem przyjęcia \field{liczba} dni / nabycie następuje w trybie §~\ref{art:pierwszenstwo} ust.~3 albo §~\ref{art:dziedziczenie} umowy Spółki.
+\end{enumerate}
+
+\textbf{§~3.} W głosowaniu nie uczestniczył dyrektor \field{imię i nazwisko}, od którego albo od którego podmiotu powiązanego Spółka nabywa akcje. \field{albo: Żaden dyrektor nie jest zbywcą ani podmiotem powiązanym ze zbywcą.}
+
+\textbf{§~4.} Rada Dyrektorów upoważnia \field{dyrektor} do zawarcia umowy nabycia, zapłaty ceny po spełnieniu warunków z §~2 oraz złożenia dyspozycji wpisu w rejestrze akcjonariuszy.
+
+\textbf{§~5.} Uchwała wchodzi w życie z dniem podjęcia.
+
+\subsection*{Uchwała nr 3 Walnego Zgromadzenia w sprawie umorzenia akcji własnych}
+
+\textit{Uchwała nr \field{numer} Walnego Zgromadzenia \CompanyFull{} z dnia \field{data}, zaprotokołowana przez notariusza}
+
+Umorzenie akcji stanowi zmianę umowy spółki (art.~300$^{44}$ §~2 KSH), więc wymaga protokołu notarialnego, większości właściwej dla zmiany umowy (§~\ref{art:walne-zastrzezone} ust.~1) i wpisu do rejestru.
+
+\textbf{§~1.} Na podstawie art.~300$^{44}$ §~1 i art.~300$^{47}$ §~1 pkt~1 albo 2 KSH umarza się \field{liczba} akcji własnych serii \field{seria} o numerach \field{od--do}, nabytych przez Spółkę na podstawie uchwały nr \field{numer} Rady Dyrektorów z dnia \field{data} za cenę łączną \field{kwota} zł. Umorzenie następuje za zgodą Spółki jako akcjonariusza, bez dodatkowej spłaty.
+
+\textbf{§~2.} W związku z umorzeniem zmienia się §~\ref{art:akcje} ust.~2 umowy Spółki w ten sposób, że \field{nowe brzmienie: liczba i numery akcji pozostających w obrocie}.
+
+\textbf{§~3.} Rada Dyrektorów zgłasza zmianę umowy Spółki do rejestru oraz zawiadamia podmiot prowadzący rejestr akcjonariuszy o umorzeniu akcji.
+
+\textbf{§~4.} Uchwała wchodzi w życie z dniem podjęcia, z mocą od dnia wpisu zmiany umowy Spółki do rejestru.
+
+\subsection*{Pytania do prawnika}
+
+\begin{enumerate}
+  \item Czy upoważnienie z §~\ref{art:akcje} ust.~7 może obejmować nabycie od jednego akcjonariusza poza trybem §~\ref{art:pierwszenstwo} i §~\ref{art:dziedziczenie} (np.\ odejście założyciela, gdy pozostali nie chcą kupić), skoro art.~20 KSH wymaga jednakowego traktowania akcjonariuszy w takich samych okolicznościach?
+  \item Czy limit 5 lat i cena maksymalna równa Wartości Godziwej są właściwe, czy umowa powinna zostawić te parametry wyłącznie uchwale?
+  \item Czy w P.S.A. umorzenie akcji własnych wymaga uchwały o obniżeniu kapitału akcyjnego, czy wystarczy zmiana §~\ref{art:akcje} ust.~2 (akcje bez wartości nominalnej, art.~300$^{2}$ KSH)?
+  \item Jakie są skutki podatkowe dla akcjonariusza sprzedającego akcje Spółce w celu umorzenia (dochód z kapitałów pieniężnych czy dywidenda, art.~24 ust.~5 pkt~1 ustawy o PIT) i dla Spółki (PCC)?
+  \item Czy zbycie akcji własnych uczestnikom programu motywacyjnego po cenie niższej niż cena nabycia narusza art.~300$^{15}$ KSH albo zasadę równego traktowania, i jak to pogodzić z warunkową emisją z §~\ref{art:program-motywacyjny}?
+\end{enumerate}
+
+\end{document}
