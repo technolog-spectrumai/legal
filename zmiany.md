@@ -298,3 +298,14 @@ Wdrożenie przyjmuje rekomendacje memorandum w miejsce decyzji Założycieli (Za
 ## Weryfikacja
 
 `./build.sh` po commicie `31657fd`: psa 57 s., shareholder_agreement 21 s., extra 29 s., psa_feedback 24 s., memorandum 232 s. — 0 błędów, 0 niezdefiniowanych odwołań. `memorandum.tex` opisuje wersję 0.9.4-C (ramki przy tekście sprzed wdrożenia).
+
+## Po 1.0-RC: nabycie akcji własnych (na wniosek Założycieli)
+
+| Commit | Zmiana |
+|---|---|
+| `c531141` | § 5 ust. 7–8: upoważnienie Rady do nabywania akcji własnych (art. 300⁴⁷ § 1 pkt 2 KSH) |
+| `cbb8101` | `uchwaly.tex`: wzory uchwał (WZ — kapitał rezerwowy i upoważnienie; Rada — nabycie; WZ — umorzenie); `build.sh` buduje `uchwaly.pdf` |
+| `2139566` | `law_uzup.md`: pytanie U.6 do prawnika |
+| `31016be` | `comments.md`: sekcja 9 |
+
+Uzasadnienie i podstawa prawna: `comments.md`, sekcja 9.
