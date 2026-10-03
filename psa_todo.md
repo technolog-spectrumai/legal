@@ -27,6 +27,7 @@ Konwencja: `- [ ]` do zrobienia, `- [x]` zrobione; przy pozycji podajemy plik, k
 - [ ] **Decyzja: bramka miękka czy twarda** przy odmowie zgody z powodu Kryterium (`law.md` 1.2). Miękka jest w `psa_hybrid`, twarda na gałęzi `psa_hard`; brzmienia obu w `psa_feedback.tex`, Część 1 pkt 1.
 - [ ] **Decyzja: przekreślony wyjątek dla funduszy** (§ 11 ust. 14, `law.md` 1.4): usunąć albo przywrócić w poprawionym brzmieniu.
 - [ ] **Decyzja: przekreślone zdania** (siedem powtórzeń ustawy) — usunąć po potwierdzeniu.
+- [ ] **Decyzje D17–D19: profil kapitałowy umowy** (`sciezki.md` sekcja 6): akcje założycielskie z art. 300²⁶ KSH z sunsetem; warunkowe Kryterium kontroli UE/EOG pod EDF/AGILE; inwestor przemysłowy w Spółce czy tylko w Przedsięwzięciach Produkcyjnych (§ 33).
 - [ ] Zlecić wdrożenie uzgodnionych zmian i wersję do aktu notarialnego (osobna wycena, zgodnie z `email.md`, sekcja 2).
 - [ ] Ponowny audyt zmienionych paragrafów: `psa_feedback.tex` Część 2 odnosi się do wersji 0.8 i nie obejmuje późniejszych zmian.
 
