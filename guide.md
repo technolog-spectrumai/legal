@@ -77,6 +77,7 @@ Oznaczenia przy przepisach mówią, na ile jesteśmy pewni:
 **Tło biznesowe**
 - `vc.md` — czego oczekują fundusze VC (Polska, świat, fundusze obronne) i jak to się ma do naszej umowy.
 - `regulations.md` — mapa przepisów (koncesje, eksport, EDF, NATO) i „bramki” zgodności.
+- `software_licenses.md` — licencje oprogramowania w robotyce (YOLO, ROS 2, PyTorch, autopiloty, SLAM, SDK NVIDIA, modele, dane): scenariusze użycia, katalog komponentów, klauzule „no military use”, proces zgodności z § 26 ust. 6.
 - `emisja/` — jak wydawać akcje założycielom, pracownikom i inwestorom.
 - `case_studies/` — przykłady firm (ICEYE, WB Electronics, Swarmer, rynek Catalyst).
 
