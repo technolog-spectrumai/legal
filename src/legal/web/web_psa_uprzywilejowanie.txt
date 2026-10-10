@@ -1,0 +1,457 @@
+Uprzywilejowanie akcji w prostej spółce akcyjnej – praktyczny przewodnik z przykładami - Prosta-Spolka.pl
+
+ Przejdź do zawartości
+
+Toggle Navigation
+BIURO RACHUNKOWE
+
+Toggle Navigation
++48 533 338 862
+
+Napisz do nas
+
+UMÓW SIĘ NA BEZPŁATNĄ ROZMOWĘ
+
+Menu
+ZAKRES USŁUG
+OBSŁUGA PRAWNA
+
+PEŁNA KSIĘGOWOŚĆ P.S.A
+
+WZORY DOKUMENTÓW
+
+NASZE DOŚWIADCZENIE
+
+KOMPENDIUM WIEDZY
+
+BLOG
+
+KONTAKT
+
++48 533 338 862
+
+Napisz do nas
+
+Toggle Navigation
+ZAKRES USŁUG
+OBSŁUGA PRAWNA
+
+PEŁNA KSIĘGOWOŚĆ P.S.A
+
+WZORY DOKUMENTÓW
+
+NASZE DOŚWIADCZENIE
+
+KOMPENDIUM WIEDZY
+
+BLOG
+
+KONTAKT
+
+Kategorie
+Księgowość i podatki
+
+ Szukaj
+
+Uprzywilejowanie akcji w prostej spółce akcyjnej – praktyczny przewodnik z przykładami
+
+Ogólne
+
+25 listopada, 2025
+
+Uprzywilejowanie akcji w prostej spółce akcyjnej to klucz do ułożenia relacji między founderami i inwestorami. Dzięki niemu możesz rozdzielić zysk, kontrolę i ryzyka w bardzo elastyczny sposób.
+
+Poniżej znajdziesz przegląd najczęstszych rodzajów uprzywilejowania. Dostaniesz też konkretne przykłady, które możesz wykorzystać w umowie prostej spółki akcyjnej.
+
+Czym jest uprzywilejowanie akcji w prostej spółce akcyjnej?
+
+Akcja w prostej spółce akcyjnej daje co do zasady takie same prawa każdemu akcjonariuszowi. Statut może jednak przyznać niektórym akcjom szczególne uprawnienia, czyli uprzywilejowanie.
+
+Uprzywilejowanie może dotyczyć w szczególności:
+
+prawa do dywidendy,
+
+prawa głosu,
+
+pierwszeństwa w podziale majątku,
+
+powoływania organów spółki,
+
+Najważniejsze zasady:
+
+Uprzywilejowanie musi wynikać wprost z umowy spółki.
+
+Musi jasno wskazywać, których akcji dotyczy.
+
+Nie może naruszać przepisów bezwzględnie obowiązujących ani natury spółki.
+
+Uprzywilejowanie akcji co do dywidendy w prostej spółce akcyjnej
+
+To jedno z najczęstszych uprzywilejowań. Chodzi o sytuację, w której dana akcja daje wyższy udział w zysku niż akcje zwykłe.
+
+Przykładowe modele uprzywilejowania do dywidendy
+
+Przykład 1 – wyższa dywidenda procentowa
+
+Statut może przewidywać, że:
+
+akcje zwykłe otrzymują dywidendę 100%,
+
+akcje uprzywilejowane dywidendowo otrzymują 150% dywidendy przypadającej na akcje zwykłe.
+
+Praktyka:
+
+Załóż, że spółka wypłaca 1 zł dywidendy na akcję zwykłą. Akcjonariusz z akcją uprzywilejowaną dostaje wtedy 1,50 zł na każdą taką akcję.
+
+Przykład 2 – minimalna dywidenda dla inwestora
+
+Możesz przewidzieć minimalny poziom dywidendy dla konkretnej serii akcji.
+
+Na przykład:
+
+akcje inwestora X dają prawo do dywidendy nie niższej niż 8% wartości wkładu rocznie,
+
+pozostały zysk rozdzielasz proporcjonalnie między wszystkie akcje.
+
+To rozwiązanie bywa atrakcyjne dla inwestorów finansowych. Daje im priorytet w wypłacie zysku przy jednoczesnym zachowaniu elastyczności modelu.
+
+Akcje nieme w prostej spółce akcyjnej
+
+Akcje nieme to akcje pozbawione prawa głosu na zgromadzeniu akcjonariuszy. W zamian otrzymują z reguły silniejsze uprawnienia ekonomiczne, na przykład wyższą dywidendę.
+
+Zastosowanie akcji niemych
+
+Przykład 1 – pracownicy z udziałem w zysku
+
+Prosta spółka akcyjna emituje akcje nieme dla kluczowych członków zespołu.
+
+Te akcje:
+
+nie dają prawa głosu,
+
+dają prawo do wyższej dywidendy, np. 200% dywidendy przypadającej na akcję zwykłą,
+
+mogą podlegać vestingowi, na przykład 4 lata z cliffem rocznym.
+
+Dzięki temu pracownicy korzystają z sukcesu spółki, ale nie wpływają na strategiczne decyzje właścicieli.
+
+Przykład 2 – inwestor pasywny
+
+Inwestor wnosi kapitał, ale nie chce angażować się w zarządzanie.
+
+Otrzymuje więc pakiet akcji niemych z uprzywilejowaniem do dywidendy. Za to nie uczestniczy w głosowaniach na zgromadzeniu akcjonariuszy.
+
+To rozwiązanie porządkuje relacje i ogranicza konflikty decyzyjne.
+
+Uprzywilejowanie akcji co do głosu w prostej spółce akcyjnej
+
+Uprzywilejowanie co do głosu pozwala zwiększyć siłę głosu niektórych akcji. Chodzi o sytuację, gdy jedna akcja daje więcej niż jeden głos.
+
+Zgodnie z przepisami jedna akcja uprzywilejowana co do głosu może dawać co do zasady do dwóch głosów.
+
+Praktyczne modele uprzywilejowania głosu
+
+Przykład 1 – ochrona założycieli przy wejściu inwestora
+
+Założyciele obejmują akcje uprzywilejowane co do głosu.
+
+Każda akcja założycieli daje dwa głosy.
+
+Każda akcja inwestora daje jeden głos.
+
+W efekcie założyciele zachowują kontrolę nad głosowaniami, nawet jeśli posiadają mniejszość kapitałową.
+
+Przykład 2 – akcje „golden share”
+
+Statut może przyznać szczególnej akcji dodatkowe uprawnienia głosowe.
+
+Na przykład:
+
+jedna akcja założyciela daje prawo weta wobec uchwał o sprzedaży przedsiębiorstwa,
+
+ta sama akcja daje zwiększoną liczbę głosów przy uchwałach o zmianie statutu.
+
+Takie rozwiązanie chroni najważniejsze interesy założyciela, a jednocześnie pozwala na wejście nowych inwestorów.
+
+Akcje założycielskie w prostej spółce akcyjnej
+
+Akcje założycielskie to szczególny rodzaj uprzywilejowanych akcji. Służą głównie ochronie wpływu założycieli na głosowania w spółce, szczególnie przy kolejnych emisjach akcji.
+
+Idea akcji założycielskich
+
+Założyciele często tracą procent głosów przy nowych rundach finansowania. Akcje założycielskie mają utrzymać określony minimalny procent głosów w spółce.
+
+Statut może przewidywać, że akcje założycielskie:
+
+określają stały minimalny procent ogólnej liczby głosów,
+
+powodują automatyczne dostosowanie liczby głosów przypadających na te akcje przy każdej emisji nowych akcji,
+
+po każdej emisji liczba głosów z akcji założycielskich zwiększa się tak, aby zachować wskazany procent głosów (z zastrzeżeniem ustawowego limitu dwóch głosów na jedną akcję).
+
+Przykład – ochrona 30% głosów
+
+Założyciel A posiada akcje założycielskie, które mają gwarantować mu 30% ogólnej liczby głosów w spółce. Spółka przeprowadza nową emisję akcji dla inwestora i liczba wszystkich głosów rośnie.
+
+Po emisji ustalana jest nowa liczbę głosów przypadających na akcje założycielskie, tak aby łączna liczba głosów z tych akcji nadal stanowiła 30% wszystkich głosów w spółce
+
+Inne możliwe uprzywilejowania akcji w prostej spółce akcyjnej
+
+Prosta spółka akcyjna daje dużą swobodę w konstruowaniu praw z akcji.
+Poniżej kilka ciekawych przykładów, które możesz rozważyć.
+
+Prawo powołania członka zarządu lub rady nadzorczej
+
+Statut może przewidywać, że określona seria akcji daje prawo osobiste. To prawo może polegać na powołaniu jednego lub kilku członków zarządu.
+
+Przykład 1 – inwestor z prawem do miejsca w zarządzie
+
+Seria B akcji uprzywilejowanych daje prawo powołania jednego członka zarządu. Prawo przysługuje akcjonariuszowi posiadającemu większość akcji tej serii.
+
+W praktyce:
+
+inwestor obejmuje serię B,
+
+wskazuje „swoją” osobę do zarządu,
+
+może też zastrzec prawo do jej odwołania.
+
+Przykład 2 – założyciel z prawem do miejsca w radzie nadzorczej
+
+Statut może przyznać akcjom założycielskim prawo powołania przewodniczącego rady nadzorczej. Dzięki temu założyciel zachowuje realny wpływ na nadzór nad spółką.
+
+Prawo weta wobec określonych uchwał
+
+Możesz powiązać z określoną serią akcji prawo weta.
+
+Na przykład w stosunku do uchwał dotyczących:
+
+sprzedaży przedsiębiorstwa,
+
+emisji nowych akcji poniżej określonej wyceny,
+
+zmiany profilu działalności,
+
+przeniesienia siedziby za granicę.
+
+Praktyka:
+
+Statut może przewidywać, że podjęcie danej uchwały wymaga zgody większości akcji uprzywilejowanych danej serii. Bez tej zgody uchwała nie zapada.
+
+Jak projektować uprzywilejowanie akcji w prostej spółce akcyjnej – krok po kroku
+
+Określ cele biznesowe
+Najpierw ustal, co chcesz chronić.
+Kontrolę głosów, udział w zysku, czy może wpływ na skład organów.
+
+Podziel akcjonariuszy na role
+Wyróżnij founderów, inwestorów finansowych i pracowników z programów motywacyjnych.
+Każda grupa może wymagać innych uprawnień.
+
+Dobierz rodzaje akcji i uprzywilejowania
+
+founderzy: akcje z uprzywilejowaniem głosów lub akcje założycielskie,
+
+inwestor: akcje z preferencją dywidendową i prawem do informacji,
+
+zespół: akcje nieme z wyższą dywidendą i vestingiem.
+
+Przetestuj model na konkretnych scenariuszach
+Sprawdź, co się stanie:
+
+przy emisji nowych akcji,
+
+przy braku zysku przez kilka lat,
+
+przy sprzedaży spółki inwestorowi branżowemu,
+
+przy konflikcie między założycielami.
+
+Zadbaj o spójność statutu i umów inwestycyjnych
+Uprzywilejowanie z akcji powinno współgrać z zapisami umowy inwestycyjnej.
+Unikaj sytuacji, w której dokumenty wzajemnie się wykluczają.
+
+Najczęstsze błędy przy uprzywilejowaniu akcji w prostej spółce akcyjnej
+
+Zbyt ogólny opis uprzywilejowania
+Opis w statucie musi być precyzyjny.
+Należy wskazać konkretną treść uprawnienia i sposób jego wykonywania.
+
+Brak testu „co gdy?”
+Wiele modeli działa dobrze tylko przy idealnym scenariuszu.
+Warto policzyć skutki dla kilku lat działalności i różnych rund finansowania.
+
+Łączenie sprzecznych przywilejów
+Zdarza się, że akcje jednocześnie wzmacniają pozycję kilku stron.
+Potem okazuje się, że żadna ważna uchwała nie przechodzi.
+
+Podsumowanie
+
+Uprzywilejowanie akcji w prostej spółce akcyjnej to potężne narzędzie projektowania relacji właścicielskich.
+Możesz chronić pozycję założycieli, zabezpieczać interes inwestora i budować motywację zespołu.
+
+Najczęściej spotkasz:
+
+uprzywilejowanie co do dywidendy,
+
+akcje nieme z wyższą dywidendą,
+
+uprzywilejowanie co do głosu,
+
+akcje założycielskie,
+
+uprawnienia do powoływania członków organów i prawa weta.
+
+Kluczowa pozostaje precyzyjna redakcja statutu prostej spółki akcyjnej. Warto przełożyć każdy pomysł na konkretne przykłady liczbowo i decyzyjnie.
+
+Jeśli chciałbyś dowiedzieć się więcej zapraszamy na bezpłatne konsultacje TUTAJ.
+
+Powiązane posty
+
+Data room przed rundą inwestycyjną – jakie dokumenty powinna przygotować Prosta Spółka Akcyjna?
+
+29/09/2026
+
+Ile procent spółki oddać inwestorowi? Rozwodnienie founderów w PSA na przykładach
+
+22/09/2026
+
+Cap table w Prostej Spółce Akcyjnej – jak policzyć akcje founderów, inwestorów i ESOP?
+
+15/09/2026
+
+Autor artykułu
+Bartosz Pasternak
+
+Zapraszamy do indywidualnej konsultacji.
+
+Odpowiemy na wszystkie Twoje pytania i pomożemy Ci znaleźć najbardziej efektywne rozwiązania dla Twojego biznesu.
+
+UMÓW SIĘ NA KONSULTACJĘ
+
++48 61 30 70 177
+
+Dołącz do naszego newslettera
+
+i zyskaj bezpłatny dostęp do najnowszych informacji z branży księgowej, podatkowej oraz prawnej, aktualnych trendów w kryptowalutach i niezbędnych porad dla Twojego biznesu. Z nami zawsze będziesz krok przed konkurencją!
+
+Subskrybuj
+
+Dziękujemy za zapisanie się do naszego newslettera!
+×
+
+Wystąpił błąd podczas próby wysłania wiadomości. Spróbuj ponownie później.
+×
+
+PROSTA-SPOLKA.PL P.S.A.
+
+ul. Szkolna 5/18
+
+61-832 Poznań
+
+redakcja@prosta-spolka.pl
+
+tel. +48 533 338 862
+
+KRS: 0000909903
+
+REGON: 389366225
+
+NIP: 7831839252
+
+Wszystko o P.S.A.
+
+Dedykowana księgowość
+
+Wzory dokumentów
+
+Baza wiedzy
+
+Kontakt
+
+Polityka prywatności
+
+Regulamin serwisu
+
+Ogólne Warunki Umowy
+
+TAXO BIURO RACHUNKOWE
+
+© 2026 • TAXO • site by XMPL
+
+Powrót na górę
+
+ Page load link
+
+Dołącz do społeczności Prostej-spółki.pl
+
+Dołączając, otrzymasz praktyczne narzędzia i społeczność,
+
+która dzieli się doświadczeniem.
+
+GRUPA NA FACEBOOKU
+
+Zamknięta grupa P.S.A.
+
+– wsparcie i materiały!
+
+Zyskaj dostęp do wartościowych materiałów, porad oraz wsparcia od osób, które z powodzeniem prowadzą swoje biznesy.
+
+Dołącz do grupy
+
+Znajdziesz nas również w serwisach:
+
+Zarządzaj zgodami plików cookie
+
+Aby zapewnić jak najlepsze wrażenia, korzystamy z technologii, takich jak pliki cookie, do przechowywania i/lub uzyskiwania dostępu do informacji o urządzeniu. Zgoda na te technologie pozwoli nam przetwarzać dane, takie jak zachowanie podczas przeglądania lub unikalne identyfikatory na tej stronie. Brak wyrażenia zgody lub wycofanie zgody może niekorzystnie wpłynąć na niektóre cechy i funkcje. Pliki cookies pozwalają dopasować treści i wyświetlać spersonalizowane reklamy zgodnie z Twoimi zainteresowaniami.
+
+ Funkcjonalne
+
+ Funkcjonalne
+
+ Zawsze aktywne 
+
+ Przechowywanie lub dostęp do danych technicznych jest ściśle konieczny do uzasadnionego celu umożliwienia korzystania z konkretnej usługi wyraźnie żądanej przez subskrybenta lub użytkownika, lub wyłącznie w celu przeprowadzenia transmisji komunikatu przez sieć łączności elektronicznej.
+
+ Preferencje
+
+ Preferencje
+
+ Przechowywanie lub dostęp techniczny jest niezbędny do uzasadnionego celu przechowywania preferencji, o które nie prosi subskrybent lub użytkownik.
+
+ Statystyka
+
+ Statystyka
+
+ Przechowywanie techniczne lub dostęp, który jest używany wyłącznie do celów statystycznych.
+ Przechowywanie techniczne lub dostęp, który jest używany wyłącznie do anonimowych celów statystycznych. Bez wezwania do sądu, dobrowolnego podporządkowania się dostawcy usług internetowych lub dodatkowych zapisów od strony trzeciej, informacje przechowywane lub pobierane wyłącznie w tym celu zwykle nie mogą być wykorzystywane do identyfikacji użytkownika.
+
+ Marketing
+
+ Marketing
+
+ Przechowywanie lub dostęp techniczny jest wymagany do tworzenia profili użytkowników w celu wysyłania reklam lub śledzenia użytkownika na stronie internetowej lub na kilku stronach internetowych w podobnych celach marketingowych.
+
+Zarządzaj opcjami
+
+Zarządzaj serwisami
+
+Zarządzaj {vendor_count} dostawcami
+
+Przeczytaj więcej o tych celach
+
+ Akceptuję
+ Odmów
+ Zobacz preferencje
+ Zapisz preferencje
+ Zobacz preferencje
+
+{title}
+
+{title}
+
+{title}
+
+Zarządzaj zgodą
+
+ Przejdź do góry

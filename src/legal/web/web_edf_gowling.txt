@@ -1,0 +1,163 @@
+The European Defence Fund: eligibility and structuring considerations for applicants | Gowling WLG
+
+Skip to content
+
+Who we are
+
+What we do
+
+Our people
+
+Insights
+
+Topics
+
+Search
+
+EN
+
+Gowling WLG
+
+ > Insights & resources
+
+ > 
+The European Defence Fund
+
+Article
+
+Published11 May 2026
+
+The European Defence Fund: eligibility and structuring considerations for applicants
+
+5
+
+minute read
+
+ Share Icon 
+
+Elizabeth Williams
+
+Partner
+
+Leader of Aviation, Aerospace and Defence (UK)
+
+Dr. Lars-Gerrit Luessmann
+
+Partner
+
+Co-Lead of Gowling WLG, Germany
+
+Melissa Bach
+
+Counsel
+
+In March 2025, the European Commission published its White Paper for European Defence Readiness 2030, setting out a roadmap to strengthen the EU’s strategic autonomy and close critical capability gaps. The European Defence Fund (EDF) sits at the heart of this effort. With a budget of nearly €7.3 billion for 2021-2027, approximately €2.7 billion for collaborative defence research and €5.3 billion for capability development, the EDF is the EU’s flagship instrument for funding cross‑border defence R&D. Its 2026 Work Programme alone commits over €1 billion to new calls for proposals.
+
+The EDF’s objective is to foster the competitiveness, efficiency and innovation capacity of the European defence technological and industrial base (EDTIB), while contributing to the Union’s strategic autonomy and freedom of action. Funded projects address defence capability priorities agreed by EU Member States, spanning all military domains and key enabling technologies. Importantly, the EDF does not operate in isolation: it forms part of a broader European defence investment architecture alongside initiatives such as the proposed European Defence Industry Programme (EDIP), the SAFE loans instrument and expanding national rearmament programmes.
+
+At EU level, this reflects a structural shift. Defence capability development is no longer driven solely by national budgets but is increasingly coordinated through EU‑level instruments. This creates significant opportunities for cross‑border industrial cooperation, while also introducing new regulatory, governance and compliance considerations for businesses operating across multiple jurisdictions.
+
+Why is Germany central to European Defence Fund participation?
+
+Germany is Europe’s largest defence spender and a cornerstone of EDF participation. Following the announcement of a €500 billion infrastructure and defence fund in 2025, Germany has  signaled an unprecedented commitment to defence modernisation. For businesses seeking to engage with the European defence market, Germany is often the natural entry point, both as a major customer through its procurement agency Bundesamt für Ausrüstung, Informationstechnik und Nutzung der Bundeswehr (BAAINBw) and as a hub for EDF consortium partnerships involving leading primes such as Rheinmetall, Hensoldt and Airbus Defence and Space.
+
+In practice, EDF participation and German defence procurement are increasingly interlinked. Early alignment between EDF project positioning and downstream national procurement strategies can be decisive for long‑term commercial success in Germany.
+
+However, companies establishing a defence‑related presence in Germany should be aware of additional regulatory layers. Germany operates a robust foreign direct investment screening regime under the German Foreign Trade Act (Außenwirtschaftsgesetz, AWG) and German Foreign Trade Regulation (Außenwirtschaftsverordnung, AWV). Depending on the nature of the activities and ownership structure, transactions may require notification to – and approval from – the Federal Ministry for Economic Affairs and Climate Action (BMWK).
+
+Who is eligible for European Defence Fund funding?
+
+EDF funding is subject to strict eligibility conditions. First, applicants must form a consortium of at least three independent entities established in at least three EU Member States or associated countries. Currently, Norway is the only associated country participating in the EDF. Certain calls, particularly those focusing on disruptive technologies, allow for smaller consortia comprising at least two eligible entities from two Member States or associated countries.
+
+Second, participating entities must be established in the EU, have their executive management structures located within the EU and must not be subject to control by a non‑associated third country or third‑country entity. A limited derogation is available where security‑based guarantees are provided by the relevant EU Member State or associated country and approved by the European Commission. This assessment is substantive and often time‑consuming.
+
+Entities established in non‑associated third countries may, in certain cases, participate in EDF projects but cannot receive funding and remain subject to conditions designed to safeguard the EU’s security and defence interests, including Member States’ freedom of action in the use and export of resulting capabilities.
+
+How do export and third-country controls affect European Defence Fund projects?
+
+The restrictions on third‑country control merit particular attention. For groups with parent companies or significant shareholders outside the EU, notably in the United States, the United Kingdom post‑Brexit or Israel, the EDF eligibility framework can present complex structuring challenges. While the member‑state guarantee mechanism offers a potential route to participation, it requires early engagement with national authorities and careful preparation.
+
+Export control considerations are equally critical and are frequently underestimated. Defence and dual‑use technologies originating in the United States may remain subject to U.S. International Traffic in Arms Regulations (ITAR) or Export Administration Regulations (EAR) even after transfer to Europe. Where ITAR‑controlled components are integrated into a European system, the resulting product may itself become subject to U.S. licensing requirements, a phenomenon often referred to as “ITAR contamination”. This can sit uneasily with the EDF’s objective of strengthening European strategic autonomy, making early technology segmentation and compliance planning essential. These issues are particularly relevant for UK‑ and US‑owned groups seeking to remain embedded in European defence supply chains.
+
+Applications for EDF funding are submitted via the EU Funding and Tenders Portal.
+
+What financial and audit requirements apply to EDF grant applicants?
+
+Applicants must demonstrate both operational and financial capacity. Operational capacity focuses on the professional competencies, experience and resources necessary to deliver the proposed action. Financial capacity requires evidence of stable and sufficient funding to sustain activities for the duration of the project and to co‑finance eligible costs where required.
+
+Participants requesting grants exceeding €750,000 must generally provide a statutory audit report or, where this is not available, a self‑declaration regarding the validity of their accounts.
+
+EDF support is primarily provided through grants. Research actions may be funded at up to 100% of eligible costs. Development actions attract funding rates ranging from 20% to 100%, depending on the specific activities involved, such as design, prototyping, testing, qualification and certification. Additional funding bonuses are available for projects involving small and medium‑sized enterprises (SMEs), mid‑caps or links to Permanent Structured Cooperation (PESCO) projects.
+
+How does the European Defence Fund support SMEs and dual‑use innovation?
+
+The EDF actively promotes the “spin‑in” of civilian technologies adapted for defence use, making it particularly relevant for dual‑use innovators. The 2026 Work Programme includes dedicated calls for SMEs and research organisations, alongside business acceleration and coaching measures under the EU Defence Innovation Scheme (EUDIS).
+
+Beyond grant funding, the Defence Equity Facility under InvestEU, implemented by the European Investment Fund, is designed to mobilise significant equity investment into defence SMEs and mid‑caps, underscoring the EU’s broader effort to crowd‑in private capital. These instruments sit alongside complementary initiatives such as the European Innovation Council, NATO’s Defence Innovation Accelerator for the North Atlantic (DIANA),  and national programmes, including Germany’s ZIM innovation grants and KfW financing tools, allowing companies to layer EU and national support within a coherent growth strategy.
+
+Why early legal and strategic planning is critical for successful EDF participation
+
+The 2026 EDF calls span a wide range of priority areas, including air and missile defence, ground combat systems, cyber and space capabilities, AI‑enabled situational awareness, energy resilience and disruptive technologies. For many businesses, the key challenge is not the availability of funding, but the effective structuring of projects and corporate arrangements to meet eligibility, security and export control requirements while aligning EDF participation with longer‑term procurement and market strategies.
+
+Entities considering participation are strongly encouraged to engage early with their National Focal Points, which can provide guidance throughout the application process. Given the complexity of ownership, regulatory and compliance considerations, early legal and strategic planning is critical. Gowling WLG’s cross‑border defence team in the UK and Germany advises clients across the EDF lifecycle – from consortium structuring and regulatory clearances to IP strategy, export control compliance and downstream procurement alignment. For further information, please contact Elizabeth Williams, Dr Lars-Gerrit Luessmann or Melissa Bach from our Aviation, Aerospace & Defence team.
+
+NOT LEGAL ADVICE. Information made available on this website in any form is for information purposes only. It is not, and should not be taken as, legal advice. You should not rely on, or take or fail to take any action based upon this information. Never disregard professional legal advice or delay in seeking legal advice because of something you have read on this website. Gowling WLG professionals will be pleased to discuss resolutions to specific legal concerns you may have.
+
+Authors
+
+Elizabeth Williams
+
+Partner
+
+Leader of Aviation, Aerospace and Defence (UK)
+Birmingham, London
+
+Dr. Lars-Gerrit Luessmann
+
+Partner
+
+Co-Lead of Gowling WLG, Germany
+Frankfurt
+
+Melissa Bach
+
+Counsel
+Frankfurt
+
+Related services
+
+Artificial Intelligence (AI) LawRegulatory
+
+Related sectors
+
+Aviation, Aerospace & DefenceGovernment Contracting & Public SectorTech
+
+Loading component...
+
+Subscribe for updates
+
+Sign up to receive insights on the latest legal changes and developments
+
+Subscribe
+
+Stay connected
+
+Gowling WLG is an international law firm comprising the members of Gowling WLG International Limited, an English Company Limited by Guarantee, and their respective affiliates. Each member and affiliate is an autonomous and independent entity. Gowling WLG International Limited promotes, facilitates and co-ordinates the activities of its members but does not itself provide services to clients. Our structure is explained in more detail on our Legal Information page.
+
+PeopleSectorsServicesClient solutionsInsightsNewsClient work
+
+TopicsEventsCareersWho we areGlobal reachContact us
+
+© 2026 Gowling WLG All rights reserved.
+
+Legal information
+
+Privacy statement
+
+Accessibility
+
+Terms of use
+
+Cookies
+
+Sitemap
