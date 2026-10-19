@@ -111,7 +111,7 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | **Upoważnienie z art. 300¹⁰³ KSH** do 31.12.2036 r. | Emisje F i P na podstawie samej uchwały WZ, bez notariusza przy każdej emisji | § 5 ust. 3 |
 | **Nowa seria = zmiana umowy** z limitem i terminem | Runda inwestorska zawsze przechodzi przez zmianę umowy i ma określony sufit | § 5 ust. 4 |
 | **Emituje tylko WZ**; Rada wykonuje uchwałę w transzach, bez prawa przekroczenia limitu ani obniżenia ceny minimalnej | Szybkie wykonanie bez ryzyka nadużycia | § 5 ust. 5 |
-| **Akcje własne**: limit 25%, kapitał rezerwowy, maksymalna cena w uchwale | Narzędzie do odkupu akcji po odejściu założyciela | § 3 ust. 7 |
+| **Akcje własne (buyback)**: limit 25%, zamknięty katalog celów, oferta proporcjonalna do wszystkich, cena nie wyższa niż wartość godziwa, wyłączenie dyrektora-zbywcy, zbycie tylko nabywcy bez przeszkód z § 8, kapitał rezerwowy | Odkup akcji po odejściu założyciela i zasilanie programu P bez ryzyka uprzywilejowania kogokolwiek | § 3 ust. 7–8 |
 
 **Zbywanie akcji i vesting**
 
@@ -174,7 +174,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 | **Seria F — vesting** | Pełne odesłanie do § 10 (trzy kategorie odejścia, przyspieszenie, Wartość Godziwa) | Odesłanie do prostego § 9 | Konsekwencja uproszczenia vestingu |
 | **Seria F — zakres** | Podlegała też Dopuszczalnemu Nabywcy, pierwszeństwu, tag i drag | Tylko zgoda na zbycie, lock-up i vesting | Konsekwencja usunięcia 1.1 i 1.2 |
 | **Seria P** | 9 ustępów, szczegółowy opis obu trybów emisji i prawa poboru 4/5 | 5 ustępów; limit i termin w § 5; prawo poboru w ogólnej regule § 5 ust. 6 | Bez zmiany merytorycznej — mniej powtórzeń |
-| **Akcje własne** | Dwa długie ustępy: cele nabycia, równe traktowanie, wyłączenie dyrektora, zbycie tylko Dopuszczalnemu Nabywcy | Jedno zdanie: uchwała WZ z maks. liczbą, celem, ceną i kapitałem rezerwowym; limit 25% | Reszta wynika z art. 300⁴⁷ KSH |
+| **Akcje własne** | Dwa długie ustępy: cele nabycia, równe traktowanie, wyłączenie dyrektora, cena do Wartości Godziwej, zbycie tylko Dopuszczalnemu Nabywcy | Te same zabezpieczenia w § 3 ust. 7–8, w prostszej formie: 3 cele (umorzenie, program P/seria F, vesting); oferta proporcjonalna do wszystkich poza vestingiem; **wartość godziwa** w jednym zdaniu = cena z ostatniej emisji albo transakcji z niepowiązaną osobą trzecią z 12 miesięcy, a w jej braku wycena niezależnego biegłego; wyłączenie dyrektora-zbywcy; zbycie akcji własnych tylko osobie, wobec której nie ma przeszkód z § 8 ust. 2 lit. a–b (zamiast Dopuszczalnego Nabywcy) | Zabezpieczenia przed odkupem „po znajomości” są potrzebne niezależnie od VC; usunięty był tylko aparat wyceny i Kryterium EU/NATO |
 | **Akcje uprzywilejowane** | Dopuszczalne „uchwałą emisyjną zgodną z umową” | Wprost wyłączone; wymagają zmiany umowy (§ 3 ust. 3) | Równe akcje = prostsze progi i brak głosowań odrębnymi seriami |
 
 ### 3.2. Zbywanie akcji
