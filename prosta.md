@@ -144,8 +144,8 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | Poufność akcjonariuszy i dyrektorów, także po odejściu | § 14 ust. 3 |
 | Kontrola eksportu i sankcje jako obowiązek akcjonariuszy i dyrektorów | § 14 ust. 4 |
 | Zakaz konkurencji z wyjątkiem inwestycji portfelowych do 5% | § 14 ust. 5 |
-| Zastrzeżenie koncesji (wyroby wojskowe, towary strategiczne, UAS) | § 2 ust. 3 |
-| Klasyfikacja bezpieczeństwa i eksportowa przy likwidacji | § 16 ust. 3 |
+| Zastrzeżenie działalności regulowanej (towary podwójnego zastosowania, UAS) | § 2 ust. 3 |
+| Klasyfikacja eksportowa przy likwidacji | § 16 ust. 3 |
 | Test wypłacalności przed wypłatą dywidendy (art. 300¹⁵ KSH) | § 15 ust. 2 |
 | Mediacja przed sądem, klauzula salwatoryjna, dynamiczne odesłania do przepisów | § 17 |
 
@@ -238,7 +238,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 | **IP, poufność, eksport, konkurencja** | 4 paragrafy (§ 26–29), kilkadziesiąt ustępów | 1 paragraf (§ 14), 6 ustępów; szczegóły w politykach Rady | Umowa ustala zasadę, polityki — wykonanie |
 | **Poufność — czas trwania** | 10 lat po zbyciu akcji, tajemnica przedsiębiorstwa — bezterminowo | „Także po ustaniu zaangażowania albo zbyciu akcji, przez okres i w zakresie dopuszczalnym przez prawo” | Mniej sztywno. **Do decyzji:** jeśli wolimy pewność, przywrócić 10 lat. |
 | **Zakaz konkurencji — kogo dotyczy** | Akcjonariusze Funkcjonalni (w okresie zaangażowania); zgoda WZ; wyjątek 2% spółki publicznej i Załącznik nr 3 | **Każdy akcjonariusz i dyrektor**; zgoda Rady bez udziału zainteresowanego; wyjątek 5% portfelowo | Zgoda szybciej (Rada zamiast WZ). **Uwaga:** zakres osobowy jest teraz szerszy — obejmuje też przyszłych inwestorów finansowych, co przy rundzie będzie punktem negocjacji. Przed rundą zawęzić do założycieli i dyrektorów albo dodać wyjątek dla funduszy. |
-| **Przedmiot działalności** | Cel strategiczny (§ 3) + plan działalności (§ 4 ust. 1–3) + PKD w podziale na główne i dodatkowe + 2 ustępy zastrzeżeń | Jedno zdanie opisu + 15 kodów PKD: 10 ujawnianych w KRS przy pierwszym wpisie (lit. a, z 72.10.Z jako przeważającą) i 5 cywilnych dla dalszego rozwoju (lit. b). **Wariant cywilny (gałąź `psa_civ`):** bez 4 kodów wojskowych z 1.0-RC (30.32.Z, 30.13.Z, 30.40.Z, 33.18.Z) — produkty podwójnego zastosowania mieszczą się w kodach cywilnych, a kody wojskowe można dopisać zmianą umowy razem z wnioskiem o koncesję + 1 ustęp zastrzeżeń | Zakres cywilny bez zmian; mniej tekstu opisowego |
+| **Przedmiot działalności** | Cel strategiczny (§ 3) + plan działalności (§ 4 ust. 1–3) + PKD w podziale na główne i dodatkowe + 2 ustępy zastrzeżeń | Jedno zdanie opisu + 15 kodów PKD: 10 ujawnianych w KRS przy pierwszym wpisie (lit. a, z 72.10.Z jako przeważającą) i 5 dla dalszego rozwoju (lit. b) + 1 ustęp zastrzeżeń | Wyłącznie działalność cywilna; mniej tekstu opisowego |
 | **Zmiana umowy — zgoda indywidualna** | Przy zaostrzeniu vestingu, lock-upu i drag-along | Przy zaostrzeniu vestingu i lock-upu (drag-along zniknął) | Konsekwencja |
 | **Załącznik nr 1** | Tabela akcji + Część A (niepieniężne) + Część B (pieniężne) | Część A (akcje + **data rozpoczęcia vestingu**) + B (niepieniężne) + C (pieniężne) | Załącznik nr 2 wchłonięty |
 
