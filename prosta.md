@@ -257,7 +257,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 | Przedsięwzięcia Produkcyjne > 500 tys. zł | Usunięte — lit. e i h |
 | — | **Nowe:** zgoda na zbycie w okresie lock-upu (wcześniej § 25 ust. 3) — lit. i |
 | — | **Nowe:** zawarcie, zmiana albo rozwiązanie Umowy o Współpracy ze Spółką Siostrzaną (§ 15) — lit. j |
-| — | **Nowe:** umowy kredytu, pożyczki i poręczenia z dyrektorami (art. 15 § 1 KSH nie obejmuje dyrektora P.S.A.) — lit. k |
+| — | **Nowe:** umowy kredytu, pożyczki i poręczenia z dyrektorami — lit. k (zgoda WZ wymagana też ustawowo: art. 15 § 1 w zw. z art. 4 § 2¹ KSH; umowa podnosi większość do 75%) |
 
 ### 3.7. Pozostałe
 

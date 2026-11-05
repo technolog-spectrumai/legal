@@ -113,3 +113,15 @@ Każda zmiana jest wprowadzana w obu umowach jednakowo. Różnią się tylko fir
 | A3-5 | Dokumenty, których umowy wymagają, a których jeszcze nie ma: Umowa o Współpracy, regulamin WZ, regulamin Rady, regulamin programu P, umowy wykonawcze | **Ś** | do przygotowania |
 | A3-6 | Decyzje Założycieli: próg odwołania dyrektora, czas poufności, vesting dla akcji nabytych od odchodzącego założyciela, firma, siedziba i skład założycieli Appolonii, kody PKD | — | do decyzji |
 | A3-7 | Umowa nie ma słowniczka definicji; terminy są definiowane w miejscu pierwszego użycia (Założyciel Pierwotny § 4, Akcjonariusz Funkcjonalny § 9, Spółka Siostrzana § 15). Spójne, ale przy dalszym rozroście warto zebrać je w jednym miejscu. | **N** | opcjonalne |
+
+### A4 — weryfikacja tez (5.11.2026, bez zmian w umowach)
+
+Tezy z `audyt.md` (dawny pkt 6 i oznaczenia [W]) sprawdzono na tekstach ustaw w `src/legal/` (KSH, KC, PIT, ustawa o rachunkowości, prawo autorskie, rozporządzenie 2021/697) i w wyszukiwaniu. Wyniki: `audyt.md`, punkt 6.
+
+| ID | Ustalenie | Pr. | Status |
+|---|---|---|---|
+| A4-1 | Przy wspólnych dyrektorach Basilisk i Appolonia są wzajemnie dominujące (art. 4 § 1 pkt 4 lit. d, § 2¹, § 5 KSH). Skutki: zawiadomienia z art. 6 § 1, art. 15 § 2, zakaz obejmowania akcji drugiej spółki (art. 300⁴⁸ § 1), reżim akcji własnych (art. 300⁴⁷ § 9) | **Ś** | propozycja zmiany § 15 ust. 9 (`audyt.md` 6.3) — niewprowadzona |
+| A4-2 | Art. 15 § 1 KSH obejmuje dyrektora P.S.A. (art. 4 § 2¹); teza memorandum 2.2.4 i audytu była błędna. Umowy zgodne (§ 13 lit. k) | N | poprawiono `audyt.md`, `prosta.md` |
+| A4-3 | Art. 43, 44 i 47¹ pr. aut. nie dotyczą programów komputerowych (art. 77 ust. 1), dotyczą dokumentacji i projektów. Umowy zgodne (§ 14 ust. 1 lit. d) | N | lista kontrolna |
+| A4-4 | Potwierdzone: pełnomocnik rodzajowy (III CZP 71/18), art. 41 ust. 3 pr. aut., rok obrotowy (art. 3 ust. 1 pkt 9 UoR), EDF art. 10 ust. 4, PIT od aportu IP (art. 17 ust. 1 pkt 9, ust. 1a; art. 22 ust. 1e pkt 3), art. 24 ust. 12b i ust. 8a PIT, III CZP 13/13 | — | zamknięte |
+| A4-5 | Otwarte: fikcja zgody (brak źródeł), art. 39 KC a umowy z dyrektorem (I CSK 459/25), interpretacje podatkowe, Pzp przy wspólnej kontroli, brzmienie art. 445 Pzp | **Ś** | `audyt.md` 6.2 |

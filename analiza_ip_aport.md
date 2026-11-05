@@ -134,10 +134,10 @@ Akcje innej spółki są zbywalnym prawem majątkowym, więc mogą być wkładem
 ### 2.2. Wariant B — wzajemne udziały spółek
 
 1. **Stosunek dominacji.**
-   - Spółką dominującą jest m.in. spółka, której członkowie organu zarządzającego stanowią ponad połowę członków zarządu innej spółki kapitałowej (art. 4 § 1 pkt 4 KSH — **do weryfikacji** co do litery przepisu). W P.S.A. Rada Dyrektorów wykonuje kompetencje zarządu (art. 300⁷³ § 1 KSH — memorandum 3.1.1).
-   - Przy tych samych pięciu dyrektorach w obu spółkach dominacja może więc powstać **w obie strony**.
-   - Gdy spółka dominująca ma akcje spółki zależnej, musi ją zawiadomić o dominacji w ciągu 2 tygodni. Inaczej traci głos z akcji powyżej 33% kapitału (art. 6 § 1 KSH — **do weryfikacji** w odniesieniu do kapitału akcyjnego P.S.A.).
-2. **Akcje własne przez spółkę zależną.** Akcje spółki nabyte przez jej spółki zależne wlicza się do limitu 25% akcji własnych (art. 300⁴⁷ KSH; tak liczy `uchwaly.tex`). Do sprawdzenia jest, czy i w jakim zakresie P.S.A. ma zakaz obejmowania przez spółkę zależną akcji spółki dominującej, analogiczny do S.A. i sp. z o.o. (**do weryfikacji**).
+   - Spółką dominującą jest m.in. spółka, której „członkowie jej zarządu stanowią więcej niż połowę członków zarządu innej spółki kapitałowej” (art. 4 § 1 pkt 4 lit. d KSH). W P.S.A. z radą dyrektorów „zarząd” oznacza radę dyrektorów (art. 4 § 2¹ KSH). Zweryfikowane na tekście KSH (`audyt.md`, A4).
+   - Przy tych samych dyrektorach w obu spółkach dominacja powstaje **w obie strony**. Gdy nie da się jej rozstrzygnąć, obie spółki są „wzajemnie dominującymi i zależnymi” (art. 4 § 5 KSH).
+   - Spółka dominująca musi zawiadomić zależną o dominacji w ciągu 2 tygodni, także bez udziałów. Inaczej traci głos z akcji powyżej 33% „kapitału zakładowego”, czyli w P.S.A. 33% wszystkich akcji (art. 6 § 1 i art. 4 § 2² pkt 1 KSH).
+2. **Akcje własne przez spółkę zależną.** Nabycie akcji spółki dominującej przez spółkę zależną traktuje się jak nabycie akcji własnych: cel z katalogu, limit 25%, kapitał rezerwowy, brak głosu (art. 300⁴⁷ § 2, 8 i 9 KSH). Spółka zależna **nie może obejmować** akcji spółki dominującej (art. 300⁴⁸ § 1 zd. 2 KSH). Objęcie wbrew zakazowi jest ważne, ale dyrektor odpowiada solidarnie za pełne wniesienie wkładu (§ 2–3). Przy wzajemnej dominacji wyklucza to krzyżowy aport akcji w obie strony.
 3. **Dublowanie kapitału.** Część kapitału każdej spółki to akcje drugiej, których wartość zależy od tej pierwszej. Wycena jest więc „wzajemnie napompowana”, co zwiększa ryzyko z art. 300¹⁰ i nieufność inwestorów.
 4. **Licencja jako aport.** Licencja niewyłączna jest wypowiadalna (art. 68 pr. aut.), więc jej wartość jako wkładu jest wątpliwa. Przeniesienie praw jest pewniejsze, ale wtedy IP przestaje być w spółce, której obszaru dotyczy.
 5. **Podatek.** Aport spółki inny niż przedsiębiorstwo albo jego zorganizowana część to przychód wnoszącego w wartości wkładu (**do weryfikacji**).
@@ -181,7 +181,7 @@ Akcje innej spółki są zbywalnym prawem majątkowym, więc mogą być wkładem
 
 1. Czy przejście praw „z chwilą przekazania utworu Spółce” w § 14 ust. 1 lit. a, przy braku umowy o pracę albo B2B, nie narusza art. 41 ust. 3 pr. aut. Czy kwartalne potwierdzenie (lit. e) wystarcza jako zabezpieczenie.
 2. Czy licencja tymczasowa i licencja na technologię sprzed założenia, udzielone wprost w umowie spółki, są skuteczne wobec Spółki w organizacji (art. 300¹¹ KSH).
-3. Litera art. 4 § 1 pkt 4 KSH i art. 6 KSH w relacji Basilisk ↔ Appolonia przy tych samych dyrektorach. Czy dominacja wzajemna jest możliwa i jakie ma skutki bez wzajemnych udziałów.
-4. Czy w P.S.A. obowiązuje zakaz obejmowania przez spółkę zależną akcji spółki dominującej.
+3. Rozstrzygnięte w A4 (`audyt.md`, punkty 3 i 6): przy tych samych dyrektorach dominacja jest wzajemna (art. 4 § 5 KSH), a obowiązek zawiadomienia z art. 6 § 1 powstaje także bez wzajemnych udziałów.
+4. Rozstrzygnięte w A4: zakaz obowiązuje (art. 300⁴⁸ § 1 zd. 2 KSH).
 5. PIT założycieli przy aporcie IP i przy ewentualnej wymianie akcji do holdingu; przychód Spółki z licencji nieodpłatnych (§ 14 ust. 2); ceny transferowe między spółkami siostrzanymi.
 6. Czy dodać do § 3 ust. 7 umowny limit 5 lat dla upoważnienia do nabycia akcji własnych. W P.S.A. ustawa takiego limitu nie przewiduje (memorandum 1.3.5).
