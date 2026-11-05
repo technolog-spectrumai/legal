@@ -83,3 +83,33 @@ Każda zmiana jest wprowadzana w obu umowach jednakowo. Różnią się tylko fir
 | A2-3 | **Głos zastawnika.** Bezwzględny zakaz może utrudnić finansowanie zabezpieczone na akcjach (bank często żąda głosu po naruszeniu). | § 3 ust. 9 | **N** | Wyjątek za zgodą WZ (75%), przy spełnieniu warunków ustawowych |
 | A2-4 | Akcje nabyte przez innego założyciela w wykonaniu obowiązku są wolne. Czy mają wejść do jego vestingu, to decyzja biznesowa — domyślnie nie. | § 9 ust. 4 | **N** | Decyzja Założycieli (bez zmiany) |
 | A2-5 | Otwarte decyzje bez zmian: próg odwołania dyrektora (§ 10 ust. 2), czas poufności (§ 14 ust. 3), firma, siedziba i skład założycieli Appolonii, weryfikacja PKD, Umowa o Współpracy, interpretacje podatkowe, dokumenty zależne z „??” | — | — | Poza umową albo decyzje Założycieli |
+
+---
+
+## Runda 3
+
+### U3 — co zmieniono (Basilisk 2.3-S, Appolonia 1.3-S)
+
+| Ustalenie A2 | Zmiana | Gdzie |
+|---|---|---|
+| **A2-1** pętla w vestingu | Akcje zbyte w wykonaniu obowiązku, zwolnione (ust. 2 albo 5) albo z wygasłym obowiązkiem (ust. 4) przestają być nim objęte; Spółka zgłasza zmianę do rejestru | § 9 ust. 7 |
+| **A2-2** podatek przy cenie emisyjnej | Umowa wykonawcza wskazuje, że cena wynika z umowy spółki i mechanizmu vestingu, a nie z oceny wartości rynkowej (uzasadniona przyczyna w rozumieniu art. 19 PIT) | § 9 ust. 6 |
+| **A2-3** głos zastawnika | Wyjątek za zgodą WZ (75%) dla zastawnika, którego zastaw zabezpiecza finansowanie Spółki, przy spełnieniu warunków ustawowych (wzmianka w rejestrze) | § 3 ust. 9 |
+| dokumentacja | `prosta.md` pod 2.3-S (vesting, umowa wykonawcza, głos zastawnika) | dokumenty |
+
+**Kontrola techniczna:**
+- obie umowy się kompilują (po 24 strony), nierozwiązanych odwołań: 0;
+- różnice między umowami tylko w zamierzonych miejscach (34 wiersze);
+- automatyczne sprawdzenie wszystkich odesłań typu „§ x ust. y lit. z” w obu umowach: każdy wskazany ustęp i każda litera istnieją.
+
+### A3 — audyt końcowy
+
+| ID | Ustalenie | Pr. | Status |
+|---|---|---|---|
+| A3-1 | W treści umów nie ma ryzyk krytycznych ani wysokich: wszystkie ryzyka K i W z audytu v0 oraz z A1 i A2 usunięto albo ograniczono w tekście | — | zamknięte |
+| A3-2 | Ryzyka rezydualne wymagające czynności przy akcie: uchwała o pełnomocniku z listą umów, umowy przeniesienia IP z wykazami, umowy wykonawcze vestingu, wycena wkładów | **Ś** | lista kontrolna w `audyt.md`, pkt 5 |
+| A3-3 | Tezy niepewne, do potwierdzenia przez prawnika: pełnomocnik „rodzajowy” (art. 300⁷⁹ § 1), akceptacja fikcji zgody przez podmiot prowadzący rejestr, art. 41 ust. 3 pr. aut., dominacja przy unii personalnej, rok obrotowy (UoR) | **Ś** | `audyt.md`, pkt 6 |
+| A3-4 | Podatki: aport IP, licencje nieodpłatne, cena emisyjna w vestingu, seria F i P, ceny transferowe | **Ś** | interpretacje indywidualne |
+| A3-5 | Dokumenty, których umowy wymagają, a których jeszcze nie ma: Umowa o Współpracy, regulamin WZ, regulamin Rady, regulamin programu P, umowy wykonawcze | **Ś** | do przygotowania |
+| A3-6 | Decyzje Założycieli: próg odwołania dyrektora, czas poufności, vesting dla akcji nabytych od odchodzącego założyciela, firma, siedziba i skład założycieli Appolonii, kody PKD | — | do decyzji |
+| A3-7 | Umowa nie ma słowniczka definicji; terminy są definiowane w miejscu pierwszego użycia (Założyciel Pierwotny § 4, Akcjonariusz Funkcjonalny § 9, Spółka Siostrzana § 15). Spójne, ale przy dalszym rozroście warto zebrać je w jednym miejscu. | **N** | opcjonalne |

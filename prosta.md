@@ -1,10 +1,10 @@
-# Umowa P.S.A. — wariant prosty (2.2-S): co wyszło, co jest ponad S24, co zmieniliśmy
+# Umowa P.S.A. — wariant prosty (2.3-S): co wyszło, co jest ponad S24, co zmieniliśmy
 
 **Porównywane dokumenty**
 
 | | Dokument | Objętość |
 |---|---|---|
-| **Teraz** | `psa.tex` — wersja 2.2-S (wariant prosty po dwóch rundach poprawek z audytu, `audyt_rundy.md`) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 24 strony, ok. 7,9 tys. słów |
+| **Teraz** | `psa.tex` — wersja 2.3-S (wariant prosty po trzech rundach poprawek z audytu, `audyt_rundy.md`) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 24 strony, ok. 8,0 tys. słów |
 | **Poprzednio** | `psa.tex` — wersja 1.0-RC (commit `ac5005a`) | 38 §, 3 załączniki, 57 stron, ok. 20,3 tys. słów |
 | **Standard** | Wzorzec umowy P.S.A. w S24 — Załącznik nr 1 do rozporządzenia MS z 30.06.2021 r. (Dz.U. 2021 poz. 1191) | 19 §, wybór wariantów, bez pisania własnych postanowień |
 
@@ -12,7 +12,7 @@
 
 **Zasada wariantu prostego:** w umowie zostaje tylko to, co musi w niej być albo co działa wobec Spółki i każdego kolejnego nabywcy akcji (limity emisji, ograniczenia zbywania, obowiązki związane z akcją, tryb uchwał). Resztę reguluje się regulaminami i uchwałami albo dopisze się zmianą umowy, kiedy będzie potrzebna.
 
-Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n” — obecną wersję 2.2-S.
+Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n” — obecną wersję 2.3-S.
 
 ---
 
@@ -86,7 +86,7 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | 7 | **Tylko wkłady pieniężne** | § 4 ust. 3–6 — wkłady niepieniężne (kod, sprzęt, patenty) z wyceną |
 | 8 | Wkłady wniesione i terminy dopłat (do 3 lat) | § 4 ust. 5–6 — pieniężne przed wpisem, prawa IP w dniu aktu, pozostałe niepieniężne do 14 dni po wpisie |
 | 9 | Zbywanie: A — zgoda Spółki + wskazanie nabywcy w 1 miesiąc po wartości godziwej; B — swoboda; C — swoboda + prawo pierwszeństwa | § 8 — zgoda Spółki, ale inaczej niż w wariancie A (patrz 2.2) |
-| 10 | Głos zastawnika i użytkownika: A — nie; B — tak, jeśli przewiduje to czynność i wzmianka w rejestrze | § 3 ust. 9 — **jak wariant A** (od 2.1-S) |
+| 10 | Głos zastawnika i użytkownika: A — nie; B — tak, jeśli przewiduje to czynność i wzmianka w rejestrze | § 3 ust. 9 — **jak wariant A** (od 2.1-S); od 2.3-S wyjątek za zgodą WZ (75%) dla zastawu zabezpieczającego finansowanie Spółki |
 | 11 | Zaliczki na dywidendę; kapitały rezerwowe | § 16 ust. 3–4 — kapitały rezerwowe i upoważnienie Rady do zaliczek (od 2.1-S) |
 | 12 | Organy: zarząd / zarząd + RN / rada dyrektorów | § 10 ust. 1 — rada dyrektorów (jak wariant C) |
 | 13 | Skład, kadencja, powołanie i odwołanie uchwałą akcjonariuszy | § 10 ust. 2–3 — 3–7 dyrektorów, wspólna kadencja 3-letnia, przedłużenie mandatu (art. 300⁵⁶) |
@@ -158,7 +158,7 @@ Tych elementów brakowało w wersjach 1.0-RC i 2.0-S. Uzupełniono je w rundzie 
 |---|---|---|
 | **§ 19 — rok obrotowy** | Brak postanowienia | § 16 ust. 5: rok kalendarzowy; pierwszy rok można połączyć z następnym (art. 3 ust. 1 pkt 9 ustawy o rachunkowości) |
 | **§ 11 ust. 1 — zaliczki na dywidendę** | Brak upoważnienia | § 16 ust. 4: Rada upoważniona do wypłaty zaliczek, z testem wypłacalności |
-| **§ 10 — głos zastawnika i użytkownika** | Reguła ustawowa | § 3 ust. 9: zastawnik i użytkownik nie głosują (wariant A) |
+| **§ 10 — głos zastawnika i użytkownika** | Reguła ustawowa | § 3 ust. 9: zastawnik i użytkownik nie głosują (wariant A); wyjątek za zgodą WZ dla zastawu zabezpieczającego finansowanie Spółki (2.3-S) |
 
 ### 2.4. Współpraca z Appolonia — Spółka Siostrzana (§ 15)
 
@@ -193,7 +193,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 
 ### 3.1. Emisje i serie
 
-| Element | Było (1.0-RC) | Jest (2.2-S) | Dlaczego |
+| Element | Było (1.0-RC) | Jest (2.3-S) | Dlaczego |
 |---|---|---|---|
 | **Limity emisji** | Rozproszone: limit serii F w § 9, puli P w § 8, akcji własnych w § 5; brak łącznego limitu; brak zasady dla nowych serii | Jeden § 5: zasada maks. liczby akcji dla każdej uchwały i upoważnienia, łączny limit 2 000 000, limity F i P, nowa seria tylko przez zmianę umowy | Wymóg „wszystko ma maksymalną liczbę akcji” zebrany w jednym miejscu i rozciągnięty na każdą emisję, także przyszłą |
 | **Seria F — większość** | 75% **Głosów Uprawnionych w Sprawie**, kandydat-akcjonariusz wyłączony od głosu; emisja i cofnięcie statusu — 75% wszystkich głosów | Zawsze **75% wszystkich głosów**, bez wyłączenia kandydata | Jeden sposób liczenia. Koszt: kandydat, który już ma akcje serii A, głosuje we własnej sprawie — przy 75% wszystkich głosów nie przegłosuje reszty sam. |
@@ -220,8 +220,8 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 | **Harmonogram** | 48 mies., cliff 12 mies. + 25%, potem co miesiąc | Bez zmian | — |
 | **Kategorie odejścia** | Usprawiedliwione / Dobrowolne / Zawinione, z definicjami, wymogiem prawomocnego skazania i ustalaniem kategorii niezależnie od podstawy zatrudnienia | **Jedna reguła**: ustanie zaangażowania → akcje niezwolnione po cenie emisyjnej. **Zwolnienie z obowiązku** może przyznać WZ (75%), w szczególności przy śmierci, chorobie, zwolnieniu bez przyczyny albo odejściu uzgodnionym | Spór o kategorię zastępuje decyzja WZ. Sytuacje, które wcześniej były „usprawiedliwione”, są wymienione jako przykłady. |
 | **Cena** | Akcje niezwolnione — cena emisyjna; akcje zwolnione przy Odejściu Zawinionym — 80% Wartości Godziwej | Zawsze cena emisyjna, wyłącznie za akcje niezwolnione | Brak wyceny, brak eksperta, brak kary na akcjach zarobionych |
-| **Nabywca** | Wskazany Dopuszczalny Nabywca; Spółka tylko w odrębnym trybie | Nabywca wskazany przez Radę w 3 miesiące — **nie Spółka** ani osoba działająca na jej rachunek; w braku wskazania pozostali Założyciele Pierwotni proporcjonalnie (30 dni); po 6 miesiącach obowiązek wygasa, jeśli akcji nie zbyto bez winy założyciela | Jak w 1.0-RC Spółka nie jest nabywcą (ryzyko obejścia art. 300⁴⁵ § 2 KSH, memorandum 1.5.2); terminy zamykają lukę „zawieszenia” akcji (od 2.1-S i 2.2-S) |
-| **Umowa wykonawcza** | Długi katalog treści, umowa przedwstępna, nieodwołalne pełnomocnictwo z poświadczonym podpisem, dom maklerski | Ten sam instrument, opisany w jednym ustępie (§ 9 ust. 6) | Szczegóły należą do umowy wykonawczej, nie do umowy spółki |
+| **Nabywca** | Wskazany Dopuszczalny Nabywca; Spółka tylko w odrębnym trybie | Nabywca wskazany przez Radę w 3 miesiące — **nie Spółka** ani osoba działająca na jej rachunek; w braku wskazania pozostali Założyciele Pierwotni proporcjonalnie (30 dni); po 6 miesiącach obowiązek wygasa, jeśli akcji nie zbyto bez winy założyciela. Akcje zbyte, zwolnione albo z wygasłym obowiązkiem przestają być nim objęte (2.3-S). | Jak w 1.0-RC Spółka nie jest nabywcą (ryzyko obejścia art. 300⁴⁵ § 2 KSH, memorandum 1.5.2); terminy zamykają lukę „zawieszenia” akcji; koniec obowiązku usuwa wzmiankę z rejestru (od 2.1-S do 2.3-S) |
+| **Umowa wykonawcza** | Długi katalog treści, umowa przedwstępna, nieodwołalne pełnomocnictwo z poświadczonym podpisem, dom maklerski | Ten sam instrument, opisany w jednym ustępie (§ 9 ust. 6); od 2.3-S umowa dokumentuje, że cena wynika z mechanizmu vestingu (art. 19 PIT) | Szczegóły należą do umowy wykonawczej, nie do umowy spółki |
 | **Dziedziczenie** | Osobny § 17 z ograniczeniem wstąpienia spadkobierców | Jedno zdanie: spadkobiercy wstępują, a akcje niezwolnione nadal podlegają obowiązkowi zbycia; WZ może zwolnić | Patrz 1.3 |
 
 ### 3.4. Rada Dyrektorów i reprezentacja
@@ -280,7 +280,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 4. **Poufność** — czy wpisać sztywne 10 lat (§ 14 ust. 3).
 5. **Rok obrotowy** — rozwiązane w 2.1-S (§ 16 ust. 5).
 6. **Zaliczki na dywidendę i głos zastawnika** — rozwiązane w 2.1-S (§ 16 ust. 4, § 3 ust. 9).
-7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.2-S.
+7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.3-S.
 8. **Umowa o Współpracy z Appolonia** — osobny dokument do napisania i zatwierdzenia uchwałami WZ obu spółek (§ 15 ust. 2 i 6, § 13 ust. 1 lit. j). Bez niej klauzula o Spółce Siostrzanej daje tylko podstawę, a nie konkretne licencje i rozliczenia.
 9. **Prawa autorskie i krzyżowy aport** — analiza skutków braku przeniesienia praw (od osób prywatnych i między spółkami) oraz wariantów krzyżowego aportu akcji: `analiza_ip_aport.md`, z pytaniami do prawnika i doradcy podatkowego w sekcji 3.
 10. **Audyt prawny z orzecznictwem** — `audyt.md` (stan po rundach poprawek); historia rund — `audyt_rundy.md`.
