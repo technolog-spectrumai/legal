@@ -4,7 +4,7 @@
 
 | | Dokument | Objętość |
 |---|---|---|
-| **Teraz** | `psa.tex` — wersja 2.0-S (wariant prosty) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 22 strony, ok. 6,9 tys. słów |
+| **Teraz** | `psa.tex` — wersja 2.0-S (wariant prosty) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 23 strony, ok. 7,3 tys. słów |
 | **Poprzednio** | `psa.tex` — wersja 1.0-RC (commit `ac5005a`) | 38 §, 3 załączniki, 57 stron, ok. 20,3 tys. słów |
 | **Standard** | Wzorzec umowy P.S.A. w S24 — Załącznik nr 1 do rozporządzenia MS z 30.06.2021 r. (Dz.U. 2021 poz. 1191) | 19 §, wybór wariantów, bez pisania własnych postanowień |
 
@@ -140,7 +140,8 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 
 | Element | Gdzie |
 |---|---|
-| IP tworzone dla Spółki należy do Spółki; licencja na technologię przedzałożycielską | § 14 ust. 1–2 |
+| IP tworzone dla Spółki należy do Spółki; wymogi umowy przeniesienia wpisane wprost (forma pisemna, pola eksploatacji, prawa zależne, wynagrodzenie, kwartalne potwierdzenie wykazu utworów); 5-letnia licencja na technologię przedzałożycielską z obowiązkiem przeniesienia na żądanie (szczegóły: `analiza_ip_aport.md`) | § 14 ust. 1–2 |
+| Aport IP przenoszony w dniu aktu, z licencją tymczasową i wykonaniem w naturze (art. 64 KC) | § 4 ust. 5 |
 | Poufność akcjonariuszy i dyrektorów, także po odejściu | § 14 ust. 3 |
 | Kontrola eksportu i sankcje jako obowiązek akcjonariuszy i dyrektorów | § 14 ust. 4 |
 | Zakaz konkurencji z wyjątkiem inwestycji portfelowych do 5% | § 14 ust. 5 |
@@ -279,3 +280,4 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 6. **Zaliczki na dywidendę i głos zastawnika** — odłożyć do zmiany umowy albo dopisać teraz (luka względem S24 § 10–11).
 7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.0-S.
 8. **Umowa o Współpracy z Appolonia** — osobny dokument do napisania i zatwierdzenia uchwałami WZ obu spółek (§ 15 ust. 2 i 6, § 13 ust. 1 lit. j). Bez niej klauzula o Spółce Siostrzanej daje tylko podstawę, a nie konkretne licencje i rozliczenia.
+9. **Prawa autorskie i krzyżowy aport** — analiza skutków braku przeniesienia praw (od osób prywatnych i między spółkami) oraz wariantów krzyżowego aportu akcji: `analiza_ip_aport.md`, z pytaniami do prawnika i doradcy podatkowego w sekcji 3.
