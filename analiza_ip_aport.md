@@ -17,7 +17,7 @@ Oznaczenia źródeł: „(memorandum x.y)” — teza zweryfikowana w `memorandu
    - założyciele-dyrektorzy bez umowy o pracę — kod, który piszą, zostaje ich;
    - aport kodu bez prawidłowej umowy przeniesienia — wkład w ogóle nie został wniesiony;
    - korzystanie przez jedną spółkę z kodu drugiej bez licencji.
-2. **Da się to zamknąć.** Na `psa_simple2` zmieniłem § 4 ust. 5, § 14 ust. 1–2 i § 15 ust. 5 (szczegóły w punkcie 1.4). Po tych zmianach wspólnik nie może skutecznie „przetrzymać” praw:
+2. **Da się to zamknąć.** Na `psa_simple2` zmieniłem § 4 ust. 6, § 14 ust. 1–2 i § 15 ust. 5 (szczegóły w punkcie 1.4). Po tych zmianach wspólnik nie może skutecznie „przetrzymać” praw:
    - aport jest przenoszony w dniu aktu;
    - do czasu przeniesienia Spółka ma licencję;
    - obowiązek przeniesienia da się wyegzekwować wyrokiem (art. 64 KC);
@@ -81,10 +81,10 @@ Oznaczenia źródeł: „(memorandum x.y)” — teza zweryfikowana w `memorandu
 
 | Ryzyko | Zmiana | Gdzie |
 |---|---|---|
-| Aport bez skutecznego przeniesienia | Umowy przeniesienia aportu podpisywane najpóźniej w dniu aktu, w formie pisemnej, z polami eksploatacji i prawami zależnymi. Każdy współtwórca podpisuje osobno. | § 4 ust. 5 |
-| Art. 43 (wynagrodzenie) i podatek od nieodpłatnego świadczenia przy aporcie | Wynagrodzeniem za przeniesienie i za licencję tymczasową są akcje obejmowane za wkład | § 4 ust. 5 |
-| Spółka bez prawa do korzystania przed przeniesieniem | Licencja tymczasowa udzielona wprost w umowie spółki (akt notarialny spełnia formę) | § 4 ust. 5 |
-| Wspólnik przetrzymuje prawa | Obowiązek wniesienia wkładu podlega wykonaniu w naturze, z wyrokiem zastępującym oświadczenie (art. 64 KC) | § 4 ust. 5 |
+| Aport bez skutecznego przeniesienia | Umowy przeniesienia aportu podpisywane najpóźniej w dniu aktu, w formie pisemnej, z polami eksploatacji i prawami zależnymi. Każdy współtwórca podpisuje osobno. | § 4 ust. 6 |
+| Art. 43 (wynagrodzenie) i podatek od nieodpłatnego świadczenia przy aporcie | Wynagrodzeniem za przeniesienie i za licencję tymczasową są akcje obejmowane za wkład | § 4 ust. 6 |
+| Spółka bez prawa do korzystania przed przeniesieniem | Licencja tymczasowa udzielona wprost w umowie spółki (akt notarialny spełnia formę) | § 4 ust. 6 |
+| Wspólnik przetrzymuje prawa | Obowiązek wniesienia wkładu podlega wykonaniu w naturze, z wyrokiem zastępującym oświadczenie (art. 64 KC) | § 4 ust. 6 |
 | Ogólnikowy obowiązek „zawarcia umowy” | Ustawowe elementy umowy przeniesienia wpisane wprost: forma, pola eksploatacji, prawa zależne, prawa osobiste, wynagrodzenie | § 14 ust. 1 lit. a–d |
 | Art. 41 ust. 3 (nieważność umowy o „wszystkie przyszłe utwory”) | Przejście praw z chwilą przekazania utworu Spółce (repozytorium) plus kwartalne pisemne potwierdzenie wykazu utworów, które samo jest umową przeniesienia już istniejących, oznaczonych utworów | § 14 ust. 1 lit. a, e |
 | Wynalazki dyrektorów bez umowy | Prawo do patentu dla Spółki, a gdy nie wynika to z ustawy — pisemne przeniesienie | § 14 ust. 1 zd. ostatnie |
@@ -92,7 +92,7 @@ Oznaczenia źródeł: „(memorandum x.y)” — teza zweryfikowana w `memorandu
 | Przenoszenie praw między spółkami bez formy | Forma pisemna dla przeniesienia i licencji wyłącznej; pozostałe licencje co najmniej w formie dokumentowej z polami, okresem i wypowiedzeniem | § 15 ust. 5 |
 | Pracownicy wspólni dla obu spółek | Umowa ma zapewnić prawa tej spółce, do której obszaru należy utwór | § 15 ust. 5 |
 
-Te same zmiany trzeba przenieść do umowy Appolonii (`appolonia.tex` na `psa_appolonia`).
+Zmiany przeniesiono do umowy Appolonii (`appolonia.tex` na `psa_simple2`, runda 1 — `audyt_rundy.md`).
 
 ### 1.5. Co trzeba zrobić poza umową spółki
 

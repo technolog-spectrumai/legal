@@ -56,3 +56,30 @@ Każda zmiana jest wprowadzana w obu umowach jednakowo. Różnią się tylko fir
 | A1-6 | Dokumentacja: `prosta.md` i `analiza_ip_aport.md` odsyłają do „§ 4 ust. 5” dla klauzuli IP (to ust. 6); `prosta.md` nie odzwierciedla zmian 2.1-S (luki S24 zamknięte, wykup bez celu „c”, zakaz konkurencji, § 13 lit. k) | dokumenty | **Ś** | Poprawić odwołania i opis |
 | A1-7 | Rok obrotowy oparty na art. 3 ust. 1 pkt 9 UoR — brzmienie przepisu z wiedzy ogólnej | § 16 ust. 5 | **N** | Do pytań dla prawnika i księgowego |
 | A1-8 | Bez zmian po rundzie 1: podatki (Ś7–Ś9), Umowa o Współpracy (Ś10), firma i siedziba Appolonii, weryfikacja PKD (N7) | — | — | Poza umową albo decyzje Założycieli |
+
+---
+
+## Runda 2
+
+### U2 — co zmieniono (Basilisk 2.2-S, Appolonia 1.2-S)
+
+| Ustalenie A1 | Zmiana | Gdzie |
+|---|---|---|
+| **A1-1** vesting bez terminu | Rada wskazuje nabywcę w 3 miesiące od ustania zaangażowania. W braku wskazania pozostali Założyciele Pierwotni mogą nabyć akcje proporcjonalnie w kolejnych 30 dniach. Jeżeli akcji nie zbyto w 6 miesięcy z przyczyn niezależnych od Akcjonariusza Funkcjonalnego, obowiązek wygasa. | § 9 ust. 4 |
+| **A1-2** definicja spółki siostrzanej | Status trwa, dopóki założyciele **obu** spółek łącznie mają ponad 50% głosów w każdej z nich | § 15 ust. 1 |
+| **A1-3** licencja 5-letnia | Automatyczne przedłużanie o kolejne 5 lat, chyba że Założyciel oświadczy inaczej na rok przed upływem. Wtedy Rada musi przed upływem okresu zażądać przeniesienia, jeśli technologia jest w produktach. | § 14 ust. 2 |
+| **A1-4** pełnomocnik | Lista obejmuje nabycie akcji własnych od dyrektora. Uchwała wskazuje osobę i umowy (albo ich rodzaj) i może zapaść poza WZ. | § 11 ust. 3 |
+| **A1-5** doręczenie zgłoszenia | Adres siedziby albo adres do doręczeń elektronicznych Spółki | § 8 ust. 1 |
+| **A1-6** dokumentacja | `analiza_ip_aport.md`: 5 odesłań „§ 4 ust. 5” poprawionych na ust. 6. `prosta.md` przepisana pod 2.2-S: luki S24 zamknięte, wykup bez vestingu, terminy w vestingu, § 13 lit. k, zakres zakazu konkurencji, definicja spółki siostrzanej, ust. 9 § 15. | dokumenty |
+
+**Kontrola techniczna:** obie umowy się kompilują (po 24 strony), nierozwiązanych odwołań: 0, różnice między umowami tylko w zamierzonych miejscach (34 wiersze, bez zmian względem rundy 1).
+
+### A2 — audyt tekstu po rundzie 2
+
+| ID | Ustalenie | Gdzie | Pr. | Kierunek poprawki |
+|---|---|---|---|---|
+| A2-1 | **Pętla w vestingu.** Według ust. 7 zdarzenia dotyczące pierwotnego Akcjonariusza Funkcjonalnego uruchamiają obowiązek u każdego nabywcy. Po zbyciu w wykonaniu obowiązku (albo po jego wygaśnięciu lub zwolnieniu przez WZ) można czytać, że obowiązek odżywa u kupującego. Brak też obowiązku wykreślenia wzmianki z rejestru. | § 9 ust. 4, 5, 7 | **W** | Akcje zbyte w wykonaniu obowiązku, zwolnione albo objęte wygaśnięciem przestają być objęte obowiązkiem; Spółka zgłasza zmianę do rejestru |
+| A2-2 | **Podatek przy cenie emisyjnej.** Dla sprzedającego organ może szacować przychód (art. 19 PIT); dla kupującego (inny założyciel, uczestnik programu) — przychód z częściowo odpłatnego świadczenia (art. 11 ust. 2b PIT; memorandum 1.5.2, T9 pkt 6). „Uzasadnioną przyczyną” jest mechanizm z umowy spółki, ale trzeba to udokumentować. | § 9 ust. 6 | **Ś** | Umowa wykonawcza wskazuje, że cena wynika z umowy spółki; interpretacja indywidualna przed pierwszym odejściem |
+| A2-3 | **Głos zastawnika.** Bezwzględny zakaz może utrudnić finansowanie zabezpieczone na akcjach (bank często żąda głosu po naruszeniu). | § 3 ust. 9 | **N** | Wyjątek za zgodą WZ (75%), przy spełnieniu warunków ustawowych |
+| A2-4 | Akcje nabyte przez innego założyciela w wykonaniu obowiązku są wolne. Czy mają wejść do jego vestingu, to decyzja biznesowa — domyślnie nie. | § 9 ust. 4 | **N** | Decyzja Założycieli (bez zmiany) |
+| A2-5 | Otwarte decyzje bez zmian: próg odwołania dyrektora (§ 10 ust. 2), czas poufności (§ 14 ust. 3), firma, siedziba i skład założycieli Appolonii, weryfikacja PKD, Umowa o Współpracy, interpretacje podatkowe, dokumenty zależne z „??” | — | — | Poza umową albo decyzje Założycieli |

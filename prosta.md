@@ -1,10 +1,10 @@
-# Umowa P.S.A. — wariant prosty (2.0-S): co wyszło, co jest ponad S24, co zmieniliśmy
+# Umowa P.S.A. — wariant prosty (2.2-S): co wyszło, co jest ponad S24, co zmieniliśmy
 
 **Porównywane dokumenty**
 
 | | Dokument | Objętość |
 |---|---|---|
-| **Teraz** | `psa.tex` — wersja 2.0-S (wariant prosty) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 23 strony, ok. 7,3 tys. słów |
+| **Teraz** | `psa.tex` — wersja 2.2-S (wariant prosty po dwóch rundach poprawek z audytu, `audyt_rundy.md`) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 24 strony, ok. 7,9 tys. słów |
 | **Poprzednio** | `psa.tex` — wersja 1.0-RC (commit `ac5005a`) | 38 §, 3 załączniki, 57 stron, ok. 20,3 tys. słów |
 | **Standard** | Wzorzec umowy P.S.A. w S24 — Załącznik nr 1 do rozporządzenia MS z 30.06.2021 r. (Dz.U. 2021 poz. 1191) | 19 §, wybór wariantów, bez pisania własnych postanowień |
 
@@ -12,7 +12,7 @@
 
 **Zasada wariantu prostego:** w umowie zostaje tylko to, co musi w niej być albo co działa wobec Spółki i każdego kolejnego nabywcy akcji (limity emisji, ograniczenia zbywania, obowiązki związane z akcją, tryb uchwał). Resztę reguluje się regulaminami i uchwałami albo dopisze się zmianą umowy, kiedy będzie potrzebna.
 
-Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n” — obecną wersję 2.0-S.
+Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n” — obecną wersję 2.2-S.
 
 ---
 
@@ -67,7 +67,7 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | **Załącznik nr 2** (Założyciele objęci vestingiem) | — | Wchłonięty przez Załącznik nr 1 (kolumna „Data rozpoczęcia”) |
 | **Załącznik nr 3** (ujawnione aktywności, licencje i ograniczenia) | — | Ewidencja prowadzona przez Radę; zgody na konkurencję wydaje Rada (§ 14 ust. 5) |
 
-**Skala:** z 38 paragrafów zostało 17 (później doszedł § 15 o współpracy ze Spółką Siostrzaną — razem 18), z 3 załączników — 1, z 57 stron — 22. Lista spraw zastrzeżonych dla WZ skróciła się z 14 pozycji do 9 (plus nowa lit. j — Umowa o Współpracy), a przyczyny odmowy zgody na zbycie — z 6 do 4.
+**Skala:** z 38 paragrafów zostało 17 (później doszedł § 15 o współpracy ze Spółką Siostrzaną — razem 18), z 3 załączników — 1, z 57 stron — 24. Lista spraw zastrzeżonych dla WZ skróciła się z 14 pozycji do 9 (plus nowe: lit. j — Umowa o Współpracy, lit. k — pożyczki i poręczenia dla dyrektorów), a przyczyny odmowy zgody na zbycie — z 6 do 4.
 
 ---
 
@@ -84,10 +84,10 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | 5 | Akcje: jedna seria A albo kilka serii do wyboru (AZ założycielskie, AG 2 głosy, AD 150% dywidendy, AN nieme) | § 3 — tylko akcje zwykłe, uprzywilejowanie wyłączone wprost (§ 3 ust. 3) |
 | 6 | Objęcie akcji | § 4 ust. 1–2 |
 | 7 | **Tylko wkłady pieniężne** | § 4 ust. 3–6 — wkłady niepieniężne (kod, sprzęt, patenty) z wyceną |
-| 8 | Wkłady wniesione i terminy dopłat (do 3 lat) | § 4 ust. 5 — pieniężne przed wpisem, niepieniężne do 14 dni po wpisie |
+| 8 | Wkłady wniesione i terminy dopłat (do 3 lat) | § 4 ust. 5–6 — pieniężne przed wpisem, prawa IP w dniu aktu, pozostałe niepieniężne do 14 dni po wpisie |
 | 9 | Zbywanie: A — zgoda Spółki + wskazanie nabywcy w 1 miesiąc po wartości godziwej; B — swoboda; C — swoboda + prawo pierwszeństwa | § 8 — zgoda Spółki, ale inaczej niż w wariancie A (patrz 2.2) |
-| 10 | Głos zastawnika i użytkownika: A — nie; B — tak, jeśli przewiduje to czynność i wzmianka w rejestrze | **Brak** — patrz 2.3 |
-| 11 | Zaliczki na dywidendę; kapitały rezerwowe | § 16 ust. 3 (kapitały); **brak upoważnienia do zaliczek** — patrz 2.3 |
+| 10 | Głos zastawnika i użytkownika: A — nie; B — tak, jeśli przewiduje to czynność i wzmianka w rejestrze | § 3 ust. 9 — **jak wariant A** (od 2.1-S) |
+| 11 | Zaliczki na dywidendę; kapitały rezerwowe | § 16 ust. 3–4 — kapitały rezerwowe i upoważnienie Rady do zaliczek (od 2.1-S) |
 | 12 | Organy: zarząd / zarząd + RN / rada dyrektorów | § 10 ust. 1 — rada dyrektorów (jak wariant C) |
 | 13 | Skład, kadencja, powołanie i odwołanie uchwałą akcjonariuszy | § 10 ust. 2–3 — 3–7 dyrektorów, wspólna kadencja 3-letnia, przedłużenie mandatu (art. 300⁵⁶) |
 | 14 | Reprezentacja: C1 — dwóch dyrektorów albo dyrektor z prokurentem; C2 — każdy samodzielnie | § 11 ust. 1 — **identycznie jak C1** |
@@ -95,7 +95,7 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | 16 | Uchwały na WZ albo poza nim, na piśmie albo e-mailem na adresy z rejestru; udział i głosowanie elektroniczne na WZ | § 12 ust. 1–5 — **ta sama podstawa** plus procedura obiegowa (patrz 2.2) |
 | 17 | WZ ważne bez względu na liczbę akcji | Reguła ustawowa (bez postanowienia) |
 | 18 | Bezwzględna większość głosów | § 12 ust. 7 — to samo jako zasada, plus progi 75% i 4/5 |
-| 19 | Rok obrotowy | **Brak** — patrz 2.3 |
+| 19 | Rok obrotowy | § 16 ust. 5 — rok kalendarzowy, pierwszy rok można połączyć z następnym (od 2.1-S) |
 
 ### 2.2. Postanowienia, których S24 nie ma
 
@@ -111,7 +111,7 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | **Upoważnienie z art. 300¹⁰³ KSH** do 31.12.2036 r. | Emisje F i P na podstawie samej uchwały WZ, bez notariusza przy każdej emisji | § 5 ust. 3 |
 | **Nowa seria = zmiana umowy** z limitem i terminem | Runda inwestorska zawsze przechodzi przez zmianę umowy i ma określony sufit | § 5 ust. 4 |
 | **Emituje tylko WZ**; Rada wykonuje uchwałę w transzach, bez prawa przekroczenia limitu ani obniżenia ceny minimalnej | Szybkie wykonanie bez ryzyka nadużycia | § 5 ust. 5 |
-| **Akcje własne (buyback)**: limit 25%, zamknięty katalog celów, oferta proporcjonalna do wszystkich, cena nie wyższa niż wartość godziwa, wyłączenie dyrektora-zbywcy, zbycie tylko nabywcy bez przeszkód z § 8, kapitał rezerwowy | Odkup akcji po odejściu założyciela i zasilanie programu P bez ryzyka uprzywilejowania kogokolwiek | § 3 ust. 7–8 |
+| **Akcje własne (buyback)**: limit 25%, zamknięty katalog celów (umorzenie, program P i seria F), oferta proporcjonalna do wszystkich, cena nie wyższa niż wartość godziwa, wyłączenie dyrektora-zbywcy, zbycie tylko nabywcy bez przeszkód z § 8, kapitał rezerwowy, upoważnienie najwyżej na 5 lat | Zasilanie programu P i umorzenie bez ryzyka uprzywilejowania kogokolwiek. Spółka **nie** odkupuje akcji w vestingu (od 2.1-S — ryzyko obejścia art. 300⁴⁵ § 2 KSH) | § 3 ust. 7–8 |
 
 **Zbywanie akcji i vesting**
 
@@ -132,7 +132,7 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | **Regulamin WZ przyjmowany przy zawiązaniu** | Art. 300⁹² § 2 KSH odsyła do regulaminu — mamy go od pierwszego dnia | § 12 ust. 5 |
 | **Obowiązek podania adresu e-mail do rejestru** i aktualizacji danych w 7 dni | Bez tego tryb elektroniczny nie działa | § 3 ust. 6 |
 | **Elektroniczne archiwum uchwał** prowadzone przez Radę | Dowód podjęcia uchwały obiegowej | § 12 ust. 8 |
-| **10 spraw zastrzeżonych dla WZ z progiem 75%** wszystkich głosów, w tym Umowa o Współpracy ze Spółką Siostrzaną (S24: wszystko bezwzględną większością) | Ochrona mniejszości (B–E mają łącznie 50%) przy sprawach ustrojowych | § 13 |
+| **11 spraw zastrzeżonych dla WZ z progiem 75%** wszystkich głosów, w tym Umowa o Współpracy ze Spółką Siostrzaną i umowy finansowe z dyrektorami (S24: wszystko bezwzględną większością) | Ochrona mniejszości (B–E mają łącznie 50%) przy sprawach ustrojowych | § 13 |
 | **Dyrektor wykonawczy i niewykonawczy**, delegacja z art. 300⁷⁶, głos rozstrzygający Przewodniczącego, sprawy wymagające uchwały Rady z progami 100 tys. i 250 tys. zł | Prowadzenie spraw w modelu monistycznym | § 10 |
 | **Reprezentacja w sporach z dyrektorem** (art. 300⁷⁹ § 3–4) | Konflikt interesów | § 11 ust. 3 |
 
@@ -141,7 +141,7 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | Element | Gdzie |
 |---|---|
 | IP tworzone dla Spółki należy do Spółki; wymogi umowy przeniesienia wpisane wprost (forma pisemna, pola eksploatacji, prawa zależne, wynagrodzenie, kwartalne potwierdzenie wykazu utworów); 5-letnia licencja na technologię przedzałożycielską z obowiązkiem przeniesienia na żądanie (szczegóły: `analiza_ip_aport.md`) | § 14 ust. 1–2 |
-| Aport IP przenoszony w dniu aktu, z licencją tymczasową i wykonaniem w naturze (art. 64 KC) | § 4 ust. 5 |
+| Aport IP przenoszony w dniu aktu (po stronie Spółki podpisuje pełnomocnik z art. 300⁷⁹ § 1 KSH), z licencją tymczasową i wykonaniem w naturze (art. 64 KC) | § 4 ust. 6, § 11 ust. 3, § 18 ust. 6 |
 | Poufność akcjonariuszy i dyrektorów, także po odejściu | § 14 ust. 3 |
 | Kontrola eksportu i sankcje jako obowiązek akcjonariuszy i dyrektorów | § 14 ust. 4 |
 | Zakaz konkurencji z wyjątkiem inwestycji portfelowych do 5% | § 14 ust. 5 |
@@ -150,15 +150,15 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 | Test wypłacalności przed wypłatą dywidendy (art. 300¹⁵ KSH) | § 16 ust. 2 |
 | Mediacja przed sądem, klauzula salwatoryjna, dynamiczne odesłania do przepisów | § 18 |
 
-### 2.3. Czego S24 ma, a my nie mamy — do decyzji
+### 2.3. Czego wzorzec S24 miał, a 2.0-S nie — uzupełnione w 2.1-S
 
-Tych elementów brakowało już w wersji 1.0-RC, więc żaden nie zniknął przy upraszczaniu. Każdy to jedno zdanie do dopisania.
+Tych elementów brakowało w wersjach 1.0-RC i 2.0-S. Uzupełniono je w rundzie 1 poprawek z audytu (`audyt_rundy.md`).
 
-| S24 | Stan u nas | Propozycja |
+| S24 | Było (2.0-S) | Jest (od 2.1-S) |
 |---|---|---|
-| **§ 19 — rok obrotowy** (kalendarzowy; pierwszy kończy się nie później niż 18 miesięcy od zawiązania, § 7 rozporządzenia) | Brak postanowienia → obowiązuje reguła z ustawy o rachunkowości | Dopisać do § 16: „Rokiem obrotowym jest rok kalendarzowy; pierwszy rok obrotowy kończy się 31 grudnia [rok]”. Wydłużony pierwszy rok to jeden audyt i jedno sprawozdanie mniej. |
-| **§ 11 ust. 1 — upoważnienie zarządu do wypłaty zaliczek na dywidendę** | § 16 ust. 2 wspomina zaliczki, ale ich nie upoważnia | Przez pierwsze 36 miesięcy i tak reinwestujemy — można odłożyć do zmiany umowy |
-| **§ 10 — głos zastawnika i użytkownika** | Brak postanowienia → reguła ustawowa | Rozstrzygnąć przed pierwszym kredytem z zastawem na akcjach. Wariant A (zastawnik bez głosu) jest bezpieczniejszy dla kontroli. |
+| **§ 19 — rok obrotowy** | Brak postanowienia | § 16 ust. 5: rok kalendarzowy; pierwszy rok można połączyć z następnym (art. 3 ust. 1 pkt 9 ustawy o rachunkowości) |
+| **§ 11 ust. 1 — zaliczki na dywidendę** | Brak upoważnienia | § 16 ust. 4: Rada upoważniona do wypłaty zaliczek, z testem wypłacalności |
+| **§ 10 — głos zastawnika i użytkownika** | Reguła ustawowa | § 3 ust. 9: zastawnik i użytkownik nie głosują (wariant A) |
 
 ### 2.4. Współpraca z Appolonia — Spółka Siostrzana (§ 15)
 
@@ -172,15 +172,16 @@ Dlatego obie umowy mają lustrzany paragraf o Spółce Siostrzanej (w Basilisk �
 
 | Element | Jak działa | Gdzie |
 |---|---|---|
-| **Kiedy obowiązuje** | Dopóki Założyciele Pierwotni mają łącznie ponad 50% głosów w spółce siostrzanej. Jeśli kontrolę przejmie ktoś inny (np. inwestor), postanowienia z ust. 3–7 wygasają po 6 miesiącach. | ust. 1, 8 |
+| **Kiedy obowiązuje** | Dopóki założyciele obu spółek łącznie mają ponad 50% głosów w każdej z nich (od 2.2-S — działa też przy częściowo różnym składzie założycieli Appolonii). Jeśli kontrolę przejmie ktoś inny (np. inwestor), postanowienia z ust. 3–7 wygasają po 6 miesiącach. | ust. 1, 8 |
 | **Podział obszarów** | Basilisk: ląd i powietrze; Appolonia: morze i wody śródlądowe | ust. 1 |
 | **Umowa o Współpracy** | Jedna umowa ramowa: wspólne B+R, personel, sprzęt, dane, licencje, rozliczenia. Zatwierdza ją raz WZ każdej spółki (75%), a w jej granicach Rada nie podejmuje osobnych uchwał. | ust. 2, 6; § 13 ust. 1 lit. j |
-| **Ceny rynkowe** | Świadczenia między spółkami wycenia się jak między podmiotami niepowiązanymi — tego wymagają przepisy o cenach transferowych (spółki z tymi samymi właścicielami są dla fiskusa podmiotami powiązanymi) | ust. 2 |
+| **Ceny rynkowe** | Świadczenia między spółkami wycenia się jak między podmiotami niepowiązanymi — tego wymagają przepisy o cenach transferowych (spółki z tymi samymi właścicielami są dla fiskusa podmiotami powiązanymi). Metody cen określa Umowa o Współpracy, spór o cenę rozstrzyga niezależny biegły. | ust. 2 |
 | **Zakaz konkurencji** | Udział, funkcje i praca w spółce siostrzanej w jej obszarze nie są konkurencją i nie wymagają zgody Rady | ust. 3 |
 | **Poufność** | Informacje poufne można przekazywać spółce siostrzanej w zakresie potrzebnym do współpracy | ust. 4 |
 | **Własność intelektualna** | Wyniki należą do spółki, której obszaru dotyczą. Wyniki przydatne w obu obszarach — do spółki wskazanej w Umowie o Współpracy, a druga dostaje licencję na swój obszar. | ust. 5 |
 | **Konflikt interesów** | Sam udział w spółce siostrzanej nie wyłącza dyrektora z głosowania | ust. 6 |
 | **Vesting** | Praca dla spółki siostrzanej nie przerywa vestingu, jeśli podział czasu zatwierdzi Rada albo określa go Umowa o Współpracy | ust. 7 |
+| **Akcje spółki siostrzanej** | Objęcie lub nabycie akcji siostry tylko za zgodą WZ (75%), z zawiadomieniem o dominacji z art. 6 KSH | ust. 9 |
 
 **Do zrobienia:** sama Umowa o Współpracy (osobny dokument), zatwierdzona uchwałami WZ obu spółek.
 
@@ -192,7 +193,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 
 ### 3.1. Emisje i serie
 
-| Element | Było (1.0-RC) | Jest (2.0-S) | Dlaczego |
+| Element | Było (1.0-RC) | Jest (2.2-S) | Dlaczego |
 |---|---|---|---|
 | **Limity emisji** | Rozproszone: limit serii F w § 9, puli P w § 8, akcji własnych w § 5; brak łącznego limitu; brak zasady dla nowych serii | Jeden § 5: zasada maks. liczby akcji dla każdej uchwały i upoważnienia, łączny limit 2 000 000, limity F i P, nowa seria tylko przez zmianę umowy | Wymóg „wszystko ma maksymalną liczbę akcji” zebrany w jednym miejscu i rozciągnięty na każdą emisję, także przyszłą |
 | **Seria F — większość** | 75% **Głosów Uprawnionych w Sprawie**, kandydat-akcjonariusz wyłączony od głosu; emisja i cofnięcie statusu — 75% wszystkich głosów | Zawsze **75% wszystkich głosów**, bez wyłączenia kandydata | Jeden sposób liczenia. Koszt: kandydat, który już ma akcje serii A, głosuje we własnej sprawie — przy 75% wszystkich głosów nie przegłosuje reszty sam. |
@@ -219,7 +220,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 | **Harmonogram** | 48 mies., cliff 12 mies. + 25%, potem co miesiąc | Bez zmian | — |
 | **Kategorie odejścia** | Usprawiedliwione / Dobrowolne / Zawinione, z definicjami, wymogiem prawomocnego skazania i ustalaniem kategorii niezależnie od podstawy zatrudnienia | **Jedna reguła**: ustanie zaangażowania → akcje niezwolnione po cenie emisyjnej. **Zwolnienie z obowiązku** może przyznać WZ (75%), w szczególności przy śmierci, chorobie, zwolnieniu bez przyczyny albo odejściu uzgodnionym | Spór o kategorię zastępuje decyzja WZ. Sytuacje, które wcześniej były „usprawiedliwione”, są wymienione jako przykłady. |
 | **Cena** | Akcje niezwolnione — cena emisyjna; akcje zwolnione przy Odejściu Zawinionym — 80% Wartości Godziwej | Zawsze cena emisyjna, wyłącznie za akcje niezwolnione | Brak wyceny, brak eksperta, brak kary na akcjach zarobionych |
-| **Nabywca** | Wskazany Dopuszczalny Nabywca; Spółka tylko w odrębnym trybie | Nabywca wskazany przez Radę **albo Spółka**, jeżeli nabycie akcji własnych jest dopuszczalne | Odkup przez Spółkę to najprostszy przypadek |
+| **Nabywca** | Wskazany Dopuszczalny Nabywca; Spółka tylko w odrębnym trybie | Nabywca wskazany przez Radę w 3 miesiące — **nie Spółka** ani osoba działająca na jej rachunek; w braku wskazania pozostali Założyciele Pierwotni proporcjonalnie (30 dni); po 6 miesiącach obowiązek wygasa, jeśli akcji nie zbyto bez winy założyciela | Jak w 1.0-RC Spółka nie jest nabywcą (ryzyko obejścia art. 300⁴⁵ § 2 KSH, memorandum 1.5.2); terminy zamykają lukę „zawieszenia” akcji (od 2.1-S i 2.2-S) |
 | **Umowa wykonawcza** | Długi katalog treści, umowa przedwstępna, nieodwołalne pełnomocnictwo z poświadczonym podpisem, dom maklerski | Ten sam instrument, opisany w jednym ustępie (§ 9 ust. 6) | Szczegóły należą do umowy wykonawczej, nie do umowy spółki |
 | **Dziedziczenie** | Osobny § 17 z ograniczeniem wstąpienia spadkobierców | Jedno zdanie: spadkobiercy wstępują, a akcje niezwolnione nadal podlegają obowiązkowi zbycia; WZ może zwolnić | Patrz 1.3 |
 
@@ -245,7 +246,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 
 ### 3.6. Sprawy zastrzeżone dla WZ (75% wszystkich głosów)
 
-| Było (14 pozycji) | Jest (10 pozycji) |
+| Było (14 pozycji) | Jest (11 pozycji) |
 |---|---|
 | zmiana umowy; emisje; nadanie i cofnięcie statusu F; połączenie, podział, przekształcenie, likwidacja; zbycie przedsiębiorstwa i aktywów > 25%; zbycie i wyłączna licencja na kluczowe IP; akcje własne i umorzenie; zobowiązania > 500 tys. zł poza budżetem | **Bez zmian** (lit. a–h) |
 | zwiększenie lub zmiana programu motywacyjnego | Wchłonięte przez lit. b (emisje) — zwiększenie puli i tak wymaga zmiany umowy |
@@ -256,6 +257,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 | Przedsięwzięcia Produkcyjne > 500 tys. zł | Usunięte — lit. e i h |
 | — | **Nowe:** zgoda na zbycie w okresie lock-upu (wcześniej § 25 ust. 3) — lit. i |
 | — | **Nowe:** zawarcie, zmiana albo rozwiązanie Umowy o Współpracy ze Spółką Siostrzaną (§ 15) — lit. j |
+| — | **Nowe:** umowy kredytu, pożyczki i poręczenia z dyrektorami (art. 15 § 1 KSH nie obejmuje dyrektora P.S.A.) — lit. k |
 
 ### 3.7. Pozostałe
 
@@ -263,7 +265,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 |---|---|---|---|
 | **IP, poufność, eksport, konkurencja** | 4 paragrafy (§ 26–29), kilkadziesiąt ustępów | 1 paragraf (§ 14), 6 ustępów; szczegóły w politykach Rady | Umowa ustala zasadę, polityki — wykonanie |
 | **Poufność — czas trwania** | 10 lat po zbyciu akcji, tajemnica przedsiębiorstwa — bezterminowo | „Także po ustaniu zaangażowania albo zbyciu akcji, przez okres i w zakresie dopuszczalnym przez prawo” | Mniej sztywno. **Do decyzji:** jeśli wolimy pewność, przywrócić 10 lat. |
-| **Zakaz konkurencji — kogo dotyczy** | Akcjonariusze Funkcjonalni (w okresie zaangażowania); zgoda WZ; wyjątek 2% spółki publicznej i Załącznik nr 3 | **Każdy akcjonariusz i dyrektor**; zgoda Rady bez udziału zainteresowanego; wyjątek 5% portfelowo | Zgoda szybciej (Rada zamiast WZ). **Uwaga:** zakres osobowy jest teraz szerszy — obejmuje też przyszłych inwestorów finansowych, co przy rundzie będzie punktem negocjacji. Przed rundą zawęzić do założycieli i dyrektorów albo dodać wyjątek dla funduszy. |
+| **Zakaz konkurencji — kogo dotyczy** | Akcjonariusze Funkcjonalni (w okresie zaangażowania); zgoda WZ; wyjątek 2% spółki publicznej i Załącznik nr 3 | Założyciele Pierwotni i Akcjonariusze Funkcjonalni (dopóki są akcjonariuszami) oraz dyrektorzy; zgoda Rady bez udziału zainteresowanego; wyjątek 5% portfelowo | Zgoda szybciej (Rada zamiast WZ). Inwestorzy finansowi nie są objęci (od 2.1-S). |
 | **Przedmiot działalności** | Cel strategiczny (§ 3) + plan działalności (§ 4 ust. 1–3) + PKD w podziale na główne i dodatkowe + 2 ustępy zastrzeżeń | Jedno zdanie opisu + 13 kodów PKD: 9 ujawnianych w KRS przy pierwszym wpisie (lit. a, z 72.10.Z jako przeważającą) i 4 dla dalszego rozwoju (lit. b) + 1 ustęp zastrzeżeń | Zakres na lądzie i w powietrzu; jednostki nawodne i kody morskie (30.11.Z, 33.15.Z) przeszły do Appolonia P.S.A., żeby zakresy obu spółek się nie pokrywały. Bez kodów wojskowych — wariant z nimi (30.32.Z, 30.40.Z, 33.18.Z) jest na gałęzi `psa_wo`; mniej tekstu opisowego |
 | **Zmiana umowy — zgoda indywidualna** | Przy zaostrzeniu vestingu, lock-upu i drag-along | Przy zaostrzeniu vestingu i lock-upu (drag-along zniknął) | Konsekwencja |
 | **Załącznik nr 1** | Tabela akcji + Część A (niepieniężne) + Część B (pieniężne) | Część A (akcje + **data rozpoczęcia vestingu**) + B (niepieniężne) + C (pieniężne) | Załącznik nr 2 wchłonięty |
@@ -274,11 +276,11 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 
 1. **Art. 300³⁹ § 3–5 KSH** — pełne wyłączenie wskazania nabywcy po odmowie zgody (§ 8 ust. 3). Do potwierdzenia u prawnika.
 2. **Odwołanie dyrektora** — przywrócić 75% dla odwołania bez ważnych powodów? (§ 10 ust. 2)
-3. **Zakaz konkurencji** — zawęzić do założycieli i dyrektorów przed rundą (§ 14 ust. 5).
+3. **Zakaz konkurencji** — rozwiązane w 2.1-S: obejmuje założycieli, Akcjonariuszy Funkcjonalnych (dopóki są akcjonariuszami) i dyrektorów (§ 14 ust. 5).
 4. **Poufność** — czy wpisać sztywne 10 lat (§ 14 ust. 3).
-5. **Rok obrotowy** — dopisać jedno zdanie z datą końca pierwszego roku (luka względem S24 § 19).
-6. **Zaliczki na dywidendę i głos zastawnika** — odłożyć do zmiany umowy albo dopisać teraz (luka względem S24 § 10–11).
-7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.0-S.
+5. **Rok obrotowy** — rozwiązane w 2.1-S (§ 16 ust. 5).
+6. **Zaliczki na dywidendę i głos zastawnika** — rozwiązane w 2.1-S (§ 16 ust. 4, § 3 ust. 9).
+7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.2-S.
 8. **Umowa o Współpracy z Appolonia** — osobny dokument do napisania i zatwierdzenia uchwałami WZ obu spółek (§ 15 ust. 2 i 6, § 13 ust. 1 lit. j). Bez niej klauzula o Spółce Siostrzanej daje tylko podstawę, a nie konkretne licencje i rozliczenia.
 9. **Prawa autorskie i krzyżowy aport** — analiza skutków braku przeniesienia praw (od osób prywatnych i między spółkami) oraz wariantów krzyżowego aportu akcji: `analiza_ip_aport.md`, z pytaniami do prawnika i doradcy podatkowego w sekcji 3.
-10. **Audyt prawny z orzecznictwem** — `audyt.md`: 3 ryzyka krytyczne (m.in. reprezentacja Spółki w umowach z założycielami-dyrektorami, art. 300⁷⁹ § 1 KSH), 5 wysokich, lista kontrolna i proponowane brzmienia.
+10. **Audyt prawny z orzecznictwem** — `audyt.md` (stan po rundach poprawek); historia rund — `audyt_rundy.md`.
