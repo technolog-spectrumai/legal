@@ -59,7 +59,7 @@ Oznaczenia źródeł: „(memorandum x.y)” — teza zweryfikowana w `memorandu
 | **Wypowiedzenie licencji.** Licencja niewyłączna na czas nieoznaczony (albo dłuższy niż 5 lat — po 5 latach) może być wypowiedziana z rocznym wyprzedzeniem na koniec roku. Po wypowiedzeniu dalsze korzystanie jest naruszeniem. | Spółka | art. 68 pr. aut. — **do weryfikacji** | Średnia |
 | **Due diligence inwestora.** Inwestor bada łańcuch tytułu, a nie oświadczenia. Luka oznacza warunek zamknięcia rundy, niższą wycenę albo gwarancje i escrow. | Spółka, wszyscy akcjonariusze | memorandum 3.1.3 | Wysoka |
 | **Granty i finansowanie publiczne.** Zwykle wymagają, żeby beneficjent miał prawa do wyników. Brak tytułu oznacza ryzyko zwrotu dotacji. | Spółka | warunki programów — **do weryfikacji** | Średnia |
-| **Podatki.** Aport IP to przychód założyciela w wysokości wartości wkładu (19%), a koszt dla samodzielnie napisanego kodu jest często zerowy. Nieodpłatne nabycie praw albo licencji przez Spółkę może być jej przychodem z nieodpłatnego świadczenia. | Założyciel, Spółka | art. 17 ust. 1 pkt 9, art. 22 ust. 1e pkt 3 PIT (memorandum 3.1.1, T9 pkt 3); art. 12 ust. 1 pkt 2 CIT — **do weryfikacji** | Średnia |
+| **Podatki.** Aport IP to co do zasady przychód założyciela w wysokości wartości wkładu (19%), a koszt dla samodzielnie napisanego kodu jest często zerowy. Wyjątek: gdy twórca wnosi autorskie prawa majątkowe do programu komputerowego, patent, wzór albo know-how, przychodu przy aporcie nie ustala się (art. 17 ust. 1e PIT). Nieodpłatne nabycie praw albo licencji przez Spółkę może być jej przychodem z nieodpłatnego świadczenia. | Założyciel, Spółka | art. 17 ust. 1 pkt 9 i ust. 1e, art. 5a pkt 34–35, art. 22 ust. 1e pkt 3 PIT (`audyt.md`, A4 i U4); art. 12 ust. 1 pkt 2 CIT | Średnia |
 
 **Mocne strony Spółki, gdyby wspólnik groził „zabraniem” praw.**
 
@@ -109,7 +109,7 @@ Zmiany przeniesiono do umowy Appolonii (`appolonia.tex` na `psa_simple2`, runda 
    - zasady dla pracowników wspólnych;
    - co się dzieje z licencjami po utracie statusu Spółki Siostrzanej.
 4. **Interpretacja podatkowa** (memorandum T9):
-   - wartość aportu IP i PIT założycieli;
+   - wartość aportu IP i PIT założycieli (zastosowanie art. 17 ust. 1e PIT do P.S.A.);
    - licencje nieodpłatne;
    - ceny transferowe między spółkami siostrzanymi.
 5. **Tajemnica przedsiębiorstwa** dla modeli, wag i danych: polityka dostępu, oznaczenia, umowy o poufności.

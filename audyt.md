@@ -1,12 +1,12 @@
-# Audyt prawny (stan końcowy po trzech rundach): Basilisk Systems P.S.A. 2.3-S i Appolonia P.S.A. 1.3-S
+# Audyt prawny (stan po trzech rundach, weryfikacji A4 i poprawce U4): Basilisk Systems P.S.A. 2.4-S i Appolonia P.S.A. 1.4-S
 
 | | |
 |----|----------------|
-| **Przedmiot** | 1. Umowa Basilisk Systems P.S.A. — `psa.tex`, wersja 2.3-S. 2. Umowa Appolonia P.S.A. — `appolonia.tex`, wersja 1.3-S. Obie na gałęzi `psa_simple2`, po 18 §, z Załącznikiem nr 1, lustrzane poza firmą, siedzibą, przedmiotem działalności i wariantem cywilnym Appolonii. 3. Konstrukcja spółek siostrzanych (§ 15), konsorcjum, przenoszenie IP. |
-| **Przebieg** | Audyt v0 (commit `99b14ac`) → trzy rundy „poprawka → audyt” (U1/A1, U2/A2, U3/A3) → weryfikacja tez A4 (punkt 6). Szczegóły każdej rundy: `audyt_rundy.md`. |
+| **Przedmiot** | 1. Umowa Basilisk Systems P.S.A. — `psa.tex`, wersja 2.4-S. 2. Umowa Appolonia P.S.A. — `appolonia.tex`, wersja 1.4-S. Obie na gałęzi `psa_simple2`, po 18 §, z Załącznikiem nr 1, lustrzane poza firmą, siedzibą, przedmiotem działalności i wariantem cywilnym Appolonii. 3. Konstrukcja spółek siostrzanych (§ 15), konsorcjum, przenoszenie IP. |
+| **Przebieg** | Audyt v0 (commit `99b14ac`) → trzy rundy „poprawka → audyt” (U1/A1, U2/A2, U3/A3) → weryfikacja tez A4 (punkt 6) → poprawka U4 (§ 15 ust. 9). Szczegóły każdej rundy: `audyt_rundy.md`. |
 | **Data** | listopad 2026 r. |
 | **Stan prawny** | Teksty ujednolicone w `src/legal/`: KSH (t.j. Dz.U. 2024 poz. 18 z późn. zm., w tym zmiany od 18.02.2027 r. z Dz.U. 2026 poz. 176), KC (t.j. Dz.U. 2026 poz. 795), PIT (t.j. Dz.U. 2026 poz. 592 z późn. zm., stan na 16.09.2026 r.), ustawa o rachunkowości (t.j. Dz.U. 2026 poz. 522 z późn. zm.), prawo autorskie (t.j. Dz.U. 2025 poz. 24), rozporządzenie 2021/697 (EDF). Ponadto `memorandum.md` i źródła wskazane w raporcie. |
-| **Ocena końcowa** | **W treści obu umów nie zostało ryzyko krytyczne ani wysokie.** Wszystkie 8 ryzyk K i W z audytu v0 oraz 3 ryzyka W wykryte w rundach usunięto w tekście. Zostają ryzyka rezydualne: czynności i dokumenty przy akcie (najważniejsze — uchwała o pełnomocniku i umowy przenoszące IP), podatki i decyzje biznesowe (punkt 1.3). Weryfikacja A4 (punkt 6) potwierdziła większość tez i wykazała trzy kwestie poza treścią umów: wzajemną dominację spółek przy wspólnych dyrektorach (z zakazem obejmowania akcji drugiej spółki), stosowanie art. 15 KSH do dyrektorów P.S.A. oraz podatek od aportu IP płatny bez gotówki. |
+| **Ocena końcowa** | **W treści obu umów nie zostało ryzyko krytyczne ani wysokie.** Wszystkie 8 ryzyk K i W z audytu v0 oraz 3 ryzyka W wykryte w rundach usunięto w tekście. Zostają ryzyka rezydualne: czynności i dokumenty przy akcie (najważniejsze — uchwała o pełnomocniku i umowy przenoszące IP), podatki i decyzje biznesowe (punkt 1.3). Weryfikacja A4 (punkt 6) potwierdziła większość tez i wykazała trzy kwestie poza treścią umów: wzajemną dominację spółek przy wspólnych dyrektorach (z zakazem obejmowania akcji drugiej spółki), stosowanie art. 15 KSH do dyrektorów P.S.A. oraz opodatkowanie aportu IP. Tę ostatnią tezę skorygowano w U4: program komputerowy, patent, wzór i know-how wnoszone przez twórcę nie dają przychodu przy aporcie (art. 17 ust. 1e PIT), a podatek w dniu wpisu dotyczy innych utworów i serii F. Skutki dominacji dla obejmowania i nabywania akcji drugiej spółki oraz zawiadomienia wpisano do § 15 ust. 9 (U4). |
 
 **Weryfikacja źródeł.** W tym środowisku nie było dostępu do ISAP, portalu orzeczeń SN, SAOS, CBOSA ani systemów Legalis/LEX. Teksty ustaw pobrane wcześniej z ISAP i EUR-Lex leżą w `src/legal/` i na nich oparto weryfikację A4.
 
@@ -31,6 +31,7 @@ Raport nie zastępuje opinii adwokata, radcy prawnego ani doradcy podatkowego.
 | **U2 → A2** | 2.2-S / 1.2-S | Wszystkie ustalenia A1 | 1 W: pętla w vestingu po zbyciu w wykonaniu obowiązku; 1 Ś: podatek przy cenie emisyjnej; 1 N: sztywny zakaz głosu zastawnika |
 | **U3 → A3** | 2.3-S / 1.3-S | Wszystkie ustalenia A2 | Brak nowych ryzyk K i W w treści; ryzyka rezydualne (punkt 1.3) |
 | **A4** | bez zmian | Weryfikacja tez na tekstach ustaw i w wyszukiwaniu (punkt 6) | 3 kwestie poza treścią umów (A4-1 – A4-3), propozycja doprecyzowania § 15 ust. 9, korekta tezy o art. 15 KSH |
+| **U4** | 2.4-S / 1.4-S | § 15 ust. 9 według A4-1 (punkt 6.3) | — |
 
 ### 1.2. Co jest dobrze
 
@@ -64,12 +65,12 @@ Raport nie zastępuje opinii adwokata, radcy prawnego ani doradcy podatkowego.
 | A1-1 | Vesting bez terminu | Usunięte (U2) | N |
 | A1-2 | Definicja spółki siostrzanej | Usunięte (U2) | N |
 | A2-1 | Pętla w vestingu | Usunięte (U3) | N |
-| **A4-1** | Wzajemna dominacja przy wspólnych dyrektorach: zawiadomienia z art. 6 § 1, zgoda WZ spółki dominującej na pożyczkę spółki zależnej dla jej dyrektora (art. 15 § 2), zakaz obejmowania akcji drugiej spółki (art. 300⁴⁸ § 1), nabycie jej akcji jako akcji własnych (art. 300⁴⁷ § 9) **[Z]** | Nowe (A4), poza treścią umów; § 15 ust. 9 do doprecyzowania (punkt 6.3) | **Ś** — Rady, w których wspólni dyrektorzy stanowią najwyżej połowę, albo przestrzeganie skutków dominacji |
+| **A4-1** | Wzajemna dominacja przy wspólnych dyrektorach: zawiadomienia z art. 6 § 1, zgoda WZ spółki dominującej na pożyczkę spółki zależnej dla jej dyrektora (art. 15 § 2), zakaz obejmowania akcji drugiej spółki (art. 300⁴⁸ § 1), nabycie jej akcji jako akcji własnych (art. 300⁴⁷ § 9) **[Z]** | Ograniczone (U4): § 15 ust. 9 wyklucza objęcie akcji spółki dominującej, do nabycia stosuje przepisy o akcjach własnych i nakazuje zawiadomienia także przy dominacji z lit. d | **Ś** — Rady, w których wspólni dyrektorzy stanowią najwyżej połowę, albo przestrzeganie skutków dominacji |
 | **A4-2** | Art. 15 § 1 KSH obejmuje dyrektora P.S.A. (art. 4 § 2¹ **[Z]**); bez zgody WZ umowa jest nieważna, zgoda możliwa do 2 miesięcy po czynności (art. 17 § 1–2 **[Z]**) | Umowy zgodne (§ 13 lit. k); błąd był w `memorandum.md` 2.2.4 i w audycie | N |
 | **A4-3** | Prawo autorskie po noweli: godziwe wynagrodzenie (art. 43 ust. 2–3), podwyższenie przez sąd (art. 44), informacja o przychodach (art. 47¹). Nie dotyczą programów komputerowych (art. 77 ust. 1), dotyczą dokumentacji, projektów i grafik **[Z]** | Umowy zgodne (§ 14 ust. 1 lit. d) | N — pilnować w umowach o pracę i B2B |
 | Ś1 | Fikcja zgody a rejestr | Ograniczone (U1, U2): obowiązek w umowie z podmiotem prowadzącym rejestr | N — do uzgodnienia z podmiotem przed aktem; A4: brak orzeczeń i komentarzy, tekst art. 300³⁹ § 1 jej nie wyklucza **[Z]** |
 | Ś6 | Art. 41 ust. 3 pr. aut. | Ograniczone (U1): utwory „w ramach zadań”, kwartalne potwierdzenia | N — A4: przepis unieważnia umowę co do wszystkich utworów (danego rodzaju) **[Z]**, nie co do utworów w ramach zadań **[S]** |
-| Ś7–Ś9, A2-2 | Podatki: aport IP, licencje nieodpłatne, cena emisyjna w vestingu, seria F za pracę, ceny transferowe | Ograniczone (U1, U3: dokumentacja ceny) | **Ś** — A4: mechanika potwierdzona na tekście PIT; aport IP i seria F są opodatkowane w dniu wpisu, bez gotówki; interpretacje indywidualne nadal wskazane (punkt 6) |
+| Ś7–Ś9, A2-2 | Podatki: aport IP, licencje nieodpłatne, cena emisyjna w vestingu, seria F za pracę, ceny transferowe | Ograniczone (U1, U3: dokumentacja ceny) | **Ś** — A4/U4: mechanika potwierdzona na tekście PIT. Program komputerowy, patent, wzór i know-how wnoszone przez twórcę — bez przychodu przy aporcie (art. 17 ust. 1e). Inne utwory i seria F — podatek w dniu wpisu, bez gotówki. Interpretacje indywidualne nadal wskazane (punkt 6) |
 | Ś10 | Umowa o Współpracy nie istnieje | Poza treścią | **Ś** — bez niej § 15 nie daje licencji ani rozliczeń |
 | Ś11 | Appolonia | Poprawki przeniesione (U1–U3) | **Ś** — firma („Appolonia”/„Apollonia”), siedziba, skład założycieli, PKD |
 | N7 | Kody PKD 2025 | Poza treścią | N — sprawdzić przed wnioskiem do KRS |
@@ -78,7 +79,7 @@ Raport nie zastępuje opinii adwokata, radcy prawnego ani doradcy podatkowego.
 
 ---
 
-## 2. Umowy — analiza postanowień (stan 2.3-S / 1.3-S)
+## 2. Umowy — analiza postanowień (stan 2.4-S / 1.4-S)
 
 Poniżej tylko to, co istotne dla oceny prawnej. Numeracja jest taka sama w obu umowach.
 
@@ -112,7 +113,8 @@ Poniżej tylko to, co istotne dla oceny prawnej. Numeracja jest taka sama w obu 
   - SN I CK 381/05, III CK 124/05 **[S]** — pola eksploatacji muszą być wymienione wyraźnie i znane w chwili umowy.
 - **Uwagi:**
   - ust. 6 jest kompletny: forma, pola eksploatacji, prawa zależne, współtwórcy, wynagrodzenie = akcje, licencja tymczasowa, wykonanie w naturze;
-  - ust. 5 rozstrzyga kolejność: IP w dniu aktu, pozostałe wkłady niepieniężne do 14 dni po wpisie.
+  - ust. 5 rozstrzyga kolejność: IP w dniu aktu, pozostałe wkłady niepieniężne do 14 dni po wpisie;
+  - PIT (korekta U4): aport autorskich praw majątkowych do programu komputerowego, patentu, wzoru albo know-how przez ich twórcę nie daje przychodu przy aporcie (art. 17 ust. 1e, art. 5a pkt 34–35 PIT **[Z]**). Inne utwory, np. dokumentacja i grafika, dają przychód w dniu wpisu Spółki (art. 17 ust. 1 pkt 9, ust. 1a pkt 1 **[Z]**). Dlatego Załącznik nr 1 powinien opisywać program jako osobny wkład twórcy.
 
 ### § 5–7. Emisje, seria F, seria P
 
@@ -227,7 +229,7 @@ Poniżej tylko to, co istotne dla oceny prawnej. Numeracja jest taka sama w obu 
     - umowa kredytu, pożyczki albo poręczenia spółki zależnej z dyrektorem spółki dominującej wymaga zgody WZ spółki dominującej (art. 15 § 2);
     - spółka zależna nie może obejmować akcji spółki dominującej (art. 300⁴⁸ § 1 zd. 2). Objęcie wbrew zakazowi jest ważne, ale dyrektor odpowiada solidarnie za pełne wniesienie wkładu, chyba że nie ponosi winy (§ 2–3). Przy wspólnych Radach wyklucza to krzyżowy aport akcji;
     - nabycie akcji spółki dominującej przez zależną traktuje się jak nabycie akcji własnych: cel z katalogu, limit 25%, kapitał rezerwowy, brak głosu (art. 300⁴⁷ § 2, 8 i 9).
-  - § 15 ust. 9 wymaga zgody WZ (75%) i zawiadomienia z art. 6. Warto dopisać skutki art. 300⁴⁷–300⁴⁸ i zawiadomienie przy dominacji z lit. d (propozycja w punkcie 6.3).
+  - § 15 ust. 9 (od 2.4-S / 1.4-S) wymaga zgody WZ (75%), wyklucza objęcie akcji spółki dominującej, do ich nabycia stosuje przepisy o akcjach własnych i nakazuje zawiadomienia z art. 6 także przy dominacji z lit. d (punkt 6.3).
   - Dominacji z lit. d nie ma, jeśli wspólni dyrektorzy stanowią najwyżej połowę każdej Rady (np. Rady po 3 osoby, w tym 1 wspólna).
 - **Grupa spółek** (art. 21¹–21¹⁶ KSH, Dz.U. 2022 poz. 807 **[S]**) wymaga spółki dominującej — opcja na etap holdingu.
 - **IP między spółkami:**
@@ -300,7 +302,7 @@ Poniżej tylko to, co istotne dla oceny prawnej. Numeracja jest taka sama w obu 
 3. Wykazy do aportu: repozytoria z commitami i sumami kontrolnymi, współtwórcy, open source z licencjami, oświadczenia o braku praw byłych pracodawców i uczelni.
 4. Weryfikacja kodów PKD 2025. Dla Appolonii: firma, siedziba, skład założycieli.
 5. Skład Rad obu spółek: wspólni dyrektorzy najwyżej połowa każdej Rady albo przyjęcie skutków wzajemnej dominacji (A4-1).
-6. Gotówka założycieli na PIT od aportu IP: 19% wartości wkładu, rozliczane w zeznaniu za rok wpisu Spółki (art. 17 ust. 1 pkt 9 i ust. 1a, art. 30b ust. 1 pkt 4 PIT).
+6. PIT od aportu IP: w Załączniku nr 1 opisać wkład jako autorskie prawa majątkowe do programu komputerowego (albo patent, wzór, know-how) wnoszone przez twórcę — wtedy przychodu nie ustala się (art. 17 ust. 1e PIT). Inne utwory (np. dokumentację, grafikę) wycenić osobno: od nich 19% wartości wkładu rozlicza się w zeznaniu za rok wpisu Spółki (art. 17 ust. 1 pkt 9 i ust. 1a, art. 30b ust. 1 pkt 4 PIT). Wyjątek nie działa dla programu, do którego prawa ma pracodawca (art. 74 ust. 3 pr. aut.) albo zleceniodawca, któremu je przeniesiono.
 
 **Przy akcie**
 
@@ -336,7 +338,7 @@ Tezy z dawnej listy pytań i tezy oznaczone [W] sprawdzono 5.11.2026 r. na tekst
 | 5 | Łączenie pierwszego roku obrotowego (§ 16 ust. 5) | **Potwierdzona** (art. 3 ust. 1 pkt 9 UoR) | [Z] |
 | 6a | Basilisk i Appolonia jako jedna grupa kapitałowa (Pzp) | **Częściowo.** Grupa kapitałowa to przedsiębiorcy kontrolowani przez jednego przedsiębiorcę (art. 4 pkt 14 u.o.k.k.); komentarze zaliczają do niej spółki kontrolowane przez tę samą osobę fizyczną. Przy wspólnej kontroli kilku założycieli — niepewne. Orzeczenia KIO nie znaleziono | [S]; [W] |
 | 6b | Niezależność członków konsorcjum EDF | **Potwierdzona treść** (art. 10 ust. 4–5, art. 2 pkt 1 i 6 rozporządzenia 2021/697). Osoba fizyczna nie jest „podmiotem prawnym”. Ryzyko: wzajemna dominacja przez Rady jako „kontrola” | [Z]; [W] |
-| 7a | PIT od aportu IP | **Potwierdzona mechanika.** Przychodem jest wartość wkładu z umowy spółki, a jeśli jest niższa od rynkowej — wartość rynkowa (art. 17 ust. 1 pkt 9). Przychód powstaje w dniu wpisu spółki (ust. 1a pkt 1). Kosztem są faktycznie poniesione wydatki na wytworzenie (art. 22 ust. 1e pkt 3). Stawka 19% (art. 30b ust. 1 pkt 4). Podatek płaci się bez gotówki ze Spółki | [Z] |
+| 7a | PIT od aportu IP | **Potwierdzona, z wyjątkiem dla twórców (korekta U4).** Zasada: przychodem jest wartość wkładu z umowy spółki, a jeśli jest niższa od rynkowej — wartość rynkowa (art. 17 ust. 1 pkt 9); przychód powstaje w dniu wpisu spółki, także przy jej zakładaniu (ust. 1a pkt 1); kosztem są faktycznie poniesione wydatki na wytworzenie (art. 22 ust. 1e pkt 3); stawka 19% (art. 30b ust. 1 pkt 4). Wyjątek: przychodu nie ustala się, gdy twórca wnosi do spółki kapitałowej autorskie prawa majątkowe do programu komputerowego, patent, prawo ochronne albo z rejestracji, udokumentowane know-how albo licencję na nie (art. 17 ust. 1e, art. 5a pkt 34–35). Podatek pojawia się przy sprzedaży akcji; koszt przy sprzedaży (art. 22 ust. 1f pkt 1) potwierdzić interpretacją | [Z]; koszt przy sprzedaży [W] |
 | 7b | Przychód Spółki z licencji nieodpłatnej (§ 14 ust. 2) | **Potwierdzona zasada** (art. 12 ust. 1 pkt 2 i ust. 6 CIT; NSA II FPS 1/06). Interpretacji dla licencji od wspólnika nie znaleziono | [S] |
 | 7c | Cena w vestingu | **Potwierdzona mechanika.** Zbywca: wartość rynkowa tylko przy cenie znacznie odbiegającej „bez uzasadnionej przyczyny” (art. 19 ust. 1 i 4 PIT). Nabywca: świadczenie częściowo odpłatne (art. 11 ust. 2b) — teza ryzyka, interpretacji nie znaleziono | [Z] tekst; [W] praktyka |
 | 7d | Seria F za pracę | **Mechanika potwierdzona, kwalifikacja otwarta.** Praca i usługi są wkładem niepieniężnym (art. 300² § 2 KSH), więc stosuje się art. 17 ust. 1 pkt 9 PIT. Przychód powstaje w dniu wpisu emisji (ust. 1a pkt 2), przed wykonaniem pracy. Organ może go jednak uznać za przychód z pracy lub usług; przepisu szczególnego w PIT nie ma | [Z] tekst; [W] kwalifikacja |
@@ -351,15 +353,15 @@ Tezy z dawnej listy pytań i tezy oznaczone [W] sprawdzono 5.11.2026 r. na tekst
 
 1. Fikcja zgody (§ 8 ust. 1): czy przyjmie ją podmiot prowadzący rejestr. Alternatywa: wyraźna zgoda Rady w krótkim terminie.
 2. Art. 39 § 1 KC a umowy z dyrektorem zawarte bez pełnomocnika (sprawa SN I CSK 459/25).
-3. Interpretacje indywidualne: aport IP (wartość, koszt), seria F (źródło przychodu), licencja nieodpłatna (§ 14 ust. 2), przychód nabywcy w vestingu.
+3. Interpretacje indywidualne: aport IP (art. 17 ust. 1e PIT przy P.S.A., koszt przy sprzedaży akcji), seria F (źródło przychodu), licencja nieodpłatna (§ 14 ust. 2), przychód nabywcy w vestingu.
 4. Pzp przy wspólnej kontroli kilku założycieli; EDF — czy wzajemna dominacja przez Rady jest „kontrolą”.
 5. Brzmienie art. 445 Pzp i zmiany w cenach transferowych od 5.11.2026 r. (źródło niedostępne w tej sesji).
 
-### 6.3. Propozycja zmiany umów (niewprowadzona)
+### 6.3. Zmiana umów (wprowadzona w U4)
 
-§ 15 ust. 9 obu umów. Obecnie: „Objęcie albo nabycie przez Spółkę akcji Spółki Siostrzanej wymaga uchwały Walnego Zgromadzenia podjętej większością 75% wszystkich głosów; jeżeli powstanie stosunek dominacji, Spółka dokonuje zawiadomienia, o którym mowa w art. 6 KSH.”
+§ 15 ust. 9 obu umów. Było (2.3-S / 1.3-S): „Objęcie albo nabycie przez Spółkę akcji Spółki Siostrzanej wymaga uchwały Walnego Zgromadzenia podjętej większością 75% wszystkich głosów; jeżeli powstanie stosunek dominacji, Spółka dokonuje zawiadomienia, o którym mowa w art. 6 KSH.”
 
-Propozycja: „Objęcie albo nabycie przez Spółkę akcji Spółki Siostrzanej wymaga uchwały Walnego Zgromadzenia podjętej większością 75% wszystkich głosów. Jeżeli Spółka Siostrzana jest wobec Spółki spółką dominującą, Spółka nie obejmuje jej akcji (art. 300⁴⁸ § 1 KSH), a do ich nabycia stosuje się przepisy o nabyciu akcji własnych (art. 300⁴⁷ § 9 KSH). Spółka dokonuje zawiadomień, o których mowa w art. 6 § 1 i 6 KSH, także gdy stosunek dominacji albo jego ustanie wynika z art. 4 § 1 pkt 4 lit. d KSH.”
+Jest (2.4-S / 1.4-S): „Objęcie albo nabycie przez Spółkę akcji Spółki Siostrzanej wymaga uchwały Walnego Zgromadzenia podjętej większością 75% wszystkich głosów. Jeżeli Spółka Siostrzana jest wobec Spółki spółką dominującą, Spółka nie obejmuje jej akcji (art. 300⁴⁸ § 1 KSH), a do ich nabycia stosuje się przepisy o nabyciu akcji własnych (art. 300⁴⁷ § 9 KSH). Spółka dokonuje zawiadomień, o których mowa w art. 6 § 1 i 6 KSH, także gdy stosunek dominacji albo jego ustanie wynika z art. 4 § 1 pkt 4 lit. d KSH.”
 
 ---
 

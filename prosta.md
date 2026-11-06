@@ -1,10 +1,10 @@
-# Umowa P.S.A. — wariant prosty (2.3-S): co wyszło, co jest ponad S24, co zmieniliśmy
+# Umowa P.S.A. — wariant prosty (2.4-S): co wyszło, co jest ponad S24, co zmieniliśmy
 
 **Porównywane dokumenty**
 
 | | Dokument | Objętość |
 |---|---|---|
-| **Teraz** | `psa.tex` — wersja 2.3-S (wariant prosty po trzech rundach poprawek z audytu, `audyt_rundy.md`) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 24 strony, ok. 8,0 tys. słów |
+| **Teraz** | `psa.tex` — wersja 2.4-S (wariant prosty po trzech rundach poprawek z audytu i poprawce po weryfikacji tez, `audyt_rundy.md`) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 24 strony, ok. 8,0 tys. słów |
 | **Poprzednio** | `psa.tex` — wersja 1.0-RC (commit `ac5005a`) | 38 §, 3 załączniki, 57 stron, ok. 20,3 tys. słów |
 | **Standard** | Wzorzec umowy P.S.A. w S24 — Załącznik nr 1 do rozporządzenia MS z 30.06.2021 r. (Dz.U. 2021 poz. 1191) | 19 §, wybór wariantów, bez pisania własnych postanowień |
 
@@ -12,7 +12,7 @@
 
 **Zasada wariantu prostego:** w umowie zostaje tylko to, co musi w niej być albo co działa wobec Spółki i każdego kolejnego nabywcy akcji (limity emisji, ograniczenia zbywania, obowiązki związane z akcją, tryb uchwał). Resztę reguluje się regulaminami i uchwałami albo dopisze się zmianą umowy, kiedy będzie potrzebna.
 
-Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n” — obecną wersję 2.3-S.
+Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n” — obecną wersję 2.4-S.
 
 ---
 
@@ -181,7 +181,7 @@ Dlatego obie umowy mają lustrzany paragraf o Spółce Siostrzanej (w Basilisk �
 | **Własność intelektualna** | Wyniki należą do spółki, której obszaru dotyczą. Wyniki przydatne w obu obszarach — do spółki wskazanej w Umowie o Współpracy, a druga dostaje licencję na swój obszar. | ust. 5 |
 | **Konflikt interesów** | Sam udział w spółce siostrzanej nie wyłącza dyrektora z głosowania | ust. 6 |
 | **Vesting** | Praca dla spółki siostrzanej nie przerywa vestingu, jeśli podział czasu zatwierdzi Rada albo określa go Umowa o Współpracy | ust. 7 |
-| **Akcje spółki siostrzanej** | Objęcie lub nabycie akcji siostry tylko za zgodą WZ (75%), z zawiadomieniem o dominacji z art. 6 KSH | ust. 9 |
+| **Akcje spółki siostrzanej** | Objęcie lub nabycie akcji siostry tylko za zgodą WZ (75%). Gdy siostra jest spółką dominującą (np. przez wspólnych dyrektorów), Spółka nie obejmuje jej akcji, a nabycie podlega przepisom o akcjach własnych (art. 300⁴⁸ § 1, art. 300⁴⁷ § 9 KSH). Zawiadomienia z art. 6 KSH także przy dominacji przez wspólne Rady (2.4-S) | ust. 9 |
 
 **Do zrobienia:** sama Umowa o Współpracy (osobny dokument), zatwierdzona uchwałami WZ obu spółek.
 
@@ -193,7 +193,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 
 ### 3.1. Emisje i serie
 
-| Element | Było (1.0-RC) | Jest (2.3-S) | Dlaczego |
+| Element | Było (1.0-RC) | Jest (2.4-S) | Dlaczego |
 |---|---|---|---|
 | **Limity emisji** | Rozproszone: limit serii F w § 9, puli P w § 8, akcji własnych w § 5; brak łącznego limitu; brak zasady dla nowych serii | Jeden § 5: zasada maks. liczby akcji dla każdej uchwały i upoważnienia, łączny limit 2 000 000, limity F i P, nowa seria tylko przez zmianę umowy | Wymóg „wszystko ma maksymalną liczbę akcji” zebrany w jednym miejscu i rozciągnięty na każdą emisję, także przyszłą |
 | **Seria F — większość** | 75% **Głosów Uprawnionych w Sprawie**, kandydat-akcjonariusz wyłączony od głosu; emisja i cofnięcie statusu — 75% wszystkich głosów | Zawsze **75% wszystkich głosów**, bez wyłączenia kandydata | Jeden sposób liczenia. Koszt: kandydat, który już ma akcje serii A, głosuje we własnej sprawie — przy 75% wszystkich głosów nie przegłosuje reszty sam. |
@@ -280,7 +280,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 4. **Poufność** — czy wpisać sztywne 10 lat (§ 14 ust. 3).
 5. **Rok obrotowy** — rozwiązane w 2.1-S (§ 16 ust. 5).
 6. **Zaliczki na dywidendę i głos zastawnika** — rozwiązane w 2.1-S (§ 16 ust. 4, § 3 ust. 9).
-7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.3-S.
+7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.4-S.
 8. **Umowa o Współpracy z Appolonia** — osobny dokument do napisania i zatwierdzenia uchwałami WZ obu spółek (§ 15 ust. 2 i 6, § 13 ust. 1 lit. j). Bez niej klauzula o Spółce Siostrzanej daje tylko podstawę, a nie konkretne licencje i rozliczenia.
 9. **Prawa autorskie i krzyżowy aport** — analiza skutków braku przeniesienia praw (od osób prywatnych i między spółkami) oraz wariantów krzyżowego aportu akcji: `analiza_ip_aport.md`, z pytaniami do prawnika i doradcy podatkowego w sekcji 3.
 10. **Audyt prawny z orzecznictwem** — `audyt.md` (stan po rundach poprawek); historia rund — `audyt_rundy.md`.

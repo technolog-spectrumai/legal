@@ -120,8 +120,20 @@ Tezy z `audyt.md` (dawny pkt 6 i oznaczenia [W]) sprawdzono na tekstach ustaw w 
 
 | ID | Ustalenie | Pr. | Status |
 |---|---|---|---|
-| A4-1 | Przy wspólnych dyrektorach Basilisk i Appolonia są wzajemnie dominujące (art. 4 § 1 pkt 4 lit. d, § 2¹, § 5 KSH). Skutki: zawiadomienia z art. 6 § 1, art. 15 § 2, zakaz obejmowania akcji drugiej spółki (art. 300⁴⁸ § 1), reżim akcji własnych (art. 300⁴⁷ § 9) | **Ś** | propozycja zmiany § 15 ust. 9 (`audyt.md` 6.3) — niewprowadzona |
+| A4-1 | Przy wspólnych dyrektorach Basilisk i Appolonia są wzajemnie dominujące (art. 4 § 1 pkt 4 lit. d, § 2¹, § 5 KSH). Skutki: zawiadomienia z art. 6 § 1, art. 15 § 2, zakaz obejmowania akcji drugiej spółki (art. 300⁴⁸ § 1), reżim akcji własnych (art. 300⁴⁷ § 9) | **Ś** | zmiana § 15 ust. 9 wprowadzona w U4 |
 | A4-2 | Art. 15 § 1 KSH obejmuje dyrektora P.S.A. (art. 4 § 2¹); teza memorandum 2.2.4 i audytu była błędna. Umowy zgodne (§ 13 lit. k) | N | poprawiono `audyt.md`, `prosta.md` |
 | A4-3 | Art. 43, 44 i 47¹ pr. aut. nie dotyczą programów komputerowych (art. 77 ust. 1), dotyczą dokumentacji i projektów. Umowy zgodne (§ 14 ust. 1 lit. d) | N | lista kontrolna |
-| A4-4 | Potwierdzone: pełnomocnik rodzajowy (III CZP 71/18), art. 41 ust. 3 pr. aut., rok obrotowy (art. 3 ust. 1 pkt 9 UoR), EDF art. 10 ust. 4, PIT od aportu IP (art. 17 ust. 1 pkt 9, ust. 1a; art. 22 ust. 1e pkt 3), art. 24 ust. 12b i ust. 8a PIT, III CZP 13/13 | — | zamknięte |
+| A4-4 | Potwierdzone: pełnomocnik rodzajowy (III CZP 71/18), art. 41 ust. 3 pr. aut., rok obrotowy (art. 3 ust. 1 pkt 9 UoR), EDF art. 10 ust. 4, PIT od aportu IP (art. 17 ust. 1 pkt 9, ust. 1a; art. 22 ust. 1e pkt 3 — z wyjątkiem z art. 17 ust. 1e, dopisanym w U4), art. 24 ust. 12b i ust. 8a PIT, III CZP 13/13 | — | zamknięte |
 | A4-5 | Otwarte: fikcja zgody (brak źródeł), art. 39 KC a umowy z dyrektorem (I CSK 459/25), interpretacje podatkowe, Pzp przy wspólnej kontroli, brzmienie art. 445 Pzp | **Ś** | `audyt.md` 6.2 |
+
+### U4 — co zmieniono (Basilisk 2.4-S, Appolonia 1.4-S)
+
+| Ustalenie | Zmiana | Gdzie |
+|---|---|---|
+| **A4-1** wzajemna dominacja przy wspólnych dyrektorach | Zgoda WZ (75%) bez zmian. Gdy Spółka Siostrzana jest spółką dominującą, Spółka nie obejmuje jej akcji (art. 300⁴⁸ § 1 KSH), a do ich nabycia stosuje się przepisy o akcjach własnych (art. 300⁴⁷ § 9 KSH). Zawiadomienia z art. 6 § 1 i 6 KSH także przy dominacji albo jej ustaniu z art. 4 § 1 pkt 4 lit. d KSH | § 15 ust. 9 |
+| korekta A4 (PIT) | Teza „podatek od aportu IP płatny bez gotówki” była niepełna. Przychodu nie ustala się, gdy twórca wnosi do spółki kapitałowej autorskie prawa majątkowe do programu komputerowego, patent, wzór, know-how albo licencję na nie (art. 17 ust. 1e, art. 5a pkt 34–35 PIT) | `audyt.md` (§ 4, rejestr, 6.1 pkt 7a, lista kontrolna), `analiza_ip_aport.md` |
+| dokumentacja | `audyt.md` (punkt 6.3, rejestr ryzyk, punkt 3), `prosta.md` pod 2.4-S | dokumenty |
+
+**Kontrola techniczna:**
+- obie umowy się kompilują (po 24 strony), nierozwiązanych odwołań: 0;
+- zmiana nie dodaje odesłań wewnętrznych; różnice między umowami bez zmian (tylko zamierzone miejsca).
