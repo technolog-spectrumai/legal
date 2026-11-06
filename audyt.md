@@ -1,9 +1,9 @@
-# Audyt prawny (stan po trzech rundach, weryfikacji A4 i poprawce U4): Basilisk Systems P.S.A. 2.4-S i Appolonia P.S.A. 1.4-S
+# Audyt prawny (stan po trzech rundach, weryfikacji A4 i poprawkach U4–U5): Basilisk Systems P.S.A. 2.5-S i Appolonia P.S.A. 1.5-S
 
 | | |
 |----|----------------|
-| **Przedmiot** | 1. Umowa Basilisk Systems P.S.A. — `psa.tex`, wersja 2.4-S. 2. Umowa Appolonia P.S.A. — `appolonia.tex`, wersja 1.4-S. Obie na gałęzi `psa_simple2`, po 18 §, z Załącznikiem nr 1, lustrzane poza firmą, siedzibą, przedmiotem działalności i wariantem cywilnym Appolonii. 3. Konstrukcja spółek siostrzanych (§ 15), konsorcjum, przenoszenie IP. |
-| **Przebieg** | Audyt v0 (commit `99b14ac`) → trzy rundy „poprawka → audyt” (U1/A1, U2/A2, U3/A3) → weryfikacja tez A4 (punkt 6) → poprawka U4 (§ 15 ust. 9). Szczegóły każdej rundy: `audyt_rundy.md`. |
+| **Przedmiot** | 1. Umowa Basilisk Systems P.S.A. — `psa.tex`, wersja 2.5-S. 2. Umowa Appolonia P.S.A. — `appolonia.tex`, wersja 1.5-S. Tłumaczenia robocze na angielski: `psa_en.tex`, `appolonia_en.tex`. Obie na gałęzi `psa_simple2`, po 18 §, z Załącznikiem nr 1, lustrzane poza firmą, siedzibą, przedmiotem działalności i wariantem cywilnym Appolonii. 3. Konstrukcja spółek siostrzanych (§ 15), konsorcjum, przenoszenie IP. |
+| **Przebieg** | Audyt v0 (commit `99b14ac`) → trzy rundy „poprawka → audyt” (U1/A1, U2/A2, U3/A3) → weryfikacja tez A4 (punkt 6) → poprawki U4 (§ 15 ust. 9) i U5 (Załącznik nr 1: Części B1 i B2). Szczegóły każdej rundy: `audyt_rundy.md`. |
 | **Data** | listopad 2026 r. |
 | **Stan prawny** | Teksty ujednolicone w `src/legal/`: KSH (t.j. Dz.U. 2024 poz. 18 z późn. zm., w tym zmiany od 18.02.2027 r. z Dz.U. 2026 poz. 176), KC (t.j. Dz.U. 2026 poz. 795), PIT (t.j. Dz.U. 2026 poz. 592 z późn. zm., stan na 16.09.2026 r.), ustawa o rachunkowości (t.j. Dz.U. 2026 poz. 522 z późn. zm.), prawo autorskie (t.j. Dz.U. 2025 poz. 24), rozporządzenie 2021/697 (EDF). Ponadto `memorandum.md` i źródła wskazane w raporcie. |
 | **Ocena końcowa** | **W treści obu umów nie zostało ryzyko krytyczne ani wysokie.** Wszystkie 8 ryzyk K i W z audytu v0 oraz 3 ryzyka W wykryte w rundach usunięto w tekście. Zostają ryzyka rezydualne: czynności i dokumenty przy akcie (najważniejsze — uchwała o pełnomocniku i umowy przenoszące IP), podatki i decyzje biznesowe (punkt 1.3). Weryfikacja A4 (punkt 6) potwierdziła większość tez i wykazała trzy kwestie poza treścią umów: wzajemną dominację spółek przy wspólnych dyrektorach (z zakazem obejmowania akcji drugiej spółki), stosowanie art. 15 KSH do dyrektorów P.S.A. oraz opodatkowanie aportu IP. Tę ostatnią tezę skorygowano w U4: program komputerowy, patent, wzór i know-how wnoszone przez twórcę nie dają przychodu przy aporcie (art. 17 ust. 1e PIT), a podatek w dniu wpisu dotyczy innych utworów i serii F. Skutki dominacji dla obejmowania i nabywania akcji drugiej spółki oraz zawiadomienia wpisano do § 15 ust. 9 (U4). |
@@ -32,6 +32,7 @@ Raport nie zastępuje opinii adwokata, radcy prawnego ani doradcy podatkowego.
 | **U3 → A3** | 2.3-S / 1.3-S | Wszystkie ustalenia A2 | Brak nowych ryzyk K i W w treści; ryzyka rezydualne (punkt 1.3) |
 | **A4** | bez zmian | Weryfikacja tez na tekstach ustaw i w wyszukiwaniu (punkt 6) | 3 kwestie poza treścią umów (A4-1 – A4-3), propozycja doprecyzowania § 15 ust. 9, korekta tezy o art. 15 KSH |
 | **U4** | 2.4-S / 1.4-S | § 15 ust. 9 według A4-1 (punkt 6.3) | — |
+| **U5** | 2.5-S / 1.5-S | Załącznik nr 1: wkłady twórców (art. 17 ust. 1e PIT) w Części B1, pozostałe wkłady niepieniężne w Części B2; § 4 ust. 3–4 | — |
 
 ### 1.2. Co jest dobrze
 
@@ -56,7 +57,7 @@ Raport nie zastępuje opinii adwokata, radcy prawnego ani doradcy podatkowego.
 |--|---------|---------|--------|
 | **K1** | Umowy z założycielami-dyrektorami bez pełnomocnika — nieważność | Usunięte w treści (U1, U2). **Do wykonania:** uchwała o pełnomocniku w akcie i podpisy pełnomocnika. | N — pełnomocnika „rodzajowego” dopuszcza SN III CZP 71/18 przy art. 210 § 1 KSH **[S]**, który ma tę samą konstrukcję co art. 300⁷⁹ § 1 **[Z]** (A4) |
 | **K2** | Aport IP niewniesiony | Usunięte w treści (U1). **Do wykonania:** komplet umów przeniesienia z wykazami w dniu aktu. | **Ś** — zależy od wykonania (punkt 5) |
-| **K3** | Wycena wkładów | Poza treścią — Załącznik nr 1 do wypełnienia | **Ś** — art. 300¹⁰ KSH, spójność z PIT |
+| **K3** | Wycena wkładów | Poza treścią — Załącznik nr 1 do wypełnienia; od 2.5-S z odrębną wartością każdego wkładu i podziałem na Części B1 i B2 (U5) | **Ś** — art. 300¹⁰ KSH, spójność z PIT |
 | W1 | Odkup przez Spółkę po cenie emisyjnej | Usunięte (U1) | N |
 | W2 | Nabywca wtórny w vestingu | Usunięte (U1, U3) | N |
 | W3 | Wczesne zamykanie uchwał obiegowych | Usunięte (U1) | N |
@@ -79,7 +80,7 @@ Raport nie zastępuje opinii adwokata, radcy prawnego ani doradcy podatkowego.
 
 ---
 
-## 2. Umowy — analiza postanowień (stan 2.4-S / 1.4-S)
+## 2. Umowy — analiza postanowień (stan 2.5-S / 1.5-S)
 
 Poniżej tylko to, co istotne dla oceny prawnej. Numeracja jest taka sama w obu umowach.
 
@@ -114,7 +115,7 @@ Poniżej tylko to, co istotne dla oceny prawnej. Numeracja jest taka sama w obu 
 - **Uwagi:**
   - ust. 6 jest kompletny: forma, pola eksploatacji, prawa zależne, współtwórcy, wynagrodzenie = akcje, licencja tymczasowa, wykonanie w naturze;
   - ust. 5 rozstrzyga kolejność: IP w dniu aktu, pozostałe wkłady niepieniężne do 14 dni po wpisie;
-  - PIT (korekta U4): aport autorskich praw majątkowych do programu komputerowego, patentu, wzoru albo know-how przez ich twórcę nie daje przychodu przy aporcie (art. 17 ust. 1e, art. 5a pkt 34–35 PIT **[Z]**). Inne utwory, np. dokumentacja i grafika, dają przychód w dniu wpisu Spółki (art. 17 ust. 1 pkt 9, ust. 1a pkt 1 **[Z]**). Dlatego Załącznik nr 1 powinien opisywać program jako osobny wkład twórcy.
+  - PIT (korekta U4): aport autorskich praw majątkowych do programu komputerowego, patentu, wzoru albo know-how przez ich twórcę nie daje przychodu przy aporcie (art. 17 ust. 1e, art. 5a pkt 34–35 PIT **[Z]**). Inne utwory, np. dokumentacja i grafika, dają przychód w dniu wpisu Spółki (art. 17 ust. 1 pkt 9, ust. 1a pkt 1 **[Z]**). Od 2.5-S Załącznik nr 1 rozdziela te wkłady: Część B1 — wkłady twórców objęte art. 17 ust. 1e PIT, Część B2 — pozostałe; każdy wkład ma odrębną wartość (§ 4 ust. 4).
 
 ### § 5–7. Emisje, seria F, seria P
 
@@ -302,7 +303,7 @@ Poniżej tylko to, co istotne dla oceny prawnej. Numeracja jest taka sama w obu 
 3. Wykazy do aportu: repozytoria z commitami i sumami kontrolnymi, współtwórcy, open source z licencjami, oświadczenia o braku praw byłych pracodawców i uczelni.
 4. Weryfikacja kodów PKD 2025. Dla Appolonii: firma, siedziba, skład założycieli.
 5. Skład Rad obu spółek: wspólni dyrektorzy najwyżej połowa każdej Rady albo przyjęcie skutków wzajemnej dominacji (A4-1).
-6. PIT od aportu IP: w Załączniku nr 1 opisać wkład jako autorskie prawa majątkowe do programu komputerowego (albo patent, wzór, know-how) wnoszone przez twórcę — wtedy przychodu nie ustala się (art. 17 ust. 1e PIT). Inne utwory (np. dokumentację, grafikę) wycenić osobno: od nich 19% wartości wkładu rozlicza się w zeznaniu za rok wpisu Spółki (art. 17 ust. 1 pkt 9 i ust. 1a, art. 30b ust. 1 pkt 4 PIT). Wyjątek nie działa dla programu, do którego prawa ma pracodawca (art. 74 ust. 3 pr. aut.) albo zleceniodawca, któremu je przeniesiono.
+6. PIT od aportu IP: wypełnić Załącznik nr 1 z podziałem (od 2.5-S). Część B1 — program komputerowy, patent, wzór albo know-how wnoszone przez twórcę, z jego oświadczeniem; przychodu nie ustala się (art. 17 ust. 1e PIT). Część B2 — inne utwory (np. dokumentacja, grafika), sprzęt i prawa nabyte; od nich 19% wartości wkładu rozlicza się w zeznaniu za rok wpisu Spółki (art. 17 ust. 1 pkt 9 i ust. 1a, art. 30b ust. 1 pkt 4 PIT). Wyjątek nie działa dla programu, do którego prawa ma pracodawca (art. 74 ust. 3 pr. aut.) albo zleceniodawca, któremu je przeniesiono.
 
 **Przy akcie**
 

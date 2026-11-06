@@ -1,10 +1,10 @@
-# Umowa P.S.A. — wariant prosty (2.4-S): co wyszło, co jest ponad S24, co zmieniliśmy
+# Umowa P.S.A. — wariant prosty (2.5-S): co wyszło, co jest ponad S24, co zmieniliśmy
 
 **Porównywane dokumenty**
 
 | | Dokument | Objętość |
 |---|---|---|
-| **Teraz** | `psa.tex` — wersja 2.4-S (wariant prosty po trzech rundach poprawek z audytu i poprawce po weryfikacji tez, `audyt_rundy.md`) | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 24 strony, ok. 8,0 tys. słów |
+| **Teraz** | `psa.tex` — wersja 2.5-S (wariant prosty po trzech rundach poprawek z audytu i poprawkach po weryfikacji tez, `audyt_rundy.md`); tłumaczenie robocze na angielski: `psa_en.tex` | 18 § (w tym § 15 o współpracy ze Spółką Siostrzaną), 1 załącznik, 26 strony, ok. 8,4 tys. słów |
 | **Poprzednio** | `psa.tex` — wersja 1.0-RC (commit `ac5005a`) | 38 §, 3 załączniki, 57 stron, ok. 20,3 tys. słów |
 | **Standard** | Wzorzec umowy P.S.A. w S24 — Załącznik nr 1 do rozporządzenia MS z 30.06.2021 r. (Dz.U. 2021 poz. 1191) | 19 §, wybór wariantów, bez pisania własnych postanowień |
 
@@ -12,7 +12,7 @@
 
 **Zasada wariantu prostego:** w umowie zostaje tylko to, co musi w niej być albo co działa wobec Spółki i każdego kolejnego nabywcy akcji (limity emisji, ograniczenia zbywania, obowiązki związane z akcją, tryb uchwał). Resztę reguluje się regulaminami i uchwałami albo dopisze się zmianą umowy, kiedy będzie potrzebna.
 
-Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n” — obecną wersję 2.4-S.
+Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n” — obecną wersję 2.5-S.
 
 ---
 
@@ -103,7 +103,7 @@ Numery paragrafów: „§ n (1.0-RC)” oznacza starą wersję, a samo „§ n�
 
 | Element | Po co | Gdzie |
 |---|---|---|
-| **Wkłady niepieniężne** z Załącznikiem nr 1 (przedmiot, numery akcji, wartość, podstawa wyceny, dokument przeniesienia) | Wnosimy kod, sprzęt i patenty. To właśnie wyklucza S24. | § 4, Załącznik nr 1 |
+| **Wkłady niepieniężne** z Załącznikiem nr 1 (przedmiot, numery akcji, wartość, podstawa wyceny, dokument przeniesienia; od 2.5-S osobno wkłady twórców i pozostałe) | Wnosimy kod, sprzęt i patenty. To właśnie wyklucza S24. | § 4, Załącznik nr 1 |
 | **Zasada maksymalnej liczby akcji**: każda uchwała emisyjna, upoważnienie, program i umowa dająca prawo do akcji musi podać maksymalną liczbę akcji i termin, inaczej nie jest podstawą emisji | Nikt nie wyemituje „otwartej” liczby akcji ani nie obieca nieograniczonych opcji | § 5 ust. 1 |
 | **Łączny limit 2 000 000 akcji** wszystkich serii, łącznie z nierozliczonymi prawami do akcji | Sztywny sufit rozwodnienia; jego podniesienie wymaga zmiany umowy | § 5 ust. 2 |
 | **Seria F** — Założyciele Funkcjonalni: limit 250 000 akcji i 20% po emisji, uchwała kwalifikacyjna, odrębna od serii P | Przyjmowanie późniejszych współzałożycieli bez zmiany umowy | § 5 ust. 3 lit. a, § 6 |
@@ -193,7 +193,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 
 ### 3.1. Emisje i serie
 
-| Element | Było (1.0-RC) | Jest (2.4-S) | Dlaczego |
+| Element | Było (1.0-RC) | Jest (2.5-S) | Dlaczego |
 |---|---|---|---|
 | **Limity emisji** | Rozproszone: limit serii F w § 9, puli P w § 8, akcji własnych w § 5; brak łącznego limitu; brak zasady dla nowych serii | Jeden § 5: zasada maks. liczby akcji dla każdej uchwały i upoważnienia, łączny limit 2 000 000, limity F i P, nowa seria tylko przez zmianę umowy | Wymóg „wszystko ma maksymalną liczbę akcji” zebrany w jednym miejscu i rozciągnięty na każdą emisję, także przyszłą |
 | **Seria F — większość** | 75% **Głosów Uprawnionych w Sprawie**, kandydat-akcjonariusz wyłączony od głosu; emisja i cofnięcie statusu — 75% wszystkich głosów | Zawsze **75% wszystkich głosów**, bez wyłączenia kandydata | Jeden sposób liczenia. Koszt: kandydat, który już ma akcje serii A, głosuje we własnej sprawie — przy 75% wszystkich głosów nie przegłosuje reszty sam. |
@@ -268,7 +268,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 | **Zakaz konkurencji — kogo dotyczy** | Akcjonariusze Funkcjonalni (w okresie zaangażowania); zgoda WZ; wyjątek 2% spółki publicznej i Załącznik nr 3 | Założyciele Pierwotni i Akcjonariusze Funkcjonalni (dopóki są akcjonariuszami) oraz dyrektorzy; zgoda Rady bez udziału zainteresowanego; wyjątek 5% portfelowo | Zgoda szybciej (Rada zamiast WZ). Inwestorzy finansowi nie są objęci (od 2.1-S). |
 | **Przedmiot działalności** | Cel strategiczny (§ 3) + plan działalności (§ 4 ust. 1–3) + PKD w podziale na główne i dodatkowe + 2 ustępy zastrzeżeń | Jedno zdanie opisu + 13 kodów PKD: 9 ujawnianych w KRS przy pierwszym wpisie (lit. a, z 72.10.Z jako przeważającą) i 4 dla dalszego rozwoju (lit. b) + 1 ustęp zastrzeżeń | Zakres na lądzie i w powietrzu; jednostki nawodne i kody morskie (30.11.Z, 33.15.Z) przeszły do Appolonia P.S.A., żeby zakresy obu spółek się nie pokrywały. Bez kodów wojskowych — wariant z nimi (30.32.Z, 30.40.Z, 33.18.Z) jest na gałęzi `psa_wo`; mniej tekstu opisowego |
 | **Zmiana umowy — zgoda indywidualna** | Przy zaostrzeniu vestingu, lock-upu i drag-along | Przy zaostrzeniu vestingu i lock-upu (drag-along zniknął) | Konsekwencja |
-| **Załącznik nr 1** | Tabela akcji + Część A (niepieniężne) + Część B (pieniężne) | Część A (akcje + **data rozpoczęcia vestingu**) + B (niepieniężne) + C (pieniężne) | Załącznik nr 2 wchłonięty |
+| **Załącznik nr 1** | Tabela akcji + Część A (niepieniężne) + Część B (pieniężne) | Część A (akcje + **data rozpoczęcia vestingu**) + B1 (wkłady twórców: program, patent, wzór, know-how) + B2 (pozostałe niepieniężne) + C (pieniężne) | Załącznik nr 2 wchłonięty; podział B1/B2 od 2.5-S, bo aport twórcy nie daje przychodu w PIT (art. 17 ust. 1e) |
 
 ---
 
@@ -280,7 +280,7 @@ Elementy, które były w 1.0-RC i zostały, ale w zmienionej postaci.
 4. **Poufność** — czy wpisać sztywne 10 lat (§ 14 ust. 3).
 5. **Rok obrotowy** — rozwiązane w 2.1-S (§ 16 ust. 5).
 6. **Zaliczki na dywidendę i głos zastawnika** — rozwiązane w 2.1-S (§ 16 ust. 4, § 3 ust. 9).
-7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.4-S.
+7. **Dokumenty zależne** — `extra.tex`, `psa_feedback.tex`, `shareholder_agreement.tex` i `uchwaly.tex` odwołują się do paragrafów 1.0-RC, których już nie ma, i pokazują „??” (odpowiednio 127, 53, 56 i 15 odwołań). Wymagają przepisania pod wersję 2.5-S.
 8. **Umowa o Współpracy z Appolonia** — osobny dokument do napisania i zatwierdzenia uchwałami WZ obu spółek (§ 15 ust. 2 i 6, § 13 ust. 1 lit. j). Bez niej klauzula o Spółce Siostrzanej daje tylko podstawę, a nie konkretne licencje i rozliczenia.
 9. **Prawa autorskie i krzyżowy aport** — analiza skutków braku przeniesienia praw (od osób prywatnych i między spółkami) oraz wariantów krzyżowego aportu akcji: `analiza_ip_aport.md`, z pytaniami do prawnika i doradcy podatkowego w sekcji 3.
 10. **Audyt prawny z orzecznictwem** — `audyt.md` (stan po rundach poprawek); historia rund — `audyt_rundy.md`.

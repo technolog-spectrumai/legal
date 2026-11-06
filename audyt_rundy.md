@@ -137,3 +137,12 @@ Tezy z `audyt.md` (dawny pkt 6 i oznaczenia [W]) sprawdzono na tekstach ustaw w 
 **Kontrola techniczna:**
 - obie umowy się kompilują (po 24 strony), nierozwiązanych odwołań: 0;
 - zmiana nie dodaje odesłań wewnętrznych; różnice między umowami bez zmian (tylko zamierzone miejsca).
+
+### U5 — co zmieniono (Basilisk 2.5-S, Appolonia 1.5-S; wersje angielskie tak samo)
+
+| Ustalenie | Zmiana | Gdzie |
+|---|---|---|
+| Korekta A4 (PIT, art. 17 ust. 1e) | Część B Załącznika nr 1 podzielona. B1 — wkłady twórców: autorskie prawa majątkowe do programu komputerowego, patenty, prawa ochronne, prawa z rejestracji i prawa do ich uzyskania, udokumentowane know-how; z kolumną „twórca; współtwórcy i ich udziały” i oświadczeniem twórcy. B2 — pozostałe wkłady niepieniężne. Każdy wkład ma odrębną wartość; § 4 ust. 3 wymienia udokumentowane know-how | Załącznik nr 1, § 4 ust. 3–4 |
+| dokumentacja | `audyt.md` (rejestr K3, § 4, lista kontrolna), `prosta.md` pod 2.5-S | dokumenty |
+
+**Kontrola techniczna:** wszystkie cztery umowy (PL i EN) się kompilują (polskie po 26 strony), nierozwiązanych odwołań: 0.
