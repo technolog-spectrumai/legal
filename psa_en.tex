@@ -1,0 +1,449 @@
+% !TeX program = pdflatex
+% English convenience translation of psa.tex (same version and structure; labels identical to psa.tex).
+% Only the Polish text is binding. Keep this file in sync with psa.tex.
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish,english]{babel}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- draft P.S.A. articles of association (simple variant)}
+\BusinessPlanConfidentialText{Draft articles --- simple variant --- English convenience translation}
+\BusinessPlanFooterText{Basilisk Systems --- P.S.A. articles of association (simple variant) --- English translation}
+\BusinessPlanVersionText{Version 2.4-S --- simple variant}
+
+\setstretch{1.18}
+\setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.18}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{%
+  \paragraf{#1}%
+}{%
+  \par
+}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\CompanyShort}{Basilisk Systems P.S.A.}
+\newcommand{\KSH}{Commercial Companies Code}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- draft articles of association --- simple variant (English translation)},
+  pdfauthor={Basilisk Systems --- draft P.S.A. articles of association}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 2.4-S --- simple variant}
+  {P.S.A. Articles of Association}
+  {Draft articles of association of a simple joint-stock company}
+  {Simple variant --- registration, issuance caps, fast resolutions}
+  {2.4-S}
+
+\tableofcontents
+\newpage
+
+\chapter*{Draft Articles of Association --- Simple Variant}
+\addcontentsline{toc}{chapter}{Draft Articles of Association --- Simple Variant}
+
+\begin{center}
+{\Large\bfseries ARTICLES OF ASSOCIATION OF A SIMPLE JOINT-STOCK COMPANY}\par
+\vspace{0.25cm}
+{\LARGE\bfseries \CompanyFull}\par
+\vspace{0.6cm}
+\end{center}
+
+\begin{center}
+\small\itshape English convenience translation. Only the Polish text, executed in the form of a notarial deed, is binding; in the event of any discrepancy, the Polish version prevails. References in the form ``\S~9(4)(a)'' mean \S~9, section~4, letter~(a); ``KSH'' means the Polish Commercial Companies Code (\textit{Kodeks spółek handlowych}).
+\end{center}
+
+The persons appearing, listed in Annex~1 to these articles of association (the ``Founders''), hereby form a simple joint-stock company on the following terms.
+
+These articles of association (the ``Articles'') govern only what must or should be included in the articles of association: the Company's governance structure, its shares, issuance caps, the procedure for adopting resolutions and the restrictions on the disposal of shares. Other matters --- in particular the rules of cooperation among the Founders, security and compliance policies, the Rules of the Board of Directors, the Rules of the General Meeting and the incentive plan rules --- are governed by separate documents adopted by resolutions of the Company's bodies, without amending these Articles.
+
+\begin{ContractClause}{Business Name, Registered Office and Duration}
+\label{art:firma}
+\begin{enumerate}
+  \item The Company's business name is: ``\CompanyFull''. The Company may use the abbreviated name ``\CompanyShort'' as well as trade designations and trademarks, in particular the designation ``Basilisk Systems''.
+  \item The registered office of the Company is in Pruszków.
+  \item The Company may operate in the Republic of Poland and abroad, and may establish branches, establishments, laboratories, representative offices and subsidiaries, as well as participate in other entities.
+  \item The Company is formed for an indefinite period.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Objects of the Company and PKD 2025 Codes}
+\label{art:pkd}
+\begin{enumerate}
+\item The objects of the Company are the design, research, development, manufacture, integration, deployment, sale and servicing of physical (embodied) artificial intelligence and autonomous systems operating on land and in the air --- in particular autonomy, perception, team coordination, command, communication and navigation software --- and of unmanned aircraft (including autonomous drone swarms) and ground robots using these technologies, together with operator, computing and service infrastructure.
+\item The objects of the Company according to PKD~2025 (the Polish Classification of Activities) comprise:
+\begin{enumerate}[label=\alph*)]
+\item \textbf{codes disclosed in the register of entrepreneurs upon the first entry:}
+\begin{enumerate}[label=\arabic*)]
+\item \textbf{72.10.Z} --- Research and experimental development on natural sciences and engineering --- principal activity;
+\item \textbf{30.31.Z} --- Manufacture of civil aircraft, spacecraft and related machinery;
+\item \textbf{71.12.B} --- Other engineering activities and related technical consultancy;
+\item \textbf{62.10.B} --- Other computer programming activities;
+\item \textbf{28.99.Z} --- Manufacture of other special-purpose machinery n.e.c.;
+\item \textbf{26.51.Z} --- Manufacture of instruments and appliances for measuring, testing and navigation;
+\item \textbf{33.20.Z} --- Installation of industrial machinery, equipment and fittings;
+\item \textbf{33.16.Z} --- Repair and maintenance of civil aircraft and spacecraft;
+\item \textbf{28.30.Z} --- Manufacture of agricultural and forestry machinery;
+\end{enumerate}
+\item \textbf{other codes, not disclosed upon the first entry and reserved for further development:}
+\begin{enumerate}[label=\arabic*)]
+\item \textbf{33.12.Z} --- Repair and maintenance of machinery;
+\item \textbf{33.13.Z} --- Repair and maintenance of electronic and optical equipment;
+\item \textbf{29.10.E} --- Manufacture of other motor vehicles, excluding motorcycles;
+\item \textbf{63.10.D} --- Other computing infrastructure, data processing, web hosting and related service activities.
+\end{enumerate}
+\end{enumerate}
+A change in the range of codes disclosed in the register of entrepreneurs within the codes listed in this section does not require an amendment to these Articles.
+\item The inclusion of a given type of activity in this \S{} does not create an obligation to commence it. Activities requiring a concession, permit, licence, certification, conformity assessment or entry in the register of regulated activity may be commenced only after the requirements of the applicable laws have been met, in particular the laws on conducting business activity in the manufacture of and trade in goods and technology for military or police use, the laws on the control of trade in strategic goods (including Regulation (EU) 2021/821) and the laws on unmanned aircraft systems (including Regulations (EU) 2019/945 and 2019/947).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Shares and Share Capital}
+\label{art:akcje}
+\begin{enumerate}
+  \item The Company's shares have no nominal value, do not form part of the share capital and are indivisible.
+  \item Upon formation of the Company, \textbf{1,000,000 (one million)} ordinary Series~A shares are issued, numbered from~A0000001 to~A1000000. The issue price of one Series~A share is \textbf{PLN~0.01 (one grosz)}.
+  \item Each share carries one vote at the General Meeting and an equal right to dividend and to a share in the assets remaining after liquidation. The Company does not issue preference shares or shares carrying special rights; their creation requires an amendment to these Articles.
+  \item The amount of the share capital is not specified in these Articles; it is disclosed and changed in accordance with the law.
+  \item The shares are registered in the register of shareholders maintained by an entity selected by a shareholders' resolution; the first selection is made by the Founders upon formation of the Company. The Company reports to the register of shareholders the restrictions on the disposal of shares and the obligations attached to shares arising from these Articles, including the designation of shares subject to the transfer obligation (\S~\ref{art:obowiazek-zbycia}), and updates these data within the time limits provided for by law.
+  \item Each shareholder provides to the register of shareholders an e-mail address together with consent to communication with the Company by that means, and updates that address and the other data subject to entry within 7 days of a change. The consequences of the absence of up-to-date data in the register are borne by the shareholder to the extent permitted by law.
+  \item The Company may acquire its own shares only in the cases and within the limits set out in Article~300$^{47}$ KSH, on the basis of a resolution of the General Meeting adopted in accordance with \S~\ref{art:wz-zastrzezone}(1). The resolution specifies at least the maximum number of shares to be acquired, the purpose of the acquisition, the maximum price and the amount of the reserve capital created for that purpose; the total number of own shares may not exceed 25\% of all shares in the Company. The purpose of the acquisition may only be: (a)~redemption of the shares; (b)~offering the shares to participants in the incentive plan (\S~\ref{art:seria-p}) or to Series~F Functional Founders (\S~\ref{art:seria-f}). The Company does not acquire shares in performance of the transfer obligation referred to in \S~\ref{art:obowiazek-zbycia}. An authorisation for the Board of Directors to acquire own shares is granted for a period not exceeding 5 years.
+  \item The following rules also apply to the acquisition of own shares:
+  \begin{enumerate}[label=\alph*)]
+    \item \textbf{equal treatment:} the Board of Directors addresses the purchase offer to all shareholders on identical terms, pro rata to the number of shares held, with the right to acquire, from shareholders who have accepted the offer, the shares not covered by the acceptances of the other shareholders;
+    \item \textbf{price:} the purchase price may not exceed the fair value of the shares, being the price per share obtained in the most recent share issue addressed to a third party unrelated to the shareholders, or in the most recent transaction with such a person, carried out within 12 months before the date of the resolution, and in the absence of such an issue or transaction --- the value of the shares determined by an independent statutory auditor or valuer selected by the Board of Directors;
+    \item \textbf{conflict of interest:} a director from whom, or from whose related party, the Company acquires shares does not participate in adopting the resolution of the Board of Directors on that matter and is not counted towards the required quorum of directors;
+    \item \textbf{disposal of own shares:} the Company may dispose of own shares only to a person in respect of whom none of the grounds for refusing consent set out in \S~\ref{art:zbywanie}(2)(a)--(b) applies and, if the shares disposed of are to be subject to the transfer obligation, to a person who has assumed the obligations attached to those shares in accordance with \S~\ref{art:obowiazek-zbycia}(6);
+    \item the price is paid exclusively from the reserve capital created for that purpose, in compliance with Article~300$^{47}$ \S~3 in conjunction with Article~300$^{15}$ \S\S~4--6 KSH.
+  \end{enumerate}
+  \item A pledgee and a usufructuary of shares do not exercise the voting rights attached to the shares encumbered with the pledge or usufruct, unless the General Meeting, by a resolution adopted by a majority of 75\% of all votes, consents to the exercise of voting rights by a pledgee whose pledge secures financing granted to the Company; the exercise of voting rights additionally requires that the conditions provided for by law are met, including an annotation in the register of shareholders.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Subscription for Shares and Founders' Contributions}
+\label{art:cap-table}
+\begin{enumerate}
+  \item The Series~A shares are subscribed for by the Founders as follows:
+\end{enumerate}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{2.5cm} >{\raggedright\arraybackslash}X r r}
+\toprule
+Founder & Identification details & Number of shares & Percentage of Series A shares \\
+\midrule
+A & \field{name, surname, PESEL/address} & 500,000 & 50\% \\
+B & \field{name, surname, PESEL/address} & 200,000 & 20\% \\
+C & \field{name, surname, PESEL/address} & 100,000 & 10\% \\
+D & \field{name, surname, PESEL/address} & 100,000 & 10\% \\
+E & \field{name, surname, PESEL/address} & 100,000 & 10\% \\
+\midrule
+Total & & 1,000,000 & 100\% \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{enumerate}[resume]
+  \item The numbers of the shares held by each Founder, the subject matter and value of the contributions and the start dates of the period referred to in \S~\ref{art:obowiazek-zbycia}(2) are set out in Annex~1. Each person who enters into these Articles and subscribes for Series~A shares upon formation of the Company is an ``Original Founder''.
+  \item The Series~A shares are subscribed for in exchange for cash contributions and non-cash contributions in the form of author's economic rights to software and documentation, ownership of hardware and equipment, and rights to inventions and patent applications, described in Annex~1. Work, services and know-how not recorded in identified documentation do not constitute contributions to cover Series~A shares.
+  \item The value of the contribution attributed to each Founder, together with an indication of the valuation basis, is set out in Annex~1 and is at least equal to the aggregate issue price of the shares subscribed for by that Founder. The Founders represent that the values of the non-cash contributions have been determined with due care and are not overstated.
+  \item The cash contributions and the non-cash contributions, at the values set out in Annex~1, are allocated to the share capital, taking into account Article~14 \S~1 KSH. Cash contributions are made before the application for entry of the Company in the register of entrepreneurs is filed, and the other contributions --- no later than 14 days after the date of entry, subject to section~6. The making of the contributions is confirmed by a resolution of the Board of Directors, which discloses the resulting amount of the share capital in accordance with Article~300$^{3}$ \S~2 KSH.
+  \item The Founders enter into the agreements transferring to the Company the rights constituting non-cash contributions with the Company in organisation no later than on the date of execution of these Articles, in written form on pain of nullity, in compliance with the requirements set out in \S~\ref{art:ip}(1)(b)--(c); the consideration for the transfer is the shares subscribed for in exchange for the given contribution. If a work or solution has several co-authors, each of them enters into the agreement. If an effective transfer additionally requires the consent of a third party, an entry in a register or a handover report, the relevant Founder promptly performs the required acts at their own cost. Until the transfer becomes effective, the Founder will not dispose of or encumber the subject matter of the contribution and hereby grants the Company a non-exclusive, territorially unlimited licence to use it in the fields of exploitation specified in \S~\ref{art:ip}(1)(b), the consideration for which is the shares subscribed for in exchange for that contribution. The obligation to make a non-cash contribution is subject to specific performance, including by a court judgment replacing the Founder's declaration of intent (Article~64 of the Civil Code).
+  \item The 50/20/10/10/10 ratio refers to the shareholdings of the Original Founders relative to one another as at the date of formation of the Company. Any subsequent share issue may dilute their shareholdings proportionally.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Share Issues and Maximum Numbers of Shares}
+\label{art:emisje}
+\begin{enumerate}
+  \item \textbf{Maximum number of shares rule.} Each resolution on a share issue, or on the issue of warrants, options, convertible instruments or other rights to shares, specifies the maximum number of shares that may be issued on its basis and the date after which the rights under it expire. A resolution that does not specify the maximum number of shares does not constitute a basis for an issue. This also applies to any authorisation granted to the Board of Directors and to any programme, plan or agreement providing for a right to subscribe for shares.
+  \item \textbf{Overall cap.} The total number of shares of all series in existence and covered by outstanding rights to subscribe for shares may not exceed \textbf{2,000,000 (two million)}. Exceeding this cap requires an amendment to these Articles.
+  \item \textbf{Caps for individual series.} Pursuant to Article~300$^{103}$ KSH, these Articles provide for the possibility of issuing, in one or more issues, on the basis of resolutions adopted no later than \textbf{31 December 2036}:
+  \begin{enumerate}[label=\alph*)]
+    \item no more than \textbf{250,000 (two hundred and fifty thousand)} ordinary Series~F shares (\S~\ref{art:seria-f}), provided that the total number of existing Series~F shares may not exceed 20\% of all shares in the Company existing immediately after the given issue;
+    \item no more than \textbf{176,471 (one hundred and seventy-six thousand four hundred and seventy-one)} ordinary Series~P shares for the purposes of the incentive plan (\S~\ref{art:seria-p}).
+  \end{enumerate}
+  \item \textbf{New series.} An issue of shares of a series other than~A, F and~P, in particular an investor series, requires an amendment to these Articles specifying the designation of the series, the maximum number of shares of that series and the deadline for adopting issue resolutions. The amendment to the Articles and the issue resolution may be adopted at the same General Meeting, provided that the issue resolution takes effect no earlier than the amendment.
+  \item \textbf{Competence.} A resolution on a share issue is adopted exclusively by the General Meeting, by the majority specified in \S~\ref{art:wz-zastrzezone}(1). The Board of Directors implements such a resolution within its limits --- it selects the persons to whom the offer is addressed, makes offers, enters into share subscription agreements, accepts contributions, issues instructions for entries in the register of shareholders and makes registry filings --- without a separate resolution of the General Meeting for each tranche and without the right to exceed the maximum number of shares or to reduce the issue price below the minimum specified in the resolution.
+  \item \textbf{Pre-emptive rights.} Depriving the existing shareholders of their pre-emptive rights, in whole or in part, requires a resolution adopted by a majority of at least four-fifths of the votes and compliance with the other requirements of Article~300$^{106}$ KSH; the resolution may cover all shares issued under a given issue resolution.
+  \item The issue price of shares may not be lower than PLN~0.01 per share, unless mandatory provisions of law require a higher price.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Series F --- Functional Founders}
+\label{art:seria-f}
+\begin{enumerate}
+  \item A ``Series~F Functional Founder'' may be a natural person who, after the formation of the Company, assumes lasting, strategic and personal responsibility for a material area of the Company's development, comparable in importance to the role of an Original Founder, and undertakes long-term, material operational involvement. The status of an employee, collaborator, director or adviser alone is not sufficient. Holding Series~A shares does not preclude obtaining this status.
+  \item Granting the status of a Series~F Functional Founder requires a resolution of the General Meeting adopted by a majority of 75\% of all votes. The resolution specifies the strategic role, the minimum scope of involvement, the maximum number of Series~F shares reserved for the given person and the ``Series~F Grant Date'', from which the period referred to in \S~\ref{art:obowiazek-zbycia}(2) runs.
+  \item The resolution granting the status is a qualifying resolution: it constitutes neither an offer to subscribe for shares nor a right to subscribe for shares. A claim to subscribe for Series~F shares arises only from a share subscription agreement. Before the Company makes a binding offer to subscribe for shares, the General Meeting may, by a majority of 75\% of all votes, withdraw the status granted if the person concerned has ceased to meet the criteria in section~1 or the conditions of the qualifying resolution. Once the shares have come into existence, they are governed solely by the law and these Articles; a resolution on the loss of status does not deprive the holder of ownership of the shares.
+  \item Each issue of Series~F shares requires a separate resolution of the General Meeting adopted by a majority of 75\% of all votes, specifying the elements required by Article~300$^{104}$ KSH, within the caps set out in \S~\ref{art:emisje}(3)(a). If the contribution is the provision of work or services, the resolution and the subscription agreement specify the type and duration of the performance in accordance with Article~300$^{104}$ \S~1(7) KSH.
+  \item Series~F shares are ordinary shares ranking equally in rights with Series~A shares.
+  \item From the moment Series~F shares come into existence, \S~\ref{art:zbywanie} and \S~\ref{art:obowiazek-zbycia} apply to them; the period referred to in \S~\ref{art:obowiazek-zbycia}(2) runs from the Series~F Grant Date and, if the shares come into existence later, taking into account uninterrupted involvement from that date, provided that no rights attached to the shares arise before the shares come into existence.
+  \item Series~F is separate from Series~P. An issue of Series~F shares does not reduce the Series~P pool, and a grant of Series~P shares to the same person does not count towards the Series~F cap.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Series P --- Incentive Plan}
+\label{art:seria-p}
+\begin{enumerate}
+  \item An incentive plan pool is created for employees, collaborators, directors and advisers of the Company, corresponding to a maximum of \textbf{176,471} Series~P shares. If the entire pool is used and there are no other issues, the pool corresponds to 15\% of the Company's shares on a fully diluted basis; the deviation from exactly 15\% results from the indivisibility of shares.
+  \item Series~P shares are issued on the basis of resolutions of the General Meeting adopted within the limits and the time limit set out in \S~\ref{art:emisje}(3)(b), in the ordinary procedure (Articles~300$^{103}$--300$^{107}$ KSH) or in the conditional share issue procedure (Articles~300$^{114}$--300$^{118}$ KSH). The resolution specifies the maximum number of shares, the issue price or the method of determining it, the purpose of the issue, the group of eligible persons and the deadline for exercising the right to subscribe for shares; consent to the conclusion of agreements granting the right to subscribe for shares may be given in the same resolution for categories of persons and on the terms set out in the incentive plan rules.
+  \item Increasing the pool above 176,471 shares or extending the time limit referred to in \S~\ref{art:emisje}(3) requires an amendment to these Articles.
+  \item The Board of Directors administers the plan, recommends participants and implements issue resolutions in accordance with \S~\ref{art:emisje}(5); it is not authorised to issue Series~P shares on its own or to deprive shareholders of their pre-emptive rights.
+  \item A grant of rights under the plan does not confer the status of a shareholder until the shares come into existence and are entered in the register of shareholders. The vesting conditions, transfer restrictions and consequences of the termination of cooperation are set out in the incentive plan rules approved by a resolution of the General Meeting and in the participation agreement.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Disposal and Encumbrance of Shares}
+\label{art:zbywanie}
+\begin{enumerate}
+  \item The disposal or encumbrance of shares requires the consent of the Company within the meaning of Article~300$^{39}$ \S~1 KSH. Consent is granted or refused by the Board of Directors in documentary form within 14 days of the notification to the Company of the intended disposal; the notification specifies the acquirer, the price and the material terms. \textbf{If the Board of Directors does not refuse consent within that time limit, consent is deemed to have been granted.} At the shareholder's request, the Company issues, within 7 days, a certificate in documentary form confirming that consent has been granted or has arisen upon expiry of the time limit; the certificate constitutes a document justifying the entry of the acquirer in the register of shareholders. The agreement on maintaining the register of shareholders provides that the entity maintaining the register accepts as evidence of consent the notification together with proof of its delivery to the Company at the address of its registered office or at its address for electronic service, if within 14 days of delivery the Company has not informed it of a refusal of consent.
+  \item The Board of Directors may refuse consent only if:
+  \begin{enumerate}[label=\alph*)]
+    \item the acquirer or an entity controlling it is subject to sanctions or restrictive measures, or the acquisition would be contrary to the laws on investment screening, on the control of trade in strategic goods or on the protection of state security;
+    \item the acquisition requires the consent or non-objection of the competent authority, or the expiry of its time limit for objection, and that condition has not been met --- in which case the Board of Directors may, instead of refusing, grant consent subject to the condition precedent of its fulfilment;
+    \item the disposal would take place during the period referred to in section~4 without the required consent; or
+    \item the disposal concerns shares subject to the transfer obligation (\S~\ref{art:obowiazek-zbycia}) and the acquirer has not assumed the obligations attached to those shares, including by not granting the power of attorney and not making the offer referred to in \S~\ref{art:obowiazek-zbycia}(6).
+  \end{enumerate}
+  A refusal states the specific ground under this section. A refusal of consent on any other ground is not permitted.
+  \item Pursuant to Article~300$^{39}$ \S~2 KSH, the parties agree that if consent is refused the Company is not obliged to designate another acquirer, and Article~300$^{39}$ \S\S~3--5 KSH do not apply. The shareholder may designate another acquirer and resubmit the notification. This section does not apply to the sale of shares in enforcement proceedings (Article~300$^{39}$ \S~6 KSH).
+  \item An Original Founder, for 12 months from the date of entry of the Company in the register of entrepreneurs, and a Series~F Functional Founder, for 12 months from their Series~F Grant Date, may not dispose of or encumber their shares without the consent of the General Meeting adopted by a majority of 75\% of all votes. This restriction does not apply to a disposal in performance of the transfer obligation (\S~\ref{art:obowiazek-zbycia}) or to a transfer of shares to an entity wholly controlled by that shareholder, provided that the entity assumes the obligations attached to the shares and the transferor remains jointly and severally liable and ensures that the shares are transferred back before losing control of that entity.
+  \item The consent of the Company is not required for the acquisition of shares in performance of the transfer obligation (\S~\ref{art:obowiazek-zbycia}) or for the sale of shares in enforcement proceedings.
+  \item The Company does not provide for a right of first refusal, a tag-along right or a drag-along right. The creation of such rights requires an amendment to these Articles or a separate shareholders' agreement, which does not bind the Company or acquirers of shares who are not parties to it.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Obligation to Transfer Shares upon Cessation of Involvement (Vesting)}
+\label{art:obowiazek-zbycia}
+\begin{enumerate}
+  \item The transfer obligation covers the shares of an Original Founder designated in Annex~1 as committed to permanent, personal operational involvement in the development of the Company and the Series~F shares of a Series~F Functional Founder (each a ``Functional Shareholder'').
+  \item The shares are released from the transfer obligation over 48 months from the date specified in Annex~1 or from the Series~F Grant Date: during the first 12 months no share is released; after 12 uninterrupted months, 25\% of the shares subject to the obligation are released at once; over the following 36 months, the shares are released monthly, in equal portions, until 100\% are released.
+  \item Until released, the shares remain existing shares and carry full corporate and economic rights; they are, however, subject to the transfer obligation on the terms of this \S.
+  \item If the involvement of a Functional Shareholder ceases before all shares have been released, the unreleased shares are subject to transfer --- at a price equal to their issue price --- to an acquirer designated by the Board of Directors, other than the Company or a person acting for its account, in particular another shareholder or a participant in the incentive plan. The Board of Directors designates the acquirer within 3 months of the date on which the involvement ceased; failing such designation, the unreleased shares may be acquired, within a further 30 days and pro rata to the number of shares held, by those of the other Original Founders who declare such an intention. If, within 6 months of the date on which the involvement ceased, the shares have not been transferred for reasons not attributable to the Functional Shareholder, the obligation to transfer them expires. Shares already released remain with the Functional Shareholder.
+  \item The General Meeting may, by a majority of 75\% of all votes, release all or some of the unreleased shares from the transfer obligation, in particular where the involvement ceases due to death, permanent incapacity for work, termination of the legal relationship by the Company without a material reason attributable to the Functional Shareholder, or a departure agreed with the Company. The transfer obligation does not exclude the Company's claims for damages caused by a breach of obligations.
+  \item The procedure for performing the transfer obligation --- including the manner of determining the cessation of involvement, the calculation of the number of unreleased shares, the date and method of payment, an irrevocable offer to transfer and a power of attorney to conclude the agreement and to issue the instruction for the entry in the register of shareholders --- is set out in a separate implementing agreement, which the Functional Shareholder signs no later than on the date on which the shares become subject to the transfer obligation. The power of attorney may not be used outside the case and the procedure set out in that agreement. The implementing agreement states that the transfer price of the unreleased shares results from this \S{} and from the mechanism of gradual release of the shares, and not from the parties' assessment of their market value.
+  \item The transfer obligation is an obligation attached to the share towards the Company and binds each successive holder of the shares covered by it; events relating to the Functional Shareholder from whom the shares derive trigger the transfer obligation also with respect to the acquirer of those shares. The obligation is disclosed in the register of shareholders in accordance with \S~\ref{art:akcje}(5). Shares transferred in performance of the transfer obligation, released from it in accordance with section~2 or~5, or in respect of which the obligation has expired in accordance with section~4, cease to be covered by it; the Company promptly reports this change to the register of shareholders.
+  \item In the event of a shareholder's death, their heirs join the Company. Shares subject to the transfer obligation remain subject to it; section~5 applies accordingly.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Corporate Bodies and the Board of Directors}
+\label{art:rada}
+\begin{enumerate}
+  \item The bodies of the Company are the General Meeting and the Board of Directors. The Company adopts the one-tier (monistic) system; no management board or supervisory board is appointed.
+  \item The Board of Directors manages the Company's affairs, represents the Company and exercises ongoing supervision over its activities. The Board of Directors consists of 3 to 7 directors appointed and dismissed by a resolution of the General Meeting adopted by an absolute majority of votes cast.
+  \item Directors are appointed for a joint term of office of three financial years; reappointment is permitted. Pursuant to Article~300$^{56}$ KSH, a director's mandate expires on the date of appointment of a successor or on the date of adoption of a resolution not to appoint a successor, but no later than 6 months after the end of the term of office. The mandate also expires upon death, resignation or dismissal.
+  \item The Board of Directors elects a Chair from among its members and designates by resolution at least one executive director, to whom it delegates the conduct of the Company's day-to-day business in accordance with Article~300$^{76}$ KSH, ensuring that at least one director is a non-executive director. The delegation does not cover the matters referred to in Article~300$^{75}$ \S\S~2--3 KSH or in section~7, and may be amended or revoked at any time.
+  \item Resolutions of the Board of Directors are adopted by an absolute majority of votes, with at least half of the directors then in office participating. In the event of a tie, the Chair has the casting vote, except in matters concerning the Chair's personal interest.
+  \item Meetings and votes of the Board of Directors may be held in writing or using means of electronic communication, including e-mail, provided that the participants are identified and the content of the votes is recorded. A director whose interest conflicts with the interest of the Company in a given matter discloses this and does not participate in the vote on that matter; such a director is then not counted towards the required quorum of directors.
+  \item Resolutions of the Board of Directors are required in particular for: the adoption and amendment of the annual budget and financial plan; entering into an agreement or incurring an expense outside the approved budget with a value exceeding PLN~250,000; raising financing, granting security or disposing of assets with a value exceeding PLN~100,000; entering into a transaction with a shareholder, a director, a person close to them or a related party; establishing a subsidiary or commencing operations in a new jurisdiction; granting an exclusive licence or transferring material intellectual property, subject to \S~\ref{art:wz-zastrzezone}; adopting information security, export control and compliance policies; implementing issue resolutions in accordance with \S~\ref{art:emisje}(5); confirming that contributions have been made; granting or refusing the consent referred to in \S~\ref{art:zbywanie}(1).
+  \item The detailed allocation of competences, spending limits, reporting rules and the conflict of interest policy are set out in the Rules of the Board of Directors adopted by its resolution.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Representation of the Company}
+\label{art:reprezentacja}
+\begin{enumerate}
+  \item Declarations on behalf of the Company require the joint action of two directors or of one director acting jointly with a commercial proxy (\textit{prokurent}).
+  \item The appointment of a commercial proxy requires the consent of all directors; the commercial power of attorney (\textit{prokura}) may be revoked by any director in accordance with Article~300$^{75}$ \S~3 KSH.
+  \item In an agreement and in a dispute between the Company and a director, the Company is represented by an attorney appointed by a shareholders' resolution or --- in the case of an executive director --- by a non-executive director acting on the basis of a resolution of the Board of Directors adopted solely by the non-executive directors, in accordance with Article~300$^{79}$ \S~3 KSH. A shareholders' resolution may appoint an attorney to conclude and perform agreements of a specified type with directors, in particular the agreements referred to in \S~\ref{art:cap-table}(6), \S~\ref{art:obowiazek-zbycia}(6) and \S~\ref{art:ip}(1), agreements for the acquisition of own shares from a director and the confirmations referred to in \S~\ref{art:ip}(1)(e); the resolution names the attorney and the agreements or their type and may be adopted outside the General Meeting; a person who is a party to the given agreement may not act as the attorney. If all shares are held by a single shareholder who is also a director, Article~300$^{79}$ \S~4 KSH applies.
+  \item Internal limits on the directors' powers do not affect the effectiveness of representation towards third parties.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Shareholders' Resolutions --- Procedure, Remote Voting and Time Limits}
+\label{art:wz}
+\begin{enumerate}
+  \item Shareholders' resolutions may be adopted at the General Meeting or outside the General Meeting --- in writing or using means of electronic communication --- in accordance with Article~300$^{80}$ \S~1 KSH. The choice of procedure belongs to the person convening the meeting or requesting the adoption of the resolution, except for resolutions which by law require minutes drawn up by a notary; these are adopted at the General Meeting.
+  \item \textbf{Electronic communication.} Notices, draft resolutions, ballot papers, votes cast and notices of the voting results are sent by e-mail to the shareholder's address entered in the register of shareholders and, in the absence of such an entry, by registered mail to the address in the register. A notice is deemed given when sent to the address entered in the register. Declarations made in performance of this \S{} require documentary form; an e-mail sent from the address entered in the register of shareholders is sufficient.
+  \item \textbf{Resolutions outside the General Meeting.} A draft resolution, together with a justification and the deadline for casting votes, is circulated to the shareholders by the Board of Directors, the Chair of the Board of Directors or a shareholder representing at least 5\% of the total number of votes. The voting deadline may not be shorter than 3 business days from the dispatch of the draft or longer than 21 days; with the consent of all shareholders the deadline may be shorter. A resolution is adopted upon expiry of the voting deadline if the required majority of votes has been cast in its favour; before the deadline --- at the moment when votes representing the required majority of all votes in the Company have been cast in favour of the resolution, regardless of any votes that could be cast later. Promptly after the resolution has been adopted or the deadline has expired, the Chair of the Board of Directors determines the result of the vote and notifies the shareholders of it by e-mail. A vote cast after the deadline is disregarded. The requirement of a secret ballot does not apply to resolutions adopted in this procedure (Article~300$^{80}$ \S~3 KSH).
+  \item \textbf{General Meeting.} General Meetings are held at the Company's registered office or in Warsaw. They are convened in compliance with the statutory time limits, in the manner specified in section~2. The General Meeting may adopt resolutions without being formally convened if the entire share capital is represented and no one objects to the holding of the General Meeting or to the placing of individual matters on the agenda.
+  \item \textbf{Remote participation.} Participation in the General Meeting using means of electronic communication is permitted in accordance with Article~300$^{92}$ KSH, in particular through real-time two-way communication and the remote exercise of voting rights. The detailed rules for remote participation, including the method of identifying shareholders, obtaining access to the transmission and casting votes, are set out in the Rules of the General Meeting adopted by a shareholders' resolution; the Founders adopt the first Rules upon formation of the Company. The Rules may not impose requirements other than those necessary to identify shareholders and to ensure the security of electronic communication.
+  \item To the extent permitted by law, technical problems on the shareholder's side do not affect the validity of the General Meeting or of the resolutions adopted.
+  \item \textbf{Majorities.} Each share carries one vote. Resolutions are adopted by an absolute majority of votes cast, unless the law or these Articles require a stricter majority. Majorities specified in these Articles as a percentage of ``all votes in the Company'' are calculated on the total number of votes existing in the Company; if in a given matter a shareholder is excluded from voting under a mandatory provision of law, the threshold is calculated on the votes not covered by that exclusion. These Articles do not introduce any exclusions of voting rights other than those arising from statute.
+  \item The documentation of resolutions --- drafts, votes cast, notices of results and minutes --- is kept and stored by the Board of Directors in electronic form, in a manner ensuring its integrity and accessibility to every shareholder.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Matters Reserved for the General Meeting}
+\label{art:wz-zastrzezone}
+\begin{enumerate}
+  \item Resolutions on the following matters require a majority of 75\% of all votes in the Company:
+  \begin{enumerate}[label=\alph*)]
+    \item an amendment to these Articles, subject to matters requiring a stricter majority under statute or these Articles;
+    \item an issue of shares, warrants, options, convertible instruments or other rights to shares, including any issue of Series~F and Series~P shares;
+    \item granting or withdrawing the status of a Series~F Functional Founder;
+    \item a merger, division, transformation, dissolution or liquidation of the Company;
+    \item the sale or lease of the enterprise or an organised part thereof, the establishment of a limited property right over them, and the sale of assets representing more than 25\% of the value of the Company's assets;
+    \item the transfer or sale of, or the grant of an exclusive, irrevocable or perpetual licence to, the Company's key intellectual property outside the ordinary course of business;
+    \item the acquisition of own shares, their redemption or a payment from the share capital, if it requires a resolution;
+    \item incurring an obligation, granting security or entering into a transaction outside the approved budget with a value exceeding PLN~500,000;
+    \item consent to the disposal of shares during the period referred to in \S~\ref{art:zbywanie}(4), and the release of shares from the transfer obligation under \S~\ref{art:obowiazek-zbycia}(5);
+    \item entering into, amending or terminating the Cooperation Agreement with the Sister Company (\S~\ref{art:siostrzana});
+    \item the Company entering into a credit, loan, surety or other similar agreement with a director, a commercial proxy or a liquidator, or for the benefit of any of them.
+  \end{enumerate}
+  \item Depriving shareholders of their pre-emptive rights requires a majority of at least four-fifths of the votes (\S~\ref{art:emisje}(6)).
+  \item Other shareholders' resolutions, including the appointment and dismissal of directors, the approval of the financial statements, the granting of discharge, the allocation of profit and the determination of directors' remuneration, are adopted by an absolute majority of votes cast.
+  \item Resolutions of the General Meeting on matters reserved by statute to the competence of the Board of Directors, in particular on the matters referred to in Article~300$^{75}$ \S~2 KSH, constitute consent to the performance of the act and do not replace a resolution of the Board of Directors. Pursuant to Article~300$^{81}$(3) KSH, the acquisition and disposal of real property, perpetual usufruct or an interest in real property with a value not exceeding the threshold in section~1(h) do not require a resolution of the General Meeting.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Intellectual Property, Confidentiality and Security}
+\label{art:ip}
+\begin{enumerate}
+  \item Intellectual property rights created in connection with the Company's activities, including author's economic rights to software and documentation and rights to inventions, designs and databases, belong to the Company. The Company enters into an agreement with each director, employee and collaborator, and each Founder is obliged to enter into an agreement with the Company, ensuring that the Company acquires those rights and that data carriers and documentation are handed over to it; the agreement with a director is concluded on behalf of the Company by the attorney referred to in \S~\ref{art:reprezentacja}(3). An agreement transferring author's economic rights:
+  \begin{enumerate}[label=\alph*)]
+    \item is made in written form on pain of nullity and covers works created in the performance of tasks for the Company specified in that agreement or in the relationship under which the author acts for the Company, which pass to the Company upon their delivery to the Company, in particular upon being placed in its repository or system;
+    \item lists the fields of exploitation, at least: permanent and temporary reproduction in whole or in part, by any means and in any form; translation, adaptation, rearrangement and any other alteration; placing on the market, lending and rental of the original or copies; making available to the public in such a way that anyone may access the work at a place and time of their choosing; entering into computer memory and networks;
+    \item includes the right to authorise the exercise of derivative rights and the author's undertaking not to exercise moral rights in a manner that hinders the Company's use of the work;
+    \item specifies the remuneration for the transfer or states that it is included in the remuneration for the relationship under which the work was created;
+    \item obliges the author to confirm in writing, at least once a quarter, a list of the works delivered to the Company; the confirmation also constitutes an agreement transferring the rights to the works listed in it, if the transfer has not taken place earlier.
+  \end{enumerate}
+  The right to obtain a patent, a protection right and a right in registration for solutions developed in the performance of tasks for the Company belongs to the Company; where this does not follow from statute, the creator transfers these rights to the Company in written form.
+  \item A Founder who, before the formation of the Company, created or acquired technology used by the Company but not covered by a contribution discloses it to the Board of Directors together with any third-party rights and hereby grants the Company a royalty-free, non-exclusive, territorially unlimited licence to use it in the fields of exploitation specified in section~1(b) for a period of 5 years; the licence is extended for further 5-year periods unless the Founder declares to the Company, no later than one year before the end of the period, that it will not be extended. During the term of the licence, the Founder, at the request of the Board of Directors, transfers these rights to the Company in written form for remuneration equal to their value as determined by an independent expert selected by the Board of Directors; if the Founder has declared that the licence will not be extended and the technology is used in the Company's products, the Board of Directors makes such a request before the licence period expires.
+  \item Shareholders and directors keep confidential the Company's information of economic value, including code, models, data, technical documentation, commercial information and financing terms, and comply with the information security policies adopted by the Board of Directors. This obligation continues after the cessation of involvement or the disposal of shares, for the period and to the extent permitted by law.
+  \item The Company, its shareholders and directors comply with the laws on sanctions, restrictive measures and the control of trade in strategic goods, technologies and services. Technology subject to export control may be made available, including to a shareholder or a director, only in accordance with those laws and with the export control policy adopted by the Board of Directors.
+  \item An Original Founder and a Functional Shareholder --- for as long as they are a shareholder of the Company --- and a director do not engage in activities competing with the Company or participate in a competing entity without the consent of the Board of Directors expressed in a resolution adopted without the participation of the person concerned; this obligation does not apply to portfolio investments not exceeding a 5\% interest and not involving access to confidential information or a position in corporate bodies.
+  \item A breach of the obligations referred to in this \S{} obliges the person in breach to cease the breach promptly, to remedy its effects and to compensate for the damage; this does not exclude other remedies provided for by law or by separate agreements.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Cooperation with the Sister Company}
+\label{art:siostrzana}
+\begin{enumerate}
+  \item The ``Sister Company'' is Appolonia prosta spółka akcyjna (a simple joint-stock company) with its registered office in \field{town}, including as a company in organisation, for as long as the Original Founders of the Company and the Original Founders of the Sister Company together hold, directly or indirectly, more than half of the total number of votes at the general meeting of each of these companies. The Company operates in the field of autonomous systems operating on land and in the air (\S~\ref{art:pkd}), and the Sister Company --- in the field of autonomous systems operating at sea and on inland waters (each of them: a ``Field of Activity'').
+  \item The rules of cooperation, in particular joint research and development, the sharing of personnel, equipment, infrastructure and data, cross-licences, confidentiality and settlements, are set out in a framework agreement between the Company and the Sister Company (the ``Cooperation Agreement''). Services between the companies are priced on the terms that unrelated parties would agree between themselves; the Cooperation Agreement specifies the methods of determining prices and settlements, and a dispute over a price is resolved by an independent expert appointed in accordance with that agreement.
+  \item Holding an interest in the Sister Company, holding positions in its bodies, and working for or providing services to it in its Field of Activity do not constitute competing activities within the meaning of \S~\ref{art:ip}(5) and do not require the consent of the Board of Directors.
+  \item The Company, its shareholders and directors may make the Company's confidential information available to the Sister Company to the extent necessary to perform the Cooperation Agreement, provided that the Sister Company is bound by a confidentiality obligation no less stringent than that set out in \S~\ref{art:ip}(3); such disclosure does not breach \S~\ref{art:ip}(3).
+  \item The Company and the Sister Company ensure that the intellectual property rights to the results of work carried out jointly or for both companies belong to the company to whose Field of Activity those results pertain. Rights to results useful in both Fields of Activity belong to the company designated in the Cooperation Agreement, and the other company receives a non-exclusive licence to use them in its Field of Activity on the terms of that agreement. The transfer of rights and the grant of an exclusive licence between the companies require written form on pain of nullity and a list of the fields of exploitation; other licences are granted at least in documentary form, specifying the fields of exploitation, the term and the termination conditions. A person performing tasks for both companies enters into agreements ensuring that the rights to a work are acquired by the company to whose Field of Activity the work pertains. \S~\ref{art:ip}(1) applies subject to this section.
+  \item The conclusion, amendment and termination of the Cooperation Agreement require a resolution of the General Meeting (\S~\ref{art:wz-zastrzezone}(1)(j)). Acts performed in the performance of the Cooperation Agreement and within its limits do not require a separate resolution of the Board of Directors referred to in \S~\ref{art:rada}(7). To the extent permitted by law, a director is not excluded from deciding matters concerning the Sister Company (\S~\ref{art:rada}(6)) solely because they are its shareholder, director or employee.
+  \item Work performed by a Functional Shareholder for the Sister Company does not constitute a cessation of involvement within the meaning of \S~\ref{art:obowiazek-zbycia}(4) if the allocation of their time and tasks between the two companies is specified in a resolution of the Board of Directors or in the Cooperation Agreement.
+  \item If a company ceases to be the Sister Company, sections~3--7 cease to apply upon the lapse of 6 months from that moment. The rights and obligations under the Cooperation Agreement, including the licences granted, continue or expire on the terms set out therein.
+  \item The subscription for or acquisition of shares in the Sister Company by the Company requires a resolution of the General Meeting adopted by a majority of 75\% of all votes. If the Sister Company is the dominant company in relation to the Company, the Company does not subscribe for its shares (Article~300$^{48}$ \S~1 KSH), and the provisions on the acquisition of own shares apply to the acquisition of its shares (Article~300$^{47}$ \S~9 KSH). The Company makes the notifications referred to in Article~6 \S\S~1 and~6 KSH, also where a dominance relationship or its termination results from Article~4 \S~1(4)(d) KSH.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Profit and Distributions}
+\label{art:zysk}
+\begin{enumerate}
+  \item The General Meeting decides on the allocation of profit, taking into account statutory restrictions, development funding needs, grant obligations and liquidity security. During the first 36 months after the Company's entry in the register, the recommended use of profit is its reinvestment.
+  \item A dividend, an interim dividend, a payment from the share capital or any other distribution to shareholders may be made only after the tests and procedures required by law have been carried out, in particular the solvency test under Article~300$^{15}$ KSH, and in accordance with the terms of financing agreements.
+  \item The Company makes the allocations to the share capital required by law and may create reserve capitals, including a reserve capital for the acquisition of own shares.
+  \item The Board of Directors is authorised to pay interim dividends on account of the dividend expected for the financial year, on the terms set out in the law and in section~2.
+  \item The Company's financial year is the calendar year. The first financial year ends on 31 December of the year in which the Company was entered in the register of entrepreneurs; if the Company commenced operations in the second half of the year, the first financial year may be combined with the following year in accordance with Article~3(1)(9) of the Accounting Act.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Dissolution and Liquidation of the Company}
+\label{art:likwidacja}
+\begin{enumerate}
+  \item The Company is dissolved in the cases provided for by law or on the basis of a resolution of the General Meeting adopted by a majority of 75\% of all votes.
+  \item The directors act as liquidators, unless the General Meeting decides otherwise.
+  \item Before releasing or destroying data carriers, prototypes and documentation, the liquidators carry out a security and export classification and ensure the lawful protection of the Company's intellectual property.
+  \item The assets remaining after the creditors have been satisfied or secured are distributed among the shareholders pro rata to the number of shares held.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+\label{art:final}
+\begin{enumerate}
+  \item An amendment to these Articles requires the form prescribed by law and the majority specified in \S~\ref{art:wz-zastrzezone}(1)(a). An amendment to the Articles that increases the obligations attached to a share towards a shareholder, in particular one that tightens the rules in \S~\ref{art:zbywanie}(4) or \S~\ref{art:obowiazek-zbycia}, requires the consent of each shareholder concerned.
+  \item If a provision of these Articles is invalid or unenforceable, the remaining provisions remain in force; the parties will replace the defective provision with a legally permissible solution that comes as close as possible to its economic purpose.
+  \item References to provisions of law are understood as references to those provisions as in force on the date of the given act and, if they are repealed or renumbered, to the provisions replacing them. The Board of Directors submits to the General Meeting a draft adjustment of these Articles within 6 months of the date of entry into force of a change in the law requiring an amendment to the Articles.
+  \item Disputes relating to these Articles are first submitted by the parties to negotiation and mediation; failing a settlement, the common court having jurisdiction over the Company's registered office has jurisdiction. This obligation does not limit the right to seek interim relief or to perform urgent acts and does not affect the running of the time limits for challenging resolutions of the Company's bodies.
+  \item Annex~1 forms an integral part of these Articles. A change in a Founder's personal or address details, a disposal of shares and the confirmation that a contribution has been made do not require an amendment to Annex~1 and are disclosed in the register of shareholders or by a resolution of the Board of Directors.
+  \item The first directors, the entity maintaining the register of shareholders, the first Rules of the General Meeting and the Company's attorney for concluding with Founders who are directors the agreements referred to in \S~\ref{art:cap-table}(6) and \S~\ref{art:obowiazek-zbycia}(6) (Article~300$^{79}$ \S~1 KSH) are designated by the Founders in resolutions included in the deed of formation of the Company. Until the Company is entered in the register of entrepreneurs, the Company in organisation is represented by the Board of Directors in accordance with \S~\ref{art:reprezentacja}, and incurring obligations other than those necessary for the formation and registration of the Company requires the consent of all Founders.
+\end{enumerate}
+\end{ContractClause}
+
+\newpage
+
+\section*{Annex 1 --- Founders, Shares, Contributions and Start Dates}
+\addcontentsline{toc}{section}{Annex 1 --- Founders, Shares, Contributions and Start Dates}
+
+\textbf{Part A. Founders and Series A shares (\S~\ref{art:cap-table}(1)--(2)):}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.9cm} >{\raggedright\arraybackslash}X p{4.2cm} p{1.9cm} p{2.3cm}@{}}
+\toprule
+\textbf{Fdr.} & \textbf{Identification details} & \textbf{Share numbers} & \textbf{Issue price} & \textbf{Start date} \\
+\midrule
+A & \field{full details} & A0000001--A0500000 & PLN 5,000 & \field{date} \\
+B & \field{full details} & A0500001--A0700000 & PLN 2,000 & \field{date} \\
+C & \field{full details} & A0700001--A0800000 & PLN 1,000 & \field{date} \\
+D & \field{full details} & A0800001--A0900000 & PLN 1,000 & \field{date} \\
+E & \field{full details} & A0900001--A1000000 & PLN 1,000 & \field{date} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+In the ``Start date'' column (the beginning of the period referred to in \S~\ref{art:obowiazek-zbycia}(2)), a date is entered only for a Founder committed to permanent, personal operational involvement; the absence of a date means that the shares of the given Founder are not subject to the transfer obligation.
+
+\Needspace{26\baselineskip}
+\textbf{Part B. Non-cash contributions (\S~\ref{art:cap-table}(3)--(4)):}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.9cm} p{2.3cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{1.85cm} >{\raggedright\arraybackslash}p{2.75cm}@{}}
+\toprule
+\textbf{Fdr.} & \textbf{Share numbers} & \textbf{Subject of the contribution (description, repository and version, serial numbers, application number)} & \textbf{Value of the contri\-bution} & \textbf{Valuation basis; transfer document} \\
+\midrule
+A & \field{numbers from--to} & \field{code / hardware / patent} & \field{amount} & \field{report or valuation method and date; transfer agreement} \\
+B & \field{numbers from--to} & \field{code / hardware / patent} & \field{amount} & \field{report or valuation method and date; transfer agreement} \\
+C & \field{numbers from--to} & \field{code / hardware / patent} & \field{amount} & \field{report or valuation method and date; transfer agreement} \\
+D & \field{numbers from--to} & \field{code / hardware / patent} & \field{amount} & \field{report or valuation method and date; transfer agreement} \\
+E & \field{numbers from--to} & \field{code / hardware / patent} & \field{amount} & \field{report or valuation method and date; transfer agreement} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\Needspace{12\baselineskip}
+\textbf{Part C. Cash contributions (\S~\ref{art:cap-table}(3)--(4)):}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.9cm} p{3.2cm} >{\raggedright\arraybackslash}X p{4.4cm}@{}}
+\toprule
+\textbf{Fdr.} & \textbf{Share numbers} & \textbf{Amount of the cash contribution} & \textbf{Payment deadline} \\
+\midrule
+A & \field{numbers from--to} & \field{amount} & before the Company is filed for registration \\
+B & \field{numbers from--to} & \field{amount} & before the Company is filed for registration \\
+C & \field{numbers from--to} & \field{amount} & before the Company is filed for registration \\
+D & \field{numbers from--to} & \field{amount} & before the Company is filed for registration \\
+E & \field{numbers from--to} & \field{amount} & before the Company is filed for registration \\
+\midrule
+\multicolumn{4}{@{}l}{\textbf{Total value of the contributions in Parts B and C (share capital):} \field{total}} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+The agreements transferring the rights constituting non-cash contributions (\S~\ref{art:cap-table}(6)) are signed on behalf of the Company by the attorney referred to in \S~\ref{art:reprezentacja}(3). Each component of a non-cash contribution is accompanied by a handover report, a list of files or repositories with checksums or version tags, documentation of the acquisition of rights, a list of authors, a list of third-party licences and --- in the case of patents and patent applications --- their numbers, territories and assignment documents.
+
+\end{document}
