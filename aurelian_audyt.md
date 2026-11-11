@@ -3,7 +3,7 @@
 | | |
 |----|----------------|
 | **Przedmiot** | 1. Umowa akcjonariuszy — `aurelian_sha.tex`, wersja 1.0 (projekt). 2. Umowy przeniesienia autorskich praw majątkowych — `aurelian_ip.tex`, wersja 1.0: Umowa nr 1 (aport przy zawiązaniu) i Umowa nr 2 (utwory tworzone dla Spółki). |
-| **Data** | listopad 2026 r. |
+| **Data** | listopad 2026 r.; poprawki U1 — punkt 4 (umowa akcjonariuszy i umowy IP w wersji 1.1, nowa umowa spółki `aurelian.tex` 1.0-S) |
 | **Stan prawny** | Teksty ujednolicone w `src/legal/`: KC (Dz.U. 2026 poz. 795), KSH (Dz.U. 2024 poz. 18 z późn. zm.), prawo autorskie (Dz.U. 2025 poz. 24), PWP, Kodeks pracy, PIT (Dz.U. 2026 poz. 592). |
 | **Ocena** | **Dokumenty są co do zasady zgodne z prawem, ale wymagają poprawek przed podpisaniem:** 1 ryzyko krytyczne (brak umowy spółki Aurelian), 3 wysokie, 4 średnie, 5 niskich. Żadne postanowienie nie jest sprzeczne z bezwzględnie obowiązującym przepisem w sposób nieusuwalny. |
 
@@ -67,3 +67,28 @@
 3. **Ś1–Ś3:** pożyczki od dyrektorów, przebudowa oferty na zobowiązanie wobec Spółki (art. 393 KC), zmiany umowy za zgodą wszystkich.
 4. **N1–N5:** poprawki redakcyjne.
 5. Przegląd przez prawnika: zakaz konkurencji bez odszkodowania (Ś4) i mechanizm oferty (Ś2).
+
+---
+
+## 4. Poprawki U1 (umowa akcjonariuszy i umowy IP — wersja 1.1)
+
+| ID | Status | Co zmieniono | Gdzie |
+|--|--|------------|----|
+| **K1** | usunięte | Nowa umowa spółki `aurelian.tex` (wersja 1.0-S) z wariantu 2.5-S: firma Aurelian, siedziba do uzupełnienia, przedmiot działalności łączący ląd, powietrze i morze, 10 kodów PKD przy pierwszym wpisie i 5 dalszych, bez § 15 o spółce siostrzanej i bez § 13 ust. 1 lit. j. Numeracja § 1–14 bez zmian, więc odesłania `\US` pozostają poprawne | `aurelian.tex` |
+| **W1** | usunięte | Czas oznaczony 10 lat z przedłużeniem o 5 lat, chyba że strona odmówi na 12 miesięcy przed końcem; wcześniejsze wypowiedzenie tylko z ważnych powodów, bez zwolnienia z obowiązków z umowy spółki, poufności i zakazu konkurencji | SHA § 12 ust. 1 i 3 |
+| **W2** | usunięte | Zwrot praw wyłącznie przy rozwiązaniu umowy spółki z art. 169 § 1 w zw. z art. 300¹³ § 1 KSH | Umowa nr 1 § 2 ust. 4 |
+| **W3** | usunięte | Komparycja wariantowa (pełnomocnik z art. 300⁷⁹ § 1 / dwóch dyrektorów / pełnomocnik z art. 300¹¹ § 2), także w podpisach i protokole wydania | Umowa nr 1, wprowadzenie, Załącznik 1.3 |
+| **Ś1** | usunięte | Pożyczka od dyrektora — pełnomocnik z art. 300⁷⁹ § 1 KSH | SHA § 10 ust. 2 |
+| **Ś2** | usunięte | Zobowiązanie wobec Spółki do zbycia na rzecz wskazanego nabywcy z prawem nabywcy do żądania (art. 393 KC); oferta i pełnomocnictwo jako zabezpieczenie | SHA § 5 ust. 1 |
+| **Ś3** | usunięte | Zmiana umowy za zgodą wszystkich stron; większość 75% tylko dla zmian technicznych, które nie zwiększają obowiązków ani nie ograniczają praw | SHA § 13 ust. 1 |
+| **Ś4** | bez zmian | Zakaz konkurencji bez odszkodowania — decyzja Założycieli i ocena prawnika | SHA § 8 |
+| **N1** | usunięte | Udzielanie licencji i zbywanie praw przeniesione z listy pól eksploatacji do osobnego zdania | makro `\PolaEksploatacji` |
+| **N2** | usunięte | Upoważnienie do pierwszego udostępnienia i nadzoru ograniczone do utworów niebędących programami | Umowa nr 1 i 2, § 3 ust. 2 |
+| **N3** | usunięte | Impas odsyła do § 13 ust. 1 lit. b albo h | SHA § 11 ust. 2 |
+| **N4** | usunięte | We wprowadzeniu: wzór nr 2 nie dotyczy pracowników (art. 12, art. 74 ust. 3 pr. aut.) | `aurelian_ip.tex`, wprowadzenie |
+| **N5** | usunięte | Podstawa przetwarzania danych (RODO) w postanowieniach końcowych | SHA § 13, Umowa nr 1 § 6, Umowa nr 2 § 8 |
+
+**Kontrola techniczna:** `aurelian.tex` (24 strony), `aurelian_sha.tex` i `aurelian_ip.tex` (po 13 stron) się kompilują; nierozwiązanych odwołań i przepełnionych wierszy: 0. Wszystkie odesłania `\US{n}` (§ 4, 5, 9, 11, 13, 14) wskazują właściwe paragrafy `aurelian.tex`.
+
+**Założenia do potwierdzenia:** przedmiot działalności Aurelian (ląd, powietrze i morze w jednej spółce), siedziba, skład i udziały Założycieli (tabela 50/20/10/10/10 przejęta z wariantu 2.5-S).
+

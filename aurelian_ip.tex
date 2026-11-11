@@ -1,6 +1,6 @@
 % !TeX program = pdflatex
 % Umowy przeniesienia autorskich praw majątkowych --- Aurelian P.S.A. (wzory).
-% Odesłania do umowy spółki według wariantu prostego 2.5-S (makro \US).
+% Odesłania do umowy spółki Aurelian (aurelian.tex, makro \US).
 \documentclass[12pt,a4paper]{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -21,7 +21,7 @@
 \BusinessPlanAuthorsText{Aurelian --- wzory umów przeniesienia praw autorskich}
 \BusinessPlanConfidentialText{Projekty umów --- poufne}
 \BusinessPlanFooterText{Aurelian --- umowy przeniesienia praw autorskich (projekt)}
-\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+\BusinessPlanVersionText{Wersja 1.1 --- projekt}
 
 \setstretch{1.18}
 \setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
@@ -58,9 +58,9 @@
     \item rozpowszechnianie, w tym wprowadzanie do obrotu, użyczenie i najem oryginału albo egzemplarzy;
     \item publiczne udostępnianie w taki sposób, aby każdy mógł mieć do utworu dostęp w miejscu i czasie przez siebie wybranym, w tym udostępnianie w modelu usługi (SaaS) i za pośrednictwem interfejsów programistycznych;
     \item wprowadzanie do pamięci komputera i sieci, wykorzystywanie w urządzeniach, systemach wbudowanych i pojazdach bezzałogowych;
-    \item wykorzystywanie do trenowania, testowania i walidacji modeli uczenia maszynowego;
-    \item udzielanie licencji i sublicencji w zakresie pól wymienionych powyżej oraz zbywanie praw.
+    \item wykorzystywanie do trenowania, testowania i walidacji modeli uczenia maszynowego.
   \end{enumerate}%
+  Spółka może udzielać licencji i sublicencji w zakresie tych pól oraz przenosić nabyte prawa bez zgody twórcy.%
 }
 
 \hypersetup{
@@ -72,11 +72,11 @@
 
 \BusinessPlanTitlePage
   {Aurelian}
-  {Wersja 1.0 --- projekt}
+  {Wersja 1.1 --- projekt}
   {Umowy przeniesienia praw autorskich}
   {Wzory umów dla Aurelian P.S.A.}
   {Aport praw przy zawiązaniu Spółki i utwory tworzone dla Spółki}
-  {1.0}
+  {1.1}
 
 \tableofcontents
 \newpage
@@ -88,10 +88,10 @@ Dokument zawiera dwa wzory umów wykonujących \US{4} ust.~6 i \US{14} ust.~1:
 
 \begin{itemize}
   \item \textbf{Umowa nr~1} --- przeniesienie autorskich praw majątkowych stanowiących wkład niepieniężny Założyciela (aport), zawierana ze Spółką w organizacji najpóźniej w dniu zawarcia Umowy Spółki. Jedna umowa dla każdego wkładu z Części~B1 albo B2 Załącznika nr~1 do Umowy Spółki; współtwórcy podpisują ją wszyscy.
-  \item \textbf{Umowa nr~2} --- przeniesienie praw do utworów tworzonych dla Spółki w ramach zadań (Założyciel, dyrektor, współpracownik B2B), z kwartalnym potwierdzeniem wykazu utworów.
+  \item \textbf{Umowa nr~2} --- przeniesienie praw do utworów tworzonych dla Spółki w ramach zadań (Założyciel, dyrektor, współpracownik B2B), z kwartalnym potwierdzeniem wykazu utworów. Wzór nie dotyczy pracowników: prawa do programu stworzonego przez pracownika przysługują Spółce z mocy ustawy (art.~74 ust.~3), a do innych utworów --- z chwilą ich przyjęcia (art.~12 ustawy o prawie autorskim i prawach pokrewnych); w umowie o pracę wystarczą postanowienia o polach eksploatacji, prawach zależnych i potwierdzeniach.
 \end{itemize}
 
-Jeżeli Założyciel albo współpracownik jest dyrektorem Spółki, umowę po stronie Spółki podpisuje pełnomocnik powołany uchwałą akcjonariuszy (art.~300$^{79}$ §~1 KSH, \US{11} ust.~3), który nie może być stroną tej umowy. Obie umowy wymagają formy pisemnej pod rygorem nieważności (art.~53 ustawy o prawie autorskim i prawach pokrewnych); dopuszczalny jest kwalifikowany podpis elektroniczny.
+Jeżeli Założyciel albo współpracownik jest dyrektorem Spółki, umowę po stronie Spółki podpisuje pełnomocnik powołany uchwałą akcjonariuszy (art.~300$^{79}$ §~1 KSH, \US{11} ust.~3), który nie może być stroną tej umowy. Przed powołaniem Rady Dyrektorów Spółkę w organizacji reprezentuje pełnomocnik powołany jednomyślną uchwałą akcjonariuszy (art.~300$^{11}$ §~2 KSH). Obie umowy wymagają formy pisemnej pod rygorem nieważności (art.~53 ustawy o prawie autorskim i prawach pokrewnych); dopuszczalny jest kwalifikowany podpis elektroniczny.
 
 % ============================================================== UMOWA NR 1
 \chapter*{Umowa nr 1 --- przeniesienie praw stanowiących wkład niepieniężny}
@@ -107,7 +107,12 @@ zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
 
 \textbf{\field{imię, nazwisko}}, PESEL \field{numer}, zamieszkałym w \field{adres}, zwanym dalej „Założycielem”, a
 
-\textbf{\CompanyFull{} w organizacji} z siedzibą w \field{miejscowość}, reprezentowaną przez \field{imię, nazwisko} --- pełnomocnika powołanego uchwałą Założycieli z dnia \field{data}, objętą aktem zawiązania Spółki (art.~300$^{79}$ §~1 KSH), zwaną dalej „Spółką”.
+\textbf{\CompanyFull{} w organizacji} z siedzibą w \field{miejscowość}, zwaną dalej „Spółką”, reprezentowaną przez \field{wybrać wariant}:
+\begin{enumerate}[label=\alph*)]
+  \item jeżeli Założyciel jest dyrektorem --- \field{imię, nazwisko}, pełnomocnika powołanego uchwałą akcjonariuszy z dnia \field{data} (art.~300$^{79}$ §~1 KSH), niebędącego stroną niniejszej umowy;
+  \item jeżeli Założyciel nie jest dyrektorem --- dwóch dyrektorów: \field{imiona, nazwiska} (\US{11} ust.~1);
+  \item jeżeli Rada Dyrektorów nie została jeszcze powołana --- \field{imię, nazwisko}, pełnomocnika powołanego jednomyślną uchwałą akcjonariuszy z dnia \field{data} (art.~300$^{11}$ §~2 KSH).
+\end{enumerate}
 
 \begin{ContractClause}{Przedmiot umowy}
 \label{u1:przedmiot}
@@ -126,7 +131,7 @@ zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
   \PolaEksploatacji
   \item Założyciel przenosi na Spółkę wyłączne prawo zezwalania na wykonywanie zależnych praw autorskich do Utworów, w tym do ich modyfikacji i opracowań, na polach eksploatacji określonych w ust.~1.
   \item Wraz z prawami Spółka nabywa własność wszystkich nośników, na których Utwory utrwalono i które zostały jej przekazane, oraz dostęp administracyjny do repozytoriów, kont i usług, w których Utwory są przechowywane.
-  \item Jeżeli Spółka nie zostanie wpisana do rejestru przedsiębiorców w terminie 12 miesięcy od zawarcia Umowy Spółki albo postanowienie o odmowie wpisu stanie się prawomocne, prawa wracają do Założyciela (warunek rozwiązujący), a Spółka zwraca mu nośniki i dostęp.
+  \item Jeżeli Umowa Spółki ulegnie rozwiązaniu na podstawie art.~169 §~1 w związku z art.~300$^{13}$ §~1 KSH (niezgłoszenie Spółki do sądu rejestrowego w terminie 6 miesięcy od zawarcia Umowy Spółki albo prawomocna odmowa wpisu), prawa wracają do Założyciela (warunek rozwiązujący), a Spółka zwraca mu nośniki i dostęp.
 \end{enumerate}
 \end{ContractClause}
 
@@ -134,7 +139,7 @@ zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
 \label{u1:osobiste}
 \begin{enumerate}
   \item Założyciel zobowiązuje się nie wykonywać autorskich praw osobistych do Utworów w sposób utrudniający Spółce korzystanie z nich, w szczególności nie sprzeciwiać się zmianom i opracowaniom ani rozpowszechnianiu Utworów bez oznaczania autorstwa.
-  \item Założyciel upoważnia Spółkę do wykonywania w jego imieniu prawa do decydowania o pierwszym udostępnieniu Utworów publiczności i do nadzoru nad sposobem korzystania z nich.
+  \item W zakresie Utworów niebędących programami komputerowymi (art.~77 ust.~1 ustawy o prawie autorskim i prawach pokrewnych) Założyciel upoważnia Spółkę do wykonywania w jego imieniu prawa do decydowania o pierwszym udostępnieniu Utworów publiczności i do nadzoru nad sposobem korzystania z nich.
 \end{enumerate}
 \end{ContractClause}
 
@@ -168,14 +173,14 @@ zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
   \item Obowiązek przeniesienia praw podlega wykonaniu w naturze, w tym przez orzeczenie zastępujące oświadczenie woli Założyciela (art.~64 Kodeksu cywilnego).
   \item Zmiana umowy wymaga formy pisemnej pod rygorem nieważności. W sprawach nieuregulowanych stosuje się Umowę Spółki, ustawę o prawie autorskim i prawach pokrewnych oraz Kodeks cywilny.
   \item Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki.
-  \item Załączniki 1.1--1.3 stanowią integralną część umowy.
+  \item Załączniki 1.1--1.3 stanowią integralną część umowy. Spółka przetwarza dane osobowe Założyciela w celu wykonania umowy (art.~6 ust.~1 lit.~b RODO).
 \end{enumerate}
 \end{ContractClause}
 
 \vspace{0.8cm}
 \begin{center}
 \begin{tabularx}{\textwidth}{XX}
-\field{podpis Założyciela} & \field{za Spółkę: pełnomocnik} \\
+\field{podpis Założyciela} & \field{za Spółkę: pełnomocnik albo dwóch dyrektorów} \\
 \end{tabularx}
 \end{center}
 
@@ -207,7 +212,7 @@ Ja, \field{imię, nazwisko, PESEL}, oświadczam, że jestem \field{twórcą / ws
 \section*{Załącznik 1.3 --- Wzór protokołu wydania}
 \addcontentsline{toc}{section}{Załącznik 1.3 --- Wzór protokołu wydania}
 
-W dniu \field{data} Założyciel \field{imię, nazwisko} wydał \CompanyFull{} w organizacji, reprezentowanej przez \field{pełnomocnik}:
+W dniu \field{data} Założyciel \field{imię, nazwisko} wydał \CompanyFull{} w organizacji, reprezentowanej przez \field{osoba albo osoby reprezentujące Spółkę}:
 
 \begin{enumerate}
   \item repozytoria: \field{adres, gałąź, identyfikator wersji, suma kontrolna archiwum};
@@ -218,7 +223,7 @@ W dniu \field{data} Założyciel \field{imię, nazwisko} wydał \CompanyFull{} w
 
 Spółka potwierdza odbiór. Zastrzeżenia: \field{brak / opis}.
 
-\field{podpis Założyciela} \hfill \field{podpis pełnomocnika}
+\field{podpis Założyciela} \hfill \field{za Spółkę}
 
 % ============================================================== UMOWA NR 2
 \chapter*{Umowa nr 2 --- przeniesienie praw do utworów tworzonych dla Spółki}
@@ -259,7 +264,7 @@ zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
 \label{u2:osobiste}
 \begin{enumerate}
   \item Twórca zobowiązuje się nie wykonywać autorskich praw osobistych do Utworów w sposób utrudniający Spółce korzystanie z nich, w szczególności nie sprzeciwiać się zmianom i opracowaniom ani rozpowszechnianiu Utworów bez oznaczania autorstwa.
-  \item Twórca upoważnia Spółkę do decydowania o pierwszym udostępnieniu Utworów publiczności i do nadzoru nad sposobem korzystania z nich.
+  \item W zakresie Utworów niebędących programami komputerowymi (art.~77 ust.~1 ustawy o prawie autorskim i prawach pokrewnych) Twórca upoważnia Spółkę do decydowania o pierwszym udostępnieniu Utworów publiczności i do nadzoru nad sposobem korzystania z nich.
 \end{enumerate}
 \end{ContractClause}
 
@@ -305,7 +310,7 @@ zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
   \item Umowa obowiązuje przez czas trwania Stosunku Podstawowego. Rozwiązanie umowy nie wpływa na prawa nabyte przez Spółkę do Utworów przekazanych albo stworzonych przed rozwiązaniem.
   \item Obowiązek przeniesienia praw podlega wykonaniu w naturze, w tym przez orzeczenie zastępujące oświadczenie woli Twórcy (art.~64 Kodeksu cywilnego).
   \item Zmiana umowy wymaga formy pisemnej pod rygorem nieważności. Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki.
-  \item Załącznik~2.1 stanowi integralną część umowy.
+  \item Załącznik~2.1 stanowi integralną część umowy. Spółka przetwarza dane osobowe Twórcy w celu wykonania umowy (art.~6 ust.~1 lit.~b RODO).
 \end{enumerate}
 \end{ContractClause}
 

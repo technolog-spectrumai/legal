@@ -1,5 +1,5 @@
 % !TeX program = pdflatex
-% Umowa akcjonariuszy Aurelian P.S.A. Odesłania do umowy spółki według wariantu prostego 2.5-S (makro \US).
+% Umowa akcjonariuszy Aurelian P.S.A. Odesłania do umowy spółki Aurelian (aurelian.tex, makro \US).
 \documentclass[12pt,a4paper]{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -20,7 +20,7 @@
 \BusinessPlanAuthorsText{Aurelian --- projekt umowy akcjonariuszy}
 \BusinessPlanConfidentialText{Projekt umowy akcjonariuszy --- poufne}
 \BusinessPlanFooterText{Aurelian --- umowa akcjonariuszy (projekt)}
-\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+\BusinessPlanVersionText{Wersja 1.1 --- projekt}
 
 \setstretch{1.18}
 \setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
@@ -47,7 +47,7 @@
 \newcommand{\field}[1]{\textbf{[#1]}}
 \newcommand{\CompanyFull}{Aurelian prosta spółka akcyjna}
 \newcommand{\CompanyShort}{Aurelian P.S.A.}
-% Odesłanie do paragrafu umowy spółki (numeracja wariantu prostego 2.5-S)
+% Odesłanie do paragrafu umowy spółki (numeracja aurelian.tex)
 \newcommand{\US}[1]{§~#1 Umowy Spółki}
 
 \hypersetup{
@@ -59,11 +59,11 @@
 
 \BusinessPlanTitlePage
   {Aurelian}
-  {Wersja 1.0 --- projekt}
+  {Wersja 1.1 --- projekt}
   {Umowa akcjonariuszy}
   {Projekt umowy akcjonariuszy Aurelian P.S.A.}
   {Zaangażowanie, vesting, własność intelektualna, poufność}
-  {1.0}
+  {1.1}
 
 \tableofcontents
 \newpage
@@ -167,7 +167,7 @@ E & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B /
 \begin{ContractClause}{Wykonanie obowiązku zbycia akcji}
 \label{sha:wykonanie}
 \begin{enumerate}
-  \item Akcjonariusz Funkcjonalny w dniu zawarcia niniejszej umowy, a w przypadku akcji serii~F --- w dniu zawarcia umowy objęcia akcji, składa nieodwołalną ofertę zbycia Akcji Objętych według wzoru z Załącznika A. Oferta jest skierowana do nabywcy wskazanego zgodnie z \US{9} ust.~4 i może zostać przyjęta wyłącznie co do Akcji Niezwolnionych, w terminach z \US{9} ust.~4.
+  \item Akcjonariusz Funkcjonalny zobowiązuje się wobec Spółki do zbycia Akcji Niezwolnionych na rzecz nabywcy wskazanego zgodnie z \US{9} ust.~4, w terminach tam określonych (art.~393 Kodeksu cywilnego); nabywca może żądać zawarcia umowy zbycia bezpośrednio od Akcjonariusza Funkcjonalnego. W celu zabezpieczenia wykonania tego zobowiązania Akcjonariusz Funkcjonalny w dniu zawarcia niniejszej umowy, a w przypadku akcji serii~F --- w dniu zawarcia umowy objęcia akcji, składa ponadto nieodwołalną ofertę zbycia Akcji Objętych według wzoru z Załącznika A oraz udziela pełnomocnictwa, o którym mowa w ust.~3.
   \item Cena za jedną Akcję Niezwolnioną jest równa jej cenie emisyjnej. Strony potwierdzają, że cena ta wynika z Umowy Spółki i z mechanizmu stopniowego zwalniania akcji, przyjętych przy zawiązaniu Spółki jako warunek objęcia akcji przez wszystkich Założycieli, a nie z oceny wartości rynkowej akcji.
   \item Akcjonariusz Funkcjonalny udziela Spółce oraz każdemu dyrektorowi niewykonawczemu, z prawem do udzielania dalszych pełnomocnictw, pełnomocnictwa według wzoru z Załącznika B do zawarcia w jego imieniu umowy zbycia Akcji Niezwolnionych na rzecz nabywcy wskazanego zgodnie z \US{9} ust.~4 oraz do wydania dyspozycji wpisu nabywcy w rejestrze akcjonariuszy. Pełnomocnictwo jest nieodwołalne, ponieważ służy wykonaniu obowiązku wynikającego z Umowy Spółki i niniejszej umowy (art.~101 §~1 Kodeksu cywilnego), i nie wygasa ze śmiercią mocodawcy. Pełnomocnictwo może być wykonane wyłącznie po stwierdzeniu ustania zaangażowania zgodnie z §~\ref{sha:ustanie} i tylko co do Akcji Niezwolnionych.
   \item Nabywca zapłaci cenę w terminie 14 dni od zawarcia umowy zbycia na rachunek bankowy Akcjonariusza Funkcjonalnego wskazany w ofercie, a w razie jego braku --- do depozytu sądowego. Zbycie następuje w formie dokumentowej (art.~300$^{36}$ §~4 KSH), a nabycie --- z chwilą wpisu nabywcy do rejestru akcjonariuszy (art.~300$^{37}$ §~1 KSH).
@@ -218,7 +218,7 @@ E & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B /
 \label{sha:finansowanie}
 \begin{enumerate}
   \item Założyciele dążą do finansowania Spółki w pierwszej kolejności z grantów, przychodów i emisji w granicach limitów z \US{5}. Żaden Założyciel nie jest zobowiązany do dopłat ani do udzielania Spółce pożyczek.
-  \item Pożyczka udzielona Spółce przez Założyciela wymaga uchwały Rady Dyrektorów i jest udzielana na warunkach rynkowych w formie pisemnej.
+  \item Pożyczka udzielona Spółce przez Założyciela wymaga uchwały Rady Dyrektorów i jest udzielana na warunkach rynkowych w formie pisemnej. Jeżeli pożyczkodawca jest dyrektorem, umowę po stronie Spółki zawiera pełnomocnik powołany uchwałą akcjonariuszy (art.~300$^{79}$ §~1 KSH, \US{11} ust.~3).
   \item Przed wprowadzeniem inwestora Założyciele uzgadniają projekt zmiany Umowy Spółki ustanawiającej serię inwestorską (\US{5} ust.~4) oraz zmiany niniejszej umowy wymagane przez inwestora. Żaden Założyciel nie jest zobowiązany do zgody na postanowienia pogarszające jego sytuację w stosunku do innych Założycieli tej samej serii.
 \end{enumerate}
 \end{ContractClause}
@@ -227,7 +227,7 @@ E & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B /
 \label{sha:spory}
 \begin{enumerate}
   \item Strony rozwiązują spory w dobrej wierze w drodze negocjacji. Jeżeli spór nie zostanie rozwiązany w terminie 30 dni od wezwania, Strony poddają go mediacji prowadzonej przez \field{ośrodek mediacyjny}.
-  \item Jeżeli Walne Zgromadzenie dwukrotnie, w odstępie co najmniej 30 dni, nie podejmie uchwały w sprawie zastrzeżonej z \US{13} ust.~1 lit.~b, h albo~j, a sprawa jest niezbędna dla dalszego prowadzenia działalności Spółki, każda ze Stron może wszcząć mediację z ust.~1; Strony uczestniczą w niej w dobrej wierze.
+  \item Jeżeli Walne Zgromadzenie dwukrotnie, w odstępie co najmniej 30 dni, nie podejmie uchwały w sprawie zastrzeżonej z \US{13} ust.~1 lit.~b albo~h, a sprawa jest niezbędna dla dalszego prowadzenia działalności Spółki, każda ze Stron może wszcząć mediację z ust.~1; Strony uczestniczą w niej w dobrej wierze.
   \item W razie bezskuteczności mediacji spór rozstrzyga sąd powszechny właściwy dla siedziby Spółki. Postanowienie to nie ogranicza prawa do żądania zabezpieczenia.
 \end{enumerate}
 \end{ContractClause}
@@ -235,19 +235,20 @@ E & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B /
 \begin{ContractClause}{Czas trwania}
 \label{sha:czas}
 \begin{enumerate}
-  \item Umowa zostaje zawarta na czas nieoznaczony i wiąże Stronę, dopóki jest ona akcjonariuszem Spółki; §~\ref{sha:poufnosc}--\ref{sha:kary} i \ref{sha:spory} wiążą ją także po tej chwili w terminach w nich określonych.
+  \item Umowa zostaje zawarta na czas oznaczony 10 lat od dnia jej zawarcia i przedłuża się na kolejne okresy 5-letnie, chyba że Strona najpóźniej na 12 miesięcy przed upływem okresu oświadczy pozostałym Stronom, że nie przedłuża umowy w stosunku do siebie. Umowa wiąże Stronę, dopóki jest ona akcjonariuszem Spółki; §~\ref{sha:poufnosc}--\ref{sha:kary} i \ref{sha:spory} wiążą ją także po tej chwili w terminach w nich określonych.
   \item Umowa wygasa w całości z chwilą zbycia wszystkich akcji Spółki na rzecz jednego nabywcy albo grupy nabywców działających w porozumieniu, połączenia Spółki z inną spółką, w której Spółka nie jest przejmującą, albo zakończenia likwidacji Spółki.
-  \item Strony mogą wypowiedzieć umowę wyłącznie za zgodą Stron reprezentujących 75\% wszystkich głosów w Spółce.
+  \item Przed upływem okresu, o którym mowa w ust.~1, Strona może wypowiedzieć umowę w stosunku do siebie wyłącznie z ważnych powodów, ze skutkiem na koniec miesiąca następującego po doręczeniu wypowiedzenia. Wypowiedzenie albo nieprzedłużenie umowy nie zwalnia Strony z obowiązków związanych z akcjami wynikających z Umowy Spółki ani z obowiązków z §~\ref{sha:poufnosc}--\ref{sha:kary}.
 \end{enumerate}
 \end{ContractClause}
 
 \begin{ContractClause}{Postanowienia końcowe}
 \label{sha:koncowe}
 \begin{enumerate}
-  \item Zmiana niniejszej umowy wymaga formy pisemnej pod rygorem nieważności i zgody Stron reprezentujących co najmniej 75\% wszystkich głosów w Spółce; zmiana zwiększająca obowiązki Strony albo naruszająca równe traktowanie Stron wymaga jej zgody.
+  \item Zmiana niniejszej umowy wymaga formy pisemnej pod rygorem nieważności i zgody wszystkich Stron. Zmiana załączników, adresów do doręczeń oraz dostosowanie odesłań do zmiany Umowy Spółki wymaga zgody Stron reprezentujących co najmniej 75\% wszystkich głosów w Spółce, jeżeli nie zwiększa obowiązków ani nie ogranicza praw żadnej ze Stron.
   \item Zawiadomienia dokonuje się pocztą elektroniczną na adresy wskazane w komparycji albo w oświadczeniu o przystąpieniu, a w braku adresu --- przesyłką poleconą. Zmiana adresu jest skuteczna od chwili zawiadomienia pozostałych Stron.
   \item Prawem właściwym jest prawo polskie. Jeżeli postanowienie umowy jest nieważne albo niewykonalne, pozostałe zachowują moc, a Strony zastąpią je postanowieniem najbliższym jego celowi gospodarczemu.
   \item Umowę sporządzono w \field{liczba} jednobrzmiących egzemplarzach, po jednym dla każdej Strony; dopuszcza się zawarcie umowy przy użyciu kwalifikowanych podpisów elektronicznych. Załączniki A--C stanowią jej integralną część.
+  \item Spółka jest administratorem danych osobowych Stron i przetwarza je w celu wykonania niniejszej umowy oraz prowadzenia dokumentacji korporacyjnej (art.~6 ust.~1 lit.~b i~c RODO); pozostałe informacje wymagane przez art.~13 RODO Spółka przekazuje Stronom przy zawarciu umowy.
 \end{enumerate}
 \end{ContractClause}
 
