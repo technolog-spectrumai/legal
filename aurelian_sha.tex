@@ -1,0 +1,309 @@
+% !TeX program = pdflatex
+% Umowa akcjonariuszy Aurelian P.S.A. Odesłania do umowy spółki według wariantu prostego 2.5-S (makro \US).
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+
+\BusinessPlanCompany{Aurelian}
+\BusinessPlanWatermarkText{Aurelian}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Aurelian --- projekt umowy akcjonariuszy}
+\BusinessPlanConfidentialText{Projekt umowy akcjonariuszy --- poufne}
+\BusinessPlanFooterText{Aurelian --- umowa akcjonariuszy (projekt)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.18}
+\setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.18}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{%
+  \paragraf{#1}%
+}{%
+  \par
+}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Aurelian prosta spółka akcyjna}
+\newcommand{\CompanyShort}{Aurelian P.S.A.}
+% Odesłanie do paragrafu umowy spółki (numeracja wariantu prostego 2.5-S)
+\newcommand{\US}[1]{§~#1 Umowy Spółki}
+
+\hypersetup{
+  pdftitle={Aurelian P.S.A. --- projekt umowy akcjonariuszy},
+  pdfauthor={Aurelian --- projekt umowy akcjonariuszy}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Aurelian}
+  {Wersja 1.0 --- projekt}
+  {Umowa akcjonariuszy}
+  {Projekt umowy akcjonariuszy Aurelian P.S.A.}
+  {Zaangażowanie, vesting, własność intelektualna, poufność}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Projekt umowy akcjonariuszy}
+\addcontentsline{toc}{chapter}{Projekt umowy akcjonariuszy}
+
+\begin{center}
+{\Large\bfseries UMOWA AKCJONARIUSZY}\par
+\vspace{0.25cm}
+{\LARGE\bfseries \CompanyFull}\par
+\vspace{0.6cm}
+\end{center}
+
+zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{1.6cm} >{\raggedright\arraybackslash}X p{3.2cm}}
+\toprule
+Strona & Dane identyfikacyjne & Akcje serii A \\
+\midrule
+A & \field{imię, nazwisko, PESEL, adres, adres e-mail} & \field{liczba, numery} \\
+B & \field{imię, nazwisko, PESEL, adres, adres e-mail} & \field{liczba, numery} \\
+C & \field{imię, nazwisko, PESEL, adres, adres e-mail} & \field{liczba, numery} \\
+D & \field{imię, nazwisko, PESEL, adres, adres e-mail} & \field{liczba, numery} \\
+E & \field{imię, nazwisko, PESEL, adres, adres e-mail} & \field{liczba, numery} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+zwanymi dalej łącznie „Założycielami”, a każdy z osobna „Założycielem”, oraz
+
+\textbf{\CompanyFull} z siedzibą w \field{miejscowość}, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego pod numerem KRS \field{numer} (do czasu wpisu --- jako spółka w organizacji), reprezentowaną zgodnie z \US{11}, a w zakresie, w jakim umowa dotyczy Założycieli będących dyrektorami --- przez pełnomocnika powołanego uchwałą akcjonariuszy zgodnie z art.~300$^{79}$ §~1 KSH, zwaną dalej „Spółką”.
+
+Strony zawierają umowę, której celem jest uporządkowanie współpracy Założycieli w sprawach, które nie należą do umowy spółki: zakresu zaangażowania, wykonania obowiązku zbycia akcji, własności intelektualnej, poufności i zakazu konkurencji. Umowa nie wprowadza praw uprzywilejowanych, prawa przyłączenia, przymusowego współzbycia ani innych mechanizmów inwestorskich.
+
+\begin{ContractClause}{Definicje i stosunek do Umowy Spółki}
+\label{sha:definicje}
+\begin{enumerate}
+  \item „Umowa Spółki” oznacza umowę \CompanyFull{} w brzmieniu obowiązującym w danej chwili. Terminy pisane wielką literą, niezdefiniowane w niniejszej umowie, mają znaczenie nadane im w Umowie Spółki, w szczególności: Założyciel Pierwotny, Założyciel Funkcjonalny Serii~F, Akcjonariusz Funkcjonalny, Dzień Przyznania Serii~F, Rada Dyrektorów i Walne Zgromadzenie.
+  \item „Akcje Objęte” oznaczają akcje Akcjonariusza Funkcjonalnego objęte obowiązkiem zbycia na podstawie \US{9}, a „Akcje Niezwolnione” --- Akcje Objęte, które w danej chwili nie zostały zwolnione z tego obowiązku zgodnie z \US{9} ust.~2.
+  \item „Dzień Ustania Zaangażowania” oznacza dzień, w którym ustało stałe, osobiste zaangażowanie operacyjne Akcjonariusza Funkcjonalnego w rozwój Spółki, stwierdzony zgodnie z §~\ref{sha:ustanie}.
+  \item Niniejsza umowa wiąże Strony jako zobowiązanie wzajemne. Nie zmienia Umowy Spółki i nie wiąże osób, które do niej nie przystąpiły. W razie sprzeczności między niniejszą umową a Umową Spółki w stosunkach ze Spółką rozstrzyga Umowa Spółki, a Strony zobowiązują się głosować za zmianą Umowy Spółki usuwającą sprzeczność w sposób najbliższy celowi niniejszej umowy.
+  \item Niniejsza umowa stanowi umowę wykonawczą, o której mowa w \US{9} ust.~6, oraz umowę, o której mowa w \US{14} ust.~1, w zakresie, w jakim nie zawarto odrębnych umów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Przystąpienie nowych akcjonariuszy}
+\label{sha:przystapienie}
+\begin{enumerate}
+  \item Założyciel zbywa akcje wyłącznie osobie, która przed zbyciem przystąpi do niniejszej umowy przez złożenie oświadczenia według wzoru z Załącznika C. Obowiązek ten nie dotyczy zbycia w postępowaniu egzekucyjnym ani nabywcy, wobec którego Walne Zgromadzenie, większością 75\% wszystkich głosów, zwolni z niego zbywcę.
+  \item Założyciel Funkcjonalny Serii~F oraz osoba obejmująca akcje serii~F przystępuje do niniejszej umowy najpóźniej w dniu zawarcia umowy objęcia akcji. Do uczestników programu motywacyjnego (seria~P) niniejszej umowy nie stosuje się; ich obowiązki określa regulamin programu i umowa uczestnictwa.
+  \item Przystępujący nabywa prawa i obowiązki Strony w zakresie wskazanym w oświadczeniu o przystąpieniu. Nabywca Akcji Objętych przejmuje obowiązki związane z tymi akcjami w zakresie, w jakim obciążały zbywcę, w tym składa ofertę i udziela pełnomocnictwa według wzorów z Załączników A i~B.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zaangażowanie Założycieli}
+\label{sha:zaangazowanie}
+\begin{enumerate}
+  \item Założyciele wskazani w Załączniku nr~1 do Umowy Spółki jako zobowiązani do stałego, osobistego zaangażowania operacyjnego obejmują następujące role i poświęcają Spółce co najmniej następujący czas:
+\end{enumerate}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{2.1cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{3.2cm} >{\raggedright\arraybackslash}p{2.9cm}}
+\toprule
+Założyciel & Rola i obszar odpowiedzialności & Minimalny zakres & Podstawa prawna \\
+\midrule
+A & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B / powołanie} \\
+B & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B / powołanie} \\
+C & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B / powołanie} \\
+D & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B / powołanie} \\
+E & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B / powołanie} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{enumerate}[resume]
+  \item Zaangażowanie jest wykonywane na podstawie umowy o pracę, umowy o świadczenie usług albo pełnienia funkcji dyrektora. Wynagrodzenie Założycieli ustala Rada Dyrektorów w budżecie, a wynagrodzenie dyrektorów --- uchwała akcjonariuszy. Do czasu pozyskania finansowania Założyciele mogą działać bez wynagrodzenia albo za wynagrodzeniem obniżonym; nie rodzi to roszczeń o wyrównanie.
+  \item Zmiana roli albo zakresu zaangażowania wymaga zgody Rady Dyrektorów i zainteresowanego Założyciela. Obniżenie zakresu poniżej połowy minimum z ust.~1 na okres dłuższy niż 3 miesiące, bez zgody Rady Dyrektorów, stanowi ustanie zaangażowania.
+  \item Inna działalność zawodowa Założyciela jest dopuszczalna, jeżeli nie narusza minimalnego zakresu zaangażowania, zakazu konkurencji (\US{14} ust.~5) ani obowiązku poufności.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Ustanie zaangażowania i rodzaj odejścia}
+\label{sha:ustanie}
+\begin{enumerate}
+  \item Zaangażowanie Akcjonariusza Funkcjonalnego ustaje w szczególności z dniem:
+  \begin{enumerate}[label=\alph*)]
+    \item rozwiązania albo wygaśnięcia stosunku prawnego, na podstawie którego wykonuje zaangażowanie, jeżeli w terminie 30 dni nie zostanie zastąpiony innym stosunkiem obejmującym co najmniej minimalny zakres z §~\ref{sha:zaangazowanie} ust.~1;
+    \item złożenia przez niego oświadczenia o zakończeniu zaangażowania;
+    \item spełnienia przesłanki z §~\ref{sha:zaangazowanie} ust.~3;
+    \item śmierci albo orzeczenia trwałej niezdolności do pracy.
+  \end{enumerate}
+  \item Ustanie zaangażowania stwierdza Rada Dyrektorów uchwałą podjętą bez udziału zainteresowanego, w terminie 30 dni od dnia, w którym dowiedziała się o zdarzeniu. Uchwała wskazuje Dzień Ustania Zaangażowania i liczbę Akcji Niezwolnionych obliczoną zgodnie z \US{9} ust.~2 i doręcza się ją Akcjonariuszowi Funkcjonalnemu pocztą elektroniczną.
+  \item Odejście jest „Odejściem Uzasadnionym”, jeżeli zaangażowanie ustało wskutek śmierci, trwałej niezdolności do pracy, rozwiązania stosunku prawnego przez Spółkę bez istotnej przyczyny leżącej po stronie Akcjonariusza Funkcjonalnego albo odejścia uzgodnionego z Radą Dyrektorów. Pozostałe odejścia są „Odejściem Zwykłym”.
+  \item W przypadku Odejścia Uzasadnionego Założyciele zobowiązują się głosować na Walnym Zgromadzeniu za zwolnieniem z obowiązku zbycia, na podstawie \US{9} ust.~5, Akcji Niezwolnionych, które zwolniłyby się w okresie 12 miesięcy od Dnia Ustania Zaangażowania, a w razie śmierci albo trwałej niezdolności do pracy --- wszystkich Akcji Niezwolnionych.
+  \item Akcjonariusz Funkcjonalny może zakwestionować uchwałę Rady Dyrektorów w terminie 14 dni od jej doręczenia, wnosząc o rozstrzygnięcie sporu w trybie §~\ref{sha:spory}. Do czasu rozstrzygnięcia Spółka nie wykonuje pełnomocnictwa, o którym mowa w §~\ref{sha:wykonanie} ust.~3, chyba że do upływu terminu z \US{9} ust.~4 pozostało mniej niż 30 dni.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wykonanie obowiązku zbycia akcji}
+\label{sha:wykonanie}
+\begin{enumerate}
+  \item Akcjonariusz Funkcjonalny w dniu zawarcia niniejszej umowy, a w przypadku akcji serii~F --- w dniu zawarcia umowy objęcia akcji, składa nieodwołalną ofertę zbycia Akcji Objętych według wzoru z Załącznika A. Oferta jest skierowana do nabywcy wskazanego zgodnie z \US{9} ust.~4 i może zostać przyjęta wyłącznie co do Akcji Niezwolnionych, w terminach z \US{9} ust.~4.
+  \item Cena za jedną Akcję Niezwolnioną jest równa jej cenie emisyjnej. Strony potwierdzają, że cena ta wynika z Umowy Spółki i z mechanizmu stopniowego zwalniania akcji, przyjętych przy zawiązaniu Spółki jako warunek objęcia akcji przez wszystkich Założycieli, a nie z oceny wartości rynkowej akcji.
+  \item Akcjonariusz Funkcjonalny udziela Spółce oraz każdemu dyrektorowi niewykonawczemu, z prawem do udzielania dalszych pełnomocnictw, pełnomocnictwa według wzoru z Załącznika B do zawarcia w jego imieniu umowy zbycia Akcji Niezwolnionych na rzecz nabywcy wskazanego zgodnie z \US{9} ust.~4 oraz do wydania dyspozycji wpisu nabywcy w rejestrze akcjonariuszy. Pełnomocnictwo jest nieodwołalne, ponieważ służy wykonaniu obowiązku wynikającego z Umowy Spółki i niniejszej umowy (art.~101 §~1 Kodeksu cywilnego), i nie wygasa ze śmiercią mocodawcy. Pełnomocnictwo może być wykonane wyłącznie po stwierdzeniu ustania zaangażowania zgodnie z §~\ref{sha:ustanie} i tylko co do Akcji Niezwolnionych.
+  \item Nabywca zapłaci cenę w terminie 14 dni od zawarcia umowy zbycia na rachunek bankowy Akcjonariusza Funkcjonalnego wskazany w ofercie, a w razie jego braku --- do depozytu sądowego. Zbycie następuje w formie dokumentowej (art.~300$^{36}$ §~4 KSH), a nabycie --- z chwilą wpisu nabywcy do rejestru akcjonariuszy (art.~300$^{37}$ §~1 KSH).
+  \item Spółka nie jest nabywcą Akcji Niezwolnionych ani nie finansuje ich nabycia. Jeżeli obowiązek zbycia wygaśnie zgodnie z \US{9} ust.~4, Spółka niezwłocznie zgłasza to do rejestru akcjonariuszy, a oferta i pełnomocnictwo w tym zakresie wygasają.
+  \item Akcjonariusz Funkcjonalny nie obciąża Akcji Niezwolnionych i nie dokonuje czynności utrudniających wykonanie obowiązku zbycia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Własność intelektualna}
+\label{sha:ip}
+\begin{enumerate}
+  \item Każdy Założyciel, który wnosi do Spółki wkład niepieniężny w postaci praw własności intelektualnej, zawiera ze Spółką w organizacji, najpóźniej w dniu zawarcia Umowy Spółki, umowę przeniesienia tych praw według wzoru Umowy nr~1 z dokumentu „Umowy przeniesienia autorskich praw majątkowych --- Aurelian P.S.A.” i przekazuje Spółce nośniki, repozytoria i dokumentację.
+  \item Każdy Założyciel zawiera ze Spółką, najpóźniej w dniu rozpoczęcia zaangażowania, umowę przeniesienia praw do utworów tworzonych dla Spółki według wzoru Umowy nr~2 z tego dokumentu, chyba że prawa te przechodzą na Spółkę z mocy ustawy albo na podstawie umowy o pracę zawierającej postanowienia nie mniej korzystne dla Spółki.
+  \item Założyciel oświadcza, że według jego najlepszej wiedzy: (a)~prawa wnoszone do Spółki nie przysługują jego obecnemu ani byłemu pracodawcy, uczelni ani zleceniodawcy; (b)~ujawnił Radzie Dyrektorów wszystkie znane mu prawa osób trzecich, w tym licencje oprogramowania otwartego wykorzystane w wnoszonych utworach; (c)~nie zobowiązał się wobec osób trzecich w sposób uniemożliwiający przeniesienie praw.
+  \item Technologia Założyciela niewniesiona do Spółki podlega licencji i obowiązkom określonym w \US{14} ust.~2. Założyciel ujawnia ją Radzie Dyrektorów w formie pisemnej w terminie 30 dni od zawarcia niniejszej umowy.
+  \item Założyciele współdziałają przy ustaleniu, które wkłady wpisuje się w Części~B1, a które w Części~B2 Załącznika nr~1 do Umowy Spółki, i każdy z nich ponosi sam skutki podatkowe swojego wkładu. Spółka udostępnia Założycielom dokumenty potrzebne do rozliczenia podatkowego i do złożenia wniosku o interpretację indywidualną.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Poufność}
+\label{sha:poufnosc}
+\begin{enumerate}
+  \item Strony zachowują w poufności treść niniejszej umowy oraz informacje o Spółce, jej technologii, klientach, finansowaniu i akcjonariuszach, uzyskane w związku z niniejszą umową lub udziałem w Spółce.
+  \item Obowiązek poufności nie dotyczy informacji: (a)~publicznie dostępnych bez naruszenia niniejszej umowy; (b)~ujawnianych doradcom związanym obowiązkiem poufności, potencjalnym inwestorom i nabywcom akcji, którzy zobowiązali się do poufności; (c)~których ujawnienia wymagają przepisy prawa albo organ władzy publicznej, po uprzednim powiadomieniu Spółki, jeżeli jest to dopuszczalne.
+  \item Obowiązek poufności trwa przez 5 lat od dnia, w którym Strona przestała być akcjonariuszem Spółki, a w odniesieniu do tajemnicy przedsiębiorstwa w rozumieniu ustawy o zwalczaniu nieuczciwej konkurencji --- dopóki informacja ma taki charakter.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zakaz konkurencji i zakaz przejmowania}
+\label{sha:konkurencja}
+\begin{enumerate}
+  \item Przez okres zaangażowania oraz przez 12 miesięcy od Dnia Ustania Zaangażowania Akcjonariusz Funkcjonalny nie prowadzi działalności konkurencyjnej wobec Spółki w zakresie przedmiotu działalności faktycznie wykonywanego przez Spółkę w Dniu Ustania Zaangażowania i nie uczestniczy w podmiocie prowadzącym taką działalność, z wyjątkiem inwestycji portfelowych nieprzekraczających 5\% udziału.
+  \item Przez okres wskazany w ust.~1 Akcjonariusz Funkcjonalny nie nakłania pracowników ani współpracowników Spółki do zakończenia współpracy ze Spółką i nie zatrudnia ich bezpośrednio ani pośrednio, a także nie nakłania klientów ani partnerów Spółki do ograniczenia współpracy z nią.
+  \item Rada Dyrektorów może, uchwałą podjętą bez udziału zainteresowanego, zwolnić Akcjonariusza Funkcjonalnego z zakazu w całości albo w części. Zakaz z ust.~1 po Dniu Ustania Zaangażowania nie obowiązuje w przypadku Odejścia Uzasadnionego, jeżeli Spółka nie dokonała zwolnienia akcji, o którym mowa w §~\ref{sha:ustanie} ust.~4.
+  \item W zakresie, w jakim Akcjonariusz Funkcjonalny jest pracownikiem Spółki, zakaz konkurencji po ustaniu stosunku pracy wymaga odrębnej umowy z odszkodowaniem zgodnie z art.~101$^{2}$ Kodeksu pracy; niniejszy paragraf obowiązuje wówczas w zakresie, w jakim nie jest z nią sprzeczny.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Kary umowne}
+\label{sha:kary}
+\begin{enumerate}
+  \item Za każde naruszenie §~\ref{sha:wykonanie} ust.~6, §~\ref{sha:poufnosc} albo §~\ref{sha:konkurencja} Strona zapłaci Spółce karę umowną w wysokości \field{kwota} zł, a w razie naruszenia ciągłego --- dodatkowo \field{kwota} zł za każdy pełny miesiąc jego trwania, łącznie nie więcej niż \field{kwota} zł.
+  \item Zapłata kary nie wyłącza dochodzenia odszkodowania przenoszącego jej wysokość ani roszczeń o zaniechanie naruszeń.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Finansowanie i kolejne rundy}
+\label{sha:finansowanie}
+\begin{enumerate}
+  \item Założyciele dążą do finansowania Spółki w pierwszej kolejności z grantów, przychodów i emisji w granicach limitów z \US{5}. Żaden Założyciel nie jest zobowiązany do dopłat ani do udzielania Spółce pożyczek.
+  \item Pożyczka udzielona Spółce przez Założyciela wymaga uchwały Rady Dyrektorów i jest udzielana na warunkach rynkowych w formie pisemnej.
+  \item Przed wprowadzeniem inwestora Założyciele uzgadniają projekt zmiany Umowy Spółki ustanawiającej serię inwestorską (\US{5} ust.~4) oraz zmiany niniejszej umowy wymagane przez inwestora. Żaden Założyciel nie jest zobowiązany do zgody na postanowienia pogarszające jego sytuację w stosunku do innych Założycieli tej samej serii.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Spory i impas}
+\label{sha:spory}
+\begin{enumerate}
+  \item Strony rozwiązują spory w dobrej wierze w drodze negocjacji. Jeżeli spór nie zostanie rozwiązany w terminie 30 dni od wezwania, Strony poddają go mediacji prowadzonej przez \field{ośrodek mediacyjny}.
+  \item Jeżeli Walne Zgromadzenie dwukrotnie, w odstępie co najmniej 30 dni, nie podejmie uchwały w sprawie zastrzeżonej z \US{13} ust.~1 lit.~b, h albo~j, a sprawa jest niezbędna dla dalszego prowadzenia działalności Spółki, każda ze Stron może wszcząć mediację z ust.~1; Strony uczestniczą w niej w dobrej wierze.
+  \item W razie bezskuteczności mediacji spór rozstrzyga sąd powszechny właściwy dla siedziby Spółki. Postanowienie to nie ogranicza prawa do żądania zabezpieczenia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Czas trwania}
+\label{sha:czas}
+\begin{enumerate}
+  \item Umowa zostaje zawarta na czas nieoznaczony i wiąże Stronę, dopóki jest ona akcjonariuszem Spółki; §~\ref{sha:poufnosc}--\ref{sha:kary} i \ref{sha:spory} wiążą ją także po tej chwili w terminach w nich określonych.
+  \item Umowa wygasa w całości z chwilą zbycia wszystkich akcji Spółki na rzecz jednego nabywcy albo grupy nabywców działających w porozumieniu, połączenia Spółki z inną spółką, w której Spółka nie jest przejmującą, albo zakończenia likwidacji Spółki.
+  \item Strony mogą wypowiedzieć umowę wyłącznie za zgodą Stron reprezentujących 75\% wszystkich głosów w Spółce.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\label{sha:koncowe}
+\begin{enumerate}
+  \item Zmiana niniejszej umowy wymaga formy pisemnej pod rygorem nieważności i zgody Stron reprezentujących co najmniej 75\% wszystkich głosów w Spółce; zmiana zwiększająca obowiązki Strony albo naruszająca równe traktowanie Stron wymaga jej zgody.
+  \item Zawiadomienia dokonuje się pocztą elektroniczną na adresy wskazane w komparycji albo w oświadczeniu o przystąpieniu, a w braku adresu --- przesyłką poleconą. Zmiana adresu jest skuteczna od chwili zawiadomienia pozostałych Stron.
+  \item Prawem właściwym jest prawo polskie. Jeżeli postanowienie umowy jest nieważne albo niewykonalne, pozostałe zachowują moc, a Strony zastąpią je postanowieniem najbliższym jego celowi gospodarczemu.
+  \item Umowę sporządzono w \field{liczba} jednobrzmiących egzemplarzach, po jednym dla każdej Strony; dopuszcza się zawarcie umowy przy użyciu kwalifikowanych podpisów elektronicznych. Załączniki A--C stanowią jej integralną część.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1cm}
+\begin{center}
+\begin{tabularx}{\textwidth}{XX}
+\field{podpis Założyciela A} & \field{podpis Założyciela B} \\[1.2cm]
+\field{podpis Założyciela C} & \field{podpis Założyciela D} \\[1.2cm]
+\field{podpis Założyciela E} & \field{za Spółkę: dyrektorzy albo pełnomocnik} \\
+\end{tabularx}
+\end{center}
+
+\newpage
+\section*{Załącznik A --- Wzór nieodwołalnej oferty zbycia akcji}
+\addcontentsline{toc}{section}{Załącznik A --- Wzór nieodwołalnej oferty zbycia akcji}
+
+\field{miejscowość, data}
+
+Ja, \field{imię, nazwisko, PESEL, adres}, akcjonariusz \CompanyFull{} („Spółka”), działając na podstawie \US{9} oraz §~\ref{sha:wykonanie} umowy akcjonariuszy z dnia \field{data}, niniejszym składam nieodwołalną ofertę zbycia \field{liczba} akcji Spółki serii~\field{seria} o numerach \field{od--do} („Akcje Objęte”) na następujących warunkach:
+
+\begin{enumerate}
+  \item Oferta jest skierowana do nabywcy wskazanego przez Radę Dyrektorów Spółki, a w braku wskazania --- do Założycieli Pierwotnych, zgodnie z \US{9} ust.~4.
+  \item Oferta może zostać przyjęta wyłącznie co do Akcji Niezwolnionych w rozumieniu umowy akcjonariuszy, po stwierdzeniu ustania mojego zaangażowania, w terminach z \US{9} ust.~4.
+  \item Cena za jedną akcję jest równa jej cenie emisyjnej i wynosi \field{kwota} zł; cenę należy zapłacić w terminie 14 dni od przyjęcia oferty na rachunek nr \field{numer rachunku}.
+  \item Oferta wiąże mnie i moich następców prawnych do dnia, w którym wszystkie Akcje Objęte zostaną zwolnione z obowiązku zbycia albo obowiązek zbycia wygaśnie.
+\end{enumerate}
+
+\field{podpis}
+
+\newpage
+\section*{Załącznik B --- Wzór pełnomocnictwa}
+\addcontentsline{toc}{section}{Załącznik B --- Wzór pełnomocnictwa}
+
+\field{miejscowość, data}
+
+Ja, \field{imię, nazwisko, PESEL, adres}, udzielam \CompanyFull{} oraz każdemu z jej dyrektorów niewykonawczych, z prawem udzielania dalszych pełnomocnictw, pełnomocnictwa do:
+
+\begin{enumerate}
+  \item zawarcia w moim imieniu umowy zbycia Akcji Niezwolnionych, w liczbie stwierdzonej uchwałą Rady Dyrektorów podjętą zgodnie z §~\ref{sha:ustanie} umowy akcjonariuszy z dnia \field{data}, na rzecz nabywcy wskazanego zgodnie z \US{9} ust.~4, po cenie równej cenie emisyjnej;
+  \item wydania dyspozycji wpisu nabywcy w rejestrze akcjonariuszy oraz dokonania innych czynności niezbędnych do przeniesienia tych akcji.
+\end{enumerate}
+
+Pełnomocnictwo jest nieodwołalne, ponieważ służy wykonaniu obowiązku wynikającego z umowy spółki i umowy akcjonariuszy (art.~101 §~1 Kodeksu cywilnego), nie wygasa z moją śmiercią i może być wykonane wyłącznie w przypadku i w trybie określonym w §~\ref{sha:wykonanie} umowy akcjonariuszy. Pełnomocnik może być drugą stroną umowy zbycia albo reprezentować obie strony.
+
+\field{podpis}
+
+\newpage
+\section*{Załącznik C --- Wzór oświadczenia o przystąpieniu}
+\addcontentsline{toc}{section}{Załącznik C --- Wzór oświadczenia o przystąpieniu}
+
+\field{miejscowość, data}
+
+Ja, \field{imię, nazwisko albo firma, PESEL albo KRS, adres, adres e-mail}, w związku z \field{nabyciem / objęciem} \field{liczba} akcji \CompanyFull{} serii~\field{seria} o numerach \field{od--do}, oświadczam, że przystępuję do umowy akcjonariuszy z dnia \field{data}, której treść otrzymałem, i przyjmuję wynikające z niej prawa i obowiązki \field{w całości / w zakresie: \ldots}.
+
+Jeżeli nabywane akcje są Akcjami Objętymi, składam jednocześnie ofertę i udzielam pełnomocnictwa według wzorów z Załączników A i~B.
+
+\field{podpis}
+
+\end{document}

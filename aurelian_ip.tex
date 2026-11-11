@@ -1,0 +1,340 @@
+% !TeX program = pdflatex
+% Umowy przeniesienia autorskich praw majątkowych --- Aurelian P.S.A. (wzory).
+% Odesłania do umowy spółki według wariantu prostego 2.5-S (makro \US).
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+
+\BusinessPlanCompany{Aurelian}
+\BusinessPlanWatermarkText{Aurelian}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Aurelian --- wzory umów przeniesienia praw autorskich}
+\BusinessPlanConfidentialText{Projekty umów --- poufne}
+\BusinessPlanFooterText{Aurelian --- umowy przeniesienia praw autorskich (projekt)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.18}
+\setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.18}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{%
+  \paragraf{#1}%
+}{%
+  \par
+}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Aurelian prosta spółka akcyjna}
+\newcommand{\CompanyShort}{Aurelian P.S.A.}
+\newcommand{\US}[1]{§~#1 Umowy Spółki}
+
+% Wspólna lista pól eksploatacji (art. 50 i art. 74 ust. 4 prawa autorskiego)
+\newcommand{\PolaEksploatacji}{%
+  \begin{enumerate}[label=\alph*)]
+    \item trwałe i czasowe zwielokrotnianie w całości lub w części, jakimikolwiek środkami i w jakiejkolwiek formie, w tym w zakresie, w jakim dla wprowadzania, wyświetlania, stosowania, przekazywania i przechowywania programu komputerowego niezbędne jest jego zwielokrotnienie;
+    \item tłumaczenie, przystosowywanie, zmiana układu i wszelkie inne zmiany, w tym rozwijanie, kompilowanie, dekompilowanie i integrowanie z innym oprogramowaniem;
+    \item rozpowszechnianie, w tym wprowadzanie do obrotu, użyczenie i najem oryginału albo egzemplarzy;
+    \item publiczne udostępnianie w taki sposób, aby każdy mógł mieć do utworu dostęp w miejscu i czasie przez siebie wybranym, w tym udostępnianie w modelu usługi (SaaS) i za pośrednictwem interfejsów programistycznych;
+    \item wprowadzanie do pamięci komputera i sieci, wykorzystywanie w urządzeniach, systemach wbudowanych i pojazdach bezzałogowych;
+    \item wykorzystywanie do trenowania, testowania i walidacji modeli uczenia maszynowego;
+    \item udzielanie licencji i sublicencji w zakresie pól wymienionych powyżej oraz zbywanie praw.
+  \end{enumerate}%
+}
+
+\hypersetup{
+  pdftitle={Aurelian P.S.A. --- umowy przeniesienia autorskich praw majątkowych},
+  pdfauthor={Aurelian --- projekty umów}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Aurelian}
+  {Wersja 1.0 --- projekt}
+  {Umowy przeniesienia praw autorskich}
+  {Wzory umów dla Aurelian P.S.A.}
+  {Aport praw przy zawiązaniu Spółki i utwory tworzone dla Spółki}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Wprowadzenie}
+\addcontentsline{toc}{chapter}{Wprowadzenie}
+
+Dokument zawiera dwa wzory umów wykonujących \US{4} ust.~6 i \US{14} ust.~1:
+
+\begin{itemize}
+  \item \textbf{Umowa nr~1} --- przeniesienie autorskich praw majątkowych stanowiących wkład niepieniężny Założyciela (aport), zawierana ze Spółką w organizacji najpóźniej w dniu zawarcia Umowy Spółki. Jedna umowa dla każdego wkładu z Części~B1 albo B2 Załącznika nr~1 do Umowy Spółki; współtwórcy podpisują ją wszyscy.
+  \item \textbf{Umowa nr~2} --- przeniesienie praw do utworów tworzonych dla Spółki w ramach zadań (Założyciel, dyrektor, współpracownik B2B), z kwartalnym potwierdzeniem wykazu utworów.
+\end{itemize}
+
+Jeżeli Założyciel albo współpracownik jest dyrektorem Spółki, umowę po stronie Spółki podpisuje pełnomocnik powołany uchwałą akcjonariuszy (art.~300$^{79}$ §~1 KSH, \US{11} ust.~3), który nie może być stroną tej umowy. Obie umowy wymagają formy pisemnej pod rygorem nieważności (art.~53 ustawy o prawie autorskim i prawach pokrewnych); dopuszczalny jest kwalifikowany podpis elektroniczny.
+
+% ============================================================== UMOWA NR 1
+\chapter*{Umowa nr 1 --- przeniesienie praw stanowiących wkład niepieniężny}
+\addcontentsline{toc}{chapter}{Umowa nr 1 --- przeniesienie praw stanowiących wkład niepieniężny}
+\setcounter{paragraf}{0}
+
+\begin{center}
+{\Large\bfseries UMOWA PRZENIESIENIA AUTORSKICH PRAW MAJĄTKOWYCH\\ STANOWIĄCYCH WKŁAD NIEPIENIĘŻNY}\par
+\vspace{0.4cm}
+\end{center}
+
+zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
+
+\textbf{\field{imię, nazwisko}}, PESEL \field{numer}, zamieszkałym w \field{adres}, zwanym dalej „Założycielem”, a
+
+\textbf{\CompanyFull{} w organizacji} z siedzibą w \field{miejscowość}, reprezentowaną przez \field{imię, nazwisko} --- pełnomocnika powołanego uchwałą Założycieli z dnia \field{data}, objętą aktem zawiązania Spółki (art.~300$^{79}$ §~1 KSH), zwaną dalej „Spółką”.
+
+\begin{ContractClause}{Przedmiot umowy}
+\label{u1:przedmiot}
+\begin{enumerate}
+  \item Założyciel przenosi na Spółkę autorskie prawa majątkowe do utworów opisanych w Załączniku~1.1 („Utwory”), stanowiące jego wkład niepieniężny na pokrycie akcji Spółki zgodnie z \US{4} oraz Załącznikiem nr~1 do Umowy Spółki, Część~\field{B1 / B2}.
+  \item Utwory obejmują w szczególności: \field{program komputerowy --- nazwa, repozytorium, gałąź i identyfikator wersji (commit), suma kontrolna archiwum; dokumentację; inne utwory}, w postaci kodu źródłowego i wynikowego, wraz z dokumentacją projektową, materiałami przygotowawczymi i historią zmian w repozytorium.
+  \item Wartość wkładu wynosi \field{kwota} zł, zgodnie z Załącznikiem nr~1 do Umowy Spółki. Wynagrodzeniem Założyciela za przeniesienie praw jest \field{liczba} akcji serii~A Spółki o numerach \field{od--do}, obejmowanych za ten wkład; Założycielowi nie przysługuje inne wynagrodzenie.
+  \item Jeżeli Utwory mają kilku współtwórców, umowę zawiera każdy z nich, a Załącznik~1.1 wskazuje ich udziały w prawach.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Przeniesienie praw i pola eksploatacji}
+\label{u1:przeniesienie}
+\begin{enumerate}
+  \item Autorskie prawa majątkowe do Utworów przechodzą na Spółkę z chwilą zawarcia niniejszej umowy, bez ograniczeń czasowych i terytorialnych, na następujących polach eksploatacji:
+  \PolaEksploatacji
+  \item Założyciel przenosi na Spółkę wyłączne prawo zezwalania na wykonywanie zależnych praw autorskich do Utworów, w tym do ich modyfikacji i opracowań, na polach eksploatacji określonych w ust.~1.
+  \item Wraz z prawami Spółka nabywa własność wszystkich nośników, na których Utwory utrwalono i które zostały jej przekazane, oraz dostęp administracyjny do repozytoriów, kont i usług, w których Utwory są przechowywane.
+  \item Jeżeli Spółka nie zostanie wpisana do rejestru przedsiębiorców w terminie 12 miesięcy od zawarcia Umowy Spółki albo postanowienie o odmowie wpisu stanie się prawomocne, prawa wracają do Założyciela (warunek rozwiązujący), a Spółka zwraca mu nośniki i dostęp.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Autorskie prawa osobiste}
+\label{u1:osobiste}
+\begin{enumerate}
+  \item Założyciel zobowiązuje się nie wykonywać autorskich praw osobistych do Utworów w sposób utrudniający Spółce korzystanie z nich, w szczególności nie sprzeciwiać się zmianom i opracowaniom ani rozpowszechnianiu Utworów bez oznaczania autorstwa.
+  \item Założyciel upoważnia Spółkę do wykonywania w jego imieniu prawa do decydowania o pierwszym udostępnieniu Utworów publiczności i do nadzoru nad sposobem korzystania z nich.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wydanie Utworów}
+\label{u1:wydanie}
+\begin{enumerate}
+  \item Założyciel wydaje Spółce Utwory w dniu zawarcia niniejszej umowy, na podstawie protokołu wydania według wzoru z Załącznika~1.3, obejmującego: wykaz repozytoriów z identyfikatorami wersji i sumami kontrolnymi, kod źródłowy, instrukcje budowania, dokumentację, wykaz współtwórców oraz wykaz komponentów osób trzecich i oprogramowania otwartego wraz z licencjami.
+  \item Do czasu przekazania pełnego dostępu Założyciel nie usuwa i nie zmienia Utworów w sposób utrudniający Spółce korzystanie z nich.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Oświadczenia Założyciela}
+\label{u1:oswiadczenia}
+\begin{enumerate}
+  \item Założyciel oświadcza, że:
+  \begin{enumerate}[label=\alph*)]
+    \item jest twórcą albo współtwórcą Utworów w zakresie wskazanym w Załączniku~1.1 i przysługują mu autorskie prawa majątkowe do nich w tym zakresie;
+    \item prawa do Utworów nie przysługują jego obecnemu ani byłemu pracodawcy (art.~12 i art.~74 ust.~3 ustawy o prawie autorskim i prawach pokrewnych), uczelni ani zleceniodawcy, a Utwory nie powstały w ramach obowiązków wobec takich podmiotów;
+    \item prawa nie są obciążone prawami osób trzecich, w szczególności licencjami wyłącznymi, a Założyciel nie zobowiązał się do ich przeniesienia na inną osobę;
+    \item komponenty osób trzecich i oprogramowanie otwarte wykorzystane w Utworach są wymienione w Załączniku~1.1 wraz z licencjami, a ich wykorzystanie jest zgodne z tymi licencjami;
+    \item według jego najlepszej wiedzy korzystanie z Utworów na polach eksploatacji z §~\ref{u1:przeniesienie} nie narusza praw osób trzecich.
+  \end{enumerate}
+  \item Jeżeli wkład jest wpisany w Części~B1 Załącznika nr~1 do Umowy Spółki, Założyciel składa ponadto oświadczenie według wzoru z Załącznika~1.2.
+  \item Założyciel odpowiada za prawdziwość oświadczeń z ust.~1 i naprawi Spółce szkodę wynikłą z ich nieprawdziwości, w tym koszty obrony przed roszczeniami osób trzecich. Niezależnie od tego Założyciel odpowiada wobec Spółki za wyrównanie brakującej wartości wkładu na zasadach art.~300$^{10}$ KSH.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\label{u1:koncowe}
+\begin{enumerate}
+  \item Obowiązek przeniesienia praw podlega wykonaniu w naturze, w tym przez orzeczenie zastępujące oświadczenie woli Założyciela (art.~64 Kodeksu cywilnego).
+  \item Zmiana umowy wymaga formy pisemnej pod rygorem nieważności. W sprawach nieuregulowanych stosuje się Umowę Spółki, ustawę o prawie autorskim i prawach pokrewnych oraz Kodeks cywilny.
+  \item Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki.
+  \item Załączniki 1.1--1.3 stanowią integralną część umowy.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{0.8cm}
+\begin{center}
+\begin{tabularx}{\textwidth}{XX}
+\field{podpis Założyciela} & \field{za Spółkę: pełnomocnik} \\
+\end{tabularx}
+\end{center}
+
+\Needspace{18\baselineskip}
+\section*{Załącznik 1.1 --- Wykaz Utworów}
+\addcontentsline{toc}{section}{Załącznik 1.1 --- Wykaz Utworów}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.75cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{3.4cm} >{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}p{3.0cm}@{}}
+\toprule
+\textbf{Lp.} & \textbf{Utwór (rodzaj, nazwa, repozytorium, wersja, suma kontrolna)} & \textbf{Twórcy i udziały} & \textbf{Część B1 / B2} & \textbf{Komponenty osób trzecich i licencje} \\
+\midrule
+1 & \field{program komputerowy \ldots} & \field{twórca / udziały} & \field{B1} & \field{wykaz} \\
+2 & \field{dokumentacja \ldots} & \field{twórca / udziały} & \field{B2} & \field{wykaz} \\
+3 & \field{\ldots} & \field{\ldots} & \field{\ldots} & \field{\ldots} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\Needspace{14\baselineskip}
+\section*{Załącznik 1.2 --- Oświadczenie twórcy (Część B1)}
+\addcontentsline{toc}{section}{Załącznik 1.2 --- Oświadczenie twórcy (Część B1)}
+
+Ja, \field{imię, nazwisko, PESEL}, oświadczam, że jestem \field{twórcą / współtwórcą w udziale \ldots} programu komputerowego \field{nazwa, wersja} wnoszonego do \CompanyFull{} jako wkład niepieniężny wymieniony w Części~B1 Załącznika nr~1 do Umowy Spółki, że przysługują mi autorskie prawa majątkowe do tego programu w tym zakresie, że prawa te nie przysługują mojemu obecnemu ani byłemu pracodawcy ani innej osobie i że nie przeniosłem ich wcześniej na inną osobę. Oświadczenie składam na potrzeby art.~5a pkt~34--35 i art.~17 ust.~1e ustawy o podatku dochodowym od osób fizycznych.
+
+\field{miejscowość, data, podpis}
+
+\Needspace{16\baselineskip}
+\section*{Załącznik 1.3 --- Wzór protokołu wydania}
+\addcontentsline{toc}{section}{Załącznik 1.3 --- Wzór protokołu wydania}
+
+W dniu \field{data} Założyciel \field{imię, nazwisko} wydał \CompanyFull{} w organizacji, reprezentowanej przez \field{pełnomocnik}:
+
+\begin{enumerate}
+  \item repozytoria: \field{adres, gałąź, identyfikator wersji, suma kontrolna archiwum};
+  \item dostęp administracyjny do: \field{repozytoria, rejestry pakietów, usługi chmurowe, domeny};
+  \item dokumentację: \field{wykaz plików};
+  \item nośniki: \field{opis, numery seryjne}.
+\end{enumerate}
+
+Spółka potwierdza odbiór. Zastrzeżenia: \field{brak / opis}.
+
+\field{podpis Założyciela} \hfill \field{podpis pełnomocnika}
+
+% ============================================================== UMOWA NR 2
+\chapter*{Umowa nr 2 --- przeniesienie praw do utworów tworzonych dla Spółki}
+\addcontentsline{toc}{chapter}{Umowa nr 2 --- przeniesienie praw do utworów tworzonych dla Spółki}
+\setcounter{paragraf}{0}
+
+\begin{center}
+{\Large\bfseries UMOWA O PRZENIESIENIE AUTORSKICH PRAW MAJĄTKOWYCH\\ DO UTWORÓW TWORZONYCH DLA SPÓŁKI}\par
+\vspace{0.4cm}
+\end{center}
+
+zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
+
+\textbf{\CompanyFull} z siedzibą w \field{miejscowość}, KRS \field{numer}, reprezentowaną przez \field{dwóch dyrektorów albo pełnomocnika powołanego uchwałą akcjonariuszy --- jeżeli Twórca jest dyrektorem}, zwaną dalej „Spółką”, a
+
+\textbf{\field{imię, nazwisko albo firma}}, \field{PESEL albo NIP}, \field{adres}, zwanym dalej „Twórcą”, działającym dla Spółki na podstawie \field{umowy o świadczenie usług z dnia \ldots{} / powołania na dyrektora / statusu Założyciela} („Stosunek Podstawowy”).
+
+\begin{ContractClause}{Przedmiot umowy}
+\label{u2:przedmiot}
+\begin{enumerate}
+  \item Umowa określa zasady nabywania przez Spółkę autorskich praw majątkowych do utworów stworzonych przez Twórcę w wykonaniu zadań na rzecz Spółki („Utwory”), w szczególności programów komputerowych, dokumentacji, modeli, schematów, projektów i baz danych, zgodnie z \US{14} ust.~1.
+  \item Zadania Twórcy obejmują: \field{opis zadań, obszar techniczny}, a także zadania zlecone przez Radę Dyrektorów albo osobę przez nią wskazaną w tym obszarze. Umowa nie obejmuje utworów stworzonych poza zadaniami na rzecz Spółki, w szczególności w ramach projektów prywatnych niezwiązanych z przedmiotem działalności Spółki i niewykorzystujących jej zasobów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Chwila przejścia praw i pola eksploatacji}
+\label{u2:przejscie}
+\begin{enumerate}
+  \item Autorskie prawa majątkowe do Utworu przechodzą na Spółkę z chwilą jego przekazania Spółce, w szczególności umieszczenia w jej repozytorium, systemie albo przestrzeni dokumentów, a w braku wcześniejszego przekazania --- z chwilą potwierdzenia, o którym mowa w §~\ref{u2:potwierdzenia}. Przejście praw następuje bez ograniczeń czasowych i terytorialnych, na następujących polach eksploatacji:
+  \PolaEksploatacji
+  \item Twórca przenosi na Spółkę wyłączne prawo zezwalania na wykonywanie zależnych praw autorskich do Utworów na polach eksploatacji określonych w ust.~1.
+  \item Spółka nabywa własność nośników, na których Utwory przekazano.
+  \item Strony potwierdzają, że umowa nie dotyczy wszystkich utworów Twórcy ani wszystkich jego utworów określonego rodzaju mających powstać w przyszłości, lecz wyłącznie utworów stworzonych w wykonaniu określonych zadań na rzecz Spółki (art.~41 ust.~3 ustawy o prawie autorskim i prawach pokrewnych).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Autorskie prawa osobiste}
+\label{u2:osobiste}
+\begin{enumerate}
+  \item Twórca zobowiązuje się nie wykonywać autorskich praw osobistych do Utworów w sposób utrudniający Spółce korzystanie z nich, w szczególności nie sprzeciwiać się zmianom i opracowaniom ani rozpowszechnianiu Utworów bez oznaczania autorstwa.
+  \item Twórca upoważnia Spółkę do decydowania o pierwszym udostępnieniu Utworów publiczności i do nadzoru nad sposobem korzystania z nich.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wynagrodzenie}
+\label{u2:wynagrodzenie}
+\begin{enumerate}
+  \item Wynagrodzenie za przeniesienie praw do Utworów i za zezwolenie na wykonywanie praw zależnych \field{jest zawarte w wynagrodzeniu należnym z tytułu Stosunku Podstawowego / wynosi \ldots{} zł miesięcznie}; Twórcy nie przysługuje odrębne wynagrodzenie za korzystanie z Utworów na poszczególnych polach eksploatacji.
+  \item Strony uznają wynagrodzenie za godziwe i odpowiednie do zakresu przenoszonych praw. W odniesieniu do utworów niebędących programami komputerowymi Twórca może żądać informacji, o której mowa w art.~47$^{1}$ ustawy o prawie autorskim i prawach pokrewnych, w granicach tego przepisu; do programów komputerowych przepisów art.~43, 44 i~47$^{1}$ tej ustawy nie stosuje się (art.~77 ust.~1).
+  \item Jeżeli Twórca pełni funkcję dyrektora bez wynagrodzenia, Strony wskazują, że wynagrodzeniem za przeniesienie praw jest \field{kwota} zł za każdy kwartał, płatne po złożeniu potwierdzenia z §~\ref{u2:potwierdzenia}.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Kwartalne potwierdzenia}
+\label{u2:potwierdzenia}
+\begin{enumerate}
+  \item Twórca w terminie 14 dni po zakończeniu każdego kwartału kalendarzowego potwierdza w formie pisemnej, według wzoru z Załącznika~2.1, wykaz Utworów przekazanych Spółce w tym kwartale. Wykaz może odsyłać do historii zmian w repozytoriach Spółki (identyfikatory wersji, autor zmian).
+  \item Potwierdzenie stanowi zarazem umowę przeniesienia praw do wymienionych w nim Utworów na warunkach niniejszej umowy, jeżeli przeniesienie nie nastąpiło wcześniej.
+  \item Po stronie Spółki potwierdzenie przyjmuje osoba reprezentująca Spółkę zgodnie z komparycją niniejszej umowy, a jeżeli Twórca jest dyrektorem --- pełnomocnik, o którym mowa w \US{11} ust.~3.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wynalazki, know-how i oprogramowanie otwarte}
+\label{u2:wynalazki}
+\begin{enumerate}
+  \item Prawo do uzyskania patentu, prawa ochronnego i prawa z rejestracji na rozwiązania dokonane przez Twórcę w wykonaniu zadań na rzecz Spółki przysługuje Spółce; jeżeli nie wynika to z ustawy, Twórca przenosi je na Spółkę z chwilą dokonania rozwiązania. Twórca niezwłocznie zgłasza Spółce każde takie rozwiązanie i współdziała przy zgłoszeniu.
+  \item Know-how wytworzone w wykonaniu zadań na rzecz Spółki stanowi tajemnicę przedsiębiorstwa Spółki.
+  \item Twórca włącza do Utworów komponenty osób trzecich i oprogramowanie otwarte wyłącznie zgodnie z polityką Spółki w tym zakresie, a w jej braku --- po uzyskaniu zgody osoby wskazanej przez Radę Dyrektorów, jeżeli licencja komponentu nakłada obowiązek udostępnienia kodu źródłowego Utworów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Oświadczenia i poufność}
+\label{u2:oswiadczenia}
+\begin{enumerate}
+  \item Twórca oświadcza, że Utwory będą jego oryginalnymi utworami albo utworami, do których Spółka nabędzie prawa na podstawie odrębnych umów, i że ich stworzenie nie naruszy jego obowiązków wobec innych podmiotów.
+  \item Twórca zachowuje w poufności Utwory oraz informacje Spółki zgodnie z \US{14} ust.~3 i polityką bezpieczeństwa informacji Spółki, także po rozwiązaniu umowy.
+  \item Po rozwiązaniu Stosunku Podstawowego Twórca zwraca Spółce nośniki i dokumentację, usuwa kopie Utworów z urządzeń prywatnych i składa potwierdzenie za okres do dnia rozwiązania.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Czas trwania i postanowienia końcowe}
+\label{u2:koncowe}
+\begin{enumerate}
+  \item Umowa obowiązuje przez czas trwania Stosunku Podstawowego. Rozwiązanie umowy nie wpływa na prawa nabyte przez Spółkę do Utworów przekazanych albo stworzonych przed rozwiązaniem.
+  \item Obowiązek przeniesienia praw podlega wykonaniu w naturze, w tym przez orzeczenie zastępujące oświadczenie woli Twórcy (art.~64 Kodeksu cywilnego).
+  \item Zmiana umowy wymaga formy pisemnej pod rygorem nieważności. Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki.
+  \item Załącznik~2.1 stanowi integralną część umowy.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{0.8cm}
+\begin{center}
+\begin{tabularx}{\textwidth}{XX}
+\field{za Spółkę} & \field{podpis Twórcy} \\
+\end{tabularx}
+\end{center}
+
+\Needspace{20\baselineskip}
+\section*{Załącznik 2.1 --- Wzór kwartalnego potwierdzenia}
+\addcontentsline{toc}{section}{Załącznik 2.1 --- Wzór kwartalnego potwierdzenia}
+
+\field{miejscowość, data}
+
+Działając na podstawie §~\ref{u2:potwierdzenia} umowy z dnia \field{data}, Twórca \field{imię, nazwisko} potwierdza, że w okresie od \field{data} do \field{data} przekazał \CompanyFull{} następujące Utwory i że autorskie prawa majątkowe do nich przeszły na Spółkę na warunkach tej umowy, a jeżeli przeniesienie nie nastąpiło wcześniej --- przechodzą z chwilą podpisania niniejszego potwierdzenia:
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.75cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{3.0cm}@{}}
+\toprule
+\textbf{Lp.} & \textbf{Utwór (opis)} & \textbf{Repozytorium i zakres wersji} & \textbf{Współtwórcy} \\
+\midrule
+1 & \field{opis} & \field{repozytorium, od--do} & \field{brak / wykaz} \\
+2 & \field{opis} & \field{repozytorium, od--do} & \field{brak / wykaz} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\field{podpis Twórcy} \hfill \field{za Spółkę}
+
+\end{document}
