@@ -68,6 +68,12 @@
   line/.style={->, thick},
 }
 \newtcolorbox{Uwaga}{colback=cX!5, colframe=cX!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+% odesłania do bibliografii (definicje także w basilisk_bib.tex, przez \providecommand)
+\makeatletter
+\newcommand{\BibItem}[2]{\item[\textbf{[#1]}]\def\@currentlabel{#1}\def\@currentlabelname{#1}\phantomsection\label{bib:#2}}
+\makeatother
+\newcommand{\Zr}[1]{[\ref{bib:#1}]}
+\newtcolorbox{Komentarz}{colback=black!3, colframe=black!45, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt, fonttitle=\small\bfseries, title=Komentarz}
 \newtcolorbox{Zasada}{colback=cWZ!5, colframe=cWZ!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
 
 \begin{document}
@@ -90,6 +96,8 @@ Podręcznik streszcza zasady podejmowania decyzji wynikające z umowy spółki (
 \begin{Uwaga}
 Podręcznik nie zmienia żadnej umowy. W razie rozbieżności rozstrzyga treść umowy spółki, a następnie umowy akcjonariuszy. Limity wewnętrzne wiążą dyrektorów wobec Spółki, ale nie wpływają na ważność umów z osobami trzecimi (US §~\ref{art:reprezentacja} ust.~4): dyrektor, który je przekroczy, odpowiada wobec Spółki.
 \end{Uwaga}
+
+Materiały źródłowe: umowa spółki \Zr{us}, umowa akcjonariuszy \Zr{ua}, umowy IP \Zr{ip}, Cennik \Zr{cennik}, NDA \Zr{nda}, polityka \Zr{polityka}; podstawy prawne i literatura --- w bibliografii na końcu. Numery paragrafów są klikalne i otwierają odpowiednią umowę (pliki PDF muszą leżeć w tym samym katalogu).
 
 Kolory na diagramach: \textcolor{cWZ}{\textbf{niebieski}} --- akcjonariusze i Walne Zgromadzenie; \textcolor{cRD}{\textbf{zielony}} --- Rada Dyrektorów; \textcolor{cDW}{\textbf{złoty}} --- dyrektor wykonawczy; \textcolor{cX}{\textbf{czerwony}} --- sytuacje szczególne (spór, sąd, konflikt interesów).
 
@@ -125,6 +133,10 @@ Spółka działa w systemie monistycznym: ma tylko Walne Zgromadzenie i Radę Dy
 \end{itemize}
 
 % ================================================================
+\begin{Komentarz}
+System monistyczny (art.~300$^{73}$ KSH \Zr{ksh}) skraca drogę decyzji: ten sam organ prowadzi sprawy, reprezentuje i nadzoruje. Ceną jest ryzyko, że nadzór stanie się fikcją, jeżeli dyrektor niewykonawczy jest zależny od wykonawczych. W praktyce: delegację dla dyrektora wykonawczego podejmuj uchwałą z datą i zakresem, a dyrektor wykonawczy raportuje Radzie co miesiąc (wykonanie budżetu, umowy powyżej progów, incydenty). Szerzej o modelu PSA: \Zr{opalski}, \Zr{malinowski}, \Zr{ecfr}.
+\end{Komentarz}
+
 \section{Kto decyduje? --- drzewo decyzyjne}
 
 Przy każdej nowej sprawie przejdź drzewo od góry. Pierwsza odpowiedź „tak” wskazuje organ i większość.
@@ -190,6 +202,10 @@ j) & kredyt, pożyczka, poręczenie lub podobna umowa z dyrektorem, prokurentem,
 \end{tabularx}
 
 % ================================================================
+\begin{Komentarz}
+Najczęstszy błąd to mylenie „75\% wszystkich głosów w Spółce” z 75\% obecnych. Przy podziale 50/20/10/10/10 Założyciel~A sam nie przeprowadzi uchwały 75\%, ale może każdą zablokować; A z~B mają 70\% --- potrzebny jest jeszcze trzeci Założyciel. Skutki pominięcia zgody są różne: czynność dokonana bez uchwały wymaganej \emph{ustawą} jest nieważna (art.~17 §~1 KSH \Zr{ksh}), a bez zgody wymaganej \emph{tylko umową spółki} --- ważna wobec kontrahenta, lecz dyrektor odpowiada wobec Spółki (US §~\ref{art:reprezentacja} ust.~4).
+\end{Komentarz}
+
 \section{Progi kwotowe}
 
 Ta sama czynność może wymagać różnych decyzji zależnie od kwoty. Kwoty dotyczą jednej czynności albo kilku czynności powiązanych.
@@ -221,6 +237,10 @@ Ta sama czynność może wymagać różnych decyzji zależnie od kwoty. Kwoty do
 Niezależnie od kwoty: transakcja z akcjonariuszem, dyrektorem albo podmiotem powiązanym wymaga uchwały Rady (bez udziału dyrektora mającego konflikt interesów), a umowa kredytu lub pożyczki z dyrektorem --- także zgody WZ 75\% (tabela~1 lit.~j). Zbycie aktywów ponad 25\% ich wartości zawsze wymaga WZ 75\% (lit.~e).
 
 % ================================================================
+\begin{Komentarz}
+Progi dotyczą także czynności powiązanych: podzielenie jednej umowy na części, aby zejść poniżej progu, jest obejściem i nie chroni dyrektora przed odpowiedzialnością. Im dokładniej Rada przyjmie budżet, tym mniej uchwał ad hoc --- budżet jest głównym narzędziem przekazania decyzji dyrektorowi wykonawczemu. Progi nie podlegają waloryzacji; warto przeglądać je co 2--3 lata.
+\end{Komentarz}
+
 \section{Jak podjąć uchwałę}
 
 \subsection*{Uchwała akcjonariuszy poza Walnym Zgromadzeniem (e-mail)}
@@ -255,6 +275,10 @@ Domyślny tryb dla większości spraw. Wyjątek: uchwały wymagające protokołu
 \end{enumerate}
 
 % ================================================================
+\begin{Komentarz}
+Wiadomość e-mail wysłana z adresu wpisanego do rejestru akcjonariuszy spełnia wymóg formy dokumentowej (art.~77$^{2}$ KC \Zr{kc}). Projekt, głosy i zawiadomienie o wyniku trzymaj w jednym wątku, a uchwałę wpisz do księgi protokołów (art.~300$^{100}$ KSH). Zawiadomienie o wyniku wysyłaj od razu --- od niego zależy pewność, kiedy uchwała została podjęta, co ma znaczenie m.in. dla terminów jej zaskarżenia.
+\end{Komentarz}
+
 \section{Zgoda na zbycie akcji}
 
 Każde zbycie albo obciążenie akcji wymaga zgody Spółki, którą wydaje Rada Dyrektorów (US §~\ref{art:zbywanie}). Spółka \textbf{musi} wyrazić zgodę, jeżeli nie zachodzi żadna z pięciu przyczyn odmowy.
@@ -288,6 +312,10 @@ Każde zbycie albo obciążenie akcji wymaga zgody Spółki, którą wydaje Rada
 Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzekucji (US §~\ref{art:zbywanie} ust.~5).
 
 % ================================================================
+\begin{Komentarz}
+Zgoda na zbycie jest decyzją związaną: Rada nie ocenia ceny ani osoby nabywcy poza katalogiem z US §~\ref{art:zbywanie} ust.~2, a odmowa bez wskazania podstawy nie jest skuteczną odmową. Przyczyny z lit.~a--b wymagają sprawdzenia nabywcy na listach sankcyjnych \Zr{sankcje}, \Zr{usank} i pod kątem kontroli inwestycji \Zr{uki}, \Zr{fdi} --- wynik sprawdzenia warto opisać w uchwale. Jeżeli Spółka bezpodstawnie nie udziela zgody, prawomocny wyrok zastępuje jej oświadczenie (art.~64 KC \Zr{kc}, art.~1047 KPC \Zr{kpc}).
+\end{Komentarz}
+
 \section{Vesting i ustanie zaangażowania}
 
 \subsection*{Harmonogram zwalniania akcji (US §~\ref{art:obowiazek-zbycia} ust.~2)}
@@ -338,6 +366,10 @@ Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzeku
 \end{itemize}
 
 % ================================================================
+\begin{Komentarz}
+Odkup akcji niezwolnionych po cenie emisyjnej to rozwiązanie rynkowe, ale sąd może badać jego zgodność z zasadami współżycia społecznego (art.~58 i 353$^{1}$ KC \Zr{kc}); dlatego umowa uzasadnia cenę mechanizmem przyjętym przez wszystkich Założycieli przy zawiązaniu Spółki (UA §~\ref{sha:wykonanie} ust.~2). Przy zbyciu poniżej wartości rynkowej trzeba ocenić skutki w podatku dochodowym \Zr{pit}. Rada powinna stwierdzić ustanie zaangażowania w 30 dni --- spóźnienie nie znosi obowiązku zbycia, ale osłabia pozycję Spółki w ewentualnym sporze.
+\end{Komentarz}
+
 \section{Umowy i spory z dyrektorami}
 
 \begin{figure}[H]
@@ -358,6 +390,10 @@ Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzeku
 Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Założycielami będącymi dyrektorami, umów wykonawczych do obowiązku zbycia i potwierdzeń kwartalnych. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich umów danego rodzaju.
 
 % ================================================================
+\begin{Komentarz}
+Na tle art.~210 KSH przyjmuje się, że umowa zawarta z członkiem organu z naruszeniem szczególnych zasad reprezentacji jest nieważna (\Zr{sn4218}, \Zr{jara}); to samo ryzyko dotyczy art.~300$^{79}$ KSH. Najbezpieczniej podjąć przy zawiązaniu jedną uchwałę akcjonariuszy powołującą pełnomocnika do umów IP i umów wykonawczych z dyrektorami (US §~\ref{art:final} ust.~6) i pilnować, by pełnomocnik nie był stroną danej umowy.
+\end{Komentarz}
+
 \section{Emisje akcji}
 
 \begin{figure}[H]
@@ -385,6 +421,10 @@ Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Z
 \end{itemize}
 
 % ================================================================
+\begin{Komentarz}
+Typowa kolejność rundy inwestorskiej: term sheet $\to$ zmiana umowy spółki tworząca serię inwestorską (Walne Zgromadzenie, notariusz) $\to$ uchwała emisyjna $\to$ umowy objęcia akcji $\to$ wpis do rejestru akcjonariuszy $\to$ zgłoszenie do rejestru przedsiębiorców; równolegle zmiana umowy akcjonariuszy (UA §~\ref{sha:finansowanie} ust.~3). Przy wkładzie w postaci pracy (seria~F) pamiętaj o terminie wniesienia wkładu --- najpóźniej 3 lata od wpisu emisji (art.~300$^{9}$ §~1 KSH).
+\end{Komentarz}
+
 \section{Dokumenty wewnętrzne --- kto przyjmuje}
 
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{4.0cm} >{\raggedright\arraybackslash}p{3.3cm} X@{}}
@@ -403,6 +443,10 @@ Lista osób z dostępem do informacji Kontrolowanych & Rada Dyrektorów & polity
 \end{tabularx}
 
 % ================================================================
+\begin{Komentarz}
+Polityka bezpieczeństwa, rejestr dostępów i zawarte NDA są dowodem „niezbędnych działań” w rozumieniu art.~11 ust.~2 UZNK \Zr{uznk}; bez nich ochrona tajemnicy przedsiębiorstwa może upaść (\Zr{sn30400}). Kary umowne w NDA i umowach z twórcami należą się bez wykazywania szkody, ale podlegają miarkowaniu (\Zr{sn6103}); wobec pracowników na etacie kary umownej nie stosuje się (\Zr{sn12007}). Kwoty kar i Cennika są waloryzowane wskaźnikiem GUS \Zr{guscpi}.
+\end{Komentarz}
+
 \section{Impas i spory}
 
 \begin{figure}[H]
@@ -420,6 +464,10 @@ Lista osób z dostępem do informacji Kontrolowanych & Rada Dyrektorów & polity
 \end{figure}
 
 % ================================================================
+\begin{Komentarz}
+Ugoda zawarta przed mediatorem i zatwierdzona przez sąd ma moc ugody sądowej \Zr{kpc}; mediacja nie wstrzymuje biegu terminów do zaskarżenia uchwał. Zabezpieczenie roszczeń (art.~730 i nast. KPC) jest dostępne niezależnie od mediacji --- ma znaczenie zwłaszcza przy naruszeniu poufności lub zakazu konkurencji.
+\end{Komentarz}
+
 \section{Kalendarz terminów}
 
 \begin{longtable}{@{}>{\raggedright\arraybackslash}p{6.2cm} >{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{3.6cm}@{}}
@@ -447,5 +495,7 @@ Kadencja Rady Dyrektorów & 3 lata obrotowe & US §~\ref{art:rada} ust.~3 \\
 Termin emisji serii F i P & do 31 grudnia 2036 r. & US §~\ref{art:emisje} ust.~3 \\
 \bottomrule
 \end{longtable}
+
+\input{basilisk_bib}
 
 \end{document}
