@@ -1,0 +1,133 @@
+% !TeX program = pdflatex
+% Price list of remuneration for design solutions --- Basilisk Systems P.S.A. (English version; Polish prevails).
+% Agreement No. 2, section 6(1) (basilisk_ip_en.tex).
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Board of Directors}
+\BusinessPlanConfidentialText{Form of resolution --- confidential}
+\BusinessPlanFooterText{Basilisk Systems --- price list of remuneration for design solutions (form)}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.18}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.25}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna (simple joint-stock company)}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- price list of remuneration for design solutions},
+  pdfauthor={Basilisk Systems --- Board of Directors}
+}
+
+\begin{document}
+\selectlanguage{english}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Price List}
+  {Price List of Remuneration for Design Solutions}
+  {Inventions, utility models and industrial designs of authors cooperating with the Company}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Resolution No.~\field{number} of the Board of Directors}
+\addcontentsline{toc}{chapter}{Resolution of the Board of Directors --- Price List}
+
+\begin{center}
+of the Board of Directors of \CompanyFull{} with its registered office in Pruszków\\
+dated \field{date}\\
+on the adoption of the price list of remuneration for design solutions
+\end{center}
+
+\begin{center}
+\small\itshape English convenience translation. In the event of any discrepancy, the Polish version prevails.
+\end{center}
+
+The Board of Directors, acting pursuant to section~6(1) of the agreement on the transfer of rights to works created for the Company (Agreement No.~2) and Article~22(1) of the Act of 30 June 2000 --- Industrial Property Law, resolves as follows:
+
+\begin{ContractClause}{Scope}
+\begin{enumerate}
+  \item The Price List sets out the remuneration of authors of inventions, utility models and industrial designs in respect of which the right to obtain a patent, protection right or right in registration belongs to the Company under Agreement No.~2 (the \textbf{``Author''} and the \textbf{``Solution''}).
+  \item The Price List does not apply to Authors who are Founders or directors of the Company; their remuneration is included in the remuneration under the underlying relationship and in their interest in the Company.
+  \item The Price List may be attached to Agreement No.~2 or delivered to the Author before it is concluded; it may be delivered in documentary form.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Rates}
+\begin{enumerate}
+  \item For each Solution, the Company pays a one-off amount of:
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}p{3.6cm} >{\raggedleft\arraybackslash}p{3.6cm}@{}}
+\toprule
+\textbf{Type of Solution} & \textbf{upon filing} & \textbf{upon grant of the right} \\
+\midrule
+invention (patent) & PLN \field{amount} & PLN \field{amount} \\
+utility model (protection right) & PLN \field{amount} & PLN \field{amount} \\
+industrial design (right in registration) & PLN \field{amount} & PLN \field{amount} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+  \item The amounts are gross amounts; the Company withholds from them any tax advances and contributions due.
+  \item The remuneration upon filing is payable once per Solution, irrespective of the number of filings in other countries or under regional or international procedures. The remuneration upon grant of the right is payable once, for the first right granted for that Solution.
+  \item If the Company uses a Solution without filing an application, in particular by keeping it as a trade secret, the remuneration upon filing is paid within 30 days of the decision of the Board of Directors not to file.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Co-authors}
+If a Solution has several Authors, the remuneration is divided among them in the shares indicated in the notification of the Solution to the Company and, failing such indication, in equal shares. The share of an author to whom the Price List does not apply (\S~1(2)) does not increase the shares of the other Authors.
+\end{ContractClause}
+
+\begin{ContractClause}{Payment}
+The remuneration is paid by bank transfer to the account indicated by the Author within 30 days of the date of filing with the Patent Office of the Republic of Poland or another competent office, or of the date on which the decision granting the right is delivered to the Company. The right to remuneration does not expire upon termination of the Author's cooperation with the Company.
+\end{ContractClause}
+
+\begin{ContractClause}{Indexation}
+The amounts set out in \S~2(1) are indexed on 1 March of each year, starting from the year following the year in which this resolution is adopted, by the average annual consumer price index (total) for the previous calendar year announced by the President of Statistics Poland (GUS) in the Official Journal of the Republic of Poland ``Monitor Polski'', if that index exceeds 100. The indexed amounts are rounded up to the nearest PLN~10. The remuneration is determined according to the amounts in force on the date of the event upon which it becomes payable. Indexation does not require an amendment to the Price List; the Company makes the current amounts available to the Authors.
+\end{ContractClause}
+
+\begin{ContractClause}{Amendments and entry into force}
+\begin{enumerate}
+  \item The Board of Directors may amend the Price List by resolution. The amendment is delivered to the Authors in documentary form.
+  \item An amendment to the Price List to the Author's detriment does not apply to Solutions notified to the Company before the amendment is delivered.
+  \item This resolution enters into force on \field{date}.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1.5em}
+\field{signatures of the directors}
+
+\end{document}
