@@ -1,0 +1,143 @@
+% !TeX program = pdflatex
+% Information Security Policy --- Basilisk Systems P.S.A. (English version; Polish prevails).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Board of Directors}
+\BusinessPlanConfidentialText{Internal document}
+\BusinessPlanFooterText{Basilisk Systems --- information security policy}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.08}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.12em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna (simple joint-stock company)}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- information security policy},
+  pdfauthor={Basilisk Systems --- Board of Directors}
+}
+
+\begin{document}
+\selectlanguage{english}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Information Security Policy}
+  {Information Security Policy of Basilisk Systems P.S.A.}
+  {Classification, access, disclosure, incidents and offboarding procedure}
+  {1.0}
+
+\begin{center}
+\textbf{Annex to Resolution No.~\field{number} of the Board of Directors of \CompanyFull{} dated \field{date}}\\[0.3em]
+\small\itshape English convenience translation. In the event of any discrepancy, the Polish version prevails.
+\end{center}
+
+\begin{ContractClause}{Purpose and Scope}
+\begin{enumerate}
+  \item This policy sets out how the Company protects its information. It is the information security policy referred to in \S~14(3) of the Articles, in the shareholders' agreement and in the rights transfer agreements, and a necessary step to keep information confidential within the meaning of Article~11(2) of the Act on Combating Unfair Competition.
+  \item This policy binds the directors, shareholders with access to the Company's information, employees and collaborators (the \textbf{``Users''}). Each User confirms having read it before being granted access.
+  \item The director designated by the Board of Directors (the \textbf{``Officer''}) is responsible for implementing this policy and, until designated, each director.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Classification and Marking}
+\begin{enumerate}
+  \item Information is classified as: \textbf{Public} (published by the Company); \textbf{Internal} (work organisation, general information); \textbf{Confidential} (code, models, data, technical documentation, test results, commercial and financial information, the share register, financing terms, customer and partner data); \textbf{Controlled} (Confidential information concerning military or dual-use technology, or originating from defence-sector customers).
+  \item Unmarked information that is not Public is Confidential. Confidential and Controlled documents are marked ``CONFIDENTIAL'' or ``CONTROLLED'', and repositories and folders in their description; the absence of a marking does not remove confidentiality.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Who Has Access to What}
+\begin{enumerate}
+  \item Access is granted on a need-to-know basis, within the scope of the User's tasks:
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Category} & \textbf{Who has access} & \textbf{Conditions} \\
+\midrule
+Public & anyone & --- \\
+Internal & Users & confirmation of having read this policy \\
+Confidential & Users within their tasks; third parties within the Purpose of an NDA & Officer's approval; for third parties --- an NDA in the Company's form concluded beforehand, or a statutory duty of professional secrecy \\
+Controlled & only persons on a named list approved by the Board of Directors & only on Company devices; transfer abroad or to a person from a non-EU country --- after assessing export control requirements and obtaining any required licence \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+  \item The Officer keeps an access register (person, systems and repositories, category, date granted and revoked) and checks every quarter that access corresponds to tasks.
+  \item The Company does not process classified information within the meaning of the Act on the Protection of Classified Information. Before concluding an agreement requiring access to such information (in particular with the Ministry of National Defence or an entity subordinate to it), the Board of Directors initiates proceedings for the issue of an industrial security certificate and appoints a classified information protection officer.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Technical Rules}
+\begin{enumerate}
+  \item Internal, Confidential and Controlled information is processed only on Company accounts, with two-factor authentication and passwords stored in a password manager. Code is kept in private repositories within the Company's organisation; copying it to private repositories and accounts is prohibited.
+  \item Devices used for work have disk encryption, screen lock and up-to-date software. Controlled information is processed only on Company devices.
+  \item Confidential and Controlled information is not entered into publicly available tools and services, including artificial-intelligence tools, unless the Officer has approved a tool ensuring that the data are not stored or used by the provider.
+  \item Keys, tokens and secrets are kept in a secrets manager, not in code or messages.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{External Disclosure}
+Confidential information is made available to third parties (investors, partners, advisers, subcontractors) only after an NDA in the Company's form, or an agreement with an equivalent clause, has been concluded, and only to the extent necessary for its purpose. The Officer keeps a record of the NDAs concluded and the materials provided. Controlled information is made available to third parties only with the consent of the Board of Directors.
+\end{ContractClause}
+
+\begin{ContractClause}{Incidents}
+Each User reports to the Officer promptly, and in any event within 24 hours, the loss of a device or any suspected unauthorised access to or disclosure of information. The Officer documents the incident, revokes or changes the access rights and secrets at risk and, in the event of a personal data breach, ensures notification to the supervisory authority within 72 hours (Article~33 GDPR).
+\end{ContractClause}
+
+\begin{ContractClause}{Offboarding Procedure}
+\begin{enumerate}
+  \item When cooperation with a User ends, for whatever reason:
+  \begin{enumerate}[label=\alph*)]
+    \item no later than on the last day of cooperation and, in the event of a dispute, immediately, the Officer revokes all access (accounts, repositories, cloud, VPN, keys and tokens) and changes the shared secrets known to the User;
+    \item the User returns the Company's devices, data carriers and documents; the return is confirmed in a handover report;
+    \item within 14 days the User delivers all works and submits the final confirmation, if required by their agreement, and deletes the Company's information from private devices and accounts;
+    \item the User signs the statement in the form below; the Officer reminds the User in writing of the confidentiality obligations and --- where applicable --- of the non-compete and non-solicitation restrictions;
+    \item the Officer updates the access register and, in case of suspicion, reviews the access logs for the last 30 days.
+  \end{enumerate}
+  \item A refusal to sign the statement does not release the User from their obligations; the Officer records it in the register.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+A breach of this policy may constitute grounds for terminating the agreement with the User and for claims, including for payment of the contractual penalties provided for in the agreements. The Board of Directors reviews this policy at least once a year. This policy enters into force on \field{date}.
+\end{ContractClause}
+
+\Needspace{14\baselineskip}
+\subsection*{Form of Offboarding Statement}
+
+I, \field{full name}, in connection with the end of my cooperation with \CompanyFull{} on \field{date}, declare that: (1)~I have returned all of the Company's devices, data carriers and documents; (2)~I have delivered to the Company all works and materials created in the course of the cooperation; (3)~I have deleted the Company's information from private devices and accounts, except for \field{none / list of copies required by law}; (4)~I have not retained any copies of the Company's code, models, data or documentation. I acknowledge that the confidentiality obligations and --- where applicable --- the non-compete and non-solicitation restrictions continue to bind me to the extent set out in my agreements with the Company and in the law.
+
+\field{place, date} \hfill \field{signature}
+
+\end{document}

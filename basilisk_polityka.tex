@@ -1,0 +1,142 @@
+% !TeX program = pdflatex
+% Polityka bezpieczeństwa informacji --- Basilisk Systems P.S.A. (wzór uchwały Rady Dyrektorów).
+% Polityka, o której mowa w § 14 ust. 3 umowy spółki, umowie akcjonariuszy i Umowie nr 2.
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Rada Dyrektorów}
+\BusinessPlanConfidentialText{Dokument wewnętrzny}
+\BusinessPlanFooterText{Basilisk Systems --- polityka bezpieczeństwa informacji}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.08}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.12em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- polityka bezpieczeństwa informacji},
+  pdfauthor={Basilisk Systems --- Rada Dyrektorów}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Polityka bezpieczeństwa informacji}
+  {Polityka bezpieczeństwa informacji Basilisk Systems P.S.A.}
+  {Klasyfikacja, dostęp, udostępnianie, incydenty i procedura przy odejściu}
+  {1.0}
+
+\begin{center}
+\textbf{Załącznik do uchwały nr \field{numer} Rady Dyrektorów \CompanyFull{} z dnia \field{data}}
+\end{center}
+
+\begin{ContractClause}{Cel i zakres}
+\begin{enumerate}
+  \item Polityka określa, jak Spółka chroni swoje informacje. Jest polityką bezpieczeństwa informacji, o której mowa w §~14 ust.~3 umowy spółki, w umowie akcjonariuszy i w umowach przeniesienia praw, oraz niezbędnym działaniem w celu utrzymania poufności w rozumieniu art.~11 ust.~2 ustawy o zwalczaniu nieuczciwej konkurencji.
+  \item Polityka wiąże dyrektorów, akcjonariuszy mających dostęp do informacji Spółki, pracowników i współpracowników (\textbf{„Użytkownicy”}). Każdy Użytkownik potwierdza zapoznanie się z nią przed uzyskaniem dostępu.
+  \item Za wykonanie polityki odpowiada dyrektor wyznaczony przez Radę Dyrektorów (\textbf{„Odpowiedzialny”}), a do czasu wyznaczenia --- każdy dyrektor.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Klasyfikacja i oznaczanie}
+\begin{enumerate}
+  \item Informacje dzieli się na: \textbf{Publiczne} (opublikowane przez Spółkę); \textbf{Wewnętrzne} (organizacja pracy, informacje ogólne); \textbf{Poufne} (kod, modele, dane, dokumentacja techniczna, wyniki testów, informacje handlowe i finansowe, księga akcyjna, warunki finansowania, dane klientów i partnerów); \textbf{Kontrolowane} (Poufne, które dotyczą technologii uzbrojenia albo podwójnego zastosowania, albo pochodzą od klientów z sektora obronnego).
+  \item Informacja nieoznaczona, niebędąca Publiczną, jest Poufna. Dokumenty Poufne i Kontrolowane oznacza się napisem „POUFNE” albo „KONTROLOWANE”, a repozytoria i katalogi --- w opisie; brak oznaczenia nie znosi poufności.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Kto ma dostęp do czego}
+\begin{enumerate}
+  \item Dostęp przyznaje się według zasady niezbędnej wiedzy, w zakresie zadań Użytkownika:
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Kategoria} & \textbf{Kto ma dostęp} & \textbf{Warunki} \\
+\midrule
+Publiczne & każdy & --- \\
+Wewnętrzne & Użytkownicy & potwierdzenie zapoznania się z polityką \\
+Poufne & Użytkownicy w zakresie zadań; osoby trzecie w zakresie Celu NDA & zgoda Odpowiedzialnego; dla osób trzecich --- uprzednio zawarta NDA według wzoru Spółki albo ustawowa tajemnica zawodowa \\
+Kontrolowane & wyłącznie osoby z imiennej listy zatwierdzonej przez Radę Dyrektorów & tylko na urządzeniach Spółki; przekazanie za granicę albo osobie z państwa spoza UE --- po ocenie wymogów kontroli eksportu i uzyskaniu wymaganego zezwolenia \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+  \item Odpowiedzialny prowadzi rejestr dostępów (osoba, systemy i repozytoria, kategoria, data nadania i odebrania) i co kwartał sprawdza, czy dostępy odpowiadają zadaniom.
+  \item Spółka nie przetwarza informacji niejawnych w rozumieniu ustawy o ochronie informacji niejawnych. Przed zawarciem umowy wymagającej dostępu do takich informacji (w szczególności z Ministerstwem Obrony Narodowej albo podmiotem mu podległym) Rada Dyrektorów wszczyna postępowanie o wydanie świadectwa bezpieczeństwa przemysłowego i wyznacza pełnomocnika do spraw ochrony informacji niejawnych.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zasady techniczne}
+\begin{enumerate}
+  \item Informacje Wewnętrzne, Poufne i Kontrolowane przetwarza się wyłącznie na kontach Spółki, z uwierzytelnianiem dwuskładnikowym i hasłami przechowywanymi w menedżerze haseł. Kod przechowuje się w prywatnych repozytoriach w organizacji Spółki; zakazane jest kopiowanie go do prywatnych repozytoriów i kont.
+  \item Urządzenia używane do pracy mają szyfrowanie dysku, blokadę ekranu i aktualne oprogramowanie. Informacje Kontrolowane przetwarza się tylko na urządzeniach Spółki.
+  \item Informacji Poufnych i Kontrolowanych nie wprowadza się do ogólnodostępnych narzędzi i usług, w tym narzędzi sztucznej inteligencji, chyba że Odpowiedzialny zatwierdził narzędzie zapewniające, że dane nie są przechowywane ani wykorzystywane przez dostawcę.
+  \item Klucze, tokeny i sekrety przechowuje się w menedżerze sekretów, a nie w kodzie ani w wiadomościach.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Udostępnianie na zewnątrz}
+Informacje Poufne udostępnia się osobom trzecim (inwestorom, partnerom, doradcom, podwykonawcom) wyłącznie po zawarciu NDA według wzoru Spółki albo umowy z równoważną klauzulą, w zakresie niezbędnym do jej celu. Odpowiedzialny prowadzi ewidencję zawartych NDA i przekazanych materiałów. Informacje Kontrolowane udostępnia się osobom trzecim wyłącznie za zgodą Rady Dyrektorów.
+\end{ContractClause}
+
+\begin{ContractClause}{Incydenty}
+Każdy Użytkownik niezwłocznie, nie później niż w ciągu 24 godzin, zgłasza Odpowiedzialnemu utratę urządzenia, podejrzenie nieuprawnionego dostępu albo ujawnienia informacji. Odpowiedzialny dokumentuje incydent, odbiera albo zmienia zagrożone dostępy i sekrety, a w razie naruszenia ochrony danych osobowych zapewnia zgłoszenie organowi nadzorczemu w terminie 72 godzin (art.~33 RODO).
+\end{ContractClause}
+
+\begin{ContractClause}{Procedura przy odejściu}
+\begin{enumerate}
+  \item Przy ustaniu współpracy z Użytkownikiem, z jakiejkolwiek przyczyny:
+  \begin{enumerate}[label=\alph*)]
+    \item najpóźniej w ostatnim dniu współpracy, a w razie sporu --- niezwłocznie, Odpowiedzialny odbiera wszystkie dostępy (konta, repozytoria, chmura, VPN, klucze i tokeny) i zmienia sekrety współdzielone, które Użytkownik znał;
+    \item Użytkownik zwraca urządzenia, nośniki i dokumenty Spółki; zwrot potwierdza protokół;
+    \item w terminie 14 dni Użytkownik wydaje wszystkie utwory i składa końcowe potwierdzenie, jeżeli wymaga tego jego umowa, oraz usuwa informacje Spółki z urządzeń i kont prywatnych;
+    \item Użytkownik podpisuje oświadczenie według wzoru poniżej; Odpowiedzialny przypomina mu na piśmie o obowiązkach poufności oraz --- jeżeli dotyczą --- o zakazie konkurencji i zakazie nakłaniania;
+    \item Odpowiedzialny aktualizuje rejestr dostępów, a w razie podejrzeń przegląda dzienniki dostępu z ostatnich 30 dni.
+  \end{enumerate}
+  \item Odmowa złożenia oświadczenia nie zwalnia z obowiązków; Odpowiedzialny odnotowuje ją w rejestrze.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+Naruszenie polityki może stanowić podstawę rozwiązania umowy z Użytkownikiem oraz roszczeń, w tym o zapłatę kar umownych przewidzianych w umowach. Rada Dyrektorów przegląda politykę co najmniej raz w roku. Polityka wchodzi w życie z dniem \field{data}.
+\end{ContractClause}
+
+\Needspace{14\baselineskip}
+\subsection*{Wzór oświadczenia przy odejściu}
+
+Ja, \field{imię, nazwisko}, w związku z zakończeniem współpracy z \CompanyFull{} z dniem \field{data} oświadczam, że: (1)~zwróciłem/zwróciłam wszystkie urządzenia, nośniki i dokumenty Spółki; (2)~wydałem/wydałam Spółce wszystkie utwory i materiały powstałe w ramach współpracy; (3)~usunąłem/usunęłam informacje Spółki z urządzeń i kont prywatnych, z wyjątkiem \field{brak / wykaz kopii wymaganych przepisami prawa}; (4)~nie zachowałem/zachowałam żadnych kopii kodu, modeli, danych ani dokumentacji Spółki. Przyjmuję do wiadomości, że obowiązki poufności oraz --- jeżeli dotyczą --- zakaz konkurencji i zakaz nakłaniania obowiązują mnie nadal w zakresie określonym w moich umowach ze Spółką i w przepisach prawa.
+
+\field{miejscowość, data} \hfill \field{podpis}
+
+\end{document}
