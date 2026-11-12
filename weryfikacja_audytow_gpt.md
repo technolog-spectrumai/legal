@@ -156,6 +156,23 @@ Wersje: umowa spółki **3.2-S**, umowa akcjonariuszy **1.6**, umowy IP **1.5**;
 | IP-16 | Forma pisemna albo podpis kwalifikowany dla potwierdzeń kwartalnych | Umowa nr 2 § 5 ust. 1 |
 | IP-19 | Podstawa nieodpłatności: art. 43 ust. 1 tylko dla utworów niebędących programami; „godziwe” tylko przy wynagrodzeniu | Umowa nr 2 § 4 ust. 2–3 |
 
-**Pozostają do decyzji:** PSA-07 / SHA-03, PSA-20 (ścieżka zastępcza), PSA-10, SHA-10, IP-01, IP-08, kwoty kar, wybór wariantu wynagrodzenia w Umowie nr 2.
+**Pozostające decyzje** zostały rozstrzygnięte w sekcji 8.
 
 **Kontrola techniczna:** umowa spółki (51 stron), umowa akcjonariuszy (30), umowy IP (25) — kompilacja bez błędów, nierozwiązanych odwołań i przepełnionych wierszy: 0.
+
+## 8. Decyzje biznesowe (gałąź `dev_decyzje_1211`)
+
+Wersje: umowa spółki 3.3-S, umowa akcjonariuszy 1.7, umowy IP 1.6. Każda decyzja jest osobnym commitem.
+
+| Nr | Decyzja | Gdzie |
+|---|---|---|
+| 1 | Vesting Założycieli: 25% w dniu startu, 75% co miesiąc przez 36 mies., cliff 6 mies.; seria F bez zmian (48 mies., cliff 12). Śmierć lub trwała niezdolność — zwolnienie wszystkich akcji; rozwiązanie bez przyczyny lub odejście uzgodnione — akcje z kolejnych 12 mies.; z mocy umowy spółki (PSA-07 / SHA-03) | umowa spółki § 9 ust. 2 i 5; SHA § 1 ust. 2, § 4 ust. 4 |
+| 2 | Spółka musi udzielić zgody, jeśli nie ma przyczyny odmowy; gdy Rada milczy (po 14 + 7 dniach) — uchwała akcjonariuszy poza zgromadzeniem w 14 dni; potem powództwo o złożenie oświadczenia (art. 64 KC) (PSA-20) | umowa spółki § 8 ust. 1 |
+| 3 | Odmowa dla konkurenta (z wyjątkiem inwestycji portfelowych ≤ 5%); Spółka w 30 dni wskazuje innego nabywcę na tych samych warunkach, inaczej musi udzielić zgody (PSA-10) | umowa spółki § 8 ust. 2 lit. e, ust. 3 |
+| 4 | Zakaz konkurencji po wyjściu (12 mies.) tylko przy Odejściu Zwykłym; zakaz nakłaniania przez 12 mies. przy każdym odejściu, tylko aktywne nakłanianie; zakaz konkurencji z umowy spółki ograniczony do okresu zaangażowania lub pełnienia funkcji (SHA-10) | SHA § 8; umowa spółki § 14 ust. 5 |
+| 5 | Know-how w Umowie nr 1; sprzęt nie jest aportem (sprzedaż albo użyczenie); wzór dla patentów — gdy będzie potrzebny (IP-01) | umowy IP: wstęp, Umowa nr 1 § 1 ust. 5 |
+| 6 | Wynalazki: Założyciele i dyrektorzy — wynagrodzenie zawarte w stosunku podstawowym i udziale (art. 22 ust. 1 PWP); pozostali — 2 000 zł po zgłoszeniu i 5 000 zł po udzieleniu prawa (IP-08) | Umowa nr 2 § 6 ust. 1 |
+| 7 | Kary: 25 000 zł (poufność), 50 000 zł (zakaz konkurencji lub nakłaniania), 25 000 zł (§ 5 ust. 6); dodatkowo 5 000 zł za miesiąc naruszenia ciągłego; limit 150 000 zł na Stronę | SHA § 9 ust. 1 |
+| 8 | Umowa nr 2: wynagrodzenie w ramach stosunku podstawowego albo nieodpłatnie (dyrektor bez wynagrodzenia, a po przyznaniu wynagrodzenia — zawarte w nim); bez wariantu kwartalnego | Umowa nr 2 § 4 ust. 1 i 3 |
+
+**Kontrola techniczna:** umowa spółki (51 stron), umowa akcjonariuszy (30), umowy IP (25) — 0 błędów, nierozwiązanych odwołań i przepełnionych wierszy.
