@@ -1,0 +1,136 @@
+% !TeX program = pdflatex
+% Umowa o zachowaniu poufności (NDA) --- Basilisk Systems P.S.A. (wzór dla inwestorów, partnerów i doradców).
+% Wzór, o którym mowa w § 7 ust. 2 lit. b umowy akcjonariuszy (basilisk_sha.tex).
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- wzory umów}
+\BusinessPlanConfidentialText{Wzór umowy --- poufne}
+\BusinessPlanFooterText{Basilisk Systems --- umowa o zachowaniu poufności (wzór)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.15}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- umowa o zachowaniu poufności (wzór)},
+  pdfauthor={Basilisk Systems --- projekty umów}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Umowa o zachowaniu poufności}
+  {Wzór NDA dla inwestorów, partnerów i doradców}
+  {Ochrona technologii i informacji Spółki przed ujawnieniem}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Umowa o zachowaniu poufności}
+\addcontentsline{toc}{chapter}{Umowa o zachowaniu poufności}
+
+zawarta w dniu \field{data} pomiędzy:
+
+\textbf{\CompanyFull{}} z siedzibą w Pruszkowie, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego pod numerem KRS \field{numer}, NIP \field{numer}, reprezentowaną przez \field{imię, nazwisko, funkcja} (\textbf{„Spółka”}),
+
+a
+
+\field{firma albo imię i nazwisko, siedziba albo adres, KRS / NIP / PESEL}, reprezentowanym przez \field{imię, nazwisko, funkcja} (\textbf{„Odbiorca”}).
+
+\begin{ContractClause}{Cel}
+Spółka udostępnia Odbiorcy informacje wyłącznie w celu \field{wybrać: oceny możliwości inwestycji w Spółkę / oceny i prowadzenia współpracy w zakresie \ldots{} / świadczenia na rzecz Spółki usług doradczych w zakresie \ldots{}} (\textbf{„Cel”}). Umowa jest jednostronna: obowiązki w niej określone ciążą na Odbiorcy.
+\end{ContractClause}
+
+\begin{ContractClause}{Informacje Poufne}
+\begin{enumerate}
+  \item Informacjami Poufnymi są wszelkie informacje dotyczące Spółki, jej technologii, produktów, kodu źródłowego, modeli, danych, dokumentacji technicznej, planów, klientów, partnerów, finansów, finansowania i akcjonariuszy, przekazane Odbiorcy w związku z Celem w jakiejkolwiek formie --- przed zawarciem umowy albo po nim --- a także fakt prowadzenia rozmów i ich treść.
+  \item Informacje przekazane ustnie, w trakcie demonstracji albo przez udostępnienie próbek, urządzeń lub środowisk testowych są Informacjami Poufnymi bez względu na ich oznaczenie.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Obowiązki Odbiorcy}
+\begin{enumerate}
+  \item Odbiorca wykorzystuje Informacje Poufne wyłącznie do Celu i nie ujawnia ich nikomu poza swoimi pracownikami, członkami organów, doradcami i źródłami finansowania, którzy muszą je znać do realizacji Celu i są związani obowiązkiem poufności nie łagodniejszym niż wynikający z umowy (\textbf{„Osoby Uprawnione”}). Za działania i zaniechania Osób Uprawnionych Odbiorca odpowiada jak za własne.
+  \item Odbiorca chroni Informacje Poufne co najmniej tak jak własne informacje o podobnym znaczeniu, nie mniej jednak niż z zachowaniem należytej staranności, kopiuje je tylko w zakresie niezbędnym do Celu i nie wprowadza ich do ogólnodostępnych narzędzi i usług (w tym narzędzi sztucznej inteligencji), które mogą je przechowywać albo wykorzystywać.
+  \item Odbiorca nie dokonuje dekompilacji, inżynierii wstecznej ani analizy składu próbek, urządzeń i oprogramowania udostępnionych przez Spółkę, chyba że Spółka wyrazi na to zgodę w formie dokumentowej.
+  \item Odbiorca niezwłocznie, nie później niż w ciągu 48 godzin, zawiadamia Spółkę o każdym ujawnieniu albo wykorzystaniu Informacji Poufnych niezgodnym z umową i współdziała w ograniczeniu jego skutków.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wyjątki}
+Obowiązki z §~3 nie dotyczą informacji, co do których Odbiorca wykaże, że: (a)~są albo staną się publicznie dostępne bez naruszenia umowy; (b)~były mu znane zgodnie z prawem przed ich przekazaniem przez Spółkę; (c)~uzyskał je zgodnie z prawem od osoby trzeciej niezwiązanej obowiązkiem poufności; (d)~wytworzył je niezależnie, bez korzystania z Informacji Poufnych. Odbiorca może ujawnić Informacje Poufne, jeżeli wymagają tego przepisy prawa albo organ władzy publicznej, w niezbędnym zakresie i po uprzednim zawiadomieniu Spółki, jeżeli jest to dopuszczalne. Umowa nie ogranicza zgłoszeń i ujawnień dokonywanych zgodnie z ustawą o ochronie sygnalistów.
+\end{ContractClause}
+
+\begin{ContractClause}{Kontrola eksportu i informacje niejawne}
+\begin{enumerate}
+  \item Informacje Poufne mogą obejmować technologie podwójnego zastosowania albo uzbrojenia. Odbiorca nie przekazuje ich poza terytorium Rzeczypospolitej Polskiej ani osobom z państw spoza Unii Europejskiej bez uprzedniej zgody Spółki w formie dokumentowej i przestrzega przepisów o kontroli obrotu towarami, technologiami i usługami o znaczeniu strategicznym, w tym rozporządzenia (UE) 2021/821.
+  \item Na podstawie umowy nie przekazuje się informacji niejawnych w rozumieniu ustawy o ochronie informacji niejawnych; ich udostępnienie może nastąpić wyłącznie w trybie tej ustawy.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zwrot i usunięcie}
+Na żądanie Spółki, a w każdym razie po zakończeniu realizacji Celu, Odbiorca w terminie 14 dni zwraca albo trwale usuwa Informacje Poufne wraz z kopiami i potwierdza to w formie dokumentowej. Odbiorca może zachować kopie, których przechowywania wymagają przepisy prawa, oraz kopie w automatycznych kopiach zapasowych, bez prawa korzystania z nich; pozostają one objęte umową.
+\end{ContractClause}
+
+\begin{ContractClause}{Brak licencji i zobowiązań}
+Ujawnienie Informacji Poufnych nie oznacza udzielenia licencji ani przeniesienia jakichkolwiek praw, w tym praw własności intelektualnej. Umowa nie zobowiązuje Stron do zawarcia transakcji ani dalszej współpracy; Spółka może w każdej chwili zakończyć rozmowy i nie odpowiada za kompletność ani przydatność Informacji Poufnych.
+\end{ContractClause}
+
+\begin{ContractClause}{Czas trwania}
+Umowa obowiązuje od dnia jej zawarcia. Obowiązki Odbiorcy trwają przez 5 lat od dnia ostatniego przekazania Informacji Poufnych, a w odniesieniu do informacji stanowiących tajemnicę przedsiębiorstwa w rozumieniu ustawy o zwalczaniu nieuczciwej konkurencji --- dopóki informacja ma taki charakter.
+\end{ContractClause}
+
+\begin{ContractClause}{Kara umowna}
+\begin{enumerate}
+  \item Za każde naruszenie §~3 albo §~5, także przez Osobę Uprawnioną, Odbiorca zapłaci Spółce karę umowną w wysokości 25\,000 zł.
+  \item Kwota określona w ust.~1 podlega waloryzacji z dniem 1 marca każdego roku, począwszy od roku następującego po roku zawarcia umowy, o średnioroczny wskaźnik cen towarów i usług konsumpcyjnych ogółem za poprzedni rok kalendarzowy, ogłaszany przez Prezesa Głównego Urzędu Statystycznego w Dzienniku Urzędowym Rzeczypospolitej Polskiej „Monitor Polski”, jeżeli wskaźnik ten przekracza 100. Zwaloryzowaną kwotę zaokrągla się w górę do pełnych 100 zł; wysokość kary ustala się według kwoty obowiązującej w dniu naruszenia.
+  \item Zapłata kary nie wyłącza dochodzenia odszkodowania przenoszącego jej wysokość ani roszczeń o zaniechanie naruszeń, wydanie korzyści i udzielenie zabezpieczenia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\begin{enumerate}
+  \item Umowa podlega prawu polskiemu. Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki.
+  \item Zmiany umowy wymagają formy dokumentowej pod rygorem nieważności. Umowę zawiera się w formie pisemnej albo elektronicznej (kwalifikowany podpis elektroniczny).
+  \item Spółka przetwarza dane osobowe osób reprezentujących Odbiorcę i Osób Uprawnionych w celu zawarcia i wykonania umowy, na podstawie prawnie uzasadnionego interesu (art.~6 ust.~1 lit.~f RODO).
+  \item Umowę sporządzono w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1.5em}
+\field{za Spółkę} \hfill \field{za Odbiorcę}
+
+\end{document}
