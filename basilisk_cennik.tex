@@ -1,0 +1,128 @@
+% !TeX program = pdflatex
+% Cennik wynagrodzeń za rozwiązania projektowe --- Basilisk Systems P.S.A. (wzór uchwały Rady Dyrektorów).
+% Do Umowy nr 2 § 6 ust. 1 (basilisk_ip.tex).
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Rada Dyrektorów}
+\BusinessPlanConfidentialText{Wzór uchwały --- poufne}
+\BusinessPlanFooterText{Basilisk Systems --- cennik wynagrodzeń za rozwiązania projektowe (wzór)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.18}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.25}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- cennik wynagrodzeń za rozwiązania projektowe},
+  pdfauthor={Basilisk Systems --- Rada Dyrektorów}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Cennik}
+  {Cennik wynagrodzeń za rozwiązania projektowe}
+  {Wynalazki, wzory użytkowe i wzory przemysłowe twórców współpracujących ze Spółką}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Uchwała nr \field{numer} Rady Dyrektorów}
+\addcontentsline{toc}{chapter}{Uchwała Rady Dyrektorów --- Cennik}
+
+\begin{center}
+Rady Dyrektorów \CompanyFull{} z siedzibą w Pruszkowie\\
+z dnia \field{data}\\
+w sprawie ustalenia cennika wynagrodzeń za rozwiązania projektowe
+\end{center}
+
+Rada Dyrektorów, działając na podstawie §~6 ust.~1 umowy przeniesienia praw do utworów tworzonych dla Spółki (Umowa nr~2) oraz art.~22 ust.~1 ustawy z dnia 30 czerwca 2000 r. --- Prawo własności przemysłowej, ustala, co następuje:
+
+\begin{ContractClause}{Zakres}
+\begin{enumerate}
+  \item Cennik określa wynagrodzenie twórców wynalazków, wzorów użytkowych i wzorów przemysłowych, do których prawo do uzyskania patentu, prawa ochronnego albo prawa z rejestracji przysługuje Spółce na podstawie Umowy nr~2 (\textbf{„Twórca”}, \textbf{„Rozwiązanie”}).
+  \item Cennika nie stosuje się do Twórców będących Założycielami albo dyrektorami Spółki; ich wynagrodzenie jest zawarte w wynagrodzeniu z tytułu stosunku podstawowego i w udziale w Spółce.
+  \item Cennik może być załączony do Umowy nr~2 albo doręczony Twórcy przed jej zawarciem; doręczenie może nastąpić w formie dokumentowej.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Stawki}
+\begin{enumerate}
+  \item Za każde Rozwiązanie Spółka wypłaca jednorazowo:
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}p{3.6cm} >{\raggedleft\arraybackslash}p{3.6cm}@{}}
+\toprule
+\textbf{Rodzaj Rozwiązania} & \textbf{po dokonaniu zgłoszenia} & \textbf{po uzyskaniu prawa} \\
+\midrule
+wynalazek (patent) & \field{kwota} zł & \field{kwota} zł \\
+wzór użytkowy (prawo ochronne) & \field{kwota} zł & \field{kwota} zł \\
+wzór przemysłowy (prawo z rejestracji) & \field{kwota} zł & \field{kwota} zł \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+  \item Kwoty są kwotami brutto; Spółka pobiera z nich należne zaliczki na podatek i składki.
+  \item Wynagrodzenie po dokonaniu zgłoszenia należy się raz za Rozwiązanie, bez względu na liczbę zgłoszeń w innych państwach albo w trybie regionalnym lub międzynarodowym. Wynagrodzenie po uzyskaniu prawa należy się raz, za pierwsze prawo udzielone na to Rozwiązanie.
+  \item Jeżeli Spółka korzysta z Rozwiązania bez dokonania zgłoszenia, w szczególności utrzymując je jako tajemnicę przedsiębiorstwa, wynagrodzenie po dokonaniu zgłoszenia wypłaca się w terminie 30 dni od decyzji Rady Dyrektorów o odstąpieniu od zgłoszenia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Współtwórcy}
+Jeżeli Rozwiązanie ma kilku Twórców, wynagrodzenie dzieli się między nich w częściach wskazanych w zgłoszeniu Rozwiązania Spółce, a w braku takiego wskazania --- w częściach równych. Udział twórcy, do którego Cennik nie ma zastosowania (§~1 ust.~2), nie zwiększa udziałów pozostałych Twórców.
+\end{ContractClause}
+
+\begin{ContractClause}{Wypłata}
+Wynagrodzenie wypłaca się przelewem na rachunek wskazany przez Twórcę w terminie 30 dni od dnia dokonania zgłoszenia w Urzędzie Patentowym Rzeczypospolitej Polskiej albo innym właściwym urzędzie, albo od dnia doręczenia Spółce decyzji o udzieleniu prawa. Prawo do wynagrodzenia nie wygasa z chwilą zakończenia współpracy Twórcy ze Spółką.
+\end{ContractClause}
+
+\begin{ContractClause}{Waloryzacja}
+Kwoty określone w §~2 ust.~1 podlegają waloryzacji z dniem 1 marca każdego roku, począwszy od roku następującego po roku podjęcia niniejszej uchwały, o średnioroczny wskaźnik cen towarów i usług konsumpcyjnych ogółem za poprzedni rok kalendarzowy, ogłaszany przez Prezesa Głównego Urzędu Statystycznego w Dzienniku Urzędowym Rzeczypospolitej Polskiej „Monitor Polski”, jeżeli wskaźnik ten przekracza 100. Zwaloryzowane kwoty zaokrągla się w górę do pełnych 10 zł. Wynagrodzenie ustala się według kwot obowiązujących w dniu zdarzenia, od którego jest należne. Waloryzacja nie wymaga zmiany Cennika; Spółka udostępnia Twórcom aktualne kwoty.
+\end{ContractClause}
+
+\begin{ContractClause}{Zmiany i wejście w życie}
+\begin{enumerate}
+  \item Rada Dyrektorów może zmienić Cennik uchwałą. Zmianę doręcza się Twórcom w formie dokumentowej.
+  \item Zmiana Cennika na niekorzyść Twórcy nie dotyczy Rozwiązań zgłoszonych Spółce przed doręczeniem zmiany.
+  \item Uchwała wchodzi w życie z dniem \field{data}.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1.5em}
+\field{podpisy dyrektorów}
+
+\end{document}
