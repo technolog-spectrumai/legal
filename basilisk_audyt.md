@@ -3,9 +3,11 @@
 | | |
 |----|----------------|
 | **Przedmiot** | 1. Umowa akcjonariuszy — `basilisk_sha.tex`, wersja 1.0 (projekt). 2. Umowy przeniesienia autorskich praw majątkowych — `basilisk_ip.tex`, wersja 1.0: Umowa nr 1 (aport przy zawiązaniu) i Umowa nr 2 (utwory tworzone dla Spółki). |
-| **Data** | listopad 2026 r.; poprawki U1 — punkt 4 (umowa akcjonariuszy i umowy IP w wersji 1.1, nowa umowa spółki `psa.tex` 1.0-S) |
+| **Data** | listopad 2026 r.; poprawki U1 — punkt 4 (umowa akcjonariuszy i umowy IP w wersji 1.1, umowa spółki `psa.tex`) |
 | **Stan prawny** | Teksty ujednolicone w `src/legal/`: KC (Dz.U. 2026 poz. 795), KSH (Dz.U. 2024 poz. 18 z późn. zm.), prawo autorskie (Dz.U. 2025 poz. 24), PWP, Kodeks pracy, PIT (Dz.U. 2026 poz. 592). |
 | **Ocena** | **Dokumenty są co do zasady zgodne z prawem, ale wymagają poprawek przed podpisaniem:** 1 ryzyko krytyczne (brak umowy spółki Basilisk Systems), 3 wysokie, 4 średnie, 5 niskich. Żadne postanowienie nie jest sprzeczne z bezwzględnie obowiązującym przepisem w sposób nieusuwalny. |
+
+> **Zmiana nazwy (U2):** dokumenty przygotowane pierwotnie dla „Aurelian” dotyczą teraz Basilisk Systems P.S.A. (`basilisk_sha.tex`, `basilisk_ip.tex`, wersje 1.3, siedziba Pruszków). Umowa spółki to `psa.tex` 3.0-S — jedna spółka, bez spółki siostrzanej; Appolonia zostanie dodana później.
 
 **Oznaczenia.** **[Z]** — sprawdzone na tekście przepisu w `src/legal/`. **[W]** — wiedza ogólna albo wniosek audytora, do potwierdzenia przez prawnika. Raport nie zastępuje opinii adwokata ani radcy prawnego.
 
@@ -74,7 +76,7 @@
 
 | ID | Status | Co zmieniono | Gdzie |
 |--|--|------------|----|
-| **K1** | usunięte | Nowa umowa spółki `psa.tex` (wersja 1.0-S) z wariantu 2.5-S: firma Basilisk Systems, siedziba do uzupełnienia, przedmiot działalności łączący ląd, powietrze i morze, 10 kodów PKD przy pierwszym wpisie i 5 dalszych, bez § 15 o spółce siostrzanej i bez § 13 ust. 1 lit. j. Numeracja § 1–14 bez zmian, więc odesłania `\US` pozostają poprawne | `psa.tex` |
+| **K1** | usunięte | Umowa spółki Basilisk Systems `psa.tex` (od wersji 3.0-S: jedna spółka, bez § 15 o spółce siostrzanej i bez § 13 ust. 1 lit. j; zakres ląd i powietrze, siedziba Pruszków; wersja polska i angielska w jednym dokumencie). Numeracja § 1–14 bez zmian, więc odesłania `\US` są poprawne | `psa.tex` |
 | **W1** | usunięte | Czas oznaczony 10 lat z przedłużeniem o 5 lat, chyba że strona odmówi na 12 miesięcy przed końcem; wcześniejsze wypowiedzenie tylko z ważnych powodów, bez zwolnienia z obowiązków z umowy spółki, poufności i zakazu konkurencji | SHA § 12 ust. 1 i 3 |
 | **W2** | usunięte | Zwrot praw wyłącznie przy rozwiązaniu umowy spółki z art. 169 § 1 w zw. z art. 300¹³ § 1 KSH | Umowa nr 1 § 2 ust. 4 |
 | **W3** | usunięte | Komparycja wariantowa (pełnomocnik z art. 300⁷⁹ § 1 / dwóch dyrektorów / pełnomocnik z art. 300¹¹ § 2), także w podpisach i protokole wydania | Umowa nr 1, wprowadzenie, Załącznik 1.3 |
@@ -88,7 +90,7 @@
 | **N4** | usunięte | We wprowadzeniu: wzór nr 2 nie dotyczy pracowników (art. 12, art. 74 ust. 3 pr. aut.) | `basilisk_ip.tex`, wprowadzenie |
 | **N5** | usunięte | Podstawa przetwarzania danych (RODO) w postanowieniach końcowych | SHA § 13, Umowa nr 1 § 6, Umowa nr 2 § 8 |
 
-**Kontrola techniczna:** `psa.tex` (24 strony), `basilisk_sha.tex` i `basilisk_ip.tex` (po 13 stron) się kompilują; nierozwiązanych odwołań i przepełnionych wierszy: 0. Wszystkie odesłania `\US{n}` (§ 4, 5, 9, 11, 13, 14) wskazują właściwe paragrafy `psa.tex`.
+**Kontrola techniczna:** `psa.tex`, `basilisk_sha.tex` i `basilisk_ip.tex` (po 13 stron) się kompilują; nierozwiązanych odwołań i przepełnionych wierszy: 0. Wszystkie odesłania `\US{n}` (§ 4, 5, 9, 11, 13, 14) wskazują właściwe paragrafy `psa.tex`.
 
-**Założenia do potwierdzenia:** przedmiot działalności Basilisk Systems (ląd, powietrze i morze w jednej spółce), siedziba, skład i udziały Założycieli (tabela 50/20/10/10/10 przejęta z wariantu 2.5-S).
+**Założenia do potwierdzenia:** skład i udziały Założycieli (tabela 50/20/10/10/10 przejęta z wariantu 2.5-S).
 
