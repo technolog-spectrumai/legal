@@ -1,0 +1,137 @@
+% !TeX program = pdflatex
+% Non-Disclosure Agreement --- Basilisk Systems P.S.A. (English version; Polish prevails).
+% Form referred to in section 7(2)(b) of the shareholders' agreement (basilisk_sha_en.tex).
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- form agreements}
+\BusinessPlanConfidentialText{Form of agreement --- confidential}
+\BusinessPlanFooterText{Basilisk Systems --- non-disclosure agreement (form)}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.15}
+\setlist[enumerate]{topsep=0.25em,itemsep=0.18em,parsep=0.1em,leftmargin=2.2em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \phantomsection%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+  \Needspace{6\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna (simple joint-stock company)}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- non-disclosure agreement (form)},
+  pdfauthor={Basilisk Systems --- draft agreements}
+}
+
+\begin{document}
+\selectlanguage{english}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Non-Disclosure Agreement}
+  {Form NDA for Investors, Partners and Advisers}
+  {Protection of the Company's technology and information against disclosure}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Non-Disclosure Agreement}
+\addcontentsline{toc}{chapter}{Non-Disclosure Agreement}
+
+concluded on \field{date} between:
+
+\textbf{\CompanyFull{}} with its registered office in Pruszków, entered in the register of entrepreneurs of the National Court Register under KRS number \field{number}, NIP \field{number}, represented by \field{name, position} (the \textbf{``Company''}),
+
+and
+
+\field{business name or full name, registered office or address, KRS / NIP / PESEL}, represented by \field{name, position} (the \textbf{``Recipient''}).
+
+\begin{ContractClause}{Purpose}
+The Company makes information available to the Recipient solely for the purpose of \field{select: assessing a possible investment in the Company / assessing and conducting cooperation in the field of \ldots{} / providing advisory services to the Company in the field of \ldots{}} (the \textbf{``Purpose''}). This agreement is unilateral: the obligations set out in it are borne by the Recipient.
+\end{ContractClause}
+
+\begin{ContractClause}{Confidential Information}
+\begin{enumerate}
+  \item Confidential Information means any information concerning the Company, its technology, products, source code, models, data, technical documentation, plans, customers, partners, finances, financing and shareholders, provided to the Recipient in connection with the Purpose in any form --- before or after this agreement is concluded --- as well as the fact that discussions are taking place and their content.
+  \item Information provided orally, during demonstrations or by making samples, devices or test environments available is Confidential Information irrespective of its marking.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Obligations of the Recipient}
+\begin{enumerate}
+  \item The Recipient uses Confidential Information solely for the Purpose and does not disclose it to anyone other than its employees, members of its governing bodies, advisers and financing sources who need to know it for the Purpose and are bound by a confidentiality obligation no less strict than that arising from this agreement (the \textbf{``Authorised Persons''}). The Recipient is liable for the acts and omissions of the Authorised Persons as for its own.
+  \item The Recipient protects Confidential Information at least as it protects its own information of similar importance, and in any event with due diligence, copies it only to the extent necessary for the Purpose and does not enter it into publicly available tools and services (including artificial-intelligence tools) that may store or use it.
+  \item The Recipient does not decompile, reverse-engineer or analyse the composition of samples, devices or software made available by the Company, unless the Company consents in documentary form.
+  \item The Recipient notifies the Company promptly, and in any event within 48 hours, of any disclosure or use of Confidential Information in breach of this agreement and cooperates in limiting its consequences.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Exceptions}
+The obligations under \S~3 do not apply to information in respect of which the Recipient demonstrates that it: (a)~is or becomes publicly available without breach of this agreement; (b)~was lawfully known to it before being provided by the Company; (c)~was lawfully obtained by it from a third party not bound by a confidentiality obligation; (d)~was developed by it independently, without use of Confidential Information. The Recipient may disclose Confidential Information if required by law or by a public authority, to the extent necessary and after prior notice to the Company where permitted. This agreement does not restrict reports and disclosures made in accordance with the Whistleblower Protection Act.
+\end{ContractClause}
+
+\begin{ContractClause}{Export Control and Classified Information}
+\begin{enumerate}
+  \item Confidential Information may include dual-use or military technologies. The Recipient does not transfer it outside the territory of the Republic of Poland or to persons from countries outside the European Union without the Company's prior consent in documentary form, and complies with the laws on the control of trade in goods, technologies and services of strategic importance, including Regulation (EU) 2021/821.
+  \item No classified information within the meaning of the Act on the Protection of Classified Information is provided under this agreement; such information may be made available only in the procedure laid down in that Act.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Return and Deletion}
+At the Company's request, and in any event once the Purpose has been fulfilled, the Recipient returns or permanently deletes the Confidential Information together with any copies within 14 days and confirms this in documentary form. The Recipient may retain copies whose retention is required by law and copies contained in automatic backups, without any right to use them; they remain subject to this agreement.
+\end{ContractClause}
+
+\begin{ContractClause}{No Licence and No Commitment}
+The disclosure of Confidential Information does not constitute the grant of a licence or the transfer of any rights, including intellectual property rights. This agreement does not oblige the Parties to enter into a transaction or further cooperation; the Company may terminate the discussions at any time and is not liable for the completeness or usefulness of the Confidential Information.
+\end{ContractClause}
+
+\begin{ContractClause}{Term}
+This agreement is effective from the date of its conclusion. The Recipient's obligations last for 5 years from the date on which Confidential Information was last provided and, in respect of information constituting a trade secret within the meaning of the Act on Combating Unfair Competition, for as long as the information retains that character.
+\end{ContractClause}
+
+\begin{ContractClause}{Contractual Penalty}
+\begin{enumerate}
+  \item For each breach of \S~3 or \S~5, including by an Authorised Person, the Recipient pays the Company a contractual penalty of PLN~25,000.
+  \item The amount set out in section~1 is indexed on 1 March of each year, starting from the year following the year in which this agreement is concluded, by the average annual consumer price index (total) for the previous calendar year announced by the President of Statistics Poland (GUS) in the Official Journal of the Republic of Poland ``Monitor Polski'', if that index exceeds 100. The indexed amount is rounded up to the nearest PLN~100; the amount of the penalty is determined according to the amount in force on the date of the breach.
+  \item Payment of the penalty does not exclude claims for damages exceeding its amount or claims for cessation of the breach, surrender of benefits and interim relief.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+\begin{enumerate}
+  \item This agreement is governed by Polish law. Disputes are resolved by the common court having jurisdiction over the Company's registered office.
+  \item Amendments to this agreement require documentary form, failing which they are null and void. This agreement is concluded in written or electronic form (qualified electronic signature).
+  \item The Company processes the personal data of the persons representing the Recipient and of the Authorised Persons for the purpose of concluding and performing this agreement, on the basis of legitimate interest (Article~6(1)(f) GDPR).
+  \item This agreement has been drawn up in Polish and English. In the event of any discrepancy, the Polish version prevails.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1.5em}
+\field{for the Company} \hfill \field{for the Recipient}
+
+\end{document}
