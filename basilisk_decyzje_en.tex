@@ -1,0 +1,504 @@
+% !TeX program = pdflatex
+% Decision-making manual --- Basilisk Systems P.S.A. (English convenience translation of basilisk_decyzje.tex)
+% Summarises the Articles of Association (psa_en.tex), the Shareholders' Agreement (basilisk_sha_en.tex) and internal documents.
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage{float}
+\usetikzlibrary{positioning,arrows.meta,shapes.geometric,calc,fit}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Founders}
+\BusinessPlanConfidentialText{Internal document}
+\BusinessPlanFooterText{Basilisk Systems --- decision-making manual}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.1}
+\setlist[itemize]{topsep=0.2em,itemsep=0.12em,parsep=0.05em,leftmargin=1.8em}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.12em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+\renewcommand{\thesection}{\arabic{section}}
+\captionsetup{font=small,labelfont=bf}
+
+\externaldocument{psa_en}[psa_en.pdf]
+\externaldocument{basilisk_sha_en}[basilisk_sha_en.pdf]
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- decision-making manual},
+  pdfauthor={Basilisk Systems}
+}
+
+% ---------------------------------------------------------------- diagram styles
+\definecolor{cWZ}{HTML}{1F4E79}
+\definecolor{cRD}{HTML}{2E7D32}
+\definecolor{cDW}{HTML}{8D6E00}
+\definecolor{cX}{HTML}{8E2430}
+\tikzset{
+  >={Stealth[length=2.2mm]},
+  every node/.style={font=\small, align=center},
+  box/.style={draw, rounded corners=2pt, minimum height=8mm, inner sep=4pt, text width=#1},
+  box/.default=3.6cm,
+  wz/.style={box=#1, fill=cWZ!12, draw=cWZ},
+  wz/.default=3.6cm,
+  rd/.style={box=#1, fill=cRD!12, draw=cRD},
+  rd/.default=3.6cm,
+  dw/.style={box=#1, fill=cDW!14, draw=cDW},
+  dw/.default=3.6cm,
+  xx/.style={box=#1, fill=cX!10, draw=cX},
+  xx/.default=3.6cm,
+  q/.style={draw, diamond, aspect=2.4, inner sep=1.5pt, fill=black!4, text width=#1},
+  q/.default=3.4cm,
+  lbl/.style={font=\scriptsize, fill=white, inner sep=1.5pt},
+  line/.style={->, thick},
+}
+\newtcolorbox{Uwaga}{colback=cX!5, colframe=cX!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+% bibliography references (also defined in basilisk_bib_en.tex, via \providecommand)
+\makeatletter
+\newcommand{\BibItem}[2]{\item[\textbf{[#1]}]\def\@currentlabel{#1}\def\@currentlabelname{#1}\phantomsection\label{bib:#2}}
+\makeatother
+\newcommand{\Zr}[1]{[\ref{bib:#1}]}
+\newtcolorbox{Komentarz}{colback=black!3, colframe=black!45, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt, fonttitle=\small\bfseries, title=Commentary}
+\newtcolorbox{Zasada}{colback=cWZ!5, colframe=cWZ!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+
+\begin{document}
+\selectlanguage{english}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Decision-Making Manual}
+  {Who decides, by what majority and under what procedure}
+  {General Meeting, Board of Directors, executive director --- thresholds, deadlines, procedures}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\section{How to use this manual}
+
+\emph{This is an English convenience translation. In the event of any discrepancy, the Polish version prevails.}
+
+This manual summarises the decision-making rules arising from the articles of association (the ``Articles'', version 3.3-S), the shareholders' agreement (the ``SHA'', version 1.7) and the internal documents: the information security policy, the Price List and the NDA template. In this manual, the ``GM'' means the General Meeting, the ``Board'' means the Board of Directors, an ``executive director'' is a director to whom the Board has delegated the day-to-day management of the Company, and a ``non-executive director'' is any other director. References in brackets indicate the source of each rule.
+
+\begin{Uwaga}
+This manual does not amend any agreement. In the event of a discrepancy, the Articles prevail, followed by the SHA. Internal limits bind the directors towards the Company but do not affect the validity of agreements with third parties (Art.~\S~\ref{en-art:reprezentacja}(4)): a director who exceeds them is liable to the Company.
+\end{Uwaga}
+
+Source materials: the Articles \Zr{us}, the SHA \Zr{ua}, the IP agreements \Zr{ip}, the Price List \Zr{cennik}, the NDA \Zr{nda}, the policy \Zr{polityka}; legal bases and literature --- in the bibliography at the end. Section numbers are clickable and open the relevant agreement (the PDF files must be in the same directory).
+
+Colours in the diagrams: \textcolor{cWZ}{\textbf{blue}} --- shareholders and the General Meeting; \textcolor{cRD}{\textbf{green}} --- Board of Directors; \textcolor{cDW}{\textbf{gold}} --- executive director; \textcolor{cX}{\textbf{red}} --- special situations (dispute, court, conflict of interest).
+
+% ================================================================
+\section{Corporate bodies of the Company}
+
+The Company operates under a one-tier (monistic) system: it has only the General Meeting and the Board of Directors; it has no management board or supervisory board (Art.~\S~\ref{en-art:rada}(1)).
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=9mm and 6mm]
+  \node[wz=5.2cm] (akc) {\textbf{Shareholders}\\1 share = 1 vote};
+  \node[wz=5.2cm, below=of akc] (wz) {\textbf{General Meeting}\\or resolution outside the GM (e-mail)};
+  \node[rd=5.2cm, below=14mm of wz] (rd) {\textbf{Board of Directors}\\3--7 directors, 3-year term\\Chair: casting vote};
+  \node[dw=3.8cm, below=14mm of rd, xshift=-2.6cm] (dw) {\textbf{Executive director}\\(at least one)\\day-to-day business};
+  \node[rd=3.8cm, below=14mm of rd, xshift=2.6cm] (dn) {\textbf{Non-executive director}\\(at least one)\\supervision, agreements with exec.~dir.};
+  \node[box=2.6cm, right=22mm of rd] (pr) {\textbf{Commercial proxy}\\(optional)};
+  \draw[line] (akc) -- (wz);
+  \draw[line] (wz) -- node[lbl, right, text width=4.2cm, align=left]{appoints and dismisses\\(absolute majority of votes cast)} (rd);
+  \draw[line] (rd.south) ++(-1.2,0) -- node[lbl, left]{delegates} (dw.north);
+  \draw[line] (rd.south) ++(1.2,0) -- (dn.north);
+  \draw[line] (rd) -- node[lbl, above, text width=1.9cm]{consent of all directors} (pr);
+  \node[box=10cm, below=8mm of dn.south west, anchor=north, xshift=-0.8cm, fill=black!3] (rep) {\textbf{Representation towards third parties:} two directors jointly or a director with a commercial proxy (Art.~\S~\ref{en-art:reprezentacja}(1))};
+\end{tikzpicture}
+\caption{Structure of the corporate bodies (Art.~\S\S~\ref{en-art:rada}--\ref{en-art:wz}).}
+\end{figure}
+
+\begin{itemize}
+  \item The \textbf{Board of Directors} manages the Company's affairs, represents it and supervises it (Art.~\S~\ref{en-art:rada}(2)). Resolutions are adopted by an absolute majority of votes with at least half of the directors participating; in the event of a tie, the Chair decides, unless the matter concerns the Chair's own interest (Art.~\S~\ref{en-art:rada}(5)).
+  \item The \textbf{executive director} runs the day-to-day business under a delegation from the Board. The delegation does not cover matters requiring a Board resolution (Art.~\S~\ref{en-art:rada}(4) and (7)).
+  \item \textbf{Non-executive director} --- there must be at least one. Represents the Company in agreements and disputes with an executive director on the basis of a resolution of the non-executive directors (Art.~\S~\ref{en-art:reprezentacja}(3)).
+  \item The \textbf{Rules of the Board of Directors} (adopted by the Board) set out the detailed allocation of powers, spending limits and reporting rules (Art.~\S~\ref{en-art:rada}(8)).
+\end{itemize}
+
+% ================================================================
+\begin{Komentarz}
+The one-tier system (Article~300$^{73}$ KSH \Zr{ksh}) shortens the decision path: the same body manages the affairs, represents the Company and supervises. The price is the risk that supervision becomes a fiction if the non-executive director depends on the executive ones. In practice: grant the delegation to the executive director by a resolution stating its date and scope, and have the executive director report to the Board monthly (budget execution, agreements above the thresholds, incidents). More on the PSA model: \Zr{opalski}, \Zr{malinowski}, \Zr{ecfr}.
+\end{Komentarz}
+
+\section{Who decides? --- decision tree}
+
+For every new matter, go through the tree from the top. The first ``yes'' answer indicates the body and the majority.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 9mm]
+  \node[box=3.2cm, fill=black!8] (start) {\textbf{New matter}};
+  \node[q, below=of start] (q1) {Exclusion of pre-emptive rights?};
+  \node[wz=4.4cm, right=of q1] (a1) {\textbf{GM --- 4/5 of votes}\\Art.~\S~\ref{en-art:emisje}(6)};
+  \node[q, below=of q1] (q2) {Matter on the\\``75\%'' list (table 1)?};
+  \node[wz=4.4cm, right=of q2] (a2) {\textbf{GM --- 75\% of all votes in the Company}\\Art.~\S~\ref{en-art:wz-zastrzezone}(1)};
+  \node[q, below=of q2] (q3) {Directors, financial statements, discharge, profit, directors' pay?};
+  \node[wz=4.4cm, right=of q3] (a3) {\textbf{GM --- absolute majority of votes cast}\\Art.~\S~\ref{en-art:wz-zastrzezone}(3)};
+  \node[q, below=of q3] (q4) {Matter on the Board list (table 2)?};
+  \node[rd=4.4cm, right=of q4] (a4) {\textbf{Resolution of the Board of Directors}\\Art.~\S~\ref{en-art:rada}(5) and (7)};
+  \node[dw=4.4cm, below=of q4] (a5) {\textbf{Executive director}\\within the budget and the Board Rules};
+  \draw[line] (start) -- (q1);
+  \foreach \i/\j in {1/2,2/3,3/4} \draw[line] (q\i) -- node[lbl, left]{no} (q\j);
+  \draw[line] (q4) -- node[lbl, left]{no} (a5);
+  \foreach \i in {1,2,3,4} \draw[line] (q\i) -- node[lbl, above]{yes} (a\i);
+\end{tikzpicture}
+\caption{Decision tree: which body and what majority.}
+\end{figure}
+
+\begin{Zasada}
+\textbf{``75\% of all votes in the Company''} is calculated on all existing votes, not on those present. An absent or abstaining shareholder therefore acts as a vote ``against''. An \textbf{``absolute majority of votes cast''} means more votes ``for'' than the combined votes ``against'' and ``abstaining'' among the votes cast (Art.~\S~\ref{en-art:wz}(7)).
+\end{Zasada}
+
+\needspace{12\baselineskip}
+\subsection*{Table 1. Matters reserved to the General Meeting --- 75\% of all votes (Art.~\S~\ref{en-art:wz-zastrzezone}(1))}
+\begin{tabularx}{\linewidth}{@{}p{0.6cm} X@{}}
+\toprule
+a) & amendment of the Articles (at a General Meeting, with notarial minutes, and entry in the register) \\
+b) & issue of shares, warrants, options and other rights to shares, including every issue of Series F and P \\
+c) & granting or withdrawing the status of Series~F Functional Founder \\
+d) & merger, demerger, transformation, dissolution, liquidation \\
+e) & sale or lease of the enterprise or an organised part of it; disposal of assets exceeding 25\% of the value of assets \\
+f) & transfer of, or an exclusive, irrevocable or perpetual licence to, key intellectual property outside the ordinary course of business \\
+g) & acquisition of own shares, redemption, payment out of share capital \\
+h) & an obligation, security or transaction outside the budget exceeding PLN 500\,000 \\
+i) & consent to a transfer of shares during the lock-up period (12 months) and release of shares from the transfer obligation beyond the automatic release \\
+j) & a credit, loan, surety or similar agreement with or for the benefit of a director, commercial proxy or liquidator \\
+\bottomrule
+\end{tabularx}
+
+\needspace{12\baselineskip}
+\subsection*{Table 2. Matters requiring a resolution of the Board of Directors (Art.~\S~\ref{en-art:rada}(7))}
+\begin{tabularx}{\linewidth}{@{}p{0.6cm} X@{}}
+\toprule
+1 & adoption and amendment of the annual budget and financial plan \\
+2 & an agreement or expenditure outside the budget exceeding PLN 250\,000 \\
+3 & financing, security or disposal of assets exceeding PLN 100\,000 \\
+4 & a transaction with a shareholder, director, close person or related entity \\
+5 & establishing a subsidiary, operating in a new jurisdiction \\
+6 & an exclusive licence or transfer of material intellectual property (unless it requires the GM --- table~1 item~f) \\
+7 & adoption of policies: information security, export control, compliance; of the Price List \\
+8 & implementation of share issue resolutions; confirmation that contributions have been made \\
+9 & consent or refusal of consent to a transfer or encumbrance of shares (section~6) \\
+10 & determination of cessation of involvement and designation of a buyer of Unreleased Shares (section~7) \\
+11 & a loan from a Founder (SHA~\S~\ref{shaen:finansowanie}(2)) \\
+\bottomrule
+\end{tabularx}
+
+% ================================================================
+\begin{Komentarz}
+The most common mistake is confusing ``75\% of all votes in the Company'' with 75\% of those present. With a 50/20/10/10/10 split, Founder~A alone cannot carry a 75\% resolution but can block any such resolution; A and~B together hold 70\% --- a third Founder is still needed. The consequences of omitting a consent differ: an act performed without a resolution required by \emph{statute} is invalid (Article~17 \S~1 KSH \Zr{ksh}), whereas one performed without a consent required \emph{only by the Articles} is valid towards the counterparty, but the director is liable to the Company (Art.~\S~\ref{en-art:reprezentacja}(4)).
+\end{Komentarz}
+
+\section{Monetary thresholds}
+
+The same act may require different decisions depending on the amount. The amounts refer to a single act or to several related acts.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=0.0165cm, y=1cm]
+  % axis
+  \draw[->] (0,0) -- (640,0) node[right, font=\scriptsize]{PLN k};
+  \foreach \v in {0,100,250,500} {\draw (\v,0.08) -- (\v,-0.08) node[below, font=\scriptsize]{\v};}
+  % band 1: expenditure outside the budget
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,1.2) {agreement / expenditure\\outside the budget};
+  \fill[cDW!25] (0,0.85) rectangle (250,1.55);  \node[font=\scriptsize] at (125,1.2) {executive director};
+  \fill[cRD!25] (250,0.85) rectangle (500,1.55); \node[font=\scriptsize] at (375,1.2) {Board of Directors};
+  \fill[cWZ!25] (500,0.85) rectangle (630,1.55); \node[font=\scriptsize] at (565,1.2) {GM 75\%};
+  % band 2: financing / security / assets
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {financing, security,\\disposal of assets};
+  \fill[cDW!25] (0,1.95) rectangle (100,2.65);  \node[font=\scriptsize] at (50,2.3) {exec.~dir.};
+  \fill[cRD!25] (100,1.95) rectangle (500,2.65); \node[font=\scriptsize] at (300,2.3) {Board of Directors};
+  \fill[cWZ!25] (500,1.95) rectangle (630,2.65); \node[font=\scriptsize] at (565,2.3) {GM 75\%};
+  % band 3: within the budget
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,3.4) {expenditure within\\the adopted budget};
+  \fill[cDW!25] (0,3.05) rectangle (630,3.75); \node[font=\scriptsize] at (315,3.4) {executive director (within the Board Rules)};
+  \foreach \v in {100,250,500} \draw[densely dotted, black!50] (\v,0) -- (\v,3.85);
+\end{tikzpicture}
+\caption{Who approves an act depending on the amount (Art.~\S~\ref{en-art:rada}(7), Art.~\S~\ref{en-art:wz-zastrzezone}(1)(h)).}
+\end{figure}
+
+Regardless of the amount: a transaction with a shareholder, director or related entity requires a Board resolution (without the participation of a director having a conflict of interest), and a credit or loan agreement with a director also requires the consent of the GM by 75\% (table~1 item~j). A disposal of assets exceeding 25\% of their value always requires the GM by 75\% (item~e).
+
+% ================================================================
+\begin{Komentarz}
+The thresholds also apply to related acts: splitting one agreement into parts to stay below a threshold is a circumvention and does not protect the director from liability. The more precisely the Board adopts the budget, the fewer ad hoc resolutions are needed --- the budget is the main tool for delegating decisions to the executive director. The thresholds are not indexed; it is worth reviewing them every 2--3 years.
+\end{Komentarz}
+
+\section{How to adopt a resolution}
+
+\subsection*{Shareholders' resolution outside the General Meeting (e-mail)}
+
+The default procedure for most matters. Exception: resolutions requiring notarial minutes (in particular an amendment of the Articles) are adopted at a General Meeting (Art.~\S~\ref{en-art:wz}(1)).
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 5mm]
+  \node[wz=2.9cm] (s1) {\textbf{1. Draft}\\the Board, the Chair or a shareholder with $\ge$5\% of votes circulates a draft with reasons};
+  \node[wz=2.9cm, right=of s1] (s2) {\textbf{2. Voting}\\by e-mail from the address in the register; deadline: 3 business days -- 21 days};
+  \node[wz=2.9cm, right=of s2] (s3) {\textbf{3. Adoption}\\when the deadline expires, or earlier once a majority of all votes is reached};
+  \node[wz=2.9cm, right=of s3] (s4) {\textbf{4. Result}\\the Chair determines the result and notifies by e-mail; entry in the minute book};
+  \draw[line] (s1) -- (s2); \draw[line] (s2) -- (s3); \draw[line] (s3) -- (s4);
+\end{tikzpicture}
+\caption{Resolution outside the General Meeting (Art.~\S~\ref{en-art:wz}(2)--(3) and (8)).}
+\end{figure}
+
+\begin{itemize}
+  \item A deadline shorter than 3 business days is possible with the consent of all shareholders. A vote cast after the deadline does not count.
+  \item Voting \emph{in writing} (on paper) requires the consent of all shareholders to that procedure; voting by e-mail does not require such consent.
+  \item A General Meeting without a formal convening is possible if all shares are represented and no one objects (Art.~\S~\ref{en-art:wz}(4)). Remote participation is governed by the GM Rules.
+\end{itemize}
+
+\subsection*{Resolution of the Board of Directors}
+
+\begin{enumerate}
+  \item The Chair (or a director) circulates the draft; voting may take place at a meeting, in writing or by e-mail, provided the participants can be identified and the votes recorded (Art.~\S~\ref{en-art:rada}(6)).
+  \item \textbf{Conflict of interest:} a director whose interest conflicts with that of the Company discloses this and does not vote; such a director is not counted towards the quorum.
+  \item Quorum: at least half of the appointed directors. Majority: absolute. In the event of a tie --- the Chair's vote.
+  \item The resolution is recorded and kept in the Company's records.
+\end{enumerate}
+
+% ================================================================
+\begin{Komentarz}
+An e-mail sent from the address entered in the share register satisfies the documentary form requirement (Article~77$^{2}$ of the Civil Code (KC) \Zr{kc}). Keep the draft, the votes and the notice of the result in a single thread, and enter the resolution in the minute book (Article~300$^{100}$ KSH). Send the notice of the result immediately --- it provides certainty as to when the resolution was adopted, which matters, among other things, for the deadlines to challenge it.
+\end{Komentarz}
+
+\section{Consent to a transfer of shares}
+
+Every transfer or encumbrance of shares requires the consent of the Company, which is granted by the Board of Directors (Art.~\S~\ref{en-art:zbywanie}). The Company \textbf{must} grant consent unless one of the five grounds for refusal applies.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 8mm]
+  \node[box=4.2cm, fill=black!8] (z) {\textbf{Notification to the Company}\\buyer, price, material terms};
+  \node[q=3.3cm, below=of z] (lock) {12-month lock-up\\from registration / Series~F Grant Date?};
+  \node[wz=3.4cm, right=of lock] (lockwz) {GM consent 75\%\\(or wait)};
+  \node[rd=4.2cm, below=of lock] (rd) {\textbf{Board of Directors}\\14 days to consent or refuse\\(documentary form, e-mail)};
+  \node[rd=3.4cm, below=10mm of rd] (no) {\textbf{Refusal}\\only on grounds a)--e), stating them};
+  \node[rd=2.8cm, left=6mm of no] (ok) {\textbf{Consent}\\$\to$ buyer entered in the register};
+  \node[xx=3.2cm, right=6mm of no] (cisza) {\textbf{Silence}\\$\ne$ consent};
+  \node[rd=3.4cm, below=of no] (e) {Ground e) (competitor): within 30 days the Company designates another buyer on the same terms --- otherwise it must consent};
+  \node[xx=3.2cm, below=of cisza] (w7) {demand to the Board\\+ 7 days};
+  \node[wz=3.2cm, below=of w7] (ua) {shareholders' resolution outside the GM --- 14 days (only on grounds a--e)};
+  \node[xx=3.2cm, below=of ua] (sad) {court: claim for a declaration of consent (Article~64 KC)};
+  \draw[line] (z) -- (lock);
+  \draw[line] (lock) -- node[lbl, above]{yes} (lockwz);
+  \draw[line] (lock) -- node[lbl, left]{no} (rd);
+  \draw[line] (rd) -- (ok); \draw[line] (rd) -- (no); \draw[line] (rd) -- (cisza);
+  \draw[line] (no) -- (e);
+  \draw[line] (cisza) -- (w7); \draw[line] (w7) -- (ua); \draw[line] (ua) -- node[lbl, right]{no consent\\and no refusal} (sad);
+\end{tikzpicture}
+\caption{Procedure for consent to a transfer of shares (Art.~\S~\ref{en-art:zbywanie}(1)--(4)).}
+\end{figure}
+
+\textbf{Grounds for refusal (closed list, Art.~\S~\ref{en-art:zbywanie}(2)):} a)~sanctions or a conflict with the rules on investment control, export control or national security; b)~lack of a required authority approval (conditional consent may be given); c)~lock-up without GM consent; d)~the shares are subject to the transfer obligation and the buyer has not assumed the obligations (power of attorney and offer); e)~the buyer is a competitor (except portfolio investments of up to 5\%).
+
+No consent is required for an acquisition of shares in performance of the transfer obligation or for a transfer in enforcement proceedings (Art.~\S~\ref{en-art:zbywanie}(5)).
+
+% ================================================================
+\begin{Komentarz}
+Consent to a transfer is a non-discretionary decision: the Board does not assess the price or the person of the buyer beyond the list in Art.~\S~\ref{en-art:zbywanie}(2), and a refusal without stating its ground is not an effective refusal. Grounds a--b require screening the buyer against sanctions lists \Zr{sankcje}, \Zr{usank} and for investment control \Zr{uki}, \Zr{fdi} --- it is worth describing the result of the screening in the resolution. If the Company refuses consent without grounds, a final court judgment replaces its declaration (Article~64 of the Civil Code (KC) \Zr{kc}, Article~1047 of the Code of Civil Procedure (KPC) \Zr{kpc}).
+\end{Komentarz}
+
+\section{Vesting and cessation of involvement}
+
+\subsection*{Share release schedule (Art.~\S~\ref{en-art:obowiazek-zbycia}(2))}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=0.245cm, y=0.042cm]
+  \draw[->] (0,0) -- (51,0) node[right, font=\scriptsize]{months};
+  \draw[->] (0,0) -- (0,108) node[above, font=\scriptsize]{\% of shares released};
+  \foreach \m in {0,6,12,24,36,48} \draw (\m,1.5) -- (\m,-1.5) node[below, font=\scriptsize]{\m};
+  \foreach \p in {25,50,75,100} {\draw (0.3,\p) -- (-0.3,\p) node[left, font=\scriptsize]{\p}; \draw[black!12] (0,\p) -- (50,\p);}
+  % Original Founder
+  \draw[very thick, cWZ] (0,25) -- (6,25) -- (6,37.5) -- (36,100) -- (49,100);
+  \fill[cWZ] (0,25) circle (0.25 and 1.6);
+  \node[font=\scriptsize, cWZ, anchor=west, text width=4.2cm, align=left] at (1,90) {\textbf{Original Founder:} 25\% immediately, 6-month cliff, then monthly up to 36 months};
+  % Series F
+  \draw[very thick, cRD, dashed] (0,0) -- (12,0) -- (12,25) -- (48,100) -- (49,100);
+  \node[font=\scriptsize, cRD, anchor=west, text width=4.2cm, align=left] at (26,40) {\textbf{Series F:} 12-month cliff (25\%), then monthly up to 48 months};
+\end{tikzpicture}
+\caption{Release of shares from the transfer obligation. Until released, the shares carry full rights (Art.~\S~\ref{en-art:obowiazek-zbycia}(3)).}
+\end{figure}
+
+\subsection*{What happens on departure (Art.~\S~\ref{en-art:obowiazek-zbycia}(4)--(5), SHA~\S\S~\ref{shaen:ustanie}--\ref{shaen:wykonanie})}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 6mm]
+  \node[box=4.6cm, fill=black!8] (ev) {\textbf{Cessation of involvement}\\(termination of agreement, resignation, death, incapacity)};
+  \node[rd=4.6cm, below=of ev] (st) {\textbf{The Board determines cessation} within 30 days (without the person concerned): the Cessation Date and the number of Unreleased Shares};
+  \node[q=3.1cm, below=of st] (typ) {Type of departure?};
+  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Termination without cause / agreed departure}\\an additional 12 months are released};
+  \node[wz=3.4cm, left=6mm of u] (d) {\textbf{Death / permanent incapacity}\\\textbf{all} shares are released};
+  \node[xx=3.4cm, right=6mm of u] (z) {\textbf{Ordinary Departure}\\no additional release};
+  \node[rd=6.2cm, below=12mm of u] (n) {Unreleased Shares $\to$ transfer \textbf{at the issue price}: the Board designates a buyer within 3 months; then the Original Founders within 30 days; after 6 months the obligation expires};
+  \node[wz=6.2cm, below=of n] (wz75) {The GM may (75\%) also release the remaining shares};
+  \draw[line] (ev) -- (st); \draw[line] (st) -- (typ);
+  \draw[line] (typ) -| (d); \draw[line] (typ) -- (u); \draw[line] (typ) -| (z);
+  \draw[line] (u) -- (n); \draw[line] (z) |- (n);
+  \draw[line] (n) -- (wz75);
+\end{tikzpicture}
+\caption{Cessation of involvement and the fate of the Unreleased Shares.}
+\end{figure}
+
+\begin{itemize}
+  \item The release on death, incapacity and a Justified Departure takes place \textbf{automatically} under the Articles --- no vote is required (SHA~\S~\ref{shaen:ustanie}(4)).
+  \item The transfer agreement on behalf of the departing person may be concluded by an attorney (the Company or a non-executive director) under an irrevocable power of attorney; the buyer pays within 14 days, and the entry in the register is made only after payment (SHA~\S~\ref{shaen:wykonanie}).
+  \item After an Ordinary Departure a 12-month non-compete applies; a 12-month prohibition on actively soliciting employees and clients applies on every departure (SHA~\S~\ref{shaen:konkurencja}).
+\end{itemize}
+
+% ================================================================
+\begin{Komentarz}
+A buy-back of Unreleased Shares at the issue price is a market-standard solution, but a court may examine its compliance with the principles of community life (Articles~58 and 353$^{1}$ of the Civil Code (KC) \Zr{kc}); for this reason the agreement justifies the price by a mechanism accepted by all Founders when the Company was formed (SHA~\S~\ref{shaen:wykonanie}(2)). For a transfer below market value, the personal income tax consequences must be assessed \Zr{pit}. The Board should determine the cessation of involvement within 30 days --- a delay does not remove the transfer obligation, but weakens the Company's position in any dispute.
+\end{Komentarz}
+
+\section{Agreements and disputes with directors}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 8mm]
+  \node[box=4.4cm, fill=black!8] (u) {\textbf{Agreement or dispute between the Company and a director}};
+  \node[q=3.0cm, below=of u] (q) {Executive director?};
+  \node[rd=4.6cm, below left=9mm and -7mm of q] (dn) {Non-executive director under a resolution of the non-executive directors\\\textbf{or} an attorney appointed by a shareholders' resolution};
+  \node[wz=4.6cm, below right=9mm and -7mm of q] (pe) {\textbf{Attorney} appointed by a shareholders' resolution (may be outside the GM; may not be a party to the agreement)};
+  \node[xx=9.8cm, below=33mm of q] (poz) {\textbf{Loan, credit, surety with a director:} Board resolution + GM consent 75\% + attorney appointed by a shareholders' resolution (Art.~\S~\ref{en-art:wz-zastrzezone}(1)(j), SHA~\S~\ref{shaen:finansowanie}(2))};
+  \draw[line] (u) -- (q);
+  \draw[line] (q) -- node[lbl, left]{yes} (dn);
+  \draw[line] (q) -- node[lbl, right]{no} (pe);
+\end{tikzpicture}
+\caption{Representation of the Company in matters with a director (Art.~\S~\ref{en-art:reprezentacja}(3)).}
+\end{figure}
+
+This applies in particular to IP transfer agreements (Agreement No.~1 and No.~2) with Founders who are directors, implementing agreements for the transfer obligation and quarterly confirmations. A single shareholders' resolution may appoint an attorney for all agreements of a given type.
+
+% ================================================================
+\begin{Komentarz}
+Under Article~210 KSH it is generally accepted that an agreement concluded with a member of a corporate body in breach of the special rules of representation is invalid (\Zr{sn4218}, \Zr{jara}); the same risk applies under Article~300$^{79}$ KSH. The safest course is to adopt, upon formation, a single shareholders' resolution appointing an attorney for the IP agreements and implementing agreements with directors (Art.~\S~\ref{en-art:final}(6)) and to ensure that the attorney is not a party to the given agreement.
+\end{Komentarz}
+
+\section{Share issues}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 6mm]
+  \node[q=3.4cm] (q) {Series A, F or P,\\within the limits?};
+  \node[wz=4.0cm, right=10mm of q] (zm) {\textbf{First amend the Articles} (GM 75\%, notary, KRS) --- new series or higher limit};
+  \node[wz=4.0cm, below=of q] (em) {\textbf{Issue resolution of the GM 75\%}\\maximum number of shares, minimum price, deadline};
+  \node[wz=3.4cm, left=10mm of em] (pp) {Exclusion of pre-emptive rights?\\$\to$ \textbf{4/5 of votes}};
+  \node[rd=4.0cm, below=of em] (rd) {\textbf{The Board implements:} offers, subscription agreements, acceptance of contributions, register, filings};
+  \draw[line] (q) -- node[lbl, above]{no} (zm);
+  \draw[line] (q) -- node[lbl, left]{yes} (em);
+  \draw[line] (zm) |- (em);
+  \draw[line, dashed] (em) -- (pp);
+  \draw[line] (em) -- (rd);
+\end{tikzpicture}
+\caption{Share issue (Art.~\S\S~\ref{en-art:emisje}--\ref{en-art:seria-p}).}
+\end{figure}
+
+\begin{itemize}
+  \item \textbf{Limits:} 2\,000\,000 shares in total; Series F up to 250\,000 (and up to 20\% of shares); Series P up to 176\,471; issue deadline 31 December 2036 (Art.~\S~\ref{en-art:emisje}(2)--(3)).
+  \item \textbf{Series F --- two GM resolutions by 75\%:} first, granting the status of Functional Founder (role, involvement, maximum number of shares, Series~F Grant Date), then the issue (Art.~\S~\ref{en-art:seria-f}).
+  \item \textbf{Series P:} the plan rules are approved by the GM; the Board runs the plan and recommends participants, but does not issue shares on its own (Art.~\S~\ref{en-art:seria-p}).
+  \item Issue price not lower than PLN 0.01; the Board may not reduce it below the minimum set in the resolution (Art.~\S~\ref{en-art:emisje}(5) and (7)).
+\end{itemize}
+
+% ================================================================
+\begin{Komentarz}
+Typical sequence of an investment round: term sheet $\to$ amendment of the Articles creating the investor series (General Meeting, notary) $\to$ issue resolution $\to$ subscription agreements $\to$ entry in the share register $\to$ filing with the register of entrepreneurs; in parallel, amendment of the SHA (SHA~\S~\ref{shaen:finansowanie}(3)). For a contribution in the form of work (Series~F), remember the deadline for making the contribution --- no later than 3 years from the registration of the issue (Article~300$^{9}$ \S~1 KSH).
+\end{Komentarz}
+
+\section{Internal documents --- who adopts them}
+
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{4.0cm} >{\raggedright\arraybackslash}p{3.3cm} X@{}}
+\toprule
+\textbf{Document} & \textbf{Adopted by} & \textbf{Notes} \\
+\midrule
+Annual budget and financial plan & Board of Directors & sets the limits of the executive director's authority \\
+Rules of the Board of Directors & Board of Directors & allocation of powers, limits, reporting, conflict of interest \\
+Rules of the General Meeting & shareholders & remote participation; the first rules are adopted by the Founders \\
+Information security policy & Board of Directors & appoints the Officer; every User confirms having read it \\
+Price List for project solutions & Board of Directors & indexed by GUS each year on 1 March; an adverse change has no retroactive effect \\
+Incentive plan rules (Series P) & General Meeting & conditions, transfer restrictions, consequences of cessation of cooperation \\
+NDA template & Board of Directors & concluded \textbf{before} information is disclosed (SHA~\S~\ref{shaen:poufnosc}(2)(b)); signed by two directors or a director with a commercial proxy \\
+List of persons with access to Controlled information & Board of Directors & policy \S~3; quarterly access review \\
+\bottomrule
+\end{tabularx}
+
+% ================================================================
+\begin{Komentarz}
+The security policy, the access register and the NDAs concluded are evidence of the ``necessary measures'' within the meaning of Article~11(2) of the Unfair Competition Act (UZNK) \Zr{uznk}; without them, trade secret protection may fail (\Zr{sn30400}). Contractual penalties in NDAs and agreements with authors are due without proof of damage, but are subject to reduction by the court (\Zr{sn6103}); contractual penalties do not apply to employees under an employment contract (\Zr{sn12007}). The amounts of the penalties and of the Price List are indexed using the GUS index \Zr{guscpi}.
+\end{Komentarz}
+
+\section{Deadlock and disputes}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 6mm]
+  \node[box=3.0cm, fill=black!8] (s) {\textbf{Dispute between shareholders}};
+  \node[box=3.0cm, right=of s] (n) {negotiations\\30 days from the demand};
+  \node[xx=3.0cm, right=of n] (m) {mediation\\(centre named in the SHA)};
+  \node[xx=3.0cm, right=of m] (sd) {common court\\of the Company's seat};
+  \draw[line] (s) -- (n); \draw[line] (n) -- (m); \draw[line] (m) -- (sd);
+  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Deadlock:} the GM twice (at least 30 days apart) fails to adopt a resolution on a share issue (item~b) or on a transaction exceeding PLN 500\,000 (item~h), and the matter is necessary --- anyone may initiate mediation};
+  \draw[line] (imp.north) ++(1.7,0) -- (m.south);
+\end{tikzpicture}
+\caption{Dispute resolution (SHA~\S~\ref{shaen:spory}). Interim court relief is always available.}
+\end{figure}
+
+% ================================================================
+\begin{Komentarz}
+A settlement concluded before a mediator and approved by the court has the force of a court settlement \Zr{kpc}; mediation does not suspend the running of the deadlines for challenging resolutions. Interim relief (Article~730 et seq. KPC) is available independently of mediation --- it is particularly important in the event of a breach of confidentiality or of the non-compete.
+\end{Komentarz}
+
+\section{Calendar of deadlines}
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{6.2cm} >{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{3.6cm}@{}}
+\toprule
+\textbf{Action} & \textbf{Deadline} & \textbf{Source} \\
+\midrule
+\endhead
+Shareholders' resolution outside the GM & 3 business days -- 21 days to vote & Art.~\S~\ref{en-art:wz}(3) \\
+Consent or refusal of consent to a transfer of shares & 14 days from notification & Art.~\S~\ref{en-art:zbywanie}(1) \\
+Additional period after a demand to the Board & 7 days & Art.~\S~\ref{en-art:zbywanie}(1) \\
+Shareholders' resolution on consent & 14 days from circulation of the draft & Art.~\S~\ref{en-art:zbywanie}(1) \\
+Designation of a buyer after refusal (competitor) & 30 days from refusal & Art.~\S~\ref{en-art:zbywanie}(3) \\
+Lock-up of Original Founders / Series F & 12 months from registration / Series~F Grant Date & Art.~\S~\ref{en-art:zbywanie}(4) \\
+Determination of cessation of involvement & 30 days from becoming aware & SHA~\S~\ref{shaen:ustanie}(2) \\
+Designation of a buyer of Unreleased Shares & 3 months from the Cessation Date & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
+Acquisition by the remaining Founders & a further 30 days & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
+Expiry of the transfer obligation & 6 months from the Cessation Date & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
+Payment of the price of Unreleased Shares & 14 days from the transfer agreement & SHA~\S~\ref{shaen:wykonanie}(4) \\
+Delivery of works after departure & 14 days & Agreement No.~2 \S~8, policy \S~7 \\
+Revocation of access & no later than the last day; immediately in a dispute & policy \S~7 \\
+Reporting an incident / personal data breach & 24 hours / 72 hours to UODO & policy \S~6 \\
+Indexation of penalties and the Price List & each year on 1 March & SHA~\S~\ref{shaen:kary}(2), Price List \S~5 \\
+Negotiations before mediation & 30 days from the demand & SHA~\S~\ref{shaen:spory}(1) \\
+Term of office of the Board of Directors & 3 financial years & Art.~\S~\ref{en-art:rada}(3) \\
+Deadline for issuing Series F and P & by 31 December 2036 & Art.~\S~\ref{en-art:emisje}(3) \\
+\bottomrule
+\end{longtable}
+
+\input{basilisk_bib_en}
+
+\end{document}
