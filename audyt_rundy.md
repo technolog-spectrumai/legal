@@ -146,3 +146,12 @@ Tezy z `audyt.md` (dawny pkt 6 i oznaczenia [W]) sprawdzono na tekstach ustaw w 
 | dokumentacja | `audyt.md` (rejestr K3, § 4, lista kontrolna), `prosta.md` pod 2.5-S | dokumenty |
 
 **Kontrola techniczna:** wszystkie cztery umowy (PL i EN) się kompilują (polskie po 26 strony), nierozwiązanych odwołań: 0.
+
+### U6 — jedna spółka Basilisk Systems (3.0-S)
+
+| Zmiana | Gdzie |
+|---|---|
+| Usunięto § 15 (spółka siostrzana) i § 13 ust. 1 lit. j; numeracja § 1–14 bez zmian, dawne § 16–18 to teraz § 15–17 | `psa.tex` |
+| Wersja angielska umowy spółki przeniesiona do tego samego dokumentu (strona tytułowa po polsku); `psa_en.tex` usunięty | `psa.tex` |
+| Umowa akcjonariuszy i umowy przeniesienia praw autorskich przemianowane z „Aurelian” na Basilisk Systems (1.3, siedziba Pruszków) | `basilisk_sha.tex`, `basilisk_ip.tex`, `basilisk_audyt.md` |
+| Appolonia bez zmian — do dostosowania, gdy spółka powstanie (jej § 15 nadal wskazuje Basilisk jako spółkę siostrzaną) | `appolonia.tex`, `appolonia_en.tex` |

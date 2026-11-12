@@ -1,11 +1,11 @@
-# Audyt zgodności z prawem: umowa akcjonariuszy i umowy przeniesienia praw autorskich — Aurelian P.S.A.
+# Audyt zgodności z prawem: umowa akcjonariuszy i umowy przeniesienia praw autorskich — Basilisk Systems P.S.A.
 
 | | |
 |----|----------------|
-| **Przedmiot** | 1. Umowa akcjonariuszy — `aurelian_sha.tex`, wersja 1.0 (projekt). 2. Umowy przeniesienia autorskich praw majątkowych — `aurelian_ip.tex`, wersja 1.0: Umowa nr 1 (aport przy zawiązaniu) i Umowa nr 2 (utwory tworzone dla Spółki). |
-| **Data** | listopad 2026 r.; poprawki U1 — punkt 4 (umowa akcjonariuszy i umowy IP w wersji 1.1, nowa umowa spółki `aurelian.tex` 1.0-S) |
+| **Przedmiot** | 1. Umowa akcjonariuszy — `basilisk_sha.tex`, wersja 1.0 (projekt). 2. Umowy przeniesienia autorskich praw majątkowych — `basilisk_ip.tex`, wersja 1.0: Umowa nr 1 (aport przy zawiązaniu) i Umowa nr 2 (utwory tworzone dla Spółki). |
+| **Data** | listopad 2026 r.; poprawki U1 — punkt 4 (umowa akcjonariuszy i umowy IP w wersji 1.1, nowa umowa spółki `psa.tex` 1.0-S) |
 | **Stan prawny** | Teksty ujednolicone w `src/legal/`: KC (Dz.U. 2026 poz. 795), KSH (Dz.U. 2024 poz. 18 z późn. zm.), prawo autorskie (Dz.U. 2025 poz. 24), PWP, Kodeks pracy, PIT (Dz.U. 2026 poz. 592). |
-| **Ocena** | **Dokumenty są co do zasady zgodne z prawem, ale wymagają poprawek przed podpisaniem:** 1 ryzyko krytyczne (brak umowy spółki Aurelian), 3 wysokie, 4 średnie, 5 niskich. Żadne postanowienie nie jest sprzeczne z bezwzględnie obowiązującym przepisem w sposób nieusuwalny. |
+| **Ocena** | **Dokumenty są co do zasady zgodne z prawem, ale wymagają poprawek przed podpisaniem:** 1 ryzyko krytyczne (brak umowy spółki Basilisk Systems), 3 wysokie, 4 średnie, 5 niskich. Żadne postanowienie nie jest sprzeczne z bezwzględnie obowiązującym przepisem w sposób nieusuwalny. |
 
 **Oznaczenia.** **[Z]** — sprawdzone na tekście przepisu w `src/legal/`. **[W]** — wiedza ogólna albo wniosek audytora, do potwierdzenia przez prawnika. Raport nie zastępuje opinii adwokata ani radcy prawnego.
 
@@ -17,7 +17,7 @@
 
 | ID | Dokument, miejsce | Problem | Podstawa | Poprawka |
 |--|----|---------|----|--------|
-| **K1** | oba dokumenty | Nie ma umowy spółki Aurelian. Oba dokumenty odsyłają do numeracji wariantu 2.5-S (makro `\US`): vesting (§ 9), zbywanie (§ 8), IP (§ 14), Załącznik nr 1 z Częściami B1/B2. Bez tych postanowień w umowie spółki obowiązek zbycia nie jest obowiązkiem związanym z akcją, nie trafia do rejestru akcjonariuszy i nie wiąże nabywców akcji — zostaje tylko zobowiązanie między stronami umowy akcjonariuszy | art. 300³⁹ § 1, art. 300¹ § 3 KSH; art. 57 § 2 KC **[Z]** | Przygotować `aurelian.tex` z umowy 2.5-S (jedna spółka, bez § 15 o spółce siostrzanej) i zachować numerację albo zaktualizować makro `\US` |
+| **K1** | oba dokumenty | Nie ma umowy spółki Basilisk Systems. Oba dokumenty odsyłają do numeracji wariantu 2.5-S (makro `\US`): vesting (§ 9), zbywanie (§ 8), IP (§ 14), Załącznik nr 1 z Częściami B1/B2. Bez tych postanowień w umowie spółki obowiązek zbycia nie jest obowiązkiem związanym z akcją, nie trafia do rejestru akcjonariuszy i nie wiąże nabywców akcji — zostaje tylko zobowiązanie między stronami umowy akcjonariuszy | art. 300³⁹ § 1, art. 300¹ § 3 KSH; art. 57 § 2 KC **[Z]** | Przygotować `psa.tex` z umowy 2.5-S (jedna spółka, bez § 15 o spółce siostrzanej) i zachować numerację albo zaktualizować makro `\US` |
 | **W1** | SHA § 12 ust. 1 i 3 | Umowa zawarta na czas nieoznaczony, a jej wypowiedzenie wymaga zgody 75% głosów. Zobowiązanie bezterminowe o charakterze ciągłym wygasa po wypowiedzeniu przez każdą stronę. Wyłączenie tego prawa jest sprzeczne z naturą stosunku i grozi nieważnością postanowienia, a w sporze — uznaniem umowy za wypowiadalną w każdym czasie | art. 365¹, art. 353¹, art. 58 § 1 KC **[Z]** | Czas oznaczony (np. 10 lat z automatycznym przedłużeniem o 5 lat, chyba że strona wypowie na 12 miesięcy przed końcem) albo dopuszczenie wypowiedzenia z długim terminem; wygaśnięcie z chwilą utraty statusu akcjonariusza zostawić |
 | **W2** | Umowa nr 1 § 2 ust. 4 | Warunek rozwiązujący: zwrot praw, jeżeli Spółka nie zostanie wpisana w 12 miesięcy. Ustawowo umowa spółki ulega rozwiązaniu, gdy zgłoszenia nie złożono w 6 miesięcy albo odmowa wpisu jest prawomocna. Przy przewlekłym postępowaniu przed sądem rejestrowym (wniosek złożony w terminie, wpis po 12 miesiącach) prawa wróciłyby do Założyciela, a Spółka zostałaby wpisana z niewniesionym wkładem | art. 300¹³ § 1 w zw. z art. 169 § 1 KSH; art. 89 KC **[Z]** | Powiązać warunek z rozwiązaniem umowy spółki na podstawie art. 169 § 1 w zw. z art. 300¹³ § 1 KSH (brak zgłoszenia w 6 miesięcy albo prawomocna odmowa wpisu) |
 | **W3** | Umowa nr 1, komparycja; wprowadzenie | Spółkę w organizacji reprezentuje zarząd, czyli rada dyrektorów, a do jej ustanowienia — pełnomocnik powołany **jednomyślną** uchwałą akcjonariuszy. Pełnomocnik z art. 300⁷⁹ § 1 jest wymagany tylko przy umowie z dyrektorem. Wzór przewiduje zawsze „pełnomocnika z art. 300⁷⁹ § 1” — przy Założycielu niebędącym dyrektorem to podstawa niewłaściwa | art. 300¹¹ § 2, art. 300⁷⁹ § 1, art. 4 § 2¹ KSH **[Z]** | Komparycja wariantowa: (a) Założyciel-dyrektor — pełnomocnik z uchwały akcjonariuszy (art. 300⁷⁹ § 1), niebędący stroną umowy; (b) pozostali — dwóch dyrektorów (§ 11 ust. 1 umowy spółki); (c) przed powołaniem Rady — pełnomocnik z jednomyślnej uchwały (art. 300¹¹ § 2) |
@@ -27,7 +27,7 @@
 | **Ś4** | SHA § 8 | Zakaz konkurencji po odejściu bez odszkodowania wobec osoby niebędącej pracownikiem. Co do zasady dopuszczalny, ale sąd może go ocenić jako nadmierny. Obecny zakres jest umiarkowany: 12 miesięcy, faktyczny przedmiot działalności, zwolnienie przy odejściu uzasadnionym bez zwolnienia akcji | art. 353¹, art. 58 § 2 KC **[Z]**; ocena **[W]** | Zostawić; dla wzmocnienia rozważyć umiarkowane odszkodowanie albo jego zastąpienie zwolnieniem akcji. Pracownicy — osobna umowa z odszkodowaniem (art. 101² KP **[Z]**), co § 8 ust. 4 już przewiduje |
 | **N1** | Umowa nr 1 § 2, Umowa nr 2 § 2 (lista pól) | „Udzielanie licencji i sublicencji oraz zbywanie praw” nie jest polem eksploatacji, lecz uprawnieniem nabywcy praw | art. 41 ust. 1 pkt 2, art. 50 pr. aut. **[Z]** | Przenieść do osobnego zdania: „Spółka może udzielać licencji i przenosić nabyte prawa bez zgody Twórcy” |
 | **N2** | Umowa nr 1 § 3 ust. 2, Umowa nr 2 § 3 ust. 2 | Upoważnienie do decydowania o pierwszym udostępnieniu i nadzoru — dla programów komputerowych te prawa osobiste nie istnieją | art. 77 ust. 1 w zw. z art. 16 pkt 3–5 pr. aut. **[Z]** | Dodać „w zakresie utworów niebędących programami komputerowymi” |
-| **N3** | SHA § 11 ust. 2 | Impas odsyła do § 13 ust. 1 lit. j umowy spółki (Umowa o Współpracy ze Spółką Siostrzaną) — w Aurelian bez spółki siostrzanej ta litera nie ma treści | — | Odesłać do lit. b i h albo do listy spraw w umowie spółki Aurelian |
+| **N3** | SHA § 11 ust. 2 | Impas odsyła do § 13 ust. 1 lit. j umowy spółki (Umowa o Współpracy ze Spółką Siostrzaną) — w Basilisk Systems bez spółki siostrzanej ta litera nie ma treści | — | Odesłać do lit. b i h albo do listy spraw w umowie spółki Basilisk Systems |
 | **N4** | Umowa nr 2, wprowadzenie | Wzór nie jest przeznaczony dla pracowników: prawa do programu pracownika przysługują pracodawcy z mocy ustawy, a do innych utworów — z chwilą przyjęcia | art. 12, art. 74 ust. 3 pr. aut. **[Z]** | Dopisać we wprowadzeniu; dla pracowników — klauzula IP w umowie o pracę (pola eksploatacji, prawa zależne, potwierdzenia) |
 | **N5** | oba dokumenty | Dane osobowe (PESEL, adresy) bez klauzuli informacyjnej | RODO art. 13 **[W]** | Krótka klauzula informacyjna Spółki jako administratora |
 
@@ -62,7 +62,7 @@
 
 ## 3. Kolejność prac
 
-1. **K1:** umowa spółki Aurelian na bazie 2.5-S (bez § 15), z Załącznikiem nr 1 B1/B2.
+1. **K1:** umowa spółki Basilisk Systems na bazie 2.5-S (bez § 15), z Załącznikiem nr 1 B1/B2.
 2. **W1–W3:** czas trwania umowy akcjonariuszy, warunek z art. 169 KSH w Umowie nr 1, komparycja wariantowa Umowy nr 1.
 3. **Ś1–Ś3:** pożyczki od dyrektorów, przebudowa oferty na zobowiązanie wobec Spółki (art. 393 KC), zmiany umowy za zgodą wszystkich.
 4. **N1–N5:** poprawki redakcyjne.
@@ -74,7 +74,7 @@
 
 | ID | Status | Co zmieniono | Gdzie |
 |--|--|------------|----|
-| **K1** | usunięte | Nowa umowa spółki `aurelian.tex` (wersja 1.0-S) z wariantu 2.5-S: firma Aurelian, siedziba do uzupełnienia, przedmiot działalności łączący ląd, powietrze i morze, 10 kodów PKD przy pierwszym wpisie i 5 dalszych, bez § 15 o spółce siostrzanej i bez § 13 ust. 1 lit. j. Numeracja § 1–14 bez zmian, więc odesłania `\US` pozostają poprawne | `aurelian.tex` |
+| **K1** | usunięte | Nowa umowa spółki `psa.tex` (wersja 1.0-S) z wariantu 2.5-S: firma Basilisk Systems, siedziba do uzupełnienia, przedmiot działalności łączący ląd, powietrze i morze, 10 kodów PKD przy pierwszym wpisie i 5 dalszych, bez § 15 o spółce siostrzanej i bez § 13 ust. 1 lit. j. Numeracja § 1–14 bez zmian, więc odesłania `\US` pozostają poprawne | `psa.tex` |
 | **W1** | usunięte | Czas oznaczony 10 lat z przedłużeniem o 5 lat, chyba że strona odmówi na 12 miesięcy przed końcem; wcześniejsze wypowiedzenie tylko z ważnych powodów, bez zwolnienia z obowiązków z umowy spółki, poufności i zakazu konkurencji | SHA § 12 ust. 1 i 3 |
 | **W2** | usunięte | Zwrot praw wyłącznie przy rozwiązaniu umowy spółki z art. 169 § 1 w zw. z art. 300¹³ § 1 KSH | Umowa nr 1 § 2 ust. 4 |
 | **W3** | usunięte | Komparycja wariantowa (pełnomocnik z art. 300⁷⁹ § 1 / dwóch dyrektorów / pełnomocnik z art. 300¹¹ § 2), także w podpisach i protokole wydania | Umowa nr 1, wprowadzenie, Załącznik 1.3 |
@@ -85,10 +85,10 @@
 | **N1** | usunięte | Udzielanie licencji i zbywanie praw przeniesione z listy pól eksploatacji do osobnego zdania | makro `\PolaEksploatacji` |
 | **N2** | usunięte | Upoważnienie do pierwszego udostępnienia i nadzoru ograniczone do utworów niebędących programami | Umowa nr 1 i 2, § 3 ust. 2 |
 | **N3** | usunięte | Impas odsyła do § 13 ust. 1 lit. b albo h | SHA § 11 ust. 2 |
-| **N4** | usunięte | We wprowadzeniu: wzór nr 2 nie dotyczy pracowników (art. 12, art. 74 ust. 3 pr. aut.) | `aurelian_ip.tex`, wprowadzenie |
+| **N4** | usunięte | We wprowadzeniu: wzór nr 2 nie dotyczy pracowników (art. 12, art. 74 ust. 3 pr. aut.) | `basilisk_ip.tex`, wprowadzenie |
 | **N5** | usunięte | Podstawa przetwarzania danych (RODO) w postanowieniach końcowych | SHA § 13, Umowa nr 1 § 6, Umowa nr 2 § 8 |
 
-**Kontrola techniczna:** `aurelian.tex` (24 strony), `aurelian_sha.tex` i `aurelian_ip.tex` (po 13 stron) się kompilują; nierozwiązanych odwołań i przepełnionych wierszy: 0. Wszystkie odesłania `\US{n}` (§ 4, 5, 9, 11, 13, 14) wskazują właściwe paragrafy `aurelian.tex`.
+**Kontrola techniczna:** `psa.tex` (24 strony), `basilisk_sha.tex` i `basilisk_ip.tex` (po 13 stron) się kompilują; nierozwiązanych odwołań i przepełnionych wierszy: 0. Wszystkie odesłania `\US{n}` (§ 4, 5, 9, 11, 13, 14) wskazują właściwe paragrafy `psa.tex`.
 
-**Założenia do potwierdzenia:** przedmiot działalności Aurelian (ląd, powietrze i morze w jednej spółce), siedziba, skład i udziały Założycieli (tabela 50/20/10/10/10 przejęta z wariantu 2.5-S).
+**Założenia do potwierdzenia:** przedmiot działalności Basilisk Systems (ląd, powietrze i morze w jednej spółce), siedziba, skład i udziały Założycieli (tabela 50/20/10/10/10 przejęta z wariantu 2.5-S).
 

@@ -12,7 +12,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-docs=(psa appolonia psa_en appolonia_en aurelian aurelian_sha aurelian_ip extra psa_feedback shareholder_agreement uchwaly memorandum)
+docs=(psa appolonia appolonia_en basilisk_sha basilisk_ip extra psa_feedback shareholder_agreement uchwaly memorandum)
 if [ $# -gt 0 ]; then
   docs=(psa)
   for d in "$@"; do [ "$d" != psa ] && docs+=("${d%.tex}"); done
