@@ -3,6 +3,7 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
 \usepackage{basilisk_i18n}
 \usepackage{lmodern}
 \usepackage{microtype}
@@ -20,7 +21,7 @@
 \BusinessPlanAuthorsText{Aurelian --- projekt umowy akcjonariuszy}
 \BusinessPlanConfidentialText{Projekt umowy akcjonariuszy --- poufne}
 \BusinessPlanFooterText{Aurelian --- umowa akcjonariuszy (projekt)}
-\BusinessPlanVersionText{Wersja 1.1 --- projekt}
+\BusinessPlanVersionText{Wersja 1.2 --- projekt}
 
 \setstretch{1.18}
 \setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
@@ -49,6 +50,7 @@
 \newcommand{\CompanyShort}{Aurelian P.S.A.}
 % Odesłanie do paragrafu umowy spółki (numeracja aurelian.tex)
 \newcommand{\US}[1]{§~#1 Umowy Spółki}
+\newcommand{\USen}[1]{\S~#1 of the Articles}
 
 \hypersetup{
   pdftitle={Aurelian P.S.A. --- projekt umowy akcjonariuszy},
@@ -59,11 +61,11 @@
 
 \BusinessPlanTitlePage
   {Aurelian}
-  {Wersja 1.1 --- projekt}
+  {Wersja 1.2 --- projekt}
   {Umowa akcjonariuszy}
   {Projekt umowy akcjonariuszy Aurelian P.S.A.}
   {Zaangażowanie, vesting, własność intelektualna, poufność}
-  {1.1}
+  {1.2}
 
 \tableofcontents
 \newpage
@@ -81,7 +83,7 @@
 zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
 
 \begin{center}
-\begin{tabularx}{\textwidth}{>{\bfseries}p{1.6cm} >{\raggedright\arraybackslash}X p{3.2cm}}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{1.6cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{3.2cm}}
 \toprule
 Strona & Dane identyfikacyjne & Akcje serii A \\
 \midrule
@@ -249,6 +251,7 @@ E & \field{rola} & \field{godz./tydz. albo etat} & \field{umowa o pracę / B2B /
   \item Prawem właściwym jest prawo polskie. Jeżeli postanowienie umowy jest nieważne albo niewykonalne, pozostałe zachowują moc, a Strony zastąpią je postanowieniem najbliższym jego celowi gospodarczemu.
   \item Umowę sporządzono w \field{liczba} jednobrzmiących egzemplarzach, po jednym dla każdej Strony; dopuszcza się zawarcie umowy przy użyciu kwalifikowanych podpisów elektronicznych. Załączniki A--C stanowią jej integralną część.
   \item Spółka jest administratorem danych osobowych Stron i przetwarza je w celu wykonania niniejszej umowy oraz prowadzenia dokumentacji korporacyjnej (art.~6 ust.~1 lit.~b i~c RODO); pozostałe informacje wymagane przez art.~13 RODO Spółka przekazuje Stronom przy zawarciu umowy.
+  \item Umowę sporządzono w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska.
 \end{enumerate}
 \end{ContractClause}
 
@@ -306,5 +309,253 @@ Ja, \field{imię, nazwisko albo firma, PESEL albo KRS, adres, adres e-mail}, w z
 Jeżeli nabywane akcje są Akcjami Objętymi, składam jednocześnie ofertę i udzielam pełnomocnictwa według wzorów z Załączników A i~B.
 
 \field{podpis}
+
+
+% ============================================================== ENGLISH VERSION
+\newpage
+\selectlanguage{english}
+\setcounter{paragraf}{0}
+
+\chapter*{Shareholders' Agreement --- English Version}
+\addcontentsline{toc}{chapter}{Shareholders' Agreement --- English Version}
+
+\begin{center}
+{\Large\bfseries SHAREHOLDERS' AGREEMENT}\par
+\vspace{0.25cm}
+{\LARGE\bfseries \CompanyFull}\par
+\vspace{0.6cm}
+\end{center}
+
+made on \field{date} in \field{town} between:
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{1.6cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{3.2cm}}
+\toprule
+Party & Identification details & Series A shares \\
+\midrule
+A & \field{name, surname, PESEL, address, e-mail} & \field{number, numbers} \\
+B & \field{name, surname, PESEL, address, e-mail} & \field{number, numbers} \\
+C & \field{name, surname, PESEL, address, e-mail} & \field{number, numbers} \\
+D & \field{name, surname, PESEL, address, e-mail} & \field{number, numbers} \\
+E & \field{name, surname, PESEL, address, e-mail} & \field{number, numbers} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+(collectively the ``Founders'' and each a ``Founder''), and
+
+\textbf{\CompanyFull} (a simple joint-stock company) with its registered office in \field{town}, entered in the register of entrepreneurs of the National Court Register under KRS number \field{number} (until its entry --- as a company in organisation), represented in accordance with \USen{11} and, to the extent this agreement concerns Founders who are directors, by an attorney appointed by a shareholders' resolution in accordance with Article~300$^{79}$ \S~1 KSH (the ``Company'').
+
+The Parties enter into this agreement in order to organise the cooperation of the Founders in matters that do not belong in the articles of association: the scope of involvement, the performance of the share transfer obligation, intellectual property, confidentiality and non-competition. This agreement does not introduce preference rights, tag-along or drag-along rights or any other investor mechanisms.
+
+\begin{ContractClause}{Definitions and Relationship with the Articles}
+\label{shaen:definicje}
+\begin{enumerate}
+  \item ``Articles'' means the articles of association of \CompanyFull{} as in force from time to time. Capitalised terms not defined in this agreement have the meaning given to them in the Articles, in particular: Original Founder, Series~F Functional Founder, Functional Shareholder, Series~F Grant Date, Board of Directors and General Meeting.
+  \item ``Covered Shares'' means the shares of a Functional Shareholder subject to the transfer obligation under \USen{9}, and ``Unreleased Shares'' means the Covered Shares which at a given time have not been released from that obligation in accordance with \USen{9}(2).
+  \item ``Cessation Date'' means the day on which the permanent, personal operational involvement of a Functional Shareholder in the development of the Company ceased, as determined in accordance with \S~\ref{shaen:ustanie}.
+  \item This agreement binds the Parties as a mutual obligation. It does not amend the Articles and does not bind persons who have not acceded to it. In the event of a conflict between this agreement and the Articles, the Articles prevail in relations with the Company, and the Parties undertake to vote in favour of an amendment to the Articles removing the conflict in the manner closest to the purpose of this agreement.
+  \item This agreement constitutes the implementing agreement referred to in \USen{9}(6) and the agreement referred to in \USen{14}(1), to the extent that no separate agreements have been concluded.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Accession of New Shareholders}
+\label{shaen:przystapienie}
+\begin{enumerate}
+  \item A Founder disposes of shares only to a person who, before the disposal, accedes to this agreement by making a declaration in the form set out in Schedule~C. This obligation does not apply to a sale in enforcement proceedings or to an acquirer in respect of whom the General Meeting, by a majority of 75\% of all votes, releases the transferor from it.
+  \item A Series~F Functional Founder and a person subscribing for Series~F shares accede to this agreement no later than on the date of the share subscription agreement. This agreement does not apply to participants in the incentive plan (Series~P); their obligations are set out in the plan rules and the participation agreement.
+  \item The acceding person acquires the rights and obligations of a Party to the extent specified in the declaration of accession. An acquirer of Covered Shares assumes the obligations attached to those shares to the extent they were borne by the transferor, including by making the offer and granting the power of attorney in the forms set out in Schedules~A and~B.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Founders' Involvement}
+\label{shaen:zaangazowanie}
+\begin{enumerate}
+  \item The Founders designated in Annex~1 to the Articles as committed to permanent, personal operational involvement assume the following roles and devote to the Company at least the following time:
+\end{enumerate}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{2.1cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{3.2cm} >{\raggedright\arraybackslash}p{2.9cm}}
+\toprule
+Founder & Role and area of responsibility & Minimum scope & Legal basis \\
+\midrule
+A & \field{role} & \field{hours/week or full-time} & \field{employment / B2B / appointment} \\
+B & \field{role} & \field{hours/week or full-time} & \field{employment / B2B / appointment} \\
+C & \field{role} & \field{hours/week or full-time} & \field{employment / B2B / appointment} \\
+D & \field{role} & \field{hours/week or full-time} & \field{employment / B2B / appointment} \\
+E & \field{role} & \field{hours/week or full-time} & \field{employment / B2B / appointment} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{enumerate}[resume]
+  \item The involvement is performed under an employment contract, a services agreement or the office of a director. The Founders' remuneration is set by the Board of Directors in the budget, and the directors' remuneration --- by a shareholders' resolution. Until financing is raised, the Founders may act without remuneration or for reduced remuneration; this does not give rise to claims for compensation.
+  \item A change of role or of the scope of involvement requires the consent of the Board of Directors and of the Founder concerned. Reducing the scope below half of the minimum set out in section~1 for more than 3 months without the consent of the Board of Directors constitutes a cessation of involvement.
+  \item Other professional activity of a Founder is permitted if it does not breach the minimum scope of involvement, the non-compete obligation (\USen{14}(5)) or the confidentiality obligation.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Cessation of Involvement and Type of Departure}
+\label{shaen:ustanie}
+\begin{enumerate}
+  \item The involvement of a Functional Shareholder ceases in particular on the date of:
+  \begin{enumerate}[label=\alph*)]
+    \item termination or expiry of the legal relationship under which the involvement is performed, unless within 30 days it is replaced by another relationship covering at least the minimum scope set out in \S~\ref{shaen:zaangazowanie}(1);
+    \item the Functional Shareholder's declaration that the involvement has ended;
+    \item fulfilment of the condition set out in \S~\ref{shaen:zaangazowanie}(3);
+    \item death or a ruling of permanent incapacity for work.
+  \end{enumerate}
+  \item The cessation of involvement is determined by the Board of Directors by a resolution adopted without the participation of the person concerned, within 30 days of the date on which it learned of the event. The resolution specifies the Cessation Date and the number of Unreleased Shares calculated in accordance with \USen{9}(2) and is delivered to the Functional Shareholder by e-mail.
+  \item A departure is a ``Justified Departure'' if the involvement ceased as a result of death, permanent incapacity for work, termination of the legal relationship by the Company without a material reason attributable to the Functional Shareholder, or a departure agreed with the Board of Directors. Other departures are an ``Ordinary Departure''.
+  \item In the event of a Justified Departure, the Founders undertake to vote at the General Meeting in favour of releasing from the transfer obligation, under \USen{9}(5), the Unreleased Shares that would have been released within 12 months of the Cessation Date and, in the event of death or permanent incapacity for work --- all Unreleased Shares.
+  \item The Functional Shareholder may challenge the resolution of the Board of Directors within 14 days of its delivery by requesting resolution of the dispute under \S~\ref{shaen:spory}. Until the dispute is resolved, the Company does not exercise the power of attorney referred to in \S~\ref{shaen:wykonanie}(3), unless less than 30 days remain until the expiry of the time limit set out in \USen{9}(4).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Performance of the Share Transfer Obligation}
+\label{shaen:wykonanie}
+\begin{enumerate}
+  \item The Functional Shareholder undertakes towards the Company to transfer the Unreleased Shares to the acquirer designated in accordance with \USen{9}(4), within the time limits set out therein (Article~393 of the Civil Code); the acquirer may demand the conclusion of the transfer agreement directly from the Functional Shareholder. To secure the performance of this obligation, the Functional Shareholder additionally makes, on the date of this agreement or, in the case of Series~F shares, on the date of the share subscription agreement, an irrevocable offer to transfer the Covered Shares in the form set out in Schedule~A and grants the power of attorney referred to in section~3.
+  \item The price per Unreleased Share is equal to its issue price. The Parties confirm that this price results from the Articles and from the mechanism of gradual release of shares, adopted upon formation of the Company as a condition of the subscription for shares by all Founders, and not from an assessment of the market value of the shares.
+  \item The Functional Shareholder grants the Company and each non-executive director, with the right to grant further powers of attorney, a power of attorney in the form set out in Schedule~B to conclude on the Functional Shareholder's behalf the agreement transferring the Unreleased Shares to the acquirer designated in accordance with \USen{9}(4) and to issue the instruction for the entry of the acquirer in the register of shareholders. The power of attorney is irrevocable, as it serves the performance of an obligation arising from the Articles and this agreement (Article~101 \S~1 of the Civil Code), and does not expire upon the principal's death. The power of attorney may be exercised only after the cessation of involvement has been determined in accordance with \S~\ref{shaen:ustanie} and only in respect of the Unreleased Shares.
+  \item The acquirer pays the price within 14 days of the conclusion of the transfer agreement to the Functional Shareholder's bank account specified in the offer or, in the absence of such an account, into a court deposit. The transfer is made in documentary form (Article~300$^{36}$ \S~4 KSH), and the acquisition takes place upon the entry of the acquirer in the register of shareholders (Article~300$^{37}$ \S~1 KSH).
+  \item The Company is not the acquirer of the Unreleased Shares and does not finance their acquisition. If the transfer obligation expires in accordance with \USen{9}(4), the Company promptly reports this to the register of shareholders, and the offer and the power of attorney expire to that extent.
+  \item The Functional Shareholder does not encumber the Unreleased Shares and does not perform any acts hindering the performance of the transfer obligation.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Intellectual Property}
+\label{shaen:ip}
+\begin{enumerate}
+  \item Each Founder who makes a non-cash contribution to the Company in the form of intellectual property rights enters into an agreement transferring those rights with the Company in organisation, no later than on the date of execution of the Articles, in the form of Agreement No.~1 set out in the document ``Agreements on the transfer of author's economic rights --- Aurelian P.S.A.'', and hands over to the Company the data carriers, repositories and documentation.
+  \item Each Founder enters into an agreement with the Company, no later than on the date on which the involvement commences, transferring the rights to works created for the Company, in the form of Agreement No.~2 set out in that document, unless those rights pass to the Company by operation of law or under an employment contract containing provisions no less favourable to the Company.
+  \item Each Founder represents that, to the best of their knowledge: (a)~the rights contributed to the Company do not belong to their current or former employer, university or client; (b)~they have disclosed to the Board of Directors all third-party rights known to them, including open-source licences used in the contributed works; (c)~they have not undertaken any obligation towards third parties that would prevent the transfer of the rights.
+  \item A Founder's technology not contributed to the Company is subject to the licence and obligations set out in \USen{14}(2). The Founder discloses it to the Board of Directors in writing within 30 days of the conclusion of this agreement.
+  \item The Founders cooperate in determining which contributions are listed in Part~B1 and which in Part~B2 of Annex~1 to the Articles, and each of them bears the tax consequences of their own contribution. The Company makes available to the Founders the documents needed for tax settlement and for an application for an individual tax ruling.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Confidentiality}
+\label{shaen:poufnosc}
+\begin{enumerate}
+  \item The Parties keep confidential the content of this agreement and the information concerning the Company, its technology, customers, financing and shareholders obtained in connection with this agreement or with holding shares in the Company.
+  \item The confidentiality obligation does not apply to information: (a)~publicly available without a breach of this agreement; (b)~disclosed to advisers bound by a confidentiality obligation, or to prospective investors and acquirers of shares who have undertaken to keep it confidential; (c)~whose disclosure is required by law or by a public authority, after prior notice to the Company where permitted.
+  \item The confidentiality obligation lasts for 5 years from the date on which a Party ceased to be a shareholder of the Company and, with respect to business secrets within the meaning of the Act on Combating Unfair Competition --- for as long as the information retains that character.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Non-Competition and Non-Solicitation}
+\label{shaen:konkurencja}
+\begin{enumerate}
+  \item During the period of involvement and for 12 months from the Cessation Date, the Functional Shareholder does not engage in activities competing with the Company within the scope of the business actually conducted by the Company on the Cessation Date and does not participate in an entity conducting such activities, except for portfolio investments not exceeding a 5\% interest.
+  \item During the period specified in section~1, the Functional Shareholder does not induce employees or collaborators of the Company to terminate their cooperation with the Company and does not engage them directly or indirectly, and does not induce customers or partners of the Company to reduce their cooperation with it.
+  \item The Board of Directors may, by a resolution adopted without the participation of the person concerned, release the Functional Shareholder from the restriction in whole or in part. The restriction in section~1 does not apply after the Cessation Date in the event of a Justified Departure if the Company has not released the shares as referred to in \S~\ref{shaen:ustanie}(4).
+  \item To the extent the Functional Shareholder is an employee of the Company, a post-employment non-compete requires a separate agreement providing for compensation in accordance with Article~101$^{2}$ of the Labour Code; this \S{} then applies to the extent it does not conflict with that agreement.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Contractual Penalties}
+\label{shaen:kary}
+\begin{enumerate}
+  \item For each breach of \S~\ref{shaen:wykonanie}(6), \S~\ref{shaen:poufnosc} or \S~\ref{shaen:konkurencja}, the Party in breach pays the Company a contractual penalty of PLN \field{amount} and, in the case of a continuing breach, an additional PLN \field{amount} for each full month of its duration, in total not more than PLN \field{amount}.
+  \item Payment of the penalty does not exclude claims for damages exceeding its amount or claims for cessation of the breach.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Financing and Subsequent Rounds}
+\label{shaen:finansowanie}
+\begin{enumerate}
+  \item The Founders seek to finance the Company primarily through grants, revenue and share issues within the caps set out in \USen{5}. No Founder is obliged to make additional payments or to grant loans to the Company.
+  \item A loan granted to the Company by a Founder requires a resolution of the Board of Directors and is granted on market terms in written form. If the lender is a director, the loan agreement is concluded on behalf of the Company by an attorney appointed by a shareholders' resolution (Article~300$^{79}$ \S~1 KSH, \USen{11}(3)).
+  \item Before an investor is admitted, the Founders agree on a draft amendment to the Articles creating an investor series (\USen{5}(4)) and on the amendments to this agreement required by the investor. No Founder is obliged to consent to provisions that worsen their position relative to other Founders of the same series.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Disputes and Deadlock}
+\label{shaen:spory}
+\begin{enumerate}
+  \item The Parties resolve disputes in good faith through negotiation. If a dispute is not resolved within 30 days of a request, the Parties submit it to mediation conducted by \field{mediation centre}.
+  \item If the General Meeting twice, at an interval of at least 30 days, fails to adopt a resolution on a reserved matter under \USen{13}(1)(b) or~(h), and the matter is necessary for the continued operation of the Company, any Party may initiate mediation under section~1; the Parties participate in it in good faith.
+  \item If mediation fails, the dispute is resolved by the common court having jurisdiction over the Company's registered office. This provision does not limit the right to seek interim relief.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Term}
+\label{shaen:czas}
+\begin{enumerate}
+  \item This agreement is concluded for a fixed term of 10 years from the date of its conclusion and is extended for further 5-year periods, unless a Party declares to the other Parties, no later than 12 months before the end of the term, that it does not extend the agreement with respect to itself. The agreement binds a Party for as long as it is a shareholder of the Company; \S\S~\ref{shaen:poufnosc}--\ref{shaen:kary} and~\ref{shaen:spory} continue to bind it thereafter for the periods specified therein.
+  \item This agreement expires in its entirety upon the transfer of all shares in the Company to a single acquirer or to a group of acquirers acting in concert, upon a merger of the Company with another company in which the Company is not the acquiring company, or upon completion of the liquidation of the Company.
+  \item Before the end of the term referred to in section~1, a Party may terminate this agreement with respect to itself only for good cause, with effect at the end of the month following delivery of the notice of termination. Termination or non-extension of the agreement does not release the Party from the obligations attached to its shares under the Articles or from the obligations under \S\S~\ref{shaen:poufnosc}--\ref{shaen:kary}.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+\label{shaen:koncowe}
+\begin{enumerate}
+  \item Any amendment to this agreement requires written form on pain of nullity and the consent of all Parties. Amendments to the schedules and to addresses for notices, and the adjustment of references to an amendment of the Articles, require the consent of Parties representing at least 75\% of all votes in the Company, provided that they do not increase the obligations or limit the rights of any Party.
+  \item Notices are given by e-mail to the addresses specified in the heading of this agreement or in the declaration of accession and, in the absence of an address, by registered mail. A change of address takes effect upon notice to the other Parties.
+  \item This agreement is governed by Polish law. If a provision of this agreement is invalid or unenforceable, the remaining provisions remain in force, and the Parties will replace it with a provision that comes closest to its economic purpose.
+  \item This agreement has been executed in \field{number} identical counterparts, one for each Party; it may be concluded using qualified electronic signatures. Schedules~A--C form an integral part of it.
+  \item The Company is the controller of the Parties' personal data and processes them for the purpose of performing this agreement and keeping corporate records (Article~6(1)(b) and~(c) GDPR); the other information required by Article~13 GDPR is provided by the Company to the Parties upon conclusion of the agreement.
+  \item This agreement has been drawn up in Polish and English. In the event of any discrepancy, the Polish version prevails.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1cm}
+\begin{center}
+\begin{tabularx}{\textwidth}{XX}
+\field{signature of Founder A} & \field{signature of Founder B} \\[1.2cm]
+\field{signature of Founder C} & \field{signature of Founder D} \\[1.2cm]
+\field{signature of Founder E} & \field{for the Company: directors or attorney} \\
+\end{tabularx}
+\end{center}
+
+\newpage
+\section*{Schedule A --- Form of Irrevocable Offer to Transfer Shares}
+\addcontentsline{toc}{section}{Schedule A --- Form of Irrevocable Offer to Transfer Shares}
+
+\field{place, date}
+
+I, \field{name, surname, PESEL, address}, a shareholder of \CompanyFull{} (the ``Company''), acting under \USen{9} and \S~\ref{shaen:wykonanie} of the shareholders' agreement dated \field{date}, hereby make an irrevocable offer to transfer \field{number} Series~\field{series} shares in the Company numbered \field{from--to} (the ``Covered Shares'') on the following terms:
+
+\begin{enumerate}
+  \item The offer is addressed to the acquirer designated by the Board of Directors of the Company and, failing such designation, to the Original Founders, in accordance with \USen{9}(4).
+  \item The offer may be accepted only with respect to Unreleased Shares within the meaning of the shareholders' agreement, after the cessation of my involvement has been determined, within the time limits set out in \USen{9}(4).
+  \item The price per share is equal to its issue price and amounts to PLN \field{amount}; the price is payable within 14 days of acceptance of the offer to account no. \field{account number}.
+  \item The offer binds me and my legal successors until the day on which all Covered Shares have been released from the transfer obligation or the transfer obligation has expired.
+\end{enumerate}
+
+\field{signature}
+
+\newpage
+\section*{Schedule B --- Form of Power of Attorney}
+\addcontentsline{toc}{section}{Schedule B --- Form of Power of Attorney}
+
+\field{place, date}
+
+I, \field{name, surname, PESEL, address}, hereby grant \CompanyFull{} and each of its non-executive directors, with the right to grant further powers of attorney, a power of attorney to:
+
+\begin{enumerate}
+  \item conclude on my behalf an agreement transferring the Unreleased Shares, in the number determined by a resolution of the Board of Directors adopted in accordance with \S~\ref{shaen:ustanie} of the shareholders' agreement dated \field{date}, to the acquirer designated in accordance with \USen{9}(4), at a price equal to the issue price;
+  \item issue the instruction for the entry of the acquirer in the register of shareholders and perform any other acts necessary to transfer those shares.
+\end{enumerate}
+
+This power of attorney is irrevocable, as it serves the performance of an obligation arising from the articles of association and the shareholders' agreement (Article~101 \S~1 of the Civil Code), does not expire upon my death and may be exercised only in the case and in the procedure set out in \S~\ref{shaen:wykonanie} of the shareholders' agreement. The attorney may be the other party to the transfer agreement or represent both parties.
+
+\field{signature}
+
+\newpage
+\section*{Schedule C --- Form of Declaration of Accession}
+\addcontentsline{toc}{section}{Schedule C --- Form of Declaration of Accession}
+
+\field{place, date}
+
+I, \field{name, surname or business name, PESEL or KRS, address, e-mail}, in connection with the \field{acquisition / subscription} of \field{number} Series~\field{series} shares in \CompanyFull{} numbered \field{from--to}, declare that I accede to the shareholders' agreement dated \field{date}, the content of which I have received, and assume the rights and obligations arising from it \field{in full / to the following extent: \ldots}.
+
+If the shares acquired are Covered Shares, I simultaneously make the offer and grant the power of attorney in the forms set out in Schedules~A and~B.
+
+\field{signature}
+
+\selectlanguage{polish}
 
 \end{document}

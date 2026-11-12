@@ -4,6 +4,7 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
 \usepackage{basilisk_i18n}
 \usepackage{lmodern}
 \usepackage{microtype}
@@ -21,7 +22,7 @@
 \BusinessPlanAuthorsText{Aurelian --- wzory umów przeniesienia praw autorskich}
 \BusinessPlanConfidentialText{Projekty umów --- poufne}
 \BusinessPlanFooterText{Aurelian --- umowy przeniesienia praw autorskich (projekt)}
-\BusinessPlanVersionText{Wersja 1.1 --- projekt}
+\BusinessPlanVersionText{Wersja 1.2 --- projekt}
 
 \setstretch{1.18}
 \setlist[itemize]{topsep=0.2em,itemsep=0.15em,parsep=0.1em,leftmargin=2.0em}
@@ -49,6 +50,7 @@
 \newcommand{\CompanyFull}{Aurelian prosta spółka akcyjna}
 \newcommand{\CompanyShort}{Aurelian P.S.A.}
 \newcommand{\US}[1]{§~#1 Umowy Spółki}
+\newcommand{\USen}[1]{\S~#1 of the Articles}
 
 % Wspólna lista pól eksploatacji (art. 50 i art. 74 ust. 4 prawa autorskiego)
 \newcommand{\PolaEksploatacji}{%
@@ -63,6 +65,19 @@
   Spółka może udzielać licencji i sublicencji w zakresie tych pól oraz przenosić nabyte prawa bez zgody twórcy.%
 }
 
+% Fields of exploitation (English version)
+\newcommand{\FieldsEN}{%
+  \begin{enumerate}[label=\alph*)]
+    \item permanent and temporary reproduction in whole or in part, by any means and in any form, including to the extent that the loading, displaying, running, transmission and storage of a computer program require its reproduction;
+    \item translation, adaptation, rearrangement and any other alteration, including further development, compilation, decompilation and integration with other software;
+    \item distribution, including placing on the market, lending and rental of the original or copies;
+    \item making available to the public in such a way that anyone may access the work at a place and time of their choosing, including making available as a service (SaaS) and through application programming interfaces;
+    \item entering into computer memory and networks, and use in devices, embedded systems and unmanned vehicles;
+    \item use for training, testing and validation of machine-learning models.
+  \end{enumerate}%
+  The Company may grant licences and sublicences in these fields and transfer the acquired rights without the author's consent.%
+}
+
 \hypersetup{
   pdftitle={Aurelian P.S.A. --- umowy przeniesienia autorskich praw majątkowych},
   pdfauthor={Aurelian --- projekty umów}
@@ -72,11 +87,11 @@
 
 \BusinessPlanTitlePage
   {Aurelian}
-  {Wersja 1.1 --- projekt}
+  {Wersja 1.2 --- projekt}
   {Umowy przeniesienia praw autorskich}
   {Wzory umów dla Aurelian P.S.A.}
   {Aport praw przy zawiązaniu Spółki i utwory tworzone dla Spółki}
-  {1.1}
+  {1.2}
 
 \tableofcontents
 \newpage
@@ -91,7 +106,7 @@ Dokument zawiera dwa wzory umów wykonujących \US{4} ust.~6 i \US{14} ust.~1:
   \item \textbf{Umowa nr~2} --- przeniesienie praw do utworów tworzonych dla Spółki w ramach zadań (Założyciel, dyrektor, współpracownik B2B), z kwartalnym potwierdzeniem wykazu utworów. Wzór nie dotyczy pracowników: prawa do programu stworzonego przez pracownika przysługują Spółce z mocy ustawy (art.~74 ust.~3), a do innych utworów --- z chwilą ich przyjęcia (art.~12 ustawy o prawie autorskim i prawach pokrewnych); w umowie o pracę wystarczą postanowienia o polach eksploatacji, prawach zależnych i potwierdzeniach.
 \end{itemize}
 
-Jeżeli Założyciel albo współpracownik jest dyrektorem Spółki, umowę po stronie Spółki podpisuje pełnomocnik powołany uchwałą akcjonariuszy (art.~300$^{79}$ §~1 KSH, \US{11} ust.~3), który nie może być stroną tej umowy. Przed powołaniem Rady Dyrektorów Spółkę w organizacji reprezentuje pełnomocnik powołany jednomyślną uchwałą akcjonariuszy (art.~300$^{11}$ §~2 KSH). Obie umowy wymagają formy pisemnej pod rygorem nieważności (art.~53 ustawy o prawie autorskim i prawach pokrewnych); dopuszczalny jest kwalifikowany podpis elektroniczny.
+Jeżeli Założyciel albo współpracownik jest dyrektorem Spółki, umowę po stronie Spółki podpisuje pełnomocnik powołany uchwałą akcjonariuszy (art.~300$^{79}$ §~1 KSH, \US{11} ust.~3), który nie może być stroną tej umowy. Przed powołaniem Rady Dyrektorów Spółkę w organizacji reprezentuje pełnomocnik powołany jednomyślną uchwałą akcjonariuszy (art.~300$^{11}$ §~2 KSH). Obie umowy wymagają formy pisemnej pod rygorem nieważności (art.~53 ustawy o prawie autorskim i prawach pokrewnych); dopuszczalny jest kwalifikowany podpis elektroniczny. Każdą umowę sporządza się w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska.
 
 % ============================================================== UMOWA NR 1
 \chapter*{Umowa nr 1 --- przeniesienie praw stanowiących wkład niepieniężny}
@@ -174,6 +189,7 @@ zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
   \item Zmiana umowy wymaga formy pisemnej pod rygorem nieważności. W sprawach nieuregulowanych stosuje się Umowę Spółki, ustawę o prawie autorskim i prawach pokrewnych oraz Kodeks cywilny.
   \item Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki.
   \item Załączniki 1.1--1.3 stanowią integralną część umowy. Spółka przetwarza dane osobowe Założyciela w celu wykonania umowy (art.~6 ust.~1 lit.~b RODO).
+  \item Umowę sporządzono w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska.
 \end{enumerate}
 \end{ContractClause}
 
@@ -311,6 +327,7 @@ zawarta w dniu \field{data} w \field{miejscowość} pomiędzy:
   \item Obowiązek przeniesienia praw podlega wykonaniu w naturze, w tym przez orzeczenie zastępujące oświadczenie woli Twórcy (art.~64 Kodeksu cywilnego).
   \item Zmiana umowy wymaga formy pisemnej pod rygorem nieważności. Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki.
   \item Załącznik~2.1 stanowi integralną część umowy. Spółka przetwarza dane osobowe Twórcy w celu wykonania umowy (art.~6 ust.~1 lit.~b RODO).
+  \item Umowę sporządzono w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska.
 \end{enumerate}
 \end{ContractClause}
 
@@ -341,5 +358,275 @@ Działając na podstawie §~\ref{u2:potwierdzenia} umowy z dnia \field{data}, Tw
 \end{center}
 
 \field{podpis Twórcy} \hfill \field{za Spółkę}
+
+
+% ============================================================== ENGLISH VERSION
+\newpage
+\selectlanguage{english}
+
+\chapter*{English Version --- Introduction}
+\addcontentsline{toc}{chapter}{English Version --- Introduction}
+
+This document contains two forms of agreement implementing \USen{4}(6) and \USen{14}(1):
+
+\begin{itemize}
+  \item \textbf{Agreement No.~1} --- transfer of author's economic rights constituting a Founder's non-cash contribution (contribution in kind), concluded with the Company in organisation no later than on the date of execution of the Articles. One agreement for each contribution listed in Part~B1 or B2 of Annex~1 to the Articles; all co-authors sign it.
+  \item \textbf{Agreement No.~2} --- transfer of rights to works created for the Company in the performance of tasks (Founder, director, B2B collaborator), with a quarterly confirmation of the list of works. This form does not apply to employees: the rights to a computer program created by an employee belong to the Company by operation of law (Article~74(3)), and the rights to other works --- upon their acceptance (Article~12 of the Act on Copyright and Related Rights); in an employment contract, provisions on fields of exploitation, derivative rights and confirmations are sufficient.
+\end{itemize}
+
+If a Founder or collaborator is a director of the Company, the agreement is signed on behalf of the Company by an attorney appointed by a shareholders' resolution (Article~300$^{79}$ \S~1 KSH, \USen{11}(3)), who may not be a party to that agreement. Before the Board of Directors is appointed, the Company in organisation is represented by an attorney appointed by a unanimous shareholders' resolution (Article~300$^{11}$ \S~2 KSH). Both agreements require written form on pain of nullity (Article~53 of the Act on Copyright and Related Rights); a qualified electronic signature is permitted. Each agreement is drawn up in Polish and English; in the event of any discrepancy, the Polish version prevails.
+
+% ------------------------------------------------------------- AGREEMENT NO. 1
+\chapter*{Agreement No. 1 --- Transfer of Rights Constituting a Non-Cash Contribution}
+\addcontentsline{toc}{chapter}{Agreement No. 1 --- Transfer of Rights Constituting a Non-Cash Contribution}
+\setcounter{paragraf}{0}
+
+\begin{center}
+{\Large\bfseries AGREEMENT ON THE TRANSFER OF AUTHOR'S ECONOMIC RIGHTS\\ CONSTITUTING A NON-CASH CONTRIBUTION}\par
+\vspace{0.4cm}
+\end{center}
+
+made on \field{date} in \field{town} between:
+
+\textbf{\field{name, surname}}, PESEL \field{number}, residing at \field{address} (the ``Founder''), and
+
+\textbf{\CompanyFull{} in organisation} with its registered office in \field{town} (the ``Company''), represented by \field{select option}:
+\begin{enumerate}[label=\alph*)]
+  \item if the Founder is a director --- \field{name, surname}, an attorney appointed by a shareholders' resolution dated \field{date} (Article~300$^{79}$ \S~1 KSH), who is not a party to this agreement;
+  \item if the Founder is not a director --- two directors: \field{names, surnames} (\USen{11}(1));
+  \item if the Board of Directors has not yet been appointed --- \field{name, surname}, an attorney appointed by a unanimous shareholders' resolution dated \field{date} (Article~300$^{11}$ \S~2 KSH).
+\end{enumerate}
+
+\begin{ContractClause}{Subject Matter}
+\label{u1en:przedmiot}
+\begin{enumerate}
+  \item The Founder transfers to the Company the author's economic rights to the works described in Schedule~1.1 (the ``Works''), constituting the Founder's non-cash contribution to cover shares in the Company in accordance with \USen{4} and Annex~1 to the Articles, Part~\field{B1 / B2}.
+  \item The Works include in particular: \field{computer program --- name, repository, branch and version identifier (commit), archive checksum; documentation; other works}, in source and object code, together with the design documentation, preparatory materials and change history in the repository.
+  \item The value of the contribution is PLN \field{amount}, in accordance with Annex~1 to the Articles. The Founder's remuneration for the transfer of rights is \field{number} Series~A shares in the Company numbered \field{from--to}, subscribed for in exchange for this contribution; the Founder is not entitled to any other remuneration.
+  \item If the Works have several co-authors, each of them enters into this agreement, and Schedule~1.1 specifies their shares in the rights.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Transfer of Rights and Fields of Exploitation}
+\label{u1en:przeniesienie}
+\begin{enumerate}
+  \item The author's economic rights to the Works pass to the Company upon the conclusion of this agreement, without time or territorial limitations, in the following fields of exploitation:
+  \FieldsEN
+  \item The Founder transfers to the Company the exclusive right to authorise the exercise of derivative copyright in the Works, including their modifications and adaptations, in the fields of exploitation specified in section~1.
+  \item Together with the rights, the Company acquires ownership of all data carriers on which the Works have been fixed and which have been handed over to it, as well as administrative access to the repositories, accounts and services in which the Works are stored.
+  \item If the Articles are dissolved under Article~169 \S~1 in conjunction with Article~300$^{13}$ \S~1 KSH (failure to file the Company with the registry court within 6 months of the execution of the Articles, or a final refusal of registration), the rights revert to the Founder (condition subsequent), and the Company returns the data carriers and access to the Founder.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Moral Rights}
+\label{u1en:osobiste}
+\begin{enumerate}
+  \item The Founder undertakes not to exercise moral rights in the Works in a manner hindering the Company's use of them, in particular not to object to modifications and adaptations or to the distribution of the Works without attribution of authorship.
+  \item With respect to Works that are not computer programs (Article~77(1) of the Act on Copyright and Related Rights), the Founder authorises the Company to exercise on the Founder's behalf the right to decide on the first making available of the Works to the public and the right to supervise the manner in which they are used.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Delivery of the Works}
+\label{u1en:wydanie}
+\begin{enumerate}
+  \item The Founder delivers the Works to the Company on the date of this agreement on the basis of a handover report in the form set out in Schedule~1.3, comprising: a list of repositories with version identifiers and checksums, the source code, build instructions, documentation, a list of co-authors and a list of third-party components and open-source software together with their licences.
+  \item Until full access has been handed over, the Founder does not delete or modify the Works in a manner hindering the Company's use of them.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Founder's Representations}
+\label{u1en:oswiadczenia}
+\begin{enumerate}
+  \item The Founder represents that:
+  \begin{enumerate}[label=\alph*)]
+    \item the Founder is the author or co-author of the Works to the extent specified in Schedule~1.1 and holds the author's economic rights to them to that extent;
+    \item the rights to the Works do not belong to the Founder's current or former employer (Article~12 and Article~74(3) of the Act on Copyright and Related Rights), university or client, and the Works were not created in the performance of duties towards any such entity;
+    \item the rights are not encumbered with third-party rights, in particular exclusive licences, and the Founder has not undertaken to transfer them to any other person;
+    \item the third-party components and open-source software used in the Works are listed in Schedule~1.1 together with their licences, and their use complies with those licences;
+    \item to the best of the Founder's knowledge, the use of the Works in the fields of exploitation set out in \S~\ref{u1en:przeniesienie} does not infringe the rights of third parties.
+  \end{enumerate}
+  \item If the contribution is listed in Part~B1 of Annex~1 to the Articles, the Founder additionally makes a statement in the form set out in Schedule~1.2.
+  \item The Founder is liable for the truth of the representations in section~1 and will compensate the Company for any damage resulting from their untruth, including the costs of defending against third-party claims. In addition, the Founder is liable towards the Company for making up any shortfall in the value of the contribution in accordance with Article~300$^{10}$ KSH.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+\label{u1en:koncowe}
+\begin{enumerate}
+  \item The obligation to transfer the rights is subject to specific performance, including by a court judgment replacing the Founder's declaration of intent (Article~64 of the Civil Code).
+  \item Any amendment to this agreement requires written form on pain of nullity. Matters not regulated herein are governed by the Articles, the Act on Copyright and Related Rights and the Civil Code.
+  \item Disputes are resolved by the common court having jurisdiction over the Company's registered office.
+  \item Schedules~1.1--1.3 form an integral part of this agreement. The Company processes the Founder's personal data for the purpose of performing this agreement (Article~6(1)(b) GDPR).
+  \item This agreement has been drawn up in Polish and English. In the event of any discrepancy, the Polish version prevails.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{0.8cm}
+\begin{center}
+\begin{tabularx}{\textwidth}{XX}
+\field{signature of the Founder} & \field{for the Company: attorney or two directors} \\
+\end{tabularx}
+\end{center}
+
+\Needspace{18\baselineskip}
+\section*{Schedule 1.1 --- List of Works}
+\addcontentsline{toc}{section}{Schedule 1.1 --- List of Works}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.75cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{3.4cm} >{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}p{3.0cm}@{}}
+\toprule
+\textbf{No.} & \textbf{Work (type, name, repository, version, checksum)} & \textbf{Authors and shares} & \textbf{Part B1 / B2} & \textbf{Third-party components and licences} \\
+\midrule
+1 & \field{computer program \ldots} & \field{author / shares} & \field{B1} & \field{list} \\
+2 & \field{documentation \ldots} & \field{author / shares} & \field{B2} & \field{list} \\
+3 & \field{\ldots} & \field{\ldots} & \field{\ldots} & \field{\ldots} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\Needspace{14\baselineskip}
+\section*{Schedule 1.2 --- Author's Statement (Part B1)}
+\addcontentsline{toc}{section}{Schedule 1.2 --- Author's Statement (Part B1)}
+
+I, \field{name, surname, PESEL}, declare that I am the \field{author / co-author with a share of \ldots} of the computer program \field{name, version} contributed to \CompanyFull{} as a non-cash contribution listed in Part~B1 of Annex~1 to the Articles, that I hold the author's economic rights to this program to that extent, that these rights do not belong to my current or former employer or to any other person, and that I have not previously transferred them to any other person. I make this statement for the purposes of Article~5a(34)--(35) and Article~17(1e) of the Personal Income Tax Act.
+
+\field{place, date, signature}
+
+\Needspace{16\baselineskip}
+\section*{Schedule 1.3 --- Form of Handover Report}
+\addcontentsline{toc}{section}{Schedule 1.3 --- Form of Handover Report}
+
+On \field{date}, the Founder \field{name, surname} handed over to \CompanyFull{} in organisation, represented by \field{person or persons representing the Company}:
+
+\begin{enumerate}
+  \item repositories: \field{address, branch, version identifier, archive checksum};
+  \item administrative access to: \field{repositories, package registries, cloud services, domains};
+  \item documentation: \field{list of files};
+  \item data carriers: \field{description, serial numbers}.
+\end{enumerate}
+
+The Company confirms receipt. Reservations: \field{none / description}.
+
+\field{signature of the Founder} \hfill \field{for the Company}
+
+% ------------------------------------------------------------- AGREEMENT NO. 2
+\chapter*{Agreement No. 2 --- Transfer of Rights to Works Created for the Company}
+\addcontentsline{toc}{chapter}{Agreement No. 2 --- Transfer of Rights to Works Created for the Company}
+\setcounter{paragraf}{0}
+
+\begin{center}
+{\Large\bfseries AGREEMENT ON THE TRANSFER OF AUTHOR'S ECONOMIC RIGHTS\\ TO WORKS CREATED FOR THE COMPANY}\par
+\vspace{0.4cm}
+\end{center}
+
+made on \field{date} in \field{town} between:
+
+\textbf{\CompanyFull} with its registered office in \field{town}, KRS \field{number}, represented by \field{two directors, or an attorney appointed by a shareholders' resolution --- if the Author is a director} (the ``Company''), and
+
+\textbf{\field{name, surname or business name}}, \field{PESEL or NIP}, \field{address} (the ``Author''), acting for the Company under \field{a services agreement dated \ldots{} / appointment as director / Founder status} (the ``Underlying Relationship'').
+
+\begin{ContractClause}{Subject Matter}
+\label{u2en:przedmiot}
+\begin{enumerate}
+  \item This agreement sets out the rules on which the Company acquires the author's economic rights to works created by the Author in the performance of tasks for the Company (the ``Works''), in particular computer programs, documentation, models, diagrams, designs and databases, in accordance with \USen{14}(1).
+  \item The Author's tasks comprise: \field{description of tasks, technical area}, as well as tasks assigned in that area by the Board of Directors or a person designated by it. This agreement does not cover works created outside the tasks performed for the Company, in particular within private projects unrelated to the Company's business and not using its resources.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Time of Transfer and Fields of Exploitation}
+\label{u2en:przejscie}
+\begin{enumerate}
+  \item The author's economic rights to a Work pass to the Company upon its delivery to the Company, in particular upon being placed in the Company's repository, system or document space and, in the absence of earlier delivery --- upon the confirmation referred to in \S~\ref{u2en:potwierdzenia}. The rights pass without time or territorial limitations, in the following fields of exploitation:
+  \FieldsEN
+  \item The Author transfers to the Company the exclusive right to authorise the exercise of derivative copyright in the Works in the fields of exploitation specified in section~1.
+  \item The Company acquires ownership of the data carriers on which the Works have been delivered.
+  \item The Parties confirm that this agreement does not concern all of the Author's future works or all of the Author's future works of a given type, but only works created in the performance of specified tasks for the Company (Article~41(3) of the Act on Copyright and Related Rights).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Moral Rights}
+\label{u2en:osobiste}
+\begin{enumerate}
+  \item The Author undertakes not to exercise moral rights in the Works in a manner hindering the Company's use of them, in particular not to object to modifications and adaptations or to the distribution of the Works without attribution of authorship.
+  \item With respect to Works that are not computer programs (Article~77(1) of the Act on Copyright and Related Rights), the Author authorises the Company to decide on the first making available of the Works to the public and to supervise the manner in which they are used.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Remuneration}
+\label{u2en:wynagrodzenie}
+\begin{enumerate}
+  \item The remuneration for the transfer of rights to the Works and for the authorisation to exercise derivative rights \field{is included in the remuneration payable under the Underlying Relationship / amounts to PLN \ldots{} per month}; the Author is not entitled to separate remuneration for the use of the Works in individual fields of exploitation.
+  \item The Parties consider the remuneration fair and appropriate to the scope of the rights transferred. With respect to works that are not computer programs, the Author may request the information referred to in Article~47$^{1}$ of the Act on Copyright and Related Rights within the limits of that provision; Articles~43, 44 and~47$^{1}$ of that Act do not apply to computer programs (Article~77(1)).
+  \item If the Author holds the office of director without remuneration, the Parties specify that the remuneration for the transfer of rights is PLN \field{amount} for each quarter, payable after the confirmation referred to in \S~\ref{u2en:potwierdzenia} has been submitted.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Quarterly Confirmations}
+\label{u2en:potwierdzenia}
+\begin{enumerate}
+  \item Within 14 days after the end of each calendar quarter, the Author confirms in writing, in the form set out in Schedule~2.1, the list of Works delivered to the Company in that quarter. The list may refer to the change history in the Company's repositories (version identifiers, author of changes).
+  \item The confirmation also constitutes an agreement transferring the rights to the Works listed in it on the terms of this agreement, if the transfer has not taken place earlier.
+  \item The confirmation is accepted on behalf of the Company by the person representing the Company in accordance with the heading of this agreement and, if the Author is a director --- by the attorney referred to in \USen{11}(3).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Inventions, Know-How and Open-Source Software}
+\label{u2en:wynalazki}
+\begin{enumerate}
+  \item The right to obtain a patent, a protection right and a right in registration for solutions developed by the Author in the performance of tasks for the Company belongs to the Company; where this does not follow from statute, the Author transfers those rights to the Company upon the solution being made. The Author promptly notifies the Company of each such solution and cooperates in filing the application.
+  \item Know-how developed in the performance of tasks for the Company constitutes a business secret of the Company.
+  \item The Author incorporates third-party components and open-source software into the Works only in accordance with the Company's policy in this respect and, in the absence of such a policy --- after obtaining the consent of the person designated by the Board of Directors, if the component's licence requires the source code of the Works to be made available.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Representations and Confidentiality}
+\label{u2en:oswiadczenia}
+\begin{enumerate}
+  \item The Author represents that the Works will be the Author's original works or works to which the Company will acquire rights under separate agreements, and that their creation will not breach the Author's obligations towards other entities.
+  \item The Author keeps the Works and the Company's information confidential in accordance with \USen{14}(3) and the Company's information security policy, also after termination of this agreement.
+  \item Upon termination of the Underlying Relationship, the Author returns the data carriers and documentation to the Company, deletes copies of the Works from private devices and submits a confirmation for the period up to the date of termination.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Term and Final Provisions}
+\label{u2en:koncowe}
+\begin{enumerate}
+  \item This agreement remains in force for the duration of the Underlying Relationship. Its termination does not affect the rights acquired by the Company to the Works delivered or created before termination.
+  \item The obligation to transfer the rights is subject to specific performance, including by a court judgment replacing the Author's declaration of intent (Article~64 of the Civil Code).
+  \item Any amendment to this agreement requires written form on pain of nullity. Disputes are resolved by the common court having jurisdiction over the Company's registered office.
+  \item Schedule~2.1 forms an integral part of this agreement. The Company processes the Author's personal data for the purpose of performing this agreement (Article~6(1)(b) GDPR).
+  \item This agreement has been drawn up in Polish and English. In the event of any discrepancy, the Polish version prevails.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{0.8cm}
+\begin{center}
+\begin{tabularx}{\textwidth}{XX}
+\field{for the Company} & \field{signature of the Author} \\
+\end{tabularx}
+\end{center}
+
+\Needspace{20\baselineskip}
+\section*{Schedule 2.1 --- Form of Quarterly Confirmation}
+\addcontentsline{toc}{section}{Schedule 2.1 --- Form of Quarterly Confirmation}
+
+\field{place, date}
+
+Acting under \S~\ref{u2en:potwierdzenia} of the agreement dated \field{date}, the Author \field{name, surname} confirms that during the period from \field{date} to \field{date} the Author delivered the following Works to \CompanyFull{} and that the author's economic rights to them have passed to the Company on the terms of that agreement or, if the transfer has not taken place earlier, pass upon the signing of this confirmation:
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.75cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{3.0cm}@{}}
+\toprule
+\textbf{No.} & \textbf{Work (description)} & \textbf{Repository and version range} & \textbf{Co-authors} \\
+\midrule
+1 & \field{description} & \field{repository, from--to} & \field{none / list} \\
+2 & \field{description} & \field{repository, from--to} & \field{none / list} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\field{signature of the Author} \hfill \field{for the Company}
+
+\selectlanguage{polish}
 
 \end{document}
