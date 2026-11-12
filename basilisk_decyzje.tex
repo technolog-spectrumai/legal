@@ -5,6 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
 \usepackage{basilisk_i18n}
 \usepackage{lmodern}
 \usepackage{microtype}
@@ -34,6 +35,9 @@
 \renewcommand{\arraystretch}{1.2}
 \renewcommand{\thesection}{\arabic{section}}
 \captionsetup{font=small,labelfont=bf}
+
+\externaldocument{psa}[psa.pdf]
+\externaldocument{basilisk_sha}[basilisk_sha.pdf]
 
 \hypersetup{
   pdftitle={Basilisk Systems P.S.A. --- podręcznik podejmowania decyzji},
@@ -84,7 +88,7 @@
 Podręcznik streszcza zasady podejmowania decyzji wynikające z umowy spółki (dalej „US”, wersja 3.3-S), umowy akcjonariuszy (dalej „UA”, wersja 1.7) oraz dokumentów wewnętrznych: polityki bezpieczeństwa informacji, Cennika i wzoru NDA. Odwołania w nawiasach wskazują źródło zasady.
 
 \begin{Uwaga}
-Podręcznik nie zmienia żadnej umowy. W razie rozbieżności rozstrzyga treść umowy spółki, a następnie umowy akcjonariuszy. Limity wewnętrzne wiążą dyrektorów wobec Spółki, ale nie wpływają na ważność umów z osobami trzecimi (US §~11 ust.~4): dyrektor, który je przekroczy, odpowiada wobec Spółki.
+Podręcznik nie zmienia żadnej umowy. W razie rozbieżności rozstrzyga treść umowy spółki, a następnie umowy akcjonariuszy. Limity wewnętrzne wiążą dyrektorów wobec Spółki, ale nie wpływają na ważność umów z osobami trzecimi (US §~\ref{art:reprezentacja} ust.~4): dyrektor, który je przekroczy, odpowiada wobec Spółki.
 \end{Uwaga}
 
 Kolory na diagramach: \textcolor{cWZ}{\textbf{niebieski}} --- akcjonariusze i Walne Zgromadzenie; \textcolor{cRD}{\textbf{zielony}} --- Rada Dyrektorów; \textcolor{cDW}{\textbf{złoty}} --- dyrektor wykonawczy; \textcolor{cX}{\textbf{czerwony}} --- sytuacje szczególne (spór, sąd, konflikt interesów).
@@ -92,7 +96,7 @@ Kolory na diagramach: \textcolor{cWZ}{\textbf{niebieski}} --- akcjonariusze i Wa
 % ================================================================
 \section{Organy Spółki}
 
-Spółka działa w systemie monistycznym: ma tylko Walne Zgromadzenie i Radę Dyrektorów; nie ma zarządu ani rady nadzorczej (US §~10 ust.~1).
+Spółka działa w systemie monistycznym: ma tylko Walne Zgromadzenie i Radę Dyrektorów; nie ma zarządu ani rady nadzorczej (US §~\ref{art:rada} ust.~1).
 
 \begin{figure}[H]
 \centering
@@ -108,16 +112,16 @@ Spółka działa w systemie monistycznym: ma tylko Walne Zgromadzenie i Radę Dy
   \draw[line] (rd.south) ++(-1.2,0) -- node[lbl, left]{deleguje} (dw.north);
   \draw[line] (rd.south) ++(1.2,0) -- (dn.north);
   \draw[line] (rd) -- node[lbl, above, text width=1.9cm]{zgoda wszystkich dyrektorów} (pr);
-  \node[box=10cm, below=8mm of dw.south east, anchor=north, xshift=0.6cm, fill=black!3] (rep) {\textbf{Reprezentacja wobec osób trzecich:} dwóch dyrektorów łącznie albo dyrektor z prokurentem (US §~11 ust.~1)};
+  \node[box=10cm, below=8mm of dw.south east, anchor=north, xshift=0.6cm, fill=black!3] (rep) {\textbf{Reprezentacja wobec osób trzecich:} dwóch dyrektorów łącznie albo dyrektor z prokurentem (US §~\ref{art:reprezentacja} ust.~1)};
 \end{tikzpicture}
-\caption{Struktura organów (US §~10--12).}
+\caption{Struktura organów (US §~\ref{art:rada}--\ref{art:wz}).}
 \end{figure}
 
 \begin{itemize}
-  \item \textbf{Rada Dyrektorów} prowadzi sprawy Spółki, reprezentuje ją i nadzoruje (US §~10 ust.~2). Uchwały zapadają bezwzględną większością głosów przy udziale co najmniej połowy dyrektorów; przy równości głosów decyduje Przewodniczący, chyba że sprawa dotyczy jego interesu (US §~10 ust.~5).
-  \item \textbf{Dyrektor wykonawczy} prowadzi bieżącą działalność na podstawie delegacji Rady. Delegacja nie obejmuje spraw wymagających uchwały Rady (US §~10 ust.~4 i 7).
-  \item \textbf{Dyrektor niewykonawczy} --- musi być co najmniej jeden. Reprezentuje Spółkę w umowach i sporach z dyrektorem wykonawczym na podstawie uchwały dyrektorów niewykonawczych (US §~11 ust.~3).
-  \item \textbf{Regulamin Rady Dyrektorów} (przyjmuje Rada) określa szczegółowy podział kompetencji, limity wydatków i zasady raportowania (US §~10 ust.~8).
+  \item \textbf{Rada Dyrektorów} prowadzi sprawy Spółki, reprezentuje ją i nadzoruje (US §~\ref{art:rada} ust.~2). Uchwały zapadają bezwzględną większością głosów przy udziale co najmniej połowy dyrektorów; przy równości głosów decyduje Przewodniczący, chyba że sprawa dotyczy jego interesu (US §~\ref{art:rada} ust.~5).
+  \item \textbf{Dyrektor wykonawczy} prowadzi bieżącą działalność na podstawie delegacji Rady. Delegacja nie obejmuje spraw wymagających uchwały Rady (US §~\ref{art:rada} ust.~4 i 7).
+  \item \textbf{Dyrektor niewykonawczy} --- musi być co najmniej jeden. Reprezentuje Spółkę w umowach i sporach z dyrektorem wykonawczym na podstawie uchwały dyrektorów niewykonawczych (US §~\ref{art:reprezentacja} ust.~3).
+  \item \textbf{Regulamin Rady Dyrektorów} (przyjmuje Rada) określa szczegółowy podział kompetencji, limity wydatków i zasady raportowania (US §~\ref{art:rada} ust.~8).
 \end{itemize}
 
 % ================================================================
@@ -130,13 +134,13 @@ Przy każdej nowej sprawie przejdź drzewo od góry. Pierwsza odpowiedź „tak�
 \begin{tikzpicture}[node distance=7mm and 9mm]
   \node[box=3.2cm, fill=black!8] (start) {\textbf{Nowa sprawa}};
   \node[q, below=of start] (q1) {Pozbawienie prawa poboru?};
-  \node[wz=4.4cm, right=of q1] (a1) {\textbf{WZ --- 4/5 głosów}\\US §~5 ust.~6};
+  \node[wz=4.4cm, right=of q1] (a1) {\textbf{WZ --- 4/5 głosów}\\US §~\ref{art:emisje} ust.~6};
   \node[q, below=of q1] (q2) {Sprawa z listy\\„75\%” (tabela 1)?};
-  \node[wz=4.4cm, right=of q2] (a2) {\textbf{WZ --- 75\% wszystkich głosów w Spółce}\\US §~13 ust.~1};
+  \node[wz=4.4cm, right=of q2] (a2) {\textbf{WZ --- 75\% wszystkich głosów w Spółce}\\US §~\ref{art:wz-zastrzezone} ust.~1};
   \node[q, below=of q2] (q3) {Dyrektorzy, sprawozdanie, absolutorium, zysk, wynagrodzenie dyrektorów?};
-  \node[wz=4.4cm, right=of q3] (a3) {\textbf{WZ --- bezwzględna większość oddanych}\\US §~13 ust.~3};
+  \node[wz=4.4cm, right=of q3] (a3) {\textbf{WZ --- bezwzględna większość oddanych}\\US §~\ref{art:wz-zastrzezone} ust.~3};
   \node[q, below=of q3] (q4) {Sprawa z listy Rady (tabela 2)?};
-  \node[rd=4.4cm, right=of q4] (a4) {\textbf{Uchwała Rady Dyrektorów}\\US §~10 ust.~5 i 7};
+  \node[rd=4.4cm, right=of q4] (a4) {\textbf{Uchwała Rady Dyrektorów}\\US §~\ref{art:rada} ust.~5 i 7};
   \node[dw=4.4cm, below=of q4] (a5) {\textbf{Dyrektor wykonawczy}\\w granicach budżetu i regulaminu Rady};
   \draw[line] (start) -- (q1);
   \foreach \i/\j in {1/2,2/3,3/4} \draw[line] (q\i) -- node[lbl, left]{nie} (q\j);
@@ -147,11 +151,11 @@ Przy każdej nowej sprawie przejdź drzewo od góry. Pierwsza odpowiedź „tak�
 \end{figure}
 
 \begin{Zasada}
-\textbf{„75\% wszystkich głosów w Spółce”} liczy się od wszystkich istniejących głosów, a nie od obecnych. Nieobecny albo wstrzymujący się akcjonariusz działa więc jak głos „przeciw”. \textbf{„Bezwzględna większość oddanych”} oznacza więcej głosów „za” niż łącznie „przeciw” i „wstrzymujących się” spośród oddanych (US §~12 ust.~7).
+\textbf{„75\% wszystkich głosów w Spółce”} liczy się od wszystkich istniejących głosów, a nie od obecnych. Nieobecny albo wstrzymujący się akcjonariusz działa więc jak głos „przeciw”. \textbf{„Bezwzględna większość oddanych”} oznacza więcej głosów „za” niż łącznie „przeciw” i „wstrzymujących się” spośród oddanych (US §~\ref{art:wz} ust.~7).
 \end{Zasada}
 
 \needspace{12\baselineskip}
-\subsection*{Tabela 1. Sprawy zastrzeżone dla Walnego Zgromadzenia --- 75\% wszystkich głosów (US §~13 ust.~1)}
+\subsection*{Tabela 1. Sprawy zastrzeżone dla Walnego Zgromadzenia --- 75\% wszystkich głosów (US §~\ref{art:wz-zastrzezone} ust.~1)}
 \begin{tabularx}{\linewidth}{@{}p{0.6cm} X@{}}
 \toprule
 a) & zmiana umowy spółki (na Walnym Zgromadzeniu, z protokołem notarialnym, i wpis do rejestru) \\
@@ -168,7 +172,7 @@ j) & kredyt, pożyczka, poręczenie lub podobna umowa z dyrektorem, prokurentem,
 \end{tabularx}
 
 \needspace{12\baselineskip}
-\subsection*{Tabela 2. Sprawy wymagające uchwały Rady Dyrektorów (US §~10 ust.~7)}
+\subsection*{Tabela 2. Sprawy wymagające uchwały Rady Dyrektorów (US §~\ref{art:rada} ust.~7)}
 \begin{tabularx}{\linewidth}{@{}p{0.6cm} X@{}}
 \toprule
 1 & przyjęcie i zmiana rocznego budżetu i planu finansowego \\
@@ -181,7 +185,7 @@ j) & kredyt, pożyczka, poręczenie lub podobna umowa z dyrektorem, prokurentem,
 8 & wykonanie uchwał emisyjnych; stwierdzenie wniesienia wkładów \\
 9 & zgoda albo odmowa zgody na zbycie lub obciążenie akcji (rozdział~6) \\
 10 & stwierdzenie ustania zaangażowania i wskazanie nabywcy akcji niezwolnionych (rozdział~7) \\
-11 & pożyczka od Założyciela (UA §~10 ust.~2) \\
+11 & pożyczka od Założyciela (UA §~\ref{sha:finansowanie} ust.~2) \\
 \bottomrule
 \end{tabularx}
 
@@ -211,7 +215,7 @@ Ta sama czynność może wymagać różnych decyzji zależnie od kwoty. Kwoty do
   \fill[cDW!25] (0,3.05) rectangle (630,3.75); \node[font=\scriptsize] at (315,3.4) {dyrektor wykonawczy (w granicach regulaminu Rady)};
   \foreach \v in {100,250,500} \draw[densely dotted, black!50] (\v,0) -- (\v,3.85);
 \end{tikzpicture}
-\caption{Kto zatwierdza czynność w zależności od kwoty (US §~10 ust.~7, §~13 ust.~1 lit.~h).}
+\caption{Kto zatwierdza czynność w zależności od kwoty (US §~\ref{art:rada} ust.~7, §~13 ust.~1 lit.~h).}
 \end{figure}
 
 Niezależnie od kwoty: transakcja z akcjonariuszem, dyrektorem albo podmiotem powiązanym wymaga uchwały Rady (bez udziału dyrektora mającego konflikt interesów), a umowa kredytu lub pożyczki z dyrektorem --- także zgody WZ 75\% (tabela~1 lit.~j). Zbycie aktywów ponad 25\% ich wartości zawsze wymaga WZ 75\% (lit.~e).
@@ -221,7 +225,7 @@ Niezależnie od kwoty: transakcja z akcjonariuszem, dyrektorem albo podmiotem po
 
 \subsection*{Uchwała akcjonariuszy poza Walnym Zgromadzeniem (e-mail)}
 
-Domyślny tryb dla większości spraw. Wyjątek: uchwały wymagające protokołu notarialnego (w szczególności zmiana umowy spółki) podejmuje się na Walnym Zgromadzeniu (US §~12 ust.~1).
+Domyślny tryb dla większości spraw. Wyjątek: uchwały wymagające protokołu notarialnego (w szczególności zmiana umowy spółki) podejmuje się na Walnym Zgromadzeniu (US §~\ref{art:wz} ust.~1).
 
 \begin{figure}[H]
 \centering
@@ -232,19 +236,19 @@ Domyślny tryb dla większości spraw. Wyjątek: uchwały wymagające protokołu
   \node[wz=2.9cm, right=of s3] (s4) {\textbf{4. Wynik}\\Przewodniczący stwierdza wynik i zawiadamia e-mailem; wpis do księgi protokołów};
   \draw[line] (s1) -- (s2); \draw[line] (s2) -- (s3); \draw[line] (s3) -- (s4);
 \end{tikzpicture}
-\caption{Uchwała poza Walnym Zgromadzeniem (US §~12 ust.~2--3 i 8).}
+\caption{Uchwała poza Walnym Zgromadzeniem (US §~\ref{art:wz} ust.~2--3 i 8).}
 \end{figure}
 
 \begin{itemize}
   \item Krótszy termin niż 3 dni robocze jest możliwy za zgodą wszystkich akcjonariuszy. Głos oddany po terminie się nie liczy.
   \item Głosowanie \emph{na piśmie} (papier) wymaga zgody wszystkich akcjonariuszy na ten tryb; głosowanie e-mailem takiej zgody nie wymaga.
-  \item Walne Zgromadzenie bez formalnego zwołania jest możliwe, jeżeli reprezentowane są wszystkie akcje i nikt nie zgłasza sprzeciwu (US §~12 ust.~4). Udział zdalny reguluje regulamin WZ.
+  \item Walne Zgromadzenie bez formalnego zwołania jest możliwe, jeżeli reprezentowane są wszystkie akcje i nikt nie zgłasza sprzeciwu (US §~\ref{art:wz} ust.~4). Udział zdalny reguluje regulamin WZ.
 \end{itemize}
 
 \subsection*{Uchwała Rady Dyrektorów}
 
 \begin{enumerate}
-  \item Przewodniczący (albo dyrektor) rozsyła projekt; głosowanie może odbyć się na posiedzeniu, na piśmie albo e-mailem, jeżeli da się zidentyfikować uczestników i utrwalić głosy (US §~10 ust.~6).
+  \item Przewodniczący (albo dyrektor) rozsyła projekt; głosowanie może odbyć się na posiedzeniu, na piśmie albo e-mailem, jeżeli da się zidentyfikować uczestników i utrwalić głosy (US §~\ref{art:rada} ust.~6).
   \item \textbf{Konflikt interesów:} dyrektor, którego interes jest sprzeczny z interesem Spółki, ujawnia to i nie głosuje; nie liczy się go do kworum.
   \item Kworum: co najmniej połowa powołanych dyrektorów. Większość: bezwzględna. Przy równości --- głos Przewodniczącego.
   \item Uchwałę zapisuje się i przechowuje w dokumentacji Spółki.
@@ -253,7 +257,7 @@ Domyślny tryb dla większości spraw. Wyjątek: uchwały wymagające protokołu
 % ================================================================
 \section{Zgoda na zbycie akcji}
 
-Każde zbycie albo obciążenie akcji wymaga zgody Spółki, którą wydaje Rada Dyrektorów (US §~8). Spółka \textbf{musi} wyrazić zgodę, jeżeli nie zachodzi żadna z pięciu przyczyn odmowy.
+Każde zbycie albo obciążenie akcji wymaga zgody Spółki, którą wydaje Rada Dyrektorów (US §~\ref{art:zbywanie}). Spółka \textbf{musi} wyrazić zgodę, jeżeli nie zachodzi żadna z pięciu przyczyn odmowy.
 
 \begin{figure}[H]
 \centering
@@ -276,17 +280,17 @@ Każde zbycie albo obciążenie akcji wymaga zgody Spółki, którą wydaje Rada
   \draw[line] (no) -- (e);
   \draw[line] (cisza) -- (w7); \draw[line] (w7) -- (ua); \draw[line] (ua) -- node[lbl, right]{brak zgody\\i brak odmowy} (sad);
 \end{tikzpicture}
-\caption{Procedura zgody na zbycie akcji (US §~8 ust.~1--4).}
+\caption{Procedura zgody na zbycie akcji (US §~\ref{art:zbywanie} ust.~1--4).}
 \end{figure}
 
-\textbf{Przyczyny odmowy (zamknięty katalog, US §~8 ust.~2):} a)~sankcje albo sprzeczność z przepisami o kontroli inwestycji, eksportu lub bezpieczeństwie państwa; b)~brak wymaganej zgody organu (można dać zgodę warunkową); c)~lock-up bez zgody WZ; d)~akcje objęte obowiązkiem zbycia, a nabywca nie przejął obowiązków (pełnomocnictwo i oferta); e)~nabywca jest konkurentem (z wyjątkiem inwestycji portfelowych do 5\%).
+\textbf{Przyczyny odmowy (zamknięty katalog, US §~\ref{art:zbywanie} ust.~2):} a)~sankcje albo sprzeczność z przepisami o kontroli inwestycji, eksportu lub bezpieczeństwie państwa; b)~brak wymaganej zgody organu (można dać zgodę warunkową); c)~lock-up bez zgody WZ; d)~akcje objęte obowiązkiem zbycia, a nabywca nie przejął obowiązków (pełnomocnictwo i oferta); e)~nabywca jest konkurentem (z wyjątkiem inwestycji portfelowych do 5\%).
 
-Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzekucji (US §~8 ust.~5).
+Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzekucji (US §~\ref{art:zbywanie} ust.~5).
 
 % ================================================================
 \section{Vesting i ustanie zaangażowania}
 
-\subsection*{Harmonogram zwalniania akcji (US §~9 ust.~2)}
+\subsection*{Harmonogram zwalniania akcji (US §~\ref{art:obowiazek-zbycia} ust.~2)}
 
 \begin{figure}[H]
 \centering
@@ -303,10 +307,10 @@ Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzeku
   \draw[very thick, cRD, dashed] (0,0) -- (12,0) -- (12,25) -- (48,100) -- (49,100);
   \node[font=\scriptsize, cRD, anchor=west, text width=4.2cm, align=left] at (26,40) {\textbf{Seria F:} cliff 12 mies. (25\%), potem co miesiąc do 48 mies.};
 \end{tikzpicture}
-\caption{Zwalnianie akcji z obowiązku zbycia. Do chwili zwolnienia akcje dają pełne prawa (US §~9 ust.~3).}
+\caption{Zwalnianie akcji z obowiązku zbycia. Do chwili zwolnienia akcje dają pełne prawa (US §~\ref{art:obowiazek-zbycia} ust.~3).}
 \end{figure}
 
-\subsection*{Co się dzieje przy odejściu (US §~9 ust.~4--5, UA §~4--5)}
+\subsection*{Co się dzieje przy odejściu (US §~\ref{art:obowiazek-zbycia} ust.~4--5, UA §~\ref{sha:ustanie}--\ref{sha:wykonanie})}
 
 \begin{figure}[H]
 \centering
@@ -328,9 +332,9 @@ Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzeku
 \end{figure}
 
 \begin{itemize}
-  \item Zwolnienie przy śmierci, niezdolności i Odejściu Uzasadnionym następuje \textbf{automatycznie} z mocy umowy spółki --- nie wymaga głosowania (UA §~4 ust.~4).
-  \item Umowę zbycia w imieniu odchodzącego może zawrzeć pełnomocnik (Spółka albo dyrektor niewykonawczy) na podstawie nieodwołalnego pełnomocnictwa; nabywca płaci w 14 dni, wpis do rejestru dopiero po zapłacie (UA §~5).
-  \item Po Odejściu Zwykłym obowiązuje zakaz konkurencji przez 12 miesięcy; zakaz aktywnego nakłaniania pracowników i klientów obowiązuje 12 miesięcy przy każdym odejściu (UA §~8).
+  \item Zwolnienie przy śmierci, niezdolności i Odejściu Uzasadnionym następuje \textbf{automatycznie} z mocy umowy spółki --- nie wymaga głosowania (UA §~\ref{sha:ustanie} ust.~4).
+  \item Umowę zbycia w imieniu odchodzącego może zawrzeć pełnomocnik (Spółka albo dyrektor niewykonawczy) na podstawie nieodwołalnego pełnomocnictwa; nabywca płaci w 14 dni, wpis do rejestru dopiero po zapłacie (UA §~\ref{sha:wykonanie}).
+  \item Po Odejściu Zwykłym obowiązuje zakaz konkurencji przez 12 miesięcy; zakaz aktywnego nakłaniania pracowników i klientów obowiązuje 12 miesięcy przy każdym odejściu (UA §~\ref{sha:konkurencja}).
 \end{itemize}
 
 % ================================================================
@@ -343,12 +347,12 @@ Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzeku
   \node[q=3.0cm, below=of u] (q) {Dyrektor wykonawczy?};
   \node[rd=4.6cm, below left=9mm and -10mm of q] (dn) {Dyrektor niewykonawczy na podstawie uchwały dyrektorów niewykonawczych\\\textbf{albo} pełnomocnik z uchwały akcjonariuszy};
   \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy (może być poza WZ; nie może być stroną umowy)};
-  \node[xx=9.8cm, below=30mm of q] (poz) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~13 ust.~1 lit.~j, UA §~10 ust.~2)};
+  \node[xx=9.8cm, below=30mm of q] (poz) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
   \draw[line] (u) -- (q);
   \draw[line] (q) -- node[lbl, left]{tak} (dn);
   \draw[line] (q) -- node[lbl, right]{nie} (pe);
 \end{tikzpicture}
-\caption{Reprezentacja Spółki w sprawach z dyrektorem (US §~11 ust.~3).}
+\caption{Reprezentacja Spółki w sprawach z dyrektorem (US §~\ref{art:reprezentacja} ust.~3).}
 \end{figure}
 
 Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Założycielami będącymi dyrektorami, umów wykonawczych do obowiązku zbycia i potwierdzeń kwartalnych. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich umów danego rodzaju.
@@ -370,14 +374,14 @@ Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Z
   \draw[line, dashed] (em) -- (pp);
   \draw[line] (em) -- (rd);
 \end{tikzpicture}
-\caption{Emisja akcji (US §~5--7).}
+\caption{Emisja akcji (US §~\ref{art:emisje}--\ref{art:seria-p}).}
 \end{figure}
 
 \begin{itemize}
-  \item \textbf{Limity:} łącznie 2\,000\,000 akcji; seria F do 250\,000 (i do 20\% akcji); seria P do 176\,471; termin emisji do 31 grudnia 2036 r. (US §~5 ust.~2--3).
-  \item \textbf{Seria F --- dwie uchwały WZ 75\%:} najpierw nadanie statusu Założyciela Funkcjonalnego (rola, zaangażowanie, maksymalna liczba akcji, Dzień Przyznania), potem emisja (US §~6).
-  \item \textbf{Seria P:} regulamin programu zatwierdza WZ; Rada prowadzi program i rekomenduje uczestników, ale nie emituje akcji samodzielnie (US §~7).
-  \item Cena emisyjna nie niższa niż 0,01 zł; Rada nie może jej obniżyć poniżej minimum z uchwały (US §~5 ust.~5 i 7).
+  \item \textbf{Limity:} łącznie 2\,000\,000 akcji; seria F do 250\,000 (i do 20\% akcji); seria P do 176\,471; termin emisji do 31 grudnia 2036 r. (US §~\ref{art:emisje} ust.~2--3).
+  \item \textbf{Seria F --- dwie uchwały WZ 75\%:} najpierw nadanie statusu Założyciela Funkcjonalnego (rola, zaangażowanie, maksymalna liczba akcji, Dzień Przyznania), potem emisja (US §~\ref{art:seria-f}).
+  \item \textbf{Seria P:} regulamin programu zatwierdza WZ; Rada prowadzi program i rekomenduje uczestników, ale nie emituje akcji samodzielnie (US §~\ref{art:seria-p}).
+  \item Cena emisyjna nie niższa niż 0,01 zł; Rada nie może jej obniżyć poniżej minimum z uchwały (US §~\ref{art:emisje} ust.~5 i 7).
 \end{itemize}
 
 % ================================================================
@@ -393,7 +397,7 @@ Regulamin Walnego Zgromadzenia & akcjonariusze & udział zdalny; pierwszy przyjm
 Polityka bezpieczeństwa informacji & Rada Dyrektorów & wyznacza Odpowiedzialnego; każdy Użytkownik potwierdza zapoznanie się \\
 Cennik wynagrodzeń za rozwiązania projektowe & Rada Dyrektorów & waloryzacja GUS co roku 1 marca; zmiana na niekorzyść nie działa wstecz \\
 Regulamin programu motywacyjnego (seria P) & Walne Zgromadzenie & warunki, ograniczenia zbywania, skutki ustania współpracy \\
-Wzór NDA & Rada Dyrektorów & zawiera się \textbf{przed} ujawnieniem informacji (UA §~7 ust.~2 lit.~b); podpisuje dwóch dyrektorów albo dyrektor z prokurentem \\
+Wzór NDA & Rada Dyrektorów & zawiera się \textbf{przed} ujawnieniem informacji (UA §~\ref{sha:poufnosc} ust.~2 lit.~b); podpisuje dwóch dyrektorów albo dyrektor z prokurentem \\
 Lista osób z dostępem do informacji Kontrolowanych & Rada Dyrektorów & polityka §~3; przegląd dostępów co kwartał \\
 \bottomrule
 \end{tabularx}
@@ -412,7 +416,7 @@ Lista osób z dostępem do informacji Kontrolowanych & Rada Dyrektorów & polity
   \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Impas:} WZ dwa razy (w odstępie $\ge$30 dni) nie podejmuje uchwały o emisji (lit.~b) albo o transakcji ponad 500\,000 zł (lit.~h), a sprawa jest niezbędna --- każdy może wszcząć mediację};
   \draw[line] (imp.north) ++(1.7,0) -- (m.south);
 \end{tikzpicture}
-\caption{Rozwiązywanie sporów (UA §~11). Zabezpieczenie sądowe jest dostępne zawsze.}
+\caption{Rozwiązywanie sporów (UA §~\ref{sha:spory}). Zabezpieczenie sądowe jest dostępne zawsze.}
 \end{figure}
 
 % ================================================================
@@ -423,24 +427,24 @@ Lista osób z dostępem do informacji Kontrolowanych & Rada Dyrektorów & polity
 \textbf{Czynność} & \textbf{Termin} & \textbf{Źródło} \\
 \midrule
 \endhead
-Uchwała akcjonariuszy poza WZ & 3 dni robocze -- 21 dni na głos & US §~12 ust.~3 \\
-Zgoda albo odmowa zgody na zbycie akcji & 14 dni od zgłoszenia & US §~8 ust.~1 \\
-Dodatkowy termin po wezwaniu Rady & 7 dni & US §~8 ust.~1 \\
-Uchwała akcjonariuszy w sprawie zgody & 14 dni od rozesłania projektu & US §~8 ust.~1 \\
-Wskazanie nabywcy po odmowie (konkurent) & 30 dni od odmowy & US §~8 ust.~3 \\
-Lock-up Założycieli Pierwotnych / serii F & 12 mies. od wpisu / Dnia Przyznania & US §~8 ust.~4 \\
-Stwierdzenie ustania zaangażowania & 30 dni od dowiedzenia się & UA §~4 ust.~2 \\
-Wskazanie nabywcy akcji niezwolnionych & 3 mies. od ustania & US §~9 ust.~4 \\
-Nabycie przez pozostałych Założycieli & kolejne 30 dni & US §~9 ust.~4 \\
-Wygaśnięcie obowiązku zbycia & 6 mies. od ustania & US §~9 ust.~4 \\
-Zapłata ceny akcji niezwolnionych & 14 dni od umowy zbycia & UA §~5 ust.~4 \\
+Uchwała akcjonariuszy poza WZ & 3 dni robocze -- 21 dni na głos & US §~\ref{art:wz} ust.~3 \\
+Zgoda albo odmowa zgody na zbycie akcji & 14 dni od zgłoszenia & US §~\ref{art:zbywanie} ust.~1 \\
+Dodatkowy termin po wezwaniu Rady & 7 dni & US §~\ref{art:zbywanie} ust.~1 \\
+Uchwała akcjonariuszy w sprawie zgody & 14 dni od rozesłania projektu & US §~\ref{art:zbywanie} ust.~1 \\
+Wskazanie nabywcy po odmowie (konkurent) & 30 dni od odmowy & US §~\ref{art:zbywanie} ust.~3 \\
+Lock-up Założycieli Pierwotnych / serii F & 12 mies. od wpisu / Dnia Przyznania & US §~\ref{art:zbywanie} ust.~4 \\
+Stwierdzenie ustania zaangażowania & 30 dni od dowiedzenia się & UA §~\ref{sha:ustanie} ust.~2 \\
+Wskazanie nabywcy akcji niezwolnionych & 3 mies. od ustania & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
+Nabycie przez pozostałych Założycieli & kolejne 30 dni & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
+Wygaśnięcie obowiązku zbycia & 6 mies. od ustania & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
+Zapłata ceny akcji niezwolnionych & 14 dni od umowy zbycia & UA §~\ref{sha:wykonanie} ust.~4 \\
 Wydanie utworów po odejściu & 14 dni & Umowa nr~2 §~8, polityka §~7 \\
 Odebranie dostępów & najpóźniej ostatni dzień; przy sporze od razu & polityka §~7 \\
 Zgłoszenie incydentu / naruszenia danych & 24 godziny / 72 godziny do UODO & polityka §~6 \\
-Waloryzacja kar i Cennika & co roku 1 marca & UA §~9 ust.~2, Cennik §~5 \\
-Negocjacje przed mediacją & 30 dni od wezwania & UA §~11 ust.~1 \\
-Kadencja Rady Dyrektorów & 3 lata obrotowe & US §~10 ust.~3 \\
-Termin emisji serii F i P & do 31 grudnia 2036 r. & US §~5 ust.~3 \\
+Waloryzacja kar i Cennika & co roku 1 marca & UA §~\ref{sha:kary} ust.~2, Cennik §~5 \\
+Negocjacje przed mediacją & 30 dni od wezwania & UA §~\ref{sha:spory} ust.~1 \\
+Kadencja Rady Dyrektorów & 3 lata obrotowe & US §~\ref{art:rada} ust.~3 \\
+Termin emisji serii F i P & do 31 grudnia 2036 r. & US §~\ref{art:emisje} ust.~3 \\
 \bottomrule
 \end{longtable}
 
