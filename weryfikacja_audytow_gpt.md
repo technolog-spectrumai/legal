@@ -171,7 +171,7 @@ Wersje: umowa spółki 3.3-S, umowa akcjonariuszy 1.7, umowy IP 1.6. Każda decy
 | 3 | Odmowa dla konkurenta (z wyjątkiem inwestycji portfelowych ≤ 5%); Spółka w 30 dni wskazuje innego nabywcę na tych samych warunkach, inaczej musi udzielić zgody (PSA-10) | umowa spółki § 8 ust. 2 lit. e, ust. 3 |
 | 4 | Zakaz konkurencji po wyjściu (12 mies.) tylko przy Odejściu Zwykłym; zakaz nakłaniania przez 12 mies. przy każdym odejściu, tylko aktywne nakłanianie; zakaz konkurencji z umowy spółki ograniczony do okresu zaangażowania lub pełnienia funkcji (SHA-10) | SHA § 8; umowa spółki § 14 ust. 5 |
 | 5 | Know-how w Umowie nr 1; sprzęt nie jest aportem (sprzedaż albo użyczenie); wzór dla patentów — gdy będzie potrzebny (IP-01) | umowy IP: wstęp, Umowa nr 1 § 1 ust. 5 |
-| 6 | Wynalazki: Założyciele i dyrektorzy — wynagrodzenie zawarte w stosunku podstawowym i udziale (art. 22 ust. 1 PWP); pozostali — 2 000 zł po zgłoszeniu i 5 000 zł po udzieleniu prawa (IP-08) | Umowa nr 2 § 6 ust. 1 |
+| 6 | Wynalazki: Założyciele i dyrektorzy — wynagrodzenie zawarte w stosunku podstawowym i udziale (art. 22 ust. 1 PWP); pozostali — jednorazowo po zgłoszeniu i po udzieleniu prawa, według Cennika ustalanego przez Radę Dyrektorów (kwoty poza umową — inflacja i negocjacje) (IP-08) | Umowa nr 2 § 6 ust. 1 |
 | 7 | Kary: 25 000 zł (poufność), 50 000 zł (zakaz konkurencji lub nakłaniania), 25 000 zł (§ 5 ust. 6); dodatkowo 5 000 zł za miesiąc naruszenia ciągłego; limit 150 000 zł na Stronę | SHA § 9 ust. 1 |
 | 8 | Umowa nr 2: wynagrodzenie w ramach stosunku podstawowego albo nieodpłatnie (dyrektor bez wynagrodzenia, a po przyznaniu wynagrodzenia — zawarte w nim); bez wariantu kwartalnego | Umowa nr 2 § 4 ust. 1 i 3 |
 
