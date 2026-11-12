@@ -116,3 +116,46 @@ Sygnatury aktów z 2026 r. spoza repozytorium: KSH Dz.U. 2026 poz. 1440 (pełnom
 1. **Runda poprawek priorytetu 1** (w obu językach): PSA-01–06, PSA-20, SHA-01–05, SHA-12, SHA-16, IP-02, IP-03, IP-06 (oraz IP-01, jeżeli aportem mają być patenty, know-how lub sprzęt).
 2. **Decyzje Założycieli przed rundą:** PSA-07 / SHA-03 (czy akcje za aport IP podlegają vestingowi i co dzieje się przy odejściu uzasadnionym), PSA-20 (kto rozstrzyga, gdy Rada milczy), SHA-10 (zakres zakazu zatrudniania).
 3. **Priorytet 2 i 3** — w kolejnej rundzie albo z prawnikiem przed aktem.
+
+---
+
+## 7. Wprowadzone poprawki (gałąź `dev_audit_gpt`, bez decyzji biznesowych)
+
+Wersje: umowa spółki **3.2-S**, umowa akcjonariuszy **1.6**, umowy IP **1.5**; każda poprawka w wersji polskiej i angielskiej.
+
+| Ustalenie | Zmiana | Miejsce |
+|--|------|--|
+| PSA-01 | Głosowanie elektroniczne według umowy; na piśmie tylko za zgodą wszystkich (art. 300⁸⁰ § 2) | umowa spółki § 12 ust. 1 |
+| PSA-02 | „Wszystkie akcje są reprezentowane” (art. 300⁹⁰) | § 12 ust. 4 |
+| PSA-03 | Księga protokołów i wydruki uchwał elektronicznych (art. 300¹⁰⁰) | § 12 ust. 8 |
+| PSA-04 | 31.12.2036 jako termin emisji; akcje objęte i emisja zgłoszona do tego dnia | § 5 ust. 3 |
+| PSA-05 | Prawa z warunkowej emisji dopiero po wpisie; 4/5 przy wyłączeniu poboru | § 7 ust. 2 |
+| PSA-06 | Zastrzeżenie art. 300⁴⁰ przy akcjach niepokrytych | § 8 ust. 5 |
+| PSA-08 | Wzór liczenia zwolnionych akcji, zaokrąglenie w dół, kolejność numerów | § 9 ust. 2 |
+| PSA-11 | Wkład pracą w 3 lata od wpisu emisji, niezależnie od vestingu | § 6 ust. 4 |
+| PSA-20 (część prawna) | Odpowiedzialność dyrektorów według przepisów ogólnych zamiast obietnicy wobec akcjonariusza | § 8 ust. 1 |
+| SHA-01 | Bez wynagrodzenia tylko funkcja dyrektora; wynagrodzenie ze stosunku pracy nienaruszone | SHA § 3 ust. 2 |
+| SHA-02 | SHA nie jest umową przeniesienia IP | § 1 ust. 5 |
+| SHA-04 | Wstrzymanie w sporze obejmuje wszystkich pełnomocników i przyjęcie oferty | § 4 ust. 5 |
+| SHA-05 | Przystąpienie w całości, przyjmowane przez Spółkę; uczestnicy programu P nabywający Akcje Objęte przystępują | § 2, Załącznik C |
+| SHA-08 | Wpis nabywcy po zapłacie; depozyt sądowy tylko z art. 467 KC | § 5 ust. 4 |
+| SHA-11 | Wyjątki: sygnaliści, informacje znane wcześniej lub wytworzone niezależnie | § 7 ust. 2 |
+| SHA-12 | Pożyczka od dyrektora — także zgoda WZ (§ 13 ust. 1 lit. j umowy spółki) | § 10 ust. 2 |
+| SHA-13 | Postanowienia obowiązujące po wygaśnięciu | § 12 ust. 4 (nowy) |
+| SHA-14 | Pełnomocnik umocowany do całej umowy z Załącznikami A–D | komparycja |
+| SHA-15 | Zmiana adresu nie jest zmianą umowy | § 13 ust. 1–2 |
+| SHA-16/17 | Oświadczenie o przynależności akcji (aport IP — majątek osobisty); zgoda tylko dla akcji z majątku wspólnego; zgoda nie jest przystąpieniem | § 13 ust. 7, Załącznik D |
+| IP-02 | Wariant „nabywca praw”; prawa od pracodawcy, jeżeli skutecznie nabyte | Umowa nr 1 § 5, Załącznik 1.1 |
+| IP-03 | Odrębna umowa każdego współtwórcy; współtwórca spoza Założycieli — osobna umowa z wynagrodzeniem | wstęp, Umowa nr 1 § 1 ust. 4 |
+| IP-06 | Twórca = osoba fizyczna (także JDG); wykonawca-firma — odrębna umowa | Umowa nr 2 komparycja, § 1 ust. 3 |
+| IP-09 | Informacja z art. 47¹ przekazywana regularnie (utwory niebędące programami) | Umowa nr 2 § 4 ust. 2 |
+| IP-10 | Wydanie wszystkich prac i końcowe potwierdzenie w 14 dni | Umowa nr 2 § 7 ust. 3 |
+| IP-11 | Dane i modele niebędące utworami; prawo producenta bazy danych | Umowa nr 2 § 1 ust. 1 |
+| IP-12 | Komponenty osób trzecich wyłączone z cesji | Umowa nr 1 § 5, Umowa nr 2 § 6 |
+| IP-15 | Precyzyjne zdanie o pracownikach (art. 12, 74 ust. 3) | wstęp |
+| IP-16 | Forma pisemna albo podpis kwalifikowany dla potwierdzeń kwartalnych | Umowa nr 2 § 5 ust. 1 |
+| IP-19 | Podstawa nieodpłatności: art. 43 ust. 1 tylko dla utworów niebędących programami; „godziwe” tylko przy wynagrodzeniu | Umowa nr 2 § 4 ust. 2–3 |
+
+**Pozostają do decyzji:** PSA-07 / SHA-03, PSA-20 (ścieżka zastępcza), PSA-10, SHA-10, IP-01, IP-08, kwoty kar, wybór wariantu wynagrodzenia w Umowie nr 2.
+
+**Kontrola techniczna:** umowa spółki (51 stron), umowa akcjonariuszy (30), umowy IP (25) — kompilacja bez błędów, nierozwiązanych odwołań i przepełnionych wierszy: 0.
