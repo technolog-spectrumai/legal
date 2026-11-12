@@ -69,3 +69,14 @@
 3. **Ś3:** uzgodnić z podmiotem prowadzącym rejestr akcjonariuszy fikcję zgody i wzmianki o vestingu.
 4. **N2–N4, N6:** zgody małżonków, kwoty kar, tabela Założycieli, Załącznik nr 1 (B1/B2) z oświadczeniami twórców, wynagrodzenie w Umowie nr 2.
 5. Decyzja w sprawie zakazu konkurencji (Ś2) i przegląd całości przez prawnika.
+
+---
+
+## 5. Poprawki na gałęzi `dev_1211` (umowa spółki 3.1-S, umowa akcjonariuszy 1.4)
+
+| ID | Status | Zmiana |
+|--|--|------|
+| **W1**, **N1** | usunięte | Umowa akcjonariuszy: Spółkę reprezentuje wyłącznie pełnomocnik z uchwały akcjonariuszy objętej aktem zawiązania (art. 300⁷⁹ § 1 KSH, § 11 ust. 3 i § 17 ust. 6 umowy spółki), niebędący Stroną; podpis „za Spółkę: pełnomocnik” (PL i EN) |
+| **Ś3** | usunięte | Decyzja Założycieli: rezygnacja z fikcji zgody. § 8 ust. 1: Rada udziela albo odmawia zgody w 14 dni w formie dokumentowej; milczenie nie jest zgodą; akcjonariusz może wezwać Radę do zajęcia stanowiska w dodatkowe 7 dni, a dyrektorzy odpowiadają za szkodę z bezpodstawnej zwłoki. Zamknięta lista przyczyn odmowy (§ 8 ust. 2) bez zmian. Wersja z fikcją zgody zostaje na gałęzi `psa_simple2` |
+| **N2** | usunięte | Umowa akcjonariuszy 1.5: obowiązek przedstawienia zgody małżonka przy wspólności majątkowej (także przez przystępujących) i Załącznik D / Schedule D — wzór zgody (umowa, oferta, pełnomocnictwo, zbycie po cenie emisyjnej, przystąpienie po ustaniu wspólności) |
+| **N6** | usunięte | Umowy IP 1.4, Umowa nr 2 § 4 ust. 1 i 3: wariant „przeniesienie nieodpłatne” (art. 43 ust. 1 pr. aut.) obok kwoty wynagrodzenia (PL i EN) |
