@@ -1,0 +1,218 @@
+% !TeX program = pdflatex
+% Komentarz do umowy spółki Basilisk Systems P.S.A. (dokument informacyjny, odrębny od umowy).
+% Numery paragrafów pobierane z psa.aux (xr-hyper); bibliografia wspólna: basilisk_bib.tex.
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\externaldocument{psa}[psa.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- materiały pomocnicze}
+\BusinessPlanConfidentialText{Dokument informacyjny --- nie stanowi części umowy}
+\BusinessPlanFooterText{Basilisk Systems --- komentarz do umowy spółki}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.08}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.18}
+
+\makeatletter
+\newcommand{\BibItem}[2]{\item[\textbf{[#1]}]\def\@currentlabel{#1}\def\@currentlabelname{#1}\phantomsection\label{bib:#2}}
+\makeatother
+\newcommand{\Zr}[1]{[\ref{bib:#1}]}
+\newcommand{\U}[1]{\textsuperscript{#1}}
+% wiersz nagłówka paragrafu i wiersz ustępu
+\newcommand{\Par}[2]{\multicolumn{3}{@{}l}{\rule{0pt}{1.4em}\textbf{§~\ref{art:#1}. #2}} \\ \midrule}
+\newcommand{\Ust}[3]{#1 & #2 & #3 \\}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- komentarz do umowy spółki},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Komentarz do umowy spółki}
+  {Podstawy prawne i bibliografia do umowy Basilisk Systems P.S.A.}
+  {Do umowy spółki w wersji 3.3-S --- per paragraf i ustęp}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Wprowadzenie}
+\addcontentsline{toc}{chapter}{Wprowadzenie}
+
+Dokument jest \textbf{informacyjny}: nie stanowi części umowy spółki, nie jest objęty aktem notarialnym ani podpisem i nie zmienia treści umowy. Służy założycielom, dyrektorom, przyszłym inwestorom i ich doradcom do szybkiego odnalezienia podstawy prawnej każdego postanowienia. W razie rozbieżności rozstrzyga treść umowy spółki \Zr{us}.
+
+Dokument składa się z dwóch załączników informacyjnych:
+\begin{itemize}
+  \item \textbf{Załącznik informacyjny A --- Bibliografia}: akty prawne krajowe i unijne, orzecznictwo, literatura, materiały urzędowe i dokumenty Spółki; etykiety w nawiasach kwadratowych są klikalne;
+  \item \textbf{Załącznik informacyjny B --- Podstawy prawne per paragraf i ustęp}: dla każdego ustępu umowy przepisy, na których się opiera, orzecznictwo i krótki komentarz. Numery paragrafów są klikalne i otwierają umowę (\texttt{psa.pdf} w tym samym katalogu).
+\end{itemize}
+
+Stan prawny: według tekstu jednolitego KSH (Dz.U. 2024 poz. 18 ze zm.) i pozostałych aktów z bibliografii. Numery przepisów należy zweryfikować w ISAP przed użyciem w obrocie; tezy orzeczeń podano w skrócie. Skrót „PSA” oznacza prostą spółkę akcyjną, „WZ” --- Walne Zgromadzenie.
+
+% ================================================================
+\chapter*{Załącznik informacyjny A}
+\addcontentsline{toc}{chapter}{Załącznik informacyjny A --- Bibliografia}
+\input{basilisk_bib}
+
+% ================================================================
+\chapter*{Załącznik informacyjny B --- Podstawy prawne per paragraf i ustęp}
+\addcontentsline{toc}{chapter}{Załącznik informacyjny B --- Podstawy prawne per paragraf i ustęp}
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.1cm} >{\raggedright\arraybackslash}p{6.0cm} >{\raggedright\arraybackslash}p{7.6cm}@{}}
+\toprule
+\textbf{Ust.} & \textbf{Podstawa prawna} & \textbf{Orzecznictwo, literatura, komentarz} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ust.} & \textbf{Podstawa prawna} & \textbf{Orzecznictwo, literatura, komentarz} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\Par{firma}{Firma, siedziba i czas trwania}
+\Ust{1}{art.~300\U{5} §~1 pkt~1 KSH \Zr{ksh}; art.~43\U{4} KC \Zr{kc} (firma osoby prawnej); znaki towarowe --- art.~120 i nast. PWP \Zr{pwp}}{Firma musi zawierać oznaczenie formy prawnej („prosta spółka akcyjna” albo „P.S.A.”). Ochronę oznaczenia „Basilisk Systems” daje dopiero rejestracja znaku towarowego.}
+\Ust{2}{art.~300\U{5} §~1 pkt~1 KSH; art.~41 KC (siedziba = miejscowość)}{W umowie wskazuje się miejscowość, a nie adres; adres zgłasza się do rejestru \Zr{ukrs}.}
+\Ust{3}{swoboda umów (art.~353\U{1} KC); \Zr{ukrs} --- oddziały}{Postanowienie fakultatywne.}
+\Ust{4}{art.~300\U{5} KSH (postanowienie fakultatywne)}{Brak terminu oznacza czas nieoznaczony.}
+
+\Par{pkd}{Przedmiot działalności i PKD 2025}
+\Ust{1}{art.~300\U{5} §~1 pkt~2 KSH}{Opis słowny uzupełnia kody PKD i chroni przed zarzutem działania poza przedmiotem działalności.}
+\Ust{2}{\Zr{pkd}; \Zr{guspkd}; \Zr{ukrs}}{Kody spoza ujawnionych przy pierwszym wpisie można zgłosić do rejestru bez zmiany umowy.}
+\Ust{3}{koncesja: \Zr{uwt}; kontrola obrotu: \Zr{uots}, \Zr{dualuse}; drony: \Zr{uas945}, \Zr{uas947}, \Zr{prlot}; fundusze obronne: \Zr{edf}}{Wpis kodu PKD nie zastępuje koncesji na wyroby o przeznaczeniu wojskowym ani zezwoleń eksportowych.}
+
+\Par{akcje}{Akcje i kapitał akcyjny}
+\Ust{1}{art.~300\U{2} §~3 KSH}{Akcje PSA nie mają wartości nominalnej i nie stanowią części kapitału akcyjnego \Zr{opalski}.}
+\Ust{2}{art.~300\U{5} §~1 pkt~3 KSH (liczba, serie i numery akcji)}{Cena emisyjna 0,01 zł jest dopuszczalna; kapitał minimalny wynosi 1 zł (art.~300\U{3} KSH).}
+\Ust{3}{art.~300\U{5} §~1 pkt~3 KSH (uprzywilejowanie)}{Uprzywilejowanie musi wynikać z umowy; jego brak ułatwia przyszłą rundę.}
+\Ust{4}{art.~300\U{3} §~2 KSH}{Wysokości kapitału akcyjnego nie określa się w umowie; ujawnia ją Rada w rejestrze.}
+\Ust{5}{art.~300\U{31} i nast. KSH (rejestr akcjonariuszy)}{Rejestr prowadzi podmiot wybrany przez akcjonariuszy (art.~300\U{31} KSH); ograniczenia i obowiązki związane z akcjami muszą być w nim ujawnione.}
+\Ust{6}{art.~300\U{31} i nast. KSH; art.~61 §~2 KC (doręczenie elektroniczne)}{Aktualny adres e-mail warunkuje skuteczną komunikację w trybie §~\ref{art:wz}.}
+\Ust{7--8}{art.~300\U{47} KSH (w tym §~3); art.~300\U{15} §~4--6 KSH}{Spółka nie jest nabywcą akcji niezwolnionych --- chroni to przed zarzutem finansowania nabycia własnych akcji.}
+\Ust{9}{przepisy KSH o zastawie i użytkowaniu akcji; por. art.~340 KSH (spółka akcyjna)}{Głos zastawnika tylko za zgodą WZ 75\% i po wzmiance w rejestrze.}
+
+\Par{cap-table}{Objęcie akcji i wkłady Założycieli}
+\Ust{1--2}{art.~300\U{5} §~1 pkt~3 KSH}{Podział 50/20/10/10/10 dotyczy chwili zawiązania.}
+\Ust{3}{art.~300\U{2} §~1--2 KSH; art.~41 i 53 PrAut \Zr{praut}; art.~67 PWP \Zr{pwp}; know-how --- art.~11 UZNK \Zr{uznk}}{Umowa celowo wyłącza wkład w postaci pracy i usług w serii~A oraz sprzęt (sprzedaż albo użyczenie).}
+\Ust{4}{art.~5a pkt~34--35, art.~17 ust.~1 pkt~9 i ust.~1e PIT \Zr{pit}}{Część B1 pozwala skorzystać z odroczenia opodatkowania aportu IP przez twórcę.}
+\Ust{5}{art.~14 §~1 KSH; art.~300\U{3} §~2 KSH; art.~300\U{9} KSH}{Wkłady pieniężne przed zgłoszeniem, niepieniężne w 14 dni od wpisu.}
+\Ust{6}{art.~41 ust.~2 i art.~53 PrAut (forma pisemna, pola eksploatacji); art.~67 PrAut (licencja); art.~33 pkt~9--10 KRO \Zr{kro}; art.~300\U{79} §~1 KSH}{Autorskie prawa majątkowe należą do majątku osobistego twórcy; umowę z dyrektorem podpisuje pełnomocnik \Zr{sn4218}, \Zr{barta}.}
+\Ust{7}{---}{Postanowienie informacyjne.}
+
+\Par{emisje}{Emisje akcji i maksymalne liczby akcji}
+\Ust{1--3}{art.~300\U{103}--300\U{104} KSH}{Limity ilościowe i termin emisji (do 31.12.2036) chronią akcjonariuszy przed nieograniczonym rozwodnieniem.}
+\Ust{4}{przepisy o zmianie umowy PSA (uchwała akcjonariuszy, protokół notarialny, wpis do rejestru) \Zr{ksh}}{Nowa seria inwestorska wymaga zmiany umowy.}
+\Ust{5}{art.~300\U{104} KSH}{Rada wykonuje uchwałę emisyjną, nie emituje akcji samodzielnie.}
+\Ust{6}{art.~300\U{106} KSH}{Większość 4/5 wynika z ustawy.}
+\Ust{7}{art.~300\U{2} KSH; swoboda umów}{Minimalna cena emisyjna.}
+
+\Par{seria-f}{Seria F --- Założyciele Funkcjonalni}
+\Ust{1--3}{art.~353\U{1} KC; art.~300\U{104} KSH}{Uchwała kwalifikacyjna nie daje roszczenia o objęcie akcji \Zr{malinowski}.}
+\Ust{4}{art.~300\U{104} §~1 pkt~7 KSH; art.~300\U{9} §~1 KSH}{Wkład pracą lub usługami wnosi się najpóźniej w 3 lata od wpisu emisji.}
+\Ust{5--7}{art.~300\U{2} KSH; art.~300\U{39} KSH}{Akcje serii~F są zwykłe; podlegają ograniczeniom zbywania i vestingowi.}
+
+\Par{seria-p}{Seria P --- program motywacyjny}
+\Ust{1--3}{art.~300\U{103}--300\U{107}, 300\U{114}--300\U{118} (w tym 300\U{116} §~2) i 300\U{106} §~2 KSH}{Warunkowa emisja wymaga wpisu zmiany umowy przed przyznaniem praw.}
+\Ust{4--5}{art.~24 ust.~11 i nast. PIT \Zr{pit} (programy motywacyjne)}{Skutki podatkowe dla uczestników wymagają odrębnej analizy przy tworzeniu regulaminu.}
+
+\Par{zbywanie}{Zbywanie i obciążanie akcji}
+\Ust{1}{art.~300\U{39} §~1 KSH; art.~300\U{36} KSH (forma dokumentowa); art.~77\U{2} KC; art.~64 KC i art.~1047 KPC \Zr{kpc}}{Milczenie Rady nie jest zgodą; ścieżka uchwały akcjonariuszy i powództwa z art.~64 KC zapobiega blokadzie.}
+\Ust{2}{lit.~a: \Zr{uki}, \Zr{fdi}, \Zr{sankcje}, \Zr{usank}, \Zr{uots}; lit.~b: \Zr{uki}; lit.~e: swoboda umów (art.~300\U{39} KSH)}{Zamknięty katalog przyczyn odmowy chroni akcjonariusza przed arbitralnością.}
+\Ust{3}{art.~300\U{39} §~2--6 KSH}{Wyłączenie obowiązku wskazania nabywcy, z wyjątkiem odmowy wobec konkurenta.}
+\Ust{4}{art.~300\U{39} §~1 KSH; art.~57 §~2 KC}{Lock-up 12 miesięcy --- typowe zabezpieczenie stabilności zespołu.}
+\Ust{5}{art.~300\U{40} KSH}{Zbycie akcji niepokrytej wymaga zgody Spółki z mocy ustawy.}
+\Ust{6}{art.~353\U{1} KC}{Prawa pierwszeństwa i tag/drag-along wymagają zmiany umowy albo umowy akcjonariuszy \Zr{ua}.}
+
+\Par{obowiazek-zbycia}{Obowiązek zbycia akcji po ustaniu zaangażowania}
+\Ust{1--3}{obowiązki związane z akcją przewidziane w umowie (por. art.~356 KSH w spółce akcyjnej); art.~353\U{1} KC}{Vesting w formie obowiązku zbycia --- akcje dają pełne prawa do chwili zbycia \Zr{malinowski}.}
+\Ust{4}{art.~393 KC (umowa na rzecz osoby trzeciej); art.~58 i 5 KC}{Cena emisyjna jako cena odkupu wynika z mechanizmu przyjętego przy zawiązaniu; ocena pod kątem zasad współżycia.}
+\Ust{5}{art.~353\U{1} KC}{Automatyczne zwolnienie przy dobrym odejściu ogranicza ryzyko sporu.}
+\Ust{6}{art.~101 §~1 KC (pełnomocnictwo nieodwołalne); art.~300\U{79} KSH}{Umowa wykonawcza i pełnomocnictwo --- \Zr{ua} §~5.}
+\Ust{7}{art.~300\U{31} i nast. KSH}{Obowiązek ujawnia się w rejestrze, aby wiązał nabywców akcji.}
+\Ust{8}{art.~922 KC; art.~1035 KC}{Spadkobiercy wstępują w prawa i obowiązki związane z akcjami.}
+
+\Par{rada}{Organy Spółki i Rada Dyrektorów}
+\Ust{1--2}{art.~300\U{73} §~1 i §~3 KSH}{System monistyczny \Zr{opalski}, \Zr{ecfr}.}
+\Ust{3}{art.~300\U{56} KSH}{Kadencja wspólna; mandat wygasa najpóźniej 6 miesięcy po upływie kadencji.}
+\Ust{4}{art.~300\U{76} KSH; art.~300\U{75} §~2--3 KSH}{Co najmniej jeden dyrektor niewykonawczy zapewnia funkcję nadzorczą.}
+\Ust{5--6}{art.~300\U{75} KSH; art.~78\U{1} i 77\U{2} KC}{Zasady głosowania i konflikt interesów --- dyrektor nie głosuje w sprawie, w której ma sprzeczny interes.}
+\Ust{7}{art.~300\U{75} §~2--3 KSH; art.~300\U{81} KSH}{Limity wewnętrzne; nie wpływają na ważność czynności wobec osób trzecich (§~\ref{art:reprezentacja} ust.~4).}
+\Ust{8}{art.~353\U{1} KC}{Regulamin Rady przyjmuje Rada.}
+
+\Par{reprezentacja}{Reprezentacja Spółki}
+\Ust{1}{art.~300\U{73} §~1 KSH}{Reprezentacja łączna.}
+\Ust{2}{art.~109\U{1}--109\U{9} KC (prokura); art.~300\U{75} §~3 KSH}{Prokurę może odwołać każdy dyrektor.}
+\Ust{3}{art.~300\U{79} §~1, 3 i 4 KSH; art.~15 KSH}{Na tle art.~210 KSH umowa zawarta z naruszeniem szczególnej reprezentacji jest nieważna \Zr{sn4218}, \Zr{jara}.}
+\Ust{4}{art.~300\U{73} KSH}{Ograniczenia wewnętrzne nie działają wobec osób trzecich.}
+
+\Par{wz}{Uchwały akcjonariuszy --- tryb, zdalne głosowanie i terminy}
+\Ust{1}{art.~300\U{80} §~1--2 KSH}{Głosowanie e-mailem nie wymaga zgody wszystkich akcjonariuszy; na piśmie --- wymaga.}
+\Ust{2}{art.~77\U{2} KC; art.~61 §~2 KC}{E-mail z adresu z rejestru = forma dokumentowa.}
+\Ust{3}{art.~300\U{80} §~3 KSH}{Tryb poza WZ, terminy 3 dni robocze -- 21 dni.}
+\Ust{4}{art.~300\U{90} KSH}{WZ bez formalnego zwołania.}
+\Ust{5--6}{art.~300\U{92} KSH}{Udział zdalny według regulaminu WZ.}
+\Ust{7}{art.~300\U{5} KSH; art.~353\U{1} KC}{Większości liczone od wszystkich głosów w Spółce.}
+\Ust{8}{art.~300\U{100} KSH}{Księga protokołów.}
+
+\Par{wz-zastrzezone}{Sprawy zastrzeżone dla Walnego Zgromadzenia}
+\Ust{1}{art.~300\U{81} KSH; art.~15 §~1 KSH (lit.~j); art.~17 §~1 KSH}{Czynność bez uchwały wymaganej ustawą jest nieważna; bez zgody wymaganej tylko umową --- ważna, z odpowiedzialnością dyrektorów.}
+\Ust{2}{art.~300\U{106} KSH}{4/5 przy wyłączeniu prawa poboru.}
+\Ust{3}{art.~300\U{81} KSH}{Sprawy zwykłe --- bezwzględna większość oddanych.}
+\Ust{4}{art.~300\U{75} §~2 KSH; art.~300\U{81} pkt~3 KSH}{Uchwała WZ jako zgoda, nie zastępuje uchwały Rady.}
+
+\Par{ip}{Własność intelektualna, poufność i bezpieczeństwo}
+\Ust{1}{art.~12, 41 ust.~2--3, 53 i 74 ust.~3 PrAut; art.~11 ust.~3 i art.~22 PWP}{Utwory pracownicze i zamówione; wymóg formy pisemnej; potwierdzenia kwartalne \Zr{barta}, \Zr{kostanski}, \Zr{ip}.}
+\Ust{2}{art.~67 PrAut (licencja); art.~65 KC}{Licencja na technologię sprzed zawiązania na 5 lat z przedłużeniem.}
+\Ust{3}{art.~11 UZNK \Zr{uznk}; \Zr{tsd}; art.~100 §~2 pkt~4 KP \Zr{kp}}{Ochrona tajemnicy wymaga realnych działań Spółki \Zr{sn30400}, \Zr{szwaja}, \Zr{polityka}.}
+\Ust{4}{\Zr{uots}, \Zr{dualuse}, \Zr{sankcje}, \Zr{usank}}{Transfer technologii także wewnątrz Spółki może wymagać zezwolenia.}
+\Ust{5}{art.~353\U{1} KC; dla pracowników art.~101\U{1}--101\U{4} KP}{Zakaz konkurencji w okresie zaangażowania lub funkcji; po odejściu --- \Zr{ua} §~8.}
+\Ust{6}{art.~415, 471 KC; art.~730 i nast. KPC}{Kary umowne są w umowie akcjonariuszy \Zr{sn6103}; wobec pracowników niedopuszczalne \Zr{sn12007}.}
+
+\Par{zysk}{Zysk i wypłaty}
+\Ust{1}{art.~300\U{5} KSH; art.~353\U{1} KC}{Rekomendacja reinwestowania nie jest zakazem wypłat.}
+\Ust{2}{art.~300\U{15} KSH (test wypłacalności)}{Wypłata naruszająca test rodzi odpowiedzialność dyrektorów.}
+\Ust{3}{\Zr{uor}; art.~300\U{3} KSH}{Kapitał rezerwowy na akcje własne.}
+\Ust{4}{art.~300\U{15} KSH}{Zaliczki na dywidendę.}
+\Ust{5}{art.~3 ust.~1 pkt~9 UoR \Zr{uor}}{Wydłużony pierwszy rok obrotowy.}
+
+\Par{likwidacja}{Rozwiązanie i likwidacja Spółki}
+\Ust{1--2}{przepisy KSH o rozwiązaniu i likwidacji PSA}{Uchwała 75\% wszystkich głosów.}
+\Ust{3}{\Zr{uots}, \Zr{dualuse}, \Zr{uoni}}{Klasyfikacja eksportowa przed zbyciem nośników i prototypów.}
+\Ust{4}{przepisy KSH o podziale majątku}{Podział proporcjonalny do liczby akcji.}
+
+\Par{final}{Postanowienia końcowe}
+\Ust{1}{przepisy o zmianie umowy PSA; art.~300\U{5} KSH}{Zaostrzenie obowiązków związanych z akcją wymaga zgody akcjonariusza, którego dotyczy.}
+\Ust{2}{art.~58 §~3 KC}{Klauzula salwatoryjna.}
+\Ust{3}{art.~65 KC}{Wykładnia dynamiczna odesłań.}
+\Ust{4}{art.~183\U{1} i nast. KPC (mediacja); art.~730 KPC}{Mediacja nie wstrzymuje terminów zaskarżenia uchwał.}
+\Ust{5}{art.~300\U{5} KSH}{Załącznik nr~1 jest częścią umowy; niniejszy komentarz --- nie.}
+\Ust{6}{art.~300\U{79} §~1 KSH; art.~300\U{31} KSH}{Pierwsze uchwały w akcie zawiązania.}
+
+\multicolumn{3}{@{}l}{\rule{0pt}{1.4em}\textbf{Załącznik nr~1 do umowy}} \\ \midrule
+\Ust{A--C}{art.~300\U{5} §~1 pkt~3 KSH; art.~5a pkt~34--35, art.~17 ust.~1e i art.~22 ust.~1e PIT; art.~74 ust.~3 PrAut}{Część B1 tylko dla twórcy posiadającego prawa; program pracowniczy należy do pracodawcy.}
+\end{longtable}
+}
+
+\end{document}
