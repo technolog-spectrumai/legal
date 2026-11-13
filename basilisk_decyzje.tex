@@ -378,8 +378,8 @@ Odkup akcji niezwolnionych po cenie emisyjnej to rozwiązanie rynkowe, ale sąd 
   \node[box=4.4cm, fill=black!8] (u) {\textbf{Umowa albo spór Spółki z dyrektorem}};
   \node[q=3.0cm, below=of u] (q) {Dyrektor wykonawczy?};
   \node[rd=4.6cm, below left=9mm and -10mm of q] (dn) {Dyrektor niewykonawczy na podstawie uchwały dyrektorów niewykonawczych\\\textbf{albo} pełnomocnik z uchwały akcjonariuszy};
-  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy (może być poza WZ; nie może być stroną umowy)};
-  \node[xx=9.8cm, below=30mm of q] (poz) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
+  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy do zawarcia, zmiany, wykonania i rozwiązania umowy (może być poza WZ; nie strona umowy ani inny dyrektor)};
+  \node[xx=9.8cm, anchor=north] (poz) at ($(q |- pe.south)+(0,-5mm)$) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
   \draw[line] (u) -- (q);
   \draw[line] (q) -- node[lbl, left]{tak} (dn);
   \draw[line] (q) -- node[lbl, right]{nie} (pe);
@@ -387,7 +387,7 @@ Odkup akcji niezwolnionych po cenie emisyjnej to rozwiązanie rynkowe, ale sąd 
 \caption{Reprezentacja Spółki w sprawach z dyrektorem (US §~\ref{art:reprezentacja} ust.~3).}
 \end{figure}
 
-Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Założycielami będącymi dyrektorami, umów wykonawczych do obowiązku zbycia i potwierdzeń kwartalnych. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich umów danego rodzaju.
+Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Założycielami będącymi dyrektorami, umów wykonawczych do obowiązku zbycia i potwierdzeń kwartalnych. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich umów danego rodzaju --- do ich zawarcia, zmiany, wykonania i rozwiązania oraz innych czynności z nimi związanych (US §~\ref{art:reprezentacja} ust.~3). Ten szeroki zakres jest potrzebny, bo szczególny tryb reprezentacji obejmuje każdą czynność związaną z umową, np. aneks do umowy IP albo jej rozwiązanie przy odejściu Założyciela (\Zr{sn4218}).
 
 % ================================================================
 \begin{Komentarz}

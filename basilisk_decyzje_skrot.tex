@@ -263,8 +263,8 @@ Dobre odejście zwalnia akcje automatycznie. Przy Odejściu Zwykłym akcje niezw
   \node[box=4.4cm, fill=black!8] (u) {\textbf{Umowa albo spór Spółki z dyrektorem}};
   \node[q=3.0cm, below=of u] (q) {Dyrektor wykonawczy?};
   \node[rd=4.6cm, below left=9mm and -10mm of q] (dn) {Dyrektor niewykonawczy na podstawie uchwały dyrektorów niewykonawczych\\\textbf{albo} pełnomocnik z uchwały akcjonariuszy};
-  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy (może być poza WZ; nie może być stroną umowy)};
-  \node[xx=9.8cm, below=30mm of q] (poz) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
+  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy do zawarcia, zmiany, wykonania i rozwiązania umowy (może być poza WZ; nie strona umowy ani inny dyrektor)};
+  \node[xx=9.8cm, anchor=north] (poz) at ($(q |- pe.south)+(0,-5mm)$) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
   \draw[line] (u) -- (q);
   \draw[line] (q) -- node[lbl, left]{tak} (dn);
   \draw[line] (q) -- node[lbl, right]{nie} (pe);
@@ -272,7 +272,7 @@ Dobre odejście zwalnia akcje automatycznie. Przy Odejściu Zwykłym akcje niezw
 \caption{Reprezentacja Spółki w sprawach z dyrektorem (US §~\ref{art:reprezentacja} ust.~3).}
 \end{figure}
 \begin{Komentarz}
-Za Spółkę nigdy nie podpisuje sam zainteresowany dyrektor. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich takich umów.
+Za Spółkę nigdy nie podpisuje sam zainteresowany dyrektor. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich takich umów --- także do ich zmiany i rozwiązania.
 \end{Komentarz}
 
 \section*{Zmiana umowy spółki}

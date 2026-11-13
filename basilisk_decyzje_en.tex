@@ -381,8 +381,8 @@ A buy-back of Unreleased Shares at the issue price is a market-standard solution
   \node[box=4.4cm, fill=black!8] (u) {\textbf{Agreement or dispute between the Company and a director}};
   \node[q=3.0cm, below=of u] (q) {Executive director?};
   \node[rd=4.6cm, below left=9mm and -7mm of q] (dn) {Non-executive director under a resolution of the non-executive directors\\\textbf{or} an attorney appointed by a shareholders' resolution};
-  \node[wz=4.6cm, below right=9mm and -7mm of q] (pe) {\textbf{Attorney} appointed by a shareholders' resolution (may be outside the GM; may not be a party to the agreement)};
-  \node[xx=9.8cm, below=33mm of q] (poz) {\textbf{Loan, credit, surety with a director:} Board resolution + GM consent 75\% + attorney appointed by a shareholders' resolution (Art.~\S~\ref{en-art:wz-zastrzezone}(1)(j), SHA~\S~\ref{shaen:finansowanie}(2))};
+  \node[wz=4.6cm, below right=9mm and -7mm of q] (pe) {\textbf{Attorney} appointed by a shareholders' resolution to conclude, amend, perform and terminate the agreement (may be outside the GM; neither a party nor another director)};
+  \node[xx=9.8cm, anchor=north] (poz) at ($(q |- pe.south)+(0,-5mm)$) {\textbf{Loan, credit, surety with a director:} Board resolution + GM consent 75\% + attorney appointed by a shareholders' resolution (Art.~\S~\ref{en-art:wz-zastrzezone}(1)(j), SHA~\S~\ref{shaen:finansowanie}(2))};
   \draw[line] (u) -- (q);
   \draw[line] (q) -- node[lbl, left]{yes} (dn);
   \draw[line] (q) -- node[lbl, right]{no} (pe);
@@ -390,7 +390,7 @@ A buy-back of Unreleased Shares at the issue price is a market-standard solution
 \caption{Representation of the Company in matters with a director (Art.~\S~\ref{en-art:reprezentacja}(3)).}
 \end{figure}
 
-This applies in particular to IP transfer agreements (Agreement No.~1 and No.~2) with Founders who are directors, implementing agreements for the transfer obligation and quarterly confirmations. A single shareholders' resolution may appoint an attorney for all agreements of a given type.
+This applies in particular to IP transfer agreements (Agreement No.~1 and No.~2) with Founders who are directors, implementing agreements for the transfer obligation and quarterly confirmations. A single shareholders' resolution may appoint an attorney for all agreements of a given type --- to conclude, amend, perform and terminate them and to perform other acts connected with them (Art.~\S~\ref{en-art:reprezentacja}(3)). This broad scope is needed because the special representation procedure covers every act connected with the agreement, e.g. an amendment to an IP agreement or its termination when a Founder leaves (\Zr{sn4218}).
 
 % ================================================================
 \begin{Komentarz}
