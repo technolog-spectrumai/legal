@@ -394,6 +394,30 @@ Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Z
 Na tle art.~210 KSH przyjmuje się, że umowa zawarta z członkiem organu z naruszeniem szczególnych zasad reprezentacji jest nieważna (\Zr{sn4218}, \Zr{jara}); to samo ryzyko dotyczy art.~300$^{79}$ KSH. Najbezpieczniej podjąć przy zawiązaniu jedną uchwałę akcjonariuszy powołującą pełnomocnika do umów IP i umów wykonawczych z dyrektorami (US §~\ref{art:final} ust.~6) i pilnować, by pełnomocnik nie był stroną danej umowy.
 \end{Komentarz}
 
+\section{Zmiana umowy spółki}
+
+Zmiana umowy spółki wymaga uchwały akcjonariuszy podjętej na Walnym Zgromadzeniu z protokołem notarialnym i wpisu do rejestru przedsiębiorców.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 7mm]
+  \node[box=4.6cm, fill=black!8] (p) {\textbf{Projekt zmiany umowy\\{\normalfont Rada albo akcjonariusz}}};
+  \node[wz=4.6cm, below=of p] (wz) {\textbf{Walne Zgromadzenie\\{\normalfont z notariuszem (nie e-mailem)}}};
+  \node[wz=4.6cm, below=of wz] (g) {\textbf{75\% wszystkich głosów w Spółce\\{\normalfont US §~\ref{art:wz-zastrzezone} ust.~1 lit.~a}}};
+  \node[xx=3.6cm, left=8mm of g] (pp) {\textbf{Wyłączenie prawa poboru?}\\$\to$ 4/5 głosów\\(US §~\ref{art:emisje} ust.~6)};
+  \node[xx=3.6cm, right=8mm of g] (ob) {\textbf{Więcej obowiązków akcjonariusza?} (lock-up, vesting)\\$\to$ + zgoda każdego, kogo dotyczy (US §~\ref{art:final} ust.~1)};
+  \node[wz=4.6cm, below=of g] (n) {\textbf{Protokół notarialny}};
+  \node[rd=4.6cm, below=of n] (k) {\textbf{Wpis do KRS\\{\normalfont dopiero wtedy zmiana działa}}};
+  \draw[line] (p) -- (wz); \draw[line] (wz) -- (g); \draw[line] (g) -- (n); \draw[line] (n) -- (k);
+  \draw[line, dashed] (g) -- (pp); \draw[line, dashed] (g) -- (ob);
+\end{tikzpicture}
+\caption{Zmiana umowy spółki (US §~\ref{art:wz} ust.~1, §~\ref{art:wz-zastrzezone} ust.~1 lit.~a, §~\ref{art:final} ust.~1).}
+\end{figure}
+
+\begin{Komentarz}
+Przy podziale 50/20/10/10/10: Założyciel~A (50\%) sam nie zmieni umowy, ale może zablokować każdą zmianę; A z~B (70\%) to za mało --- potrzebny jest jeszcze co najmniej jeden Założyciel z 10\%. Bez A zmiany nie da się przeprowadzić (pozostali mają razem 50\%).
+\end{Komentarz}
+
 \section{Emisje akcji}
 
 \begin{figure}[H]
