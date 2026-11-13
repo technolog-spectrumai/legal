@@ -1,0 +1,1861 @@
+II
+(Akty o charakterze nieustawodawczym)
+ROZPORZĄDZENIA
+ROZPORZĄDZENIE DELEGOWANE KOMISJI (UE) 2019/945
+z dnia 12 marca 2019 r.
+w sprawie bezzałogowych systemów powietrznych oraz operatorów bezzałogowych systemów
+powietrznych z państw trzecich
+KOMISJA EUROPEJSKA,
+uwzględniając Traktat o funkcjonowaniu Unii Europejskiej,
+uwzględniając rozporządzenie Parlamentu Europejskiego i Rady (UE) 2018/1139 z dnia 4 lipca 2018 r. w sprawie
+wspólnych zasad w dziedzinie lotnictwa cywilnego i utworzenia Agencji Unii Europejskiej ds. Bezpieczeństwa
+Lotniczego oraz zmieniające rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 2111/2005, (WE) nr 1008/2008,
+(UE) nr 996/2010, (UE) nr 376/2014 i dyrektywy Parlamentu Europejskiego i Rady 2014/30/UE i 2014/53/UE, a także
+uchylające rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 552/2004 i (WE) nr 216/2008 i rozporządzenie
+Rady (EWG) nr 3922/91 (1), w szczególności jego art. 58 i 61,
+a także mając na uwadze, co następuje:
+(1) Bezzałogowe systemy powietrzne, których eksploatacja wiąże się z najniższym ryzykiem i należy do operacji
+w ramach kategorii „otwartej”, nie powinny podlegać klasycznym lotniczym procedurom zgodności. W przypadku
+tych bezzałogowych systemów powietrznych należy skorzystać z możliwości ustanowienia wspólnotowego
+prawodawstwa harmonizacyjnego, o którym mowa w art. 56 ust. 6 rozporządzenia (UE) 2018/1139. W związku
+z tym należy określić wymogi dotyczące ryzyka związanego z operacjami tych bezzałogowych systemów
+powietrznych, w pełni uwzględniając inne mające zastosowanie przepisy unijnego prawodawstwa harmonizacyjnego.
+(2) Wymogi te powinny obejmować zasadnicze wymogi przewidziane w art. 55 rozporządzenia (UE) 2018/1139,
+w szczególności w odniesieniu do konkretnych cech i funkcji niezbędnych do ograniczenia ryzyka związanego
+z operacjami wykonywanymi przez te bezzałogowe systemy powietrzne w zakresie: bezpieczeństwa lotu,
+prywatności i ochrony danych osobowych, ochrony lub środowiska.
+(3) Kiedy producent wprowadza na rynek bezzałogowe systemy powietrzne z zamiarem udostępnienia go na
+potrzeby operacji w ramach kategorii „otwartej” i w związku z tym umieszcza na nim etykietę identyfikacyjną tej
+klasy, zobowiązany jest zapewnić zgodność tego bezzałogowego systemu powietrznego z wymogami
+dotyczącymi tej klasy.
+(4) Biorąc pod uwagę dobry poziom bezpieczeństwa osiągnięty przez model statku powietrznego udostępniony już
+na rynku, należy stworzyć klasę C4 bezzałogowych systemów powietrznych, nie narzucając nieproporcjonalnych
+wymogów technicznych, z korzyścią dla operatorów modeli statków powietrznych.
+(5) Niniejsze rozporządzenie powinno mieć również zastosowanie do bezzałogowych systemów powietrznych, które
+uznaje się za zabawki w rozumieniu dyrektywy Parlamentu Europejskiego i Rady 2009/48/WE (2). Te bezzałogowe
+systemy powietrzne muszą spełniać również wymogi dyrektywy 2009/48/WE. Ten wymóg zgodności należy
+uwzględnić przy określaniu w niniejszym rozporządzeniu dodatkowych wymogów bezpieczeństwa.
+(6) Bezzałogowe systemy powietrzne, które nie są zabawkami w rozumieniu dyrektywy 2009/48/WE, muszą spełniać
+odpowiednie zasadnicze wymogi w zakresie ochrony zdrowia i bezpieczeństwa określone w dyrektywie
+2006/42/WE Parlamentu Europejskiego i Rady (3) w zakresie, w jakim ta dyrektywa ma do nich zastosowanie
+i w jakim te wymogi dotyczące ochrony zdrowia i bezpieczeństwa nie są nierozerwalnie związane z bezpieczeństwem
+lotu bezzałogowych systemów powietrznych. W przypadkach gdy te wymogi w zakresie zdrowia i bezpieczeństwa
+są nierozerwalnie związane z bezpieczeństwem lotu, zastosowanie powinno mieć jedynie niniejsze rozporządzenie.
+11.6.2019 L 152/1Dziennik Urzędowy Unii EuropejskiejPL
+(1) Dz.U. L 212 z 22.8.2018, s. 1.
+(2) Dyrektywa Parlamentu Europejskiego i Rady 2009/48/WE z dnia 18 czerwca 2009 r. w sprawie bezpieczeństwa zabawek (Dz.U. L 170
+z 30.6.2009, s. 1).
+(3) Dyrektywa 2006/42/WE Parlamentu Europejskiego i Rady z dnia 17 maja 2006 r. w sprawie maszyn, zmieniająca dyrektywę 95/16/WE
+(Dz.U. L 157 z 9.6.2006, s. 24).
+(7) Dyrektywy Parlamentu Europejskiego i Rady 2014/30/UE (4) i 2014/53/UE (5) nie powinny mieć zastosowania do
+bezzałogowych statków powietrznych, które podlegają certyfikacji zgodnie z rozporządzeniem (UE) 2018/1139,
+są przeznaczone wyłącznie do stosowania w lotnictwie i do eksploatacji wyłącznie na częstotliwościach przydzie
+lonych w regulacjach radiowych Międzynarodowego Związku Telekomunikacyjnego do celów chronionego
+użytkowania lotniczego.
+(8) Dyrektywa 2014/53/UE powinna mieć zastosowanie do bezzałogowych statków powietrznych, które nie
+podlegają certyfikacji i nie są przeznaczone do eksploatacji wyłącznie na częstotliwościach przydzielonych
+w regulacjach radiowych Międzynarodowego Związku Telekomunikacyjnego do celów chronionego użytkowania
+lotniczego, jeżeli celowo emitują lub odbierają fale elektromagnetyczne do celów łączności radiowej lub
+radiolokacji na częstotliwościach poniżej 3 000 GHz.
+(9) Dyrektywa 2014/30/UE powinna mieć zastosowanie do bezzałogowych statków powietrznych, które nie
+podlegają certyfikacji i nie mają być eksploatowane wyłącznie na częstotliwościach przydzielonych w regulacjach
+radiowych Międzynarodowego Związku Telekomunikacyjnego do celów chronionego użytkowania lotniczego,
+jeżeli nie są objęte zakresem dyrektywy 2014/53/UE.
+(10) Decyzją Parlamentu Europejskiego i Rady nr 768/2008/WE (6) określono wspólne zasady i przepisy
+horyzontalne, które mają mieć zastosowanie do wprowadzania do obrotu produktów podlegających
+odpowiednim przepisom sektorowym. Aby zapewnić spójność z innymi przepisami sektorowymi dotyczącymi
+produktów, przepisy dotyczące wprowadzania do obrotu bezzałogowych systemów powietrznych przezna
+czonych do eksploatacji w ramach kategorii „otwartej”, należy dostosować do ram ustanowionych decyzją
+768/2008/WE.
+(11) Dyrektywa 2001/95/WE (7) ma zastosowanie do zagrożeń dla bezpieczeństwa bezzałogowych systemów
+powietrznych w zakresie, w jakim nie istnieją szczegółowe przepisy unijne regulujące bezpieczeństwo danych
+produktów, mające ten sam cel.
+(12) Niniejsze rozporządzenie powinno mieć zastosowanie do wszystkich form dostawy, w tym sprzedaży na
+odległość.
+(13) Państwa członkowskie powinny podjąć kroki niezbędne do zapewnienia, by bezzałogowe systemy powietrzne
+przeznaczone do eksploatacji w ramach kategorii „otwartej” były udostępniane na rynku i oddawane do użytku
+wyłącznie wówczas, gdy przy normalnym użytkowaniu nie stanowią zagrożenia dla zdrowia ani bezpieczeństwa
+osób, zwierząt domowych ani mienia.
+(14) Aby zapewnić obywatelom wysoki poziomu ochrony środowiska należy w jak największym stopniu ograniczyć
+emisje hałasu. Na koniec okresów przejściowych określonych w rozporządzeniu wykonawczym Komisji (UE)
+2019/947 (8) można dokonać przeglądu ograniczeń mocy akustycznej bezzałogowych systemów powietrznych
+przeznaczonych do eksploatacji w ramach kategorii „otwartej”.
+(15) Należy zwrócić szczególną uwagę na zapewnienie zgodności produktów w kontekście rozwoju handlu elektro
+nicznego. W tym celu należy zachęcać państwa członkowskie do współpracy z właściwymi organami
+w państwach trzecich oraz do rozwijania współpracy między organami nadzoru rynku a organami celnymi.
+Organy nadzoru rynku powinny w miarę możliwości stosować procedury zgłaszania i reagowania oraz nawiązać
+współpracę z organami krajowymi odpowiedzialnymi za wdrażanie dyrektywy 2000/31/WE Parlamentu Europej
+skiego i Rady (9). Powinny one utrzymywać bliskie kontakty umożliwiające szybkie reagowanie z głównymi
+pośrednikami, którzy świadczą usługi hostingu na potrzeby sprzedaży produktów online.
+(16) Aby zapewnić wysoki poziom ochrony interesu publicznego, np. w kwestiach bezpieczeństwa i zdrowia, oraz
+zagwarantować uczciwą konkurencję na rynku unijnym, podmioty gospodarcze powinny być odpowiedzialne za
+zgodność bezzałogowych systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii „otwartej”
+z wymogami określonymi w niniejszym rozporządzeniu, odpowiednio do ich roli w łańcuchu dostaw
+i dystrybucji. Należy zatem określić wyraźny i proporcjonalny podział obowiązków, odpowiednio do roli
+każdego z podmiotów gospodarczych w łańcuchu dostaw i dystrybucji.
+11.6.2019L 152/2 Dziennik Urzędowy Unii EuropejskiejPL
+(4) Dyrektywa Parlamentu Europejskiego i Rady 2014/30/UE z dnia 26 lutego 2014 r. w sprawie harmonizacji ustawodawstw państw
+członkowskich odnoszących się do kompatybilności elektromagnetycznej (Dz.U. L 96 z 29.3.2014, s. 79).
+(5) Dyrektywa Parlamentu Europejskiego i Rady 2014/53/UE z dnia 16 kwietnia 2014 r. w sprawie harmonizacji ustawodawstw państw
+członkowskich dotyczących udostępniania na rynku urządzeń radiowych i uchylająca dyrektywę 1999/5/WE (Dz.U. L 153 z 22.5.2014,
+s. 62).
+(6) Decyzja Parlamentu Europejskiego i Rady nr 768/2008/WE z dnia 9 lipca 2008 r. w sprawie wspólnych ram dotyczących wprowadzania
+produktów do obrotu, uchylająca decyzję Rady 93/465/EWG (Dz.U. L 218 z 13.8.2008, s. 82).
+(7) Dyrektywa 2001/95/WE Parlamentu Europejskiego i Rady z dnia 3 grudnia 2001 r. w sprawie ogólnego bezpieczeństwa produktów
+(Dz.U. L 11 z 15.1.2002, s. 4).
+(8) Rozporządzenie wykonawcze Komisji (UE) 2019/947 z dnia 24 maja 2019 r. w sprawie przepisów i procedur dotyczących eksploatacji
+bezzałogowych statków powietrznych (zob. s. 45 niniejszego Dziennika Urzędowego).
+(9) Dyrektywa 2000/31/WE Parlamentu Europejskiego i Rady z dnia 8 czerwca 2000 r. w sprawie niektórych aspektów prawnych usług
+społeczeństwa informacyjnego, w szczególności handlu elektronicznego w ramach rynku wewnętrznego (dyrektywa o handlu elektro
+nicznym) (Dz.U. L 178 z 17.7.2000, s. 1).
+(17) Aby ułatwić komunikację między podmiotami gospodarczymi, krajowymi organami nadzoru rynku
+i konsumentami, podmioty gospodarcze wprowadzające na rynek lub dostarczające bezzałogowe systemy
+powietrzne przeznaczone do eksploatacji w ramach kategorii „otwartej” powinny podawać oprócz adresu
+pocztowego adres strony internetowej.
+(18) Do przeprowadzenia procedury oceny zgodności bezzałogowych systemów powietrznych przeznaczonych do
+eksploatacji w ramach kategorii „otwartej” najbardziej kompetentny jest producent, ponieważ ma on dokładną
+wiedzę o procesie projektowania i produkcji. Ocena zgodności powinna zatem pozostać wyłącznym
+obowiązkiem producenta.
+(19) Niniejsze rozporządzenie powinno mieć zastosowanie do każdego bezzałogowego systemu powietrznego
+przeznaczonego do eksploatacji w ramach kategorii „otwartej”, który jest nowy na unijnym rynku, niezależnie od
+tego czy jest to nowy bezzałogowy system powietrzny wyprodukowany przez producenta mającego siedzibę
+w Unii, czy też nowy lub używany bezzałogowy system powietrzny importowany z państwa trzeciego.
+(20) Należy koniecznie dopilnować, aby wprowadzane na rynek Unii bezzałogowe systemy powietrzne z państw
+trzecich, które są przeznaczone do eksploatacji w ramach kategorii „otwartej”, spełniały wymogi niniejszego
+rozporządzenia. W szczególności należy dopilnować, aby producenci przeprowadzali odpowiednie procedury
+oceny zgodności. Dlatego też należy wprowadzić przepis, zgodnie z którym importerzy upewniają się co do
+zgodności bezzałogowych systemów powietrznych wprowadzanych przez nich do obrotu z wymogami niniejszego
+rozporządzenia i nie wprowadzają do obrotu bezzałogowych systemów powietrznych niespełniających tych
+wymogów lub stwarzających zagrożenie. Należy również wprowadzić przepis, zgodnie z którym importerzy
+upewniają się, że przeprowadzono procedury oceny zgodności oraz że oznakowanie CE i dokumentacja techniczna
+sporządzone przez producentów są dostępne na potrzeby kontroli ze strony właściwych organów krajowych.
+(21) Dystrybutor, który udostępnia na rynku bezzałogowe systemy powietrzne przeznaczone do eksploatacji
+w ramach kategorii „otwartej”, powinien działać z należytą starannością, tak aby manipulowanie przez niego
+produktem nie wpłynęło negatywnie na jego zgodność z wymogami. Zarówno od importerów, jak i od dystry
+butorów oczekuje się, że przy wprowadzaniu produktów do obrotu lub ich udostępnianiu na rynku będą
+postępowali z należytą starannością w odniesieniu do obowiązujących wymogów.
+(22) Wprowadzając do obrotu bezzałogowy system powietrzny przeznaczony do eksploatacji w ramach kategorii
+„otwartej”, każdy importer musi umieścić na nim swoją nazwę, zarejestrowaną nazwę handlową lub zarejes
+trowany znak towarowy oraz adres, pod którym można się z nim skontaktować. Należy wprowadzić wyjątki od
+tej zasady, w przypadkach gdy uniemożliwia to wielkość bezzałogowego systemu powietrznego. Dotyczy to
+przypadków, w których importer musiałby otworzyć opakowanie, aby umieścić na bezzałogowym systemie
+powietrznym swoją nazwę i adres.
+(23) Każdy podmiot gospodarczy wprowadzający do obrotu bezzałogowy system powietrzny przeznaczony do
+eksploatacji w ramach kategorii „otwartej” pod własną nazwą lub znakiem towarowym, albo modyfikujący
+bezzałogowy system powietrzny przeznaczony do eksploatacji w ramach kategorii „otwartej” w sposób mogący
+wpłynąć na jego zgodność z obowiązującymi wymogami, należy uznać za producenta i obarczyć wynikającymi
+z tego obowiązkami.
+(24) Dystrybutorzy i importerzy, ze względu na bliski związek z rynkiem, powinni być zaangażowani w zadania
+związane z nadzorem rynku realizowane przez właściwe organy krajowe oraz przygotowani do aktywnego
+udziału w wykonywaniu tych zadań poprzez dostarczanie tym organom wszystkich niezbędnych informacji
+dotyczących bezzałogowych systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii
+„otwartej”.
+(25) Zapewnienie identyfikowalności w całym łańcuchu dostaw w odniesieniu do bezzałogowych systemów
+powietrznych przeznaczonych do eksploatacji w ramach kategorii „otwartej” pomaga w uproszczeniu nadzoru
+rynku i poprawie jego skuteczności. Skuteczny system identyfikacji ułatwia organom nadzoru rynku realizację
+zadania polegającego na identyfikacji podmiotów gospodarczych udostępniających na rynku bezzałogowe
+systemy powietrzne niespełniające wymogów.
+(26) Niniejsze rozporządzenie należy ograniczyć do ustanowienia zasadniczych wymogów. Aby ułatwić ocenę
+zgodności bezzałogowych systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii „otwartej”
+z tymi wymogami na potrzeby określenia w odniesieniu do nich szczegółowych specyfikacji technicznych, należy
+ustanowić domniemanie zgodności produktów, które są zgodne z normami zharmonizowanymi przyjmowanymi
+zgodnie z rozporządzeniem Parlamentu Europejskiego i Rady (UE) nr 1025/2012 (10).
+(27) Zasadnicze wymogi mające zastosowanie do bezzałogowych systemów powietrznych przeznaczonych do
+eksploatacji w ramach kategorii „otwartej” powinny być sformułowane w sposób na tyle precyzyjny, aby
+tworzyły prawnie wiążące zobowiązania. Ich brzmienie powinno umożliwiać ocenę zgodności z nimi nawet
+w przypadku braku norm zharmonizowanych lub gdy producent zdecyduje się nie stosować danej normy
+zharmonizowanej.
+11.6.2019 L 152/3Dziennik Urzędowy Unii EuropejskiejPL
+(10) Rozporządzenie Parlamentu Europejskiego i Rady (UE) nr 1025/2012 z dnia 25 października 2012 r. w sprawie normalizacji
+europejskiej, zmieniające dyrektywy Rady 89/686/EWG i 93/15/EWG oraz dyrektywy Parlamentu Europejskiego i Rady 94/9/WE,
+94/25/WE, 95/16/WE, 97/23/WE, 98/34/WE, 2004/22/WE, 2007/23/WE, 2009/23/WE i 2009/105/WE oraz uchylające decyzję Rady
+87/95/EWG i decyzję Parlamentu Europejskiego i Rady nr 1673/2006/WE (Dz.U. L 316 z 14.11.2012, s. 12).
+(28) Rozporządzenie (UE) nr 1025/2012 określa procedurę sprzeciwu wobec norm zharmonizowanych w przypadku,
+gdy nie spełniają one w całości wymogów prawodawstwa harmonizacyjnego mających zastosowanie do bezzało
+gowych systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii „otwartej” na podstawie
+niniejszego rozporządzenia. W stosownych przypadkach procedura ta powinna mieć zastosowanie do norm,
+które wskazano w Dzienniku Urzędowym jako stanowiące podstawę domniemania zgodności z wymogami ustano
+wionymi w niniejszym rozporządzeniu.
+(29) Należy ustanowić procedury oceny zgodności, aby umożliwić podmiotom gospodarczym wykazanie,
+a właściwym organom dopilnowanie spełnienia zasadniczych wymogów przez udostępniane na rynku
+bezzałogowe systemy powietrzne przeznaczone do eksploatacji w ramach kategorii „otwartej”. Decyzją
+nr 768/2008/WE ustanowiono moduły procedur oceny zgodności, obejmujące procedury od najmniej do
+najbardziej rygorystycznej, proporcjonalnie do poziomu występującego ryzyka oraz do wymaganego poziomu
+bezpieczeństwa. Aby zapewnić spójność między sektorami oraz uniknąć stosowania doraźnych wariantów
+procedury oceny zgodności, należy wybierać procedury oceny zgodności spośród tych modułów.
+(30) Organy nadzoru rynku i operatorzy bezzałogowych systemów powietrznych powinni mieć łatwy dostęp do
+deklaracji zgodności UE. Aby spełnić ten wymóg, producenci mają dopilnować dołączenia do każdego bezzało
+gowego systemu powietrznego przeznaczonego do eksploatacji w ramach kategorii „otwartej”, jednego
+egzemplarza deklaracji zgodności UE lub adresu strony internetowej, na której dostępna jest deklaracja zgodności
+UE.
+(31) Aby zapewnić skuteczny dostęp do informacji na potrzeby nadzoru rynku, informacje potrzebne do identyfikacji
+aktów Unii mających zastosowanie do bezzałogowych systemów powietrznych przeznaczonych do eksploatacji
+w ramach kategorii „otwartej” powinny być dostępne w jednej deklaracji zgodności UE. Aby zmniejszyć
+obciążenie administracyjne podmiotów gospodarczych, należy dopuścić stosowanie dla tej jednej deklaracji
+zgodności UE formy folderu złożonego z odpowiednich poszczególnych deklaracji zgodności.
+(32) Oznakowanie CE wskazujące zgodność produktu jest widoczną konsekwencją całego procesu oceny zgodności
+w szerokim znaczeniu. Ogólne zasady regulujące oznakowanie CE ustanowiono w rozporządzeniu Parlamentu
+Europejskiego i Rady (WE) nr 765/2008 (11). W niniejszym rozporządzeniu należy określić zasady dotyczące
+umieszczania oznakowania CE na bezzałogowych systemach powietrznych przeznaczonych do eksploatacji
+w ramach kategorii „otwartej”.
+(33) Niektóre klasy bezzałogowych systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii
+„otwartej” objęte niniejszym rozporządzeniem wymagają interwencji jednostek oceniających zgodność. Państwa
+członkowskie powinny zgłaszać to Komisji.
+(34) Należy zapewnić jednakowo wysoki poziom skuteczności działania jednostek oceniających zgodność bezzało
+gowych systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii „otwartej” w całej Unii,
+a także funkcjonowanie wszystkich takich jednostek na tym samym poziomie i w warunkach uczciwej
+konkurencji. Z tego względu należy ustanowić obowiązkowe wymogi wobec jednostek oceniających zgodność,
+które chcą otrzymywać notyfikacje, aby świadczyć usługi oceny zgodności.
+(35) Jeżeli jednostka oceniająca zgodność wykaże, że bezzałogowy system powietrzny przeznaczony do eksploatacji
+w ramach kategorii „otwartej” spełnia kryteria określone w normach zharmonizowanych, należy założyć, że
+spełnia on również odpowiednie wymogi określone w niniejszym rozporządzeniu.
+(36) Aby zapewnić spójny poziom jakości oceny zgodności, należy także ustanowić wymogi mające zastosowane do
+organów notyfikujących i innych organów uczestniczących w ocenie, notyfikacji i monitorowaniu jednostek
+notyfikowanych.
+(37) W rozporządzeniu (WE) nr 765/2008 ustanowiono zasady akredytacji jednostek oceniających zgodność, ramy
+nadzoru rynku produktów i kontroli produktów pochodzących z państw trzecich, a także ogólne zasady
+dotyczące oznakowania CE. System określony w niniejszym rozporządzeniu należy uzupełnić o system
+akredytacji przewidziany w rozporządzeniu (WE) nr 765/2008.
+(38) Krajowe organy publiczne w całej Unii powinny stosować do wykazywania kompetencji technicznych jednostek
+oceniających zgodność przejrzystą metodę akredytacji przewidzianą w rozporządzeniu (WE) nr 765/2008,
+zapewniającą niezbędny poziom wiarygodności certyfikatów zgodności.
+11.6.2019L 152/4 Dziennik Urzędowy Unii EuropejskiejPL
+(11) Rozporządzenie Parlamentu Europejskiego i Rady (WE) nr 765/2008 z dnia 9 lipca 2008 r. ustanawiające wymagania w zakresie
+akredytacji i nadzoru rynku odnoszące się do warunków wprowadzania produktów do obrotu i uchylające rozporządzenie (EWG)
+nr 339/93 (Dz.U. L 218 z 13.8.2008, s. 30).
+(39) Jednostki oceniające zgodność często zlecają realizację części zadań związanych z oceną zgodności podwyko
+nawcom lub korzystają z usług jednostek zależnych. Aby zapewnić wymagany poziom bezpieczeństwa bezzało
+gowych systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii „otwartej”, które mają
+zostać wprowadzone do obrotu w Unii, bardzo ważne jest, aby przy wykonywaniu zadań związanych z oceną
+zgodności podwykonawcy i jednostki zależne spełniali te same wymogi, co jednostki notyfikowane. W związku
+z tym istotne jest, by ocena kompetencji i skuteczności działania jednostek, które mają otrzymać notyfikację, oraz
+monitorowanie jednostek, które już ją uzyskały, obejmowała również działania realizowane przez ich podwyko
+nawców i jednostki zależne.
+(40) Należy zwiększyć skuteczność i przejrzystość procedury notyfikacji, a w szczególności dostosować ją do nowych
+technologii, umożliwiając notyfikację online.
+(41) Ponieważ jednostki notyfikowane mogą oferować swoje usługi w całej Unii, należy zapewnić pozostałym
+państwom członkowskim i Komisji możliwość zgłaszania zastrzeżeń dotyczących jednostek notyfikowanych.
+Należy zatem wyznaczyć termin, w jakim możliwe będzie wyjaśnienie wszelkich wątpliwości lub obaw co do
+kompetencji jednostek oceniających zgodność przed rozpoczęciem przez nie działalności w charakterze jednostek
+notyfikowanych.
+(42) Z punktu widzenia konkurencyjności zasadnicze znaczenie ma, aby jednostki notyfikowane stosowały procedury
+oceny zgodności bez zbędnego obciążania administracyjnego podmiotów gospodarczych. Z tego samego powodu
+oraz w celu zapewnienia równego traktowania podmiotów gospodarczych należy zapewnić spójność
+stosowanych procedur oceny zgodności pod względem technicznym. Najlepszym sposobem osiągnięcia tego celu
+jest odpowiednia koordynacja jednostek notyfikowanych i współpraca między nimi.
+(43) Zainteresowane strony powinny mieć możliwość odwołania się od wyników oceny zgodności przeprowadzonej
+przez jednostkę notyfikowaną. Należy zapewnić dostępność procedury odwoławczej od wszelkich decyzji
+podejmowanych przez jednostki notyfikowane.
+(44) Producenci powinni zastosować wszelkie odpowiednie środki, aby bezzałogowe systemy powietrzne
+przeznaczone do eksploatacji w ramach kategorii „otwartej” mogły zostać wprowadzone do obrotu wyłącznie
+wówczas, gdy przy odpowiednim przechowywaniu i użytkowaniu zgodnie z przeznaczeniem oraz w warunkach
+użytkowania, które można rozsądnie przewidzieć, nie zagrażają zdrowiu ani bezpieczeństwu osób. Bezzałogowe
+systemy powietrzne przeznaczone do eksploatacji w ramach kategorii „otwartej” należy uznawać za niezgodne
+z zasadniczymi wymogami określonymi w niniejszym rozporządzeniu tylko w warunkach racjonalnego
+użytkowania, tj. takiego, które wynika ze zgodnego z prawem i łatwego do przewidzenia ludzkiego zachowania.
+(45) Aby zapewnić pewność prawa, należy wyjaśnić, że przepisy dotyczące nadzoru rynku unijnego i kontroli
+produktów wprowadzanych na rynek Unii, przewidziane w rozporządzeniu (WE) nr 765/2008, w tym przepisy
+dotyczące wymiany informacji za pośrednictwem systemu wczesnego ostrzegania (RAPEX), mają zastosowanie do
+bezzałogowych systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii „otwartej”. Niniejsze
+rozporządzenie nie powinno stanowić dla państw członkowskich przeszkody w wyborze organów właściwych do
+realizacji tych zadań. Należy przewidzieć odpowiednie środki przejściowe, aby zapewnić płynne przejście do
+stosowania niniejszego rozporządzenia.
+(46) Bezzałogowe systemy powietrzne, których eksploatacja wiąże się z najwyższym ryzykiem, powinny podlegać
+certyfikacji. Niniejsze rozporządzenie powinno zatem określać warunki, na jakich projekt, produkcja
+i konserwacja bezzałogowych systemów powietrznych powinny podlegać certyfikacji. Warunki te są związane
+z większym ryzykiem wystąpienia szkody dla osób trzecich w razie wypadku, a zatem certyfikacja powinna być
+obowiązkowa w odniesieniu do bezzałogowych systemów powietrznych przeznaczonych do transportu osób,
+bezzałogowych systemów powietrznych przeznaczonych do transportu towarów niebezpiecznych oraz wszelkich
+bezzałogowych systemów powietrznych o wymiarach powyżej 3 m i przeznaczonych do eksploatacji nad
+zgromadzeniami osób. Obowiązkowa powinna być również certyfikacja bezzałogowych systemów powietrznych
+eksploatowanych w ramach kategorii „szczególnej”, określonej w rozporządzeniu wykonawczym (UE) 2019/947,
+jeżeli po przeprowadzeniu oceny ryzyka w zezwoleniu na eksploatację wydanym przez właściwy organ
+stwierdzono, że bez certyfikacji bezzałogowego systemu powietrznego nie można odpowiednio ograniczyć
+ryzyka eksploatacji.
+(47) Bezzałogowe systemy powietrzne wprowadzane do obrotu, przeznaczone do eksploatacji w ramach kategorii
+„otwartej” i opatrzone etykietą identyfikacyjną danej klasy, muszą spełniać wymogi dotyczące wydawania
+świadectw dla bezzałogowych systemów powietrznych eksploatowanych, stosownie do przypadku, w ramach
+operacji kategorii „szczególnej” lub „certyfikowanej”, jeżeli te bezzałogowe systemy powietrzne są eksploatowane
+przy operacjach spoza kategorii „otwartej”.
+(48) Operatorzy bezzałogowych systemów powietrznych, których główne miejsce prowadzenia działalności, siedziba
+lub miejsce zamieszkania znajdują się w państwie trzecim, ale którzy prowadzą operacje bezzałogowych
+systemów powietrznych w jednolitej europejskiej przestrzeni powietrznej, powinni podlegać niniejszemu
+rozporządzeniu.
+11.6.2019 L 152/5Dziennik Urzędowy Unii EuropejskiejPL
+(49) Środki przewidziane w niniejszym rozporządzeniu opierają się na opinii nr 01/2018 (12) wydanej przez Agencję
+Unii Europejskiej ds. Bezpieczeństwa Lotniczego (EASA) zgodnie z art. 65 rozporządzenia (UE) 2018/1139,
+PRZYJMUJE NINIEJSZE ROZPORZĄDZENIE:
+ROZDZIAŁ I
+Przepisy ogólne
+Artykuł 1
+Przedmiot
+1. Niniejsze rozporządzenie ustanawia wymogi dotyczące projektowania i produkcji bezzałogowych systemów
+powietrznych, przeznaczonych do eksploatacji zgodnie z zasadami i warunkami określonymi w rozporządzeniu
+wykonawczym 2019/947, oraz dodatkowych elementów służących zdalnej identyfikacji. Określa ono również rodzaje
+bezzałogowych systemów powietrznych, których projektowanie, produkcja i konserwacja podlegają certyfikacji.
+2. Określono w nim również zasady udostępniania na rynku oraz swobodnego przepływu w Unii bezzałogowych
+systemów powietrznych przeznaczonych do eksploatacji w ramach kategorii „otwartej” i dodatkowych elementów
+służących zdalnej identyfikacji.
+3. W niniejszym rozporządzeniu ustanawia się również przepisy obowiązujące operatorów bezzałogowych systemów
+powietrznych z państw trzecich, w przypadkach gdy prowadzą oni operacje bezzałogowych systemów powietrznych
+w jednolitej europejskiej przestrzeni powietrznej na podstawie rozporządzenia wykonawczego (UE) 2019/947.
+Artykuł 2
+Zakres
+1. Rozdział II niniejszego rozporządzenia ma zastosowanie do następujących produktów:
+a) bezzałogowych systemów powietrznych przeznaczonych do eksploatacji zgodnie z zasadami i warunkami mającymi
+zastosowanie do operacji bezzałogowych systemów powietrznych w ramach kategorii „otwartej” zgodnie z rozporzą
+dzeniem wykonawczym (UE) 2019/947, z wyjątkiem bezzałogowych systemów powietrznych skonstruowanych do
+użytku prywatnego, i opatrzonych etykietą identyfikacyjną klasy określoną w częściach 1–5 załącznika do
+niniejszego rozporządzenia, wskazującą, do której z pięciu klas bezzałogowych systemów powietrznych, o których
+mowa w rozporządzeniu wykonawczym (UE) 2019/947, należy dany bezzałogowy system powietrzny;
+b) dodatkowych elementów służących ich zdalnej identyfikacji, określonych w części 6 załącznika do niniejszego
+rozporządzenia.
+2. Rozdział III niniejszego rozporządzenia ma zastosowanie do bezzałogowych systemów powietrznych eksploato
+wanych zgodnie z zasadami i warunkami mającymi zastosowanie do operacji bezzałogowych systemów powietrznych
+w ramach kategorii „certyfikowanej” i „szczególnej” zgodnie z rozporządzeniem wykonawczym (UE) 2019/947.
+3. Rozdział IV niniejszego rozporządzenia ma zastosowanie do operatorów bezzałogowych systemów powietrznych,
+których główne miejsce prowadzenia działalności, siedziba lub miejsce zamieszkania znajdują się w państwie trzecim,
+jeżeli operacje bezzałogowych systemów powietrznych mają miejsce w Unii.
+4. Niniejsze rozporządzenie nie ma zastosowania do bezzałogowych systemów powietrznych przeznaczonych do
+eksploatacji wyłącznie w pomieszczeniach zamkniętych.
+Artykuł 3
+Definicje
+Do celów niniejszego rozporządzenia stosuje się następujące definicje:
+1) „bezzałogowy statek powietrzny” oznacza dowolny statek powietrzny eksploatowany lub przeznaczony do
+eksploatacji bez pilota na pokładzie, który może działać samodzielnie lub być pilotowany zdalnie;
+2) „wyposażenie do zdalnego sterowania bezzałogowym statkiem powietrznym” oznacza wszelkiego rodzaju
+przyrządy, wyposażenie, mechanizmy, aparaturę, oprzyrządowanie, oprogramowanie lub akcesoria niezbędne do
+bezpiecznej eksploatacji danego bezzałogowego statku powietrznego, które nie są jego częściami i nie znajdują się
+na jego pokładzie;
+3) „bezzałogowy system powietrzny” oznacza bezzałogowy statek powietrzny i wyposażenie do zdalnego sterowania
+nim;
+4) „operator bezzałogowego systemu powietrznego” oznacza dowolną osobę prawną lub fizyczną eksploatującą lub
+zamierzającą eksploatować co najmniej jeden bezzałogowy system powietrzny;
+11.6.2019L 152/6 Dziennik Urzędowy Unii EuropejskiejPL
+(12) Opinia EASA nr 01/2018 „Propozycja ram regulacyjnych dotyczących operacji z użyciem bezzałogowych systemów powietrznych
+w ramach kategorii »otwartej« i »szczególnej«” (RMT.0230), dostępna na stronie: https://www.easa.europa.eu/document-
+library/opinions.
+5) kategoria „otwarta” oznacza kategorię operacji bezzałogowych systemów powietrznych określoną w art. 4 rozporzą
+dzenia wykonawczego (UE) 2019/947;
+6) kategoria „szczególna” oznacza kategorię operacji bezzałogowych systemów powietrznych określoną w art. 5
+rozporządzenia wykonawczego (UE) 2019/947;
+7) kategoria „certyfikowana” oznacza kategorię operacji bezzałogowych systemów powietrznych określoną w art. 6
+rozporządzenia wykonawczego (UE) 2019/947;
+8) „unijne prawodawstwo harmonizacyjne” oznacza dowolny akt prawny Unii harmonizujący warunki wprowadzania
+produktów do obrotu;
+9) „akredytacja” oznacza akredytację w rozumieniu art. 2 pkt 10 rozporządzenia (WE) nr 765/2008;
+10) „ocena zgodności” oznacza proces wykazujący, czy zostały spełnione określone wymogi odnoszące się do produktu;
+11) „jednostka oceniająca zgodność” oznacza jednostkę, która wykonuje czynności z zakresu oceny zgodności, w tym:
+wzorcowanie, badanie, certyfikację i inspekcję;
+12) „oznakowanie CE” oznacza oznakowanie, za pomocą którego producent wskazuje, że produkt spełnia mające
+zastosowanie wymogi określone w unijnym prawodawstwie harmonizacyjnym przewidującym umieszczenie tego
+oznakowania;
+13) „producent” oznacza dowolną osobę fizyczną lub prawną, która wytwarza produkt lub zleca jego zaprojektowanie
+i wytworzenie, i wprowadza ten produkt do obrotu pod własną nazwą lub własnym znakiem handlowym;
+14) „upoważniony przedstawiciel” oznacza dowolną osobę fizyczną lub prawną mającą siedzibę w Unii, dysponującą
+pisemnym pełnomocnictwem producenta do wykonywania w jego imieniu określonych zadań;
+15) „importer” oznacza dowolną osobę fizyczną lub prawną mającą siedzibę w Unii, która wprowadza do obrotu
+w Unii produkt pochodzący z państwa trzeciego;
+16) „dystrybutor” oznacza każdą osobę fizyczną lub prawną w łańcuchu dostaw, niebędącą producentem ani
+importerem, która udostępnia produkt na rynku;
+17) „podmioty gospodarcze” oznaczają producentów, upoważnionych przedstawicieli producentów, importerów i dystry
+butorów bezzałogowych systemów powietrznych;
+18) „udostępnienie na rynku” oznacza dowolną formę dostarczenia produktu do celów dystrybucji, konsumpcji lub
+używania na rynku Unii w ramach działalności handlowej, niezależnie od tego, czy odbywa się to odpłatnie lub
+nieodpłatnie;
+19) „wprowadzenie do obrotu” oznacza udostępnienie produktu na rynku Unii po raz pierwszy;
+20) „norma zharmonizowana” oznacza normę zharmonizowaną w rozumieniu art. 2 pkt 1 lit. c) rozporządzenia (UE)
+nr 1025/2012;
+21) „specyfikacja techniczna” oznacza dokument określający wymogi techniczne, jakie produkt, proces lub usługa ma
+spełniać;
+22) „bezzałogowy system powietrzny skonstruowany do użytku prywatnego” oznacza bezzałogowy system powietrzny
+zmontowany lub wyprodukowany na użytek własny konstruktora, z wyłączeniem bezzałogowych systemów
+powietrznych zmontowanych z zestawu części wprowadzonych do obrotu przez producenta jako gotowy do
+montażu zestaw;
+23) „organ nadzoru rynku” oznacza organ państwa członkowskiego odpowiedzialny za wykonywanie nadzoru rynku na
+terytorium tego państwa członkowskiego;
+24) „odzyskanie produktu” oznacza dowolny środek mający na celu doprowadzenie do zwrotu produktu, który już
+został udostępniony użytkownikowi końcowemu;
+25) „wycofanie z obrotu” oznacza dowolny środek, którego celem jest zapobieżenie udostępnieniu na rynku produktu
+w danym łańcuchu dostaw;
+26) „jednolita europejska przestrzeń powietrzna” oznacza przestrzeń powietrzną nad terytorium, do którego mają
+zastosowanie Traktaty, a także każdą inną przestrzeń powietrzną, do której państwa członkowskie stosują rozporzą
+dzenie (WE) nr 551/2004 Parlamentu Europejskiego i Rady (13) zgodnie z art. 1 ust. 3 tego rozporządzenia;
+11.6.2019 L 152/7Dziennik Urzędowy Unii EuropejskiejPL
+(13) Rozporządzenie (WE) nr 551/2004 Parlamentu Europejskiego i Rady z dnia 10 marca 2004 r. w sprawie organizacji i użytkowania
+przestrzeni powietrznej w Jednolitej Europejskiej Przestrzeni Powietrznej (Dz.U. L 96 z 31.3.2004, s. 20).
+27) „pilot bezzałogowego statku powietrznego” oznacza osobę fizyczną odpowiedzialną za bezpieczne wykonanie lotu
+przez bezzałogowy statek powietrzny poprzez ręczne sterowanie lotem albo – w przypadku gdy bezzałogowy
+statek powietrzny wykonuje lot automatycznie – poprzez monitorowanie jego kursu i utrzymywanie przez cały
+czas możliwości interwencji i zmiany kursu;
+28) „maksymalna masa startowa” („MTOM”) oznacza maksymalną określoną przez producenta lub konstruktora masę
+bezzałogowego statku powietrznego, obejmującą obciążenie użytkowe i paliwo, przy której można eksploatować
+bezzałogowy statek powietrzny;
+29) „obciążenie użytkowe” oznacza wszelkiego rodzaju przyrządy, mechanizmy, wyposażenie, części, aparaturę,
+oprzyrządowanie lub akcesoria, w tym urządzenia komunikacyjne, zainstalowane na statku powietrznym lub
+przymocowane do statku powietrznego, które nie są używane ani przeznaczone do wykorzystania podczas
+eksploatacji statku powietrznego lub sterowania nim w locie i nie są częścią płatowca, silnika ani śmigła;
+30) „tryb podążania za stacją bazową” oznacza tryb pracy systemu zewnętrznego, w którym bezzałogowy statek
+powietrzny stale podąża za pilotem bezzałogowego statku powietrznego w uprzednio określonym promieniu;
+31) „jednoznaczna zdalna identyfikacja” oznacza system lokalnego rozpowszechniania informacji o eksploatowanym
+bezzałogowym statku powietrznym, w tym jego oznakowania, pozwalający uzyskać te informacje bez fizycznego
+dostępu do bezzałogowego statku powietrznego;
+32) „świadomość przestrzenna” oznacza funkcję wykrywania potencjalnych naruszeń ograniczeń przestrzeni
+powietrznej w oparciu o dane przekazane przez państwa członkowskie i ostrzegania o nich pilota bezzałogowego
+statku powietrznego, aby mógł niezwłocznie podjąć skuteczne działanie w celu zapobieżenia tym naruszeniom;
+33) „poziom mocy akustycznej LWA” oznacza poziom mocy akustycznej skorygowany krzywą korekcyjną A w dB
+w odniesieniu do 1 pW zgodnie z definicją w normie EN ISO 3744:2010;
+34) „zmierzony poziom mocy akustycznej” oznacza poziom mocy akustycznej ustalony na podstawie pomiarów
+określonych w części 13 załącznika; zmierzone wartości można ustalić albo dla jednego egzemplarza bezzało
+gowego systemu powietrznego reprezentatywnego dla urządzeń danego typu, albo na podstawie średniej dla pewnej
+liczby bezzałogowych systemów powietrznych;
+35) „gwarantowany poziom mocy akustycznej” oznacza poziom mocy akustycznej ustalony zgodnie z wymogami
+ustanowionymi w części 13 załącznika, który uwzględnia niepewność wynikającą ze zmienności produkcji
+i procedur pomiarowych oraz w przypadku gdy producent lub jego upoważniony przedstawiciel mający siedzibę
+we Wspólnocie potwierdza, że zgodnie z zastosowanymi i określonymi w dokumentacji technicznej instrumentami
+technicznymi nie jest on przekroczony;
+36) „zawis” oznacza pozostawanie w tej samej pozycji w powietrzu;
+37) „zgromadzenia osób” oznaczają zgromadzenia, w przypadku których zagęszczenie obecnych osób uniemożliwia im
+przemieszczanie się.
+ROZDZIAŁ II
+Bezzałogowe systemy powietrzne przeznaczone do eksploatacji w ramach kategorii „otwartej”
+i dodatkowe elementy służące zdalnej identyfikacji
+SEKCJA 1
+Wymogi dotyczące produktów
+Artykuł 4
+Wymogi
+1. Produkty, o których mowa w art. 2 ust. 1, muszą spełniać wymogi określone w częściach 1–6 załącznika.
+2. Bezzałogowe systemy powietrzne, które nie są zabawkami w rozumieniu dyrektywy 2009/48/WE, muszą spełniać
+odpowiednie wymogi w zakresie ochrony zdrowia i bezpieczeństwa określone w dyrektywie 2006/42/WE wyłącznie
+w odniesieniu do innych rodzajów ryzyka niż związane z bezpieczeństwem lotu bezzałogowego statku powietrznego.
+3. Wszelkich aktualizacji oprogramowania produktów, które już zostały udostępnione na rynku, można dokonywać
+wyłącznie wówczas, gdy nie mają one wpływu na zgodność produktu z wymogami.
+Artykuł 5
+Udostępnianie produktów na rynku i ich swobodny przepływ
+1. Produkty są udostępniane na rynku wyłącznie wówczas, gdy spełniają wymogi niniejszego rozdziału i nie stanowią
+zagrożenia dla zdrowia ani bezpieczeństwa osób, zwierząt ani mienia.
+11.6.2019L 152/8 Dziennik Urzędowy Unii EuropejskiejPL
+2. Państwa członkowskie nie mogą – w odniesieniu do aspektów objętych zakresem niniejszego rozdziału –
+zakazywać, ograniczać ani utrudniać udostępniania na rynku produktów zgodnych z niniejszym rozdziałem.
+SEKCJA 2
+Obowiązki podmiotów gospodarczych
+Artykuł 6
+Obowiązki producentów
+1. Wprowadzając produkty do obrotu w Unii, producenci muszą zagwarantować, że zostały one zaprojektowane
+i wytworzone zgodnie z wymogami określonymi w częściach 1–6 załącznika.
+2. Producenci sporządzają dokumentację techniczną przewidzianą w art. 17 i przeprowadzają odpowiednią
+procedurę oceny zgodności, o której mowa w art. 13, lub zlecają jej przeprowadzenie podwykonawcom.
+Jeśli procedura oceny zgodności wykaże zgodność produktu z wymogami części 1–6 załącznika, producenci sporządzają
+deklarację zgodności UE i umieszczają oznakowanie CE.
+3. Producenci przechowują dokumentację techniczną oraz deklarację zgodności UE przez 10 lat po wprowadzeniu
+produktu do obrotu.
+4. Producenci zapewniają stosowanie procedur pozwalających utrzymać zgodność produkcji seryjnej z niniejszym
+rozdziałem. Uwzględnia się odpowiednio zmiany w projekcie, parametrach lub oprogramowaniu oraz zmiany
+w normach zharmonizowanych lub specyfikacji technicznej stanowiących odniesienie przy stwierdzaniu zgodności
+produktu.
+Producenci są zobowiązani, we wszystkich stosownych przypadkach w odniesieniu do zagrożeń związanych
+z produktem, w celu ochrony zdrowia i bezpieczeństwa konsumentów, do przeprowadzenia badania prób produktów
+wprowadzanych do obrotu, rozpatrywania oraz, w razie potrzeby, prowadzenia ewidencji skarg, przypadków produktów
+niezgodnych z wymogami i przypadków odzyskania produktu, a także do informowania dystrybutorów o tego rodzaju
+działaniach w zakresie monitorowania.
+5. Producenci bezzałogowych systemów powietrznych dopilnowują, by oznakowanie bezzałogowego statku
+powietrznego obejmowało typ w rozumieniu decyzji 768/2008/WE i niepowtarzalny numer seryjny umożliwiający jego
+identyfikację oraz, w stosownych przypadkach, było zgodne z wymogami odpowiednich części 2–4 załącznika.
+Producenci dodatkowych elementów służących zdalnej identyfikacji dopilnowują, by oznakowanie tych dodatkowych
+elementów było zgodne z wymogami części 6 załącznika i obejmowało typ oraz niepowtarzalny numer seryjny umożli
+wiający ich identyfikację. W obu przypadkach producenci zapewniają umieszczenie niepowtarzalnego numeru seryjnego
+również na deklaracji zgodności UE lub uproszczonej deklaracji zgodności UE, o której mowa w art. 14.
+6. Producenci podają na produkcie, a jeżeli nie jest to możliwe – na opakowaniu lub w dokumencie dołączonym do
+produktu, swoją nazwę, zarejestrowaną nazwę handlową lub zarejestrowany znak towarowy, adres strony internetowej
+oraz kontaktowy adres pocztowy. Adres musi wskazywać konkretne miejsce, gdzie można skontaktować się
+z producentem. Dane kontaktowe podaje się w języku łatwo zrozumiałym dla użytkowników końcowych i organów
+nadzoru rynku.
+7. Producenci zapewniają dołączenie do produktu instrukcji oraz noty informacyjnej określonych w częściach 1–6
+załącznika, w języku łatwo zrozumiałym dla konsumentów i innych użytkowników końcowych, określonym przez dane
+państwo członkowskie. Takie instrukcje i noty informacyjne, jak również wszelkie etykiety, muszą być jasne, zrozumiałe
+i czytelne.
+8. Producenci zapewniają dołączenie do każdego produktu kopii deklaracji zgodności UE lub uproszczonej deklaracji
+zgodności UE. Jeżeli dostarcza się uproszczoną deklarację zgodności UE, musi ona zawierać dokładny adres internetowy,
+pod którym można znaleźć pełny tekst deklaracji zgodności UE.
+9. Producenci, którzy stwierdzą lub mają powody podejrzewać, że wprowadzone przez nich do obrotu produkty nie
+są zgodne z niniejszym rozdziałem, niezwłocznie wprowadzają środki naprawcze konieczne do zapewnienia zgodności
+tych produktów, wycofania ich z obrotu lub odzyskania ich, stosownie do okoliczności. Jeżeli produkt stwarza
+zagrożenie, producenci niezwłocznie informują o tym organy nadzoru rynku państw członkowskich, w których produkt
+został udostępniony na rynku, podając szczegółowe informacje, w szczególności na temat niezgodności, wprowa
+dzonych środków naprawczych oraz ich wyniku.
+10. Na uzasadnione żądanie właściwego organu krajowego producenci przekazują mu w formie papierowej lub
+elektronicznej wszelkie informacje i dokumentację niezbędne do wykazania zgodności produktu z niniejszym
+rozdziałem, w języku łatwo zrozumiałym dla tego organu. Na żądanie tego organu współpracują z nim we wszelkich
+działaniach służących usunięciu zagrożeń, jakie stwarza produkt wprowadzony przez nich do obrotu.
+11.6.2019 L 152/9Dziennik Urzędowy Unii EuropejskiejPL
+Artykuł 7
+Upoważnieni przedstawiciele
+1. Producent może wyznaczyć upoważnionego przedstawiciela, udzielając mu pełnomocnictwa na piśmie.
+Obowiązki określone w art. 6 ust. 1 oraz obowiązek sporządzenia dokumentacji technicznej, o którym mowa w art. 6
+ust. 2, nie wchodzą w zakres pełnomocnictwa upoważnionego przedstawiciela.
+2. Upoważniony przedstawiciel wykonuje zadania określone w pełnomocnictwie otrzymanym od producenta.
+Pełnomocnictwo umożliwia upoważnionemu przedstawicielowi wykonywanie co najmniej następujących obowiązków:
+a) przechowywanie deklaracji zgodności UE i dokumentacji technicznej do dyspozycji krajowych organów nadzoru
+rynku przez 10 lat od momentu wprowadzenia produktu do obrotu w Unii;
+b) przekazywanie na uzasadnione żądanie organu nadzoru rynku lub kontroli granicznej wszelkich informacji
+i dokumentacji koniecznych do wykazania zgodności produktu z wymogami;
+c) współpracowanie z organem nadzoru rynku lub kontroli granicznej, na jego żądanie, we wszelkich działaniach
+zmierzających do usunięcia niezgodności produktów objętych pełnomocnictwem upoważnionego przedstawiciela lub
+związanych z nimi zagrożeń dla bezpieczeństwa.
+Artykuł 8
+Obowiązki importerów
+1. Importerzy wprowadzają do obrotu w Unii wyłącznie produkty zgodne z wymogami niniejszego rozdziału.
+2. Przed wprowadzeniem produktu do obrotu w Unii importerzy zapewniają:
+a) przeprowadzenie przez producenta odpowiedniej procedury oceny zgodności, o której mowa w art. 13;
+b) sporządzenie przez producenta dokumentacji technicznej, o której mowa w art. 17;
+c) opatrzenie produktu oznakowaniem CE oraz, jeżeli jest to wymagane, etykietą identyfikacyjną klasy bezzałogowego
+statku powietrznego oraz oznaczeniem poziomu mocy akustycznej;
+d) dołączenie do produktu dokumentów, o których mowa w art. 6 ust. 7 i 8;
+e) spełnienie przez producenta wymogów określonych w art. 6 ust. 5 i 6.
+W przypadku gdy importer stwierdzi lub ma powody podejrzewać, że produkt nie jest zgodny z wymogami części 1–6
+załącznika, nie wprowadza produktu do obrotu, dopóki nie zostanie zapewniona jego zgodność z wymogami. Ponadto
+jeżeli produkt stwarza zagrożenie dla zdrowia i bezpieczeństwa konsumentów i osób trzecich, importer informuje o tym
+producenta oraz właściwe organy krajowe.
+3. Importerzy podają swoją nazwę, zarejestrowaną nazwę handlową lub zarejestrowany znak towarowy, stronę
+internetową oraz kontaktowy adres pocztowy na produkcie, a jeżeli nie jest to możliwe – na jego opakowaniu lub
+w dokumencie dołączonym do produktu. Dane kontaktowe podaje się w języku łatwo zrozumiałym dla użytkowników
+końcowych i organów nadzoru rynku.
+4. Importerzy zapewniają dołączenie do produktu instrukcji oraz noty informacyjnej określonych w częściach 1–6
+załącznika, w języku łatwo zrozumiałym dla konsumentów i innych użytkowników końcowych, określonym przez dane
+państwo członkowskie. Przedmiotowe instrukcje i noty informacyjne, jak również wszelkie etykiety, muszą być jasne,
+zrozumiałe i czytelne.
+5. Importerzy dopilnowują, aby w czasie, kiedy to oni ponoszą odpowiedzialność za produkt, warunki jego przecho
+wywania lub transportu nie wpływały negatywnie na jego zgodność z wymogami określonymi w art. 4.
+6. W celu ochrony zdrowia i bezpieczeństwa użytkowników końcowych i osób trzecich, kiedy jest to właściwe
+z uwagi na zagrożenia związane z produktem, importerzy są zobowiązani do badania prób produktów udostępnianych
+na rynku oraz rozpatrywania i, w razie potrzeby, prowadzenia ewidencji skarg, przypadków produktów niezgodnych
+z wymogami i przypadków odzyskania produktu, a także do informowania dystrybutorów o wszelkich tego rodzaju
+działaniach w zakresie monitorowania.
+7. Importerzy, którzy stwierdzą lub mają powody podejrzewać, że wprowadzony przez nich do obrotu produkt nie
+jest zgodny z odpowiednim unijnym prawodawstwem harmonizacyjnym, niezwłocznie wprowadzają niezbędne środki
+naprawcze, aby doprowadzić do zgodności produktu z wymogami, jego wycofania lub odzyskania, stosownie do
+okoliczności. Ponadto jeżeli produkt stwarza zagrożenie, importerzy niezwłocznie informują o tym organy nadzoru
+rynku państw członkowskich, w których produkt został udostępniony na rynku, podając szczegółowe informacje,
+w szczególności na temat niezgodności oraz wprowadzonych środków naprawczych.
+11.6.2019L 152/10 Dziennik Urzędowy Unii EuropejskiejPL
+8. Importerzy przechowują kopię deklaracji zgodności UE do dyspozycji organów nadzoru rynku przez 10 lat po
+wprowadzeniu produktu do obrotu i na żądanie tych organów udostępniają im dokumentację techniczną.
+9. Na uzasadnione żądanie właściwego organu krajowego importerzy przekazują mu w formie papierowej lub
+elektronicznej wszelkie informacje i dokumentację niezbędne do wykazania zgodności produktu z wymogami, w języku
+łatwo zrozumiałym dla tego organu. Na żądanie tego organu współpracują z nim we wszelkich działaniach służących
+usunięciu zagrożeń, jakie stwarza produkt wprowadzony przez nich do obrotu.
+Artykuł 9
+Obowiązki dystrybutorów
+1. Udostępniając produkt na rynku Unii, dystrybutorzy działają z należytą starannością w odniesieniu do wymogów
+niniejszego rozdziału.
+2. Przed udostępnieniem produktu na rynku dystrybutorzy sprawdzają: czy produkt jest opatrzony oznakowaniem
+CE oraz, w stosownych przypadkach, etykietą identyfikacyjną klasy bezzałogowego statku powietrznego i oznaczeniem
+poziomu mocy akustycznej, czy towarzyszą mu dokumenty, o których mowa w art. 6 ust. 7 i 8, oraz czy producent
+i importer spełnili wymogi określone w art. 6 ust. 5 i 6 oraz art. 8 ust. 3.
+Dystrybutorzy zapewniają dołączenie do produktu instrukcji oraz noty informacyjnej określonych w częściach 1–6
+załącznika, w języku łatwo zrozumiałym dla konsumentów i innych użytkowników końcowych, określonym przez dane
+państwo członkowskie. Przedmiotowe instrukcje i noty informacyjne, jak również wszelkie etykiety, muszą być jasne,
+zrozumiałe i czytelne.
+W przypadku gdy dystrybutor stwierdza lub ma powody podejrzewać, że produkt nie jest zgodny z wymogami art. 4,
+nie udostępnia produktu na rynku, dopóki jego zgodność nie zostanie zapewniona. Ponadto jeżeli produkt stwarza
+zagrożenie, dystrybutor informuje o tym producenta lub importera oraz właściwe organy nadzoru rynku.
+3. Dystrybutorzy dopilnowują, aby w czasie, kiedy to oni ponoszą odpowiedzialność za produkt, warunki jego
+przechowywania lub transportu nie wpływały negatywnie na jego zgodność z wymogami określonymi w art. 4.
+4. Dystrybutorzy, którzy stwierdzą lub mają powody podejrzewać, że udostępniony przez nich na rynku produkt nie
+jest zgodny z odpowiednim unijnym prawodawstwem harmonizacyjnym, zapewniają wprowadzenie niezbędnych
+środków naprawczych, aby doprowadzić do zgodności produktu z wymogami, jego wycofania lub odzyskania,
+stosownie do okoliczności. Ponadto jeżeli produkt stwarza zagrożenie, dystrybutorzy niezwłocznie informują o tym
+organy nadzoru rynku państw członkowskich, w których produkt został udostępniony na rynku, podając szczegółowe
+informacje, w szczególności na temat niezgodności oraz wprowadzonych środków naprawczych.
+5. Na uzasadnione żądanie właściwego organu krajowego dystrybutorzy przekazują mu w formie papierowej lub
+elektronicznej wszelkie informacje i dokumentację niezbędne do wykazania zgodności produktu z wymogami. Na
+żądanie tego organu współpracują z nim we wszelkich działaniach służących usunięciu zagrożeń, jakie stwarza
+udostępniony przez nich na rynku produkt.
+Artykuł 10
+Przypadki, w których obowiązki producentów dotyczą importerów i dystrybutorów
+Jeżeli importer lub dystrybutor wprowadza produkt do obrotu pod własną nazwą lub znakiem towarowym albo
+modyfikuje produkt już znajdujący się w obrocie w sposób, który może mieć wpływ na jego zgodność z wymogami
+niniejszego rozdziału, do celów niniejszego rozdziału jest uważany za producenta i w konsekwencji podlega
+obowiązkom dotyczącym producenta wynikającym z art. 6.
+Artykuł 11
+Identyfikacja podmiotów gospodarczych
+1. Na wezwanie organów nadzoru rynku podmioty gospodarcze wskazują:
+a) każdy podmiot gospodarczy, który dostarczył im produkt;
+b) każdy podmiot gospodarczy, któremu dostarczyły produkt.
+11.6.2019 L 152/11Dziennik Urzędowy Unii EuropejskiejPL
+2. Podmioty gospodarcze muszą być w stanie przedstawić informacje, o których mowa w ust. 1:
+a) przez 10 lat od momentu dostarczenia im produktu;
+b) przez 10 lat od momentu dostarczenia przez nie produktu.
+SEKCJA 3
+Zgodność produktu z wymogami
+Artykuł 12
+Domniemanie zgodności
+Przyjmuje się, że produkt zgodny z normą zharmonizowaną, którą wskazano w Dzienniku Urzędowym Unii Europejskiej,
+lub jej częściami, spełnia objęte tą normą lub jej częściami wymogi części 1–6 załącznika.
+Artykuł 13
+Procedury oceny zgodności
+1. Producent przeprowadza ocenę zgodności produktu, aby ustalić czy produkt jest zgodny z wymogami części 1–6
+załącznika, stosując jedną z poniższych procedur. Ocena zgodności musi uwzględniać wszystkie zamierzone i przewi
+dywalne warunki użytkowania.
+2. Ocenę zgodności można przeprowadzić w oparciu o następujące procedury:
+a) wewnętrzna kontrola produkcji, jak określono w części 7 załącznika, przy ocenie zgodności produktu z wymogami
+określonymi w częściach 1, 5 lub 6 załącznika, pod warunkiem że producent zastosował normy zharmonizowane
+wskazane w Dzienniku Urzędowym Unii Europejskiej, w odniesieniu do wszystkich wymogów, dla których one istnieją;
+b) badania typu UE poprzedzające ocenę zgodności z typem w oparciu o wewnętrzną kontrolę produkcji określoną
+w części 8 załącznika;
+c) ocena zgodności oparta na kompleksowym systemie zapewniania jakości, jak określono w części 9 załącznika,
+z wyjątkiem oceny zgodności produktu, który jest zabawką w rozumieniu dyrektywy 2009/48/WE.
+Artykuł 14
+Deklaracja zgodności UE
+1. Deklaracja zgodności UE, o której mowa w art. 6 ust. 8, zawiera stwierdzenie, że wykazano zgodność produktu
+z wymogami części 1–6 załącznika, i w przypadku bezzałogowego systemu powietrznego określa klasę.
+2. Deklaracja zgodności UE odpowiada wzorowi z części 11 załącznika, zawiera elementy określone w tej części i jest
+systematycznie aktualizowana. Musi ona zostać przetłumaczona na język lub języki wymagane przez państwo
+członkowskie, w którym produkt wprowadza się do obrotu lub udostępnia na rynku.
+3. Uproszczona deklaracja zgodności UE, o której mowa w art. 6 ust. 8, zawiera elementy określone w części 12
+załącznika i jest systematycznie aktualizowana. Deklaracja jest tłumaczona na język lub języki wymagane przez państwo
+członkowskie, w którym produkt jest wprowadzany do obrotu lub udostępniany na rynku. Pełny tekst deklaracji
+zgodności UE jest udostępniany pod adresem internetowym, o którym mowa w uproszczonej deklaracji zgodności UE,
+w języku lub językach wymaganych przez państwo członkowskie, w którym produkt wprowadza się do obrotu lub
+udostępnia na rynku.
+4. Jeżeli dany produkt podlega więcej niż jednemu aktowi prawa Unii wymagającemu deklaracji zgodności UE,
+sporządzana jest jedna deklaracja zgodności UE odnosząca się do wszystkich takich aktów prawa Unii. Deklaracja ta
+wskazuje odpowiednie unijne akty prawne, łącznie z ich adresami publikacyjnymi.
+5. Sporządzając deklarację zgodności UE, producent przyjmuje odpowiedzialność za zgodność produktu
+z wymogami niniejszego rozdziału.
+11.6.2019L 152/12 Dziennik Urzędowy Unii EuropejskiejPL
+Artykuł 15
+Ogólne zasady dotyczące oznakowania CE
+Oznakowanie CE podlega ogólnym zasadom określonym w art. 30 rozporządzenia (WE) nr 765/2008.
+Artykuł 16
+Zasady i warunki umieszczania oznakowania CE, numeru identyfikacyjnego jednostki notyfi
+kowanej, etykiety identyfikacyjnej klasy bezzałogowego systemu powietrznego oraz oznaczenia
+poziomu mocy akustycznej
+1. Oznakowanie CE umieszcza się w sposób widoczny, czytelny i trwały na produkcie lub przymocowanej do niego
+tabliczce znamionowej. W przypadku gdy jest to niemożliwe lub nieuzasadnione ze względu na wielkość produktu,
+oznakowanie CE umieszcza się na opakowaniu.
+2. Etykieta identyfikacyjna klasy bezzałogowego statku powietrznego musi być umieszczona w sposób widoczny,
+czytelny i trwały na bezzałogowym statku powietrznym i jego opakowaniu oraz mieć co najmniej 5 mm wysokości.
+Zakazuje się umieszczania na produkcie oznakowania, znaków i napisów, które mogą wprowadzić w błąd osoby trzecie
+z uwagi na skojarzenia z etykietą identyfikacyjną klasy lub podobieństwo formy.
+3. Oznaczenie poziomu mocy akustycznej, o którym mowa w części 14 załącznika, umieszcza się, w stosownych
+przypadkach, w sposób widoczny, czytelny i trwały na bezzałogowym statku powietrznym, chyba że nie jest to możliwe
+lub nie jest uzasadnione ze względu na wielkość produktu, oraz na opakowaniu.
+4. Oznakowanie CE oraz, w stosownych przypadkach, oznaczenie poziomu mocy akustycznej i etykietę identyfi
+kacyjną klasy bezzałogowego statku powietrznego umieszcza się przed wprowadzeniem produktu do obrotu.
+5. Jeżeli stosowana jest procedura oceny zgodności określona w części 9 załącznika, za oznakowaniem CE podaje się
+numer identyfikacyjny jednostki notyfikowanej.
+Numer identyfikacyjny jednostki notyfikowanej umieszcza sama jednostka notyfikowana lub, według jej instrukcji,
+producent bądź jego upoważniony przedstawiciel.
+6. Państwa członkowskie korzystają z istniejących mechanizmów, aby zapewnić prawidłowe stosowanie systemu
+oznakowania CE, oraz podejmują odpowiednie działania w przypadku jego niewłaściwego wykorzystania.
+Artykuł 17
+Dokumentacja techniczna
+1. Dokumentacja techniczna musi zawierać wszystkie istotne dane i szczegółowe informacje o środkach zastoso
+wanych przez producenta, aby zapewnić zgodność produktu z wymogami części 1–6 załącznika. Zawiera ona co
+najmniej elementy określone w części 10 załącznika.
+2. Dokumentację techniczną sporządza się przed wprowadzeniem produktu do obrotu i systematycznie aktualizuje.
+3. Dokumentację techniczną i korespondencję odnoszące się do każdej procedury sprawdzającej badanie typu UE lub
+oceny systemu jakości producenta sporządza się w języku urzędowym państwa członkowskiego, w którym jednostka
+notyfikowana ma siedzibę, lub w języku akceptowanym przez ten organ.
+4. Jeśli dokumentacja techniczna nie jest zgodna z ust. 1, 2 lub 3 niniejszego artykułu, organ nadzoru rynku może
+zwrócić się do producenta lub importera o przeprowadzenie przez organ akceptowalny dla organu nadzoru rynku
+w określonym terminie i na koszt producenta lub importera badań, aby sprawdzić zgodność produktu z wymogami
+części 1–6 załącznika, które mają do niego zastosowanie.
+SEKCJA 4
+Notyfikowanie jednostek oceniających zgodność
+Artykuł 18
+Notyfikacja
+Państwa członkowskie notyfikują Komisji i pozostałym państwom członkowskim jednostki uprawnione do
+wykonywania zadań w zakresie oceny zgodności w charakterze osoby trzeciej na podstawie niniejszego rozdziału.
+11.6.2019 L 152/13Dziennik Urzędowy Unii EuropejskiejPL
+Artykuł 19
+Organy notyfikujące
+1. Państwa członkowskie wyznaczają organ notyfikujący, który odpowiada za opracowanie i stosowanie procedur
+niezbędnych do oceny jednostek oceniających zgodność i ich notyfikacji oraz do monitorowania jednostek notyfiko
+wanych, w tym w odniesieniu do zgodności z art. 24.
+2. Państwa członkowskie mogą zdecydować, że ocenę oraz monitorowanie, o których mowa w ust. 1, przeprowadza
+krajowa jednostka akredytująca w rozumieniu rozporządzenia (WE) nr 765/2008.
+3. W przypadku gdy organ notyfikujący przekazuje lub w inny sposób powierza ocenę, notyfikację lub monito
+rowanie, o których mowa w ust. 1, podmiotowi, który nie jest instytucją rządową, upoważniony podmiot musi posiadać
+osobowość prawną oraz stosować się odpowiednio do wymogów określonych w art. 20. Taki podmiot musi być
+ponadto przygotowany na pokrycie zobowiązań wynikających z prowadzonej działalności.
+4. Organ notyfikujący ponosi pełną odpowiedzialność za zadania wykonywane przez podmiot, o którym mowa
+w ust. 3.
+Artykuł 20
+Wymogi dotyczące organów notyfikujących
+1. Organ notyfikujący:
+a) ustanawiany jest w sposób nie prowadzący do żadnego konfliktu interesów między tym organem a jednostkami
+oceniającymi zgodność;
+b) jest zorganizowany i działa w sposób dający gwarancję obiektywizmu i bezstronności;
+c) jest zorganizowany w sposób zapewniający, aby decyzja dotycząca notyfikowania jednostki oceniającej zgodność była
+podejmowana przez kompetentne osoby spoza grona osób przeprowadzających ocenę;
+d) nie oferuje ani nie realizuje żadnych działań wykonywanych przez jednostki oceniające zgodność, ani usług
+w zakresie konsultacji na zasadach komercyjnych lub konkurencyjnych;
+e) traktuje informacje, które otrzymuje, jako poufne;
+f) dysponuje wystarczającą liczbą pracowników posiadających kompetencje do właściwego wykonywania jego zadań.
+Artykuł 21
+Obowiązki organów notyfikujących w zakresie informowania
+1. Państwa członkowskie informują Komisję o swoich procedurach oceny i notyfikacji jednostek oceniających
+zgodność oraz monitorowania jednostek notyfikowanych, jak również o wszelkich zmianach w tym zakresie.
+2. Komisja podaje te informacje do wiadomości publicznej.
+Artykuł 22
+Wymogi dotyczące jednostek notyfikowanych
+1. Na potrzeby notyfikacji jednostka oceniająca zgodność musi spełnić wymogi określone w ust. 2–11.
+2. Jednostka oceniająca zgodność jest powoływana na podstawie prawa krajowego danego państwa członkowskiego
+i ma osobowość prawną.
+3. Jednostka oceniająca zgodność musi być osobą trzecią, tj. musi być niezależna od organizacji, które ocenia.
+Jednostkę należącą do stowarzyszenia przedsiębiorców lub zrzeszenia zawodowego reprezentującego przedsiębiorstwa
+zaangażowane w projektowanie, produkcję, dostarczanie, montowanie, wykorzystywanie lub konserwację produktów,
+które ocenia, można uważać za taką jednostkę, pod warunkiem że wykazano jej niezależność i brak konfliktu interesów.
+4. Jednostka oceniająca zgodność, jej kierownictwo najwyższego szczebla oraz pracownicy odpowiedzialni za
+realizację zadań związanych z oceną zgodności nie mogą być projektantami, producentami, dostawcami, instalatorami,
+nabywcami, właścicielami, użytkownikami ani podmiotami odpowiedzialnymi za konserwację produktów, które
+oceniają, ani przedstawicielami żadnej z wymienionych stron. Nie wyklucza to wykorzystywania ocenianych produktów
+w zakresie niezbędnym do prowadzenia działalności jednostki oceniającej zgodność lub do celów osobistych.
+11.6.2019L 152/14 Dziennik Urzędowy Unii EuropejskiejPL
+Jednostka oceniająca zgodność, jej kierownictwo najwyższego szczebla oraz pracownicy odpowiedzialni za realizację
+zadań związanych z oceną zgodności nie mogą być bezpośrednio zaangażowani w projektowanie, produkcję lub
+konstruowanie, wprowadzanie do obrotu, instalację, wykorzystywanie lub konserwację takich produktów ani
+reprezentować stron zaangażowanych w taką działalność. Nie mogą oni angażować się w działalność, która może
+zagrozić niezależności ich osądów i wiarygodności w związku z czynnościami w ramach oceny zgodności, w zakresie
+których jednostka jest notyfikowana. Dotyczy to w szczególności usług konsultingowych.
+Jednostki oceniające zgodność dopilnowują, aby działalność ich jednostek zależnych lub podwykonawców nie wpływała
+na poufność, obiektywizm ani bezstronność działalności związanej z oceną zgodności.
+5. Jednostka oceniająca zgodność i jej pracownicy wykonują zadania związane z oceną zgodności, zachowując
+najwyższe standardy zawodowe, posiadają niezbędne kwalifikacje techniczne w danej dziedzinie oraz nie są poddawani
+żadnym naciskom ani zachętom, zwłaszcza finansowym, mogącym wpływać na ich opinię lub wyniki oceny zgodności,
+szczególnie ze strony osób lub grup osób, których interesy związane są z rezultatami realizowanych zadań.
+6. Dana jednostka oceniająca zgodność musi być w stanie wykonać wszystkie zadania związane z oceną zgodności
+powierzone jej na mocy części 8 lub 9 załącznika, w odniesieniu do których została notyfikowana, niezależnie od tego,
+czy wykona te zadania samodzielnie, czy też zostaną one zrealizowane w jej imieniu i na jej odpowiedzialność.
+Przez cały czas i w odniesieniu do dowolnej procedury oceny zgodności oraz dowolnego rodzaju lub kategorii
+produktów będących przedmiotem notyfikacji dana jednostka oceniająca zgodność musi dysponować niezbędnymi:
+a) pracownikami posiadającymi wiedzę techniczną oraz wystarczające i odpowiednie doświadczenie do realizacji zadań
+związanych z oceną zgodności;
+b) opisami procedur, według których przeprowadza się ocenę zgodności, co gwarantuje przejrzystość i możliwość
+odtworzenia tych procedur; strategiami i procedurami, które pozwalają na rozdział zadań wykonywanych
+w charakterze jednostki notyfikowanej od innej działalności;
+c) procedurami służącymi prowadzeniu działalności przy należytym uwzględnieniu wielkości przedsiębiorstwa, sektora,
+w którym ono działa, struktury przedsiębiorstwa, stopnia złożoności technologii danego produktu oraz masowego
+lub seryjnego charakteru procesu produkcyjnego.
+Jednostka oceniająca zgodność musi mieć środki niezbędne do prawidłowej realizacji czynności technicznych i admini
+stracyjnych z zakresu oceny zgodności oraz musi mieć dostęp do wszelkiego niezbędnego wyposażenia lub obiektów.
+7. Pracownicy odpowiedzialni za realizację zadań związanych z oceną zgodności muszą mieć:
+a) gruntowne przeszkolenie techniczne i zawodowe, obejmujące całą działalność związaną z oceną zgodności
+w zakresie będącym przedmiotem notyfikacji jednostki oceniającej zgodność;
+b) wystarczającą znajomość wymogów dotyczących ocen, które przeprowadzają, oraz odpowiednie uprawnienia do
+przeprowadzania takich ocen;
+c) odpowiednią znajomość i zrozumienie wymogów, mających zastosowanie norm zharmonizowanych oraz
+stosownych przepisów unijnego prawodawstwa harmonizacyjnego;
+d) umiejętności wymagane do sporządzania certyfikatów badania typu UE lub zatwierdzeń systemu jakości, protokołów
+i sprawozdań dokumentujących wykonanie ocen.
+8. Zagwarantowana musi być bezstronność jednostki oceniającej zgodność, jej kierownictwa najwyższego szczebla
+i pracowników odpowiedzialnych za przeprowadzanie oceny zgodności.
+Wynagrodzenie kierownictwa najwyższego szczebla jednostki oceniającej zgodność oraz jej pracowników odpowie
+dzialnych za przeprowadzanie oceny zgodności nie może zależeć od liczby przeprowadzonych ocen ani od ich
+wyników.
+9. Jednostki oceniające zgodność muszą posiadać ubezpieczenie od odpowiedzialności, chyba że na mocy prawa
+krajowego odpowiedzialność spoczywa na państwie członkowskim lub za ocenę zgodności odpowiada bezpośrednio
+samo państwo członkowskie.
+10. Pracownicy jednostki oceniającej zgodność dochowują tajemnicy zawodowej w odniesieniu do wszystkich
+informacji, które uzyskują w trakcie wykonywania swoich zadań zgodnie z częściami 8 i 9 załącznika lub z wszelkimi
+przepisami prawa krajowego w danym zakresie, są jednak zwolnieni z tego obowiązku w stosunku do właściwych
+organów państwa członkowskiego, w którym realizowane są zadania. Prawa własności podlegają ochronie.
+11.6.2019 L 152/15Dziennik Urzędowy Unii EuropejskiejPL
+11. Jednostki oceniające zgodność biorą udział w stosownej działalności normalizacyjnej, w działalności regulacyjnej
+w dziedzinie bezzałogowych systemów powietrznych i planowania częstotliwości i w działalności grupy koordynującej
+jednostki notyfikowane, powołanej na podstawie odpowiedniego unijnego prawodawstwa harmonizacyjnego, lub
+zapewniają informowanie o tej działalności swoich pracowników odpowiedzialnych za realizację zadań w ramach oceny
+zgodności, a decyzje administracyjne i dokumenty opracowane w wyniku prac takiej grupy traktują jako ogólne
+wytyczne.
+Artykuł 23
+Domniemanie zgodności jednostek notyfikowanych
+Jeżeli jednostka oceniająca zgodność wykaże, że spełnia kryteria ustanowione w odpowiednich normach zharmonizo
+wanych, które wskazano w Dzienniku Urzędowym Unii Europejskiej, lub częściach tych norm, przyjmuje się, że jednostka
+ta spełnia wymogi art. 22 w zakresie, w jakim odpowiednie normy zharmonizowane obejmują te wymogi.
+Artykuł 24
+Jednostki zależne i podwykonawcy jednostek notyfikowanych
+1. W przypadku gdy jednostka notyfikowana zleca podwykonawstwo określonych zadań związanych z oceną
+zgodności lub korzysta z usług jednostki zależnej, dopilnowuje, aby podwykonawca lub jednostka zależna spełniali
+wymogi określone w art. 22 oraz odpowiednio informuje o tym organ notyfikujący.
+2. Jednostki notyfikowane ponoszą pełną odpowiedzialność za zadania wykonywane przez podwykonawców lub
+jednostki zależne, niezależnie od tego, gdzie mają one siedzibę.
+3. Czynności te można zlecać podwykonawcom lub powierzać do wykonania jednostce zależnej wyłącznie za zgodą
+klienta.
+4. Jednostki notyfikowane przechowują do dyspozycji organu notyfikującego odpowiednie dokumenty dotyczące
+oceny kwalifikacji podwykonawcy lub jednostki zależnej oraz prac wykonywanych przez nich zgodnie z częściami 8 i 9
+załącznika.
+Artykuł 25
+Wniosek o notyfikację
+1. Jednostka oceniająca zgodność przedkłada wniosek o notyfikację organowi notyfikującemu państwa członkow
+skiego, w którym prowadzi działalność.
+2. Do wniosku o notyfikację dołącza się opis działań związanych z oceną zgodności, modułu lub modułów oceny
+zgodności oraz produktów, w odniesieniu do których dana jednostka uważa się za kompetentną, jak również certyfikat
+akredytacji wydany przez krajową jednostkę akredytującą, potwierdzający, że dana jednostka oceniająca zgodność
+spełnia wymogi określone w art. 22.
+Artykuł 26
+Procedura notyfikacji
+1. Organy notyfikujące mogą notyfikować wyłącznie jednostki oceniające zgodność, które spełniają wymogi
+określone w art. 22.
+2. Notyfikują one jednostki oceniające zgodność Komisji i pozostałym państwom członkowskim, stosując
+opracowany i zarządzany przez Komisję elektroniczny system notyfikacji.
+3. Notyfikacja obejmuje wszystkie szczegółowe informacje dotyczące: czynności związanych z oceną zgodności,
+modułu lub modułów oceny zgodności, odnośnego produktu oraz stosownego certyfikatu akredytacji.
+4. Dana jednostka może prowadzić działalność jednostki notyfikowanej wyłącznie, jeżeli w terminie dwóch tygodni
+od notyfikacji Komisja ani pozostałe państwa członkowskie nie zgłoszą zastrzeżeń.
+5. Do celów niniejszego rozdziału za jednostkę notyfikowaną można uznawać wyłącznie taką jednostkę.
+6. Organ notyfikujący powiadamia Komisję i pozostałe państwa członkowskie o wszelkich późniejszych zmianach
+dotyczących notyfikacji.
+11.6.2019L 152/16 Dziennik Urzędowy Unii EuropejskiejPL
+Artykuł 27
+Numery identyfikacyjne i wykazy jednostek notyfikowanych
+1. Komisja przydziela jednostce notyfikowanej numer identyfikacyjny.
+2. Komisja przydziela taki niepowtarzalny numer, nawet gdy dana jednostka jest notyfikowana na mocy szeregu
+unijnych aktów prawnych.
+3. Komisja podaje do wiadomości publicznej wykaz jednostek notyfikowanych na podstawie niniejszego rozporzą
+dzenia, wraz z przydzielonymi im numerami identyfikacyjnymi oraz informacją o rodzaju działalności będącej
+przedmiotem notyfikacji.
+Komisja zapewnia na bieżąco aktualizację tego wykazu.
+Artykuł 28
+Zmiany w notyfikacji
+1. W przypadku gdy organ notyfikujący stwierdzi lub otrzyma informację, że jednostka notyfikowana przestała
+spełniać wymogi art. 22 lub nie wypełnia swoich obowiązków, organ notyfikujący ogranicza, zawiesza lub cofa
+notyfikację, stosownie do przypadku, w zależności od wagi naruszenia wymogów lub niewypełnienia obowiązków.
+Niezwłocznie informuje o tym Komisję i pozostałe państwa członkowskie.
+2. W razie ograniczenia, zawieszenia lub cofnięcia notyfikacji lub w przypadku zaprzestania działalności przez
+jednostkę notyfikowaną notyfikujące państwo członkowskie podejmuje odpowiednie kroki, aby dokumentacją tej
+jednostki zajęła się inna jednostka notyfikowana lub aby dokumentacja ta była dostępna na żądanie odpowiedzialnych
+organów notyfikujących i organów nadzoru rynku.
+Artykuł 29
+Kwestionowanie kompetencji jednostek notyfikowanych
+1. Komisja bada wszystkie przypadki, w których ma wątpliwości lub w których otrzymuje informacje o wątpli
+wościach co do kompetencji jednostki notyfikowanej lub ciągłości spełniania przez tę jednostkę wymogów, którym
+podlega, i wywiązywania się z nałożonych na nią obowiązków.
+2. Na żądanie Komisji notyfikujące państwo członkowskie udziela jej wszelkich informacji dotyczących podstawy
+notyfikacji danej jednostki notyfikowanej lub utrzymania przez nią kompetencji.
+3. Komisja odpowiada za utrzymanie w tajemnicy wszystkich informacji szczególnie chronionych uzyskanych
+w trakcie dochodzenia.
+4. W przypadku gdy Komisja stwierdzi, że jednostka notyfikowana nie spełnia wymogów notyfikacji lub przestała je
+spełniać, informuje o tym fakcie notyfikujące państwo członkowskie i zwraca się do niego o zastosowanie koniecznych
+środków naprawczych, włącznie z wycofaniem notyfikacji, jeżeli zajdzie potrzeba.
+Artykuł 30
+Obowiązki operacyjne jednostek notyfikowanych
+1. Jednostki notyfikowane przeprowadzają ocenę zgodności zgodnie z procedurami oceny zgodności określonymi
+w częściach 8 i 9 załącznika.
+2. Oceny zgodności przeprowadza się w wyważony sposób, unikając zbędnych obciążeń dla podmiotów
+gospodarczych. Jednostki oceniające zgodność wykonują swe zadania, należycie uwzględniając wielkość przedsię
+biorstwa, sektor, w którym ono działa, i jego strukturę, stopień złożoności produktu oraz masowy lub seryjny charakter
+procesu produkcyjnego.
+Zachowują one przy tym jednak odpowiedni poziom rygoru i ochrony, aby zapewnić zgodność bezzałogowego statku
+powietrznego lub bezzałogowego systemu powietrznego z niniejszym rozdziałem.
+3. Jeżeli jednostka notyfikowana stwierdzi, że producent nie spełnił wymogów części 1–6 załącznika lub
+odpowiednich norm zharmonizowanych czy innych specyfikacji technicznych, zobowiązuje ona producenta do
+wprowadzenia stosownych środków naprawczych i nie wydaje mu certyfikatu badania typu UE ani zatwierdzenia
+systemu jakości.
+11.6.2019 L 152/17Dziennik Urzędowy Unii EuropejskiejPL
+4. W przypadku gdy w trakcie monitorowania zgodności w następstwie wydania certyfikatu badania typu UE lub
+zatwierdzenia systemu jakości jednostka notyfikowana stwierdzi, że produkt przestał spełniać wymogi, zobowiązuje
+producenta do wprowadzenia stosownych środków naprawczych i w razie potrzeby zawiesza lub cofa certyfikat badania
+typu UE lub zatwierdzenie systemu jakości.
+5. W razie niezastosowania środków naprawczych lub jeżeli środki te nie przynoszą wymaganych skutków, jednostka
+notyfikowana ogranicza, zawiesza lub cofa wszystkie certyfikaty badania typu UE lub zatwierdzenia systemu jakości,
+stosownie do przypadku.
+Artykuł 31
+Odwołanie od decyzji jednostek notyfikowanych
+Jednostki notyfikowane zapewniają przejrzystą i dostępną procedurę odwoławczą od ich decyzji.
+Artykuł 32
+Obowiązki jednostek notyfikowanych w zakresie informowania
+1. Jednostki notyfikowane informują organ notyfikujący:
+a) o odmowie, ograniczeniu, zawieszeniu lub cofnięciu certyfikatów badania typu UE lub zatwierdzeń systemu jakości
+zgodnie z wymogami części 8 i 9 załącznika;
+b) o wszelkich okolicznościach wpływających na zakres lub warunki notyfikacji;
+c) o każdym przypadku zażądania przez organy nadzoru rynku udzielenia informacji dotyczących działań związanych
+z oceną zgodności;
+d) na żądanie, o podejmowanych działaniach związanych z oceną zgodności będących przedmiotem ich notyfikacji oraz
+o innych realizowanych zadaniach, w tym o działalności transgranicznej i podwykonawstwie.
+2. Zgodnie z wymogami części 8 i 9 załącznika jednostki notyfikowane przekazują pozostałym jednostkom notyfi
+kowanym na podstawie niniejszego rozdziału, prowadzącym podobną działalność w zakresie oceny zgodności
+i zajmującym się tymi samymi kategoriami bezzałogowych statków powietrznych lub bezzałogowych systemów
+powietrznych, odpowiednie informacje o elementach, w odniesieniu do których wyniki oceny zgodności były
+negatywne, a na żądanie, również tych, w odniesieniu do których były one pozytywne.
+3. Jednostki notyfikowane wypełniają obowiązki informacyjne wynikające z części 8 i 9 załącznika.
+Artykuł 33
+Wymiana doświadczeń
+Komisja organizuje wymianę doświadczeń między krajowymi organami państw członkowskich odpowiedzialnymi za
+strategię w zakresie notyfikacji.
+Artykuł 34
+Koordynacja jednostek notyfikowanych
+1. Komisja zapewnia wdrożenie i właściwy przebieg koordynacji i współpracy jednostek notyfikowanych na
+podstawie niniejszego rozdziału poprzez ustanowienie sektorowej grupy jednostek notyfikowanych.
+2. Jednostki notyfikowane uczestniczą w pracach tej grupy bezpośrednio lub przez wyznaczonych przedstawicieli.
+SEKCJA 5
+Nadzór rynku Unii, kontrola wprowadzania produktów do obrotu w Unii i unijna procedura ochronna
+Artykuł 35
+Nadzór rynku Unii i kontrola wprowadzania produktów do obrotu w Unii
+1. Państwa członkowskie organizują i prowadzą nadzór nad produktami, które są wprowadzane do obrotu w Unii
+zgodnie z art. 15 ust. 3 i art. 16–26 rozporządzenia (WE) nr 765/2008.
+11.6.2019L 152/18 Dziennik Urzędowy Unii EuropejskiejPL
+2. Państwa członkowskie organizują i prowadzą kontrolę produktów, które trafiają na rynek Unii zgodnie z art. 15
+ust. 5 i art. 27, 28 i 29 rozporządzenia (WE) nr 765/2008.
+3. Państwa członkowskie zapewniają współpracę swych organów nadzoru rynku i kontroli granicznej z właściwymi
+organami wyznaczonymi na mocy art. 17 rozporządzenia wykonawczego (UE) 2019/947 w kwestiach związanych
+z bezpieczeństwem oraz ustanawiają odpowiednie mechanizmy komunikacji i koordynacji między nimi, tak aby jak
+najlepiej wykorzystać informacje zawarte w systemie zgłaszania zdarzeń określonym w rozporządzeniu Parlamentu
+Europejskiego i Rady (UE) nr 376/2014 (14) oraz w systemach informacyjnych określonych w art. 22 i 23 rozporzą
+dzenia (WE) nr 765/2008.
+Artykuł 36
+Procedura postępowania na poziomie krajowym z produktami stwarzającymi zagrożenie
+1. W przypadku gdy organy nadzoru rynku jednego państwa członkowskiego podjęły działania na podstawie art. 20
+rozporządzenia (WE) nr 765/2008 lub mają wystarczające powody, by sądzić, że dany produkt stwarza zagrożenie dla
+zdrowia lub bezpieczeństwa osób lub innych aspektów związanych z ochroną interesu publicznego objętych zakresem
+niniejszego rozdziału, dokonują one oceny obejmującej dany produkt pod kątem spełnienia wszystkich mających
+zastosowanie wymogów niniejszego rozdziału. W tym celu w razie potrzeby odpowiednie podmioty gospodarcze
+współpracują z organami nadzoru rynku.
+Jeśli w toku oceny, o której mowa w akapicie pierwszym, organy nadzoru rynku stwierdzą, że produkt nie spełnia
+wymogów określonych w niniejszym rozdziale, niezwłocznie wzywają zainteresowany podmiot gospodarczy do
+podjęcia wszelkich odpowiednich działań naprawczych, aby doprowadzić do zgodności produktu z tymi wymogami, do
+wycofania produktu z obrotu lub odzyskania go w rozsądnym terminie, który wyznaczają stosownie do charakteru
+zagrożenia.
+Organy nadzoru rynku informują o tym odpowiednią jednostkę notyfikowaną.
+Do środków, o których mowa w akapicie drugim niniejszego ustępu, stosuje się art. 21 rozporządzenia (WE)
+nr 765/2008.
+2. W przypadku gdy organy nadzoru rynku uznają, że niezgodność z wymogami nie ogranicza się do ich terytorium
+krajowego, informują Komisję oraz pozostałe państwa członkowskie o wynikach oceny oraz o działaniach, których
+podjęcia zażądały od danego podmiotu gospodarczego.
+3. Dany podmiot gospodarczy zapewnia podjęcie wszelkich odpowiednich działań naprawczych w odniesieniu do
+wszystkich odnośnych produktów, które ten podmiot udostępnił na rynku w Unii.
+4. Jeżeli zainteresowany podmiot gospodarczy nie podejmie odpowiednich działań naprawczych w terminie,
+o którym mowa w ust. 1 akapit drugi, organy nadzoru rynku wprowadzają wszelkie odpowiednie środki tymczasowe,
+aby zakazać lub ograniczyć udostępnianie danego produktu na rynku krajowym, wycofać go z obrotu lub odzyskać go.
+Organy nadzoru rynku niezwłocznie informują o tych środkach Komisję i pozostałe państwa członkowskie.
+5. Informacje, o których mowa w ust. 4, obejmują wszelkie dostępne dane szczegółowe, przede wszystkim dane
+umożliwiające identyfikację produktu niezgodnego z wymogami, informacje na temat pochodzenia produktu, charakteru
+występującej niezgodności i związanego z tym zagrożenia, rodzaju i okresu obowiązywania przyjętych środków
+krajowych, a także stanowisko przedstawione przez zainteresowany podmiot gospodarczy. W szczególności organy
+nadzoru rynku wskazują, czy brak zgodności z wymogami wynika z którejkolwiek z następujących przyczyn:
+a) niespełnienia przez produkt wymogów określonych w art. 4;
+b) braków w normach zharmonizowanych, o których mowa w art. 12.
+6. Państwa członkowskie inne niż państwo członkowskie, które wszczęło procedurę na podstawie niniejszego
+artykułu, niezwłocznie informują Komisję i pozostałe państwa członkowskie o wszystkich wprowadzonych środkach
+i przekazują im wszelkie dodatkowe informacje dotyczące niezgodności danego produktu, którymi dysponują,
+i przedstawiają swoje zastrzeżenia, jeśli nie zgadzają się z przyjętym środkiem krajowym.
+11.6.2019 L 152/19Dziennik Urzędowy Unii EuropejskiejPL
+(14) Rozporządzenie Parlamentu Europejskiego i Rady (UE) nr 376/2014 z dnia 3 kwietnia 2014 r. w sprawie zgłaszania i analizy zdarzeń
+w lotnictwie cywilnym oraz podejmowanych w związku z nimi działań następczych, zmiany rozporządzenia Parlamentu Europejskiego
+i Rady (UE) nr 996/2010 oraz uchylenia dyrektywy 2003/42/WE Parlamentu Europejskiego i Rady i rozporządzeń Komisji (WE)
+nr 1321/2007 i (WE) nr 1330/2007 (Dz.U. L 122 z 24.4.2014, s. 18).
+7. Jeżeli w terminie trzech miesięcy od otrzymania informacji, o których mowa w ust. 5, żadne państwo
+członkowskie ani Komisja nie zgłoszą sprzeciwu wobec środka tymczasowego zastosowanego przez państwo
+członkowskie, środek ten uznaje się za uzasadniony.
+8. Państwa członkowskie zapewniają niezwłoczne przyjęcie właściwych środków ograniczających w odniesieniu do
+danego produktu, takich jak wycofanie produktu z obrotu.
+Artykuł 37
+Unijna procedura ochronna
+1. W przypadku gdy po ukończeniu procedury określonej w art. 36 ust. 3 i 4 zgłaszany jest sprzeciw wobec środka
+zastosowanego przez państwo członkowskie lub w przypadku gdy Komisja uzna środek krajowy za sprzeczny
+z przepisami unijnymi, Komisja niezwłocznie rozpoczyna konsultacje z państwami członkowskimi i zainteresowanym
+podmiotem gospodarczym lub zainteresowanymi podmiotami gospodarczymi oraz dokonuje oceny tego środka
+krajowego. Na podstawie wyników tej oceny Komisja podejmuje decyzję, czy dany środek krajowy jest uzasadniony.
+Komisja kieruje swoją decyzję do wszystkich państw członkowskich, niezwłocznie informując o niej państwa
+członkowskie i zainteresowany podmiot gospodarczy lub zainteresowane podmioty gospodarcze.
+2. W razie uznania krajowego środka za uzasadniony wszystkie państwa członkowskie wprowadzają środki
+konieczne do wycofania lub odzyskania z ich rynku produktów niezgodnych z wymogami oraz informują o tych
+środkach Komisję. Jeżeli środek krajowy zostanie uznany za nieuzasadniony, dane państwo członkowskie go wycofuje.
+3. W przypadku uznania środka krajowego za uzasadniony i stwierdzenia, że niezgodność produktu z wymogami
+wynika z braków w normach zharmonizowanych, o których mowa w art. 36 ust. 5 lit. b) niniejszego rozporządzenia,
+Komisja stosuje procedurę przewidzianą w art. 11 rozporządzenia (UE) nr 1025/2012.
+Artykuł 38
+Stwarzający zagrożenie produkt zgodny z wymogami
+1. Jeżeli po przeprowadzeniu oceny na podstawie art. 36 ust. 1 państwo członkowskie stwierdzi, że mimo spełnienia
+wymogów niniejszego rozdziału produkt stwarza zagrożenie dla zdrowia lub bezpieczeństwa osób lub innych aspektów
+związanych z ochroną interesu publicznego objętych zakresem niniejszego rozdziału, żąda od zainteresowanego
+podmiotu gospodarczego wprowadzenia wszelkich odpowiednich środków w celu zapewnienia, aby w momencie
+wprowadzenia danego produktu do obrotu nie stwarzał on zagrożenia, lub też wycofania produktu z obrotu, bądź
+odzyskania go w rozsądnym terminie wyznaczonym stosownie do charakteru zagrożenia.
+2. Podmiot gospodarczy zapewnia podjęcie działań naprawczych w odniesieniu do wszystkich odnośnych produktów,
+które ten podmiot udostępnił na rynku w Unii.
+3. Państwo członkowskie niezwłocznie przekazuje informacje Komisji i pozostałym państwom członkowskim.
+Informacje te obejmują wszelkie dostępne dane szczegółowe, w szczególności dane konieczne do identyfikacji danego
+produktu, informacje na temat jego pochodzenia i łańcucha dostaw, charakteru powodowanego zagrożenia oraz rodzaju
+i okresu obowiązywania zastosowanych środków krajowych.
+4. Komisja niezwłocznie rozpoczyna konsultacje z państwami członkowskimi i zainteresowanym podmiotem
+gospodarczym lub zainteresowanymi podmiotami gospodarczymi i ocenia zastosowane środki krajowe. Na podstawie
+wyników tej oceny Komisja decyduje, czy dany środek krajowy jest uzasadniony, i w razie potrzeby proponuje
+odpowiednie środki.
+5. Komisja kieruje swoją decyzję do wszystkich państw członkowskich, niezwłocznie informując o niej państwa
+członkowskie i zainteresowany podmiot gospodarczy lub zainteresowane podmioty gospodarcze.
+Artykuł 39
+Niezgodność pod względem formalnym
+1. Nie naruszając przepisów art. 36, jeżeli państwo członkowskie dokona jednego z poniższych ustaleń w odniesieniu
+do produktów objętych niniejszym rozdziałem, zobowiązuje ono zainteresowany podmiot gospodarczy do usunięcia
+danej niezgodności:
+a) oznakowanie CE umieszczono z naruszeniem art. 30 rozporządzenia (WE) nr 765/2008 lub art. 15 lub art. 16
+niniejszego rozporządzenia;
+b) nie umieszczono oznakowania CE;
+11.6.2019L 152/20 Dziennik Urzędowy Unii EuropejskiejPL
+c) numer identyfikacyjny jednostki notyfikowanej umieszczono z naruszeniem art. 16 lub nie umieszczono go,
+w przypadku gdy stosowana jest procedura oceny zgodności określona w części 9 załącznika;
+d) nie umieszczono etykiety identyfikacyjnej klasy bezzałogowego statku powietrznego;
+e) nie umieszczono oznaczenia poziomu mocy akustycznej, w przypadku gdy jest ono wymagane;
+f) nie umieszczono numeru seryjnego lub nie ma on właściwego formatu;
+g) nie udostępniono instrukcji lub noty informacyjnej;
+h) brakuje deklaracji zgodności UE lub nie wydano jej;
+i) deklarację zgodności UE sporządzono nieprawidłowo;
+j) dokumentacja techniczna jest niedostępna albo niekompletna;
+k) brakuje nazwy producenta lub importera, zarejestrowanej nazwy handlowej lub zarejestrowanego znaku
+towarowego, adresu strony internetowej lub adresu pocztowego.
+2. W przypadku utrzymywania się niezgodności, o której mowa w ust. 1, zainteresowane państwo członkowskie
+wprowadza wszelkie odpowiednie środki w celu ograniczenia lub zakazania udostępniania produktu na rynku lub
+zapewnienia jego odzyskania lub wycofania z obrotu.
+ROZDZIAŁ III
+Bezzałogowe systemy powietrzne eksploatowane w ramach kategorii „certyfikowanej”
+i „szczególnej”
+Artykuł 40
+Wymogi dotyczące bezzałogowych systemów powietrznych eksploatowanych w ramach kategorii
+„certyfikowanej” i „szczególnej”
+1. Projektowanie, produkcja i konserwacja bezzałogowego systemu powietrznego podlegają certyfikacji, jeżeli
+bezzałogowy system powietrzny spełnia którykolwiek z następujących warunków:
+a) jego typowy wymiar wynosi co najmniej 3 m i jest on przeznaczony do eksploatacji nad zgromadzeniami osób;
+b) jest przeznaczony do transportu osób;
+c) został zaprojektowany do transportu towarów niebezpiecznych, a ograniczenie ryzyka dla osób trzecich w razie
+wypadku wymaga by był bardzo solidny;
+d) jest eksploatowany w ramach operacji kategorii „szczególnej” określonej w art. 5 rozporządzenia wykonawczego (UE)
+2019/947, a w zezwoleniu na eksploatację, wydanym przez właściwy organ po przeprowadzeniu oceny ryzyka
+przewidzianej w art. 11 rozporządzenia wykonawczego (UE) 2019/947, stwierdzono, że bez certyfikacji bezzało
+gowego systemu powietrznego nie można odpowiednio ograniczyć ryzyka eksploatacji.
+2. Bezzałogowy system powietrzny objęty certyfikacją jest zgodny ze stosownymi wymogami rozporządzeń Komisji
+(UE) nr 748/2012 (15), (UE) nr 640/2015 (16) i (UE) nr 1321/2014 (17).
+3. Z wyjątkiem przypadków, gdy podlega on certyfikacji zgodnie z ust. 1, bezzałogowy system powietrzny eksploa
+towany w kategorii „szczególnej” musi mieć właściwości techniczne określone w zezwoleniu operacyjnym wydanym
+przez właściwy organ lub w standardowym scenariuszu określonym w dodatku 1 do załącznika do rozporządzenia
+wykonawczego (UE) 2019/947 lub w certyfikacie operatora lekkich bezzałogowych systemów powietrznych (LUC)
+zgodnie z częścią C załącznika do rozporządzenia wykonawczego (UE) 2019/947.
+ROZDZIAŁ IV
+Operatorzy bezzałogowych systemów powietrznych z państw trzecich
+Artykuł 41
+Operatorzy bezzałogowych systemów powietrznych z państw trzecich
+1. Operatorzy bezzałogowych statków powietrznych, których główne miejsce prowadzenia działalności lub miejsce
+zamieszkania znajduje się w państwie trzecim, do celów operacji bezzałogowych statków powietrznych w jednolitej
+europejskiej przestrzeni powietrznej spełniają wymogi określone w rozporządzeniu wykonawczym (UE) 2019/947.
+11.6.2019 L 152/21Dziennik Urzędowy Unii EuropejskiejPL
+(15) Rozporządzenie Komisji (UE) nr 748/2012 z dnia 3 sierpnia 2012 r. ustanawiające przepisy wykonawcze dotyczące certyfikacji statków
+powietrznych i związanych z nimi wyrobów, części i akcesoriów w zakresie zdatności do lotu i ochrony środowiska oraz dotyczące
+certyfikacji organizacji projektujących i produkujących (Dz.U. L 224 z 21.8.2012, s. 1).
+(16) Rozporządzenie Komisji (UE) 2015/640 z dnia 23 kwietnia 2015 r. w sprawie dodatkowych specyfikacji zdatności do lotu dla danego
+rodzaju operacji oraz zmieniające rozporządzenie (UE) nr 965/2012 (Dz.U. L 106 z 24.4.2015, s. 18).
+(17) Rozporządzenie Komisji (UE) nr 1321/2014 z dnia 26 listopada 2014 r. w sprawie ciągłej zdatności do lotu statków powietrznych oraz
+wyrobów lotniczych, części i wyposażenia, a także w sprawie zatwierdzeń udzielanych organizacjom i personelowi zaangażowanym
+w takie zadania (Dz.U. L 362 z 17.12.2014, s. 1).
+2. Dla operatora bezzałogowego statku powietrznego z państwa trzeciego właściwym organem jest właściwy organ
+pierwszego państwa członkowskiego, w którym operator bezzałogowych statków powietrznych zamierza prowadzić
+działalność.
+3. Na zasadzie odstępstwa od ust. 1, certyfikat kompetencji pilota bezzałogowego statku powietrznego lub certyfikat
+operatora bezzałogowego systemu powietrznego zgodnie z rozporządzeniem wykonawczym (UE) 2019/947 lub
+równoważny dokument może zostać uznany przez właściwy organ do celów operacji w obrębie Unii, do i z Unii, pod
+warunkiem że:
+a) państwo trzecie wystąpiło o uznanie tych kwalifikacji;
+b) certyfikat kompetencji pilota bezzałogowego statku powietrznego lub certyfikat operatora bezzałogowego systemu
+powietrznego są dokumentami obowiązującymi w państwie, które je wydało; oraz
+c) po konsultacji z EASA Komisja uznała, że wymogi, na podstawie których wydano te certyfikaty, zapewniają taki sam
+poziom bezpieczeństwa jak niniejsze rozporządzenie.
+ROZDZIAŁ V
+Przepisy końcowe
+Artykuł 42
+Wejście w życie
+Niniejsze rozporządzenie wchodzi w życie dwudziestego dnia po jego opublikowaniu w Dzienniku Urzędowym Unii
+Europejskiej.
+Niniejsze rozporządzenie wiąże w całości i jest bezpośrednio stosowane we wszystkich
+państwach członkowskich.
+Sporządzono w Brukseli dnia 12 marca 2019 r.
+W imieniu Komisji
+Jean-Claude JUNCKER
+Przewodniczący
+11.6.2019L 152/22 Dziennik Urzędowy Unii EuropejskiejPL
+ZAŁĄCZNIK
+CZĘŚĆ 1
+Wymogi dotyczące bezzałogowych systemów powietrznych klasy C0
+Na bezzałogowych systemach powietrznych klasy C0 umieszcza się następującą etykietę identyfikacyjną klasy:
+Bezzałogowy system powietrzny klasy C0 musi spełniać następujące wymogi:
+1) MTOM, łącznie z obciążeniem użytkowym, wynosi poniżej 250 g;
+2) maksymalna prędkość lotu w poziomie wynosi 19 m/s;
+3) jego maksymalna osiągalna wysokość nad punktem startu jest ograniczona do 120 m;
+4) umożliwia pilotowi bezzałogowego statku powietrznego bezpieczną kontrolę stabilności, zwrotności i transmisji
+danych, zgodnie z instrukcjami producenta, stosownie do potrzeb we wszystkich przewidywanych warunkach
+eksploatacji, w tym w razie awarii jednego lub, w stosownych przypadkach, większej liczby układów;
+5) jest zaprojektowany i wykonany w taki sposób, aby zminimalizować obrażenia ciała podczas eksploatacji; unika się
+ostrych krawędzi, chyba że jest to technicznie konieczne w ramach dobrej praktyki konstrukcyjnej i produkcyjnej.
+W przypadku wyposażenia w śmigła projektuje się je w taki sposób, aby ograniczyć wszelkie obrażenia
+powodowane przez łopaty śmigieł;
+6) jest zasilany energią elektryczną o napięciu nominalnym nieprzekraczającym 24 V prądu stałego (DC) lub
+równoważnym napięciem prądu przemiennego (AC); napięcie w jego dostępnych częściach nie może przekraczać
+24 V prądu stałego lub odpowiadającego mu napięcia prądu przemiennego; napięcia wewnętrzne nie mogą
+przekraczać 24 V prądu stałego lub odpowiadającego mu napięcia prądu przemiennego, chyba że zagwarantuje się,
+iż wytworzone napięcie i natężenie prądu nie spowodują żadnego ryzyka ani groźnego porażenia prądem, nawet
+w przypadku uszkodzenia bezzałogowego systemu powietrznego;
+7) jeżeli jest wyposażony w tryb podążania za stacją bazową, to – w czasie kiedy ta funkcja jest aktywowana – musi
+znajdować się w zasięgu nieprzekraczającym 50 m od pilota bezzałogowego statku powietrznego i umożliwiać
+pilotowi odzyskanie kontroli nad bezzałogowym statkiem powietrznym;
+8) jest wprowadzany do obrotu z instrukcją użytkownika zawierającą:
+a) parametry bezzałogowego statku powietrznego, w tym między innymi:
+— klasę bezzałogowego statku powietrznego,
+— masę bezzałogowego statku powietrznego (wraz z opisem konfiguracji wzorcowej) i maksymalną masę
+startową (MTOM),
+— ogólną charakterystykę dopuszczalnego obciążenia użytkowego pod względem masy, wymiarów, interfejsów
+z bezzałogowym statkiem powietrznym i ewentualnych innych ograniczeń,
+— wyposażenie i oprogramowanie do zdalnego sterowania bezzałogowym statkiem powietrznym,
+— oraz opis działania bezzałogowego statku powietrznego w przypadku przerwania transmisji danych;
+b) jasne instrukcje operacyjne;
+c) ograniczenia operacyjne (w tym dotyczące warunków meteorologicznych i eksploatacji w dzień/w nocy itd.);
+oraz
+d) odpowiedni opis wszystkich rodzajów ryzyka związanego z operacjami bezzałogowego systemu powietrznego,
+dostosowany do wieku użytkowników;
+11.6.2019 L 152/23Dziennik Urzędowy Unii EuropejskiejPL
+9) zawiera opublikowaną przez Agencję Unii Europejskiej ds. Bezpieczeństwa Lotniczego (EASA) notę informacyjną
+przedstawiającą stosowne ograniczenia i obowiązki, zgodnie z rozporządzeniem wykonawczym (UE) 2019/947;
+10) pkt 4, 5 i 6 nie mają zastosowania do bezzałogowych systemów powietrznych, które są zabawkami w rozumieniu
+dyrektywy 2009/48/WE w sprawie bezpieczeństwa zabawek.
+CZĘŚĆ 2
+Wymogi dotyczące bezzałogowych systemów powietrznych klasy C1
+Na bezzałogowym systemie powietrznym klasy C1 umieszcza się następującą etykietę identyfikacyjną klasy:
+Bezzałogowy system powietrzny klasy C1 musi spełniać następujące wymogi:
+1) jest wykonany z takich materiałów i ma takie parametry użytkowe i właściwości fizyczne, które gwarantują, że
+w przypadku zderzenia z prędkością końcową z ludzką głową energia przenoszona na głowę będzie mniejsza niż
+80 J, lub ewentualnie jego MTOM z obciążeniem użytkowym wynosi poniżej 900 g;
+2) maksymalna prędkość lotu w poziomie wynosi 19 m/s;
+3) jego maksymalna osiągalna wysokość nad punktem startu jest ograniczona do 120 m lub jest on wyposażony
+w system ograniczający wysokość nad poziomem terenu lub nad punktem startu do 120 m lub do wartości
+wybieranej przez pilota bezzałogowego statku powietrznego. Jeżeli wartość tę można wybierać, to pilot bezzało
+gowego statku powietrznego musi otrzymywać podczas lotu jasne informacje o wysokości bezzałogowego statku
+powietrznego nad poziomem terenu lub punktem startu.
+4) umożliwia pilotowi bezzałogowego statku powietrznego bezpieczną kontrolę stabilności, zwrotności i transmisji
+danych, zgodnie z instrukcjami producenta, stosownie do potrzeb we wszystkich przewidywanych warunkach
+eksploatacji, w tym w razie awarii jednego lub, w stosownych przypadkach, większej liczby układów;
+5) ma wymaganą wytrzymałość mechaniczną pod względem wszelkich niezbędnych współczynników bezpieczeństwa
+oraz, w stosownych przypadkach, wytrzymałość na wszelkie naprężenia, na które jest narażony podczas
+użytkowania, pozwalającą znosić je bez żadnego uszkodzenia ani deformacji, które mogłyby zakłócać bezpie
+czeństwo jego lotu;
+6) jest zaprojektowany i wykonany w taki sposób, aby zminimalizować obrażenia ciała podczas eksploatacji; unika się
+ostrych krawędzi, chyba że jest to technicznie konieczne w ramach dobrej praktyki konstrukcyjnej i produkcyjnej.
+W przypadku wyposażenia w śmigła projektuje się je w taki sposób, aby ograniczyć wszelkie obrażenia
+powodowane przez łopaty śmigieł;
+7) w przypadku przerwania transmisji danych musi dysponować niezawodną i przewidywalną metodą przywrócenia
+transmisji danych lub zakończenia lotu przez bezzałogowy statek powietrzny w sposób ograniczający wpływ na
+osoby trzecie w powietrzu lub na ziemi;
+8) o ile bezzałogowy statek powietrzny nie jest stałopłatem, jego gwarantowany poziom mocy akustycznej
+skorygowany krzywą korekcyjną A LWA, określony zgodnie z częścią 13, nie przekracza poziomów określonych
+w części 15;
+9) o ile bezzałogowy statek powietrzny nie jest stałopłatem, jego gwarantowany poziom mocy akustycznej
+skorygowany krzywą korekcyjną A musi być podany na nim lub na jego opakowaniu zgodnie z częścią 14;
+10) jest zasilany energią elektryczną o napięciu nominalnym nieprzekraczającym 24 V prądu stałego lub odpowia
+dającym mu napięciem prądu przemiennego; napięcie w jego dostępnych częściach nie może przekraczać 24 V
+prądu stałego lub odpowiadającego mu napięcia prądu przemiennego; napięcia wewnętrzne nie mogą przekraczać
+24 V prądu stałego lub odpowiadającego mu napięcia prądu przemiennego, chyba że zagwarantuje się, iż
+wytworzone napięcie i natężenie prądu nie spowodują żadnego ryzyka ani groźnego porażenia prądem, nawet
+w przypadku uszkodzenia bezzałogowego systemu powietrznego;
+11) musi mieć niepowtarzalny fizyczny numer seryjny zgodny z normą ANSI/CA-2063 Numery seryjne małych bezzało
+gowych systemów powietrznych;
+11.6.2019L 152/24 Dziennik Urzędowy Unii EuropejskiejPL
+12) musi posiadać jednoznaczną zdalną identyfikację, która:
+a) umożliwia załadowanie numeru rejestracyjnego operatora bezzałogowego systemu powietrznego zgodnie
+z art. 14 rozporządzenia wykonawczego (UE) 2019/947 i wyłącznie zgodnie z procedurą wskazaną w systemie
+rejestracji;
+b) umożliwia – przez cały czas trwania lotu – jednoznaczną okresową emisję niżej wymienionych danych z bezzało
+gowego statku powietrznego w czasie rzeczywistym przy użyciu otwartego i udokumentowanego protokołu
+transmisji, w taki sposób, aby urządzenia mobilne, które znajdują się w strefie nadawania, mogły je
+jednoznacznie odbierać:
+(i) numer rejestracyjny operatora bezzałogowego systemu powietrznego;
+(ii) niepowtarzalny fizyczny numer seryjny bezzałogowego statku powietrznego zgodny z normą ANSI/CTA-
+2063;
+(iii) położenie w przestrzeni bezzałogowego statku powietrznego oraz jego wysokość nad poziomem terenu lub
+punktem startu;
+(iv) przebieg trasy mierzony zgodnie z ruchem wskazówek zegara w odniesieniu do północy geograficznej
+i prędkości bezzałogowego statku powietrznego względem ziemi; oraz
+(v) położenie w przestrzeni pilota bezzałogowego statku powietrznego lub, jeśli informacja ta nie jest dostępna,
+punkt startu;
+c) uniemożliwia modyfikowanie przez użytkownika danych, o których mowa w lit. b) ppkt (ii), (iii), (iv) oraz (v);
+13) jest wyposażony w system świadomości przestrzennej, który zapewnia:
+a) interfejs do ładowania i aktualizowania danych dotyczących ograniczeń przestrzeni powietrznej związanych
+z pozycją bezzałogowego statku powietrznego i wysokością bezwzględną w zależności od stref geograficznych,
+jak określono w art. 15 rozporządzenia wykonawczego (UE) 2019/947, który gwarantuje, że proces ładowania
+lub aktualizacji tych danych nie szkodzi ich integralności ani przydatności;
+b) ostrzeganie pilota bezzałogowego statku powietrznego w przypadku stwierdzenia potencjalnego naruszenia
+ograniczeń przestrzeni powietrznej; oraz
+c) informowanie pilota bezzałogowego statku powietrznego o statusie bezzałogowego statku powietrznego, a także
+ostrzeganie, kiedy jego systemy pozycjonowania lub nawigacji nie umożliwiają właściwego działania systemu
+świadomości przestrzennej;
+14) jeżeli bezzałogowy statek powietrzny jest wyposażony w funkcję ograniczenia dostępu do określonych obszarów
+lub rejonów przestrzeni powietrznej, musi ona współpracować z systemem kontroli lotu bezzałogowego statku
+powietrznego płynnie i bez szkody dla bezpieczeństwa lotu; ponadto pilot bezzałogowego statku powietrznego
+musi otrzymywać jasne informacje, kiedy funkcja ta blokuje wejście w dane obszary lub rejony przestrzeni
+powietrznej;
+15) zapewnia wyraźne ostrzeganie pilota bezzałogowego statku powietrznego, kiedy bateria bezzałogowego statku
+powietrznego lub jego stanowiska sterowania wyczerpie się, tak aby pilot bezzałogowego statku powietrznego miał
+wystarczająco dużo czasu na bezpieczne lądowanie;
+16) jest wyposażony w światła do celów:
+a) umożliwienia kontroli bezzałogowego statku powietrznego,
+b) odblaskowości bezzałogowego statku powietrznego w nocy; układ świateł musi umożliwiać osobie znajdującej
+się na ziemi odróżnianie bezzałogowego statku powietrznego od załogowego statku powietrznego;
+17) jeżeli jest wyposażony w tryb podążania za stacją bazową, to – w czasie kiedy ta funkcja jest aktywowana – musi
+znajdować się w zasięgu nieprzekraczającym 50 m od pilota bezzałogowego statku powietrznego i umożliwiać
+pilotowi odzyskanie kontroli nad bezzałogowym statkiem powietrznym;
+18) jest wprowadzany do obrotu z instrukcją użytkownika zawierającą:
+a) parametry bezzałogowego statku powietrznego, w tym między innymi:
+— klasę bezzałogowego statku powietrznego,
+— masę bezzałogowego statku powietrznego (wraz z opisem konfiguracji wzorcowej) i maksymalną masę
+startową (MTOM),
+— ogólną charakterystykę dopuszczalnego obciążenia użytkowego pod względem masy, wymiarów, interfejsów
+z bezzałogowym statkiem powietrznym i ewentualnych innych ograniczeń,
+— wyposażenie i oprogramowanie do zdalnego sterowania bezzałogowym statkiem powietrznym,
+— odniesienie do protokołu transmisji wykorzystywanego do jednoznacznej zdalnej identyfikacji,
+— poziom mocy akustycznej,
+— oraz opis działania bezzałogowego statku powietrznego w przypadku przerwania transmisji danych;
+11.6.2019 L 152/25Dziennik Urzędowy Unii EuropejskiejPL
+b) jasne instrukcje operacyjne;
+c) procedurę ładowania informacji o ograniczeniach przestrzeni powietrznej;
+d) instrukcje konserwacji;
+e) procedury usuwania usterek;
+f) ograniczenia operacyjne (w tym dotyczące warunków meteorologicznych i eksploatacji w dzień/w nocy itd.);
+oraz
+g) odpowiedni opis wszystkich rodzajów ryzyka związanego z operacjami bezzałogowego systemu powietrznego;
+19) zawiera notę informacyjną opublikowaną przez EASA, przedstawiającą stosowne ograniczenia i obowiązki
+wynikające z prawa UE.
+CZĘŚĆ 3
+Wymogi dotyczące bezzałogowych systemów powietrznych klasy C2
+Na bezzałogowych systemach powietrznych klasy C2 umieszcza się następującą etykietę identyfikacyjną klasy:
+Bezzałogowy system powietrzny klasy C2 musi spełniać następujące wymogi:
+1) MTOM, łącznie z obciążeniem użytkowym, wynosi poniżej 4 kg;
+2) jego maksymalna osiągalna wysokość nad punktem startu jest ograniczona do 120 m lub jest on wyposażony
+w system ograniczający wysokość nad poziomem terenu lub nad punktem startu do 120 m lub do wartości
+wybieranej przez pilota bezzałogowego statku powietrznego. Jeżeli wartość tę można wybierać, to pilot bezzało
+gowego statku powietrznego musi otrzymywać podczas lotu jasne informacje o wysokości bezzałogowego statku
+powietrznego nad poziomem terenu lub punktem startu;
+3) umożliwia pilotowi bezzałogowego statku powietrznego bezpieczną kontrolę stabilności, zwrotności i transmisji
+danych, jak określono w rozporządzeniu wykonawczym (UE) 2019/947 i zgodnie z instrukcjami producenta,
+stosownie do potrzeb we wszystkich przewidywanych warunkach eksploatacji, w tym w razie awarii jednego lub,
+w stosownych przypadkach, większej liczby układów;
+4) ma wymaganą wytrzymałość mechaniczną pod względem wszelkich niezbędnych współczynników bezpieczeństwa
+oraz, w stosownych przypadkach, wytrzymałość na wszelkie naprężenia, na które jest narażony podczas
+użytkowania, pozwalającą znosić je bez żadnego uszkodzenia ani deformacji, które mogłyby zakłócać bezpie
+czeństwo jego lotu;
+5) w przypadku bezzałogowych statków powietrznych na uwięzi długość uwięzi wynosi poniżej 50 m, a jej
+wytrzymałość mechaniczna jest nie mniejsza niż:
+a) 10-krotność ich maksymalnej masy w przypadku statków powietrznych cięższych od powietrza;
+b) 4-krotność siły wywieranej przez połączenie maksymalnego ciągu statycznego i siły aerodynamicznej
+maksymalnej dozwolonej prędkości wiatru podczas lotu w przypadku statków powietrznych lżejszych od
+powietrza;
+6) jest zaprojektowany i wykonany w taki sposób, aby zminimalizować obrażenia ciała podczas eksploatacji; unika się
+ostrych krawędzi, chyba że jest to technicznie konieczne w ramach dobrej praktyki konstrukcyjnej i produkcyjnej.
+W przypadku wyposażenia w śmigła projektuje się je w taki sposób, aby ograniczyć wszelkie obrażenia
+powodowane przez łopaty śmigieł;
+7) z wyjątkiem bezzałogowych statków powietrznych na uwięzi, w przypadku przerwania transmisji danych
+dysponuje niezawodną i przewidywalną metodą przywrócenia transmisji danych lub zakończenia lotu w sposób
+ograniczający wpływ na strony trzecie w powietrzu lub na ziemi;
+8) z wyjątkiem bezzałogowych statków powietrznych na uwięzi, musi być wyposażony w łącze transmisji danych
+zabezpieczone przed nieuprawnionym dostępem do funkcji sterowania i kontroli;
+11.6.2019L 152/26 Dziennik Urzędowy Unii EuropejskiejPL
+9) o ile bezzałogowy statek powietrzny nie jest stałopłatem, musi być wyposażony w tryb niskiej prędkości wybierany
+przez pilota bezzałogowego statku powietrznego, ograniczający maksymalną prędkość przelotową do nie więcej niż
+3 m/s.
+10) o ile bezzałogowy statek powietrzny nie jest stałopłatem, jego gwarantowany poziom mocy akustycznej
+skorygowany krzywą korekcyjną A LWA, określony zgodnie z częścią 13, nie przekracza poziomów określonych
+w części 15;
+11) o ile bezzałogowy statek powietrzny nie jest stałopłatem, jego gwarantowany poziom mocy akustycznej
+skorygowany krzywą korekcyjną A musi być podany na nim lub na jego opakowaniu zgodnie z częścią 14;
+12) być zasilany energią elektryczną o napięciu nominalnym nieprzekraczającym 48 V prądu stałego lub równoważnym
+napięciem prądu przemiennego; napięcie w jego dostępnych częściach nie może przekraczać 48 V prądu stałego
+lub odpowiadającego mu napięcia prądu przemiennego; napięcia wewnętrzne nie mogą przekraczać 48 V prądu
+stałego lub odpowiadającego mu napięcia prądu przemiennego, chyba że zagwarantuje się, iż wytworzone napięcie
+i natężenie prądu nie spowodują żadnego ryzyka ani groźnego porażenia prądem, nawet w przypadku uszkodzenia
+bezzałogowego systemu powietrznego;
+13) musi mieć niepowtarzalny fizyczny numer seryjny zgodny z normą ANSI/CA-2063 Numery seryjne małych bezzało
+gowych systemów powietrznych;
+14) z wyjątkiem bezzałogowych statków powietrznych na uwięzi, musi posiadać jednoznaczną zdalną identyfikację,
+która:
+a) umożliwia załadowanie numeru rejestracyjnego operatora bezzałogowego systemu powietrznego zgodnie
+z art. 14 rozporządzenia wykonawczego (UE) 2019/947 i wyłącznie zgodnie z procedurą wskazaną w systemie
+rejestracji;
+b) umożliwia – przez cały czas trwania lotu – jednoznaczną okresową emisję niżej wymienionych danych z bezzało
+gowego statku powietrznego w czasie rzeczywistym przy użyciu otwartego i udokumentowanego protokołu
+transmisji, w taki sposób, aby urządzenia mobilne, które znajdują się w strefie nadawania, mogły je
+jednoznacznie odbierać:
+(i) numer rejestracyjny operatora bezzałogowego systemu powietrznego;
+(ii) niepowtarzalny fizyczny numer seryjny bezzałogowego statku powietrznego zgodny z normą ANSI/CTA-
+2063;
+(iii) położenie w przestrzeni bezzałogowego statku powietrznego oraz jego wysokość nad poziomem terenu lub
+punktem startu;
+(iv) przebieg trasy mierzony zgodnie z ruchem wskazówek zegara w odniesieniu do północy geograficznej
+i prędkości bezzałogowego statku powietrznego względem ziemi; oraz
+(v) położenie w przestrzeni pilota bezzałogowego statku powietrznego;
+c) uniemożliwia modyfikowanie przez użytkownika danych, o których mowa w lit. b) ppkt (ii), (iii), (iv) oraz (v);
+15) jest wyposażony w funkcję świadomości przestrzennej, która zapewnia:
+a) interfejs do ładowania i aktualizowania danych dotyczących ograniczeń przestrzeni powietrznej związanych
+z pozycją bezzałogowego statku powietrznego i wysokością bezwzględną w zależności od stref geograficznych,
+jak określono w art. 15 rozporządzenia wykonawczego (UE) 2019/947, który gwarantuje, że proces ładowania
+lub aktualizacji tych danych nie szkodzi ich integralności ani przydatności;
+b) ostrzeganie pilota bezzałogowego statku powietrznego w przypadku stwierdzenia potencjalnego naruszenia
+ograniczeń przestrzeni powietrznej; oraz
+c) informowanie pilota bezzałogowego statku powietrznego o statusie bezzałogowego statku powietrznego, a także
+ostrzeganie, kiedy jego systemy pozycjonowania lub nawigacji nie umożliwiają właściwego działania systemu
+świadomości przestrzennej;
+16) jeżeli bezzałogowy statek powietrzny jest wyposażony w funkcję ograniczenia dostępu do określonych obszarów
+lub rejonów przestrzeni powietrznej, musi ona współpracować z systemem kontroli lotu bezzałogowego statku
+powietrznego płynnie i bez szkody dla bezpieczeństwa lotu; ponadto pilot bezzałogowego statku powietrznego
+musi otrzymywać jasne informacje, kiedy funkcja ta blokuje wejście w dane obszary lub rejony przestrzeni
+powietrznej;
+17) zapewnia wyraźne ostrzeganie pilota bezzałogowego statku powietrznego, kiedy bateria bezzałogowego statku
+powietrznego lub jego stanowiska sterowania wyczerpie się, tak aby pilot bezzałogowego statku powietrznego miał
+wystarczająco dużo czasu na bezpieczne lądowanie;
+18) jest wyposażony w światła do celów:
+1) umożliwienia kontroli bezzałogowego statku powietrznego;
+2) odblaskowości bezzałogowego statku powietrznego w nocy; układ świateł musi umożliwiać osobie znajdującej
+się na ziemi odróżnianie bezzałogowego statku powietrznego od załogowego statku powietrznego;
+11.6.2019 L 152/27Dziennik Urzędowy Unii EuropejskiejPL
+19) jest wprowadzany do obrotu z instrukcją użytkownika zawierającą:
+a) parametry bezzałogowego statku powietrznego, w tym między innymi:
+— klasę bezzałogowego statku powietrznego,
+— masę bezzałogowego statku powietrznego (wraz z opisem konfiguracji wzorcowej) i maksymalną masę
+startową (MTOM),
+— ogólną charakterystykę dopuszczalnego obciążenia użytkowego pod względem masy, wymiarów, interfejsów
+z bezzałogowym statkiem powietrznym i ewentualnych innych ograniczeń,
+— wyposażenie i oprogramowanie do zdalnego sterowania bezzałogowym statkiem powietrznym,
+— odniesienie do protokołu transmisji wykorzystywanego do jednoznacznej zdalnej identyfikacji,
+— poziom mocy akustycznej,
+— oraz opis działania bezzałogowego statku powietrznego w przypadku przerwania transmisji danych;
+b) jasne instrukcje operacyjne;
+c) procedurę ładowania informacji o ograniczeniach przestrzeni powietrznej;
+d) instrukcje konserwacji;
+e) procedury usuwania usterek;
+f) ograniczenia operacyjne (w tym dotyczące warunków meteorologicznych i eksploatacji w dzień/w nocy itd.);
+oraz
+g) odpowiedni opis wszystkich rodzajów ryzyka związanego z operacjami bezzałogowego systemu powietrznego;
+20) zawiera notę informacyjną opublikowaną przez EASA, przedstawiającą stosowne ograniczenia i obowiązki
+wynikające z prawa UE.
+CZĘŚĆ 4
+Wymogi dotyczące bezzałogowych systemów powietrznych klasy C3
+Na bezzałogowych systemach powietrznych klasy C3 umieszcza się następującą etykietę identyfikacyjną klasy:
+Bezzałogowy system powietrzny klasy C3 musi spełniać następujące wymogi:
+1) MTOM, łącznie z obciążeniem użytkowym, wynosi poniżej 25 kg, a maksymalny typowy wymiar wynosi mniej niż
+3 m;
+2) jego maksymalna osiągalna wysokość nad punktem startu jest ograniczona do 120 m lub jest on wyposażony
+w system ograniczający wysokość nad poziomem terenu lub nad punktem startu do 120 m lub do wartości
+wybieranej przez pilota bezzałogowego statku powietrznego. Jeżeli wartość tę można wybierać, to pilot bezzało
+gowego statku powietrznego musi otrzymywać podczas lotu jasne informacje o wysokości bezzałogowego statku
+powietrznego nad poziomem terenu lub punktem startu.
+3) umożliwia pilotowi bezpieczną kontrolę stabilności, zwrotności i transmisji danych, jak określono w rozporządzeniu
+wykonawczym (UE) 2019/947 i zgodnie z instrukcjami producenta, stosownie do potrzeb we wszystkich przewidy
+wanych warunkach eksploatacji, w tym w razie awarii jednego lub, w stosownych przypadkach, większej liczby
+układów;
+11.6.2019L 152/28 Dziennik Urzędowy Unii EuropejskiejPL
+4) w przypadku bezzałogowych statków powietrznych na uwięzi długość uwięzi wynosi poniżej 50 m, a jej
+wytrzymałość mechaniczna jest nie mniejsza niż:
+a) 10-krotność ich maksymalnej masy w przypadku statków powietrznych cięższych od powietrza;
+b) 4-krotność siły wywieranej przez połączenie maksymalnego ciągu statycznego i siły aerodynamicznej
+maksymalnej dozwolonej prędkości wiatru podczas lotu w przypadku statków powietrznych lżejszych od
+powietrza;
+5) z wyjątkiem bezzałogowych statków powietrznych na uwięzi, w przypadku przerwania transmisji danych
+dysponuje niezawodną i przewidywalną metodą przywrócenia transmisji danych lub zakończenia lotu w sposób
+ograniczający wpływ na strony trzecie w powietrzu lub na ziemi;
+6) o ile bezzałogowy statek powietrzny nie jest stałopłatem, jego gwarantowany poziom mocy akustycznej LWA
+skorygowany krzywą korekcyjną A, określony zgodnie z częścią 13, musi być podany na nim lub na jego
+opakowaniu zgodnie z częścią 14;
+7) być zasilany energią elektryczną o napięciu nominalnym nieprzekraczającym 48 V prądu stałego lub równoważnym
+napięciem prądu przemiennego; napięcie w jego dostępnych częściach nie może przekraczać 48 V prądu stałego
+lub odpowiadającego mu napięcia prądu przemiennego; napięcia wewnętrzne nie mogą przekraczać 48 V prądu
+stałego lub odpowiadającego mu napięcia prądu przemiennego, chyba że zagwarantuje się, iż wytworzone napięcie
+i natężenie prądu nie spowodują żadnego ryzyka ani groźnego porażenia prądem, nawet w przypadku uszkodzenia
+bezzałogowego systemu powietrznego;
+8) musi mieć niepowtarzalny fizyczny numer seryjny zgodny z normą ANSI/CA-2063 Numery seryjne małych bezzało
+gowych systemów powietrznych;
+9) z wyjątkiem bezzałogowych statków powietrznych na uwięzi, musi posiadać jednoznaczną zdalną identyfikację,
+która:
+a) umożliwia załadowanie numeru rejestracyjnego operatora bezzałogowego systemu powietrznego zgodnie
+z art. 14 rozporządzenia wykonawczego (UE) 2019/947 i wyłącznie zgodnie z procedurą wskazaną w systemie
+rejestracji;
+b) umożliwia – przez cały czas trwania lotu – jednoznaczną okresową emisję niżej wymienionych danych z bezzało
+gowego statku powietrznego w czasie rzeczywistym przy użyciu otwartego i udokumentowanego protokołu
+transmisji, w taki sposób, aby urządzenia mobilne, które znajdują się w strefie nadawania, mogły je
+jednoznacznie odbierać:
+(i) numer rejestracyjny operatora bezzałogowego systemu powietrznego;
+(ii) niepowtarzalny fizyczny numer seryjny bezzałogowego statku powietrznego zgodny z normą ANSI/CTA-
+2063;
+(iii) położenie w przestrzeni bezzałogowego statku powietrznego oraz jego wysokość nad poziomem terenu lub
+punktem startu;
+(iv) przebieg trasy mierzony zgodnie z ruchem wskazówek zegara w odniesieniu do północy geograficznej
+i prędkości bezzałogowego statku powietrznego względem ziemi; oraz
+(v) położenie w przestrzeni pilota bezzałogowego statku powietrznego;
+c) uniemożliwia modyfikowanie przez użytkownika danych, o których mowa w lit. b) ppkt (ii), (iii), (iv) oraz (v);
+10) jest wyposażony w funkcję świadomości przestrzennej, która zapewnia:
+a) interfejs do ładowania i aktualizowania danych dotyczących ograniczeń przestrzeni powietrznej związanych
+z pozycją bezzałogowego statku powietrznego i wysokością bezwzględną w zależności od stref geograficznych,
+jak określono w art. 15 rozporządzenia wykonawczego (UE) 2019/947, który gwarantuje, że proces ładowania
+lub aktualizacji tych danych nie szkodzi ich integralności ani przydatności;
+b) ostrzeganie pilota bezzałogowego statku powietrznego w przypadku stwierdzenia potencjalnego naruszenia
+ograniczeń przestrzeni powietrznej; oraz
+c) informowanie pilota bezzałogowego statku powietrznego o statusie bezzałogowego statku powietrznego, a także
+ostrzeganie, kiedy jego systemy pozycjonowania lub nawigacji nie umożliwiają właściwego działania systemu
+świadomości przestrzennej;
+11) jeżeli bezzałogowy statek powietrzny jest wyposażony w funkcję ograniczenia dostępu do określonych obszarów
+lub rejonów przestrzeni powietrznej, musi ona współpracować z systemem kontroli lotu bezzałogowego statku
+powietrznego płynnie i bez szkody dla bezpieczeństwa lotu; ponadto pilot bezzałogowego statku powietrznego
+musi otrzymywać jasne informacje, kiedy funkcja ta blokuje wejście w dane obszary lub rejony przestrzeni
+powietrznej;
+12) z wyjątkiem bezzałogowych statków powietrznych na uwięzi, musi być wyposażony w łącze transmisji danych
+zabezpieczone przed nieuprawnionym dostępem do funkcji sterowania i kontroli;
+13) zapewnia wyraźne ostrzeganie pilota bezzałogowego statku powietrznego, kiedy bateria bezzałogowego statku
+powietrznego lub jego stanowiska sterowania wyczerpie się, tak aby pilot bezzałogowego statku powietrznego miał
+wystarczająco dużo czasu na bezpieczne lądowanie;
+11.6.2019 L 152/29Dziennik Urzędowy Unii EuropejskiejPL
+14) jest wyposażony w światła do celów:
+1) umożliwienia kontroli bezzałogowego statku powietrznego;
+2) odblaskowości bezzałogowego statku powietrznego w nocy; układ świateł musi umożliwiać osobie znajdującej
+się na ziemi odróżnianie bezzałogowego statku powietrznego od załogowego statku powietrznego;
+15) jest wprowadzany do obrotu z instrukcją użytkownika zawierającą:
+a) parametry bezzałogowego statku powietrznego, w tym między innymi:
+— klasę bezzałogowego statku powietrznego,
+— masę bezzałogowego statku powietrznego (wraz z opisem konfiguracji wzorcowej) i maksymalną masę
+startową (MTOM),
+— ogólną charakterystykę dopuszczalnego obciążenia użytkowego pod względem masy, wymiarów, interfejsów
+z bezzałogowym statkiem powietrznym i ewentualnych innych ograniczeń,
+— wyposażenie i oprogramowanie do zdalnego sterowania bezzałogowym statkiem powietrznym,
+— odniesienie do protokołu transmisji wykorzystywanego do jednoznacznej zdalnej identyfikacji,
+— poziom mocy akustycznej,
+— oraz opis działania bezzałogowego statku powietrznego w przypadku przerwania transmisji danych;
+b) jasne instrukcje operacyjne;
+c) procedurę ładowania informacji o ograniczeniach przestrzeni powietrznej;
+d) instrukcje konserwacji;
+e) procedury usuwania usterek;
+f) ograniczenia operacyjne (w tym dotyczące warunków meteorologicznych i eksploatacji w dzień/w nocy itd.);
+oraz
+g) odpowiedni opis wszystkich rodzajów ryzyka związanego z operacjami bezzałogowego systemu powietrznego;
+16) zawiera notę informacyjną opublikowaną przez EASA, przedstawiającą stosowne ograniczenia i obowiązki
+wynikające z prawa UE.
+CZĘŚĆ 5
+Wymogi dotyczące bezzałogowych systemów powietrznych klasy C4
+Na bezzałogowych systemach powietrznych klasy C4 umieszcza się w widoczny sposób następującą etykietę:
+Bezzałogowy system powietrzny klasy C4 musi spełniać następujące wymogi:
+1) MTOM, łącznie z obciążeniem użytkowym, wynosi poniżej 25 kg;
+2) umożliwia pilotowi bezzałogowego statku powietrznego bezpieczną kontrolę i manewrowanie, zgodnie
+z instrukcjami producenta, stosownie do potrzeb we wszystkich przewidywanych warunkach eksploatacji, w tym
+w razie awarii jednego lub, w stosownych przypadkach, większej liczby układów;
+11.6.2019L 152/30 Dziennik Urzędowy Unii EuropejskiejPL
+3) nie może działać w trybach automatycznego sterowania, z wyjątkiem funkcji awaryjnej stabilizacji lotu, która nie ma
+bezpośredniego wpływu na trajektorię, i funkcji wsparcia przy przerwaniu transmisji, pod warunkiem że wcześniej
+określono stałe stanowisko sterowania lotami na wypadek przerwania transmisji;
+4) jest wprowadzany do obrotu z instrukcją użytkownika zawierającą:
+a) parametry bezzałogowego statku powietrznego, w tym między innymi:
+— klasę bezzałogowego statku powietrznego,
+— masę bezzałogowego statku powietrznego (wraz z opisem konfiguracji wzorcowej) i maksymalną masę
+startową (MTOM),
+— ogólną charakterystykę dopuszczalnego obciążenia użytkowego pod względem masy, wymiarów, interfejsów
+z bezzałogowym statkiem powietrznym i ewentualnych innych ograniczeń,
+— wyposażenie i oprogramowanie do zdalnego sterowania bezzałogowym statkiem powietrznym,
+— oraz opis działania bezzałogowego statku powietrznego w przypadku przerwania transmisji danych;
+b) jasne instrukcje operacyjne;
+c) instrukcje konserwacji;
+d) procedury usuwania usterek;
+e) ograniczenia operacyjne (w tym dotyczące warunków meteorologicznych i eksploatacji w dzień/w nocy itd.); oraz
+f) odpowiedni opis wszystkich rodzajów ryzyka związanego z operacjami bezzałogowego systemu powietrznego;
+5) zawiera notę informacyjną opublikowaną przez EASA, przedstawiającą stosowne ograniczenia i obowiązki
+wynikające z prawa UE.
+CZĘŚĆ 6
+Wymogi dotyczące dodatkowych elementów służących do jednoznacznej zdalnej identyfikacji
+Dodatkowy element służący do jednoznacznej zdalnej identyfikacji musi spełniać następujące warunki:
+1) umożliwia załadowanie numeru rejestracyjnego operatora bezzałogowego systemu powietrznego zgodnie z art. 14
+rozporządzenia wykonawczego (UE) 2019/947 i wyłącznie zgodnie z procedurą wskazaną w systemie rejestracji;
+2) musi mieć fizyczny niepowtarzalny numer seryjny zgodny z normą ANSI/CA-2063 Numery seryjne małych bezzało
+gowych systemów powietrznych, umieszczony w czytelny sposób na dodatkowym elemencie i na jego opakowaniu lub
+w instrukcji użytkownika;
+3) umożliwia – przez cały czas trwania lotu – jednoznaczną okresową emisję niżej wymienionych danych z bezzało
+gowego statku powietrznego w czasie rzeczywistym przy użyciu otwartego i udokumentowanego protokołu
+transmisji, w taki sposób, aby urządzenia mobilne, które znajdują się w strefie nadawania, mogły je jednoznacznie
+odbierać:
+(i) numer rejestracyjny operatora bezzałogowego systemu powietrznego;
+(ii) niepowtarzalny fizyczny numer seryjny dodatkowego elementu zgodny z normą ANSI/CTA-2063;
+(iii) położenie w przestrzeni bezzałogowego statku powietrznego oraz jego wysokość nad poziomem terenu lub
+punktem startu;
+(iv) przebieg trasy mierzony zgodnie z ruchem wskazówek zegara w odniesieniu do północy geograficznej
+i prędkości bezzałogowego statku powietrznego względem ziemi; oraz
+(v) położenie w przestrzeni pilota bezzałogowego statku powietrznego lub, jeśli informacja ta nie jest dostępna,
+punkt startu.
+4) uniemożliwia modyfikowanie przez użytkownika danych, o których mowa w pkt 3 ppkt (ii), (iii), (iv) oraz (v).
+5) jest wprowadzany do obrotu z instrukcją użytkownika zawierającą odniesienie do protokołu transmisji wykorzysty
+wanego do jednoznacznej zdalnej identyfikacji oraz instrukcję:
+a) instalacji modułu na bezzałogowym statku powietrznym;
+b) ładowania numeru rejestracyjnego operatora bezzałogowego systemu powietrznego.
+11.6.2019 L 152/31Dziennik Urzędowy Unii EuropejskiejPL
+CZĘŚĆ 7
+Ocena zgodności – moduł A – wewnętrzna kontrola produkcji
+1. Wewnętrzna kontrola produkcji to procedura oceny zgodności, w której producent wywiązuje się z obowiązków
+określonych w pkt 2, 3 i 4 niniejszej części oraz na swoją wyłączną odpowiedzialność zapewnia i oświadcza, że dane
+produkty spełniają mające do nich zastosowanie wymogi części 1, 5 lub 6.
+2. Dokumentacja techniczna
+Producent opracowuje dokumentację techniczną zgodnie z art. 17 niniejszego rozporządzenia.
+3. Produkcja
+Producent wprowadza wszelkie niezbędne środki, aby proces produkcji i monitorowanie go gwarantowały zgodność
+wyprodukowanego produktu z dokumentacją techniczną, o której mowa w pkt 2 niniejszego załącznika, oraz
+z mającymi do nich zastosowanie wymogami części 1, 5 lub 6 załącznika.
+4. Oznakowanie CE i deklaracja zgodności UE
+1) Zgodnie z art. 15 i 16 niniejszego rozporządzenia producent umieszcza oznakowanie CE oraz, w stosownych
+przypadkach, etykietę identyfikacyjną klasy bezzałogowego statku powietrznego na każdym egzemplarzu
+produktu spełniającym mające do niego zastosowanie wymogi części 1, 5 lub 6.
+2) Producent sporządza pisemną deklarację zgodności UE dla każdego modelu produktu i przechowuje ją wraz
+z dokumentacją techniczną do dyspozycji organów krajowych przez 10 lat po wprowadzeniu produktu do
+obrotu. W deklaracji zgodności UE określa się, jakiego produktu ona dotyczy.
+Kopię deklaracji zgodności UE udostępnia się na żądanie właściwych organów.
+5. Upoważniony przedstawiciel
+Obowiązki producenta określone w pkt 4 mogą być w jego imieniu i na jego odpowiedzialność wypełniane przez
+jego upoważnionego przedstawiciela, o ile określono je w pełnomocnictwie.
+CZĘŚĆ 8
+Ocena zgodności – moduły B i C – badanie typu UE i zgodność z typem w oparciu o wewnętrzną
+kontrolę produkcji zgodnie z załącznikiem II do decyzji 768/2008/WE
+W przypadku odesłania do tej części procedurę oceny zgodności przeprowadza się zgodnie z opisanymi poniżej
+modułem B (badanie typu UE) i modułem C (zgodność z typem w oparciu o wewnętrzną kontrolę produkcji) niniejszej
+części.
+Moduł B
+Badanie typu UE
+1. Badanie typu UE to ta część procedury oceny zgodności, w której jednostka notyfikowana bada projekt
+techniczny produktu oraz weryfikuje i poświadcza spełnienie przez projekt techniczny produktu mających do
+niego zastosowanie wymogów części 1–6.
+2. Badanie typu UE polega na ocenie adekwatności projektu technicznego produktu poprzez zbadanie dokumentacji
+technicznej i dowodów potwierdzających, o których mowa w pkt 3, oraz ocenę reprezentatywnych dla
+planowanej produkcji próbek co najmniej jednej z istotnych części produktu (połączenia typu produkcji i typu
+projektu).
+3. Producent składa wniosek o badanie typu UE w jednej wybranej przez siebie jednostce notyfikowanej.
+11.6.2019L 152/32 Dziennik Urzędowy Unii EuropejskiejPL
+Wniosek ten zawiera:
+1) nazwę i adres producenta oraz, w przypadku wniosku składanego przez upoważnionego przedstawiciela,
+dodatkowo jego nazwę i adres;
+2) pisemną deklarację, że ten sam wniosek nie został złożony w żadnej innej jednostce notyfikowanej;
+3) dokumentację techniczną. Dokumentacja techniczna musi umożliwiać ocenę zgodności produktu z mającymi
+zastosowanie wymogami niniejszego rozporządzenia oraz zawierać odpowiednią analizę i ocenę ryzyka.
+W stosownych przypadkach dokumentacja techniczna zawiera elementy określone w art. 17 niniejszego
+rozporządzenia;
+4) próbki reprezentatywne dla planowanej produkcji. Jednostka notyfikowana może żądać dostarczenia kolejnych
+próbek, jeśli jest to niezbędne do przeprowadzenia programu badań;
+5) dowody potwierdzające adekwatność rozwiązań technicznych projektu. W dowodach tych wymienia się
+wszelkie wykorzystane dokumenty, zwłaszcza jeżeli nie zastosowano wcale lub w pełni stosownych norm
+zharmonizowanych lub specyfikacji technicznych. W stosownych przypadkach dowody potwierdzające
+obejmują wyniki testów przeprowadzonych zgodnie z innymi właściwymi specyfikacjami technicznymi przez
+odpowiednie laboratorium producenta lub przez inne laboratorium badawcze w jego imieniu i na jego
+odpowiedzialność.
+4. Jednostka notyfikowana:
+w odniesieniu do produktu:
+1) bada dokumentację techniczną i dowody potwierdzające, aby ocenić adekwatność projektu technicznego
+produktu;
+w odniesieniu do badanej próbki lub badanych próbek:
+2) sprawdza, czy próbkę lub próbki wyprodukowano zgodnie z dokumentacją techniczną, identyfikując elementy,
+które zaprojektowano zgodnie z obowiązującymi przepisami odpowiednich norm zharmonizowanych lub
+specyfikacji technicznych, oraz elementy, które zaprojektowano bez zastosowania odpowiednich przepisów
+tych norm;
+3) przeprowadza odpowiednie badania i testy lub zleca ich przeprowadzenie, aby – w przypadku gdy producent
+zdecydował się na zastosowanie rozwiązań określonych w odpowiednich normach zharmonizowanych lub
+specyfikacjach technicznych – sprawdzić, czy zastosowano je prawidłowo;
+4) przeprowadza odpowiednie badania i testy lub zleca ich przeprowadzenie, aby – w przypadku gdy producent
+nie zdecydował się na zastosowanie rozwiązań określonych w odpowiednich normach zharmonizowanych lub
+specyfikacjach technicznych – sprawdzić, czy rozwiązania przyjęte przez producenta spełniają odnośne
+zasadnicze wymogi aktu prawnego;
+5) uzgadnia z producentem miejsce przeprowadzenia testów i prób.
+5. Jednostka notyfikowana sporządza sprawozdanie z oceny, w którym odnotowuje czynności podjęte zgodnie z pkt
+4 i ich rezultaty. Bez uszczerbku dla jej obowiązków określonych w pkt 8, jednostka notyfikowana udostępnia
+treść tego sprawozdania, w całości lub w części, wyłącznie za zgodą producenta.
+6. Jeżeli dany typ spełnia wymogi niniejszego rozporządzenia, jednostka notyfikowana wydaje producentowi
+certyfikat badania typu UE. Certyfikat ten zawiera nazwę i adres producenta, wnioski z badań, istotne aspekty
+wymogów objętych badaniami, ewentualne warunki jego ważności oraz dane niezbędne do identyfikacji zatwier
+dzonego typu. Do certyfikatu można dołączyć załącznik lub załączniki.
+Certyfikat UE i jego załączniki muszą zawierać wszelkie istotne informacje umożliwiające ocenę zgodności
+wytwarzanych produktów w odniesieniu do badanego typu oraz kontrolę w trakcie eksploatacji.
+Jeżeli typ nie spełnia mających zastosowanie wymogów niniejszego rozporządzenia, jednostka notyfikowana
+odmawia wydania certyfikatu badania typu UE oraz informuje o tym odpowiednio wnioskodawcę, szczegółowo
+uzasadniając odmowę.
+7. Jednostki notyfikowane na bieżąco śledzą wszelkie zmiany w powszechnie uznawanym stanie techniki
+wskazujące, że zatwierdzony typ może nie spełniać już mających zastosowanie wymogów niniejszego rozporzą
+dzenia, oraz ustalają, czy zmiany te wymagają dalszego badania. Jeśli ma to miejsce, jednostki notyfikowane
+informują o tym producentów.
+11.6.2019 L 152/33Dziennik Urzędowy Unii EuropejskiejPL
+Producent informuje jednostkę notyfikowaną, która przechowuje dokumentację techniczną dotyczącą certyfikatu
+badania typu UE, o wszelkich modyfikacjach zatwierdzonego typu mogących wpływać na zgodność produktu
+z zasadniczymi wymogami niniejszego rozporządzenia lub warunkami ważności tego certyfikatu. Takie
+modyfikacje wymagają dodatkowego zatwierdzenia, dołączanego do pierwotnego certyfikatu badania typu UE.
+8. Każda jednostka notyfikowana informuje odnośny organ notyfikujący o certyfikatach badania typu UE lub
+wszelkich dodatkach do nich, które wydała lub cofnęła, oraz – okresowo lub na żądanie – udostępnia odnośnemu
+organowi notyfikującemu wykaz certyfikatów lub wszelkich dodatków do nich, których wydania odmówiła, które
+zawiesiła lub poddała innym ograniczeniom.
+Każda jednostka notyfikowana informuje pozostałe jednostki notyfikowane o certyfikatach badania typu UE lub
+wszelkich dodatkach do nich, których wydania odmówiła, które cofnęła, zawiesiła lub poddała innym ograni
+czeniom, oraz – na żądanie – o certyfikatach lub wszelkich dodatkach do nich, które wydała.
+Komisja, państwa członkowskie i pozostałe jednostki notyfikowane mogą na żądanie otrzymać kopie certyfikatów
+badania typu UE lub dodatków do nich. Na uzasadnione żądanie Komisja i państwa członkowskie mogą otrzymać
+kopię dokumentacji technicznej oraz wyniki badań przeprowadzonych przez jednostkę notyfikowaną.
+Jednostka notyfikowana przechowuje kopię certyfikatu badania typu UE, załączników i dodatków do niego,
+a także dokumentów technicznych, w tym dokumentacji przedstawionej przez producenta, przez 10 lat od daty
+przeprowadzenia oceny produktu lub do wygaśnięcia ważności tego certyfikatu.
+9. Producent przechowuje kopię certyfikatu badania typu UE oraz załączników i dodatków do niego wraz
+z dokumentacją techniczną do dyspozycji organów krajowych przez 10 lat po wprowadzeniu produktu do
+obrotu.
+10. Upoważniony przedstawiciel producenta może złożyć wniosek, o którym mowa w pkt 3, oraz wypełniać
+obowiązki określone w pkt 7 i 9, o ile zostały one określone w pełnomocnictwie.
+Moduł C
+Zgodność z typem w oparciu o wewnętrzną kontrolę produkcji
+1. Zgodność z typem w oparciu o wewnętrzną kontrolę produkcji to część procedury oceny zgodności, w której
+producent wywiązuje się z obowiązków określonych w pkt 2 i 3, oraz zapewnia i oświadcza, że dane produkty są
+zgodne z typem opisanym w certyfikacie badania typu UE i spełniają mające do nich zastosowanie wymogi
+niniejszego rozporządzenia.
+2. Produkcja
+Producent podejmuje wszelkie niezbędne środki, aby proces wytwórczy i jego monitorowanie zapewniały zgodność
+wytwarzanych produktów z zatwierdzonym typem opisanym w certyfikacie badania typu UE oraz z mającymi
+zastosowanie wymogami określonymi w częściach 1–6.
+3. Oznakowanie CE i deklaracja zgodności UE
+1) Producent umieszcza oznakowanie CE oraz, w stosownych przypadkach, etykietę identyfikacyjną klasy bezzało
+gowego statku powietrznego zgodnie z art. 15 i 16 niniejszego rozporządzenia na każdym produkcie zgodnym
+z typem opisanym w certyfikacie badania typu UE oraz spełniającym mające zastosowanie wymogi części 1–6.
+2) Producent sporządza pisemną deklarację zgodności dla każdego modelu produktu i przechowuje ją do dyspozycji
+organów krajowych przez 10 lat po wprowadzeniu produktu do obrotu. W deklaracji zgodności UE
+jednoznacznie identyfikuje się typ produktów, w odniesieniu do którego ją sporządzono.
+Kopię deklaracji zgodności UE udostępnia się na żądanie właściwych organów.
+4. Upoważniony przedstawiciel
+Obowiązki producentów określone w pkt 3 mogą w ich imieniu i na ich odpowiedzialność wypełniać upoważnieni
+przedstawiciele, o ile określono to w pełnomocnictwie.
+11.6.2019L 152/34 Dziennik Urzędowy Unii EuropejskiejPL
+CZĘŚĆ 9
+Ocena zgodności – moduł H – zgodność oparta na pełnym zapewnieniu jakości zgodnie
+z załącznikiem II do decyzji 768/2008/WE
+1. Zgodność oparta na pełnym zapewnieniu jakości to procedura oceny zgodności, w której producent wywiązuje się
+z obowiązków określonych w pkt 2 i 5 oraz na swoją wyłączną odpowiedzialność zapewnia i oświadcza, że dane
+produkty spełniają mające do nich zastosowanie wymogi części 1–6.
+2. Produkcja
+Producent stosuje zatwierdzony system jakości w odniesieniu do projektowania, produkcji, kontroli gotowych
+produktów i badania produktów zgodnie z pkt 3, a także podlega nadzorowi zgodnie z pkt 4.
+3. System jakości
+1) Producent składa w wybranej przez siebie jednostce notyfikowanej wniosek o przeprowadzenie oceny jego
+systemu jakości w odniesieniu do danego produktu.
+Wniosek ten zawiera:
+a) nazwę i adres producenta oraz, w przypadku wniosku składanego przez upoważnionego przedstawiciela,
+dodatkowo jego nazwę i adres;
+b) w stosownych przypadkach, dokumentację techniczną każdego typu produktu, który ma być produkowany,
+zawierającą elementy określone w części 10;
+c) dokumentację dotyczącą systemu jakości;
+d) pisemną deklarację, że tego samego wniosku nie złożono w żadnej innej jednostce notyfikowanej.
+2) System jakości musi zapewniać zgodność produktu z wymogami niniejszego rozporządzenia.
+Wszystkie elementy, wymogi i przepisy przyjęte przez producenta są w systematyczny i uporządkowany sposób
+dokumentowane na piśmie, w formie strategii, procedur i instrukcji. Dokumentacja systemu jakości umożliwia
+spójną interpretację programów, planów, instrukcji i zapisów dotyczących jakości.
+Dokumentacja ta zawiera w szczególności odpowiedni opis:
+a) celów w zakresie jakości oraz struktury organizacyjnej, obowiązków i uprawnień kierownictwa
+w odniesieniu do projektu produktu i jego jakości;
+b) specyfikacji projektu technicznego, łącznie z normami, które będą stosowane, a także, w przypadku gdy
+odpowiednie normy zharmonizowane nie będą w pełni stosowane, opis środków, które zostaną
+wprowadzone, aby zagwarantować spełnienie wymogów niniejszego rozporządzenia;
+c) kontroli projektu oraz technik jego weryfikacji, procesów oraz systematycznych czynności, które będą
+podejmowane podczas projektowania produktów danego typu;
+d) odpowiednich technik produkcyjnych, kontroli jakości i zapewnienia jakości, procesów oraz systematycznych
+czynności, które będą podejmowane;
+e) badań i testów, które będą wykonywane przed produkcją, podczas produkcji i po jej zakończeniu, oraz
+częstotliwości, z jaką będą przeprowadzane;
+f) akt dotyczących jakości, takich jak: sprawozdania z kontroli, dane z badań, dane dotyczące wzorcowania,
+sprawozdania dotyczące kwalifikacji lub dopuszczania personelu itp.;
+g) środków monitorowania w odniesieniu do osiągnięcia wymaganej jakości projektu i produktu oraz
+skutecznego działania systemu jakości.
+11.6.2019 L 152/35Dziennik Urzędowy Unii EuropejskiejPL
+3) Jednostka notyfikowana ocenia system jakości, aby stwierdzić, czy spełnia on wymogi, o których mowa w pkt 3
+ppkt 2.
+Przyjmuje ona domniemanie zgodności z tymi wymogami w odniesieniu do elementów systemu jakości
+zgodnych z odpowiednimi specyfikacjami właściwej normy zharmonizowanej.
+Oprócz doświadczenia w zakresie systemów zarządzania jakością co najmniej jeden członek zespołu
+audytowego musi mieć doświadczenie w ocenie danego produktu i technologii danego produktu, a także znać
+mające zastosowanie wymogi niniejszego rozporządzenia. Audyt obejmuje wizytę oceniającą w zakładzie
+producenta. Zespół audytowy dokonuje przeglądu dokumentacji technicznej, o której mowa w pkt 3 ppkt 1
+lit. b), aby zweryfikować zdolność producenta do identyfikacji mających zastosowanie wymogów niniejszego
+rozporządzenia oraz przeprowadzania badań koniecznych do zapewnienia zgodności produktu z tymi
+wymogami.
+O decyzji powiadamia się producenta lub jego upoważnionego przedstawiciela.
+Powiadomienie zawiera wnioski z audytu oraz uzasadnioną decyzję dotyczącą oceny.
+4) Producent podejmuje się wypełnienia obowiązków wynikających z zatwierdzonego systemu jakości oraz
+utrzymywania go tak, aby był adekwatny i skuteczny.
+Producent na bieżąco informuje jednostkę notyfikowaną, która zatwierdziła system jakości, o wszelkich
+zamierzonych modyfikacjach tego systemu.
+5) Jednostka notyfikowana ocenia proponowane zmiany i decyduje, czy zmodyfikowany system jakości nadal
+będzie spełniał wymogi, o których mowa w pkt 3 ppkt 2, czy też konieczna jest jego ponowna ocena.
+Jednostka notyfikowana powiadamia producenta o swojej decyzji. Powiadomienie to zawiera wnioski z badania
+oraz uzasadnioną decyzję dotyczącą oceny.
+4. Nadzór, za który odpowiedzialna jest jednostka notyfikowana
+1) Celem nadzoru jest upewnienie się, czy producent należycie wypełnia obowiązki wynikające z zatwierdzonego
+systemu jakości.
+2) Do celów oceny producent umożliwia jednostce notyfikowanej dostęp do miejsc projektowania, produkcji,
+kontroli, badań i magazynowania oraz udostępnia jej wszelkie niezbędne informacje, w szczególności:
+a) dokumentację dotyczącą systemu jakości;
+b) zapisy dotyczące jakości przewidziane w projektowej części systemu jakości, takie jak: wyniki analiz,
+obliczeń, testów itp.;
+c) zapisy dotyczące jakości przewidziane w produkcyjnej części systemu jakości, takie jak: sprawozdania
+z kontroli i dane z badań, dane dotyczące wzorcowania, sprawozdania dotyczące kwalifikacji personelu itp.
+3) Jednostka notyfikowana przeprowadza okresowe audyty, aby upewnić się, czy producent utrzymuje i stosuje
+system jakości, oraz przekazuje producentowi sprawozdania z audytów.
+4) Jednostka notyfikowana może ponadto składać producentom niezapowiedziane wizyty. Podczas takich wizyt
+jednostka notyfikowana może, w razie potrzeby, przeprowadzać testy bezzałogowych statków powietrznych lub
+bezzałogowych systemów powietrznych, albo też zlecać ich przeprowadzenie, aby zweryfikować, czy system
+jakości funkcjonuje prawidłowo. Jednostka notyfikowana przekazuje producentowi sprawozdanie z wizyty oraz
+sprawozdania z testów, jeżeli je przeprowadzono.
+5. Oznakowanie CE i deklaracja zgodności UE
+1) Producent umieszcza oznakowanie CE oraz, w stosownych przypadkach, etykietę identyfikacyjną klasy bezzało
+gowego systemu powietrznego zgodnie z art. 15 i 16 niniejszego rozporządzenia, jak również, na odpowie
+dzialność jednostki notyfikowanej, o której mowa w pkt 3 ppkt 1 niniejszej części, jej numer identyfikacyjny na
+każdym egzemplarzu produktu spełniającym mające zastosowanie wymogi niniejszego rozporządzenia.
+2) Producent sporządza pisemną deklarację zgodności dla każdego modelu produktu i przechowuje ją do
+dyspozycji organów krajowych przez 10 lat po wprowadzeniu produktu do obrotu. W deklaracji zgodności UE
+identyfikuje się typ produktów, którego ona dotyczy.
+Kopię deklaracji zgodności UE udostępnia się na żądanie właściwych organów.
+11.6.2019L 152/36 Dziennik Urzędowy Unii EuropejskiejPL
+6. Przez 10 lat od daty wprowadzenia produktu do obrotu producent przechowuje do dyspozycji organów krajowych
+następujące dokumenty:
+1) dokumentację techniczną, o której mowa w pkt 3 ppkt 1;
+2) dokumentację dotyczącą systemu jakości, o której mowa w pkt 3 ppkt 1;
+3) zatwierdzone zmiany, o których mowa w pkt 3 ppkt 5;
+4) decyzje i sprawozdania jednostki notyfikowanej, o których mowa w pkt 3 ppkt 5 oraz pkt 4 ppkt 3 i 4.
+7. Każda jednostka notyfikowana informuje właściwy organ notyfikujący o swych decyzjach w sprawie zatwierdzenia
+lub wycofania systemu jakości oraz, okresowo lub na żądanie, udostępnia właściwemu organowi notyfikującemu
+wykaz decyzji w sprawie odmowy zatwierdzenia, zawieszenia lub innego ograniczenia systemu jakości.
+Każda jednostka notyfikowana informuje pozostałe jednostki notyfikowane o swych decyzjach w sprawie odmowy
+zatwierdzenia, zawieszenia lub wycofania systemu jakości oraz, na żądanie, o decyzjach w sprawie zatwierdzenia
+systemu jakości, które wydała.
+8. Upoważniony przedstawiciel
+Obowiązki producentów określone w pkt 3 ppkt 1 i 5, pkt 5 i pkt 6 mogą w ich imieniu i na ich odpowiedzialność
+wypełniać upoważnieni przedstawiciele, o ile określono to w pełnomocnictwie.
+CZĘŚĆ 10
+Zawartość dokumentacji technicznej
+Producent sporządza dokumentację techniczną. Dokumentacja musi umożliwiać ocenę zgodności produktu z mającymi
+zastosowanie wymogami.
+Dokumentacja techniczna zawiera, w stosownych przypadkach, co najmniej następujące elementy:
+1. kompletny opis produktu, w tym:
+a) zdjęcia lub ilustracje przedstawiające cechy zewnętrzne, oznakowanie i układ wewnętrzny;
+b) wersje wszelkiego oprogramowania lub oprogramowania układowego zgodne z wymogami niniejszego
+rozporządzenia;
+c) instrukcję użytkownika i instrukcję montażu;
+2. projekt koncepcyjny i rysunki dotyczące produkcji oraz schematy elementów, podzespołów, obwodów i innych
+stosownych podobnych części;
+3. opisy i wyjaśnienia niezbędne do zrozumienia tych rysunków i schematów oraz działania produktu;
+4. wykaz stosowanych w całości lub częściowo norm zharmonizowanych, do których odniesienia opublikowano
+w Dzienniku Urzędowym Unii Europejskiej, oraz, jeżeli nie zastosowano tych norm zharmonizowanych, opisy
+rozwiązań przyjętych w celu spełnienia zasadniczych wymogów określonych w art. 4, w tym wykaz innych zastoso
+wanych odpowiednich specyfikacji technicznych. Jeżeli normy zharmonizowane stosowano częściowo,
+w dokumentacji technicznej określa się, które części zastosowano;
+5. kopię deklaracji zgodności UE;
+6. jeżeli zastosowano moduł oceny zgodności z części 8, kopię certyfikatu badania typu UE i jego załączników, dostar
+czonych przez daną jednostkę notyfikowaną;
+7. wyniki wykonanych obliczeń projektowych, przeprowadzonych badań i innych stosownych podobnych działań;
+8. sprawozdania z testów;
+9. kopie dokumentów, które producent przedłożył jednostce notyfikowanej, jeśli taka jednostka była zaangażowana;
+11.6.2019 L 152/37Dziennik Urzędowy Unii EuropejskiejPL
+10. dowody potwierdzające adekwatność rozwiązań technicznych projektu. W dowodach tych wymienia się wszelkie
+wykorzystane dokumenty, zwłaszcza jeżeli nie zastosowano w pełni stosownych norm zharmonizowanych lub
+specyfikacji technicznych. W stosownych przypadkach dowody potwierdzające obejmują wyniki testów przeprowa
+dzonych przez odpowiednie laboratorium producenta lub przez inne laboratorium badawcze w jego imieniu i na
+jego odpowiedzialność;
+11. adresy miejsc produkcji i magazynowania.
+CZĘŚĆ 11
+Deklaracja zgodności UE
+1. Produkt (typ, numer partii i numer seryjny).
+2. Nazwa i adres producenta lub jego upoważnionego przedstawiciela.
+3. Niniejsza deklaracja zgodności wydana zostaje na wyłączną odpowiedzialność producenta.
+4. Przedmiot deklaracji [identyfikacja produktu umożliwiająca jego identyfikowalność; w razie potrzeby może zawierać kolorową
+ilustrację o wystarczającej rozdzielczości w celu identyfikacji produktów].
+5. Opisany powyżej przedmiot deklaracji należy do klasy … [w przypadku bezzałogowego systemu powietrznego należy
+podać numer klasy zgodnie z kategoriami określonymi w częściach 1–5 niniejszego załącznika].
+6. Gwarantowany poziom mocy akustycznej dla wyposażenia tego bezzałogowego systemu powietrznego wynosi …
+dB (A) [tylko dla bezzałogowych systemów powietrznych innych niż stałopłaty klas 1–3].
+7. Opisany powyżej przedmiot niniejszej deklaracji jest zgodny z odpowiednimi wymogami unijnego prawodawstwa
+harmonizacyjnego:
+— [wstawić odniesienie do niniejszego rozporządzenia i wskazać załącznik odnoszący się do klasy produktu],
+— w stosownych przypadkach z innymi aktami unijnego prawodawstwa harmonizacyjnego.
+8. Odwołania do odnośnych norm zharmonizowanych, które zastosowano, lub do innych specyfikacji technicznych,
+w stosunku do których deklarowana jest zgodność. Odwołania muszą być podane wraz z ich numerami identyfika
+cyjnymi i wersjami oraz, w stosownych przypadkach, z datą wydania.
+9. W stosownych przypadkach, jednostka notyfikowana … [nazwa, numer] … przeprowadziła … [opis interwencji] …
+i wydała certyfikat badania typu UE.
+10. W stosownych przypadkach opis akcesoriów i elementów, w tym oprogramowania, które umożliwiają eksploatację
+bezzałogowego statku powietrznego lub bezzałogowego systemu powietrznego zgodnie z przeznaczeniem
+i zakresem deklaracji zgodności UE.
+11. Dodatkowe informacje:
+Podpisano w imieniu: …
+[miejsce i data wydania]:
+[imię i nazwisko, stanowisko] [podpis]:
+CZĘŚĆ 12
+Uproszczona deklaracja zgodności UE
+Uproszczoną deklarację zgodności UE, o której mowa w art. 14 ust. 3, należy podać w następujący sposób:
+— [Nazwa producenta] niniejszym oświadcza, że bezzałogowy system powietrzny [identyfikacja bezzałogowego systemu
+powietrznego: typ lub numer seryjny] należy do klasy … [podać numer klasy produktu zgodnie kategoriami określonymi
+w częściach 1–5 niniejszego załącznika], a jego gwarantowany poziom mocy akustycznej wynosi … dB(A) [tylko dla
+bezzałogowych systemów powietrznych innych niż stałopłaty klas 1–3],
+— oraz spełnia wymogi przepisów … [wykaz wszystkich aktów prawnych, których wymogi produkt spełnia],
+— Pełna deklaracja zgodności UE jest dostępna na stronie internetowej: [adres strony internetowej].
+11.6.2019L 152/38 Dziennik Urzędowy Unii EuropejskiejPL
+CZĘŚĆ 13
+Procedura badania hałasu
+W niniejszej części ustanawia się metody pomiaru hałasu rozprzestrzeniającego się w powietrzu, które należy stosować
+do wyznaczania poziomów mocy akustycznej skorygowanych krzywą korekcyjną A dla bezzałogowych statków
+powietrznych klas 1, 2 i 3.
+Określono w niej podstawową normę emisji hałasu oraz szczegółową procedurę badania pomiaru poziomu ciśnienia
+akustycznego na powierzchni pomiarowej okalającej źródło na potrzeby obliczania poziomu mocy akustycznej
+wytwarzanej przez źródło.
+1. PODSTAWOWA NORMA EMISJI HAŁASU
+Do określania poziomu mocy akustycznej LWA skorygowanego krzywą korekcyjną A stosuje się podstawową normę
+emisji hałasu EN ISO 3744:2010 z następującymi uzupełnieniami:
+2. WARUNKI MONTAŻU
+Rejon prób:
+Bezzałogowy statek powietrzny ma znajdować się w zawisie nad płaszczyzną odbijającą dźwięk („twardą”
+akustycznie). Bezzałogowy statek powietrzny musi znajdować się w wystarczającej odległości od wszelkich ścian,
+sufitów lub wszelkich odbijających dźwięk obiektów, aby na powierzchni pomiarowej były spełnione wymogi
+załącznika A do normy EN ISO 3744:2010.
+Montaż źródła hałasu:
+Bezzałogowy statek powietrzny musi znajdować się w zawisie, 0,5 m nad płaszczyzną odbijającą dźwięk.
+Konfiguracja bezzałogowego statku powietrznego (śmigieł, akcesoriów, ustawień) ma odpowiadać konfiguracji,
+w jakiej będzie on wprowadzany do obrotu.
+Pomiar dźwięku i ustawienie mikrofonu:
+Bezzałogowy statek powietrzny ma w całości znajdować się w obrębie półkulistej powierzchni pomiarowej zgodnie
+z pkt 7.2.3 normy EN ISO 3744:2010.
+Liczbę i położenie mikrofonów określa załącznik F do normy EN ISO 3744:2010.
+Centrum powierzchni pomiarowej musi znajdować się w punkcie O, położonym na płaszczyźnie podłoża
+bezpośrednio pod bezzałogowym statkiem powietrznym.
+3. WARUNKI DZIAŁANIA PODCZAS BADANIA
+Badanie hałasu przeprowadza się podczas lotu bezzałogowego statku powietrznego w pozycji stabilnej horyzontalnie
+i wertykalnie, 0,5 m nad centrum półkuli pomiarowej (punktem O), przy maksymalnej masie startowej (MTOM) oraz
+z całkowicie naładowaną baterią.
+Jeżeli bezzałogowy statek powietrzny ma być wprowadzany do obrotu z akcesoriami, które można na nim
+zamontować, testuje się go z tymi akcesoriami oraz bez nich we wszystkich możliwych konfiguracjach.
+4. OBLICZANIE POZIOMU CIŚNIENIA AKUSTYCZNEGO UŚREDNIONEGO W CZASIE
+Dla każdej konfiguracji bezzałogowego statku powietrznego co najmniej trzy razy wyznacza się poziom ciśnienia
+akustycznego skorygowany krzywą korekcyjną A uśredniony w czasie. Jeśli co najmniej dwie z wyznaczonych
+wartości nie różnią się o więcej niż 1 dB, dalsze pomiary nie są konieczne; w innym przypadku pomiary kontynuuje
+się aż do otrzymania dwóch wartości nieróżniących się o więcej niż 1 dB. Powierzchniowy poziom ciśnienia
+akustycznego skorygowany krzywą korekcyjną A, który będzie użyty do obliczeń poziomu mocy akustycznej danej
+konfiguracji bezzałogowego statku powietrznego, jest średnią arytmetyczną dwóch najwyższych wartości, które nie
+różnią się o więcej niż 1 dB.
+5. INFORMACJE PODLEGAJĄCE ZGŁOSZENIU
+Sprawozdanie musi zawierać dane techniczne niezbędne do identyfikacji badanego źródła, a także procedurę badania
+hałasu i dane akustyczne.
+Należy wskazać najwyższą wartość poziomu mocy akustycznej skorygowanego krzywą korekcyjną A dla różnych
+zbadanych konfiguracji bezzałogowego statku powietrznego, zaokrągloną do najbliższej liczby całkowitej (wartości
+poniżej 0,5 zaokrągla się w dół, a wartości większe lub równe 0,5 – w górę).
+11.6.2019 L 152/39Dziennik Urzędowy Unii EuropejskiejPL
+CZĘŚĆ 14
+Oznaczenie gwarantowanego poziomu mocy akustycznej
+Gwarantowany poziom mocy akustycznej wyraża się, podając wartość liczbową gwarantowanej mocy akustycznej w dB
+z oznaczeniem LWA i następującym piktogramem:
+Przy zmniejszaniu oznaczenia odpowiednio do wymiarów urządzenia, należy zachować proporcje powyższego rysunku.
+Jednak, w miarę możliwości, pionowy wymiar oznaczenia nie powinien być mniejszy niż 20 mm.
+CZĘŚĆ 15
+Maksymalny poziom mocy akustycznej poszczególnych klas bezzałogowych statków
+powietrznych (z uwzględnieniem okresów przejściowych)
+Klasa bezzałogowego
+statku powietrznego MTOM m w gramach
+Maksymalny poziom mocy akustycznej LWA w dB
+od dnia wejścia w życie po upływie 2 lat od
+wejścia w życie
+po upływie 4 lat od
+wejścia w życie
+C1 250 ≤ m < 900 85 83 81
+C2 900 ≤ m < 4 000 85 þ 18,5 lg m
+900 83 þ 18,5 lg m
+900 81 þ 18,5 lg m
+900
+gdzie „lg” oznacza logarytm o podstawie 10.
+11.6.2019L 152/40 Dziennik Urzędowy Unii EuropejskiejPL

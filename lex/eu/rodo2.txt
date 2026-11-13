@@ -1,0 +1,1289 @@
+ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2025/2518
+z dnia 26 listopada 2025 r.
+w sprawie ustanowienia dodatkowych przepisów proceduralnych dotyczących egzekwowania
+rozporządzenia (UE) 2016/679
+(Tekst mający znaczenie dla EOG)
+PARLAMENT EUROPEJSKI I RADA UNII EUROPEJSKIEJ,
+uwzględniając Traktat o funkcjonowaniu Unii Europejskiej, w szczególności jego art. 16,
+uwzględniając wniosek Komisji Europejskiej,
+po przekazaniu projektu aktu ustawodawczego parlamentom narodowym,
+uwzględniając opinię Europejskiego Komitetu Ekonomiczno-Społecznego (1),
+po konsultacji z Komitetem Regionów,
+stanowiąc zgodnie ze zwykłą procedurą ustawodawczą (2),
+a także mając na uwadze, co następuje:
+(1) Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 (3) ustanawia zdecentralizowany system
+egzekwowania prawa mający na celu zapewnienie spójnej wykładni i spójnego stosowania tego rozporządzenia
+w sprawach dotyczących transgranicznego przetwarzania. Zdecentralizowany system egzekwowania prawa wymaga,
+aby w takich sprawach organy nadzorcze współpracowały ze sobą w celu osiągnięcia porozumienia. Jeżeli nie mogą
+go osiągnąć, w rozporządzeniu (UE) 2016/679 przewiduje się rozstrzyganie sporów przez Europejską Radę
+Ochrony Danych.
+(2) W celu zapewnienia sprawnego i skutecznego funkcjonowania mechanizmu współpracy i mechanizmu
+rozstrzygania sporów zgodnie z, odpowiednio, art. 60 i 65 rozporządzenia (UE) 2016/679 konieczne jest
+ustanowienie zasad prowadzenia postępowań przez organy nadzorcze w sprawach dotyczących transgranicznego
+przetwarzania oraz przez Europejską Radę Ochrony Danych w ramach procedury rozstrzygania sporów, w tym
+zasad rozpatrywania skarg. Z tego względu konieczne jest również ustanowienie zasad wykonywania prawa do
+bycia wysłuchanym przed przyjęciem decyzji przez organy nadzorcze lub, w stosownym przypadku, przez
+Europejską Radę Ochrony Danych.
+(3) W związku z tym, że nie istnieją zasady unijne regulujące tę kwestię, zgodnie z zasadą autonomii proceduralnej
+państw członkowskich do każdego państwa członkowskiego należy określenie szczegółowych zasad postępowania
+administracyjnego i sądowego, które mają na celu zapewnienie wysokiego stopnia ochrony praw przysługujących
+osobom fizycznym zgodnie z prawem Unii. Prawo procesowe każdego państwa członkowskiego powinno zatem
+mieć zastosowanie do organów nadzorczych w zakresie, w jakim niniejsze rozporządzenie nie harmonizuje danej
+kwestii oraz o ile takie krajowe przepisy proceduralne nie naruszają zasad skuteczności i równoważności prawa
+Unii.
+(4) Niniejsze rozporządzenie ma na celu zapewnienie, aby postępowania w sprawach dotyczących transgranicznego
+przetwarzania były prowadzone zgodnie z zasadą dobrej administracji, a w szczególności bezstronnie, sprawiedliwie
+i w rozsądnym terminie. W niniejszym rozporządzeniu ustanawia się zatem szereg zasad horyzontalnych
+dotyczących procedur egzekwowania rozporządzenia (UE) 2016/679 w takich sprawach.
+(5) Skargi są zasadniczym źródłem informacji pozwalających na wykrycie naruszeń przepisów o ochronie danych.
+Informacje przekazywane przez skarżącego przy wnoszeniu skargi lub przedstawianiu stanowiska mogą obejmować
+argumenty i dowody, które mogą przyspieszyć postępowanie. Niezbędne jest ustanowienie jasnych i skutecznych
+procedur rozpatrywania skarg w sprawach dotyczących transgranicznego przetwarzania, ponieważ możliwe jest, że
+skargę będzie rozpatrywać inny organ nadzorczy niż ten, do którego ją wniesiono.
+Dziennik Urzędowy
+Unii Europejskiej
+PL
+Seria L
+2025/2518 12.12.2025
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 1/27
+(1) Dz.U. C, C/2024/1578, 5.3.2024, ELI: http://data.europa.eu/eli/C/2024/1578/oj.
+(2) Stanowisko Parlamentu Europejskiego z dnia 21 października 2025 r. (dotychczas nieopublikowane w Dzienniku Urzędowym) oraz
+decyzja Rady z dnia 17 listopada 2025 r.
+(3) Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych
+w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy
+95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz.U. L 119 z 4.5.2016, s. 1, ELI: http://data.europa.eu/eli/reg/2016/679/oj).
+(6) Skargę należy rozumieć jako roszczenie wniesione przez osobę, której dane dotyczą, do organu nadzorczego
+zgodnie z art. 77 ust. 1 lub art. 80 rozporządzenia (UE) 2016/679. Za skargę nie uznaje się samego zgłoszenia
+zarzucanych naruszeń, które nie dotyczą przetwarzania danych osobowych związanych z osobą, której dane
+dotyczą, ani wniosków o poradę pochodzących od administratorów lub podmiotów przetwarzających, ani ogólnych
+zapytań dotyczących stosowania rozporządzenia (UE) 2016/679 skierowanych przez administratorów, podmioty
+przetwarzające lub osoby fizyczne.
+(7) Aby skarga dotycząca transgranicznego przetwarzania była dopuszczalna, powinna zawierać określone informacje.
+Dodatkowe informacje inne niż te określone w niniejszym rozporządzeniu nie powinny być warunkiem
+dopuszczalności skargi. Do skargi nadal mają zastosowanie tryb i wymogi administracyjne dotyczące
+dopuszczalności skarg przewidziane w prawie krajowym organu nadzorczego, do którego wniesiono skargę, takie
+jak język, termin przedawnienia, środki identyfikacji, forma elektroniczna, specjalny wzór lub podpis.
+(8) Dane kontaktowe skarżącego mogą obejmować adres pocztowy, miejsce zamieszkania oraz, o ile jest dostępny,
+adres e-mail. Jeżeli skarżący jest osobą fizyczną, która nie jest w stanie wykonywać swojego prawa do wniesienia
+skargi bez pomocy przedstawiciela prawnego – np. dlatego, że jest dzieckiem, osobą z niepełnosprawnością lub
+osobą w trudnej sytuacji – i w związku z tym wykonuje swoje prawa za pośrednictwem innej osoby, takiej jak
+rodzic, opiekun prawny lub członek rodziny, pod warunkiem że taka reprezentacja jest dopuszczalna zgodnie
+z prawem krajowym, należy ten fakt wyraźnie zaznaczyć przy wnoszeniu skargi.
+(9) Jeżeli skargę wnosi podmiot, organizacja lub zrzeszenie, które nie mają charakteru zarobkowego, o których mowa
+w art. 80 rozporządzenia (UE) 2016/679, należy przedstawić dowód na to, że dany podmiot, organizacja lub
+zrzeszenie zostały należycie ustanowione zgodnie z prawem państwa członkowskiego, wraz z nazwą i danymi
+kontaktowymi takiego podmiotu, takiej organizacji lub takiego zrzeszenia, a także dowód na to, że działają one
+z upoważnienia osoby, której dane dotyczą. Tryb i procedury dotyczące takiego dowodu określa się zgodnie
+z prawem państwa członkowskiego organu nadzorczego, do którego wniesiono skargę.
+(10) Skarżący nie powinien mieć obowiązku skontaktowania się ze stroną objętą postępowaniem przed wniesieniem
+skargi, aby ta skarga została uznana za dopuszczalną. Jeżeli skarga dotyczy wykonania przez osobę, której dane
+dotyczą, prawa wymagającego od tej osoby złożenia żądania do administratora, żądanie to należy złożyć przed
+wniesieniem skargi.
+(11) Organ nadzorczy, do którego wniesiono skargę, powinien ustalić w drodze wstępnej konkluzji, czy skarga dotyczy
+transgranicznego przetwarzania, który organ nadzorczy uznaje za właściwy do podejmowania działań jako wiodący
+organ nadzorczy zgodnie z art. 56 ust. 1 rozporządzenia (UE) 2016/679 oraz czy ma zastosowanie art. 56 ust. 2
+tego rozporządzenia. Jeżeli nie wszczęto procedury wczesnego rozstrzygania, organ nadzorczy, do którego
+wniesiono skargę, powinien przekazać dopuszczalną skargę organowi nadzorczemu, który uznaje za właściwy do
+podejmowania działań jako wiodący organ nadzorczy oraz poinformować o tym skarżącego. Stwierdzenie
+dopuszczalności skargi przez organ nadzorczy, do którego została ona wniesiona, powinno być wiążące dla
+wiodącego organu nadzorczego.
+(12) Ważne jest, aby organy nadzorcze ułatwiały przekazywanie wszystkich wymaganych informacji przez skarżącego,
+na przykład poprzez udostępnianie wzorów lub formularzy elektronicznych, z uwzględnieniem odpowiednich
+wytycznych Europejskiej Rady Ochrony Danych. Organy nadzorcze mogą ułatwiać wnoszenie skarg w przyjaznym
+dla użytkownika formacie elektronicznym, z uwzględnieniem potrzeb osób z niepełnosprawnościami, pod
+warunkiem że informacje wymagane od skarżącego odpowiadają określonym wymaganym informacjom. Nie
+powinno się wymagać przekazania dodatkowych informacji jako warunku uznania skargi za dopuszczalną.
+(13) Aby ułatwić rozpatrywanie skargi, organy nadzorcze powinny mieć możliwość zwrócenia się do skarżącego
+o informacje dodatkowe. Jeżeli brakuje niektórych informacji niezbędnych do uznania skargi za dopuszczalną, organ
+nadzorczy, do którego wniesiono skargę, może skontaktować się ze skarżącym, aby uzyskać brakujące informacje,
+o ile jest to wykonalne. W przypadku gdy skarga jest niedopuszczalna, organ nadzorczy stwierdza jej
+niedopuszczalność i informuje skarżącego o brakujących informacjach w terminie przewidzianym w niniejszym
+rozporządzeniu, tak aby skarżący mógł wnieść dopuszczalną skargę.
+(14) Jeżeli po otrzymaniu od organu nadzorczego dopuszczalnej skargi dotyczącej transgranicznego przetwarzania
+wiodący organ nadzorczy wymaga od skarżącego dodatkowych informacji, aby przeprowadzić pełne postępowanie
+w przedmiocie skargi, organ nadzorczy, do którego wniesiono skargę, wspiera wiodący organ nadzorczy, na
+przykład kontaktując się w razie potrzeby ze skarżącym w celu uzyskania wymaganych informacji.
+PL Dz.U. L z 12.12.2025
+2/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+(15) Jeżeli wiodący organ nadzorczy wszczyna postępowanie na podstawie skargi, niezwłocznie informuje strony objęte
+postępowaniem o wniesieniu danej skargi oraz o jej głównych elementach. Przekazanie takich informacji przez
+wiodący organ nadzorczy można jednak wstrzymać na czas niezbędny do ochrony integralności postępowania i aby
+umożliwić skuteczne podjęcie czynności w ramach postępowania.
+(16) Aby zapewnić skuteczne funkcjonowanie mechanizmów współpracy i spójności przewidzianych w rozdziale VII
+rozporządzenia (UE) 2016/679, istotne jest rozpatrywanie spraw dotyczących transgranicznego przetwarzania
+w odpowiednim czasie oraz w duchu lojalnej i skutecznej współpracy stanowiącej podstawę art. 60 rozporządzenia
+(UE) 2016/679. Wiodący organ nadzorczy powinien wykonywać swoje kompetencje w ścisłej współpracy
+z pozostałymi organami nadzorczymi, których sprawa dotyczy. Podobnie organy nadzorcze, których sprawa
+dotyczy, powinny aktywnie uczestniczyć we wczesnych etapach postępowania, aby osiągnąć porozumienie przy
+wykorzystaniu narzędzi przewidzianych w rozporządzeniu (UE) 2016/679. Ważne jest, aby współpraca organów
+nadzorczych opierała się na otwartym dialogu umożliwiającym organom nadzorczym, których sprawa dotyczy,
+wywieranie znaczącego wpływu na przebieg postępowania w drodze wymiany doświadczeń i poglądów z wiodącym
+organem nadzorczym, przy należytym uwzględnieniu zakresu uznania, z którego korzysta każdy organ nadzorczy.
+Organy nadzorcze powinny prowadzić postępowania sprawnie i skutecznie oraz lojalnie i skutecznie
+współpracować ze sobą, w tym udzielając sobie w razie potrzeby wsparcia i niezwłocznie reagując na wnioski.
+(17) Organy nadzorcze powinny podejmować decyzje w sprawie skarg w rozsądnym terminie. W związku z tym
+niniejsze rozporządzenie określa terminy. Rozumienie pojęcia „rozsądny termin” zależy od okoliczności sprawy,
+w szczególności od jej kontekstu, od poszczególnych czynności proceduralnych podejmowanych przez wiodący
+organ nadzorczy oraz od postawy stron objętych postępowaniem i skarżącego w trakcie postępowania. Aby
+skutecznie chronić prawa podstawowe i wolności osób, których dane dotyczą, w związku z przetwarzaniem danych
+osobowych, ważne jest, aby skargi były rozpatrywane skutecznie i sprawnie. W zależności od okoliczności sprawy
+czas potrzebny na rozpatrzenie skargi może być krótszy niż termin przewidziany w niniejszym rozporządzeniu.
+Skuteczna współpraca między wiodącym organem nadzorczym a pozostałymi organami, których sprawa dotyczy,
+może również mieć pozytywny wpływ na sprawne rozpatrzenie spraw.
+(18) Skarżący powinien mieć możliwość kontaktowania się wyłącznie z organem nadzorczym, do którego wniósł skargę.
+Nie pozbawia to skarżącego możliwości kontaktowania się bezpośrednio z innym organem nadzorczym, w tym
+z wiodącym organem nadzorczym.
+(19) Ważne jest, aby wziąć pod uwagę przetwarzane dane osobowe i sytuację osoby, której dane dotyczą, na przykład
+jeżeli skarga dotyczy przetwarzania danych osobowych dzieci.
+(20) Wiodący organ nadzorczy powinien przekazywać organowi nadzorczemu, do którego wniesiono skargę, niezbędne
+informacje o postępach postępowania w celu przekazywania skarżącemu aktualnych informacji.
+(21) Aby szybko doprowadzić do zaprzestania naruszeń rozporządzenia (UE) 2016/679 i zapewnić skarżącemu szybkie
+rozstrzygnięcie sprawy, organy nadzorcze powinny, w stosownych przypadkach, dążyć do rozpatrzenia skargi
+w trybie procedury wczesnego rozstrzygania zgodnie z niniejszym rozporządzeniem. W tym celu organ nadzorczy
+ustala, czy zaprzestano zarzucanych naruszeń, których dotyczy skarga, w taki sposób, że skarga stała się
+bezprzedmiotowa. Państwa członkowskie nie mają obowiązku ustanawiania nowych procedur w prawie krajowym,
+aby umożliwić swoim organom nadzorczym rozstrzyganie skarg w trybie procedury wczesnego rozstrzygania.
+(22) Skarga powinna być rozstrzygnięta w drodze procedury wczesnego rozstrzygania jedynie w przypadku, gdy
+skarżący nie zgłosi w odpowiednim terminie sprzeciwu wobec ustalenia, że zaprzestano zarzucanego naruszenia,
+wobec czego skarga stała się bezprzedmiotowa. Wczesne rozstrzygnięcie skargi powinno zatem mieć zastosowanie
+do spraw, w których skarżący jest w stanie należycie ocenić proponowane rozstrzygnięcie.
+(23) Wczesne rozstrzygnięcie skargi może być szczególnie przydatne do szybkiego rozpatrywania skarg dotyczących
+naruszeń praw osoby, której dane dotyczą, zgodnie z rozdziałem III rozporządzenia (UE) 2016/679, w sposób
+zadowalający dla skarżącego. Wczesne rozstrzygnięcie skargi powinno umożliwiać organowi nadzorczemu, do
+którego wniesiono skargę, lub wiodącemu organowi nadzorczemu uznanie skargi za bezprzedmiotową na
+podstawie wstępnych kontaktów z administratorem i pod warunkiem uzyskania dowodów potwierdzających.
+(24) Wczesne rozstrzygnięcie skargi w drodze procedury wczesnego rozstrzygania powinno pozostawać bez uszczerbku
+dla wykonywania przez wiodący organ nadzorczy uprawnień zgodnie z rozporządzeniem (UE) 2016/679 w tej
+samej sprawie, na przykład w razie systemowych lub powtarzających się naruszeń tego rozporządzenia.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 3/27
+(25) Jeżeli wiodący organ nadzorczy, któremu została przekazana skarga, uzna, że skargę można rozstrzygnąć w drodze
+procedury wczesnego rozstrzygania, powinien przedłożyć projekt decyzji zgodnie z art. 60 ust. 3 rozporządzenia
+(UE) 2016/679 pozostałym organom nadzorczym, których sprawa dotyczy, w celu przyjęcia ostatecznej decyzji
+zgodnie z art. 60 ust. 7 rozporządzenia (UE) 2016/679 stwierdzającej, że zaprzestano zarzucanych naruszeń oraz że
+skarga została rozstrzygnięta w całości lub w części przez wiodący organ nadzorczy. Przedłożony projekt decyzji
+może zatem być uproszczony i ograniczać się do informacji, że skarga została w całości lub w części rozstrzygnięta
+w procedurze wczesnego rozstrzygania, wraz z uzasadnieniem decyzji i zakresem rozstrzygnięcia, oraz potwierdzać,
+że skarga jest w związku z tym bezprzedmiotowa. W takich przypadkach wiodący organ nadzorczy powinien
+bezpośrednio przedłożyć projekt decyzji pozostałym organom nadzorczym, których sprawa dotyczy, bez
+konieczności sporządzania i przekazywania streszczenia kluczowych zagadnień lub wstępnych ustaleń.
+(26) Jeżeli wiodący organ nadzorczy sformułował wstępną opinię na temat głównych kwestii w postępowaniu, wiodący
+organ nadzorczy powinien mieć możliwość współpracy z pozostałymi organami nadzorczymi, których sprawa
+dotyczy, w drodze uproszczonej procedury współpracy. Uproszczona procedura współpracy powinna mieć
+indywidualnie zastosowanie dla każdego przypadku, pod warunkiem że wiodący organ nadzorczy nie ma
+uzasadnionych wątpliwości co do zakresu postępowania oraz że wskazane kwestie prawne i faktyczne nie wymagają
+dodatkowej współpracy, która byłaby konieczna w razie skomplikowanego postępowania, w szczególności jeżeli
+kwestie te można rozwiązać na podstawie specyfiki danej sprawy i wcześniejszych decyzji w podobnych sprawach.
+Ponadto ważne jest, aby wiodący organ nadzorczy uwzględniał również istniejące orzecznictwo i wytyczne przyjęte
+przez Europejską Radę Ochrony Danych w sprawie zarzucanych naruszeń rozporządzenia (UE) 2016/679, które
+należy zbadać, przyjmując, że istnieje prawdopodobieństwo osiągnięcia porozumienia co do głównych elementów
+sprawy. Co do zasady uproszczona procedura współpracy nie ma zastosowania, jeżeli sprawa wiąże się
+z systemowymi lub powtarzającymi się problemami w kilku państwach członkowskich, dotyczy ogólnej kwestii
+prawnej w odniesieniu do wykładni, stosowania lub egzekwowania rozporządzenia (UE) 2016/679, jest związana
+z obszarem, w którym ochrona danych pokrywa się z innymi dziedzinami prawa, dotyczy dużej liczby osób,
+których dane dotyczą, w kilku państwach członkowskich lub jest związana z dużą liczbą skarg w kilku państwach
+członkowskich, lub jeżeli w danej sprawie istnieje wysokie ryzyko naruszenia praw i wolności osób, których dane
+dotyczą.
+(27) Jeżeli wiodący organ nadzorczy zamierza zastosować uproszczoną procedurę współpracy, powinien o tym
+poinformować pozostałe organy nadzorcze, których sprawa dotyczy, i przekazać im wszystkie stosowne informacje
+o charakterze sprawy i skargi, w tym główne istotne okoliczności faktyczne i informacje o zarzucanym naruszeniu,
+które ma być przedmiotem postępowania. W przypadku zastosowania uproszczonej procedury współpracy wiodący
+organ nadzorczy powinien kontynuować współpracę z pozostałymi organami nadzorczymi, których sprawa
+dotyczy, i przedłożyć im projekt decyzji w terminie przewidzianym w niniejszym rozporządzeniu.
+(28) W przypadku gdy organ nadzorczy ma obowiązek przeprowadzić niektóre czynności proceduralne w określonych
+terminach, terminy te mają na celu zapewnienie przebiegu i zakończenia procedury w rozsądnym czasie. Terminy te
+nie stoją na przeszkodzie temu, by organy nadzorcze przeprowadziły niezbędne czynności proceduralne po ich
+upływie. Konieczne jest zatem zapewnienie, aby przeprowadzenie takich czynności proceduralnych po terminie nie
+mogło stanowić podstawy uznania danej czynności lub ostatecznej decyzji za niezgodną z prawem lub nieważną.
+(29) Wiodący organ nadzorczy powinien mieć możliwość przedłużenia terminu na przedłożenie projektu decyzji. Takie
+przedłużenie powinno mieć zastosowanie wyłącznie w wyjątkowych przypadkach ze względu na złożoność sprawy.
+Pozostałe organy nadzorcze, których sprawa dotyczy, powinny otrzymać o tym informację i powinny mieć
+możliwość zgłoszenia sprzeciwu wobec przedłużenia, a wiodący organ nadzorczy powinien wziąć sprzeciw pod
+uwagę przy podejmowaniu decyzji o ewentualnym przedłużeniu terminu i, w stosownych przypadkach, o okresie
+tego przedłużenia.
+(30) Jeżeli wiodący organ nadzorczy przedłuża termin przedłożenia projektu decyzji, pozostałe organy nadzorcze,
+których sprawa dotyczy, powinny mieć możliwość poinformowania wiodącego organu nadzorczego, że w ich
+ocenie należy podjąć działanie w celu ochrony praw i wolności osób, których dane dotyczą. Jeżeli wiodący organ
+nadzorczy otrzyma informację o takiej ocenie i nie przedłoży projektu decyzji w przedłużonym terminie, powinno
+się domniemywać, że zachodzi pilna potrzeba podjęcia działania, o której mowa w art. 66 ust. 1 rozporządzenia
+(UE) 2016/679. Niezależnie od tej możliwości, organ nadzorczy może skorzystać z trybu pilnego na warunkach
+określonych w art. 66 rozporządzenia (UE) 2016/679.
+(31) Aby zapewnić skuteczne postępowanie, nie naruszając autonomii proceduralnej państw członkowskich, wskazane
+jest, aby ze środków ochrony prawnej przeciwko czynnościom proceduralnym przeprowadzonym przez organy
+nadzorcze można było skorzystać wyłącznie w związku ze środkiem zaskarżenia przeciwko ostatecznej decyzji,
+chyba że dana czynność proceduralna ma nieodwracalny wpływ na prawa strony objętej postępowaniem lub na
+skarżącego, niezależnie od ostatecznej decyzji.
+PL Dz.U. L z 12.12.2025
+4/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+(32) Jest kwestią szczególnie istotną, aby organy nadzorcze osiągnęły porozumienie w zakresie zasadniczych aspektów
+sprawy tak szybko, jak to możliwe, przed przyjęciem projektu decyzji, o którym mowa w art. 60 rozporządzenia
+(UE) 2016/679.
+(33) Wymiana stosownych informacji między wiodącym organem nadzorczym a pozostałymi organami nadzorczymi,
+których sprawa dotyczy, jest ważnym elementem wspierającym ducha lojalnej i skutecznej współpracy. Ta wymiana
+oraz terminowe przekazywanie konkretnych informacji przez wiodący organ nadzorczy nie ustaje w toku całego
+postępowania, a wymagane dokumenty i szczegółowe informacje mogą się różnić w zależności od złożoności
+sprawy. Zależnie od etapu postępowania i okoliczności sprawy stosowne informacje mogą obejmować między
+innymi wymianę korespondencji z administratorem lub osobą, której dane dotyczą, w odniesieniu do skargi lub
+postępowania, dokumenty przygotowawcze do audytu lub inspekcji lub wstępną ocenę techniczną lub prawną
+dokonaną przez wiodący organ nadzorczy na danym etapie postępowania.
+(34) Wiodący organ nadzorczy powinien przedstawić stosowne informacje pozostałym organom nadzorczym, których
+sprawa dotyczy, niezwłocznie po tym, jak staną się one dostępne, a pozostałe organy nadzorcze, których sprawa
+dotyczy, powinny także proaktywnie udostępniać stosowne informacje, które uznają za użyteczne do oceny
+prawnych i faktycznych elementów sprawy. Wymiana stosownych informacji powinna przyczyniać się do sprawnej
+i skutecznej współpracy między organami nadzorczymi; w niektórych przypadkach mogą jej towarzyszyć
+streszczenia, wyciągi lub kopie dokumentów w celu umożliwienia szybkiego zapoznania się ze sprawą, jednocześnie
+w razie konieczności umożliwiając przekazywanie informacji uzupełniających. Aby ułatwić skuteczną i odpowiednią
+wymianę stosownych informacji między organami nadzorczymi, Europejska Rada Ochrony Danych powinna mieć
+możliwość określenia trybu i wymogów dotyczących wymiany takich informacji.
+(35) W ramach stosownych informacji o danej sprawie wiodący organ nadzorczy powinien przedstawić pozostałym
+organom nadzorczym, których sprawa dotyczy, streszczenie kluczowych zagadnień zawierające wstępną opinię tego
+organu na temat głównych kwestii postępowania. Streszczenie to powinno się przedstawić na tyle wcześnie, aby
+umożliwić skuteczne włączenie opinii przedłożonych przez pozostałe organy nadzorcze, których sprawa dotyczy,
+ale jednocześnie dopiero wtedy, gdy wiodący organ nadzorczy dysponuje wystarczającymi elementami, aby
+sformułować opinię o danej sprawie, w razie potrzeby na podstawie wstępnej analizy i możliwych wstępnych
+czynności w ramach postępowania. Streszczenie kluczowych zagadnień powinno również obejmować,
+w stosownych przypadkach, wstępne wskazanie potencjalnych środków naprawczych, jeżeli wiodący organ
+nadzorczy dysponuje wystarczającymi elementami, aby sformułować wstępną opinię o tych środkach,
+w szczególności gdy na wczesnym etapie można łatwo zidentyfikować przepisy rozporządzenia (UE) 2016/679,
+których dotyczy zarzucane naruszenie.
+(36) Organy nadzorcze, których sprawa dotyczy, powinny mieć możliwość zgłaszania uwag na temat streszczenia
+kluczowych zagadnień, w tym na temat szeregu kwestii, takich jak zakres postępowania, identyfikacja zarzucanych
+naruszeń oraz ustalenie kwestii faktycznych i prawnych istotnych dla postępowania. Ponieważ od zakresu
+postępowania zależy, jakie kwestie wymagają przeprowadzenia postępowania przez wiodący organ nadzorczy,
+organy nadzorcze powinny jak najszybciej osiągnąć porozumienie co do zakresu postępowania.
+(37) Do celów skutecznej inkluzywnej współpracy między wiodącym organem nadzorczym a wszystkimi pozostałymi
+organami nadzorczymi, których sprawa dotyczy, ważne jest, aby streszczenie kluczowych zagadnień oraz uwagi
+organów nadzorczych, których sprawa dotyczy, były zwięzłe i sformułowane na tyle jasno i precyzyjnie, aby
+wszystkie organy nadzorcze mogły je łatwo zrozumieć. Argumenty prawne powinny zostać pogrupowane według
+części streszczenia kluczowych zagadnień, do których się one odnoszą. Streszczenie kluczowych zagadnień oraz
+uwagi organów nadzorczych, których sprawa dotyczy, mogą zostać uzupełnione o dodatkowe dokumenty.
+Odesłanie w uwagach organu nadzorczego, którego sprawa dotyczy, do dokumentów uzupełniających nie może
+jednak rekompensować braku istotnych argumentów prawnych lub faktycznych, które należy przedstawić
+w uwagach. W ramach takich uwag należy spójnie i zrozumiale wskazać, co najmniej w formie streszczenia,
+podstawowe okoliczności prawne i faktyczne, na których opierają się takie dokumenty.
+(38) Organy nadzorcze powinny mieć możliwość wykorzystania wszystkich środków niezbędnych do osiągnięcia
+porozumienia w duchu lojalnej i skutecznej współpracy. W razie rozbieżności opinii wiodącego organu nadzorczego
+oraz pozostałych organów nadzorczych, których sprawa dotyczy, w odniesieniu do zakresu postępowania
+wszczętego na podstawie skargi, w tym przepisów rozporządzenia (UE) 2016/679, których dotyczy zarzucane
+naruszenie, które ma być przedmiotem postępowania, lub jeżeli uwagi organów nadzorczych, których sprawa
+dotyczy, odnoszą się do istotnej zmiany w złożonej ocenie prawnej lub faktycznej, lub do wstępnego wskazania
+potencjalnych środków naprawczych, organy nadzorcze, których sprawa dotyczy, mogą wykorzystać narzędzia
+przewidziane w art. 61 i 62 rozporządzenia (UE) 2016/679.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 5/27
+(39) Rozporządzenie (UE) 2016/679 umożliwia organowi nadzorczemu zwrócenie się do Europejskiej Rady Ochrony
+Danych z wnioskiem o pilne wydanie wiążącej decyzji, jeżeli właściwy organ nadzorczy nie zastosował
+odpowiedniego środka w sytuacji, w której istnieje pilna potrzeba podjęcia działań w celu ochrony praw i wolności
+osób, których dane dotyczą. Zgodnie z niniejszym rozporządzeniem, jeżeli po zastosowaniu określonych w nim
+środków organy nadzorcze nie osiągną porozumienia w sprawie zakresu postępowania wszczętego na podstawie
+skargi, powinno się domniemywać, że spełnione zostały warunki wystąpienia z wnioskiem o pilne wydanie wiążącej
+decyzji, o których mowa w art. 66 ust. 3 rozporządzenia (UE) 2016/679, a wiodący organ nadzorczy powinien
+wystąpić do Europejskiej Rady Ochrony Danych o pilne wydanie takiej decyzji. Taka decyzja Europejskiej Rady
+Ochrony Danych o zakresie postępowania wszczętego na podstawie skargi nie może przesądzać o wynikach
+postępowania prowadzonego przez wiodący organ nadzorczy ani o skuteczności prawa do bycia wysłuchanymi
+stron objętych postępowaniem.
+(40) Prawa proceduralne powinny przysługiwać skarżącemu w takim zakresie, w jakim dotyczy to praw i wolności
+przysługujących mu jako osobie, której dane dotyczą. Czynności proceduralne określone w niniejszym
+rozporządzeniu i dotyczące współpracy między organami nadzorczymi nie oznaczają przyznania praw skarżącemu
+lub stronom objętym postępowaniem. W związku z tym w niniejszym rozporządzeniu wyjaśniono, które przepisy
+dotyczące czynności proceduralnych nie przyznają praw osobom fizycznym ani stronom objętym postępowaniem,
+ani nie ograniczają tych praw.
+(41) Skarżący powinni mieć możliwość przedstawienia swojego stanowiska, zanim podjęta zostanie decyzja, która może
+negatywnie wpłynąć na ich sytuację. W związku z tym, w przypadku zamiaru odrzucenia lub oddalenia w całości
+lub w części skargi w sprawie dotyczącej transgranicznego przetwarzania, skarżący powinien mieć możliwość
+przedstawienia swojego stanowiska, zanim przedłożone zostaną projekt decyzji na podstawie art. 60 ust. 3
+rozporządzenia (UE) 2016/679, zmieniony projekt decyzji na podstawie art. 60 ust. 5 tego rozporządzenia lub
+wiążąca decyzja Europejskiej Rada Ochrony Danych na podstawie art. 65 ust. 1 lit. a) tego rozporządzenia.
+(42) W przypadku odrzucenia lub oddalenia w całości lub w części skargi w sprawie dotyczącej transgranicznego
+przetwarzania konieczne jest wyjaśnienie podziału obowiązków między wiodącym organem nadzorczym a organem
+nadzorczym, do którego wniesiono skargę. Organ nadzorczy, do którego wniesiono skargę, jako pełniący rolę
+punktu kontaktowego dla skarżącego podczas postępowania, powinien umożliwić mu przedstawienie jego
+stanowiska na temat proponowanego odrzucenia lub oddalenia skargi w całości lub w części, a także powinien być
+odpowiedzialny za wymianę informacji ze skarżącym. Wszelkie informacje tego typu powinny być przekazane
+wiodącemu organowi nadzorczemu. Ponieważ zgodnie z art. 60 ust. 8 i 9 rozporządzenia (UE) 2016/679 organ
+nadzorczy, do którego wniesiono skargę, jest odpowiedzialny za przyjęcie ostatecznej decyzji o odrzuceniu lub
+oddaleniu skargi w całości lub w części, wiodący organ nadzorczy powinien przygotować projekt decyzji zgodnie
+z art. 60 ust. 3 rozporządzenia (UE) 2016/679 we współpracy z organem nadzorczym, do którego wniesiono
+skargę. Współpraca ta obejmuje możliwość zwrócenia się do organu nadzorczego, do którego wniesiono skargę,
+o pomoc w przygotowaniu takiego projektu.
+(43) Skuteczne egzekwowanie unijnych przepisów o ochronie danych powinno odbywać się w pełnym poszanowaniu
+przysługującego stronom objętym postępowaniem prawa do obrony, które to poszanowanie stanowi jedną
+z podstawowych zasad prawa Unii, której należy przestrzegać w każdych okolicznościach, a prawo to ma szczególne
+znaczenie w przypadku postępowań, które mogą doprowadzić do nałożenia sankcji.
+(44) Aby skutecznie chronić prawo do dobrej administracji oraz prawo do obrony przewidziane w Karcie praw
+podstawowych Unii Europejskiej (zwanej dalej „Kartą”), ważne jest ustanowienie jasnych przepisów dotyczących
+wykonywania prawa każdej osoby do bycia wysłuchaną, zanim zostaną podjęte indywidualne środki mogące
+negatywnie wpłynąć na jej sytuację.
+(45) Przepisy dotyczące procedury administracyjnej stosowanej przez organy nadzorcze podczas egzekwowania
+rozporządzenia (UE) 2016/679 powinny zapewniać stronom objętym postępowaniem możliwość skutecznego
+przedstawienia stanowiska w kwestii prawdziwości i znaczenia powoływanych okoliczności faktycznych oraz
+sprzeciwów wniesionych przez organ nadzorczy w trakcie całego postępowania, co umożliwi im realizację prawa do
+obrony. We wstępnych ustaleniach przedstawia się – po przeprowadzeniu postępowania – wstępne stanowisko
+w sprawie zarzucanego naruszenia przepisów rozporządzenia (UE) 2016/679. Ustalenia te stanowią zatem istotną
+gwarancję proceduralną, która zapewnia przestrzeganie prawa do bycia wysłuchanym. Strony objęte postępowaniem
+powinny – w drodze uzyskania dostępu do akt administracyjnych – otrzymać dostęp do dokumentów niezbędnych
+do skutecznej obrony i przedstawienia stanowiska co do stawianych im zarzutów.
+(46) Przepisy te nie naruszają możliwości udzielenia przez organy nadzorcze dalszego dostępu do akt administracyjnych
+w celu poznania w toku postępowania stanowiska innej strony objętej postępowaniem lub skarżącego, zgodnie
+z prawem krajowym wiodącego organu nadzorczego.
+PL Dz.U. L z 12.12.2025
+6/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+(47) We wstępnych ustaleniach określa się zakres postępowania, a tym samym zakres potencjalnej przyszłej ostatecznej
+decyzji, podjętej, w zależności od przypadku, na podstawie wiążącej decyzji Europejskiej Rady Ochrony Danych
+zgodnie z art. 65 ust. 1 lit. a) rozporządzenia (UE) 2016/679, która może być skierowana do administratorów lub
+podmiotów przetwarzających. Wstępne ustalenia powinny zostać sformułowane w taki sposób, aby mimo zwięzłej
+formy, były wystarczająco jasne, by umożliwić stronom objętym postępowaniem właściwe określenie charakteru
+zarzucanego naruszenia przepisów rozporządzenia (UE) 2016/679. Obowiązek udzielenia stronom objętym
+postępowaniem wszelkich informacji niezbędnych do umożliwienia im należytej obrony uznaje się za spełniony,
+jeżeli w ostatecznej decyzji nie zarzuca się stronom objętym postępowaniem naruszeń innych niż te wskazane we
+wstępnych ustaleniach, i uwzględnia się wyłącznie okoliczności faktyczne, co do których strony te miały możliwość
+przedstawienia swojego stanowiska w toku postępowania. Ostateczna decyzja wiodącego organu nadzorczego nie
+musi jednak być powtórzeniem wstępnych ustaleń. Wiodący organ nadzorczy może w ostatecznej decyzji wziąć pod
+uwagę odpowiedzi stron objętych postępowaniem na wstępne ustalenia oraz, w stosownych przypadkach, na
+zmieniony projekt decyzji na podstawie art. 60 ust. 5 rozporządzenia (UE) 2016/679. Wiodący organ nadzorczy
+powinien mieć możliwość przeprowadzenia we własnym zakresie oceny okoliczności faktycznych powołanych
+przez strony objęte postępowaniem i przywołanych przez nie argumentów prawnych, aby odrzucić argumenty,
+które wiodący organ nadzorczy uzna za bezzasadne, albo uzupełnić i ponownie sformułować swoje ustalenia –
+zarówno faktyczne, jak i prawne – na poparcie podtrzymanej argumentacji. Przykładowo wzięcie pod uwagę
+argumentu przedstawionego przez stronę objętą postępowaniem w toku procedury administracyjnej bez
+umożliwienia jej przedstawienia stanowiska w tym zakresie przed przyjęciem ostatecznej decyzji nie może samo
+w sobie stanowić naruszenia prawa do obrony.
+(48) W niniejszym rozporządzeniu ustanawia się przepisy dotyczące sytuacji, w których wiodący organ nadzorczy ma
+obowiązek na podstawie prawa krajowego do dalszego udziału w późniejszych postępowaniach krajowych
+związanych z tą samą sprawą, takich jak administracyjne postępowanie zażaleniowe.
+(49) Stronom objętym postępowaniem należy zapewnić prawo do bycia wysłuchanym, zanim przedłożony zostanie
+zmieniony projekt decyzji na podstawie art. 60 ust. 5 rozporządzenia (UE) 2016/679 lub zanim Europejska Rada
+Ochrony Danych przyjmie wiążącą decyzję na podstawie art. 65 ust. 1 lit. a) tego rozporządzenia. Nowe
+okoliczności prawne obejmują mające znaczenie dla sprawy i uzasadnione sprzeciwy, jeżeli zawierają one oceny
+prawne inne niż te zaproponowane przez wiodący organ nadzorczy w projekcie decyzji przedłożonym zgodnie
+z art. 60 ust. 4 rozporządzenia (UE) 2016/679.
+(50) Skarżący powinni mieć możliwość uczestniczenia w postępowaniu wszczętym przez organ nadzorczy w celu
+zidentyfikowania lub wyjaśnienia kwestii związanych z potencjalnym naruszeniem przepisów rozporządzenia (UE)
+2016/679. Okoliczność, że organ nadzorczy wszczął już postępowanie w sprawie przedmiotu skargi lub że
+rozpatrzy skargę – po jej otrzymaniu – w ramach postępowania z urzędu, nie wyklucza zakwalifikowania osoby,
+której dane dotyczą, jako skarżącego. Prowadzone przez organ nadzorczy postępowanie w sprawie możliwego
+naruszenia przepisów rozporządzenia (UE) 2016/679 przez administratora lub podmiot przetwarzający stanowi
+postępowanie wszczęte przez organ nadzorczy z inicjatywy własnej lub na podstawie skargi w związku
+z wykonywaniem zadań tego organu wynikających z art. 57 ust. 1 tego rozporządzenia. Strony objęte
+postępowaniem i skarżący nie znajdują się w tej samej sytuacji proceduralnej i konieczne jest zagwarantowanie
+prawa do obrony stronie objętej postępowaniem. Strony objęte postępowaniem i skarżący mogą powoływać się na
+podstawowe prawo do bycia wysłuchanymi, jeżeli decyzja negatywnie wpływa na ich sytuację prawną.
+(51) Skarżący powinni mieć możliwość przedstawienia na piśmie swojego stanowiska co do wstępnych ustaleń
+w zakresie, w jakim stanowisko to odnosi się do ich skargi dotyczącej przetwarzania ich danych osobowych. Nie
+powinni oni mieć jednak dostępu do tajemnic przedsiębiorstwa ani do innych informacji poufnych należących do
+stron objętych postępowaniem lub osób trzecich.
+(52) Przy określaniu terminów na przedstawienie przez strony objęte postępowaniem i skarżących stanowiska co do
+wstępnych ustaleń istotne jest, aby organy nadzorcze uwzględniły złożoność zagadnień podniesionych we
+wstępnych ustaleniach, tak aby zapewnić stronom objętym postępowaniem i skarżącym wystarczająco dużo czasu
+na merytoryczne przedstawienie swojego stanowiska co do podniesionych zagadnień.
+(53) Wymiana poglądów między organami nadzorczymi przed przedłożeniem projektu decyzji obejmuje otwarty dialog
+i szeroko zakrojoną wymianę poglądów, podczas której organy te powinny dołożyć wszelkich starań, aby osiągnąć
+porozumienie w sprawie dalszego postępowania. Z kolei różnica zdań wyrażona w mających znaczenie dla sprawy
+i uzasadnionych sprzeciwach zgłoszonych na podstawie art. 60 ust. 4 rozporządzenia (UE) 2016/679, które
+zwiększają potencjał rozstrzygania sporów między organami nadzorczymi na podstawie art. 65 tego
+rozporządzenia i opóźniają przyjęcie ostatecznej decyzji przez właściwy organ nadzorczy, powinna mieć miejsce
+wyłącznie w przypadku, gdy organy nadzorcze nie mogą dojść do porozumienia i, w razie potrzeby, zapewnić
+spójnej wykładni rozporządzenia (UE) 2016/679. Takie sprzeciwy powinny być zgłaszane, gdy w grę wchodzą
+kwestie spójnego egzekwowania rozporządzenia (UE) 2016/679.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 7/27
+(54) W celu skutecznego i inkluzywnego zakończenia procedury rozstrzygania sporów, w ramach której wszystkie
+organy nadzorcze powinny mieć możliwość przedstawienia opinii, przy uwzględnieniu ograniczeń czasowych
+obowiązujących przy rozstrzyganiu sporów, forma i struktura mających znaczenie dla sprawy i uzasadnionych
+sprzeciwów powinny spełniać określone wymogi.
+(55) Dostęp do akt administracyjnych przewidziano w ramach prawa do obrony i prawa do dobrej administracji
+ustanowionych w Karcie. W chwili doręczenia stronom objętym postępowaniem wstępnych ustaleń należy zapewnić
+im dostęp do akt administracyjnych oraz określić termin przedłożenia przez nie pisemnej odpowiedzi na wstępne
+ustalenia.
+(56) Przy udzielaniu dostępu do akt administracyjnych stronom objętym postępowaniem i skarżącemu organy nadzorcze
+powinny zapewnić ochronę tajemnicy przedsiębiorstwa i innych informacji poufnych. „Inne informacje poufne”
+obejmują informacje inne niż tajemnica przedsiębiorstwa, które mogłyby zostać uznać za poufne zgodnie z prawem
+Unii i prawem krajowym w zakresie, w jakim ich ujawnienie mogłoby wyrządzić istotną szkodę administratorowi,
+podmiotowi przetwarzającemu, osobie fizycznej lub osobie prawnej. Informacje poufne powinny w szczególności
+obejmować informacje, które są znane jedynie ograniczonej liczbie osób i których ujawnienie może wyrządzić
+poważną szkodę osobie, która ich udzieliła, lub osobom trzecim, oraz gdy interesy, które mogą zostać naruszone
+w wyniku ujawnienia takich informacji, obiektywnie zasługują na ochronę. Organy nadzorcze powinny mieć
+możliwość żądania od stron objętych postępowaniem, które przekazują lub przekazały dokumenty lub
+oświadczenia, wskazania informacji poufnych.
+(57) W przypadku gdy przekazanie tajemnicy przedsiębiorstwa lub innych informacji poufnych jest niezbędne, aby
+udowodnić naruszenie, organy nadzorcze powinny w stosunku do każdego dokumentu proporcjonalnie ocenić, czy
+potrzeba jego ujawnienia przeważa nad szkodą, która mogłaby z tego tytułu wyniknąć.
+(58) Dostępu do dokumentów zawartych w aktach administracyjnych na podstawie dostępu do dokumentów
+publicznych udziela się zgodnie z prawem krajowym państw członkowskich. W tym względzie ważne jest, aby
+integralność procesu decyzyjnego podlegała ochronie do czasu przyjęcia ostatecznej decyzji przez właściwy organ
+nadzorczy.
+(59) Ważne jest, aby Europejska Rada Ochrony Danych ułatwiała dostęp do decyzji podjętych zgodnie z mechanizmami
+współpracy i spójności, udostępniając w internecie treść ostatecznych decyzji krajowych organów nadzorczych za
+pośrednictwem łatwo dostępnych rejestrów. Zgodnie z obowiązującym prawem krajowym organy nadzorcze mogą
+utajniać imiona i nazwiska lub nazwy, inne informacje, które umożliwiają identyfikację stron objętych
+postępowaniem lub skarżącego, a także inne informacje, które podlegają ochronie zgodnie z obowiązującym
+prawem Unii i prawem krajowym.
+(60) Ważne jest, aby udostępnienie skarżącemu wersji ostatecznej decyzji zgodnie z niniejszym rozporządzeniem nie
+ograniczało możliwości podjęcia przez organ nadzorczy decyzji o ewentualnym podaniu decyzji do wiadomości
+publicznej w ramach przysługujących mu uprawnień naprawczych.
+(61) Wiodący organ nadzorczy, który przekazuje sprawę do rozstrzygnięcia sporu w ramach procedury na podstawie
+art. 65 rozporządzenia (UE) 2016/679, powinien przekazać Europejskiej Radzie Ochrony Danych wszystkie
+niezbędne dokumenty i informacje umożliwiające jej ocenę dopuszczalności mających znaczenie dla sprawy
+i uzasadnionych sprzeciwów oraz przyjęcie decyzji na podstawie art. 65 ust. 1 lit. a) tego rozporządzenia.
+W przypadku gdy Europejska Rada Ochrony Danych znajdzie się w posiadaniu wszystkich niezbędnych
+dokumentów i informacji, przewodniczący tej Rady rejestruje przekazanie sprawy zgodnie z art. 65 ust. 2
+rozporządzenia (UE) 2016/679.
+(62) Wiążąca decyzja Europejskiej Rady Ochrony Danych przyjęta na mocy art. 65 ust. 1 lit. a) rozporządzenia (UE)
+2016/679 powinna dotyczyć wyłącznie zagadnień, które doprowadziły do wszczęcia procedury rozstrzygania
+sporów, i powinna być sformułowana w sposób umożliwiający wiodącemu organowi nadzorczemu przyjęcie
+ostatecznej decyzji na podstawie decyzji Europejskiej Rady Ochrony Danych.
+(63) Aby usprawnić rozstrzyganie sporów między organami nadzorczymi, przekazywanych Europejskiej Radzie Ochrony
+Danych na podstawie art. 65 ust. 1 lit. b) i c) rozporządzenia (UE) 2016/679, konieczne jest określenie przepisów
+proceduralnych dotyczących dokumentów i informacji przekazywanych Europejskiej Radzie Ochrony Danych, na
+których Rada ta powinna oprzeć swoją decyzję. Konieczne jest również określenie momentu, w którym Europejska
+Rada Ochrony Danych powinna zarejestrować przekazanie sprawy do rozstrzygnięcia sporu.
+(64) Aby usprawnić przyjmowanie przez Europejską Radę Ochrony Danych opinii i wiążących decyzji w trybie pilnym
+na podstawie art. 66 ust. 2 rozporządzenia (UE) 2016/679, niezbędne jest określenie przepisów proceduralnych
+dotyczących terminu składania wniosków o pilne wydanie opinii lub wiążącej decyzji, oraz dokumentów
+i informacji przekazywanych Europejskiej Radzie Ochrony Danych i na których Europejska Rada Ochrony Danych
+powinna oprzeć swoją decyzję.
+PL Dz.U. L z 12.12.2025
+8/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+(65) Zgodnie z rozporządzeniem (UE) 2016/679 osoba, której dane dotyczą, ma prawo do skutecznego środka ochrony
+prawnej przed sądem, jeżeli właściwy organ nadzorczy nie rozpatrzy jej skargi. Niniejsze rozporządzenie nie
+przewiduje nowych środków ochrony prawnej przed sądem w stosunku do środków, które ustanowiono już
+w rozporządzeniu (UE) 2016/679, ani nie ogranicza stosowania środków ochrony prawnej przed sądem
+ustanowionych w tym rozporządzeniu. Niektóre przepisy niniejszego rozporządzenia mają szczególne znaczenie dla
+terminowego wydawania ostatecznej decyzji przez organy nadzorcze przy rozpatrywaniu skarg. Przy ustalaniu, czy
+organ nadzorczy rozpatrzył skargę, należy rozważyć, czy organ nadzorczy dotrzymał szeregu terminów
+określonych w niniejszym rozporządzeniu oraz w rozporządzeniu (UE) 2016/679. Przy dokonywaniu tego
+ustalenia niezbędne jest zagwarantowanie skarżącemu prawa do rozpatrzenia jego skargi w rozsądnym terminie.
+Przepisy niniejszego rozporządzenia nie naruszają możliwości ustanowienia w prawie krajowym środków ochrony
+prawnej dla strony objętej postępowaniem, w odniesieniu do przysługującego jej prawa do uzyskania rozstrzygnięcia
+sprawy w rozsądnym terminie.
+(66) Wdrożenie niniejszego rozporządzenia wymaga odpowiednich narzędzi cyfrowych, które wesprą szybką
+i bezpieczną wymianę informacji. Ważne jest, aby wszystkie organy ochrony danych miały dostęp do
+odpowiedniego bezpiecznego wspólnego narzędzia elektronicznego, z uwzględnieniem doświadczeń zdobytych
+przy korzystaniu z istniejących narzędzi. Ważne jest również, aby zapewnić zasoby niezbędne do wdrożenia takiego
+narzędzia elektronicznego oraz aby narzędzie to ułatwiało Europejskiej Radzie Ochrony Danych gromadzenie
+i konsolidację danych statystycznych dotyczących egzekwowania prawa w sprawach dotyczących transgranicznego
+przetwarzania.
+(67) Rozdziały III i IV niniejszego rozporządzenia dotyczą współpracy między organami nadzorczymi, praw
+procesowych stron objętych postępowaniem oraz udziału skarżących. Aby zapewnić pewność prawa, przepisy te
+nie powinny mieć zastosowania do postępowań będących w toku w chwili wejścia w życie niniejszego
+rozporządzenia. Powinny mieć one zastosowanie do postępowań wszczętych z urzędu po upływie 15 miesięcy od
+dnia wejścia w życie niniejszego rozporządzenia, a do postępowań wszczętych na podstawie skargi – jeżeli skargę
+wniesiono po upływie 15 miesięcy od dnia wejścia w życie niniejszego rozporządzenia. Rozdziały V i VI niniejszego
+rozporządzenia zawierają przepisy proceduralne dotyczące spraw przekazanych do rozstrzygnięcia sporu na
+podstawie art. 65 rozporządzenia (UE) 2016/679 oraz wniosków o pilne wydanie opinii lub wiążącej decyzji na
+podstawie art. 66 rozporządzenia (UE) 2016/679. Ze względu na pewność prawa rozdziały te nie mają
+zastosowania do spraw, które zostały przekazane do rozstrzygnięcia sporu przed wejściem w życie niniejszego
+rozporządzenia. Powinny mieć one zastosowanie do wszystkich spraw przekazanych do rozstrzygnięcia sporu po
+upływie 15 miesięcy od dnia wejścia w życie niniejszego rozporządzenia.
+(68) Zgodnie z art. 42 ust. 1 i 2 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2018/1725 (4) skonsultowano się
+z Europejskim Inspektorem Ochrony Danych i Europejską Radą Ochrony Danych, którzy wydali wspólną opinię
+w dniu 19 września 2023 r.,
+PRZYJMUJĄ NINIEJSZE ROZPORZĄDZENIE:
+ROZDZIAŁ I
+PRZEPISY OGÓLNE
+Artykuł 1
+Przedmiot i zakres stosowania
+W niniejszym rozporządzeniu ustanawia się przepisy proceduralne dotyczące rozpatrywania skarg i prowadzenia
+postępowań przez organy nadzorcze w sprawach wszczynanych na podstawie skargi lub z urzędu w egzekwowaniu
+rozporządzenia (UE) 2016/679, jeżeli sprawy te dotyczą transgranicznego przetwarzania. Rozpatrywanie skarg
+i prowadzenie postępowań w sprawach dotyczących transgranicznego przetwarzania obejmuje ustalenie, czy dana sprawa
+dotyczy transgranicznego przetwarzania.
+Artykuł 2
+Definicje
+Do celów niniejszego rozporządzenia stosuje się definicje zawarte w art. 4 rozporządzenia (UE) 2016/679.
+Stosuje się również następującą definicję:
+„strona objęta postępowaniem” oznacza administratora lub podmiot przetwarzający, wobec którego prowadzone jest
+postępowanie w związku z zarzucanym naruszeniem przepisów rozporządzenia (UE) 2016/679 dotyczącym trans-
+granicznego przetwarzania.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 9/27
+(4) Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2018/1725 z dnia 23 października 2018 r. w sprawie ochrony osób
+fizycznych w związku z przetwarzaniem danych osobowych przez instytucje, organy i jednostki organizacyjne Unii i swobodnego
+przepływu takich danych oraz uchylenia rozporządzenia (WE) nr 45/2001 i decyzji nr 1247/2002/WE (Dz.U. L 295 z 21.11.2018,
+s. 39, ELI: http://data.europa.eu/eli/reg/2018/1725/oj).
+Artykuł 3
+Zasady egzekwowania rozporządzenia (UE) 2016/679 w sprawach dotyczących transgranicznego przetwarzania
+1. Organy nadzorcze prowadzą w sprawny i skuteczny sposób postępowania wchodzące w zakres stosowania
+niniejszego rozporządzenia. Organy nadzorcze lojalnie i skutecznie współpracują ze sobą, w tym udzielając sobie w razie
+potrzeby wsparcia i niezwłoczne odpowiadając na wnioski każdego z nich.
+2. Organ nadzorczy może łączyć lub rozdzielać postępowania zgodnie z krajowym prawem procesowym, o ile łączenie
+lub rozdzielanie tych postępowań nie narusza praw stron objętych postępowaniem lub praw skarżącego.
+3. Skarżący ma możliwość kontaktowania się wyłącznie z organem nadzorczym, do którego wniósł skargę zgodnie
+z art. 77 rozporządzenia (UE) 2016/679.
+4. Rozpatrywanie skargi każdorazowo prowadzi do wydania decyzji, od której przysługuje skuteczny środek ochrony
+prawnej przed sądem w rozumieniu art. 78 rozporządzenia (UE) 2016/679.
+5. Aby zapewnić skuteczność postępowania, organy nadzorcze mogą ograniczyć długość oświadczeń strony objętej
+postępowaniem i skarżącego, biorąc pod uwagę złożoność sprawy i dokumenty, które zostały już przedłożone.
+ROZDZIAŁ II
+WNOSZENIE SKARG I WCZESNE ROZSTRZYGANIE
+Artykuł 4
+Skargi dotyczące transgranicznego przetwarzania
+1. Skarga wniesiona na podstawie rozporządzenia (UE) 2016/679 dotycząca transgranicznego przetwarzania jest
+dopuszczalna, pod warunkiem że zawiera następujące informacje:
+a) imię i nazwisko lub nazwę oraz dane kontaktowe osoby wnoszącej skargę;
+b) jeżeli skargę wnosi podmiot, organizacja lub zrzeszenie, które nie mają charakteru zarobkowego, o których mowa
+w art. 80 rozporządzenia (UE) 2016/679, dowód na to, że dany podmiot, organizacja lub zrzeszenie zostały należycie
+ustanowione zgodnie z prawem państwa członkowskiego;
+c) jeżeli skargę wnosi się na podstawie art. 80 ust. 1 rozporządzenia (UE) 2016/679, nazwę i dane kontaktowe wnoszących
+tę skargę podmiotu, organizacji lub zrzeszenia, które nie mają charakteru zarobkowego, oraz dowód na to, że dany
+podmiot, organizacja lub zrzeszenie działają z upoważnienia osoby, której dane dotyczą;
+d) informacje, które ułatwiają identyfikację administratora lub podmiotu przetwarzającego, którego dotyczy skarga;
+e) opis zarzucanego naruszenia przepisów rozporządzenia (UE) 2016/679.
+Aby skarga dotycząca transgranicznego przetwarzania była dopuszczalna, nie są wymagane informacje dodatkowe poza
+tymi, o których mowa w akapicie pierwszym.
+Tryb i wymogi administracyjne ustanowione w krajowym prawie proceduralnym organu nadzorczego, do którego
+wniesiono skargę, nadal mają zastosowanie.
+2. W przypadku gdy organ nadzorczy, do którego wniesiono skargę, ustali, że skarga nie zawiera informacji, o których
+mowa w ust. 1 akapit pierwszy, stwierdza niedopuszczalność skargi i informuje skarżącego o uzasadnieniu takiej decyzji
+w terminie dwóch tygodni od otrzymania skargi.
+3. Skarżący nie ma obowiązku skontaktowania się ze stroną objętą postępowaniem przed wniesieniem skargi, aby ta
+skarga została uznana za dopuszczalną.
+Bez uszczerbku dla akapitu pierwszego, jeżeli skarga dotyczy wykonania przez osobę, której dane dotyczą, prawa
+wymagającego od tej osoby złożenia żądania do administratora, żądanie to musi zostać złożone przed wniesieniem tej
+skargi.
+PL Dz.U. L z 12.12.2025
+10/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+4. Organ nadzorczy, do którego wniesiono skargę, ustala w drodze wstępnej konkluzji:
+a) czy skarga dotyczy transgranicznego przetwarzania;
+b) który organ nadzorczy uznaje za właściwy do podejmowania działań jako wiodący organ nadzorczy zgodnie z art. 56
+ust. 1 rozporządzenia (UE) 2016/679; oraz
+c) czy ma zastosowanie art. 56 ust. 2 rozporządzenia (UE) 2016/679.
+5. Jeżeli skarga dotycząca transgranicznego przetwarzania jest dopuszczalna i nie zastosowano wczesnego rozstrzygania
+zgodnie z art. 5, organ nadzorczy, do którego wniesiono skargę, przekazuje ją organowi nadzorczemu, który uznaje za
+właściwy do podejmowania działań jako wiodący organ nadzorczy, nie później niż sześć tygodni od otrzymania danej
+skargi i informuje skarżącego o tym przekazaniu.
+Stwierdzenie dopuszczalności skargi przez organ nadzorczy, do którego została ona wniesiona, jest wiążące dla wiodącego
+organu nadzorczego.
+6. W terminie sześciu tygodni od otrzymania skargi organ nadzorczy uznany za właściwy do podejmowania działań
+jako wiodący organ nadzorczy potwierdza swoją właściwość lub – jeżeli panują sprzeczne opinie co do tego, który
+z pozostałych organów nadzorczych, których sprawa dotyczy, jest właściwy względem głównej jednostki organizacyjnej –
+przekazuje sprawę Europejskiej Radzie Ochrony Danych do rozstrzygnięcia sporu zgodnie z art. 65 ust. 1
+lit. b) rozporządzenia (UE) 2016/679.
+Jeżeli organ nadzorczy uznany za właściwy do podejmowania działań jako wiodący organ nadzorczy nie potwierdzi swojej
+właściwości lub nie przekaże sprawy Europejskiej Radzie Ochrony Danych w terminie, o którym mowa w akapicie
+pierwszym, organ nadzorczy, do którego wniesiono skargę, przekazuje sprawę Europejskiej Radzie Ochrony Danych do
+rozstrzygnięcia sporu na podstawie art. 65 ust. 1 lit. b) rozporządzenia (UE) 2016/679.
+7. Niezależnie od dopuszczalności skargi, organ nadzorczy, do którego wniesiono skargę, lub wiodący organ nadzorczy
+mogą zwrócić się do skarżącego o przedstawienie informacji uzupełniających, aby ułatwić rozpoznanie skargi i umożliwić
+jej pełne rozpatrzenie.
+8. Wiodący organ nadzorczy niezwłocznie informuje stronę objętą postępowaniem o wniesieniu skargi oraz o jej
+głównych elementach.
+Artykuł 5
+Wczesne rozstrzyganie
+1. Skarga dotycząca transgranicznego przetwarzania, która dotyczy wykonywania praw osoby, której dane dotyczą, na
+podstawie rozdziału III rozporządzenia (UE) 2016/679, może, w stosownych przypadkach, zostać rozstrzygnięta w drodze
+procedury umożliwiającej jej wczesne rozstrzygnięcie przez:
+a) organ nadzorczy, do którego wniesiono skargę, po ustaleniu w drodze wstępnej konkluzji, że skarga dotyczy
+transgranicznego przetwarzania, oraz przed ewentualnym przekazaniem skargi organowi nadzorczemu uznanemu za
+właściwy do podejmowania działań jako wiodący organ nadzorczy; lub
+b) wiodący organ nadzorczy, któremu została przekazana skarga, w dowolnym momencie przed przekazaniem wstępnych
+ustaleń pozostałym organom nadzorczym, których sprawa dotyczy, zgodnie z art. 19 niniejszego rozporządzenia lub,
+w przypadku gdy zastosowanie ma uproszczona procedura współpracy, o której mowa w art. 6 niniejszego
+rozporządzenia, przed przedłożeniem projektu decyzji.
+Organy nadzorcze mogą zachęcać i ułatwiać wczesne rozstrzyganie skarg oraz kontaktować się w tym celu ze, stosownie
+do przypadku, stroną objętą postępowaniem lub skarżącym.
+2. Do celów wczesnego rozstrzygania, jeżeli organ nadzorczy, o którym mowa w ust. 1 akapit pierwszy lit. a) lub b),
+ustali na podstawie dowodów potwierdzających, że zaprzestano zarzucanego naruszenia, ten organ nadzorczy uznaje
+skargę za bezprzedmiotową.
+Jeżeli skarga została uznana za bezprzedmiotową, organ nadzorczy, o którym mowa w ust. 1 akapit pierwszy lit. a) lub b),
+jasnym i prostym językiem informuje skarżącego o:
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 11/27
+a) zaprzestaniu zarzucanego naruszenia i uznaniu skargi za bezprzedmiotową;
+b) skutkach wczesnego rozstrzygnięcia; oraz
+c) przysługującym mu prawie do zgłoszenia sprzeciwu wobec wczesnego rozstrzygnięcia w terminie czterech tygodni od
+otrzymania takiej informacji.
+3. W postępowaniu przed organem nadzorczym, do którego wniesiono skargę, jeżeli skarżący nie zgłosi sprzeciwu
+w terminie określonym w ust. 2 akapit drugi lit. c), organ ten stwierdza, w terminie dwóch tygodni od upływu tego
+terminu, że skarga została rozstrzygnięta, i informuje o takim rozstrzygnięciu skarżącego, stronę objętą postępowaniem
+oraz, w stosownych przypadkach, wiodący organ nadzorczy.
+4. W postępowaniu przed wiodącym organem nadzorczym, któremu została przekazana skarga, jeżeli skarżący nie
+zgłosi sprzeciwu w terminie określonym w ust. 2 lit. c) niniejszego artykułu, ten wiodący organ nadzorczy przedkłada
+projekt decyzji zgodnie z art. 60 ust. 3 rozporządzenia (UE) 2016/679 w terminie czterech tygodni od upływu tego
+terminu w celu przyjęcia ostatecznej decyzji zgodnie z art. 60 ust. 7 rozporządzenia (UE) 2016/679 stwierdzającej
+rozstrzygnięcie skargi.
+5. Wczesne rozstrzygnięcie skargi jest bez uszczerbku dla wykonywania przez wiodący organ nadzorczy uprawnień
+określonych w art. 58 rozporządzenia (UE) 2016/679 w odniesieniu do tej samej sprawy.
+6. Artykuły 10–20 nie mają zastosowania do skarg rozstrzygniętych na podstawie niniejszego artykułu.
+ROZDZIAŁ III
+WSPÓŁPRACA NA PODSTAWIE ART. 60 ROZPORZĄDZENIA (UE) 2016/679
+SEKCJA 1
+UPROSZCZONA WSPÓŁPRACA
+Artykuł 6
+Uproszczona procedura współpracy
+1. Po sformułowaniu wstępnej opinii na temat głównych kwestii w postępowaniu wiodący organ nadzorczy może
+współpracować z pozostałymi organami nadzorczymi, których sprawa dotyczy, w ramach uproszczonej procedury
+współpracy, zgodnie z niniejszym artykułem, jeżeli:
+a) uważa, że nie ma uzasadnionych wątpliwości co do zakresu postępowania, w szczególności w odniesieniu do przepisów
+rozporządzenia (UE) 2016/679, których zarzucane naruszenie ma być przedmiotem postępowania; oraz
+b) kwestie prawne i faktyczne wskazane przez wiodący organ nadzorczy nie wymagają dodatkowej współpracy
+z pozostałymi organami nadzorczymi, których sprawa dotyczy, która to współpraca byłaby wymagana do celów
+skomplikowanego postępowania, w szczególności jeżeli kwestie te można rozwiązać na podstawie wcześniejszych
+decyzji w podobnych sprawach.
+Jeżeli wiodący organ nadzorczy stosuje uproszczoną procedurę współpracy, o której mowa w akapicie pierwszym, nie
+stosuje się art. 10, 11, 16, 19, 20, art. 23 ust. 1 lit. a) i b) oraz art. 23 ust. 2 niniejszego rozporządzenia. Wiodący organ
+nadzorczy przedkłada projekt decyzji zgodnie z art. 60 ust. 3 rozporządzenia (UE) 2016/679 w terminie, o którym mowa
+w art. 12 ust. 6 niniejszego rozporządzenia.
+2. Wiodący organ nadzorczy powiadamia pozostałe organy nadzorcze, których sprawa dotyczy, o zamiarze
+zastosowania uproszczonej procedury współpracy i przekazuje informacje o okolicznościach sprawy istotnych dla
+ustalenia, czy warunki określone w ust. 1 niniejszego artykułu zostały spełnione, w terminie sześciu tygodni od
+potwierdzenia przez wiodący organ nadzorczy jego właściwości zgodnie z art. 4 ust. 6 niniejszego rozporządzenia lub od
+przyjęcia wiążącej decyzji przez Europejską Radę Ochrony Danych na podstawie art. 65 ust. 1 lit. b) rozporządzenia (UE)
+2016/679.
+PL Dz.U. L z 12.12.2025
+12/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+3. Jeżeli którykolwiek z pozostałych organów nadzorczych, których sprawa dotyczy, sprzeciwi się zastosowaniu
+uproszczonej procedury współpracy w terminie dwóch tygodni od powiadomienia o tym, procedura ta nie ma
+zastosowania, a wiodący organ nadzorczy sporządza streszczenie kluczowych zagadnień zgodnie z art. 10 i współpracuje
+z pozostałymi organami nadzorczymi, których sprawa dotyczy, zgodnie z procedurami określonymi w rozdziale III.
+4. Stosując uproszczoną procedurę współpracy, wiodący organ nadzorczy przed przedłożeniem projektu decyzji
+zapewnia, aby w stosownych przypadkach stronom objętym postępowaniem zapewniono prawo do bycia wysłuchanymi
+oraz aby skarżący miał możliwość przedstawienia swojego stanowiska. Do celów tego ustępu nadal mają zastosowanie tryb
+i wymogi administracyjne przewidziane w krajowym prawie proceduralnym wiodącego organu nadzorczego lub,
+w stosownym przypadku, organu nadzorczego, do którego wniesiono skargę.
+5. Rozdział III nie ma zastosowania do spraw rozpatrywanych przez organ nadzorczy, którego sprawa dotyczy, zgodnie
+z art. 56 ust. 2 rozporządzenia (UE) 2016/679.
+SEKCJA 2
+OSIĄGNIĘCIE POROZUMIENIA W ROZUMIENIU ART. 60 UST. 1 ROZPORZĄDZENIA (UE) 2016/679
+Artykuł 7
+Przyznanie lub ograniczenie praw
+Przepisy niniejszej sekcji dotyczą współpracy między organami nadzorczymi i nie przyznają ani nie ograniczają praw osób
+fizycznych lub stron objętych postępowaniem.
+Artykuł 8
+Współpraca między organami nadzorczymi
+W ramach współpracy w celu osiągnięcia porozumienia zgodnie z art. 60 ust. 1 rozporządzenia (UE) 2016/679, organy
+nadzorcze mogą wykorzystać wszystkie środki przewidziane w tym rozporządzeniu, w tym wzajemną pomoc zgodnie
+z art. 61 tego rozporządzenia i wspólne operacje zgodnie z art. 62 tego rozporządzenia.
+Artykuł 9
+Stosowne informacje wymieniane między wiodącym organem nadzorczym a pozostałymi organami
+nadzorczymi, których sprawa dotyczy
+1. Wiodący organ nadzorczy i pozostałe organy nadzorcze, których sprawa dotyczy, wymieniają się stosownymi
+informacjami, o których mowa w art. 60 ust. 1 i 3 rozporządzenia (UE) 2016/679. Informacje te obejmują, w stosownych
+przypadkach:
+a) informacje o wszczęciu postępowania w sprawie zarzucanego naruszenia przepisów rozporządzenia (UE) 2016/679;
+b) wnioski o udzielenie informacji na podstawie art. 58 ust. 1 lit. e) rozporządzenia (UE) 2016/679 i powiązane
+dokumenty wynikające z tych wniosków;
+c) informacje o korzystaniu z innych uprawnień w zakresie prowadzonych postępowań, o których mowa w art. 58 ust. 1
+rozporządzenia (UE) 2016/679, i powiązane dokumenty wynikające z wykonywania tych uprawnień w zakresie
+prowadzonych postępowań;
+d) w przypadku gdy planowane jest odrzucenie lub oddalenie skargi w całości lub w części – uzasadnienie wiodącego
+organu nadzorczego jej odrzucenia lub oddalenia;
+e) informacje o wczesnym rozstrzygnięciu skargi na podstawie art. 5 niniejszego rozporządzenia;
+f) streszczenie kluczowych zagadnień i uwagi do tego streszczenia, o których mowa w art. 10 niniejszego rozporządzenia;
+g) informacje o zakresie postępowania;
+h) informacje o wydarzeniach lub ustaleniach, które mogą prowadzić do zmiany zakresu postępowania lub wszczęcia
+nowego postępowania;
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 13/27
+i) informacje o podjętych działaniach i przeprowadzonej ocenie prawnej w celu ustalenia, czy naruszono przepisy
+rozporządzenie (UE) 2016/679, przed przygotowaniem wstępnych ustaleń i przed przygotowaniem projektu decyzji;
+j) wstępne ustalenia;
+k) odpowiedzi stron objętych postępowaniem na wstępne ustalenia;
+l) stanowisko skarżącego co do wersji wstępnych ustaleń, która nie zawiera informacji poufnych, oraz w stosownych
+przypadkach, co do innych aspektów postępowania, w odniesieniu do których skarżący mógłby złożyć formalne
+pisemne oświadczenia;
+m) w przypadku odrzucenia lub oddalenia skargi w całości lub w części – pisemne oświadczenia skarżącego;
+n) informacje o stosownych działaniach podjętych przez wiodący organ nadzorczy po otrzymaniu odpowiedzi stron
+objętych postępowaniem na wstępne ustalenia oraz przed przedłożeniem projektu decyzji, o którym mowa art. 60
+ust. 3 rozporządzenia (UE) 2016/679;
+o) stanowisko stron objętych postępowaniem co do zmienionego projektu decyzji;
+p) inne informacje uznane za użyteczne i stosowne do celów postępowania.
+2. W trakcie postępowania wiodący organ nadzorczy i pozostałe organy nadzorcze, których sprawa dotyczy, wymieniają
+się informacjami, o których mowa w ust. 1 niniejszego artykułu, jak najszybciej i nie później niż jeden tydzień od
+momentu, w którym takie informacje staną się dostępne, chyba że niniejsze rozporządzenie lub rozporządzenie (UE)
+2016/679 stanowią inaczej.
+3. Europejska Rada Ochrony Danych może określić tryb i wymogi dotyczące wymiany stosownych informacji między
+organami nadzorczymi.
+Artykuł 10
+Streszczenie kluczowych zagadnień
+1. Po sformułowaniu wstępnej opinii na temat głównych kwestiach w postępowaniu wiodący organ nadzorczy
+sporządza streszczenie kluczowych zagadnień na potrzeby współpracy na podstawie art. 60 ust. 1 rozporządzenia (UE)
+2016/679.
+2. Streszczenie kluczowych zagadnień zawiera:
+a) główne istotne okoliczności faktyczne;
+b) wstępne określenie zakresu postępowania, w szczególności wskazanie przepisów rozporządzenia (UE) 2016/679,
+których zarzucane naruszenie ma być przedmiotem postępowania;
+c) wskazanie okoliczności prawnych i faktycznych;
+d) analizę stosownych stanowisk przedstawionych przez stronę objętą postępowaniem lub skarżącego, jeżeli stanowiska te
+są dostępne w momencie sporządzania streszczenia kluczowych zagadnień;
+e) w stosownym przypadku, wstępne wskazanie potencjalnych środków naprawczych.
+3. Wiodący organ nadzorczy przekazuje pozostałym organom nadzorczym, których sprawa dotyczy, streszczenie
+kluczowych zagadnień bez zbędnej zwłoki, w terminie trzech miesięcy od potwierdzenia przez wiodący organ nadzorczy
+swojej właściwości zgodnie z art. 4 ust. 6 niniejszego rozporządzenia lub od przyjęcia wiążącej decyzji przez Europejską
+Radę Ochrony Danych na podstawie art. 65 ust. 1 lit. b) rozporządzenia (UE) 2016/679.
+4. Organy nadzorcze, których sprawa dotyczy, mogą przedstawić uwagi do streszczenia kluczowych zagadnień
+w terminie czterech tygodni od jego otrzymania. Wiodący organ nadzorczy może przedłużyć ten termin o dwa tygodnie ze
+względu na złożoność sprawy lub na wniosek pozostałych organów nadzorczych, których sprawa dotyczy.
+5. Jeżeli organy nadzorcze, których sprawa dotyczy, przedstawiły uwagi zgodnie z ust. 4, uwagi te są udostępniane
+wszystkim pozostałym organom nadzorczym, których sprawa dotyczy. Wiodący organ nadzorczy odpowiada na te uwagi
+w terminie czterech tygodni od upływu terminu, o którym mowa w ust. 4, wskazując, czy i w jaki sposób zamierza je wziąć
+pod uwagę. Wiodący organ nadzorczy może przedłużyć ten termin o dwa tygodnie ze względu na złożoność sprawy.
+PL Dz.U. L z 12.12.2025
+14/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+6. Przekazując sprawę wiodącemu organowi nadzorczemu, organ nadzorczy, do którego ją wniesiono, może udzielić
+wiodącemu organowi nadzorczemu informacji istotnych dla przygotowania streszczenia kluczowych zagadnień.
+7. Europejska Rada Ochrony Danych może określić tryb i wymogi przedstawiania przez organy nadzorcze, których
+sprawa dotyczy, uwag do streszczenia kluczowych zagadnień.
+Artykuł 11
+Stosowanie środków służących osiągnięciu porozumienia
+1. Na podstawie art. 60 ust. 1 rozporządzenia (UE) 2016/679 wiodący organ nadzorczy i pozostałe organy nadzorcze,
+których sprawa dotyczy, dążą do osiągnięcia porozumienia w sprawach dotyczących transgranicznego przetwarzania,
+zgodnie z niniejszym artykułem, i mogą stosować środki przewidziane w rozporządzeniu (UE) 2016/679, w tym wzajemną
+pomoc na podstawie art. 61 rozporządzenia (UE) 2016/679 i wspólne operacje na podstawie art. 62 tego rozporządzenia.
+2. Jeżeli organ nadzorczy, którego sprawa dotyczy, nie zgadza się z wiodącym organem nadzorczym i nie osiągnięto
+porozumienia, ten organ nadzorczy może zwrócić się do wiodącego organu nadzorczego z wnioskiem o wzajemną pomoc
+na podstawie art. 61 rozporządzenia (UE) 2016/679 lub o przeprowadzenie wspólnych operacji na podstawie art. 62 tego
+rozporządzenia, lub o zastosowanie obu tych środków w celu osiągnięcia porozumienia w sprawie:
+a) zakresu postępowania w przypadku spraw wszczętych na podstawie skargi, w tym w kwestii wskazania przepisów
+rozporządzenia (UE) 2016/679, których zarzucane naruszenie ma być przedmiotem postępowania;
+b) w stosownych przypadkach, okoliczności prawnych lub faktycznych, o których mowa w art. 10 ust. 2 lit. c) niniejszego
+rozporządzenia;
+c) wstępnego wskazania potencjalnych środków naprawczych zgodnie z art. 10 ust. 2 lit. e) niniejszego rozporządzenia.
+3. Wniosek, o którym mowa w ust. 2 niniejszego artykułu, składa się w terminie jednego miesiąca od upływu terminu,
+o którym mowa w art. 10 ust. 5.
+4. Jeżeli wniosek o przeprowadzenie wspólnych operacji na podstawie art. 62 rozporządzenia (UE) 2016/679 został
+złożony na podstawie ust. 2 niniejszego artykułu, wiodący organ nadzorczy odpowiada na ten wniosek w terminie jednego
+miesiąca od jego otrzymania.
+5. Wiodący organ nadzorczy współpracuje z pozostałymi organami nadzorczymi, których sprawa dotyczy, opierając się
+na ich uwagach do streszczenia kluczowych zagadnień oraz, w stosownych przypadkach, w odpowiedzi na wnioski
+złożone na podstawie art. 61 i 62 rozporządzenia (UE) 2016/679, w celu osiągnięcia porozumienia. Porozumienie
+w kwestiach, o których mowa w ust. 2 niniejszego artykułu, służy wiodącemu organowi nadzorczemu za podstawę
+dalszego postępowania i sporządzenia wstępnych ustaleń lub, w stosownych przypadkach, do przekazania organowi
+nadzorczemu, do którego wniesiono skargę, uzasadnienia do celów określonych w art. 16 ust. 1 niniejszego
+rozporządzenia.
+6. Jeżeli w postępowaniu wszczętym na podstawie skargi, zgodnie z procedurami określonymi w art. 10 ust. 5
+niniejszego rozporządzenia i w ust. 5 niniejszego artykułu, nie doszło do porozumienia między wiodącym organem
+nadzorczym a co najmniej jednym z pozostałych organów nadzorczych, których sprawa dotyczy, co do wstępnego
+określenia zakresu postępowania, o którym mowa w art. 10 ust. 2 lit. b) niniejszego rozporządzenia, uważa się, że warunki
+zwrócenia się z wnioskiem o pilne wydanie wiążącej decyzji zgodnie z art. 66 ust. 3 rozporządzenia (UE) 2016/679 zostały
+spełnione, a wiodący organ nadzorczy zwraca się do Europejskiej Rady Ochrony Danych z wnioskiem o pilne wydanie
+wiążącej decyzji zgodnie z art. 66 ust. 3 rozporządzenia (UE) 2016/679.
+7. Zwracając się do Europejskiej Rady Ochrony Danych z wnioskiem o pilne wydanie wiążącej decyzji zgodnie z ust. 6
+niniejszego artykułu, wiodący organ nadzorczy przedkłada Europejskiej Radzie Ochrony Danych:
+a) informacje, o których mowa w art. 10 ust. 2;
+b) uwagi pozostałych organów nadzorczych, których sprawa dotyczy i które nie zgadzają się ze wstępnym określeniem
+przez wiodący organ nadzorczy zakresu postępowania;
+c) dalszą wymianę informacji między wiodącym organem nadzorczym a pozostałymi organami nadzorczymi, których
+sprawa dotyczy, zgodnie z art. 10 ust. 5 i art. 11 ust. 5;
+d) inne stosowne dokumenty lub informacje, o które zwróciła się Europejska Rada Ochrony Danych.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 15/27
+8. Europejska Rada Ochrony Danych przyjmuje w trybie pilnym wiążącą decyzję dotyczącą zakresu postępowania na
+podstawie wszystkich otrzymanych informacji.
+Artykuł 12
+Terminy przedłożenia projektu decyzji
+1. Wiodący organ nadzorczy przedkłada projekt decyzji zgodnie z art. 60 ust. 3 rozporządzenia (UE) 2016/679
+w terminie 15 miesięcy od potwierdzenia przez wiodący organ nadzorczy swojej właściwości zgodnie z art. 4 ust. 6
+niniejszego rozporządzenia lub od przyjęcia wiążącej decyzji przez Europejską Radę Ochrony Danych na podstawie art. 65
+ust. 1 lit. b) rozporządzenia (UE) 2016/679.
+2. Jeżeli wiodący organ nadzorczy wystąpi z wnioskiem na podstawie art. 11 ust. 6, bieg terminu, o którym mowa
+w ust. 1 niniejszego artykułu, zostaje wstrzymany do czasu przyjęcia wiążącej decyzji przez Europejską Radę Ochrony
+Danych.
+3. W drodze wyjątku wiodący organ nadzorczy może jednokrotnie przedłużyć termin, o którym mowa w ust. 1, o nie
+dłużej niż 12 miesięcy, ze względu na złożoność sprawy. Co najmniej cztery tygodnie przed upływem terminu, o którym
+mowa w ust. 1, wiodący organ nadzorczy informuje pozostałe organy nadzorcze, których sprawa dotyczy, o zamiarze
+przedłużenia terminu, o którym mowa w ust. 1, podając długość i uzasadnienie zamierzonego przedłużenia.
+4. Każdy organ nadzorczy, którego sprawa dotyczy, może zgłosić sprzeciw wobec przedłużenia terminu w terminie
+dwóch tygodni od otrzymania o tym informacji zgodnie z ust. 3. Organ ten uzasadnia swój sprzeciw. Ustalając, czy należy
+przedłużyć termin, o którym mowa w ust. 1, oraz, w stosownych przypadkach, określając długość tego przedłużenia,
+wiodący organ nadzorczy należycie bierze pod uwagę taki sprzeciw.
+5. Jeżeli wiodący organ nadzorczy przedłuża termin, o którym mowa w ust. 1 niniejszego artykułu, zgodnie z ust. 3 i 4
+niniejszego artykułu, każdy z pozostałych organów nadzorczych, których sprawa dotyczy, może poinformować wiodący
+organ nadzorczy, że jego zdaniem istnieje potrzeba podjęcia działań w celu ochrony praw i wolności osób, których dane
+dotyczą. Jeżeli wiodący organ nadzorczy nie przedłoży projektu decyzji w przedłużonym terminie, organ nadzorczy, który
+poinformował wiodący organ nadzorczy o potrzebie podjęcia działań w celu ochrony praw i wolności osób, których dane
+dotyczą, może przyjąć środek tymczasowy na terytorium swojego państwa członkowskiego zgodnie z art. 55
+rozporządzenia (UE) 2016/679. W takiej sytuacji warunek pilnej potrzeby podjęcia działań na podstawie art. 66 ust. 1
+rozporządzenia (UE) 2016/679 uznaje się za spełniony.
+6. W przypadku zastosowania uproszczonej procedury współpracy na podstawie art. 6 niniejszego rozporządzenia
+wiodący organ nadzorczy przedkłada projekt decyzji zgodnie z art. 60 ust. 3 rozporządzenia (UE) 2016/679 w terminie 12
+miesięcy od potwierdzenia przez wiodący organ nadzorczy swojej właściwości zgodnie z art. 4 ust. 6 niniejszego
+rozporządzenia lub od przyjęcia wiążącej decyzji przez Europejską Radę Ochrony Danych na podstawie art. 65 ust. 1
+lit. b) rozporządzenia (UE) 2016/679.
+Jeżeli prawo krajowe przewiduje uprzednie lub późniejsze postępowanie krajowe, które wymaga przedłożenia projektu
+decyzji zgodnie z art. 60 ust. 3 rozporządzenia (UE) 2016/679 po upływie terminu, o którym mowa w akapicie
+pierwszym, wiodący organ nadzorczy może jednokrotnie przedłużyć ten termin o nie dłużej niż dwa miesiące. W takim
+przypadku wiodący organ nadzorczy informuje pozostałe organy nadzorcze, których sprawa dotyczy, o przedłużeniu
+terminu, określając długość przedłużenia, co najmniej dwa tygodnie przed upływem terminu, o którym mowa w akapicie
+pierwszym.
+Artykuł 13
+Późniejsze postępowanie krajowe
+1. Jeżeli prawo krajowe ustanawia wymóg wszczęcia późniejszego postępowania krajowego związanego z tą samą
+sprawą po przyjęciu decyzji na podstawie art. 18 lub 21, wiodący organ nadzorczy:
+a) nie sporządza nowego streszczenia kluczowych zagadnień;
+b) powtarza czynności proceduralne zgodnie z art. 16 lub art. 19 i 20 wyłącznie w przypadku, gdy ocena faktyczna lub
+prawna przeprowadzona przez wiodący organ nadzorczy różni się od wcześniejszej decyzji przyjętej na podstawie
+art. 18 lub 21; oraz
+c) przedkłada projekt decyzji przed przyjęciem późniejszej decyzji, która różni się od wcześniejszej decyzji przyjętej na
+podstawie art. 18 lub 21.
+PL Dz.U. L z 12.12.2025
+16/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+2. Terminy, o których mowa w art. 12, mają zastosowanie do przedłożenia projektu decyzji w późniejszym
+postępowaniu, o którym mowa w ust. 1 niniejszego artykułu.
+SEKCJA 3
+STOSOWANIE TERMINÓW
+Artykuł 14
+Zgodność z prawem i ważność czynności proceduralnych i ostatecznej decyzji
+Jeżeli zgodnie z niniejszym rozporządzeniem lub z art. 65 ust. 6 rozporządzenia (UE) 2016/679 organ nadzorczy ma
+obowiązek podjęcia czynności proceduralnej w określonym terminie, podjęcie takiej czynności po upływie tego terminu
+nie wpływa na zgodność z prawem ani na ważność tej czynności proceduralnej lub ostatecznej decyzji.
+Artykuł 15
+Terminy i prawo do skutecznego środka ochrony prawnej przed sądem
+Przy ustalaniu, czy organ nadzorczy nie rozpatrzył skargi, o czym mowa w art. 78 ust. 2 rozporządzenia (UE) 2016/679,
+należy wziąć pod uwagę, czy w terminie przewidzianym w niniejszym rozporządzeniu lub w art. 65 ust. 6 rozporządzenia
+(UE) 2016/679, z uwzględnieniem ewentualnych przedłużeń tego terminu, organ nadzorczy:
+a) nie przedłożył projektu decyzji lub zmienionego projektu decyzji; lub
+b) nie przyjął ostatecznej decyzji.
+SEKCJA 4
+ODRZUCENIE LUB ODDALENIE SKARG W CAŁOŚCI LUB W CZĘŚCI
+Artykuł 16
+Procedura odrzucenia lub oddalenia skargi w całości lub w części w rozumieniu art. 60 ust. 8 i 9 rozporządzenia
+(UE) 2016/679
+1. Jeżeli wiodący organ nadzorczy zamierza odrzucić lub oddalić skargę w całości lub w części, przekazuje, przed
+przedłożeniem projektu decyzji zgodnie z art. 60 ust. 3 rozporządzenia (UE) 2016/679, organowi nadzorczemu, do
+którego wniesiono skargę, uzasadnienie swojej wstępnej opinii, zgodnie z którą skargę należy odrzucić lub oddalić
+w całości lub w części.
+Organ nadzorczy, do którego wniesiono skargę, przekazuje skarżącemu uzasadnienie wstępnej opinii, o którym mowa
+w akapicie pierwszym, umożliwia skarżącemu przedstawienie stanowiska na piśmie oraz informuje skarżącego o skutkach
+ewentualnego nieprzedłożenia stanowiska.
+Wiodący organ nadzorczy wyznacza skarżącemu odpowiedni termin na przedstawienie stanowiska. Termin ten nie może
+być krótszy niż trzy tygodnie ani dłuższy niż sześć tygodni.
+2. Organ nadzorczy, do którego wniesiono skargę, przekazuje stanowisko przedstawione przez skarżącego wiodącemu
+organowi nadzorczemu jak najszybciej i nie później niż jeden tydzień od dnia ich udostępnienia.
+3. Jeżeli stanowisko przedstawione przez skarżącego zgodnie z ust. 1 niniejszego artykułu nie prowadzi do zmiany
+wstępnej opinii, o której mowa w ust. 1 akapit pierwszy, wiodący organ nadzorczy, we współpracy z organem nadzorczym,
+do którego wniesiono skargę, przygotowuje projekt decyzji i przedkłada go pozostałym organom nadzorczym, których
+sprawa dotyczy, zgodnie z art. 60 ust. 3 rozporządzenia (UE) 2016/679.
+4. Jeżeli w projekcie decyzji przedłożonym zgodnie z ust. 3 stwierdza się, że skargę należy odrzucić lub oddalić w części,
+wiodący organ nadzorczy kontynuuje postępowanie we współpracy z pozostałymi organami nadzorczymi, których sprawa
+dotyczy, w odniesieniu do tej części skargi, co do której postępowanie się dalej toczy.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 17/27
+Artykuł 17
+Zmieniony projekt decyzji o odrzuceniu lub oddaleniu skargi w całości lub w części
+Jeżeli wiodący organ nadzorczy ustali, że zmieniony projekt decyzji w rozumieniu art. 60 ust. 5 rozporządzenia (UE)
+2016/679, odrzucający lub oddalający skargę w całości lub części, zawiera nowe okoliczności, co do których skarżący
+powinien mieć możliwość przedstawienia swojego stanowiska, organ nadzorczy, do którego wniesiono skargę, zapewnia
+skarżącemu, przed przedłożeniem zmienionego projektu decyzji na podstawie art. 60 ust. 5 rozporządzenia (UE)
+2016/679, możliwość przedstawienia stanowiska co do takich nowych okoliczności zgodnie z art. 16 niniejszego
+rozporządzenia.
+Artykuł 18
+Decyzja o odrzuceniu lub oddaleniu skargi w całości lub w części
+W przypadku przyjęcia decyzji o odrzuceniu lub oddaleniu skargi w całości lub w części zgodnie z art. 60 ust. 8 lub 9
+rozporządzenia (UE) 2016/679, organ nadzorczy, do którego wniesiono skargę, informuje skarżącego o środku ochrony
+prawnej przed sądem przysługującym mu na podstawie art. 78 rozporządzenia (UE) 2016/679.
+SEKCJA 5
+DECYZJE SKIEROWANE DO STRON OBJĘTYCH POSTĘPOWANIEM
+Artykuł 19
+Wstępne ustalenia i prawo do bycia wysłuchanym
+1. Po przeprowadzeniu konsultacji i procedur zgodnie z art. 10 i 11 niniejszego rozporządzenia, jeżeli wiodący organ
+nadzorczy zamierza przedłożyć pozostałym organom nadzorczym, których sprawa dotyczy, projekt decyzji w rozumieniu
+art. 60 ust. 3 rozporządzenia (UE) 2016/679 stwierdzającej naruszenie przepisów rozporządzenia (UE) 2016/679,
+sporządza on wstępne ustalenia.
+2. Wstępne ustalenia zawierają ustalenia poczynione w wyniku postępowania oraz przedstawienie zarzutów
+sformułowane w sposób wyczerpujący i wystarczająco jasny, by umożliwić stronom objętym postępowaniem zapoznanie
+się z zachowaniem będącym przedmiotem postępowania prowadzonego przez wiodący organ nadzorczy. W szczególności
+we wstępnych ustaleniach jasno przedstawia się wszystkie okoliczności faktyczne, wykaz wszystkich dowodów
+stanowiących podstawę tych ustaleń i pełną ocenę prawną, które zostały sformułowane w stosunku do stron objętych
+postępowaniem, tak aby strony te mogły przedstawić opinię na temat okoliczności faktycznych i wniosków prawnych,
+które wiodący organ nadzorczy zamierza przedstawić w projekcie decyzji w rozumieniu art. 60 ust. 3 rozporządzenia (UE)
+2016/679.
+We wstępnych ustaleniach wskazuje się – na podstawie informacji dostępnych na tym etapie i bez uszczerbku dla stanowisk
+stron objętych postępowaniem – środki naprawcze, których zastosowanie rozważa wiodący organ nadzorczy.
+Jeżeli wiodący organ nadzorczy – na podstawie informacji dostępnych na tym etapie i bez uszczerbku dla stanowisk stron
+objętych postępowaniem – rozważa nałożenie administracyjnej kary pieniężnej zgodnie z art. 83 rozporządzenia (UE)
+2016/679, we wstępnych ustaleniach wymienia najważniejsze znane mu okoliczności prawne i faktyczne, na których
+zamierza się oprzeć przy podejmowaniu decyzji o nałożeniu administracyjnej kary pieniężnej i jej wysokości, mając na
+uwadze elementy wymienione w art. 83 ust. 2 rozporządzenia (UE) 2016/679, w tym wszelkie czynniki obciążające lub
+łagodzące, które zamierza uwzględnić.
+3. Wiodący organ nadzorczy przekazuje wstępne ustalenia pozostałym organom nadzorczym, których sprawa dotyczy.
+Organy te mogą przedstawić uwagi dotyczące tych ustaleń wiodącemu organowi nadzorczemu w terminie czterech tygodni
+od przekazania wstępnych ustaleń pozostałym organom nadzorczym, których sprawa dotyczy. Na wniosek jednego
+z pozostałych organów nadzorczych, których sprawa dotyczy, wiodący organ nadzorczy przedłuża ten termin o dwa
+tygodnie.
+4. Wiodący organ nadzorczy doręcza każdej ze stron objętych postępowaniem wstępne ustalenia, w stosownym
+przypadku zmienione w celu uwzględnienia uwag przedstawionych przez pozostałe organy nadzorcze, których sprawa
+dotyczy.
+PL Dz.U. L z 12.12.2025
+18/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+5. Przy doręczaniu wstępnych ustaleń stronom objętym postępowaniem wiodący organ nadzorczy wyznacza
+odpowiedni termin, nie krótszy niż trzy tygodnie i nie dłuższy niż sześć tygodni od dnia doręczenia, w którym strony
+te mogą przedstawić swoje stanowisko na piśmie, lub w tym samym terminie przeprowadza wysłuchanie stron objętych
+postępowaniem, aby wysłuchać ich ustnego stanowiska.
+6. Przy doręczaniu stronom objętym postępowaniem wstępnych ustaleń wiodący organ nadzorczy zapewnia im dostęp
+do akt administracyjnych zgodnie z art. 24 i 25.
+7. Strony objęte postępowaniem mogą w odpowiedzi na wstępne ustalenia przedstawić wszystkie znane im okoliczności
+faktyczne i argumenty prawne istotne dla ich obrony przed zarzutami wiodącego organu nadzorczego. Do pisemnej
+odpowiedzi strony dołączają wszelkie istotne dokumenty jako dowody przedstawionych okoliczności faktycznych.
+Wiodący organ nadzorczy sporządza projekt decyzji wyłącznie w oparciu o zarzuty i okoliczności faktyczne oraz ocenę
+prawną opartą na tych okoliczności faktycznych, w odniesieniu do których strony objęte postępowaniem miały możliwość
+przedstawienia swojego stanowiska.
+Artykuł 20
+Przekazywanie skarżącym wstępnych ustaleń
+1. Jeżeli wiodący organ nadzorczy wydaje wstępne ustalenia dotyczące przedmiotu skargi, którą otrzymał, organ
+nadzorczy, do którego wniesiono skargę, przekazuje skarżącemu te wstępne ustalenia zgodnie z przepisami dotyczącymi
+dostępu do akt administracyjnych i informacji poufnych na podstawie art. 24 i 25, a wiodący organ nadzorczy wyznacza
+odpowiedni termin, nie krótszy niż trzy tygodnie i nie dłuższy niż sześć tygodni, w którym skarżący może przedstawić
+swoje stanowisko na piśmie.
+2. Do celów ust. 1 tryb i wymogi administracyjne przewidziane w krajowym prawie proceduralnym organu
+nadzorczego, do którego wniesiono skargę, nadal mają zastosowanie.
+3. Ust. 1 niniejszego artykułu ma zastosowanie również w przypadku, gdy wiodący organ nadzorczy:
+a) rozpatruje skargę łącznie z innymi skargami;
+b) rozpatruje część skargi oddzielnie; lub
+c) zmienia zakres postępowania określony we wstępnych ustaleniach w jakikolwiek sposób, w tym po przyjęciu wiążącej
+decyzji przez Europejską Radę Ochrony Danych na podstawie art. 11 ust. 8.
+Artykuł 21
+Przyjęcie ostatecznej decyzji
+1. Po przedłożeniu projektu decyzji pozostałym organom nadzorczym, których sprawa dotyczy, zgodnie z art. 60 ust. 3
+rozporządzenia (UE) 2016/679, jeżeli żaden z tych pozostałych organów nadzorczych nie zgłasza sprzeciwu wobec
+projektu decyzji w terminach, o których mowa w, odpowiednio, art. 60 ust. 4 lub ust. 5 rozporządzenia (UE) 2016/679,
+w terminie jednego miesiąca od końca okresu, o którym mowa w art. 60 ust. 4 lub 5 rozporządzenia (UE) 2016/679,
+wiodący organ nadzorczy:
+a) przyjmuje decyzję, o której mowa w art. 60 ust. 7 lub, w stosownych przypadkach, w art. 60 ust. 9 rozporządzenia (UE)
+2016/679; oraz
+b) doręcza decyzję, o której mowa w lit. a), odpowiednio, głównej bądź pojedynczej jednostce organizacyjnej
+administratora lub podmiotu przetwarzającego.
+2. Informacje, które należy przekazać skarżącemu zgodnie z art. 60 ust. 7 i 9 rozporządzenia (UE) 2016/679, obejmują:
+a) wersję przyjętej decyzji, która zawiera pełne rozstrzygnięcie oraz uzasadnienie tej decyzji, która nie zawiera elementów
+uznanych za poufne zgodnie z art. 25 niniejszego rozporządzenia; lub
+b) streszczenie przyjętej decyzji, w tym istotne okoliczności faktyczne i uzasadnienie tej decyzji.
+W każdym przypadku skarżący otrzymuje, na wniosek, wersję decyzji, o której mowa w akapicie pierwszym, zawierającą
+pełne rozstrzygnięcie oraz uzasadnienie tej decyzji, która nie zawiera elementów uznanych za poufne zgodnie z art. 25
+niniejszego rozporządzenia.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 19/27
+Tryb i wymogi administracyjne przewidziane w krajowym prawie proceduralnym wiodącego organu nadzorczego nadal
+mają zastosowanie.
+Artykuł 22
+Prawo do bycia wysłuchanym co do zmienionego projektu decyzji stwierdzającej naruszenie
+1. Jeżeli wiodący organ nadzorczy ustali, że zmieniony projekt decyzji w rozumieniu art. 60 ust. 5 rozporządzenia (UE)
+2016/679 stwierdzającej naruszenie rozporządzenia (UE) 2016/679 zawiera nowe okoliczności, w stosunku do których
+stronom objętym postępowaniem należy zapewnić możliwość przedstawienia swojego stanowiska, przed przedłożeniem
+zmienionego projektu decyzji na podstawie art. 60 ust. 5 rozporządzenia (UE) 2016/679 zapewnia stronom objętym
+postępowaniem możliwość przedstawienia swojego stanowiska co do takich nowych okoliczności.
+2. Wiodący organ nadzorczy wyznacza odpowiedni termin, nie krótszy niż trzy tygodnie i nie dłuższy niż sześć tygodni,
+w którym strony objęte postępowaniem mogą przedstawić swoje stanowisko.
+3. Wiodący organ nadzorczy informuje pozostałe organy nadzorcze, których sprawa dotyczy, o stanowiskach
+przedstawionych przez strony objęte postępowaniem jak najszybciej i nie później niż jeden tydzień od dnia ich
+udostępnienia.
+SEKCJA 6
+MAJĄCE ZNACZENIE DLA SPRAWY I UZASADNIONE SPRZECIWY
+Artykuł 23
+Mające znaczenie dla sprawy i uzasadnione sprzeciwy
+1. Mający znaczenie dla sprawy i uzasadniony sprzeciw zdefiniowany w art. 4 pkt 24 rozporządzenia (UE) 2016/679:
+a) musi opierać się na okolicznościach faktycznych i prawnych ujętych w projekcie decyzji lub w aktach dotyczących
+współpracy;
+b) nie może dotyczyć zakresu postępowania, jeżeli żaden z organów nadzorczych, których sprawa dotyczy, nie przedstawił
+uwag zgodnie z art. 10 ust. 4 niniejszego rozporządzenia, lub jeżeli po otrzymaniu uwag osiągnięto porozumienie, ani
+nie może dotyczyć zakresu postępowania określonego w wiążącej decyzji Europejskiej Rady Ochrony Danych przyjętej
+na podstawie art. 11 ust. 8 niniejszego rozporządzenia;
+c) nie może dotyczyć projektu decyzji przyjętego zgodnie z art. 5 niniejszego rozporządzenia.
+2. Niezależnie od ust. 1 lit. b) organ nadzorczy, którego sprawa dotyczy, może w należycie uzasadnionych przypadkach
+przedstawić mające znaczenie dla sprawy i uzasadnione sprzeciwy dotyczące zakresu postępowania, o którym mowa
+w ust. 1 lit. b), pod warunkiem że:
+a) wiodący organ nadzorczy nie zbadał wszystkich elementów streszczenia kluczowych zagadnień, co do których
+osiągnięto porozumienie na podstawie art. 10 ust. 5 lub art. 11 ust. 5, lub nie zastosował się do wiążącej decyzji
+Europejskiej Rady Ochrony Danych przyjętej na podstawie art. 11 ust. 8; lub
+b) nowe okoliczności – które nie były dostępne w momencie osiągnięcia porozumienia co do streszczenia kluczowych
+zagadnień na podstawie art. 10 ust. 5 lub art. 11 ust. 5 lub w momencie przyjęcia wiążącej decyzji Europejskiej Rady
+Ochrony Danych na podstawie art. 11 ust. 8 – wskazują na znaczne ryzyko związane z projektem decyzji w odniesieniu
+do podstawowych praw i wolności osoby, której dane dotyczą, oraz, w stosownych przypadkach, w odniesieniu do
+swobodnego przepływu danych osobowych w Unii; lub doszło do obu wyżej wymienionych sytuacji.
+3. Mający znaczenie dla sprawy i uzasadniony sprzeciw musi być wystarczająco jasny, spójny i precyzyjny oraz, w razie
+potrzeby, określać elementy projektu decyzji, które wymagają zmiany, aby umożliwić zajęcie stanowiska organom
+nadzorczym, a Europejskiej Radzie Ochrony Danych, w stosownym przypadku, pozwolić na skuteczne rozstrzygnięcie
+sporu.
+PL Dz.U. L z 12.12.2025
+20/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+ROZDZIAŁ IV
+AKTA ADMINISTRACYJNE, AKTA DOTYCZĄCE WSPÓŁPRACY I POSTĘPOWANIE Z INFORMACJAMI POUFNYMI
+Artykuł 24
+Akta administracyjne
+1. Akta administracyjne postępowania dotyczącego zarzucanego naruszenia rozporządzenia (UE) 2016/679 obejmują
+dokumenty, które zostały uzyskane lub sporządzone przez wiodący organ nadzorczy oraz pozostałe organy nadzorcze,
+których sprawa dotyczy, i zgromadzone przez wiodący organ nadzorczy w trakcie postępowania, w tym wszystkie dowody
+obciążające i odciążające.
+Akta administracyjne nie obejmują komunikacji wewnętrznej organu nadzorczego.
+2. Na wniosek strony objętej postępowaniem – lub skarżącego, jeżeli decyzja może negatywnie wpłynąć na jego
+interesy – wiodący organ nadzorczy przyznaje stronom objętym postępowaniem lub skarżącemu dostęp do akt
+administracyjnych, umożliwiając im wykonanie prawa do bycia wysłuchanym.
+Akapit pierwszy nie wpływa na korzystniejsze przepisy dotyczące udzielania dostępu do akt administracyjnych na mocy
+prawa krajowego wiodącego organu nadzorczego.
+W przypadku udzielenia dostępu zgodnie z akapitem pierwszym stronie objętej postępowaniem dostęp taki jest
+zapewniany przez wiodący organ nadzorczy, a skarżącemu taki dostęp jest zapewniany przez organ nadzorczy, do którego
+wniesiono skargę.
+3. Nie udostępnia się następujących dokumentów lub części następujących dokumentów, niezależnie od udzielenia
+dostępu na podstawie prawa Unii lub prawa krajowego:
+a) korespondencji lub narad między organami nadzorczymi;
+b) informacji poufnych zgodnie z art. 25 ust. 1.
+4. Wiodący organ nadzorczy udziela dostępu do mających znaczenie dla sprawy i uzasadnionych sprzeciwów
+zgłoszonych zgodnie z art. 60 ust. 4 rozporządzenia (UE) 2016/679, na podstawie których zamierza przyjąć zmieniony
+projekt decyzji, wyłącznie wtedy, gdy dostęp ten jest niezbędny w celu umożliwienia stronom objętym postępowaniem lub
+skarżącemu wyrażenia swojego stanowiska i obrony swoich praw.
+Artykuł 25
+Identyfikacja i ochrona informacji poufnych
+1. Informacje, dokumenty lub części dokumentów uznaje się za poufne, jeżeli zawierają tajemnice przedsiębiorstwa
+zdefiniowane w dyrektywie Parlamentu Europejskiego i Rady (UE) 2016/943 (5) lub inne informacje poufne zgodnie
+z prawem Unii lub prawem krajowym.
+2. O ile prawo Unii lub prawo krajowe nie stanowi inaczej, informacji zebranych, sporządzonych lub uzyskanych przez
+organ nadzorczy w sprawie dotyczącej transgranicznego przetwarzania na podstawie rozporządzenia (UE) 2016/679, które
+to informacje uznaje się za poufne zgodnie z ust. 1, nie przekazuje się i nie udostępnia się stronie objętej postępowaniem,
+skarżącemu ani osobie trzeciej.
+3. Strona objęta postępowaniem, skarżący lub osoba trzecia – przedkładając informacje, które uważają za poufne –
+wyraźnie wskazują te informacje i podają powody, dla których uważają je za poufne. Strona objęta postępowaniem,
+skarżący lub osoba trzecia każdorazowo dostarczają pełną wersję informacji. W miarę możliwości dostarczają również
+proponowaną wersję, która nie zawiera informacji poufnych.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 21/27
+(5) Dyrektywa Parlamentu Europejskiego i Rady (UE) 2016/943 z dnia 8 czerwca 2016 r. w sprawie ochrony niejawnego know-how
+i niejawnych informacji handlowych (tajemnic przedsiębiorstwa) przed ich bezprawnym pozyskiwaniem, wykorzystywaniem
+i ujawnianiem (Dz.U. L 157 z 15.6.2016, s. 1, ELI: http://data.europa.eu/eli/dir/2016/943/oj).
+4. Nie naruszając ust. 3, organ nadzorczy, któremu przedkładane są informacje, może zobowiązać strony objęte
+postępowaniem lub inne osoby przedkładające dokumenty, aby oznaczyły dokumenty lub części dokumentów, które
+według nich zawierają tajemnice przedsiębiorstwa lub inne należące do nich informacje poufne, oraz aby określiły osoby,
+których dotyczy poufność tych tajemnic przedsiębiorstwa lub innych informacji poufnych.
+5. Organ nadzorczy, któremu przedkładane są informacje, wyznacza odpowiedni termin, nie dłuższy niż sześć tygodni,
+w którym strony objęte postępowaniem i inne osoby twierdzące, że przedłożone informacje są poufne:
+a) uzasadniają swoje twierdzenia, że przedłożone informacje zawierają tajemnice przedsiębiorstwa lub inne informacje
+poufne, w odniesieniu do każdego dokumentu lub każdej części dokumentu, każdego oświadczenia lub każdej części
+oświadczenia z osobna;
+b) proponują, w miarę możliwości, wersję niepoufną dokumentów i oświadczeń, w której utajniono tajemnice
+przedsiębiorstwa lub inne informacje poufne;
+c) przekazują zwięzły, niepoufny opis poszczególnych utajnionych informacji.
+6. Jeżeli strony objęte postępowaniem lub inne osoby nie zastosują się do ust. 4 i 5, organ nadzorczy, któremu
+przedkładane są informacje, może uznać, że dane dokumenty lub oświadczenia nie zawierają tajemnic przedsiębiorstwa ani
+innych informacji poufnych.
+7. Organ nadzorczy, któremu przedkładane są informacje, ustala, czy informacje lub istotne i konkretne części
+dokumentów są poufne zgodnie z ust. 1. Zapewnia on, aby utajnienie dokumentów ograniczało się do tego, co jest
+konieczne i proporcjonalne do ochrony informacji poufnych. Organ nadzorczy, któremu przedkładane są informacje,
+informuje pozostałe organy nadzorcze o poufnym charakterze informacji w momencie ich przekazania.
+8. Informacje uznane za poufne na mocy prawa krajowego organu nadzorczego, któremu są przedkładane i który bierze
+udział w wymianie tych informacji między organami nadzorczymi na podstawie rozporządzenia (UE) 2016/679, są dalej
+traktowane jako poufne przez organ nadzorczy, który je otrzymuje.
+Artykuł 26
+Akta dotyczące współpracy
+1. Do celów wymiany stosownych informacji między wiodącym organem nadzorczym a pozostałymi organami
+nadzorczymi, których sprawa dotyczy, zgodnie z art. 9, wiodący organ nadzorczy zapewnia udostępnienie takich
+stosownych informacji za pośrednictwem akt dotyczących współpracy poświęconych poszczególnym skargom lub
+postępowaniom. Akta dotyczące współpracy zawierają wszystkie informacje wymieniane zgodnie z art. 9.
+2. Akta dotyczące współpracy są przechowywane w formie elektronicznej i są – za pomocą wspólnego narzędzia
+elektronicznego – dostępne zdalnie dla organów nadzorczych oraz, w przypadku przekazania sprawy do rozstrzygnięcia
+sporu na podstawie art. 65 ust. 1 lit. a) rozporządzenia (UE) 2016/679 oraz, w stosownych przypadkach, gdy zgodnie
+z art. 66 tego rozporządzenia wniesiono o pilne wydanie opinii lub wiążącej decyzji, dla Europejskiej Rady Ochrony
+Danych. Akta dotyczące współpracy nie mogą być bezpośrednio dostępne dla stron objętych postępowaniem, skarżących
+ani osób trzecich.
+ROZDZIAŁ V
+ROZSTRZYGANIE SPORÓW
+Artykuł 27
+Przekazywanie spraw do rozstrzygnięcia sporu na podstawie art. 65 ust. 1 lit. a) rozporządzenia (UE) 2016/679
+1. W terminie trzech miesięcy od upływu terminu, o którym mowa w art. 60 ust. 4 rozporządzenia (UE) 2016/679,
+wiodący organ nadzorczy przedkłada zmieniony projekt decyzji na podstawie art. 60 ust. 5 tego rozporządzenia albo
+przekazuje sprawę Europejskiej Radzie Ochrony Danych do rozstrzygnięcia sporu na podstawie art. 65 ust. 1 lit. a) tego
+rozporządzenia.
+2. W terminie trzech miesięcy od upływu terminu, o którym mowa w art. 60 ust. 5 rozporządzenia (UE) 2016/679,
+wiodący organ nadzorczy przedkłada kolejny zmieniony projekt decyzji na podstawie art. 60 ust. 5 tego rozporządzenia
+albo przekazuje sprawę Europejskiej Radzie Ochrony Danych do rozstrzygnięcia sporu na podstawie art. 65 ust. 1
+lit. a) tego rozporządzenia.
+PL Dz.U. L z 12.12.2025
+22/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+3. Przekazując sprawę do rozstrzygnięcia sporu na podstawie art. 65 ust. 1 lit. a) rozporządzenia (UE) 2016/679,
+wiodący organ nadzorczy przedstawia Europejskiej Radzie Ochrony Danych:
+a) projekt decyzji lub zmieniony projekt decyzji będącej przedmiotem mających znaczenie dla sprawy i uzasadnionych
+sprzeciwów;
+b) streszczenie istotnych okoliczności faktycznych;
+c) pisemne stanowiska stron objętych postępowaniem przedstawione na podstawie, odpowiednio, art. 19 i art. 22
+niniejszego rozporządzenia, co najmniej w zakresie, w jakim odnoszą się one do sprawy przedłożonej Europejskiej
+Radzie Ochrony Danych;
+d) pisemne stanowiska skarżących przedstawione na podstawie, odpowiednio, art. 16, 17 i 20 niniejszego rozporządzenia,
+co najmniej w zakresie, w jakim odnoszą się one do sprawy przedłożonej Europejskiej Radzie Ochrony Danych;
+e) mające znaczenie dla sprawy i uzasadnione sprzeciwy, do których wiodący organ nadzorczy nie przychylił się, oraz
+sprzeciwy, które wiodący organ nadzorczy odrzucił jako nieuzasadnione lub niemające znaczenia dla sprawy;
+f) powody, dla których wiodący organ nadzorczy nie przychylił się do mających znaczenie dla sprawy i uzasadnionych
+sprzeciwów lub odrzucił sprzeciwy jako nieuzasadnione lub niemające znaczenia dla sprawy.
+4. Europejska Rada Ochrony Danych może zażądać od organu nadzorczego dodatkowych dokumentów w odniesieniu
+do przedłożonej jej sprawy.
+5. W terminie czterech tygodni od otrzymania dokumentów i informacji, o których mowa w ust. 3 niniejszego artykułu,
+Europejska Rada Ochrony Danych wstępnie ustala, czy sprzeciwy, o których mowa w art. 65 ust. 1 lit. a) rozporządzenia
+(UE) 2016/679, mają znaczenie dla sprawy i są uzasadnione oraz czy są zgodne z art. 23 niniejszego rozporządzenia.
+W tym samym terminie przewodniczący Europejskiej Rady Ochrony Danych rejestruje przekazanie przedłożonej jej
+sprawy. Niezwłocznie po zarejestrowaniu przekazania akta przedkłada się członkom Europejskiej Rady Ochrony Danych.
+6. Termin na przyjęcie wiążącej decyzji przez Europejską Radę Ochrony Danych, o którym mowa w art. 65 ust. 2
+rozporządzenia (UE) 2016/679, nie biegnie w okresie, o którym mowa w ust. 5 niniejszego artykułu.
+Artykuł 28
+Wysłuchanie strony objętej postępowaniem i skarżącego przed przyjęciem decyzji na podstawie art. 65 ust. 1
+lit. a) rozporządzenia (UE) 2016/679
+1. Przed przyjęciem wiążącej decyzji na podstawie art. 65 ust. 1 lit. a) rozporządzenia (UE) 2016/679 Europejska Rada
+Ochrony Danych zapewnia stronie objętej postępowaniem lub – w przypadku gdy decyzja Europejskiej Rady Ochrony
+Danych może skutkować odrzuceniem lub oddaleniem w całości lub w części skargi – skarżącemu możliwość
+przedstawienia na piśmie stanowiska co do nowych okoliczności faktycznych lub prawnych, na których ma być oparta jej
+decyzja, w tym co do mających znaczenie dla sprawy i uzasadnionych sprzeciwów, do których zamierza się przychylić
+w decyzji.
+2. Jeżeli strony objęte postępowaniem lub, w stosownych przypadkach, skarżący mają możliwość przedstawienia
+stanowiska zgodnie z ust. 1, Europejska Rada Ochrony Danych wyznacza im odpowiedni termin nie dłuższy niż dwa
+tygodnie na przedstawienie stanowiska.
+3. Bieg terminu na przyjęcie wiążącej decyzji przez Europejską Radę Ochrony Danych, o którym mowa w art. 65 ust. 2
+rozporządzenia (UE) 2016/679, zostaje wstrzymany do czasu przedstawienia stanowiska przez stronę objętą
+postępowaniem lub, stosownie do przypadku, skarżącego, lub upływu terminu, o którym mowa w ust. 2 niniejszego
+artykułu, w zależności od tego, co nastąpi wcześniej.
+Artykuł 29
+Procedura w przypadku decyzji przyjmowanej na podstawie art. 65 ust. 1 lit. b) rozporządzenia (UE) 2016/679
+1. Przekazując Europejskiej Radzie Ochrony Danych sprawę na podstawie art. 65 ust. 1 lit. b) rozporządzenia (UE)
+2016/679 organ nadzorczy dostarcza Europejskiej Radzie Ochrony Danych:
+a) streszczenie istotnych okoliczności faktycznych, w tym dotyczących przedmiotowego przetwarzania;
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 23/27
+b) ocenę tych istotnych okoliczności faktycznych, aby ustalić, czy organ nadzorczy jest właściwy do działania jako wiodący
+organ nadzorczy zgodnie z art. 56 ust. 1 rozporządzenia (UE) 2016/679, w szczególności ocenę, czy przetwarzanie
+należy uznać za przetwarzanie transgraniczne, oraz gdzie znajduje się główna jednostka administratora lub podmiotu
+przetwarzającego;
+c) stanowisko administratora lub podmiotu przetwarzającego dane, którego główna jednostka organizacyjna jest
+przedmiotem przekazanej sprawy;
+d) stanowisko pozostałych organów nadzorczych, których dotyczy przekazana sprawa;
+e) inne dokumenty lub informacje, które organ nadzorczy przekazujący sprawę uznaje za istotne i niezbędne do
+rozstrzygnięcia danej sprawy.
+2. Europejska Rada Ochrony Danych może zażądać od organu nadzorczego dodatkowych dokumentów w odniesieniu
+do przedłożonej jej sprawy.
+3. W terminie jednego tygodnia od otrzymania dokumentów i informacji, o których mowa w ust. 1, przewodniczący
+Europejskiej Rady Ochrony Danych rejestruje przekazanie przedłożonej jej sprawy. Niezwłocznie po zarejestrowaniu
+przekazania akta przedkłada się członkom Europejskiej Rady Ochrony Danych.
+Artykuł 30
+Procedura w przypadku decyzji przyjmowanej na podstawie art. 65 ust. 1 lit. c) rozporządzenia (UE) 2016/679
+1. Przekazując Europejskiej Radzie Ochrony Danych sprawę na podstawie art. 65 ust. 1 lit. c) rozporządzenia (UE)
+2016/679 organ nadzorczy lub Komisja dostarcza Europejskiej Radzie Ochrony Danych:
+a) streszczenie istotnych okoliczności faktycznych;
+b) ewentualną opinię wydaną przez Europejską Radę Ochrony Danych zgodnie z art. 64 rozporządzenia (UE) 2016/679;
+lub ewentualną decyzję przyjętą przez właściwy organ nadzorczy po wydaniu przez Europejską Radę Ochrony Danych
+opinii na podstawie art. 64 rozporządzenia (UE) 2016/679;
+c) stanowisko organu nadzorczego przekazującego daną sprawę lub opinię Komisji na temat tego, czy, odpowiednio, organ
+nadzorczy był zobowiązany przekazać projekt decyzji Europejskiej Radzie Ochrony Danych na podstawie art. 64 ust. 1
+rozporządzenia (UE) 2016/679 lub czy organ nadzorczy nie zastosował się do opinii Europejskiej Rady Ochrony
+Danych wydanej na podstawie art. 64 rozporządzenia (UE) 2016/679, w tym wskazanie, do których części tej opinii się
+nie zastosował, oraz odesłanie do stosownej części przyjętej decyzji.
+2. Europejska Rada Ochrony Danych zwraca się o:
+a) stanowisko organu nadzorczego, któremu zarzuca się naruszenie wymogu przekazania projektu decyzji Europejskiej
+Radzie Ochrony Danych lub niezastosowanie się do opinii Europejskiej Rady Ochrony Danych;
+b) inne dokumenty lub informacje, które ten organ nadzorczy uzna za istotne i niezbędne do rozstrzygnięcia danej sprawy.
+3. Europejska Rada Ochrony Danych może zażądać od organu nadzorczego dodatkowych dokumentów w odniesieniu
+do przedłożonej jej sprawy.
+4. W terminie jednego tygodnia od otrzymania dokumentów i informacji, o których mowa w ust. 2, przewodniczący
+Europejskiej Rady Ochrony Danych rejestruje przekazanie przedłożonej jej sprawy. Niezwłocznie po zarejestrowaniu
+przekazania akta przedkłada się członkom Europejskiej Rady Ochrony Danych.
+5. Jeżeli którykolwiek z organów nadzorczych wyrazi zamiar przedstawienia stanowiska co do przekazanej sprawy,
+przedstawia to stanowisko w terminie dwóch tygodni od przekazania sprawy, o którym mowa w ust. 1.
+PL Dz.U. L z 12.12.2025
+24/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+ROZDZIAŁ VI
+TRYB PILNY
+Artykuł 31
+Pilne wydanie opinii na podstawie art. 66 ust. 2 rozporządzenia (UE) 2016/679
+1. Wniosek o pilne wydanie opinii przez Europejską Radę Ochrony Danych na podstawie art. 66 ust. 2 rozporządzenia
+(UE) 2016/679 składa się nie później niż na cztery tygodnie przed wygaśnięciem środków tymczasowych przyjętych na
+podstawie art. 66 ust. 1 tego rozporządzenia; wniosek ten zawiera:
+a) streszczenie istotnych okoliczności faktycznych, w tym zarzutów naruszenia rozporządzenia (UE) 2016/679;
+b) środek tymczasowy przyjęty na terytorium państwa członkowskiego organu nadzorczego, który zwrócił się
+z wnioskiem o pilne wydanie opinii, okres obowiązywania tego środka i powody jego przyjęcia, w tym uzasadnienie
+pilnej potrzeby podjęcia działań w celu ochrony praw i wolności osób, których dane dotyczą;
+c) uzasadnienie pilnej potrzeby przyjęcia środków o charakterze ostatecznym, w tym wyjaśnienie wyjątkowego charakteru
+okoliczności wymagających przyjęcia tych środków.
+2. Europejska Rada Ochrony Danych może zażądać od organu nadzorczego dodatkowych dokumentów w odniesieniu
+do przedłożonej jej sprawy do celów pilnego wydania opinii.
+3. W terminie jednego tygodnia od otrzymania dokumentów i informacji, o których mowa w ust. 1, przewodniczący
+Europejskiej Rady Ochrony Danych rejestruje przekazanie przedłożonej jej sprawy. Niezwłocznie po zarejestrowaniu
+przekazania akta przedkłada się członkom Europejskiej Rady Ochrony Danych.
+Artykuł 32
+Pilne wydanie wiążącej decyzji na podstawie art. 66 ust. 2 rozporządzenia (UE) 2016/679
+1. Wniosek o pilne wydanie przez Europejską Radę Ochrony Danych Radę wiążącej decyzji na podstawie art. 66 ust. 2
+rozporządzenia (UE) 2016/679 składa się nie później niż cztery tygodnie przed wygaśnięciem środków tymczasowych
+przyjętych zgodnie z art. 61 ust. 8, art. 62 ust. 7 lub art. 66 ust. 1 tego rozporządzenia. Wniosek ten zawiera:
+a) streszczenie istotnych okoliczności faktycznych, w tym zarzutów naruszenia rozporządzenia (UE) 2016/679;
+b) środek tymczasowy przyjęty na terytorium państwa członkowskiego organu nadzorczego, który zwrócił się
+z wnioskiem o pilne wydanie wiążącej decyzji, okres obowiązywania tego środka i powody jego przyjęcia, w tym
+uzasadnienie pilnej potrzeby podjęcia działań w celu ochrony praw i wolności osób, których dane dotyczą;
+c) informacje o czynnościach podjętych w ramach postępowania na terytorium państwa członkowskiego organu
+nadzorczego, który zwrócił się z wnioskiem o pilne wydanie wiążącej decyzji, oraz odpowiedzi stron objętych
+postępowaniem lub inne informacje będące w posiadaniu tego organu nadzorczego zwracającego się z wnioskiem;
+d) uzasadnienie pilnej potrzeby przyjęcia środków o charakterze ostatecznym, przy uwzględnieniu wyjątkowego
+charakteru okoliczności wymagających przyjęcia tych środków, lub dowód naruszenia przez organ nadzorczy art. 61
+ust. 5 lub art. 62 ust. 2 rozporządzenia (UE) 2016/679;
+e) jeżeli organ nadzorczy zwracający się z wnioskiem nie jest wiodącym organem nadzorczym – stanowisko wiodącego
+organu nadzorczego;
+(f) w stosownych przypadkach, stanowisko lokalnej jednostki organizacyjnej stron objętych postępowaniem, do której
+skierowano środki tymczasowe przewidziane w art. 66 ust. 1 rozporządzenia (UE) 2016/679.
+2. Europejska Rada Ochrony Danych może zażądać od organu nadzorczego dodatkowych dokumentów w odniesieniu
+do przedłożonej jej sprawy.
+3. W terminie jednego tygodnia od otrzymania dokumentów i informacji, o których mowa w ust. 1, przewodniczący
+Europejskiej Rady Ochrony Danych rejestruje przekazanie przedłożonej jej sprawy. Niezwłocznie po zarejestrowaniu
+przekazania akta przedkłada się członkom Europejskiej Rady Ochrony Danych.
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 25/27
+4. Jeżeli Europejska Rada Ochrony Danych wyda w trybie pilnym wiążącą decyzję o przyjęciu środków o charakterze
+ostatecznym, organ nadzorczy, do którego skierowana jest decyzja, przyjmuje takie środki przed wygaśnięciem środków
+tymczasowych przyjętych na podstawie art. 66 ust. 1 rozporządzenia (UE) 2016/679.
+5. Jeżeli w wiążącej decyzji wydanej w trybie pilnym wskazano, że przyjęcie w trybie pilnym środków o charakterze
+ostatecznym nie jest konieczne, wiodący organ nadzorczy i pozostałe organy nadzorcze, których sprawa dotyczy, stosują
+procedurę określoną w art. 60 rozporządzenia (UE) 2016/679.
+Artykuł 33
+Pilne wydanie opinii lub wiążącej decyzji na podstawie art. 66 ust. 3 rozporządzenia (UE) 2016/679
+1. Wniosek o pilne wydanie opinii lub o pilne wydanie wiążącej decyzji przez Europejską Radę Ochrony Danych na
+podstawie art. 66 ust. 3 rozporządzenia (UE) 2016/679 zawiera:
+a) streszczenie istotnych okoliczności faktycznych;
+b) uzasadnienie pilnej potrzeby przyjęcia stosownych środków w celu ochrony praw i wolności osób, których dane
+dotyczą, przy uwzględnieniu wyjątkowych okoliczności wymagających przyjęcia takich środków, w szczególności
+elementy, które właściwy organ nadzorczy powinien był uwzględnić w celu ochrony praw i wolności osób, których dane
+dotyczą;
+c) w stosownym przypadku i jeżeli są dostępne – informacje o czynnościach podjętych w ramach postępowania przez
+organ nadzorczy zwracający się z wnioskiem na terytorium państwa członkowskiego organu nadzorczego zwracającego
+się z wnioskiem o pilne wydanie opinii lub o pilne wydanie wiążącej decyzji oraz odpowiedzi stron objętych
+postępowaniem lub inne informacje będące w posiadaniu organu nadzorczego zwracającego się z wnioskiem;
+d) stanowisko właściwego organu nadzorczego, o którym mowa w art. 66 ust. 3 rozporządzenia (UE) 2016/679.
+2. Europejska Rada Ochrony Danych może zażądać od organu nadzorczego dodatkowych dokumentów w odniesieniu
+do przedłożonej jej sprawy.
+3. W terminie jednego tygodnia od otrzymania dokumentów i informacji, o których mowa w ust. 1, przewodniczący
+Europejskiej Rady Ochrony Danych rejestruje przekazanie przedłożonej jej sprawy. Niezwłocznie po zarejestrowaniu
+przekazania akta przedkłada się członkom Europejskiej Rady Ochrony Danych.
+ROZDZIAŁ VII
+PRZEPISY OGÓLNE I KOŃCOWE
+Artykuł 34
+Dane statystyczne odnoszące się do egzekwowania przepisów w sprawach dotyczących transgranicznego
+przetwarzania
+1. W ramach sprawozdania rocznego sporządzanego na podstawie art. 71 rozporządzenia (UE) 2016/679 Europejska
+Rada Ochrony Danych przedstawia dane statystyczne odnoszące się do egzekwowania przepisów rozporządzenia (UE)
+2016/679 w sprawach objętych zakresem niniejszego rozporządzenia, a w szczególności:
+a) liczbę spraw wszczętych na podstawie skargi i z urzędu;
+b) liczbę zakończonych spraw wszczętych na podstawie skargi i z urzędu;
+c) liczbę postępowań przeprowadzonych na wniosek organów nadzorczych, których sprawa dotyczy, zgodnie z art. 61
+ust. 1 rozporządzenia (UE) 2016/679;
+d) liczbę wniesionych skarg;
+e) liczbę skarg odrzuconych lub oddalonych w całości lub w części;
+f) średni czas trwania zakończonych spraw wszczętych na podstawie skarg i z urzędu;
+g) liczbę i kwoty administracyjnych kar pieniężnych nałożonych na podstawie art. 83 i 84 rozporządzenia (UE) 2016/679.
+2. Jeżeli Europejska Rada Ochrony Danych nie ma bezpośredniego dostępu do danych statystycznych, o których mowa
+w ust. 1, organy nadzorcze przekazują je Europejskiej Radzie Ochrony Danych, na jej wniosek, w odpowiednim terminie.
+PL Dz.U. L z 12.12.2025
+26/27 ELI: http://data.europa.eu/eli/reg/2025/2518/oj
+Artykuł 35
+Sprawozdanie Komisji
+W ramach sprawozdania z oceny i przeglądu rozporządzenia (UE) 2016/679 na podstawie art. 97 tego rozporządzenia
+Komisja przedstawia również informacje o stosowaniu i funkcjonowaniu niniejszego rozporządzenia.
+Artykuł 36
+Przepisy przejściowe
+Rozdziały III i IV mają zastosowanie do postępowań wszczętych z urzędu po dniu 2 kwietnia 2027 r., a do postępowań
+wszczętych na podstawie skargi – jeżeli skargę wniesiono po dniu 2 kwietnia 2027 r.
+Rozdziały V i VI niniejszego rozporządzenia mają zastosowanie do wszystkich spraw przekazanych do rozstrzygnięcia
+sporu na podstawie art. 65 i rozpatrywanych w trybie pilnym na podstawie art. 66 ust. 2 i 3 rozporządzenia (UE)
+2016/679 po dniu 2 kwietnia 2027 r.
+Artykuł 37
+Wejście w życie i rozpoczęcie stosowania
+1. Niniejsze rozporządzenie wchodzi w życie dwudziestego dnia po jego opublikowaniu w Dzienniku Urzędowym Unii
+Europejskiej.
+2. Niniejsze rozporządzenie stosuje się od dnia 2 kwietnia 2027 r.
+Rozporządzenie wiąże w całości i jest bezpośrednio stosowane we wszystkich państwach członkowskich.
+Sporządzono w Strasburgu dnia 26 listopada 2025 r.
+W imieniu Parlamentu Europejskiego
+Przewodnicząca
+R. METSOLA
+W imieniu Rady
+Przewodnicząca
+M. BJERRE
+Dz.U. L z 12.12.2025 PL
+ELI: http://data.europa.eu/eli/reg/2025/2518/oj 27/27

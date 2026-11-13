@@ -1,0 +1,821 @@
+I
+(Akty ustawodawcze)
+DYREKTYWY
+DYREKTYWA PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2016/943
+z dnia 8 czerwca 2016 r.
+w sprawie ochrony niejawnego know-how i niejawnych informacji handlowych (tajemnic
+przedsiębiorstwa) przed ich bezprawnym pozyskiwaniem, wykorzystywaniem i ujawnianiem
+(Tekst mający znaczenie dla EOG)
+PARLAMENT EUROPEJSKI I RADA UNII EUROPEJSKIEJ,
+uwzględniając Traktat o funkcjonowaniu Unii Europejskiej, w szczególności jego art. 114,
+uwzględniając wniosek Komisji Europejskiej,
+po przekazaniu projektu aktu ustawodawczego parlamentom narodowym,
+uwzględniając opinię Europejskiego Komitetu Ekonomiczno-Społecznego (1),
+stanowiąc zgodnie ze zwykłą procedurą ustawodawczą (2),
+a także mając na uwadze, co następuje:
+(1) Przedsiębiorstwa i instytuty badawcze o charakterze niekomercyjnym inwestują w pozyskiwanie, opracowywanie
+i wykorzystywanie know-how i informacji, które są walutą gospodarki opartej na wiedzy oraz zapewniają
+przewagę konkurencyjną. Inwestycja w tworzenie i wykorzystywanie kapitału intelektualnego jest czynnikiem
+decydującym dla konkurencyjności i osiągnięć wynikających z innowacyjności na rynku, a zatem o zwrotach
+z inwestycji, co jest podstawową motywacją do prowadzenia działalności badawczo-rozwojowej przez przedsię
+biorstwa. Kiedy otwartość nie pozwala na pełne wykorzystanie inwestycji w badania i innowacje, przedsię
+biorstwa korzystają z różnych środków pozwalających na zachowanie dla siebie wyników swojej działalności
+związanej z innowacyjnością. Jednym z takich środków jest korzystanie z praw własności intelektualnej takich jak
+patenty, prawa do wzoru przemysłowego lub prawa autorskie. Innym środkiem pozwalającym na zachowanie dla
+siebie wyników innowacji jest ochrona dostępu do wiedzy, która jest wartościowa dla danej jednostki i która nie
+jest powszechnie znana, oraz wykorzystanie takiej wiedzy. Tego rodzaju cenny know-how i informacje handlowe,
+które są niejawne i które mają pozostać poufne, określa się jako tajemnicę przedsiębiorstwa.
+(2) Przedsiębiorstwa, niezależnie od ich wielkości, uznają tajemnice przedsiębiorstwa za równie wartościowe jak
+patenty i inne rodzaje praw własności intelektualnej. Wykorzystują one poufność jako narzędzie zarządzania
+konkurencyjnością przedsiębiorstw i innowacjami w działalności badawczej, a także do szerokiej gamy
+informacji, wykraczających poza wiedzę techniczną i dane handlowe, takich jak informacje dotyczące klientów i
+dostawców, biznesplany oraz badania i strategie rynkowe. Małe i średnie przedsiębiorstwa (MŚP) cenią tajemnice
+przedsiębiorstwa nawet w większym stopniu i bardziej na nich polegają. Poprzez ochronę tak szerokiego zakresu
+15.6.2016 L 157/1Dziennik Urzędowy Unii EuropejskiejPL
+(1) Dz.U. C 226 z 16.7.2014, s. 48.
+(2) Stanowisko Parlamentu Europejskiego z dnia 14 kwietnia 2016 r. (dotychczas nieopublikowane w Dzienniku Urzędowym) oraz decyzja
+Rady z dnia 27 maja 2016 r.
+know-how i informacji na temat przedsiębiorstwa, bez względu na to, czy równocześnie z prawami własności
+intelektualnej, czy zamiast tych praw, tajemnice przedsiębiorstwa pozwalają twórcom i innowatorom na
+czerpanie korzyści z ich twórczości i innowacji, a co za tym idzie są szczególnie ważne zarówno dla konkuren
+cyjności przedsiębiorstw, jak i dla badań i rozwoju oraz osiągnięć wynikających z innowacyjności.
+(3) Otwarta innowacyjność jest katalizatorem nowych pomysłów, które są odpowiedzią na potrzeby konsumentów i
+wyzwania społeczne, oraz pozwala na wprowadzanie takich pomysłów na rynek. Taka innowacyjność jest
+ważnym bodźcem tworzenia nowej wiedzy i przyczynia się do powstawania nowych i innowacyjnych modeli
+biznesowych opartych na korzystaniu ze współtworzonej wiedzy. Badania realizowane w ramach współpracy,
+w tym współpracy transgranicznej, są szczególnie ważne dla zwiększenia badań prowadzonych przez przedsię
+biorstwa i ich rozwoju na rynku wewnętrznym. Rozpowszechnianie wiedzy i informacji należy uznać za
+zasadniczy czynnik zapewniający dynamiczne, pozytywne i jednakowe możliwości rozwoju dla przedsiębiorstw,
+w szczególności MŚP. Na rynku wewnętrznym, na którym zminimalizowano przeszkody dla współpracy transgra
+nicznej oraz na którym nie zakłóca się współpracy, twórczość intelektualna i innowacyjność powinny zachęcać
+do inwestowania w innowacyjne procesy, produkty i usługi. Takie środowisko, które sprzyja twórczości intelek
+tualnej i innowacjom i w którym nie utrudnia się mobilności pracowników, jest również ważne dla wzrostu
+zatrudnienia i poprawy konkurencyjności gospodarki Unii. W kontekście działalności badawczo-rozwojowej i
+innowacyjnej tajemnice przedsiębiorstwa odgrywają istotną rolę w ochronie wymiany wiedzy między przedsię
+biorstwami, w tym zwłaszcza MŚP, a instytutami badawczymi, zarówno na rynku wewnętrznym, jak i ponad jego
+granicami. Mimo iż tajemnice przedsiębiorstwa należą do najpowszechniej stosowanych przez przedsiębiorstwa
+sposobów ochrony twórczości intelektualnej i innowacyjnego know-how, są one jednocześnie najsłabiej chronione
+przez obowiązujące unijne ramy prawne w zakresie ich bezprawnego pozyskiwania, wykorzystywania lub
+ujawniania przez inne osoby.
+(4) Innowacyjne przedsiębiorstwa są w coraz większym stopniu narażone na nieuczciwe praktyki – zarówno
+wewnątrz Unii, jak i poza nią – mające na celu przywłaszczenie tajemnic przedsiębiorstwa, takie jak np. kradzież,
+nieuprawnione kopiowanie, szpiegostwo gospodarcze czy naruszenie wymogów poufności. Ostatnie zmiany takie
+jak globalizacja, powszechniejszy outsourcing, dłuższe łańcuchy dostaw i powszechniejsze wykorzystywanie
+technologii informacyjno-komunikacyjnych, przyczyniają się do zwiększenia ryzyka występowania tych praktyk.
+Nielegalne pozyskiwanie, wykorzystywanie lub ujawnianie tajemnicy przedsiębiorstwa uniemożliwia prawowitym
+posiadaczom tajemnicy przedsiębiorstwa czerpanie korzyści z wejścia na rynek przed konkurentami, które
+wynikają z ich innowacyjnych wysiłków. Bez skutecznych i porównywalnych środków prawnych służących
+ochronie tajemnic przedsiębiorstwa w całej Unii motywacja do prowadzenia działalności transgranicznej
+związanej z innowacyjnością na rynku wewnętrznym jest mniejsza, a realizacja potencjału tajemnic przedsię
+biorstwa jako bodźców wzrostu gospodarczego i większej liczby miejsc pracy nie jest możliwa. Innowacyjność i
+kreatywność są zatem hamowane, a liczba inwestycji spada, co ma negatywny wpływ na sprawne funkcjonowanie
+rynku wewnętrznego i potencjał jego wzrostu.
+(5) Międzynarodowe wysiłki podjęte w ramach Światowej Organizacji Handlu w celu rozwiązania tego problemu
+doprowadziły do zawarcia Porozumienia w sprawie handlowych aspektów praw własności intelektualnej
+(zwanego dalej „Porozumieniem TRIPS”). Porozumienie TRIPS zawiera, między innymi, postanowienia dotyczące
+ochrony tajemnic przedsiębiorstwa przed ich bezprawnym pozyskiwaniem, wykorzystywaniem lub ujawnianiem
+przez osoby trzecie, które należą do wspólnych norm międzynarodowych. Wszystkie państwa członkowskie, jak
+również sama Unia, są związane tym Porozumieniem, które zostało zatwierdzone decyzją Rady 94/800/WE (1).
+(6) Niezależnie od Porozumienia TRIPS istnieją znaczne różnice między przepisami państw członkowskich
+w zakresie ochrony tajemnic przedsiębiorstwa przed ich bezprawnym pozyskiwaniem, wykorzystywaniem lub
+ujawnianiem przez inne osoby. Przykładowo, nie wszystkie państwa członkowskie przyjęły krajowe definicje
+tajemnicy przedsiębiorstwa lub bezprawnego pozyskiwania, wykorzystywania lub ujawniania tajemnicy przedsię
+biorstwa, zatem wiedza o zakresie ochrony nie jest łatwo dostępna, a zakres ten jest różny w poszczególnych
+państwach członkowskich. Ponadto brakuje spójności w odniesieniu do środków cywilnoprawnych dostępnych
+w przypadku bezprawnego pozyskiwania, wykorzystywania lub ujawniania tajemnic przedsiębiorstwa, ponieważ
+nie zawsze we wszystkich państwach członkowskich dostępne są nakazy zaprzestania naruszenia kierowane do
+osób trzecich, które nie są konkurentami prawowitego posiadacza tajemnicy przedsiębiorstwa. Między państwami
+członkowskimi istnieją również różnice w sposobie traktowania osób trzecich, które pozyskały tajemnicę
+przedsiębiorstwa w dobrej wierze, a następnie dowiedziały się, podczas korzystania z niej, że jej pozyskanie było
+możliwe dzięki uprzedniemu bezprawnemu pozyskaniu przez inną osobę.
+(7) Przepisy krajowe różnią się również co do dopuszczalności tego, czy prawowici posiadacze tajemnicy przedsię
+biorstwa mogą zażądać zniszczenia towarów produkowanych przez osoby trzecie, które wykorzystują tajemnice
+przedsiębiorstwa w sposób niezgodny z prawem, i czy mogą zażądać zwrotu lub zniszczenia wszelkich
+dokumentów, plików lub materiałów obejmujących lub eksploatujących bezprawnie pozyskaną lub wykorzystaną
+tajemnicę przedsiębiorstwa. Ponadto obowiązujące przepisy krajowe dotyczące ustalenia wysokości
+15.6.2016L 157/2 Dziennik Urzędowy Unii EuropejskiejPL
+(1) Decyzja Rady 94/800/WE z dnia 22 grudnia 1994 r. dotycząca zawarcia w imieniu Wspólnoty Europejskiej w dziedzinach wchodzących
+w zakres jej kompetencji, porozumień będących wynikiem negocjacji wielostronnych w ramach Rundy Urugwajskiej (1986–1994)
+(Dz.U. L 336 z 23.12.1994, s. 1).
+odszkodowania nie zawsze uwzględniają niematerialny charakter tajemnic przedsiębiorstwa, co w przypadku
+braku możliwości określenia wartości rynkowej przedmiotowych informacji utrudnia wykazanie rzeczywistej
+utraty korzyści lub bezpodstawnego wzbogacenia sprawcy naruszenia. Jedynie kilka państw członkowskich
+umożliwia stosowanie abstrakcyjnych zasad dotyczących ustalenia wysokości odszkodowania w oparciu o opłatę
+licencyjną lub honorarium, jakie byłyby należne, gdyby wydano licencję na wykorzystanie tajemnicy przedsię
+biorstwa. Ponadto wiele przepisów krajowych nie przewiduje odpowiedniej ochrony poufności tajemnicy
+przedsiębiorstwa, jeżeli posiadacz tajemnicy przedsiębiorstwa podnosi zarzut domniemanego bezprawnego
+pozyskania, wykorzystywania lub ujawnienia tajemnicy przedsiębiorstwa przez osobę trzecią, zmniejszając tym
+samym atrakcyjność obowiązujących środków i środków prawnych oraz obniżając poziom przyznanej ochrony.
+(8) Różnice między państwami członkowskimi pod względem ochrony prawnej tajemnic przedsiębiorstwa oznaczają,
+że tajemnice przedsiębiorstwa nie są objęte ochroną w równoważnym stopniu w całej Unii, co prowadzi do
+rozdrobnienia rynku wewnętrznego w tej dziedzinie i do osłabienia ogólnego efektu odstraszającego, jaki
+powinny mieć odnośne przepisy. Na rynek wewnętrzny wpływ ma zakres, w jakim takie te różnice zmniejszają
+motywację przedsiębiorstw do prowadzenia innowacyjnej transgranicznej działalności gospodarczej, wraz ze
+współpracą badawczą i współpracą produkcyjną pomiędzy partnerami, outsourcingiem lub inwestowaniem
+w innych państwach członkowskich, zależnych od wykorzystywania informacji, które korzystają z ochrony jako
+tajemnice przedsiębiorstwa. Transgraniczna sieć badań i rozwoju, a także działalność związana z innowacyjnością,
+łącznie z powiązaną produkcją i wynikającym stąd handlem transgranicznym, stają się mniej atrakcyjne i
+trudniejsze w Unii, prowadząc tym samym do nieskuteczności działalności związanej z innowacyjnością na
+obszarze Unii.
+(9) Ponadto istnieje podwyższone ryzyko dla przedsiębiorstw w państwach członkowskich charakteryzujących się
+stosunkowo niższym poziomem ochrony, ze względu na możliwość łatwiejszej kradzieży tajemnic przedsię
+biorstwa lub ich pozyskania w inny nielegalny sposób. Prowadzi to do nieefektywnej alokacji kapitału
+w odniesieniu do stymulujących wzrost gospodarczy innowacji w ramach rynku wewnętrznego, ze względu na
+wyższy koszt środków ochronnych mających zrekompensować niedostateczną ochronę prawną w niektórych
+państwach członkowskich. Taki stan rzeczy sprzyja również działalności nieuczciwych konkurentów, którzy po
+bezprawnym pozyskaniu tajemnicy przedsiębiorstwa mogliby rozprowadzać na całym rynku wewnętrznym
+towary pochodzące z takiego pozyskania. Różnice w systemach prawnych ułatwiają również przywóz towarów
+z państw trzecich do Unii poprzez punkty wejścia o niższym poziomie ochrony, w sytuacji gdy zaprojektowanie,
+produkcja lub wprowadzenie do obrotu tych towarów jest możliwe dzięki kradzieży tajemnic przedsiębiorstwa
+bądź pozyskaniu ich w inny nielegalny sposób. W efekcie tego rodzaju różnice zakłócają właściwe funkcjo
+nowanie rynku wewnętrznego.
+(10) Należy ustanowić na poziomie Unii przepisy mające na celu zbliżenie przepisów prawa poszczególnych państw
+członkowskich, tak aby zapewnić wystarczający i spójny poziom naprawienia szkody na drodze cywilnej na
+rynku wewnętrznym w razie bezprawnego pozyskania, wykorzystywania lub ujawnienia tajemnicy przedsię
+biorstwa. Przepisy te nie powinny wpływać na możliwość stosowania przez państwa członkowskie dalej idącej
+ochrony przed bezprawnym pozyskiwaniem, wykorzystywaniem lub ujawnianiem tajemnic przedsiębiorstwa pod
+warunkiem przestrzegania wyraźnie przewidzianych w niniejszej dyrektywie gwarancji ochrony interesów innych
+osób.
+(11) Niniejsza dyrektywa nie powinna wpływać na stosowanie unijnych lub krajowych przepisów wymagających
+ujawniania informacji, w tym tajemnic przedsiębiorstwa, publicznie lub przed organem publicznym. Nie powinna
+też wpływać na stosowanie przepisów, które pozwalają organom publicznym na gromadzenie informacji
+niezbędnych do wykonywania ich obowiązków lub przepisów, które przewidują możliwość lub wymóg dalszego
+publicznego ujawnienia przez te organy publiczne odnośnych informacji. Przepisy takie obejmują w szczególności
+przepisy dotyczące ujawniania przez instytucje i organy unijne lub krajowe organy publiczne informacji na temat
+przedsiębiorstwa będących w ich posiadaniu zgodnie z rozporządzeniem (WE) nr 1049/2001 Parlamentu
+Europejskiego i Rady (1), rozporządzeniem (WE) nr 1367/2006 Parlamentu Europejskiego i Rady (2) oraz
+dyrektywą 2003/4/WE Parlamentu Europejskiego i Rady (3) lub na podstawie innych przepisów o publicznym
+dostępie do dokumentów lub o obowiązkach krajowych organów publicznych w zakresie przejrzystości.
+(12) Niniejsza dyrektywa nie powinna wpływać na prawo partnerów społecznych do zawierania układów zbiorowych,
+w przypadkach przewidzianych prawem pracy, w odniesieniu do zobowiązania do nieujawniania tajemnicy
+przedsiębiorstwa lub ograniczenia jej stosowania oraz skutków niedopełnienia takiego zobowiązania przez stronę
+15.6.2016 L 157/3Dziennik Urzędowy Unii EuropejskiejPL
+(1) Rozporządzenie (WE) nr 1049/2001 Parlamentu Europejskiego i Rady z dnia 30 maja 2001 r. w sprawie publicznego dostępu do
+dokumentów Parlamentu Europejskiego, Rady i Komisji (Dz.U. L 145 z 31.5.2001, s. 43).
+(2) Rozporządzenie (WE) nr 1367/2006 Parlamentu Europejskiego i Rady z dnia 6 września 2006 r. w sprawie zastosowania postanowień
+Konwencji z Aarhus o dostępie do informacji, udziale społeczeństwa w podejmowaniu decyzji oraz dostępie do sprawiedliwości
+w sprawach dotyczących środowiska do instytucji i organów Wspólnoty (Dz.U. L 264 z 25.9.2006, s. 13).
+(3) Dyrektywa 2003/4/WE Parlamentu Europejskiego i Rady z dnia 28 stycznia 2003 r. w sprawie publicznego dostępu do informacji
+dotyczących środowiska i uchylająca dyrektywę Rady 90/313/EWG (Dz.U. L 41 z 14.2.2003, s. 26).
+nim objętą. Zastrzeżenie to obowiązuje pod warunkiem że wszelkie takie układy zbiorowe nie ograniczają
+wyjątków określonych w niniejszej dyrektywie, w przypadku których oddalono wniosek o zastosowanie środków,
+procedur lub środków prawnych przewidzianych w niniejszej dyrektywie w związku z domniemanym pozyski
+waniem, wykorzystywaniem lub ujawnianiem tajemnicy przedsiębiorstwa.
+(13) Niniejszej dyrektywy nie należy interpretować w sposób ograniczający swobodę przedsiębiorczości, swobodny
+przepływ pracowników lub mobilność pracowników przewidziane w prawie Unii. Nie ma ona również na celu
+wpływania na możliwość zawarcia – zgodnie z obowiązującym prawem – umów o zakazie konkurencji między
+pracodawcami a pracownikami.
+(14) Należy przyjąć jednolitą definicję tajemnicy przedsiębiorstwa bez ograniczania zakresu ochrony przed przywła
+szczeniem. Taka definicja powinna zatem być sformułowana w sposób uwzględniający know-how, informacje
+handlowe i informacje techniczne w przypadkach, w których istnieje zarówno uzasadniony interes w utrzymaniu
+poufności, jak i uzasadnione oczekiwanie, że taka poufność zostanie zachowana. Ponadto taki know-how lub
+informacje powinny mieć rzeczywistą lub potencjalną wartość handlową. Takie informacje lub know-how powinny
+być uważane za informacje o wartości handlowej wówczas, gdy przykładowo ich bezprawne pozyskiwanie,
+wykorzystywanie lub ujawnianie może spowodować szkody dla interesów osoby, która zgodnie z prawem
+sprawuje nad nimi kontrolę, szkodząc jej naukowemu lub technicznemu potencjałowi, interesom gospodarczym
+lub finansowym, pozycji strategicznej lub zdolności do konkurowania. Definicja tajemnicy handlowej nie
+obejmuje nieistotnych informacji oraz doświadczeń i umiejętności, które zostały zdobyte przez pracowników
+w trakcie prowadzenia normalnej pracy, a także nie obejmuje informacji, które są powszechnie znane lub łatwo
+dostępne osobom z kręgów zajmujących się zwykle tym rodzajem informacji.
+(15) Istotne jest również określenie okoliczności, w jakich uzasadniona jest ochrona prawna tajemnic przedsiębiorstwa.
+Z tego względu konieczne jest określenie postępowania i praktyk, które mają być uznawane za bezprawne
+pozyskanie, wykorzystywanie lub ujawnienie tajemnicy przedsiębiorstwa.
+(16) W interesie innowacyjności oraz w celu wspierania konkurencji przepisy niniejszej dyrektywy nie powinny
+przyznawać żadnych wyłącznych praw do know-how lub informacji chronionych, jako tajemnice przedsiębiorstwa.
+Dlatego też niezależne odkrycie tego samego know-how lub tych samych informacji powinno pozostawać
+możliwe. Inżynieria odwrotna nabytego zgodnie z prawem produktu powinna być uznawana za zgodny
+z prawem sposób uzyskiwania informacji, z wyjątkiem odmiennego zastrzeżenia umownego. Swoboda
+zawierania tego rodzaju uzgodnień umownych może zostać jednak ograniczona prawnie.
+(17) W niektórych sektorach przemysłu, w których twórcy i wprowadzający innowacje nie mogą korzystać z praw
+wyłącznych oraz w których innowacyjność tradycyjnie opiera się na tajemnicach przedsiębiorstwa, produkty po
+wprowadzeniu na rynek można z łatwością poddać inżynierii odwrotnej. W takich przypadkach twórcy i
+wprowadzający innowacje mogą stać się ofiarami praktyk takich jak pasożytnicze kopiowanie lub wierna
+imitacja, które pasożytują na ich dobrym imieniu i wysiłkach innowacyjnych. Niektóre krajowe przepisy o
+nieuczciwej konkurencji odnoszą się do tego rodzaju praktyk. Mimo iż niniejsza dyrektywa nie ma na celu
+reformy ani harmonizacji prawa o nieuczciwej konkurencji jako takiego, byłoby jednak wskazane uważne
+zbadanie przez Komisję potrzeby podjęcia przez Unię działań w tym obszarze.
+(18) Ponadto pozyskiwanie, wykorzystywanie lub ujawnianie tajemnic przedsiębiorstwa, gdy prawo tego wymaga lub
+na to zezwala, należy traktować jako zgodne z prawem do celów niniejszej dyrektywy. Dotyczy to w szczególności
+pozyskiwania i ujawniania tajemnic przedsiębiorstwa przy wykonywaniu praw przedstawicieli pracowników do
+informacji, konsultacji i uczestnictwa zgodnie z unijnymi i krajowymi przepisami lub praktykami, oraz
+zbiorowego dochodzenia interesów pracowników i pracodawców, w tym udziału w zarządzaniu przedsię
+biorstwem, a także do pozyskiwania lub ujawniania tajemnicy przedsiębiorstwa w kontekście badań ustawowych
+przeprowadzanych zgodnie z prawem unijnym lub krajowym. Takie traktowanie pozyskania tajemnicy przedsię
+biorstwa jako zgodnego z prawem nie powinno jednak wpływać na obowiązki zachowania poufności tajemnicy
+przedsiębiorstwa lub na ograniczenia w ich wykorzystaniu, które prawo unijne lub krajowe może nałożyć na
+odbiorcę informacji lub osobę, która je pozyskuje. W szczególności niniejsza dyrektywa nie powinna zwalniać
+organów publicznych z obowiązków zachowania poufności, jakie spoczywają na nich w odniesieniu do
+informacji przekazywanych przez posiadaczy tajemnic przedsiębiorstwa, bez względu na to, czy obowiązki te są
+określone w prawie unijnym lub krajowym. Takie obowiązki zachowania poufności obejmują, między innymi,
+15.6.2016L 157/4 Dziennik Urzędowy Unii EuropejskiejPL
+obowiązki dotyczące informacji przekazanych organom instytucji udzielających zamówień w kontekście procedur
+udzielania zamówień publicznych, określonych na przykład w dyrektywie Parlamentu Europejskiego i Rady
+2014/23/UE (1), w dyrektywie Parlamentu Europejskiego i Rady 2014/24/UE (2) i w dyrektywie Parlamentu
+Europejskiego i Rady 2014/25/UE (3).
+(19) Niniejsza dyrektywa przewiduje wprawdzie środki ogólne i środki prawne, pozwalające na zapobieganie
+ujawnianiu informacji w celu ochrony poufności tajemnic przedsiębiorstwa, istotne jest jednak, aby korzystanie
+z prawa do wolności wypowiedzi i informacji (która obejmuje wolność i pluralizm mediów, zgodnie z art. 11
+Karty praw podstawowych Unii Europejskiej, zwanej dalej „Kartą”) nie było ograniczone, w szczególności
+w zakresie dziennikarstwa śledczego i ochrony dziennikarskich źródeł informacji.
+(20) Przewidziane w niniejszej dyrektywie środki ogólne, procedury i środki prawne nie powinny ograniczać
+możliwości sygnalizowania nieprawidłowości. W związku z tym ochrona tajemnic przedsiębiorstwa nie powinna
+mieć zastosowania w przypadkach, w których ujawnienie tajemnicy przedsiębiorstwa służy interesowi
+publicznemu w zakresie ujawnienia nieprawidłowości, uchybienia lub działania z naruszeniem prawa o
+bezpośrednim znaczeniu. Ujawnienia działania z naruszeniem prawa nie należy postrzegać jako przeszkody dla
+zastosowania przez właściwe organy sądowe wyjątku od środków ogólnych, procedur i środków prawnych
+wówczas, gdy pozwany miał wszelkie powody, by w dobrej wierze sądzić, że jego zachowanie spełniało
+odpowiednie kryteria określone w niniejszej dyrektywie.
+(21) Zgodnie z zasadą proporcjonalności środki ogólne, procedury i środki prawne mające na celu ochronę tajemnic
+przedsiębiorstwa powinny być dostosowane do celu w postaci sprawnie funkcjonującego rynku wewnętrznego
+badań i innowacji, w szczególności poprzez odstraszenie przed bezprawnym pozyskiwaniem, wykorzystywaniem
+i ujawnianiem tajemnicy przedsiębiorstwa. Takie dostosowanie środków, procedur i środków prawnych nie
+powinno zagrażać ani podważać podstawowych praw i wolności lub interesu publicznego, takich jak bezpie
+czeństwo publiczne, ochrona konsumentów, zdrowie publiczne i ochrona środowiska, i nie powinno szkodzić
+mobilności pracowników. W tej mierze środki ogólne, procedury i środki prawne przewidziane w niniejszej
+dyrektywie mają na celu zapewnienie, by właściwe organy sądowe uwzględniały czynniki takie jak wartość
+tajemnicy przedsiębiorstwa, powaga postępowania prowadzącego do bezprawnego pozyskiwania, wykorzys
+tywania lub ujawniania tajemnicy przedsiębiorstwa, jak również skutki takiego postępowania. Należy również
+zapewnić, by właściwe organy sądowe miały możliwość wyważenia interesów stron postępowania sądowego, a
+także interesów osób trzecich, w tym – w stosownych przypadkach – interesów konsumentów.
+(22) Sprawne funkcjonowanie rynku wewnętrznego zostałoby zagrożone, gdyby przewidziane środki ogólne,
+procedury i środki prawne były wykorzystywane do realizacji bezprawnych zamiarów niezgodnych z celami
+niniejszej dyrektywy. Należy zatem upoważnić organy sądowe do przyjmowania właściwych środków
+w odniesieniu do nadużyć ze strony wnioskodawców, którzy nadużywają swoich praw lub działają w złej wierze i
+składają ewidentnie bezzasadne wnioski, na przykład w celu nieuczciwego opóźnienia lub ograniczenia dostępu
+pozwanego do rynku lub w celu zastraszenia bądź nękania pozwanego w inny sposób.
+(23) W interesie pewności prawa i zważywszy że od prawowitych posiadaczy tajemnic przedsiębiorstwa oczekuje się
+spełnienia obowiązku dochowania należytej staranności w odniesieniu do zachowania poufności ich cennych
+tajemnic przedsiębiorstwa oraz monitorowania ich wykorzystywania, należy ograniczyć podnoszenie zarzutów
+materialnoprawnych i możliwość wnoszenia skarg w sprawie ochrony tajemnic przedsiębiorstwa do określonego
+terminu. Przepisy prawa krajowego powinny także określać w sposób jasny i jednoznaczny moment rozpoczęcia
+biegu takiego terminu, a także okoliczności, w których jego bieg może zostać przerwany lub zawieszony.
+(24) Perspektywa ujawnienia tajemnicy przedsiębiorstwa w trakcie postępowania sądowego często zniechęca
+prawowitych posiadaczy tajemnicy przedsiębiorstwa do wszczynania postępowania sądowego w celu ochrony
+swoich tajemnic przedsiębiorstwa, zagrażając tym samym skuteczności przyjętych środków ogólnych, procedur i
+środków prawnych. W związku z tym, z zastrzeżeniem wprowadzenia odpowiednich gwarancji prawa do
+skutecznego środka prawnego i rzetelnego procesu sądowego, konieczne jest ustanowienie szczegółowych
+wymogów mających na celu ochronę poufności tajemnicy przedsiębiorstwa będącej przedmiotem sporu na czas
+postępowania sądowego wszczętego w celu zapewnienia jej ochrony. Taka ochrona powinna pozostać w mocy
+po zakończeniu postępowania sądowego oraz do czasu upublicznienia informacji stanowiących tajemnicę
+przedsiębiorstwa.
+15.6.2016 L 157/5Dziennik Urzędowy Unii EuropejskiejPL
+(1) Dyrektywa Parlamentu Europejskiego i Rady 2014/23/UE z dnia 26 lutego 2014 r. w sprawie udzielania koncesji (Dz.U. L 94
+z 28.3.2014, s. 1).
+(2) Dyrektywa Parlamentu Europejskiego i Rady 2014/24/UE z dnia 26 lutego 2014 r. w sprawie zamówień publicznych, uchylająca
+dyrektywę 2004/18/WE (Dz.U. L 94 z 28.3.2014, s. 65).
+(3) Dyrektywa Parlamentu Europejskiego i Rady 2014/25/UE z dnia 26 lutego 2014 r. w sprawie udzielania zamówień przez podmioty
+działające w sektorach gospodarki wodnej, energetyki, transportu i usług pocztowych, uchylająca dyrektywę 2004/17/WE (Dz.U. L 94
+z 28.3.2014, s. 243).
+(25) Wymogi takie powinny obejmować co najmniej możliwość ograniczenia grona osób posiadających prawo
+dostępu do dowodów lub udziału w rozprawach i posiedzeniach, pamiętając, że wszystkie te osoby powinny
+podlegać wymogom poufności określonym w niniejszej dyrektywie, oraz możliwość publikowania tylko tych
+elementów orzeczeń sądowych, które nie są opatrzone klauzulą poufności. W tym kontekście, zważywszy że
+ocena charakteru informacji stanowiących przedmiot sporu jest jednym z głównych celów toczących się
+postępowań sądowych, szczególnie ważne jest zarówno zapewnienie skutecznej ochrony poufności tajemnic
+przedsiębiorstwa, jak i poszanowania prawa stron tego postępowania do skutecznego środka prawnego i
+rzetelnego procesu sądowego. To ograniczone grono osób powinno zatem składać się z co najmniej jednej osoby
+fizycznej z każdej ze stron, a także prawników stron oraz, w stosownych przypadkach, z innych przedstawicieli
+posiadających odpowiednie kwalifikacje zgodnie z prawem krajowym w zakresie obrony, reprezentowania
+interesów strony lub służenia takim interesom w postępowaniach sądowych objętych niniejszą dyrektywą, przy
+czym wszystkie te osoby powinny mieć pełny dostęp do takich dowodów lub wstęp na rozprawy i posiedzenia.
+W przypadku gdy jedna ze stron jest osobą prawną, strona ta powinna mieć możliwość zaproponowania osoby
+fizycznej lub osób fizycznych, które powinny stanowić część tego grona osób, tak by zapewnić właściwą
+reprezentację tej osoby prawnej, z zastrzeżeniem odpowiedniej kontroli sądowej dla zapobieżenia zniweczeniu
+celu ograniczenia dostępu do dowodów lub wstępu na rozprawy i posiedzenia. Gwarancji tych nie należy
+interpretować jako wymogu reprezentowania stron przez prawnika lub innego przedstawiciela w postępowaniu
+sądowym, w przypadku gdy taka reprezentacja nie jest wymagana przez prawo krajowe. Nie należy ich również
+interpretować jako ograniczenie kompetencji sądów do decydowania – zgodnie z mającymi zastosowanie
+przepisami i praktykami danego państwa członkowskiego – czy i w jakim zakresie właściwi urzędnicy sądowi
+również powinni mieć pełny dostęp do dowodów i wstęp na rozprawy w celu wykonywania swoich obowiązków.
+(26) Bezprawne pozyskiwanie, wykorzystywanie lub ujawnianie tajemnicy przedsiębiorstwa przez osobę trzecią może
+mieć katastrofalne skutki dla prawowitego posiadacza tajemnicy przedsiębiorstwa, ponieważ po jej publicznym
+ujawnieniu powrót do sytuacji sprzed utraty tajemnicy przedsiębiorstwa nie będzie możliwy. W związku z tym
+bardzo ważne jest zapewnienie szybkich, skutecznych i łatwo dostępnych środków tymczasowych dla natychmias
+towego zaprzestania bezprawnego pozyskiwania, wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa,
+również gdy jest ona wykorzystywana w celu świadczenia usług. Istotne jest, by taki środek był dostępny bez
+konieczności oczekiwania na rozstrzygnięcie co do istoty sprawy, przy należytym poszanowaniu prawa do
+obrony i zasady proporcjonalności i z uwzględnieniem specyfiki sprawy. W niektórych przypadkach, pod
+warunkiem złożenia jednego lub kilku zabezpieczeń, domniemany sprawca naruszenia powinien mieć możliwość
+uzyskania pozwolenia na dalsze korzystanie z tajemnicy przedsiębiorstwa, w szczególności wówczas, gdy ryzyko
+upublicznienia takiej tajemnicy jest znikome. Powinna również istnieć możliwość zażądania złożenia zabezpie
+czenia w wysokości wystarczającej na pokrycie kosztów i szkody poniesionej przez pozwanego wskutek
+wniesienia bezzasadnego wniosku, w szczególności w przypadku, gdy zwłoka może spowodować nieodwracalną
+szkodę dla prawowitego posiadacza tajemnicy.
+(27) Z tego samego powodu należy przewidzieć ostateczne środki mające na celu zapobieżenie bezprawnemu
+wykorzystywaniu lub ujawnianiu tajemnicy przedsiębiorstwa, w tym wówczas, gdy jest ona wykorzystywana
+w celu świadczenia usług. W celu zapewnienia skuteczności i proporcjonalności takich środków ich okres
+obowiązywania – w sytuacji gdy okoliczności wymagają ich ograniczenia w czasie – powinien być wystarczający
+do wyeliminowania wszelkich korzyści handlowych, które osoba trzecia może czerpać z bezprawnego
+pozyskiwania, wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa. Tego rodzaju środki nie podlegają
+w żadnym przypadku wykonaniu, jeżeli informacje pierwotnie objęte tajemnicą przedsiębiorstwa zostały
+upublicznione z przyczyn, za które pozwany nie odpowiada.
+(28) Tajemnica przedsiębiorstwa może zostać bezprawnie wykorzystana do projektowania, produkcji lub sprzedaży
+towarów lub ich części składowych, które mogą pojawić się na całym rynku wewnętrznym, wpływając tym
+samym na interesy handlowe posiadacza tajemnicy przedsiębiorstwa i na funkcjonowanie rynku wewnętrznego.
+W takich przypadkach oraz wówczas, gdy tajemnica przedsiębiorstwa ma znaczący wpływ na jakość, wartość lub
+cenę towarów pochodzących z takiego bezprawnego wykorzystania lub na zmniejszenie kosztów ułatwienia lub
+przyspieszenia ich produkcji lub wprowadzania do obrotu, należy upoważnić organy sądowe do wprowadzenia
+skutecznych i odpowiednich środków celem zapewnienia, by takie towary nie zostały wprowadzone do obrotu
+lub by zostały z niego wycofane. Biorąc pod uwagę globalny charakter handlu, konieczne jest również, by środki
+te obejmowały zakaz przywozu tych towarów do Unii lub przechowywania tych towarów w celu ich
+późniejszego oferowania lub wprowadzania do obrotu. Mając na względzie zasadę proporcjonalności, środki
+naprawcze niekoniecznie powinny oznaczać zniszczenie towarów, jeżeli istnieją inne realne warianty działań,
+takie jak pozbawienie towaru cechy naruszenia lub rozdysponowanie towarów poza rynkiem, na przykład
+w drodze darowizny na rzecz organizacji charytatywnych.
+(29) Istnieje możliwość, że dana osoba pierwotnie pozyskała tajemnicę przedsiębiorstwa w dobrej wierze, ale na
+późniejszym etapie – w tym po otrzymaniu zawiadomienia od pierwotnego posiadacza tajemnicy przedsię
+biorstwa – osoba ta dowiedziała się, że wiedza na temat przedmiotowej tajemnicy przedsiębiorstwa pochodzi ze
+źródeł wykorzystujących lub ujawniających tę tajemnicę przedsiębiorstwa w sposób bezprawny. Aby uniknąć
+15.6.2016L 157/6 Dziennik Urzędowy Unii EuropejskiejPL
+sytuacji, w której w tych okolicznościach przewidziane środki naprawcze lub nakazy sądowe mogłyby wyrządzić
+takiej osobie nieproporcjonalną szkodę, państwa członkowskie powinny w odpowiednich przypadkach
+przewidzieć możliwość przyznania poszkodowanemu rekompensaty pieniężnej jako środka alternatywnego. Taka
+rekompensata nie powinna jednakże przekraczać wysokości opłat licencyjnych lub honorariów, jakie byłyby
+należne, gdyby ta osoba uzyskała zezwolenie na wykorzystanie przedmiotowej tajemnicy przedsiębiorstwa
+w okresie, w odniesieniu do którego pierwotny posiadacz tajemnicy przedsiębiorstwa mógł sprzeciwić się jej
+wykorzystaniu. Gdyby jednak bezprawne wykorzystanie tajemnicy przedsiębiorstwa stanowiło naruszenie innych
+przepisów niż przepisy niniejszej dyrektywy lub mogło spowodować szkody dla konsumentów, takie bezprawne
+wykorzystanie tajemnicy przedsiębiorstwa nie powinno być dozwolone.
+(30) W celu uniknięcia sytuacji, w której osoba w sposób świadomy lub mając uzasadnione podstawy, aby mieć taką
+świadomość, bezprawnie pozyskuje, wykorzystuje lub ujawnia tajemnicę przedsiębiorstwa i uzyskuje korzyść
+z takiego postępowania, oraz w celu zapewnienia, by w jak największym stopniu możliwe było przywrócenie do
+stanu, w jakim poszkodowany posiadacz tajemnicy przedsiębiorstwa byłby, gdyby takie postępowanie nie miało
+miejsca, konieczne jest zapewnienie odpowiedniej rekompensaty za szkodę niemajątkową poniesioną w wyniku
+takiego bezprawnego postępowania. Kwota odszkodowania zasądzonego na rzecz poszkodowanego posiadacza
+tajemnicy przedsiębiorstwa powinna uwzględniać wszystkie stosowne czynniki takie jak utratę zysków przez
+posiadacza tajemnicy przedsiębiorstwa lub nieuczciwe korzyści osiągnięte przez sprawcę naruszenia oraz,
+w stosownych przypadkach, wszelkie szkody niemajątkowe poniesione przez posiadacza tajemnicy przedsię
+biorstwa. Jako alternatywa, na przykład wówczas, gdy z uwagi na niematerialny charakter tajemnic przedsię
+biorstwa ustalenie kwoty odpowiadającej rzeczywiście doznanemu uszczerbkowi byłoby trudne, wysokość
+odszkodowania można ustalić w oparciu o takie elementy jak opłaty licencyjne lub honoraria, które byłyby
+należne, gdyby sprawca naruszenia zwrócił się o zezwolenie na wykorzystanie przedmiotowej tajemnicy przedsię
+biorstwa. Celem takiej metody alternatywnej nie jest wprowadzenie obowiązku zasądzania represyjnych
+odszkodowań, lecz zapewnienie rekompensaty opartej na obiektywnym kryterium, z uwzględnieniem wydatków
+poniesionych przez posiadacza tajemnicy przedsiębiorstwa, takich jak koszty identyfikacji i badań. Niniejsza
+dyrektywa nie powinna uniemożliwiać państwom członkowskim przyjęcia w prawie krajowym, że odpowie
+dzialność za szkody spowodowane przez pracowników jest ograniczona w przypadkach, w których działali oni
+nieumyślnie.
+(31) Aby dodatkowo odstraszyć przyszłych sprawców naruszeń i podnieść poziom świadomości tej problematyki
+wśród obywateli, w przypadkach bezprawnego pozyskiwania, wykorzystywania lub ujawniania tajemnic przedsię
+biorstwa przydatne jest podawanie orzeczeń do wiadomości publicznej, w tym – w stosownych przypadkach –
+poprzez intensywne działania informacyjne, pod warunkiem że taka publikacja nie spowoduje ujawnienia
+tajemnicy przedsiębiorstwa ani nie wpłynie nieproporcjonalnie na prywatność i dobre imię osób fizycznych.
+(32) Na skuteczność środków ogólnych, procedur i środków prawnych dostępnych posiadaczom tajemnicy przedsię
+biorstwa może negatywnie wpływać niestosowanie się do odpowiednich orzeczeń wydanych przez właściwe
+organy sądowe. Z tego powodu należy zapewnić tym organom odpowiednie uprawnienia do nakładania sankcji.
+(33) W celu ułatwienia jednolitego stosowania środków ogólnych, procedur i środków prawnych przewidzianych
+w niniejszej dyrektywie należy ustanowić systemy współpracy i wymiany informacji między państwami
+członkowskimi, z jednej strony, oraz między państwami członkowskimi a Komisją, z drugiej strony, zwłaszcza
+przez utworzenie sieci korespondentów wyznaczonych przez państwa członkowskie. Ponadto aby ocenić, czy
+środki te umożliwiają osiągnięcie wyznaczonego celu, Komisja – w stosownych przypadkach wspomagana przez
+Urząd Unii Europejskiej ds. Własności Intelektualnej – powinna badać stosowanie niniejszej dyrektywy oraz
+skuteczność podjętych środków krajowych.
+(34) Niniejsza dyrektywa nie narusza praw podstawowych i przestrzega zasad uznanych w szczególności w Karcie, a
+mianowicie prawa do poszanowania życia prywatnego i rodzinnego, prawa do ochrony danych osobowych,
+wolności wypowiedzi i informacji, wolności wyboru zawodu i prawa do podejmowania pracy, wolności
+prowadzenia działalności gospodarczej, prawa własności, prawa do dobrej administracji, a zwłaszcza dostępu do
+akt, przy jednoczesnym poszanowaniu tajemnicy przedsiębiorstwa, prawa do skutecznego środka prawnego i
+rzetelnego procesu sądowego oraz prawa do obrony.
+(35) Należy zapewnić poszanowanie prawa do życia prywatnego i rodzinnego oraz prawa do ochrony danych
+osobowych wszystkich osób, których dane osobowe mogą być przetwarzane przez posiadacza tajemnicy
+przedsiębiorstwa w trakcie podejmowania działań w celu ochrony tajemnicy przedsiębiorstwa, lub wszelkich
+osób uczestniczących w postępowaniu sądowym dotyczącym bezprawnego pozyskania, wykorzystywania lub
+ujawniania tajemnic przedsiębiorstwa na mocy niniejszej dyrektywy, których dane osobowe są przetwarzane.
+Dyrektywa 95/46/WE Parlamentu Europejskiego i Rady (1) reguluje przetwarzanie danych osobowych
+prowadzone w państwach członkowskich w kontekście niniejszej dyrektywy i pod nadzorem właściwych
+organów państw członkowskich, w szczególności niezależnych organów publicznych wyznaczonych przez
+15.6.2016 L 157/7Dziennik Urzędowy Unii EuropejskiejPL
+(1) Dyrektywa 95/46/WE Parlamentu Europejskiego i Rady z dnia 24 października 1995 r. w sprawie ochrony osób fizycznych w zakresie
+przetwarzania danych osobowych i swobodnego przepływu tych danych (Dz.U. L 281 z 23.11.1995, s. 31).
+państwa członkowskie. Niniejsza dyrektywa nie powinna zatem wpływać na prawa i obowiązki określone
+w dyrektywie 95/46/WE, w szczególności na prawa osoby, której dane dotyczą, do dostępu do jej danych
+osobowych, które są przetwarzane, oraz do uzyskania sprostowania, usunięcia lub zablokowania danych niekom
+pletnych lub nieprawidłowych, oraz, w stosownych przypadkach, nie powinna wpływać na obowiązek przetwa
+rzania danych wrażliwych zgodnie z art. 8 ust. 5 dyrektywy 95/46/WE.
+(36) Ponieważ cel niniejszej dyrektywy a mianowicie zapewnienie sprawnie funkcjonującego rynku wewnętrznego
+poprzez ustanowienie wystarczającego i porównywalnego poziomu dochodzenia roszczeń w ramach rynku
+wewnętrznego w przypadku bezprawnego pozyskiwania, wykorzystywania lub ujawniania tajemnicy przedsię
+biorstwa, nie może być w wystarczającym stopniu osiągnięty przez państwa członkowskie, natomiast ze względu
+na jego rozmiary i skutki możliwe jest jego lepsze osiągnięcie na poziomie Unii, Unia może przyjąć środki
+zgodnie z zasadą pomocniczości określoną w art. 5 Traktatu o Unii Europejskiej. Zgodnie z zasadą proporcjo
+nalności określoną w tym artykule niniejsza dyrektywa nie wykracza poza to, co jest konieczne do osiągnięcia
+tego celu.
+(37) Celem niniejszej dyrektywy nie jest ustanowienie zharmonizowanych zasad współpracy sądowej, właściwości
+sądów, uznawania i wykonywania wyroków w sprawach cywilnych i handlowych czy też uregulowanie kwestii
+prawa właściwego. Inne instrumenty unijne, które regulują tego rodzaju kwestie w sposób ogólny, powinny co do
+zasady nadal być stosowane w dziedzinie objętej niniejszą dyrektywą.
+(38) Niniejsza dyrektywa nie powinna mieć wpływu na stosowanie przepisów prawa konkurencji, w szczególności
+art. 101 i 102 Traktatu o funkcjonowaniu Unii Europejskiej (zwanego dalej „TFUE”). Środków ogólnych, procedur
+i środków prawnych przewidzianych w niniejszej dyrektywie nie należy stosować w celu nienależytego
+ograniczania konkurencji w sposób sprzeczny z TFUE.
+(39) Niniejsza dyrektywa nie powinna wpływać na stosowanie wszelkich innych odpowiednich przepisów prawnych
+w innych dziedzinach, w tym praw własności intelektualnej i prawa zobowiązań. Niemniej jednak, w przypadku
+gdy zakres stosowania dyrektywy 2004/48/WE Parlamentu Europejskiego i Rady (1) pokrywa się z zakresem
+niniejszej dyrektywy, pierwszeństwo ma niniejsza dyrektywa, jako lex specialis.
+(40) Zgodnie z art. 28 ust. 2 rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 45/2001 (2) przeprowadzono
+konsultacje z Europejskim Inspektorem Ochrony Danych, który przedstawił swoją opinię w dniu 12 marca
+2014 r.,
+PRZYJMUJĄ NINIEJSZĄ DYREKTYWĘ:
+ROZDZIAŁ I
+Przedmiot i zakres stosowania
+Artykuł 1
+Przedmiot i zakres stosowania
+1. Niniejsza dyrektywa ustanawia przepisy dotyczące ochrony przed bezprawnym pozyskiwaniem, wykorzysty
+waniem i ujawnianiem tajemnic przedsiębiorstwa.
+Zgodnie z postanowieniami TFUE państwa członkowskie mogą przyjąć dalej idącą ochronę przed bezprawnym pozyski
+waniem, wykorzystywaniem lub ujawnianiem tajemnic przedsiębiorstwa, niż ochrona wymagana w niniejszej
+dyrektywie, pod warunkiem zapewnienia zgodności z art. 3, 5, 6, art. 7 ust. 1, art. 8, art. 9 ust. 1 akapit drugi, art. 9
+ust. 3 i 4, art. 10 ust. 2, art. 11, 13 oraz art. 15 ust. 3.
+15.6.2016L 157/8 Dziennik Urzędowy Unii EuropejskiejPL
+(1) Dyrektywa 2004/48/WE Parlamentu Europejskiego i Rady z dnia 29 kwietnia 2004 r. w sprawie egzekwowania praw własności intelek
+tualnej (Dz.U. L 157 z 30.4.2004, s. 45).
+(2) Rozporządzenie (WE) nr 45/2001 Parlamentu Europejskiego i Rady z dnia 18 grudnia 2000 r. o ochronie osób fizycznych w związku
+z przetwarzaniem danych osobowych przez instytucje i organy wspólnotowe i o swobodnym przepływie takich danych (Dz.U. L 8
+z 12.1.2001, s. 1).
+2. Niniejsza dyrektywa nie wpływa na:
+a) wykonywanie prawa do wolności wypowiedzi i informacji określonych w Karcie, w tym poszanowania wolności i
+pluralizmu mediów;
+b) stosowanie przepisów unijnych lub krajowych wymagających od posiadaczy tajemnicy przedsiębiorstwa ujawnienia –
+z uwagi na interes publiczny – informacji, w tym tajemnic przedsiębiorstwa, organom publicznym, administracyjnym
+lub sądowym w celu wykonywania obowiązków tych organów;
+c) stosowanie unijnych lub krajowych przepisów wymagających lub pozwalających, by instytucje i organy unijne lub
+krajowe organy publiczne ujawniały informacje dostarczone przez przedsiębiorstwa, które znalazły się w dyspozycji
+tych instytucji, podmiotów lub organów na podstawie obowiązków i uprawnień określonych w prawie unijnym lub
+krajowym i zgodnie z tymi obowiązkami i uprawnieniami;
+d) autonomię partnerów społecznych i ich prawa do zawierania umów zbiorowych zgodnie z prawem unijnym i
+prawami krajowymi oraz unijną i krajową praktyką.
+3. Żaden z przepisów niniejszej dyrektywy nie może być rozumiany jako podstawa ograniczenia mobilności
+pracowników. W szczególności, w odniesieniu do wykonywania takiej mobilności, niniejsza dyrektywa nie daje żadnych
+podstaw do:
+a) ograniczania korzystania przez pracowników z informacji, które nie stanowią tajemnicy przedsiębiorstwa
+w rozumieniu art. 2 pkt 1;
+b) ograniczania korzystania przez pracowników z doświadczenia i umiejętności nabytych uczciwie w trakcie zwykłego
+przebiegu ich zatrudnienia;
+c) nakładania na pracowników dodatkowych ograniczeń w umowach o pracę, innych niż ograniczenia nałożone zgodne
+z prawem unijnym lub krajowym.
+Artykuł 2
+Definicje
+Na potrzeby niniejszej dyrektywy zastosowanie mają następujące definicje:
+1) „tajemnica przedsiębiorstwa” oznacza informacje, które spełniają wszystkie następujące wymogi:
+a) są poufne w tym sensie, że jako całość lub w szczególnym zestawie i zbiorze ich elementów nie są ogólnie znane
+lub łatwo dostępne dla osób z kręgów, które zwykle zajmują się tym rodzajem informacji;
+b) mają wartość handlową dlatego, że są objęte tajemnicą;
+c) poddane zostały przez osobę, która zgodnie z prawem sprawuje nad nimi kontrolę, rozsądnym, w danych okolicz
+nościach, działaniom dla utrzymania ich w tajemnicy;
+2) „posiadacz tajemnicy przedsiębiorstwa” oznacza każdą osobę fizyczną lub prawną, która w sposób zgodny z prawem
+sprawuje kontrolę nad tajemnicą przedsiębiorstwa;
+3) „sprawca naruszenia” oznacza każdą osobę fizyczną lub prawną, która bezprawnie pozyskała, wykorzystała lub
+ujawniała tajemnicę przedsiębiorstwa;
+4) „towary stanowiące naruszenie” oznaczają towary, których projekt, cechy charakterystyczne, funkcjonowanie,
+produkcja lub wprowadzanie do obrotu znacznie zyskują w wyniku bezprawnego pozyskiwania, wykorzystywania
+lub ujawniania tajemnic przedsiębiorstwa.
+15.6.2016 L 157/9Dziennik Urzędowy Unii EuropejskiejPL
+ROZDZIAŁ II
+Pozyskiwanie, wykorzystywanie i ujawnianie tajemnic przedsiębiorstwa
+Artykuł 3
+Zgodne z prawem pozyskiwanie, wykorzystywanie i ujawnianie tajemnic przedsiębiorstwa
+1. Pozyskiwanie tajemnicy przedsiębiorstwa uznaje się za zgodne z prawem, gdy tajemnicę przedsiębiorstwa
+pozyskano w jeden z następujących sposobów:
+a) niezależne odkrycie lub wytworzenie;
+b) obserwacja, badanie, rozłożenie na części lub testowanie produktu lub przedmiotu, który został udostępniony
+publicznie lub który zgodnie z prawem jest w posiadaniu osoby, która pozyskała przedmiotową informację i na
+której nie ciąży obowiązek prawny ograniczenia pozyskiwania danej tajemnicy przedsiębiorstwa;
+c) wykonywanie prawa do informacji i konsultacji przysługującego pracownikom lub przedstawicielom pracowników
+zgodnie z prawem unijnym i prawami krajowymi lub praktykami unijnymi i krajowymi;
+d) wszelkie inne praktyki, które w danych okolicznościach uznaje się za zgodne z uczciwymi praktykami handlowymi.
+2. Pozyskiwanie, wykorzystywanie lub ujawnianie tajemnicy przedsiębiorstwa uznaje się za zgodne z prawem
+w zakresie, w jakim takiego pozyskiwania, wykorzystywania lub ujawniania wymaga prawo unijne lub krajowe lub
+w jakim na nie zezwala.
+Artykuł 4
+Bezprawne pozyskiwanie, wykorzystywanie i ujawnianie tajemnic przedsiębiorstwa
+1. Państwa członkowskie zapewniają posiadaczom tajemnic przedsiębiorstwa uprawnienia do występowania o środki
+ogólne, procedury i środki prawne przewidziane w niniejszej dyrektywie w celu zapobiegania bezprawnemu
+pozyskiwaniu, wykorzystywaniu lub ujawnianiu ich tajemnic przedsiębiorstwa oraz w celu uzyskania naprawienia
+szkody zaistniałej z tego powodu.
+2. Pozyskanie tajemnicy przedsiębiorstwa bez zgody posiadacza tajemnicy przedsiębiorstwa uznaje się za bezprawne
+zawsze wówczas, gdy wynika ono:
+a) z nieuprawnionego dostępu, przywłaszczenia lub kopiowania wszelkich dokumentów, przedmiotów, materiałów,
+substancji lub plików elektronicznych, nad którymi zgodnie z prawem posiadacz tajemnicy przedsiębiorstwa
+sprawuje kontrolę, zawierających tajemnicę przedsiębiorstwa lub pozwalających na wywnioskowanie tajemnicy
+przedsiębiorstwa;
+b) z każdego innego postępowania, które uznaje się w danych okolicznościach za sprzeczne z uczciwymi praktykami
+handlowymi.
+3. Wykorzystanie lub ujawnienie tajemnicy przedsiębiorstwa uznaje się za bezprawne w każdym przypadku, gdy bez
+zgody posiadacza tajemnicy przedsiębiorstwa dokonuje go osoba, która spełnia którykolwiek z następujących
+warunków:
+a) pozyskała bezprawnie tajemnicę przedsiębiorstwa;
+b) naruszyła umowę o poufności lub inny obowiązek nieujawniania tajemnicy przedsiębiorstwa;
+c) naruszyła umowny lub inny obowiązek ograniczenia wykorzystywania tajemnicy przedsiębiorstwa.
+4. Pozyskiwanie, wykorzystywanie lub ujawnianie tajemnicy przedsiębiorstwa uznaje się również za bezprawne
+zawsze wówczas, gdy w momencie pozyskiwania, wykorzystywania lub ujawniania osoba wie lub powinna w danych
+okolicznościach wiedzieć, że tajemnicę przedsiębiorstwa uzyskano bezpośrednio lub pośrednio od innej osoby
+wykorzystującej lub ujawniającej tajemnicę przedsiębiorstwa bezprawnie w rozumieniu ust. 3.
+15.6.2016L 157/10 Dziennik Urzędowy Unii EuropejskiejPL
+5. Produkcję, oferowanie lub wprowadzanie do obrotu towarów stanowiących naruszenie oraz przywóz, wywóz bądź
+przechowywanie towarów stanowiących naruszenie do takich celów uznaje się również za bezprawne wykorzystywanie
+tajemnicy przedsiębiorstwa, jeżeli osoba dokonująca tych czynności wiedziała lub powinna była w danych okolicz
+nościach wiedzieć o bezprawnym wykorzystywaniu w rozumieniu ust. 3, tajemnicy przedsiębiorstwa.
+Artykuł 5
+Wyjątki
+Państwa członkowskie zapewniają, by wniosek o zastosowanie środków ogólnych, procedur i środków prawnych przewi
+dzianych w niniejszej dyrektywie został oddalony, jeżeli domniemane pozyskanie, wykorzystywanie lub ujawnienie
+tajemnicy przedsiębiorstwa miało miejsce w jednym z następujących przypadków:
+a) dla wykonywania prawa do wolności wypowiedzi i informacji określonego w Karcie, w tym poszanowania wolności i
+pluralizmu mediów;
+b) dla ujawnienia nieprawidłowości, uchybienia lub działania z naruszeniem prawa, pod warunkiem że pozwany działał
+w celu ochrony ogólnego interesu publicznego;
+c) ujawnienie przez pracowników swoim przedstawicielom w ramach uprawnionego pełnienia przez takich przedsta
+wicieli ich funkcji zgodnie z prawem unijnym lub krajowym, pod warunkiem że takie ujawnienie było konieczne do
+pełnienia tych funkcji;
+d) celem ochrony uzasadnionego interesu uznanego w prawie unijnym lub krajowym.
+ROZDZIAŁ III
+Środki ogólne, procedury i środki prawne
+Sekcja 1
+Przepisy ogólne
+Artykuł 6
+Obowiązek ogólny
+1. Państwa członkowskie ustanawiają środki ogólne, procedury oraz środki prawne konieczne w celu zapewnienia
+dostępności dochodzenia, na drodze cywilnej, naprawienia szkody z tytułu bezprawnego pozyskiwania, wykorzys
+tywania i ujawniania tajemnic przedsiębiorstwa.
+2. Środki ogólne, procedury i środki prawne, o których mowa w ust. 1:
+a) powinny być sprawiedliwe i równe;
+b) nie powinny być niepotrzebnie skomplikowane czy kosztowne, przewidywać nierozsądnych terminów ani
+powodować nieuzasadnionych opóźnień; oraz
+c) powinny być skuteczne i odstraszające.
+Artykuł 7
+Proporcjonalność i nadużywanie środków procesowych
+1. Środki ogólne, procedury oraz środki prawne przewidziane w niniejszej dyrektywie są stosowane w sposób, który:
+a) jest proporcjonalny;
+b) pozwala uniknąć tworzenia barier dla zgodnego z prawem handlu na rynku wewnętrznym; oraz
+c) daje gwarancje przed ich nadużywaniem.
+15.6.2016 L 157/11Dziennik Urzędowy Unii EuropejskiejPL
+2. Państwa członkowskie zapewniają, by właściwe organy sądowe mogły na żądanie pozwanego stosować właściwe
+środki przewidziane w prawie krajowym, w przypadku gdy wniosek dotyczący bezprawnego pozyskania, wykorzys
+tywania lub ujawnienia tajemnicy przedsiębiorstwa jest oczywiście bezzasadny i stwierdzono, że wnioskodawca wszczął
+postępowanie sądowe w sposób stanowiący nadużycie lub w złej wierze. Środki te mogą w stosownych przypadkach
+obejmować przyznanie pozwanemu odszkodowania, nałożenie sankcji na wnioskodawcę lub nakazanie podania do
+publicznej wiadomości informacji dotyczących decyzji, o której mowa w art. 15.
+Państwa członkowskie mogą postanowić, że środki, o których mowa w pierwszym akapicie są rozpatrywane
+w odrębnym postępowaniu sądowym.
+Artykuł 8
+Termin przedawnienia
+1. Państwa członkowskie ustanawiają zgodnie z niniejszym artykułem przepisy dotyczące terminów przedawnienia
+mających zastosowanie do roszczeń materialnoprawnych i powództw o zastosowanie środków ogólnych, procedur i
+środków prawnych przewidzianych w niniejszej dyrektywie.
+Przepisy, o których mowa w akapicie pierwszym, regulują początek biegu terminu przedawnienia, długość terminu
+przedawnienia oraz okoliczności powodujące przerwanie lub zawieszenie biegu terminu przedawnienia.
+2. Długość terminu przedawnienia nie przekracza sześciu lat.
+Artykuł 9
+Zachowanie poufności tajemnic przedsiębiorstwa w trakcie postępowania sądowego
+1. Państwa członkowskie zapewniają, aby strony, ich prawnicy lub inni przedstawiciele, urzędnicy sądowi,
+świadkowie, biegli oraz wszystkie inne osoby biorące udział w postępowaniu sądowym dotyczącym bezprawnego
+pozyskania, wykorzystywania lub ujawnienia tajemnicy przedsiębiorstwa lub mające dostęp do dokumentów
+stanowiących część takiego postępowania sądowego nie mogły wykorzystywać ani ujawniać jakiejkolwiek tajemnicy
+przedsiębiorstwa lub domniemanej tajemnicy przedsiębiorstwa, którą właściwe organy sądowe, w odpowiedzi na
+należycie uzasadniony wniosek zainteresowanej strony, określiły jako poufną i o której dowiedziały się w wyniku takiego
+udziału lub dostępu. W tym względzie państwa członkowskie mogą również umożliwić właściwym organom sądowym
+działanie z urzędu.
+Obowiązek, o którym mowa w akapicie pierwszym, pozostaje w mocy po zakończeniu postępowania sądowego. Taki
+obowiązek ustaje jednak w następujących okolicznościach:
+a) w przypadku gdy w ostatecznym orzeczeniu stwierdza się, że domniemana tajemnica przedsiębiorstwa nie spełnia
+wymogów określonych w art. 2 pkt 1; lub
+b) w przypadku gdy z biegiem czasu informacje, o których mowa, stają się powszechnie znane lub łatwo dostępne
+osobom, które zwykle mają do czynienia z tego rodzaju informacjami.
+2. Państwa członkowskie zapewniają również, aby właściwe organy sądowe – na należycie uzasadniony wniosek
+strony – mogły zastosować środki szczególne niezbędne do zachowania poufności wszelkich tajemnic przedsiębiorstwa
+lub domniemanych tajemnic przedsiębiorstwa wykorzystywanych lub wzmiankowanych w trakcie postępowania
+sądowego dotyczącego bezprawnego pozyskania, wykorzystywania lub ujawnienia tajemnicy przedsiębiorstwa. Państwa
+członkowskie mogą również umożliwić właściwym organom sądowym stosowanie takich środków z urzędu.
+Środki, o których mowa w akapicie pierwszym, obejmują co najmniej możliwość:
+a) ograniczenia dostępu do wszelkich dokumentów zawierających tajemnice przedsiębiorstwa lub domniemane
+tajemnice przedsiębiorstwa przedkładanych przez strony lub osoby trzecie, w całości lub w części, do ograniczonej
+liczbie osób;
+15.6.2016L 157/12 Dziennik Urzędowy Unii EuropejskiejPL
+b) ograniczenia dostępu do rozpraw i posiedzeń, podczas których mogą zostać ujawnione tajemnice przedsiębiorstwa
+lub domniemane tajemnice przedsiębiorstwa, oraz do protokołów lub zapisów z takich rozpraw i posiedzeń, do
+ograniczonej liczby osób;
+c) udostępnienia wszelkim osobom innym niż osoby należące do ograniczonej liczby osób, o której mowa w lit. a) i b),
+każdego orzeczenia sądu w wersji nieopatrzonej klauzulą poufności, z której usunięto lub w której przeredagowano
+fragmenty zawierające tajemnice przedsiębiorstwa.
+Liczba osób, o której mowa w lit. a) i b) akapitu drugiego, nie może być większa, niż jest to konieczne dla zapewnienia
+zgodności z prawem stron postępowania sądowego do skutecznego środka prawnego oraz rzetelnego procesu, i
+obejmuje co najmniej jedną osobę fizyczną z każdej ze stron oraz prawników lub innych przedstawicieli tych stron
+postępowania sądowego.
+3. Przy podejmowaniu decyzji dotyczącej środków, o których mowa w ust. 2, oraz przy ocenie ich proporcjonalności
+właściwe organy sądowe uwzględniają potrzebę zapewnienia prawa do skutecznego środka prawnego i rzetelnego
+procesu, uprawnione interesy stron i, w stosownych przypadkach, osób trzecich oraz wszelkie potencjalne szkody dla
+którejkolwiek ze stron i, w stosownych przypadkach, dla osób trzecich, wynikające z przyjęcia lub odrzucenia takich
+środków.
+4. Wszelkie operacje przetwarzania danych osobowych na mocy ust. 1, 2 lub 3 przeprowadza się zgodnie
+z dyrektywą 95/46/WE.
+Sekcja 2
+Środki tymczasowe i zabezpieczające
+Artykuł 10
+Środki tymczasowe i zabezpieczające
+1. Państwa członkowskie zapewniają, że właściwe organy sądowe mogą zastosować, na żądanie posiadacza tajemnicy
+przedsiębiorstwa, każdy z następujących środków tymczasowych i zabezpieczających wobec domniemanego sprawcy
+naruszenia:
+a) tymczasowe zaprzestanie lub, w zależności od przypadku, zakaz wykorzystywania lub ujawniania tajemnicy przedsię
+biorstwa;
+b) zakaz produkcji, oferowania, wprowadzania do obrotu lub użytkowania towarów stanowiących naruszenie, bądź
+przywozu, wywozu lub przechowywania towarów stanowiących naruszenie do tych celów;
+c) zajęcie lub przekazanie towarów (w tym towarów importowanych), w stosunku do których istnieje podejrzenie, że
+stanowią naruszenie, aby zapobiec wprowadzeniu ich do obrotu lub ich przepływowi na rynku.
+2. Państwa członkowskie zapewniają, by organy sądowe mogły – zamiast środków, o których mowa w ust. 1 –
+uzależnić kontynuację domniemanego bezprawnego wykorzystywania tajemnicy przedsiębiorstwa od złożenia
+zabezpieczeń mających na celu zapewnienie rekompensaty dla posiadacza tajemnicy przedsiębiorstwa. Ujawnienie
+tajemnicy przedsiębiorstwa w zamian za złożenie zabezpieczenia nie jest dopuszczalne.
+Artykuł 11
+Warunki stosowania i środki ochronne
+1. Państwa członkowskie zapewniają, by w odniesieniu do środków, o których mowa w art. 10, właściwe organy
+sądowe miały prawo zażądać od wnioskodawcy przedłożenia dowodów, które można w rozsądny sposób uznać za
+dostępne, w celu upewnienia się w wystarczającym stopniu co do tego, że:
+a) tajemnica przedsiębiorstwa istnieje;
+15.6.2016 L 157/13Dziennik Urzędowy Unii EuropejskiejPL
+b) wnioskodawca jest posiadaczem tajemnicy przedsiębiorstwa; oraz
+c) tajemnicę przedsiębiorstwa pozyskano bezprawnie, jest ona bezprawnie wykorzystywana lub ujawniana, lub wkrótce
+może dojść do bezprawnego pozyskania, wykorzystywania lub ujawnienia tajemnicy przedsiębiorstwa.
+2. Państwa członkowskie zapewniają, by przy podejmowaniu decyzji dotyczącej uwzględnienia lub odrzucenia
+wniosku oraz przy ocenie jego proporcjonalności właściwe organy sądowe były zobowiązane do uwzględnienia
+konkretnych okoliczności danej sprawy, wraz z oceną, w stosownych przypadkach:
+a) wartości i innych cech szczególnych tajemnicy przedsiębiorstwa;
+b) środków podjętych w celu ochrony tajemnicy przedsiębiorstwa;
+c) udziału pozwanego w pozyskiwaniu, wykorzystywaniu lub ujawnianiu tajemnicy przedsiębiorstwa;
+d) skutku bezprawnego wykorzystywania lub ujawnienia tajemnicy przedsiębiorstwa;
+e) uprawnionych interesów stron oraz wpływów, jaki przyjęcie lub odrzucenie środków mogłoby mieć dla stron;
+f) uprawnionych interesów osób trzecich;
+g) interesu publicznego; oraz
+h) ochrony praw podstawowych.
+3. Państwa członkowskie zapewniają, by na żądanie pozwanego środki, o których mowa w art. 10, zostały uchylone
+lub w inny sposób przestały obowiązywać, jeżeli:
+a) wnioskodawca nie wszczyna postępowania sądowego prowadzącego do wydania orzeczenia co do istoty sprawy
+przez właściwy organ sądowy w rozsądnym terminie określonym przez organ sądowy stosujący środki, jeżeli
+pozwala na to prawo państwa członkowskiego lub, w przypadku braku takiego rozstrzygnięcia, w terminie nieprze
+kraczającym 20 dni roboczych lub 31 dni kalendarzowych, w zależności od tego, który termin jest dłuższy;
+b) przedmiotowe informacje nie spełniają już wymogów określonych w art. 2 pkt 1 z przyczyn, za które pozwany nie
+odpowiada.
+4. Państwa członkowskie zapewniają, by właściwe organy sądowe mogły uzależnić wprowadzenie środków, o których
+mowa w art. 10, od złożenia przez wnioskodawcę odpowiedniego zabezpieczenia lub równoważnej gwarancji w celu
+zapewnienia rekompensaty za wszelkie szkody poniesione przez pozwanego oraz, w stosownych przypadkach, przez
+wszystkie inne osoby dotknięte przez te środki.
+5. W przypadku gdy środki, o których mowa w art. 10 zostają uchylone na podstawie ust. 3 lit. a) niniejszego
+artykułu, w przypadku gdy upadają one na skutek jakiegokolwiek działania lub zaniechania wnioskodawcy, lub
+w przypadku gdy stwierdzono następnie, że nie miało miejsca bezprawne pozyskanie, wykorzystywanie lub ujawnienie
+tajemnicy przedsiębiorstwa i nie pojawiło się zagrożenie wystąpienia takiego czynu, właściwe organy sądowe mogą
+zasądzić od wnioskodawcy, na żądanie pozwanego lub poszkodowanej osoby trzeciej, odpowiednią rekompensatę na
+rzecz pozwanego lub poszkodowanej osobie trzeciej za wszelkie szkody poniesione w wyniku zastosowania tych
+środków.
+Państwa członkowskie mogą postanowić, że wniosek o rekompensatę, o której mowa w akapicie pierwszym, jest
+rozpatrywany w odrębnym postępowaniu sądowym.
+15.6.2016L 157/14 Dziennik Urzędowy Unii EuropejskiejPL
+Sekcja 3
+Środki wynika jące z orzeczenia co do istoty sprawy
+Artykuł 12
+Nakazy sądowe i środki naprawcze
+1. Państwa członkowskie zapewniają, by w przypadku stwierdzenia bezprawnego pozyskiwania, wykorzystywania lub
+ujawniania tajemnicy przedsiębiorstwa w orzeczeniu sądowym co do istoty sprawy właściwe organy sądowe mogły – na
+żądanie wnioskodawcy – nakazać zastosowanie wobec sprawcy naruszenia co najmniej jednego z poniższych środków:
+a) zaprzestanie lub, w zależności od przypadku, zakaz wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa;
+b) zakaz produkcji, oferowania, wprowadzania do obrotu lub użytkowania towarów stanowiących naruszenie prawa,
+bądź zakaz przywozu, wywozu lub przechowywania towarów stanowiących naruszenie do tych celów;
+c) przyjęcie stosownych środków naprawczych w odniesieniu do towarów stanowiących naruszenie;
+d) zniszczenie – w całości lub częściowo – wszelkich dokumentów, przedmiotów, materiałów, substancji lub plików
+elektronicznych obejmujących bądź wykorzystujących tajemnicę przedsiębiorstwa lub, w stosownych przypadkach,
+dostarczenie wnioskodawcy całości lub części tych dokumentów, przedmiotów, materiałów, substancji i plików
+elektronicznych.
+2. Środki naprawcze, o których mowa w ust. 1 lit. c), obejmują:
+a) wycofanie z rynku towarów stanowiących naruszenie;
+b) pozbawienie towarów stanowiących naruszenie cech naruszenia;
+c) zniszczenie towarów stanowiących naruszenie lub, w stosownych przypadkach, wycofanie ich z obrotu, pod
+warunkiem że takie wycofanie nie zagraża ochronie przedmiotowej tajemnicy przedsiębiorstwa.
+3. Państwa członkowskie mogą wprowadzić przepisy przewidujące, że w przypadku nakazu wycofania z rynku
+towarów stanowiących naruszenie ich właściwe organy sądowe mogą nakazać, na żądanie posiadacza tajemnicy przedsię
+biorstwa, przekazanie towarów posiadaczowi lub organizacjom charytatywnym.
+4. Właściwe organy sądowe nakazują, aby środki, o których mowa w ust. 1 lit. c) i d), zostały przeprowadzone na
+koszt sprawcy naruszenia, chyba że istnieją szczególne powody, aby tego nie robić. Środki te nie wpływają na roszczenia
+odszkodowawcze, jakie mogą przysługiwać posiadaczowi tajemnicy przedsiębiorstwa z tytułu bezprawnego
+pozyskiwania, wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa.
+Artykuł 13
+Warunki stosowania, środki ochronne i środki alternatywne
+1. Państwa członkowskie zapewniają, by przy rozpatrywaniu wniosku o wydanie nakazów sądowych lub o przyjęcie
+środków naprawczych przewidzianych w art. 12 oraz przy ocenie ich proporcjonalności właściwe organy sądowe były
+zobowiązane do uwzględnienia konkretnych okoliczności danej sprawy, wraz z oceną, w stosownych przypadkach:
+a) wartości i innych cech szczególnych tajemnicy przedsiębiorstwa;
+b) środków podjętych w celu ochrony tajemnicy przedsiębiorstwa;
+15.6.2016 L 157/15Dziennik Urzędowy Unii EuropejskiejPL
+c) udziału sprawcy naruszenia w pozyskiwaniu, wykorzystywaniu lub ujawnianiu tajemnicy przedsiębiorstwa;
+d) skutku bezprawnego wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa;
+e) uprawnionych interesów stron oraz wpływu, jaki przyjęcie lub odrzucenie środków mogłoby mieć dla stron;
+f) uprawnionych interesów osób trzecich;
+g) interesu publicznego; oraz
+h) ochrony praw podstawowych.
+Jeżeli właściwe organy sądowe ograniczają czas stosowania środka, o którym mowa w art. 12 ust. 1 lit. a) i b), okres ten
+musi być wystarczający do usunięcia wszelkich korzyści handlowych lub gospodarczych, jakie sprawca naruszenia mógł
+uzyskać w wyniku bezprawnego pozyskiwania, wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa.
+2. Państwa członkowskie zapewniają, aby na żądanie pozwanego środki, o których mowa w art. 12 ust. 1 lit. a) i b),
+zostały uchylone lub w inny sposób przestały obowiązywać, jeżeli przedmiotowe informacje przestały spełniać wymogi
+określone w art. 2 pkt 1 z przyczyn, za które pozwany nie odpowiada bezpośrednio lub pośrednio.
+3. Państwa członkowskie zapewniają, aby na żądanie osoby, która może podlegać środkom przewidzianym w art. 12,
+właściwy organ sądowy mógł zarządzić wypłacenie rekompensaty pieniężnej na rzecz poszkodowanego zamiast
+stosowania tych środków, jeżeli spełnione są wszystkie następujące warunki:
+a) dana osoba w momencie wykorzystywania lub ujawniania nie wiedziała ani nie miała powodu, by w danych okolicz
+nościach wiedzieć, że tajemnicę przedsiębiorstwa uzyskano od innej osoby, która bezprawnie wykorzystywała lub
+ujawniała tajemnicę przedsiębiorstwa;
+b) wprowadzenie przedmiotowych środków spowodowałoby dla takiej osoby niewspółmierne szkody; oraz
+c) rekompensata pieniężna dla poszkodowanego wydaje się stosunkowo zadowalająca.
+W przypadku nakazania rekompensaty pieniężnej zamiast środków, o których mowa w art. 12 ust. 1 lit. a) i b), taka
+rekompensata pieniężna nie jest wyższa niż suma opłat licencyjnych lub honorariów, które byłyby należne w razie
+wystąpienia przez tę osobę z wnioskiem o zezwolenie na wykorzystywanie przedmiotowej tajemnicy przedsiębiorstwa
+przez okres, w którym wykorzystywanie tajemnicy przedsiębiorstwa byłoby zabronione.
+Artykuł 14
+Odszkodowanie
+1. Państwa członkowskie zapewniają, aby na żądanie poszkodowanego właściwe organy sądowe nakazały sprawcy
+naruszenia, który wiedział lub powinien był wiedzieć, że dokonywał bezprawnego pozyskiwania, wykorzystywania lub
+ujawniania tajemnicy przedsiębiorstwa, wypłatę odszkodowania na rzecz posiadacza tajemnicy przedsiębiorstwa
+w wysokości odpowiedniej do szkody faktycznie poniesionej w wyniku bezprawnego pozyskania, wykorzystywania lub
+ujawnienia tajemnicy przedsiębiorstwa.
+Państwa członkowskie mogą ograniczyć odpowiedzialność za szkody spowodowane przez pracowników wobec swoich
+pracodawców wskutek bezprawnego pozyskania, wykorzystywania lub ujawnienia tajemnicy pracodawcy, gdy
+pracownicy działali nieumyślnie.
+2. Przy ustalaniu wysokości odszkodowania, o którym mowa w ust. 1 właściwe organy sądowe uwzględniają
+wszystkie odpowiednie czynniki takie jak poniesione przez poszkodowanego negatywne skutki ekonomiczne, łącznie
+z utraconymi korzyściami, wszelkie nieuczciwe korzyści osiągnięte przez sprawcę naruszenia oraz, w stosownych
+przypadkach, elementy inne niż czynniki ekonomiczne, takie jak np. szkodę niemajątkową, jaką poniósł posiadacz
+tajemnicy przedsiębiorstwa w wyniku bezprawnego pozyskiwania, wykorzystywania lub ujawniania tajemnicy przedsię
+biorstwa.
+Właściwe organy sądowe mogą alternatywnie, w stosownych przypadkach, ustalić wysokość odszkodowania, jako
+płatność ryczałtową na podstawie co najmniej takich elementów jak wysokość opłat licencyjnych lub honorariów, jakie
+byłyby należne w razie wystąpienia przez sprawcę naruszenia o zezwolenie na wykorzystywanie przedmiotowej
+tajemnicy przedsiębiorstwa.
+15.6.2016L 157/16 Dziennik Urzędowy Unii EuropejskiejPL
+Artykuł 15
+Publikacja orzeczeń sądowych
+1. Państwa członkowskie zapewniają, by w ramach postępowania sądowego wszczętego z powodu bezprawnego
+pozyskania, wykorzystywania lub ujawnienia tajemnicy przedsiębiorstwa właściwe organy sądowe mogły, na żądanie
+wnioskodawcy i na koszt sprawcy naruszenia, nakazać zastosowanie odpowiednich środków w celu podania orzeczenia
+do publicznej wiadomości, łącznie z publikacją orzeczenia w całości lub w części.
+2. Wszystkie środki, o których mowa w ust. 1 niniejszego artykułu, zachowują poufność tajemnic przedsiębiorstwa,
+zgodnie z art. 9.
+3. Przy podejmowaniu decyzji o zastosowaniu środka wskazanego w ust. 1 oraz przy ocenie jego proporcjonalności
+właściwe organy sądowe uwzględniają, w stosownych przypadkach, wartość tajemnicy przedsiębiorstwa, postępowanie
+sprawcy naruszenia podczas pozyskiwania, wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa, skutek
+bezprawnego wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa oraz prawdopodobieństwo dalszego
+bezprawnego wykorzystywania lub ujawniania tajemnicy przedsiębiorstwa przez sprawcę naruszenia.
+Właściwe organy sądowe uwzględniają również, czy informacja na temat sprawcy naruszenia pozwalają zidentyfikować
+osobę fizyczną a jeżeli tak jest to, czy opublikowanie tej informacji byłoby uzasadnione, w szczególności w świetle
+ewentualnego naruszenia prywatności i dobrego imienia sprawcy naruszenia przez taki środek.
+ROZDZIAŁ IV
+Kary, sprawozdawczość i przepisy końcowe
+Artykuł 16
+Kary za nieprzestrzeganie niniejszej dyrektywy
+Państwa członkowskie zapewniają właściwym organom sądowym możliwość nałożenia kar na każdą osobę, która nie
+stosuje się do środków przyjętych zgodnie z art. 9, 10 i 12 lub odmawia ich stosowania.
+Przewidziane kary obejmują możliwość nałożenia okresowych kar pieniężnych w przypadku niedostosowania się do
+środka przyjętego na podstawie art. 10 i 12.
+Przewidziane kary muszą być skuteczne, proporcjonalne i odstraszające.
+Artykuł 17
+Wymiana informacji i korespondenci
+W celu wspierania współpracy, w tym wymiany informacji, między państwami członkowskimi oraz między państwami
+członkowskimi a Komisją każde państwo członkowskie wyznacza co najmniej jednego korespondenta krajowego
+odpowiedzialnego za wszelkie kwestie związane z wdrażaniem środków przewidzianych w niniejszej dyrektywie. Każde
+państwo członkowskie przekazuje dane korespondenta lub korespondentów krajowych pozostałym państwom
+członkowskim i Komisji.
+Artykuł 18
+Sprawozdania
+1. Do dnia 9 czerwca 2021 r. Urząd Unii Europejskiej ds. Własności Intelektualnej przygotuje – w kontekście
+działalności europejskiego obserwatorium do spraw naruszeń praw własności intelektualnej – wstępne sprawozdanie na
+temat tendencji w sporach sądowych wszczynanych na podstawie niniejszej dyrektywy w związku z bezprawnym
+pozyskiwaniem, wykorzystywaniem lub ujawnianiem tajemnic przedsiębiorstwa.
+2. Do dnia 9 czerwca 2022 r. Komisja sporządzi sprawozdanie okresowe w sprawie stosowania niniejszej dyrektywy
+i przedstawia je Parlamentowi Europejskiemu i Radzie. W sprawozdaniu tym w należyty sposób należy uwzględnić
+sprawozdanie, o którym mowa w ust. 1.
+15.6.2016 L 157/17Dziennik Urzędowy Unii EuropejskiejPL
+Sprawozdanie okresowe powinno zawierać w szczególności analizę ewentualnych skutków stosowania niniejszej
+dyrektywy dla badań i innowacji, mobilności pracowników i dla korzystania z prawa do wolności wypowiedzi i
+informacji.
+3. Do dnia 9 czerwca 2026 r. Komisja przeprowadzi ocenę wpływu niniejszej dyrektywy i przedstawia sprawozdanie
+Parlamentowi Europejskiemu i Radzie.
+Artykuł 19
+Transpozycja
+1. Państwa członkowskie wprowadzają w życie przepisy ustawowe, wykonawcze i administracyjne niezbędne do
+wykonania niniejszej dyrektywy do dnia 9 czerwca 2018 r. Państwa członkowskie niezwłocznie przekazują Komisji tekst
+tych środków.
+Środki przyjęte przez państwa członkowskie zawierają odniesienie do niniejszej dyrektywy lub odniesienie takie
+towarzyszy ich urzędowej publikacji. Metody dokonywania takiego odniesienia określane są przez państwa
+członkowskie.
+2. Państwa członkowskie przekazują Komisji tekst podstawowych przepisów prawa krajowego, przyjętych
+w dziedzinie objętej niniejszą dyrektywą.
+Artykuł 20
+Wejście w życie
+Niniejsza dyrektywa wchodzi w życie dwudziestego dnia po jej opublikowaniu w Dzienniku Urzędowym Unii Europejskiej.
+Artykuł 21
+Adresaci
+Niniejsza dyrektywa skierowana jest do państw członkowskich.
+Sporządzono w Strasburgu dnia 8 czerwca 2016 r.
+W imieniu Parlamentu Europejskiego
+M. SCHULZ
+Przewodniczący
+W imieniu Rady
+A.G. KOENDERS
+Przewodniczący
+15.6.2016L 157/18 Dziennik Urzędowy Unii EuropejskiejPL
