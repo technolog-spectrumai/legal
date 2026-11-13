@@ -1,0 +1,341 @@
+% !TeX program = pdflatex
+% Podręcznik podejmowania decyzji --- wersja skrócona (diagramy i krótkie komentarze)
+% Streszcza umowę spółki (psa.tex), umowę akcjonariuszy (basilisk_sha.tex) i dokumenty wewnętrzne.
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage{float}
+\usetikzlibrary{positioning,arrows.meta,shapes.geometric,calc,fit}
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Założyciele}
+\BusinessPlanConfidentialText{Dokument wewnętrzny}
+\BusinessPlanFooterText{Basilisk Systems --- podręcznik decyzji (skrót)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.1}
+\setlist[itemize]{topsep=0.2em,itemsep=0.12em,parsep=0.05em,leftmargin=1.8em}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.12em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+\renewcommand{\thesection}{\arabic{section}}
+\captionsetup{font=small,labelfont=bf}
+
+\externaldocument{psa}[psa.pdf]
+\externaldocument{basilisk_sha}[basilisk_sha.pdf]
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- podręcznik decyzji (skrót)},
+  pdfauthor={Basilisk Systems}
+}
+
+% ---------------------------------------------------------------- style diagramów
+\definecolor{cWZ}{HTML}{1F4E79}
+\definecolor{cRD}{HTML}{2E7D32}
+\definecolor{cDW}{HTML}{8D6E00}
+\definecolor{cX}{HTML}{8E2430}
+\tikzset{
+  >={Stealth[length=2.2mm]},
+  every node/.style={font=\small, align=center},
+  box/.style={draw, rounded corners=2pt, minimum height=8mm, inner sep=4pt, text width=#1},
+  box/.default=3.6cm,
+  wz/.style={box=#1, fill=cWZ!12, draw=cWZ},
+  wz/.default=3.6cm,
+  rd/.style={box=#1, fill=cRD!12, draw=cRD},
+  rd/.default=3.6cm,
+  dw/.style={box=#1, fill=cDW!14, draw=cDW},
+  dw/.default=3.6cm,
+  xx/.style={box=#1, fill=cX!10, draw=cX},
+  xx/.default=3.6cm,
+  q/.style={draw, diamond, aspect=2.4, inner sep=1.5pt, fill=black!4, text width=#1},
+  q/.default=3.4cm,
+  lbl/.style={font=\scriptsize, fill=white, inner sep=1.5pt},
+  line/.style={->, thick},
+}
+\newtcolorbox{Uwaga}{colback=cX!5, colframe=cX!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+% odesłania do bibliografii (definicje także w basilisk_bib.tex, przez \providecommand)
+\makeatletter
+\newcommand{\BibItem}[2]{\item[\textbf{[#1]}]\def\@currentlabel{#1}\def\@currentlabelname{#1}\phantomsection\label{bib:#2}}
+\makeatother
+\newcommand{\Zr}[1]{[\ref{bib:#1}]}
+\newtcolorbox{Komentarz}{colback=black!3, colframe=black!45, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt, fonttitle=\small\bfseries, title=Komentarz}
+\newtcolorbox{Zasada}{colback=cWZ!5, colframe=cWZ!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- skrót}
+  {Podręcznik decyzji --- skrót}
+  {Kto decyduje i jak --- w diagramach}
+  {Wersja skrócona; pełne zasady w podręczniku podejmowania decyzji}
+  {1.0}
+
+\begin{Uwaga}
+Wersja skrócona: same diagramy i krótkie komentarze. Szczegóły, wyjątki i podstawy prawne --- w pełnym podręczniku (\texttt{basilisk\_decyzje.pdf}). W razie rozbieżności rozstrzyga umowa spółki.
+\end{Uwaga}
+
+\section*{Organy Spółki}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=9mm and 6mm]
+  \node[wz=5.2cm] (akc) {\textbf{Akcjonariusze}\\1 akcja = 1 głos};
+  \node[wz=5.2cm, below=of akc] (wz) {\textbf{Walne Zgromadzenie}\\albo uchwała poza WZ (e-mail)};
+  \node[rd=5.2cm, below=14mm of wz] (rd) {\textbf{Rada Dyrektorów}\\3--7 dyrektorów, kadencja 3 lata\\Przewodniczący: głos rozstrzygający};
+  \node[dw=3.8cm, below=14mm of rd, xshift=-2.6cm] (dw) {\textbf{Dyrektor wykonawczy}\\(co najmniej jeden)\\bieżąca działalność};
+  \node[rd=3.8cm, below=14mm of rd, xshift=2.6cm] (dn) {\textbf{Dyrektor niewykonawczy}\\(co najmniej jeden)\\nadzór, umowy z dyr.~wyk.};
+  \node[box=2.6cm, right=22mm of rd] (pr) {\textbf{Prokurent}\\(opcjonalnie)};
+  \draw[line] (akc) -- (wz);
+  \draw[line] (wz) -- node[lbl, right, text width=4.2cm, align=left]{powołuje i odwołuje\\(bezwzględna większość oddanych)} (rd);
+  \draw[line] (rd.south) ++(-1.2,0) -- node[lbl, left]{deleguje} (dw.north);
+  \draw[line] (rd.south) ++(1.2,0) -- (dn.north);
+  \draw[line] (rd) -- node[lbl, above, text width=1.9cm]{zgoda wszystkich dyrektorów} (pr);
+  \node[box=10cm, below=8mm of dw.south east, anchor=north, xshift=0.6cm, fill=black!3] (rep) {\textbf{Reprezentacja wobec osób trzecich:} dwóch dyrektorów łącznie albo dyrektor z prokurentem (US §~\ref{art:reprezentacja} ust.~1)};
+\end{tikzpicture}
+\caption{Struktura organów (US §~\ref{art:rada}--\ref{art:wz}).}
+\end{figure}
+\begin{Komentarz}
+Akcjonariusze wybierają Radę; Rada prowadzi sprawy i nadzoruje, bieżącą pracę wykonuje dyrektor wykonawczy. Za Spółkę podpisuje dwóch dyrektorów albo dyrektor z prokurentem (US §~\ref{art:reprezentacja}).
+\end{Komentarz}
+
+\section*{Kto decyduje?}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 9mm]
+  \node[box=3.2cm, fill=black!8] (start) {\textbf{Nowa sprawa}};
+  \node[q, below=of start] (q1) {Pozbawienie prawa poboru?};
+  \node[wz=4.4cm, right=of q1] (a1) {\textbf{WZ --- 4/5 głosów}\\US §~\ref{art:emisje} ust.~6};
+  \node[q, below=of q1] (q2) {Sprawa z listy\\„75\%” (tabela 1)?};
+  \node[wz=4.4cm, right=of q2] (a2) {\textbf{WZ --- 75\% wszystkich głosów w Spółce}\\US §~\ref{art:wz-zastrzezone} ust.~1};
+  \node[q, below=of q2] (q3) {Dyrektorzy, sprawozdanie, absolutorium, zysk, wynagrodzenie dyrektorów?};
+  \node[wz=4.4cm, right=of q3] (a3) {\textbf{WZ --- bezwzględna większość oddanych}\\US §~\ref{art:wz-zastrzezone} ust.~3};
+  \node[q, below=of q3] (q4) {Sprawa z listy Rady (tabela 2)?};
+  \node[rd=4.4cm, right=of q4] (a4) {\textbf{Uchwała Rady Dyrektorów}\\US §~\ref{art:rada} ust.~5 i 7};
+  \node[dw=4.4cm, below=of q4] (a5) {\textbf{Dyrektor wykonawczy}\\w granicach budżetu i regulaminu Rady};
+  \draw[line] (start) -- (q1);
+  \foreach \i/\j in {1/2,2/3,3/4} \draw[line] (q\i) -- node[lbl, left]{nie} (q\j);
+  \draw[line] (q4) -- node[lbl, left]{nie} (a5);
+  \foreach \i in {1,2,3,4} \draw[line] (q\i) -- node[lbl, above]{tak} (a\i);
+\end{tikzpicture}
+\caption{Drzewo decyzyjne: który organ i jaka większość.}
+\end{figure}
+\begin{Komentarz}
+Idź od góry: pierwsze „tak” wskazuje organ. „75\% wszystkich głosów” liczy się od wszystkich akcji, nie od obecnych --- nieobecny działa jak głos „przeciw”.
+\end{Komentarz}
+
+\section*{Progi kwotowe}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=0.0165cm, y=1cm]
+  % oś
+  \draw[->] (0,0) -- (640,0) node[right, font=\scriptsize]{tys. zł};
+  \foreach \v in {0,100,250,500} {\draw (\v,0.08) -- (\v,-0.08) node[below, font=\scriptsize]{\v};}
+  % pas 1: wydatek poza budżetem
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,1.2) {umowa / wydatek\\poza budżetem};
+  \fill[cDW!25] (0,0.85) rectangle (250,1.55);  \node[font=\scriptsize] at (125,1.2) {dyrektor wykonawczy};
+  \fill[cRD!25] (250,0.85) rectangle (500,1.55); \node[font=\scriptsize] at (375,1.2) {Rada Dyrektorów};
+  \fill[cWZ!25] (500,0.85) rectangle (630,1.55); \node[font=\scriptsize] at (565,1.2) {WZ 75\%};
+  % pas 2: finansowanie / zabezpieczenie / aktywa
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {finansowanie, zabezpie-\\czenie, zbycie aktywów};
+  \fill[cDW!25] (0,1.95) rectangle (100,2.65);  \node[font=\scriptsize] at (50,2.3) {dyr.~wyk.};
+  \fill[cRD!25] (100,1.95) rectangle (500,2.65); \node[font=\scriptsize] at (300,2.3) {Rada Dyrektorów};
+  \fill[cWZ!25] (500,1.95) rectangle (630,2.65); \node[font=\scriptsize] at (565,2.3) {WZ 75\%};
+  % pas 3: w budżecie
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,3.4) {wydatek w ramach\\przyjętego budżetu};
+  \fill[cDW!25] (0,3.05) rectangle (630,3.75); \node[font=\scriptsize] at (315,3.4) {dyrektor wykonawczy (w granicach regulaminu Rady)};
+  \foreach \v in {100,250,500} \draw[densely dotted, black!50] (\v,0) -- (\v,3.85);
+\end{tikzpicture}
+\caption{Kto zatwierdza czynność w zależności od kwoty (US §~\ref{art:rada} ust.~7, §~13 ust.~1 lit.~h).}
+\end{figure}
+\begin{Komentarz}
+Nie dziel transakcji, aby zejść pod próg. Najwięcej decyzji przekazuje dyrektorowi wykonawczemu dobrze przyjęty budżet. Progi zmienia tylko zmiana umowy (75\%, notariusz); uchwałą akcjonariuszy można je jedynie zaostrzyć wewnętrznie.
+\end{Komentarz}
+
+\section*{Uchwała akcjonariuszy e-mailem}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 5mm]
+  \node[wz=2.9cm] (s1) {\textbf{1. Projekt}\\Rada, Przewodniczący albo akcjonariusz z $\ge$5\% głosów rozsyła projekt z uzasadnieniem};
+  \node[wz=2.9cm, right=of s1] (s2) {\textbf{2. Głosowanie}\\e-mailem z adresu z rejestru; termin: 3 dni robocze -- 21 dni};
+  \node[wz=2.9cm, right=of s2] (s3) {\textbf{3. Podjęcie}\\z upływem terminu albo wcześniej, gdy jest większość wszystkich głosów};
+  \node[wz=2.9cm, right=of s3] (s4) {\textbf{4. Wynik}\\Przewodniczący stwierdza wynik i zawiadamia e-mailem; wpis do księgi protokołów};
+  \draw[line] (s1) -- (s2); \draw[line] (s2) -- (s3); \draw[line] (s3) -- (s4);
+\end{tikzpicture}
+\caption{Uchwała poza Walnym Zgromadzeniem (US §~\ref{art:wz} ust.~2--3 i 8).}
+\end{figure}
+\begin{Komentarz}
+E-mail z adresu z rejestru akcjonariuszy wystarcza. Zmianę umowy spółki podejmuje się na Walnym Zgromadzeniu u notariusza.
+\end{Komentarz}
+
+\section*{Zgoda na zbycie akcji}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 8mm]
+  \node[box=4.2cm, fill=black!8] (z) {\textbf{Zgłoszenie do Spółki}\\nabywca, cena, istotne warunki};
+  \node[q=3.3cm, below=of z] (lock) {Lock-up 12 mies.\\od wpisu / Dnia Przyznania F?};
+  \node[wz=3.4cm, right=of lock] (lockwz) {zgoda WZ 75\%\\(albo czekać)};
+  \node[rd=4.2cm, below=of lock] (rd) {\textbf{Rada Dyrektorów}\\14 dni na zgodę albo odmowę\\(forma dokumentowa, e-mail)};
+  \node[rd=3.4cm, below=10mm of rd] (no) {\textbf{Odmowa}\\tylko z przyczyn a)--e), z ich wskazaniem};
+  \node[rd=2.8cm, left=6mm of no] (ok) {\textbf{Zgoda}\\$\to$ wpis nabywcy do rejestru};
+  \node[xx=3.2cm, right=6mm of no] (cisza) {\textbf{Milczenie}\\$\ne$ zgoda};
+  \node[rd=3.4cm, below=of no] (e) {Przyczyna e) (konkurent): Spółka w 30 dni wskazuje innego nabywcę na tych samych warunkach --- inaczej musi udzielić zgody};
+  \node[xx=3.2cm, below=of cisza] (w7) {wezwanie Rady\\+ 7 dni};
+  \node[wz=3.2cm, below=of w7] (ua) {uchwała akcjonariuszy poza WZ --- 14 dni (tylko z przyczyn a--e)};
+  \node[xx=3.2cm, below=of ua] (sad) {sąd: żądanie złożenia oświadczenia o zgodzie (art.~64 KC)};
+  \draw[line] (z) -- (lock);
+  \draw[line] (lock) -- node[lbl, above]{tak} (lockwz);
+  \draw[line] (lock) -- node[lbl, left]{nie} (rd);
+  \draw[line] (rd) -- (ok); \draw[line] (rd) -- (no); \draw[line] (rd) -- (cisza);
+  \draw[line] (no) -- (e);
+  \draw[line] (cisza) -- (w7); \draw[line] (w7) -- (ua); \draw[line] (ua) -- node[lbl, right]{brak zgody\\i brak odmowy} (sad);
+\end{tikzpicture}
+\caption{Procedura zgody na zbycie akcji (US §~\ref{art:zbywanie} ust.~1--4).}
+\end{figure}
+\begin{Komentarz}
+Rada musi zgodzić się, jeżeli nie ma jednej z pięciu przyczyn odmowy. Milczenie Rady nie jest zgodą, ale nie blokuje sprzedaży na zawsze.
+\end{Komentarz}
+
+\section*{Vesting}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=0.245cm, y=0.042cm]
+  \draw[->] (0,0) -- (51,0) node[right, font=\scriptsize]{miesiące};
+  \draw[->] (0,0) -- (0,108) node[above, font=\scriptsize]{\% akcji zwolnionych};
+  \foreach \m in {0,6,12,24,36,48} \draw (\m,1.5) -- (\m,-1.5) node[below, font=\scriptsize]{\m};
+  \foreach \p in {25,50,75,100} {\draw (0.3,\p) -- (-0.3,\p) node[left, font=\scriptsize]{\p}; \draw[black!12] (0,\p) -- (50,\p);}
+  % Założyciel Pierwotny
+  \draw[very thick, cWZ] (0,25) -- (6,25) -- (6,37.5) -- (36,100) -- (49,100);
+  \fill[cWZ] (0,25) circle (0.25 and 1.6);
+  \node[font=\scriptsize, cWZ, anchor=west, text width=4.2cm, align=left] at (1,90) {\textbf{Założyciel Pierwotny:} 25\% od razu, cliff 6 mies., potem co miesiąc do 36 mies.};
+  % Seria F
+  \draw[very thick, cRD, dashed] (0,0) -- (12,0) -- (12,25) -- (48,100) -- (49,100);
+  \node[font=\scriptsize, cRD, anchor=west, text width=4.2cm, align=left] at (26,40) {\textbf{Seria F:} cliff 12 mies. (25\%), potem co miesiąc do 48 mies.};
+\end{tikzpicture}
+\caption{Zwalnianie akcji z obowiązku zbycia. Do chwili zwolnienia akcje dają pełne prawa (US §~\ref{art:obowiazek-zbycia} ust.~3).}
+\end{figure}
+\begin{Komentarz}
+Założyciel: 25\% od razu, reszta przez 36 miesięcy po 6-miesięcznym cliffie. Seria F: cliff 12 miesięcy, potem do 48 miesięcy.
+\end{Komentarz}
+
+\section*{Odejście}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 6mm]
+  \node[box=4.6cm, fill=black!8] (ev) {\textbf{Ustanie zaangażowania}\\(rozwiązanie umowy, rezygnacja, śmierć, niezdolność)};
+  \node[rd=4.6cm, below=of ev] (st) {\textbf{Rada stwierdza ustanie} w 30 dni (bez udziału zainteresowanego): dzień i liczba akcji niezwolnionych};
+  \node[q=3.1cm, below=of st] (typ) {Rodzaj odejścia?};
+  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Rozwiązanie bez przyczyny / odejście uzgodnione}\\zwalnia się dodatkowo 12 mies.};
+  \node[wz=3.4cm, left=6mm of u] (d) {\textbf{Śmierć / trwała niezdolność}\\zwalniają się \textbf{wszystkie} akcje};
+  \node[xx=3.4cm, right=6mm of u] (z) {\textbf{Odejście Zwykłe}\\bez dodatkowego zwolnienia};
+  \node[rd=6.2cm, below=12mm of u] (n) {Akcje niezwolnione $\to$ zbycie \textbf{po cenie emisyjnej}: Rada wskazuje nabywcę w 3 mies.; potem Założyciele Pierwotni w 30 dni; po 6 mies. obowiązek wygasa};
+  \node[wz=6.2cm, below=of n] (wz75) {WZ może (75\%) zwolnić także pozostałe akcje};
+  \draw[line] (ev) -- (st); \draw[line] (st) -- (typ);
+  \draw[line] (typ) -| (d); \draw[line] (typ) -- (u); \draw[line] (typ) -| (z);
+  \draw[line] (u) -- (n); \draw[line] (z) |- (n);
+  \draw[line] (n) -- (wz75);
+\end{tikzpicture}
+\caption{Ustanie zaangażowania i los akcji niezwolnionych.}
+\end{figure}
+\begin{Komentarz}
+Dobre odejście zwalnia akcje automatycznie. Przy Odejściu Zwykłym akcje niezwolnione wracają po cenie emisyjnej.
+\end{Komentarz}
+
+\section*{Umowy z dyrektorami}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 8mm]
+  \node[box=4.4cm, fill=black!8] (u) {\textbf{Umowa albo spór Spółki z dyrektorem}};
+  \node[q=3.0cm, below=of u] (q) {Dyrektor wykonawczy?};
+  \node[rd=4.6cm, below left=9mm and -10mm of q] (dn) {Dyrektor niewykonawczy na podstawie uchwały dyrektorów niewykonawczych\\\textbf{albo} pełnomocnik z uchwały akcjonariuszy};
+  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy do zawarcia, zmiany, wykonania i rozwiązania umowy (może być poza WZ; nie strona umowy ani inny dyrektor)};
+  \node[xx=9.8cm, anchor=north] (poz) at ($(q |- pe.south)+(0,-5mm)$) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
+  \draw[line] (u) -- (q);
+  \draw[line] (q) -- node[lbl, left]{tak} (dn);
+  \draw[line] (q) -- node[lbl, right]{nie} (pe);
+\end{tikzpicture}
+\caption{Reprezentacja Spółki w sprawach z dyrektorem (US §~\ref{art:reprezentacja} ust.~3).}
+\end{figure}
+\begin{Komentarz}
+Za Spółkę nigdy nie podpisuje sam zainteresowany dyrektor. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich takich umów --- także do ich zmiany i rozwiązania.
+\end{Komentarz}
+
+\section*{Zmiana umowy spółki}
+
+
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 7mm]
+  \node[box=4.6cm, fill=black!8] (p) {\textbf{Projekt zmiany umowy\\{\normalfont Rada albo akcjonariusz}}};
+  \node[wz=4.6cm, below=of p] (wz) {\textbf{Walne Zgromadzenie\\{\normalfont z notariuszem (nie e-mailem)}}};
+  \node[wz=4.6cm, below=of wz] (g) {\textbf{75\% wszystkich głosów w Spółce\\{\normalfont US §~\ref{art:wz-zastrzezone} ust.~1 lit.~a}}};
+  \node[xx=3.6cm, left=8mm of g] (pp) {\textbf{Wyłączenie prawa poboru?}\\$\to$ 4/5 głosów\\(US §~\ref{art:emisje} ust.~6)};
+  \node[xx=3.6cm, right=8mm of g] (ob) {\textbf{Więcej obowiązków akcjonariusza?} (lock-up, vesting)\\$\to$ + zgoda każdego, kogo dotyczy (US §~\ref{art:final} ust.~1)};
+  \node[wz=4.6cm, below=of g] (n) {\textbf{Protokół notarialny}};
+  \node[rd=4.6cm, below=of n] (k) {\textbf{Wpis do KRS\\{\normalfont dopiero wtedy zmiana działa}}};
+  \draw[line] (p) -- (wz); \draw[line] (wz) -- (g); \draw[line] (g) -- (n); \draw[line] (n) -- (k);
+  \draw[line, dashed] (g) -- (pp); \draw[line, dashed] (g) -- (ob);
+\end{tikzpicture}
+\caption{Zmiana umowy spółki (US §~\ref{art:wz} ust.~1, §~\ref{art:wz-zastrzezone} ust.~1 lit.~a, §~\ref{art:final} ust.~1).}
+\end{figure}
+
+\begin{Komentarz}
+Przy podziale 50/20/10/10/10: Założyciel~A (50\%) sam nie zmieni umowy, ale może zablokować każdą zmianę; A z~B (70\%) to za mało --- potrzebny jest jeszcze co najmniej jeden Założyciel z 10\%. Bez A zmiany nie da się przeprowadzić (pozostali mają razem 50\%).
+\end{Komentarz}
+
+\section*{Emisje akcji}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 6mm]
+  \node[q=3.4cm] (q) {Seria A, F albo P,\\w limitach?};
+  \node[wz=4.0cm, right=10mm of q] (zm) {\textbf{Najpierw zmiana umowy} (WZ 75\%, notariusz, KRS) --- nowa seria albo wyższy limit};
+  \node[wz=4.0cm, below=of q] (em) {\textbf{Uchwała emisyjna WZ 75\%}\\maksymalna liczba akcji, cena minimalna, termin};
+  \node[wz=3.4cm, left=10mm of em] (pp) {Wyłączenie prawa poboru?\\$\to$ \textbf{4/5 głosów}};
+  \node[rd=4.0cm, below=of em] (rd) {\textbf{Rada wykonuje:} oferty, umowy objęcia, przyjęcie wkładów, rejestr, zgłoszenia};
+  \draw[line] (q) -- node[lbl, above]{nie} (zm);
+  \draw[line] (q) -- node[lbl, left]{tak} (em);
+  \draw[line] (zm) |- (em);
+  \draw[line, dashed] (em) -- (pp);
+  \draw[line] (em) -- (rd);
+\end{tikzpicture}
+\caption{Emisja akcji (US §~\ref{art:emisje}--\ref{art:seria-p}).}
+\end{figure}
+\begin{Komentarz}
+Nowa seria (np. inwestorska) wymaga najpierw zmiany umowy spółki u notariusza. Wyłączenie prawa poboru: 4/5 głosów.
+\end{Komentarz}
+
+\section*{Spory}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 6mm]
+  \node[box=3.0cm, fill=black!8] (s) {\textbf{Spór między akcjonariuszami}};
+  \node[box=3.0cm, right=of s] (n) {negocjacje\\30 dni od wezwania};
+  \node[xx=3.0cm, right=of n] (m) {mediacja\\(ośrodek z UA)};
+  \node[xx=3.0cm, right=of m] (sd) {sąd powszechny\\siedziby Spółki};
+  \draw[line] (s) -- (n); \draw[line] (n) -- (m); \draw[line] (m) -- (sd);
+  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Impas:} WZ dwa razy (w odstępie $\ge$30 dni) nie podejmuje uchwały o emisji (lit.~b) albo o transakcji ponad 500\,000 zł (lit.~h), a sprawa jest niezbędna --- każdy może wszcząć mediację};
+  \draw[line] (imp.north) ++(1.7,0) -- (m.south);
+\end{tikzpicture}
+\caption{Rozwiązywanie sporów (UA §~\ref{sha:spory}). Zabezpieczenie sądowe jest dostępne zawsze.}
+\end{figure}
+\begin{Komentarz}
+Najpierw 30 dni rozmów, potem mediacja, na końcu sąd. Zabezpieczenie w sądzie można uzyskać od razu.
+\end{Komentarz}
+
+\end{document}

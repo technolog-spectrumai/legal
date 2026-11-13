@@ -1,0 +1,220 @@
+% !TeX program = pdflatex
+% Commentary to the Articles of Association of Basilisk Systems P.S.A. (informational document, separate from the Articles).
+% English convenience translation of basilisk_psa_komentarz.tex; paragraph numbers taken from psa_en.aux (xr-hyper); shared bibliography: basilisk_bib_en.tex.
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\externaldocument{psa_en}[psa_en.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- supporting materials}
+\BusinessPlanConfidentialText{Informational document --- not part of the Articles of Association}
+\BusinessPlanFooterText{Basilisk Systems --- commentary to the Articles of Association}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.08}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.18}
+
+\makeatletter
+\newcommand{\BibItem}[2]{\item[\textbf{[#1]}]\def\@currentlabel{#1}\def\@currentlabelname{#1}\phantomsection\label{bib:#2}}
+\makeatother
+\newcommand{\Zr}[1]{[\ref{bib:#1}]}
+\newcommand{\U}[1]{\textsuperscript{#1}}
+% paragraph header row and section row
+\newcommand{\Par}[2]{\multicolumn{3}{@{}l}{\rule{0pt}{1.4em}\textbf{\S~\ref{en-art:#1}. #2}} \\ \midrule}
+\newcommand{\Ust}[3]{#1 & #2 & #3 \\}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- commentary to the Articles of Association},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+\selectlanguage{english}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Commentary to the Articles of Association}
+  {Legal bases and bibliography for the Articles of Association of Basilisk Systems P.S.A.}
+  {For the Articles of Association version 3.3-S --- by paragraph and section}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+\textbf{English convenience translation.} This document is an English translation of the Polish commentary provided for convenience only. In the event of any discrepancy, the Polish version prevails. The document is not part of the Articles of Association.
+
+The document is \textbf{informational}: it is not part of the Articles of Association, is not covered by the notarial deed or signature, and does not change the content of the Articles. It serves the founders, directors, future investors and their advisers to quickly locate the legal basis of each provision. In the event of any discrepancy, the text of the Articles of Association \Zr{us} prevails.
+
+The document consists of two informational annexes:
+\begin{itemize}
+  \item \textbf{Informational Annex A --- Bibliography}: national and EU legal acts, case law, literature, official materials and Company documents; the labels in square brackets are clickable;
+  \item \textbf{Informational Annex B --- Legal Bases by Paragraph and Section}: for each section of the Articles, the provisions on which it is based, case law and a short comment. Paragraph numbers are clickable and open the Articles (\texttt{psa\_en.pdf} in the same directory).
+\end{itemize}
+
+Legal status: November 2026 --- according to the consolidated text of the KSH (Journal of Laws of 2024, item 18, as amended, taking into account the amendment in Journal of Laws of 2026, item 176, which changes the shareholder-register rules from 18 February 2027) and the other acts listed in the bibliography. Provision numbers should be verified in ISAP before use in legal transactions; the holdings of judgments are given in summary form. The abbreviation ``PSA'' means a simple joint-stock company, ``GM'' --- the General Meeting.
+
+% ================================================================
+\chapter*{Informational Annex A}
+\addcontentsline{toc}{chapter}{Informational Annex A --- Bibliography}
+\input{basilisk_bib_en}
+
+% ================================================================
+\chapter*{Informational Annex B --- Legal Bases by Paragraph and Section}
+\addcontentsline{toc}{chapter}{Informational Annex B --- Legal Bases by Paragraph and Section}
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.1cm} >{\raggedright\arraybackslash}p{6.0cm} >{\raggedright\arraybackslash}p{7.6cm}@{}}
+\toprule
+\textbf{Sec.} & \textbf{Legal basis} & \textbf{Case law, literature, comment} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Sec.} & \textbf{Legal basis} & \textbf{Case law, literature, comment} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\Par{firma}{Business Name, Registered Office and Duration}
+\Ust{1}{Article~300\U{5}(1)(1) KSH \Zr{ksh}; Article~43\U{5}(1)--(2) of the Civil Code (KC) \Zr{kc} (business name of a legal person); trade marks --- Article~120 et seq. of the Industrial Property Law (PWP) \Zr{pwp}}{The business name must contain the designation of the legal form (``prosta spółka akcyjna'' or ``P.S.A.''). Protection of the designation ``Basilisk Systems'' is only afforded by registration of a trade mark.}
+\Ust{2}{Article~300\U{5}(1)(1) KSH; Article~41 KC (registered office = locality)}{The Articles indicate the locality, not the address; the address is notified to the register \Zr{ukrs}.}
+\Ust{3}{freedom of contract (Article~353\U{1} KC); \Zr{ukrs} --- branches}{Optional provision.}
+\Ust{4}{Article~300\U{5} KSH (optional provision)}{The absence of a term means an indefinite duration.}
+
+\Par{pkd}{Objects of the Company and PKD 2025 Codes}
+\Ust{1}{Article~300\U{5}(1)(2) KSH}{The verbal description supplements the PKD codes and protects against the allegation of acting outside the objects of the Company.}
+\Ust{2}{\Zr{pkd}; \Zr{guspkd}; \Zr{ukrs}}{Codes other than those disclosed at the first entry may be notified to the register without amending the Articles.}
+\Ust{3}{licence: \Zr{uwt} (Articles~7, 10, 17), \Zr{wt}; AI: \Zr{aiact}; trade control: \Zr{uots}, \Zr{dualuse}; drones: \Zr{uas945}, \Zr{uas947}, \Zr{prlot}; defence funds: \Zr{edf}}{Entry of a PKD code does not replace a licence for military items or export authorisations.}
+
+\Par{akcje}{Shares and Share Capital}
+\Ust{1}{Article~300\U{2}(3) KSH}{PSA shares have no nominal value and do not form part of the share capital \Zr{opalski}.}
+\Ust{2}{Article~300\U{5}(1)(3) KSH (number, series and numbers of shares)}{An issue price of PLN~0.01 is permissible; the minimum capital is PLN~1 (Article~300\U{3} KSH).}
+\Ust{3}{Article~300\U{5}(1)(3) KSH (preference)}{Preference must result from the Articles; its absence facilitates a future round.}
+\Ust{4}{Article~300\U{3}(2) KSH}{The amount of the share capital is not specified in the Articles; the Board discloses it in the register.}
+\Ust{5}{Article~300\U{31} et seq. KSH (shareholder register)}{The register is kept by an entity chosen by the shareholders (Article~300\U{31} KSH); restrictions and obligations attached to shares must be disclosed in it.}
+\Ust{6}{Article~300\U{31} et seq. KSH; Article~61(2) KC (electronic delivery)}{A current e-mail address is a condition of effective communication under \S~\ref{en-art:wz}.}
+\Ust{7--8}{Article~300\U{47} KSH (including (3)); Article~300\U{15}(4)--(6) KSH}{The Company is not the acquirer of unvested shares --- this protects against the allegation of financing the acquisition of own shares.}
+\Ust{9}{KSH provisions on pledge and usufruct of shares; cf. Article~340 KSH (joint-stock company)}{Voting by the pledgee only with the consent of the GM (75\%) and after an entry in the register.}
+
+\Par{cap-table}{Subscription for Shares and Founders' Contributions}
+\Ust{1--2}{Article~300\U{5}(1)(3) KSH}{The 50/20/10/10/10 split applies at the time of incorporation.}
+\Ust{3}{Article~300\U{2}(1)--(2) KSH; Articles~41 and 53 of the Copyright Act (PrAut) \Zr{praut}; Article~67 PWP \Zr{pwp}; know-how --- Article~11 of the Unfair Competition Act (UZNK) \Zr{uznk}}{The Articles deliberately exclude contributions in the form of work and services in Series~A, as well as equipment (sale or lending for use).}
+\Ust{4}{Article~5a(34)--(35), Article~17(1)(9) and (1e) of the PIT Act \Zr{pit}}{Part B1 allows the creator to benefit from deferral of taxation of the IP contribution in kind.}
+\Ust{5}{Article~14(1) KSH; Article~300\U{3}(2) KSH; Article~300\U{9} KSH}{Cash contributions before the filing, non-cash contributions within 14 days of the entry.}
+\Ust{6}{Article~41(2) and Article~53 PrAut (written form, fields of exploitation); Article~67 PrAut (licence); Article~33(9)--(10) of the Family Code (KRO) \Zr{kro}; Article~300\U{79}(1) KSH}{Economic copyrights belong to the creator's personal property; the agreement with a director is signed by an attorney-in-fact \Zr{sn4218}, \Zr{barta}.}
+\Ust{7}{---}{Informational provision.}
+
+\Par{emisje}{Share Issues and Maximum Numbers of Shares}
+\Ust{1--3}{Articles~300\U{103}--300\U{104} KSH}{Quantitative limits and the issue deadline (until 31.12.2036) protect shareholders against unlimited dilution.}
+\Ust{4}{provisions on amending the articles of a PSA (shareholders' resolution, notarial minutes, entry in the register) \Zr{ksh}}{A new investor series requires an amendment to the Articles.}
+\Ust{5}{Article~300\U{104} KSH}{The Board implements the issue resolution; it does not issue shares on its own.}
+\Ust{6}{Article~300\U{106} KSH}{The 4/5 majority results from the statute.}
+\Ust{7}{Article~300\U{5}(1)(3) and Article~300\U{104}(1)(3) KSH; freedom of contract}{Minimum issue price.}
+
+\Par{seria-f}{Series F --- Functional Founders}
+\Ust{1--3}{Article~353\U{1} KC; Article~300\U{104} KSH}{The qualifying resolution does not give a claim to subscribe for shares \Zr{malinowski}.}
+\Ust{4}{Article~300\U{104}(1)(7) KSH; Article~300\U{9}(1) in conjunction with Article~300\U{104}(2) KSH}{A contribution in work or services is made within 3 years (Article~300\U{9}(1) applied accordingly to the issue).}
+\Ust{5--7}{Article~300\U{2} KSH; Article~300\U{39} KSH}{Series~F shares are ordinary; they are subject to transfer restrictions and vesting.}
+
+\Par{seria-p}{Series P --- Incentive Plan}
+\Ust{1--3}{Articles~300\U{103}--300\U{107}, 300\U{114}--300\U{118} (including 300\U{116}(2)) and 300\U{106}(2) KSH}{A conditional issue requires the entry of the amendment to the Articles before rights are granted.}
+\Ust{4--5}{Article~24(11) et seq. of the PIT Act \Zr{pit} (incentive plans)}{The tax consequences for participants require a separate analysis when drawing up the rules.}
+
+\Par{zbywanie}{Disposal and Encumbrance of Shares}
+\Ust{1}{Article~300\U{39}(1) KSH; Article~300\U{36} KSH (documentary form); Article~77\U{2} KC; Article~64 KC and Article~1047 of the Code of Civil Procedure (KPC) \Zr{kpc}}{Silence of the Board is not consent; the route of a shareholders' resolution and an action under Article~64 KC prevents a deadlock.}
+\Ust{2}{letter~(a): \Zr{uki}, \Zr{fdi}, \Zr{fdi2026}, \Zr{sankcje}, \Zr{usank}, \Zr{uots}; letter~(b): \Zr{uki}; letter~(e): freedom of contract (Article~300\U{39} KSH)}{A closed catalogue of grounds for refusal protects the shareholder against arbitrariness.}
+\Ust{3}{Article~300\U{39}(2)--(6) KSH}{Exclusion of the obligation to designate an acquirer, except for a refusal in respect of a competitor.}
+\Ust{4}{Article~300\U{39}(1) KSH; Article~57(2) KC}{A 12-month lock-up --- a typical safeguard of team stability.}
+\Ust{5}{Article~300\U{40} KSH}{The disposal of a share not paid up requires the Company's consent by operation of law.}
+\Ust{6}{Article~353\U{1} KC}{Pre-emption rights and tag/drag-along require an amendment to the Articles or a shareholders' agreement \Zr{ua}.}
+
+\Par{obowiazek-zbycia}{Obligation to Transfer Shares upon Cessation of Involvement (Vesting)}
+\Ust{1--3}{obligations attached to a share provided for in the Articles (cf. Article~356 KSH for a joint-stock company); Article~353\U{1} KC}{Vesting in the form of an obligation to transfer --- the shares confer full rights until transfer \Zr{malinowski}.}
+\Ust{4}{Article~393 KC (contract for the benefit of a third party); Articles~58 and 5 KC}{The issue price as the buy-back price results from the mechanism adopted at incorporation; assessment in light of the principles of community life.}
+\Ust{5}{Article~353\U{1} KC}{Automatic release upon a good-leaver departure limits the risk of a dispute.}
+\Ust{6}{Article~101(1) KC (irrevocable power of attorney); Article~300\U{79} KSH}{Implementing agreement and power of attorney --- \Zr{ua} \S~5.}
+\Ust{7}{Article~300\U{31} et seq. KSH}{The obligation is disclosed in the register so that it binds acquirers of shares.}
+\Ust{8}{Article~922 KC; Article~1035 KC}{Heirs succeed to the rights and obligations attached to the shares.}
+
+\Par{rada}{Corporate Bodies and the Board of Directors}
+\Ust{1--2}{Article~300\U{73}(1) and (3) KSH}{One-tier system \Zr{opalski}, \Zr{ecfr}.}
+\Ust{3}{Article~300\U{56}(2)--(4) KSH}{Joint term in financial years; the 6-month cap after the end of the term is a contractual rule permitted by the 'unless the articles provide otherwise' clause.}
+\Ust{4}{Article~300\U{76} KSH; Article~300\U{75}(2)--(3) KSH}{At least one non-executive director ensures the supervisory function.}
+\Ust{5--6}{Articles~300\U{75} and 300\U{55} KSH (conflict of interest); Articles~78\U{1} and 77\U{2} KC (form of voting)}{Voting rules and conflicts of interest --- a director does not vote on a matter in which they has a conflicting interest.}
+\Ust{7}{Article~300\U{75}(2)--(3) KSH; Article~300\U{81} KSH}{Internal limits; they do not affect the validity of acts towards third parties (\S~\ref{en-art:reprezentacja}(4)). The monetary thresholds can be relaxed only by amending the Articles; a shareholders\' resolution may tighten them internally (Articles~300\U{53}, 300\U{77}(2) and 17(3) KSH; \Zr{malinowski}).}
+\Ust{8}{Article~353\U{1} KC}{The Board Rules are adopted by the Board.}
+
+\Par{reprezentacja}{Representation of the Company}
+\Ust{1}{Article~300\U{78}(1) KSH}{Joint representation (two directors or a director with a commercial proxy).}
+\Ust{2}{Articles~109\U{1}--109\U{8} KC (commercial power of attorney, prokura); Article~300\U{75}(3) KSH}{The prokura may be revoked by any director.}
+\Ust{3}{Article~300\U{79}(1), (3) and (4) KSH; Article~15 KSH}{Under Article~210 KSH, an agreement concluded in breach of the special representation rule is invalid, and the attorney may not be another member of the body \Zr{sa48518}, \Zr{jara}; the special procedure covers all acts connected with the agreement --- including its amendment and termination \Zr{sn4218}; recommendation: the attorney appointed by a shareholders' resolution should not be a director. The non-executive director route follows directly from Article~300\U{79}(3) KSH. The attorney's scope of authority (conclusion, amendment, performance, termination and other acts connected with the agreement) matches the scope of the special representation identified in \Zr{sn4218}.}
+\Ust{4}{Article~300\U{77}(2), Article~300\U{53} and Article~17(3) KSH}{Internal restrictions are not effective towards third parties.}
+
+\Par{wz}{Shareholders' Resolutions --- Procedure, Remote Voting and Time Limits}
+\Ust{1}{Article~300\U{80}(1)--(2) KSH}{Voting by e-mail does not require the consent of all shareholders; voting in writing does.}
+\Ust{2}{Article~77\U{2} KC; Article~61(2) KC}{An e-mail from the address in the register = documentary form.}
+\Ust{3}{Article~300\U{80}(1)--(3) KSH; time limits --- Article~353\U{1} of the Civil Code}{Procedure outside the GM; the 3 business days -- 21 days limits are contractual, not statutory.}
+\Ust{4}{Article~300\U{90} KSH}{GM without formal convening.}
+\Ust{5--6}{Article~300\U{92} KSH}{Remote participation in accordance with the GM Rules.}
+\Ust{7}{Article~300\U{5} KSH; Article~353\U{1} KC}{Majorities are calculated on all votes in the Company.}
+\Ust{8}{Article~300\U{100} KSH}{Minute book.}
+
+\Par{wz-zastrzezone}{Matters Reserved for the General Meeting}
+\Ust{1}{Article~300\U{81} KSH; Article~15(1) KSH (letter~(j)); Article~17(1) KSH}{An act performed without a resolution required by statute is invalid; one performed without a consent required only by the Articles is valid, with liability of the directors.}
+\Ust{2}{Article~300\U{106} KSH}{4/5 when the pre-emptive right is excluded.}
+\Ust{3}{Article~300\U{98}(1) KSH}{Ordinary matters --- absolute majority of votes cast.}
+\Ust{4}{Article~300\U{75}(2) KSH; Article~300\U{81}(3) KSH}{A GM resolution as consent does not replace a Board resolution.}
+
+\Par{ip}{Intellectual Property, Confidentiality and Security}
+\Ust{1}{Articles~12, 41(2)--(3), 53 and 74(3) PrAut; Article~11(3) and Article~22 PWP}{Employee and commissioned works; written form requirement; quarterly confirmations \Zr{barta}, \Zr{kostanski}, \Zr{ip}.}
+\Ust{2}{Article~67 PrAut (licence); Article~65 KC; \Zr{ttber}}{Licence for pre-incorporation technology for 5 years with extension; licences between undertakings should take the TTBER block exemption into account (e.g. no exclusive grant-back of the licensee's improvements).}
+\Ust{3}{Article~11 UZNK \Zr{uznk}; \Zr{tsd}; Article~100(2)(4) of the Labour Code (KP) \Zr{kp}}{Protection of secrets requires real measures by the Company \Zr{sn30400}, \Zr{szwaja}, \Zr{polityka}.}
+\Ust{4}{\Zr{uots}, \Zr{dualuse}, \Zr{sankcje}, \Zr{usank}}{Technology transfer, even within the Company, may require an authorisation.}
+\Ust{5}{Article~353\U{1} KC; for employees Articles~101\U{1}--101\U{4} KP}{Non-compete during the period of involvement or office; after departure --- \Zr{ua} \S~8.}
+\Ust{6}{Articles~415, 471 KC; Article~730 et seq. KPC}{Contractual penalties are in the shareholders' agreement \Zr{sn6103}; they are not permissible towards employees \Zr{sn12007}.}
+
+\Par{zysk}{Profit and Distributions}
+\Ust{1}{Article~300\U{5} KSH; Article~353\U{1} KC}{A recommendation to reinvest is not a prohibition of distributions.}
+\Ust{2}{Article~300\U{15} KSH (solvency test)}{A distribution in breach of the test gives rise to liability of the directors.}
+\Ust{3}{\Zr{uor}; Article~300\U{47}(2)(3) and (7) KSH}{Reserve capital for own shares.}
+\Ust{4}{Article~3(1)(9) of the Accounting Act (UoR) \Zr{uor}}{Extended first financial year.}
+
+\Par{likwidacja}{Dissolution and Liquidation of the Company}
+\Ust{1--2}{KSH provisions on the dissolution and liquidation of a PSA}{Resolution by 75\% of all votes.}
+\Ust{3}{\Zr{uots}, \Zr{dualuse}, \Zr{uoni}}{Export classification before disposal of data carriers and prototypes.}
+\Ust{4}{KSH provisions on the distribution of assets}{Distribution in proportion to the number of shares.}
+
+\Par{final}{Final Provisions}
+\Ust{1}{Article~300\U{98}(2)--(3) and Article~300\U{100}(2) KSH}{Tightening of obligations attached to a share requires the consent of the shareholder concerned.}
+\Ust{2}{Article~58(3) KC}{Severability clause.}
+\Ust{3}{Article~65 KC}{Dynamic interpretation of references.}
+\Ust{4}{Article~183\U{1} et seq. KPC (mediation); Article~730 KPC}{Mediation does not suspend the time limits for challenging resolutions.}
+\Ust{5}{Article~300\U{5} KSH}{Annex No.~1 is part of the Articles; this commentary is not.}
+\Ust{6}{Article~300\U{79}(1) KSH; Article~300\U{31} KSH}{The first resolutions are adopted in the deed of incorporation.}
+
+\multicolumn{3}{@{}l}{\rule{0pt}{1.4em}\textbf{Annex No.~1 to the Articles}} \\ \midrule
+\Ust{A--C}{Article~300\U{5}(1)(3) KSH; Article~5a(34)--(35), Article~17(1e) and Article~22(1e) PIT Act; Article~74(3) PrAut}{Part B1 only for a creator holding the rights; the employee programme belongs to the employer.}
+\end{longtable}
+}
+
+\end{document}

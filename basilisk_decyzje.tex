@@ -238,7 +238,7 @@ Niezależnie od kwoty: transakcja z akcjonariuszem, dyrektorem albo podmiotem po
 
 % ================================================================
 \begin{Komentarz}
-Progi dotyczą także czynności powiązanych: podzielenie jednej umowy na części, aby zejść poniżej progu, jest obejściem i nie chroni dyrektora przed odpowiedzialnością. Im dokładniej Rada przyjmie budżet, tym mniej uchwał ad hoc --- budżet jest głównym narzędziem przekazania decyzji dyrektorowi wykonawczemu. Progi nie podlegają waloryzacji; warto przeglądać je co 2--3 lata.
+Progi dotyczą także czynności powiązanych: podzielenie jednej umowy na części, aby zejść poniżej progu, jest obejściem i nie chroni dyrektora przed odpowiedzialnością. Im dokładniej Rada przyjmie budżet, tym mniej uchwał ad hoc --- budżet jest głównym narzędziem przekazania decyzji dyrektorowi wykonawczemu. Progi nie podlegają waloryzacji; warto przeglądać je co 2--3 lata. \textbf{Zasada legalna:} progi 100/250/500 tys.\ zł są zapisane w umowie spółki i ich złagodzenie (podwyższenie) wymaga zmiany umowy --- 75\% wszystkich głosów, notariusz, KRS. Akcjonariusze mogą natomiast zwykłą uchwałą \emph{zaostrzyć} limity w stosunkach wewnętrznych (np. obniżyć próg dla danego rodzaju umów albo wymagać zgody Rady na dodatkowe czynności), a Rada może ustalić limity dla dyrektora wykonawczego w regulaminie Rady (US §~\ref{art:rada} ust.~8). Takie ograniczenia wiążą dyrektorów wobec Spółki, ale nie wpływają na ważność umów z osobami trzecimi (US §~\ref{art:reprezentacja} ust.~4); art.~300$^{53}$, art.~300$^{77}$ §~2 i art.~17 §~3 KSH \Zr{ksh}, \Zr{malinowski}.
 \end{Komentarz}
 
 \section{Jak podjąć uchwałę}
@@ -378,8 +378,8 @@ Odkup akcji niezwolnionych po cenie emisyjnej to rozwiązanie rynkowe, ale sąd 
   \node[box=4.4cm, fill=black!8] (u) {\textbf{Umowa albo spór Spółki z dyrektorem}};
   \node[q=3.0cm, below=of u] (q) {Dyrektor wykonawczy?};
   \node[rd=4.6cm, below left=9mm and -10mm of q] (dn) {Dyrektor niewykonawczy na podstawie uchwały dyrektorów niewykonawczych\\\textbf{albo} pełnomocnik z uchwały akcjonariuszy};
-  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy (może być poza WZ; nie może być stroną umowy)};
-  \node[xx=9.8cm, below=30mm of q] (poz) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
+  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy do zawarcia, zmiany, wykonania i rozwiązania umowy (może być poza WZ; nie strona umowy ani inny dyrektor)};
+  \node[xx=9.8cm, anchor=north] (poz) at ($(q |- pe.south)+(0,-5mm)$) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
   \draw[line] (u) -- (q);
   \draw[line] (q) -- node[lbl, left]{tak} (dn);
   \draw[line] (q) -- node[lbl, right]{nie} (pe);
@@ -387,11 +387,35 @@ Odkup akcji niezwolnionych po cenie emisyjnej to rozwiązanie rynkowe, ale sąd 
 \caption{Reprezentacja Spółki w sprawach z dyrektorem (US §~\ref{art:reprezentacja} ust.~3).}
 \end{figure}
 
-Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Założycielami będącymi dyrektorami, umów wykonawczych do obowiązku zbycia i potwierdzeń kwartalnych. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich umów danego rodzaju.
+Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Założycielami będącymi dyrektorami, umów wykonawczych do obowiązku zbycia i potwierdzeń kwartalnych. Jedna uchwała akcjonariuszy może powołać pełnomocnika do wszystkich umów danego rodzaju --- do ich zawarcia, zmiany, wykonania i rozwiązania oraz innych czynności z nimi związanych (US §~\ref{art:reprezentacja} ust.~3). Ten szeroki zakres jest potrzebny, bo szczególny tryb reprezentacji obejmuje każdą czynność związaną z umową, np. aneks do umowy IP albo jej rozwiązanie przy odejściu Założyciela (\Zr{sn4218}).
 
 % ================================================================
 \begin{Komentarz}
-Na tle art.~210 KSH przyjmuje się, że umowa zawarta z członkiem organu z naruszeniem szczególnych zasad reprezentacji jest nieważna (\Zr{sn4218}, \Zr{jara}); to samo ryzyko dotyczy art.~300$^{79}$ KSH. Najbezpieczniej podjąć przy zawiązaniu jedną uchwałę akcjonariuszy powołującą pełnomocnika do umów IP i umów wykonawczych z dyrektorami (US §~\ref{art:final} ust.~6) i pilnować, by pełnomocnik nie był stroną danej umowy.
+Na tle art.~210 KSH przyjmuje się, że umowa zawarta z członkiem organu z naruszeniem szczególnych zasad reprezentacji jest nieważna, a szczególny tryb obejmuje także zmianę, wypowiedzenie i rozwiązanie takiej umowy (\Zr{sn4218}, \Zr{sa48518}, \Zr{jara}); to samo ryzyko dotyczy art.~300$^{79}$ KSH. Najbezpieczniej podjąć przy zawiązaniu jedną uchwałę akcjonariuszy powołującą pełnomocnika do umów IP i umów wykonawczych z dyrektorami (US §~\ref{art:final} ust.~6) i pilnować, by pełnomocnik nie był stroną danej umowy ani innym dyrektorem --- według orzecznictwa do art.~210 KSH członek organu nie może reprezentować spółki jako pełnomocnik w umowie z innym członkiem tego organu. Wyjątkiem jest droga z art.~300$^{79}$ §~3 KSH: dyrektor niewykonawczy działający na podstawie uchwały dyrektorów niewykonawczych (US §~\ref{art:reprezentacja} ust.~3).
+\end{Komentarz}
+
+\section{Zmiana umowy spółki}
+
+Zmiana umowy spółki wymaga uchwały akcjonariuszy podjętej na Walnym Zgromadzeniu z protokołem notarialnym i wpisu do rejestru przedsiębiorców.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 7mm]
+  \node[box=4.6cm, fill=black!8] (p) {\textbf{Projekt zmiany umowy\\{\normalfont Rada albo akcjonariusz}}};
+  \node[wz=4.6cm, below=of p] (wz) {\textbf{Walne Zgromadzenie\\{\normalfont z notariuszem (nie e-mailem)}}};
+  \node[wz=4.6cm, below=of wz] (g) {\textbf{75\% wszystkich głosów w Spółce\\{\normalfont US §~\ref{art:wz-zastrzezone} ust.~1 lit.~a}}};
+  \node[xx=3.6cm, left=8mm of g] (pp) {\textbf{Wyłączenie prawa poboru?}\\$\to$ 4/5 głosów\\(US §~\ref{art:emisje} ust.~6)};
+  \node[xx=3.6cm, right=8mm of g] (ob) {\textbf{Więcej obowiązków akcjonariusza?} (lock-up, vesting)\\$\to$ + zgoda każdego, kogo dotyczy (US §~\ref{art:final} ust.~1)};
+  \node[wz=4.6cm, below=of g] (n) {\textbf{Protokół notarialny}};
+  \node[rd=4.6cm, below=of n] (k) {\textbf{Wpis do KRS\\{\normalfont dopiero wtedy zmiana działa}}};
+  \draw[line] (p) -- (wz); \draw[line] (wz) -- (g); \draw[line] (g) -- (n); \draw[line] (n) -- (k);
+  \draw[line, dashed] (g) -- (pp); \draw[line, dashed] (g) -- (ob);
+\end{tikzpicture}
+\caption{Zmiana umowy spółki (US §~\ref{art:wz} ust.~1, §~\ref{art:wz-zastrzezone} ust.~1 lit.~a, §~\ref{art:final} ust.~1).}
+\end{figure}
+
+\begin{Komentarz}
+Przy podziale 50/20/10/10/10: Założyciel~A (50\%) sam nie zmieni umowy, ale może zablokować każdą zmianę; A z~B (70\%) to za mało --- potrzebny jest jeszcze co najmniej jeden Założyciel z 10\%. Bez A zmiany nie da się przeprowadzić (pozostali mają razem 50\%).
 \end{Komentarz}
 
 \section{Emisje akcji}
@@ -422,7 +446,7 @@ Na tle art.~210 KSH przyjmuje się, że umowa zawarta z członkiem organu z naru
 
 % ================================================================
 \begin{Komentarz}
-Typowa kolejność rundy inwestorskiej: term sheet $\to$ zmiana umowy spółki tworząca serię inwestorską (Walne Zgromadzenie, notariusz) $\to$ uchwała emisyjna $\to$ umowy objęcia akcji $\to$ wpis do rejestru akcjonariuszy $\to$ zgłoszenie do rejestru przedsiębiorców; równolegle zmiana umowy akcjonariuszy (UA §~\ref{sha:finansowanie} ust.~3). Przy wkładzie w postaci pracy (seria~F) pamiętaj o terminie wniesienia wkładu --- najpóźniej 3 lata od wpisu emisji (art.~300$^{9}$ §~1 KSH).
+Typowa kolejność rundy inwestorskiej: term sheet $\to$ zmiana umowy spółki tworząca serię inwestorską (Walne Zgromadzenie, notariusz) $\to$ uchwała emisyjna $\to$ umowy objęcia akcji $\to$ wpis do rejestru akcjonariuszy $\to$ zgłoszenie do rejestru przedsiębiorców; równolegle zmiana umowy akcjonariuszy (UA §~\ref{sha:finansowanie} ust.~3). Przy wkładzie w postaci pracy (seria~F) pamiętaj o terminie wniesienia wkładu --- w ciągu 3 lat (art.~300$^{9}$ §~1 w zw. z art.~300$^{104}$ §~2 KSH).
 \end{Komentarz}
 
 \section{Dokumenty wewnętrzne --- kto przyjmuje}
