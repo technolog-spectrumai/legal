@@ -299,6 +299,7 @@ Każde zbycie albo obciążenie akcji wymaga zgody Spółki, którą wydaje Rada
   \node[xx=3.2cm, below=of ua] (sad) {sąd: żądanie złożenia oświadczenia o zgodzie (art.~64 KC)};
   \draw[line] (z) -- (lock);
   \draw[line] (lock) -- node[lbl, above]{tak} (lockwz);
+  \draw[line] (lockwz) |- node[lbl, pos=0.3, right]{po zgodzie WZ} (rd);
   \draw[line] (lock) -- node[lbl, left]{nie} (rd);
   \draw[line] (rd) -- (ok); \draw[line] (rd) -- (no); \draw[line] (rd) -- (cisza);
   \draw[line] (no) -- (e);

@@ -302,6 +302,7 @@ Every transfer or encumbrance of shares requires the consent of the Company, whi
   \node[xx=3.2cm, below=of ua] (sad) {court: claim for a declaration of consent (Article~64 KC)};
   \draw[line] (z) -- (lock);
   \draw[line] (lock) -- node[lbl, above]{yes} (lockwz);
+  \draw[line] (lockwz) |- node[lbl, pos=0.3, right]{after GM consent} (rd);
   \draw[line] (lock) -- node[lbl, left]{no} (rd);
   \draw[line] (rd) -- (ok); \draw[line] (rd) -- (no); \draw[line] (rd) -- (cisza);
   \draw[line] (no) -- (e);
