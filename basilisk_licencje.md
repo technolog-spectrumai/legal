@@ -354,11 +354,11 @@ Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wers
 
 ## Załącznik A — Komponenty osób trzecich i licencje open source
 
-| Komponent | Wersja | Licencja | Sposób użycia (statyczne / dynamiczne łączenie, usługa) | Obowiązki (np. udostępnienie kodu, nota) | Moduł |
-|---|---|---|---|---|---|
-| **[nazwa]** | **[...]** | **[np. Apache-2.0, MIT, BSD-3-Clause, LGPL-3.0]** | **[...]** | **[...]** | **[M1/M2/M3]** |
+| Komponent | Wersja | Licencja | Sposób użycia (statyczne / dynamiczne łączenie, usługa) | Obowiązki (np. udostępnienie kodu, nota) | Kraj pochodzenia | Klasyfikacja eksportowa (ECCN / ITAR / 2021/821) | Ograniczenia użycia (np. zakaz zastosowań wojskowych w licencji modelu albo danych) | Moduł |
+|---|---|---|---|---|---|---|---|---|
+| **[nazwa]** | **[...]** | **[np. Apache-2.0, MIT, BSD-3-Clause, LGPL-3.0]** | **[...]** | **[...]** | **[państwo]** | **[np. EAR99, 5D002, brak]** | **[brak / opis]** | **[M1/M2/M3]** |
 
-Zasady: komponenty na licencjach wymagających udostępnienia kodu całości (np. GPL, AGPL) wolno łączyć z Oprogramowaniem wyłącznie po zgodzie dyrektora odpowiedzialnego za technologię. Wykaz utrzymuje się automatycznie (SBOM) i aktualizuje przy każdym wydaniu.
+Zasady: komponenty na licencjach wymagających udostępnienia kodu całości (np. GPL, AGPL) wolno łączyć z Oprogramowaniem wyłącznie po zgodzie dyrektora odpowiedzialnego za technologię. Wykaz utrzymuje się automatycznie (SBOM) i aktualizuje przy każdym wydaniu. Komponentów, modeli i zbiorów danych pochodzenia amerykańskiego objętych EAR albo ITAR oraz udostępnianych na licencjach zakazujących zastosowań wojskowych nie włącza się do Oprogramowania przeznaczonego dla sektora obronnego bez oceny Odpowiedzialnego z Polityki (program zgodności eksportowej, Polityka).
 
 ---
 
