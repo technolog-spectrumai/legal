@@ -66,7 +66,7 @@ W razie sprzeczności pierwszeństwo ma Zamówienie, potem Moduł, potem OWL, a 
 - Dwóch dyrektorów łącznie albo dyrektor z prokurentem (US § 11 ust. 1).
 - Licencja dla podmiotu powiązanego z akcjonariuszem albo dyrektorem — uchwała Rady Dyrektorów (US § 10 ust. 7); umowę z dyrektorem podpisuje pełnomocnik (US § 11 ust. 3).
 - Licencja wyłączna, nieodwołalna lub bezterminowa na kluczową własność intelektualną poza zwykłym tokiem działalności — Walne Zgromadzenie, 75% wszystkich głosów (US § 13 ust. 1 lit. f). Zwykła licencja niewyłączna dla klienta mieści się w zwykłym toku działalności.
-- Wartość powyżej progów z US § 10 ust. 7 (umowa poza budżetem ponad 250 000 zł) — uchwała Rady Dyrektorów.
+- Wartość powyżej progów z US § 10 ust. 7 (umowa poza budżetem ponad 250 000 zł) — uchwała Rady Dyrektorów; transakcja poza budżetem ponad 500 000 zł — Walne Zgromadzenie, 75% wszystkich głosów (US § 13 ust. 1 lit. h).
 
 ---
 
@@ -404,7 +404,7 @@ Kredyty serwisowe są jedynym świadczeniem z tytułu niedotrzymania dostępnoś
 | 4 | Koncesja na obrót technologią o przeznaczeniu wojskowym, jeżeli wymagana | art. 7 UWT | Rada Dyrektorów |
 | 5 | Sprawdzenie Licencjobiorcy i podmiotów go kontrolujących na listach sankcyjnych | rozp. 833/2014 i 269/2014, USank | Odpowiedzialny z Polityki |
 | 6 | Oświadczenie użytkownika końcowego i zezwolenie eksportowe | § 12 OWL, Załącznik B | Odpowiedzialny z Polityki |
-| 7 | Organ zatwierdzający: Rada (podmiot powiązany, kwota ponad próg) albo Walne Zgromadzenie (licencja wyłączna na kluczowe IP) | US § 10 ust. 7, § 13 ust. 1 lit. f | Przewodniczący Rady |
+| 7 | Organ zatwierdzający: Rada (podmiot powiązany, kwota ponad 250 000 zł poza budżetem) albo Walne Zgromadzenie (licencja wyłączna na kluczowe IP; transakcja poza budżetem ponad 500 000 zł) | US § 10 ust. 7, § 13 ust. 1 lit. f i h | Przewodniczący Rady |
 | 8 | Umowa powierzenia, jeżeli Spółka przetwarza dane osobowe (wsparcie, usługa hostowana) | art. 28 RODO | dyrektor wykonawczy |
 | 9 | Kwalifikacja systemu w świetle AI Act (wyłączenie wyłącznie wojskowe albo obowiązki dla systemu podwójnego zastosowania) | rozp. 2024/1689 | dyrektor ds. technologii |
 | 10 | Licencja na technologię dla konkurenta albo z ograniczeniami terytorialnymi — ocena w świetle TTBER (progi udziału w rynku 20% / 30%) | rozp. 2026/877 | doradca prawny |
