@@ -221,7 +221,7 @@ Strona nie odpowiada za niewykonanie zobowiązania spowodowane zdarzeniem, któr
 
 ### § 22. Postanowienia końcowe
 
-1. Umowę zawiera się w formie dokumentowej, w tym przez podpisanie Zamówienia kwalifikowanym podpisem elektronicznym; licencja wyłączna wymaga formy pisemnej. Zmiany wymagają formy dokumentowej.
+1. Umowę zawiera się przez podpisanie Zamówienia własnoręcznie albo kwalifikowanym podpisem elektronicznym. Forma ta jest wymagana dla skuteczności umowy o właściwość sądu i zapisu na sąd polubowny zawartych przez odesłanie do § 21 ust. 2 (art. 46 § 1 i art. 1162 § 2 KPC) oraz dla licencji wyłącznej. Zmiany wymagają formy dokumentowej, a zmiany § 21 i licencji wyłącznej — tej samej formy co zawarcie umowy.
 2. Licencjobiorca nie może przenieść praw z umowy bez zgody Spółki. Spółka może przenieść umowę na następcę prawnego albo nabywcę przedsiębiorstwa lub jego części obejmującej Oprogramowanie.
 3. Jeżeli postanowienie umowy jest nieważne, pozostałe postanowienia zachowują moc, a strony zastąpią je postanowieniem najbliższym jego celowi.
 4. Umowę można sporządzić w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska.
@@ -346,7 +346,7 @@ Moduł stosuje się dodatkowo do M1–M3, gdy Licencjobiorcą jest Skarb Państw
 | Integratorzy z dostępem do API (M3) | **[nazwy]** |
 | Warunki szczególne | **[...]** |
 
-Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wersji **[1.1]** stanowi umowę licencyjną. Licencjobiorca potwierdza, że zapoznał się z nimi przed podpisaniem.
+Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wersji **[1.1]** stanowi umowę licencyjną. Licencjobiorca potwierdza, że zapoznał się z nimi przed podpisaniem, w tym z § 21 OWL (prawo właściwe, sąd albo sąd polubowny). Zamówienie podpisuje się własnoręcznie albo kwalifikowanym podpisem elektronicznym (§ 22 ust. 1 OWL).
 
 **[za Spółkę — dwóch dyrektorów albo dyrektor i prokurent]** · **[za Licencjobiorcę]**
 
@@ -431,6 +431,7 @@ Kredyty serwisowe są jedynym świadczeniem z tytułu niedotrzymania dostępnoś
 | Informacje niejawne (§ 10 ust. 4, § M3.6 ust. 5) | UONI | świadectwo bezpieczeństwa przemysłowego |
 | Tajemnica przedsiębiorstwa (§ 17) | art. 11 UZNK | wymaga realnych działań ochronnych (Polityka) |
 | Bezzałogowe statki powietrzne (§ M1.4) | rozp. 2019/945 i 2019/947, Prawo lotnicze | obowiązki operatora |
+| Forma Zamówienia, sąd i arbitraż (§ 21 ust. 2, § 22 ust. 1) | art. 46 § 1, art. 1162 § 2 KPC | podpis własnoręczny albo kwalifikowany; odesłanie do OWL w Zamówieniu |
 | Reprezentacja i zgody organów (Wprowadzenie) | US § 10 ust. 7, § 11 ust. 1 i 3, § 13 ust. 1 lit. f; art. 300⁷⁹ KSH | — |
 | Waloryzacja (§ 8 ust. 3) | art. 358¹ § 2 KC (klauzula waloryzacyjna), komunikaty Prezesa GUS | jak w Cenniku i umowie akcjonariuszy |
 
