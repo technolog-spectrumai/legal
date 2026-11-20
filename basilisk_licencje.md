@@ -372,6 +372,7 @@ Kredyty serwisowe są jedynym świadczeniem z tytułu niedotrzymania dostępnoś
 | # | Sprawdzenie | Podstawa | Odpowiedzialny |
 |---|---|---|---|
 | 1 | Spółka ma prawa do całego licencjonowanego kodu (Umowa nr 1, Umowa nr 2, potwierdzenia kwartalne) | Umowy IP | dyrektor ds. technologii |
+| 1a | Technologia Założycieli niewniesiona aportem albo jeszcze nieprzeniesiona jest objęta licencją z prawem do sublicencji (US § 4 ust. 6, § 14 ust. 2) i wykazem ujawnionej technologii (UA § 6 ust. 4) | art. 67 ust. 3 PrAut | dyrektor ds. technologii |
 | 2 | Aktualny wykaz komponentów open source (SBOM) i zgodność licencji | § 11 OWL, Załącznik A | dyrektor ds. technologii |
 | 3 | Klasyfikacja eksportowa Oprogramowania: pozycja z rozp. 2021/821, wykaz WT albo brak kontroli | UOTS, rozp. 2021/821, WT | Odpowiedzialny z Polityki |
 | 4 | Koncesja na obrót technologią o przeznaczeniu wojskowym, jeżeli wymagana | art. 7 UWT | Rada Dyrektorów |
