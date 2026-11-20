@@ -1,0 +1,186 @@
+% !TeX program = pdflatex
+% Pakiet dokumentów do aktu zawiązania Basilisk Systems P.S.A. — uchwały założycielskie, pierwsze uchwały Rady Dyrektorów, regulamin Walnego Zgromadzenia.
+% Odesłania do umowy spółki pobierane z psa.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\externaldocument{psa}[psa.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Założyciele}
+\BusinessPlanConfidentialText{Projekty uchwał --- poufne}
+\BusinessPlanFooterText{Basilisk Systems --- pakiet dokumentów do aktu zawiązania (projekt)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.12}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\US}[1]{§~#1 umowy spółki}
+\newcommand{\Uchwala}[2]{\Needspace{8\baselineskip}\section*{#1}\addcontentsline{toc}{section}{#1 --- #2}\textbf{w sprawie: #2}\par}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- pakiet dokumentów do aktu zawiązania},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Pakiet aktu zawiązania}
+  {Uchwały założycielskie, pierwsze uchwały Rady Dyrektorów i regulamin Walnego Zgromadzenia}
+  {Do umowy spółki Basilisk Systems P.S.A. w wersji 3.3-S}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Wprowadzenie}
+\addcontentsline{toc}{chapter}{Wprowadzenie}
+
+Umowa spółki wymaga, aby Założyciele w uchwałach objętych aktem zawiązania Spółki wskazali pierwszych dyrektorów, podmiot prowadzący rejestr akcjonariuszy, pierwszy regulamin Walnego Zgromadzenia oraz pełnomocnika do czynności z Założycielami będącymi dyrektorami (\US{\ref{art:final} ust.~6}). Niniejszy pakiet zawiera projekty tych uchwał, a także pierwszych uchwał Rady Dyrektorów podejmowanych bezpośrednio po zawiązaniu.
+
+\textbf{Kolejność czynności w dniu zawiązania:}
+\begin{enumerate}
+  \item podpisanie umowy spółki w formie aktu notarialnego wraz z uchwałami nr 1--5 (część~I);
+  \item niezwłocznie po podpisaniu --- zawarcie przez pełnomocnika z uchwały nr 4 umów przeniesienia praw stanowiących wkłady niepieniężne (Umowa nr~1) oraz podpisanie umowy akcjonariuszy;
+  \item posiedzenie Rady Dyrektorów i uchwały nr R1--R3 (część~II);
+  \item wniesienie wkładów pieniężnych i zgłoszenie Spółki do rejestru przedsiębiorców.
+\end{enumerate}
+
+Bez uchwały nr 4 umowy zawierane przez Spółkę z Założycielami będącymi dyrektorami są zagrożone nieważnością (art.~300$^{79}$ §~1 KSH). Pełnomocnikiem nie powinna być strona danej umowy ani inny dyrektor.
+
+% ================================================================
+\chapter*{Część I --- Uchwały Założycieli objęte aktem zawiązania}
+\addcontentsline{toc}{chapter}{Część I --- Uchwały Założycieli objęte aktem zawiązania}
+
+\Uchwala{Uchwała nr 1}{powołania pierwszych dyrektorów}
+Działając na podstawie \US{\ref{art:rada} ust.~2--3} oraz \US{\ref{art:final} ust.~6}, Założyciele powołują do Rady Dyrektorów na pierwszą wspólną kadencję:
+\begin{enumerate}
+  \item \field{imię i nazwisko} --- dyrektor;
+  \item \field{imię i nazwisko} --- dyrektor;
+  \item \field{imię i nazwisko} --- dyrektor niewykonawczy.
+\end{enumerate}
+Rada Dyrektorów liczy \field{3--7} dyrektorów. Co najmniej jeden dyrektor ma być dyrektorem niewykonawczym (\US{\ref{art:rada} ust.~4}). Uchwała wchodzi w życie z chwilą podjęcia.
+
+\Uchwala{Uchwała nr 2}{wyboru podmiotu prowadzącego rejestr akcjonariuszy}
+Działając na podstawie art.~300$^{31}$ KSH oraz \US{\ref{art:akcje} ust.~5}, Założyciele wybierają \field{firma podmiotu uprawnionego, siedziba, KRS} jako podmiot prowadzący rejestr akcjonariuszy Spółki i upoważniają Radę Dyrektorów do zawarcia z nim umowy. Rada Dyrektorów zgłasza ten podmiot do rejestru przedsiębiorców w terminach wynikających z przepisów prawa.
+
+\Uchwala{Uchwała nr 3}{przyjęcia regulaminu Walnego Zgromadzenia}
+Działając na podstawie \US{\ref{art:wz} ust.~5}, Założyciele przyjmują regulamin Walnego Zgromadzenia w brzmieniu stanowiącym część~III niniejszego pakietu.
+
+\Uchwala{Uchwała nr 4}{powołania pełnomocnika do czynności z dyrektorami}
+\begin{enumerate}
+  \item Działając na podstawie art.~300$^{79}$ §~1 KSH oraz \US{\ref{art:reprezentacja} ust.~3} i \US{\ref{art:final} ust.~6}, Założyciele powołują \field{imię i nazwisko, PESEL albo numer dokumentu} na pełnomocnika Spółki do zawierania, zmiany, wykonywania i rozwiązywania w imieniu Spółki, z Założycielami będącymi dyrektorami, następujących umów oraz do dokonywania innych czynności z nimi związanych:
+  \begin{enumerate}[label=\alph*)]
+    \item umów przeniesienia praw stanowiących wkłady niepieniężne (Umowa nr~1, \US{\ref{art:cap-table} ust.~6}) wraz z protokołami wydania;
+    \item umów przeniesienia praw do utworów tworzonych dla Spółki (Umowa nr~2, \US{\ref{art:ip} ust.~1}) oraz potwierdzeń kwartalnych;
+    \item umowy akcjonariuszy wraz z jej załącznikami, w tym ofert, pełnomocnictw i oświadczeń o przystąpieniu;
+    \item umów wykonawczych do obowiązku zbycia akcji (\US{\ref{art:obowiazek-zbycia} ust.~6}).
+  \end{enumerate}
+  \item Pełnomocnik nie może być stroną umowy, którą zawiera w imieniu Spółki. Pełnomocnictwo jest ważne do czasu jego odwołania uchwałą akcjonariuszy.
+\end{enumerate}
+
+\Uchwala{Uchwała nr 5}{zgody na czynności Spółki w organizacji}
+Działając na podstawie \US{\ref{art:final} ust.~6}, Założyciele wyrażają zgodę na zaciągnięcie przez Spółkę w organizacji zobowiązań niezbędnych do jej zawiązania i rejestracji, w tym kosztów notarialnych, sądowych, rejestru akcjonariuszy i otwarcia rachunku bankowego, łącznie do kwoty \field{kwota} zł. Inne zobowiązania do dnia wpisu Spółki do rejestru przedsiębiorców wymagają zgody wszystkich Założycieli w formie dokumentowej.
+
+\vspace{1em}
+\field{podpisy wszystkich Założycieli --- w akcie notarialnym}
+
+% ================================================================
+\chapter*{Część II --- Pierwsze uchwały Rady Dyrektorów}
+\addcontentsline{toc}{chapter}{Część II --- Pierwsze uchwały Rady Dyrektorów}
+
+\Uchwala{Uchwała nr R1}{wyboru Przewodniczącego i wyznaczenia dyrektora wykonawczego}
+Działając na podstawie \US{\ref{art:rada} ust.~4} i art.~300$^{76}$ KSH, Rada Dyrektorów:
+\begin{enumerate}
+  \item wybiera \field{imię i nazwisko} na Przewodniczącego Rady Dyrektorów;
+  \item wyznacza \field{imię i nazwisko} na dyrektora wykonawczego i deleguje mu prowadzenie bieżącej działalności Spółki w granicach budżetu, z wyłączeniem spraw wymagających uchwały Rady Dyrektorów (\US{\ref{art:rada} ust.~7});
+  \item stwierdza, że dyrektorem niewykonawczym jest \field{imię i nazwisko}.
+\end{enumerate}
+
+\Uchwala{Uchwała nr R2}{wyznaczenia osób odpowiedzialnych}
+Rada Dyrektorów wyznacza:
+\begin{enumerate}
+  \item \field{imię i nazwisko} --- Odpowiedzialnego w rozumieniu polityki bezpieczeństwa informacji;
+  \item \field{imię i nazwisko} --- kierownika przedsiębiorcy w rozumieniu ustawy o ochronie informacji niejawnych, na potrzeby przyszłego postępowania o wydanie świadectwa bezpieczeństwa przemysłowego;
+  \item \field{imię i nazwisko} oraz \field{imię i nazwisko} --- dyrektorów odpowiedzialnych za przygotowanie wniosku o koncesję na wytwarzanie i obrót wyrobami i technologią o przeznaczeniu wojskowym.
+\end{enumerate}
+
+\Uchwala{Uchwała nr R3}{przyjęcia dokumentów wewnętrznych i stwierdzenia wniesienia wkładów}
+\begin{enumerate}
+  \item Rada Dyrektorów przyjmuje politykę bezpieczeństwa informacji, Cennik wynagrodzeń za rozwiązania projektowe oraz wzór umowy o zachowaniu poufności (\US{\ref{art:rada} ust.~7}).
+  \item Rada Dyrektorów stwierdza wniesienie wkładów pieniężnych w łącznej kwocie \field{kwota} zł oraz --- po zawarciu umów przeniesienia i protokołów wydania --- wkładów niepieniężnych wymienionych w Załączniku nr~1 do umowy spółki, i ujawnia wynikającą z tego wysokość kapitału akcyjnego (\US{\ref{art:cap-table} ust.~5}).
+\end{enumerate}
+
+% ================================================================
+\chapter*{Część III --- Regulamin Walnego Zgromadzenia}
+\addcontentsline{toc}{chapter}{Część III --- Regulamin Walnego Zgromadzenia}
+
+\begin{ContractClause}{Zakres}
+Regulamin określa tryb zwoływania i obradowania Walnego Zgromadzenia oraz zasady udziału w nim przy wykorzystaniu środków komunikacji elektronicznej (\US{\ref{art:wz} ust.~5}; art.~300$^{92}$ KSH). Do uchwał podejmowanych poza Walnym Zgromadzeniem stosuje się \US{\ref{art:wz} ust.~3}.
+\end{ContractClause}
+
+\begin{ContractClause}{Zwołanie}
+\begin{enumerate}
+  \item Walne Zgromadzenie zwołuje Rada Dyrektorów zawiadomieniem wysłanym pocztą elektroniczną na adresy akcjonariuszy wpisane do rejestru akcjonariuszy, z zachowaniem terminów ustawowych (\US{\ref{art:wz} ust.~2 i 4}).
+  \item Zawiadomienie wskazuje datę, godzinę, miejsce, porządek obrad, projekty uchwał, sposób udziału zdalnego i dane kontaktowe do zgłaszania problemów technicznych.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Udział zdalny}
+\begin{enumerate}
+  \item Akcjonariusz albo jego pełnomocnik może uczestniczyć w Walnym Zgromadzeniu przy wykorzystaniu środków komunikacji elektronicznej, w szczególności przez dwustronną komunikację audio-wideo w czasie rzeczywistym, oraz wykonywać prawo głosu na odległość.
+  \item Identyfikacja następuje przez: a)~zgłoszenie udziału zdalnego pocztą elektroniczną z adresu wpisanego do rejestru akcjonariuszy najpóźniej na 24 godziny przed rozpoczęciem obrad; b)~okazanie dokumentu tożsamości podczas transmisji albo uwierzytelnienie kwalifikowanym podpisem elektronicznym; c)~w przypadku pełnomocnika --- przesłanie pełnomocnictwa w formie wymaganej przez prawo.
+  \item Głos oddaje się ustnie do protokołu, przez funkcję głosowania platformy zapewniającą utrwalenie głosu albo wiadomością poczty elektronicznej z adresu wpisanego do rejestru akcjonariuszy, wysłaną w trakcie głosowania.
+  \item Rada Dyrektorów zapewnia, że platforma umożliwia identyfikację uczestników, komunikację w czasie rzeczywistym i utrwalenie przebiegu obrad, oraz udostępnia ją akcjonariuszom co najmniej 30 minut przed rozpoczęciem obrad.
+  \item Wymogi nałożone w niniejszym paragrafie nie mogą wykraczać poza niezbędne do identyfikacji akcjonariuszy i zapewnienia bezpieczeństwa komunikacji (art.~300$^{92}$ KSH).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Przebieg obrad}
+\begin{enumerate}
+  \item Walne Zgromadzenie otwiera Przewodniczący Rady Dyrektorów albo inny dyrektor. Spośród uprawnionych wybiera się przewodniczącego Walnego Zgromadzenia.
+  \item Przewodniczący sporządza listę obecności, obejmującą uczestników zdalnych ze wskazaniem sposobu identyfikacji, stwierdza prawidłowość zwołania i zdolność do podejmowania uchwał oraz czuwa nad sprawnym przebiegiem obrad.
+  \item Walne Zgromadzenie może zarządzić przerwę w obradach, w tym w razie zakłóceń technicznych dotyczących większej liczby uczestników. Problemy techniczne leżące po stronie akcjonariusza nie wpływają na ważność obrad i uchwał w zakresie dopuszczalnym przez prawo (\US{\ref{art:wz} ust.~6}).
+  \item Uchwały, które z mocy prawa wymagają protokołu sporządzonego przez notariusza, w szczególności dotyczące zmiany umowy spółki, podejmuje się w obecności notariusza; notariusz uczestniczy w miejscu obrad.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Protokół i dane osobowe}
+\begin{enumerate}
+  \item Z obrad sporządza się protokół zawierający listę obecności, treść uchwał, liczbę głosów oddanych za każdą uchwałą i zgłoszone sprzeciwy. Protokół wpisuje się do księgi protokołów (art.~300$^{100}$ KSH).
+  \item Nagranie obrad może być sporządzone wyłącznie w celu dokumentacji przebiegu Walnego Zgromadzenia, po uprzedzeniu uczestników, i jest przechowywane przez \field{okres}. Administratorem danych osobowych uczestników jest Spółka (art.~6 ust.~1 lit.~c i f RODO).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+Zmiana regulaminu wymaga uchwały akcjonariuszy podjętej bezwzględną większością głosów oddanych. Regulamin wchodzi w życie z dniem zawiązania Spółki.
+\end{ContractClause}
+
+\end{document}
