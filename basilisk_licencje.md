@@ -146,7 +146,7 @@ W razie sprzeczności pierwszeństwo ma Zamówienie, potem Moduł, potem OWL, a 
 ### § 10. Dane
 
 1. Spółka przetwarza Dane Licencjobiorcy wyłącznie w zakresie niezbędnym do świadczenia wsparcia i usług hostowanych.
-2. Spółka może wykorzystywać Dane Operacyjne do utrzymania, zabezpieczenia i rozwoju Oprogramowania, w tym w postaci zagregowanej do trenowania modeli, chyba że Zamówienie stanowi inaczej. Dla Licencjobiorców z sektora obronnego domyślnie przyjmuje się, że Dane Operacyjne nie opuszczają infrastruktury Licencjobiorcy.
+2. Spółka może wykorzystywać Dane Operacyjne do utrzymania i zabezpieczenia Oprogramowania, a do jego rozwoju, w tym do trenowania modeli, wyłącznie po anonimizacji, która uniemożliwia identyfikację osób fizycznych i Licencjobiorcy, chyba że Zamówienie stanowi inaczej. Danych Operacyjnych zawierających dane osobowe nie wykorzystuje się do rozwoju przed anonimizacją; w zakresie celów własnych Spółka jest administratorem tych danych (art. 28 ust. 10 RODO). Dla Licencjobiorców z sektora obronnego domyślnie przyjmuje się, że Dane Operacyjne nie opuszczają infrastruktury Licencjobiorcy.
 3. Jeżeli Spółka przetwarza dane osobowe w imieniu Licencjobiorcy, strony zawierają umowę powierzenia przetwarzania zgodną z art. 28 RODO.
 4. Spółka nie przetwarza informacji niejawnych w rozumieniu ustawy o ochronie informacji niejawnych, chyba że posiada wymagane świadectwo bezpieczeństwa przemysłowego i strony zawarły odrębną umowę.
 
@@ -427,7 +427,7 @@ Kredyty serwisowe są jedynym świadczeniem z tytułu niedotrzymania dostępnoś
 | Ograniczenie odpowiedzialności (§ 15) | art. 473 § 2, art. 449¹, 449⁹ KC | szkoda umyślna i produkt niebezpieczny — bez ograniczeń |
 | Licencja zwrotna na ulepszenia (§ 9 ust. 4) | rozp. 2026/877 (TTBER), art. 5 | tylko niewyłączna |
 | Kontrola eksportu, sankcje (§ 12) | UOTS, rozp. 2021/821, art. 7 UWT, wykaz WT, rozp. 833/2014 i 269/2014, USank | wywozem jest też przekazanie elektroniczne |
-| Dane osobowe (§ 10 ust. 3) | art. 28 RODO | umowa powierzenia |
+| Dane osobowe (§ 10 ust. 2–3) | art. 28 ust. 3 i 10 RODO | umowa powierzenia; rozwój Oprogramowania tylko na danych zanonimizowanych |
 | Informacje niejawne (§ 10 ust. 4, § M3.6 ust. 5) | UONI | świadectwo bezpieczeństwa przemysłowego |
 | Tajemnica przedsiębiorstwa (§ 17) | art. 11 UZNK | wymaga realnych działań ochronnych (Polityka) |
 | Bezzałogowe statki powietrzne (§ M1.4) | rozp. 2019/945 i 2019/947, Prawo lotnicze | obowiązki operatora |
