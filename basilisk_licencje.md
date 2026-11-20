@@ -2,9 +2,9 @@
 
 **Oprogramowanie robotów (Basilisk Onboard), oprogramowanie symulacyjne (Basilisk Sim) i oprogramowanie serwerowe (Basilisk Server)**
 
-Wersja 1.0 — projekt · Dokument poufny · Stan prawny: listopad 2026 r.
+Wersja 1.1 — projekt · Dokument poufny · Stan prawny: listopad 2026 r.
 
-Pola do uzupełnienia oznaczono **[nawiasami kwadratowymi]**. Odesłania „US” oznaczają umowę spółki Basilisk Systems P.S.A. (wersja 3.3-S), „UA” — umowę akcjonariuszy, „Umowa nr 1/2” — umowy przeniesienia praw autorskich, „Polityka” — politykę bezpieczeństwa informacji, „NDA” — wzór umowy o zachowaniu poufności. Skróty aktów prawnych — jak w bibliografii (`basilisk_bib.tex`).
+Pola do uzupełnienia oznaczono **[nawiasami kwadratowymi]**. Odesłania „US” oznaczają umowę spółki Basilisk Systems P.S.A. (wersja 3.4-S), „UA” — umowę akcjonariuszy, „Umowa nr 1/2” — umowy przeniesienia praw autorskich, „Polityka” — politykę bezpieczeństwa informacji, „NDA” — wzór umowy o zachowaniu poufności. Skróty aktów prawnych — jak w bibliografii (`basilisk_bib.tex`).
 
 ---
 
@@ -346,7 +346,7 @@ Moduł stosuje się dodatkowo do M1–M3, gdy Licencjobiorcą jest Skarb Państw
 | Integratorzy z dostępem do API (M3) | **[nazwy]** |
 | Warunki szczególne | **[...]** |
 
-Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wersji **[1.0]** stanowi umowę licencyjną. Licencjobiorca potwierdza, że zapoznał się z nimi przed podpisaniem.
+Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wersji **[1.1]** stanowi umowę licencyjną. Licencjobiorca potwierdza, że zapoznał się z nimi przed podpisaniem.
 
 **[za Spółkę — dwóch dyrektorów albo dyrektor i prokurent]** · **[za Licencjobiorcę]**
 
