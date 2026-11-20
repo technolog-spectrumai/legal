@@ -2,9 +2,9 @@
 
 **Oprogramowanie robotów (Basilisk Onboard), oprogramowanie symulacyjne (Basilisk Sim) i oprogramowanie serwerowe (Basilisk Server)**
 
-Wersja 1.0 — projekt · Dokument poufny · Stan prawny: listopad 2026 r.
+Wersja 1.1 — projekt · Dokument poufny · Stan prawny: listopad 2026 r.
 
-Pola do uzupełnienia oznaczono **[nawiasami kwadratowymi]**. Odesłania „US” oznaczają umowę spółki Basilisk Systems P.S.A. (wersja 3.3-S), „UA” — umowę akcjonariuszy, „Umowa nr 1/2” — umowy przeniesienia praw autorskich, „Polityka” — politykę bezpieczeństwa informacji, „NDA” — wzór umowy o zachowaniu poufności. Skróty aktów prawnych — jak w bibliografii (`basilisk_bib.tex`).
+Pola do uzupełnienia oznaczono **[nawiasami kwadratowymi]**. Odesłania „US” oznaczają umowę spółki Basilisk Systems P.S.A. (wersja 3.4-S), „UA” — umowę akcjonariuszy, „Umowa nr 1/2” — umowy przeniesienia praw autorskich, „Polityka” — politykę bezpieczeństwa informacji, „NDA” — wzór umowy o zachowaniu poufności. Skróty aktów prawnych — jak w bibliografii (`basilisk_bib.tex`).
 
 ---
 
@@ -16,6 +16,7 @@ Pola do uzupełnienia oznaczono **[nawiasami kwadratowymi]**. Odesłania „US�
   - [Moduł M1 — Oprogramowanie robotów (Basilisk Onboard)](#moduł-m1--oprogramowanie-robotów-basilisk-onboard)
   - [Moduł M2 — Oprogramowanie symulacyjne (Basilisk Sim)](#moduł-m2--oprogramowanie-symulacyjne-basilisk-sim)
   - [Moduł M3 — Oprogramowanie serwerowe (Basilisk Server)](#moduł-m3--oprogramowanie-serwerowe-basilisk-server)
+  - [Moduł M4 — Sektor publiczny i obronny](#moduł-m4--sektor-publiczny-i-obronny)
 - [Część III — Wzór zamówienia licencyjnego](#część-iii--wzór-zamówienia-licencyjnego)
 - [Załącznik A — Komponenty osób trzecich i licencje open source](#załącznik-a--komponenty-osób-trzecich-i-licencje-open-source)
 - [Załącznik B — Oświadczenie użytkownika końcowego](#załącznik-b--oświadczenie-użytkownika-końcowego)
@@ -46,6 +47,7 @@ W razie sprzeczności pierwszeństwo ma Zamówienie, potem Moduł, potem OWL, a 
 | Oprogramowanie robotów | autonomia, percepcja, nawigacja, łączność, koordynacja roju, firmware | **M1** | per Urządzenie (numer seryjny) |
 | Oprogramowanie symulacyjne | symulator środowisk i sensorów, scenariusze, trening i walidacja modeli, cyfrowy bliźniak | **M2** | per stanowisko, licencja pływająca albo per węzeł obliczeniowy |
 | Oprogramowanie serwerowe | zarządzanie flotą, planowanie misji, fuzja danych, aktualizacje urządzeń, API | **M3** | on-premise per instancja i liczba zarządzanych Urządzeń albo usługa hostowana (SaaS) |
+| Klient z sektora publicznego lub obronnego | Siły Zbrojne RP, Agencja Uzbrojenia, NSPA, integratorzy obronni | **M4** (dodatkowo do M1–M3) | jak w M1–M3, ze zmianami z M4 |
 
 ### Zasady, których wzór pilnuje
 
@@ -294,6 +296,30 @@ Strona nie odpowiada za niewykonanie zobowiązania spowodowane zdarzeniem, któr
 
 **§ M3.7. Usuwanie błędów.** Terminy, o których mowa w § 5 ust. 2 OWL — jak w Załączniku C.
 
+### Moduł M4 — Sektor publiczny i obronny
+
+Moduł stosuje się dodatkowo do M1–M3, gdy Licencjobiorcą jest Skarb Państwa, jednostka organizacyjna Sił Zbrojnych RP, Agencja Uzbrojenia albo inny zamawiający publiczny, organizacja międzynarodowa (np. NSPA) albo integrator działający na ich rzecz. W zakresie uregulowanym w M4 jego postanowienia mają pierwszeństwo przed OWL.
+
+**§ M4.1. Umowa zamawiającego.** Jeżeli licencji udziela się w postępowaniu o udzielenie zamówienia, umową podstawową jest umowa zamawiającego, a OWL i Moduły stanowią jej załącznik techniczno-licencyjny. W razie sprzeczności rozstrzyga umowa zamawiającego, z wyjątkiem § 5, § 12 i § 15 ust. 2 OWL, które zawsze stosuje się w zakresie wymaganym przez prawo.
+
+**§ M4.2. Terytorium.** Terytorium obejmuje, poza państwami wskazanymi w Zamówieniu, miejsca czasowego rozmieszczenia sił zbrojnych Licencjobiorcy, w tym w ramach misji, operacji i ćwiczeń NATO lub Unii Europejskiej, z zastrzeżeniem § 12 OWL i wymaganych zezwoleń eksportowych.
+
+**§ M4.3. Przeniesienie licencji.** Licencjobiorca może przenieść licencję bez zgody Spółki na inną jednostkę organizacyjną Skarbu Państwa albo na następcę prawnego w wyniku reorganizacji, zawiadamiając Spółkę w formie dokumentowej w terminie 30 dni.
+
+**§ M4.4. Integratorzy i serwis.** Licencjobiorca może udzielić sublicencji integratorom, wykonawcom i podmiotom serwisowym wskazanym w Zamówieniu albo zaakceptowanym przez Spółkę w formie dokumentowej, wyłącznie w zakresie niezbędnym do integracji, utrzymania i naprawy Urządzeń na rzecz Licencjobiorcy, pod warunkiem przyjęcia przez nich obowiązków z § 12 i § 17 OWL. Akceptacji nie można odmówić bez uzasadnionej przyczyny.
+
+**§ M4.5. Cykl życia i bezpieczeństwo dostaw.** Spółka zapewnia wsparcie i Aktualizacje bezpieczeństwa dla wersji objętej Zamówieniem przez **[10–20]** lat od dostawy, na warunkach odpłatności określonych w Zamówieniu, oraz zawiadamia Licencjobiorcę z wyprzedzeniem co najmniej **[24]** miesięcy o zamiarze zakończenia wsparcia, umożliwiając zamówienie ostatniej partii licencji i usług (*last-time buy*).
+
+**§ M4.6. Depozyt kodu.** Depozyt kodu źródłowego (§ 17 ust. 2 OWL) jest obowiązkowy. Depozytariusz ma siedzibę w Rzeczypospolitej Polskiej, kod jest aktualizowany przy każdym wydaniu, a jego kompletność weryfikuje się co najmniej raz w roku. Wydanie kodu następuje także w razie: zmiany kontroli nad Spółką na rzecz podmiotu spoza Unii Europejskiej lub NATO, utraty koncesji, objęcia Spółki sankcjami albo istotnego naruszenia obowiązków wsparcia niewyeliminowanego w terminie 60 dni od wezwania. Wydany kod Licencjobiorca może wykorzystywać wyłącznie do utrzymania i rozwoju Oprogramowania na własne potrzeby, z zachowaniem § 12 OWL.
+
+**§ M4.7. Siła wyższa.** Działania wojenne, mobilizacja i stan wyjątkowy w państwie Licencjobiorcy nie stanowią siły wyższej zwalniającej Spółkę z obowiązków wsparcia, w zakresie w jakim ich wykonanie jest prawnie i faktycznie możliwe.
+
+**§ M4.8. Odpowiedzialność.** Limit z § 15 ust. 1 OWL wynosi **[100]%** wartości brutto umowy zamawiającego, a dla licencji wieczystej opłaconej jednorazowo — nie mniej niż łączne wynagrodzenie zapłacone za licencję i wsparcie.
+
+**§ M4.9. Dane i suwerenność.** Dane Licencjobiorcy i Dane Operacyjne nie opuszczają infrastruktury Licencjobiorcy, a w usłudze hostowanej przechowuje się je wyłącznie w Rzeczypospolitej Polskiej. Dostęp do nich ma wyłącznie personel Spółki będący obywatelami państw Unii Europejskiej lub NATO, wskazany imiennie, a w razie potrzeby posiadający poświadczenie bezpieczeństwa. Spółka prowadzi wykaz podwykonawców przetwarzania i zawiadamia o jego zmianach z wyprzedzeniem 30 dni.
+
+**§ M4.10. Informacje niejawne i zgodność.** Jeżeli wykonanie umowy wymaga dostępu do informacji niejawnych, strony zawierają odrębną umowę bezpieczeństwa, a Spółka przedstawia wymagane świadectwo bezpieczeństwa przemysłowego. Przed złożeniem oferty Spółka przygotowuje matrycę zgodności wymagań zamawiającego z OWL i Modułami.
+
 ---
 
 ## Część III — Wzór zamówienia licencyjnego
@@ -304,7 +330,7 @@ Strona nie odpowiada za niewykonanie zobowiązania spowodowane zdarzeniem, któr
 |---|---|
 | Licencjodawca | Basilisk Systems P.S.A., Pruszków, KRS **[numer]**, NIP **[numer]** |
 | Licencjobiorca | **[firma, siedziba, numer rejestrowy, NIP]**, reprezentowany przez **[imię, nazwisko, funkcja]** |
-| Moduły | ☐ M1 Basilisk Onboard ☐ M2 Basilisk Sim ☐ M3 Basilisk Server |
+| Moduły | ☐ M1 Basilisk Onboard ☐ M2 Basilisk Sim ☐ M3 Basilisk Server ☐ M4 Sektor publiczny i obronny |
 | Oprogramowanie i wersja | **[nazwa, wersja]** |
 | Model licencji | ☐ wieczysta + wsparcie ☐ subskrypcja roczna ☐ za użycie: **[jednostka]** ☐ ewaluacyjna (M2) |
 | Zakres ilościowy | Urządzenia: **[liczba, numery seryjne]**; stanowiska / sesje / węzły: **[liczba]**; Instancje i zarządzane Urządzenia: **[liczba]** |
@@ -320,7 +346,7 @@ Strona nie odpowiada za niewykonanie zobowiązania spowodowane zdarzeniem, któr
 | Integratorzy z dostępem do API (M3) | **[nazwy]** |
 | Warunki szczególne | **[...]** |
 
-Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wersji **[1.0]** stanowi umowę licencyjną. Licencjobiorca potwierdza, że zapoznał się z nimi przed podpisaniem.
+Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wersji **[1.1]** stanowi umowę licencyjną. Licencjobiorca potwierdza, że zapoznał się z nimi przed podpisaniem.
 
 **[za Spółkę — dwóch dyrektorów albo dyrektor i prokurent]** · **[za Licencjobiorcę]**
 
@@ -372,6 +398,7 @@ Kredyty serwisowe są jedynym świadczeniem z tytułu niedotrzymania dostępnoś
 | # | Sprawdzenie | Podstawa | Odpowiedzialny |
 |---|---|---|---|
 | 1 | Spółka ma prawa do całego licencjonowanego kodu (Umowa nr 1, Umowa nr 2, potwierdzenia kwartalne) | Umowy IP | dyrektor ds. technologii |
+| 1a | Technologia Założycieli niewniesiona aportem albo jeszcze nieprzeniesiona jest objęta licencją z prawem do sublicencji (US § 4 ust. 6, § 14 ust. 2) i wykazem ujawnionej technologii (UA § 6 ust. 4) | art. 67 ust. 3 PrAut | dyrektor ds. technologii |
 | 2 | Aktualny wykaz komponentów open source (SBOM) i zgodność licencji | § 11 OWL, Załącznik A | dyrektor ds. technologii |
 | 3 | Klasyfikacja eksportowa Oprogramowania: pozycja z rozp. 2021/821, wykaz WT albo brak kontroli | UOTS, rozp. 2021/821, WT | Odpowiedzialny z Polityki |
 | 4 | Koncesja na obrót technologią o przeznaczeniu wojskowym, jeżeli wymagana | art. 7 UWT | Rada Dyrektorów |

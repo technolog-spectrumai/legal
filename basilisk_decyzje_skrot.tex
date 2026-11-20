@@ -240,10 +240,10 @@ Założyciel: 25\% od razu, reszta przez 36 miesięcy po 6-miesięcznym cliffie.
   \node[box=4.6cm, fill=black!8] (ev) {\textbf{Ustanie zaangażowania}\\(rozwiązanie umowy, rezygnacja, śmierć, niezdolność)};
   \node[rd=4.6cm, below=of ev] (st) {\textbf{Rada stwierdza ustanie} w 30 dni (bez udziału zainteresowanego): dzień i liczba akcji niezwolnionych};
   \node[q=3.1cm, below=of st] (typ) {Rodzaj odejścia?};
-  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Rozwiązanie bez przyczyny / odejście uzgodnione}\\zwalnia się dodatkowo 12 mies.};
+  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Odejście Uzasadnione} (bez istotnej przyczyny, w tym niepowołanie; uzgodnione)\\zwalnia się dodatkowo 12 mies.};
   \node[wz=3.4cm, left=6mm of u] (d) {\textbf{Śmierć / trwała niezdolność}\\zwalniają się \textbf{wszystkie} akcje};
   \node[xx=3.4cm, right=6mm of u] (z) {\textbf{Odejście Zwykłe}\\bez dodatkowego zwolnienia};
-  \node[rd=6.2cm, below=12mm of u] (n) {Akcje niezwolnione $\to$ zbycie \textbf{po cenie emisyjnej}: Rada wskazuje nabywcę w 3 mies.; potem Założyciele Pierwotni w 30 dni; po 6 mies. obowiązek wygasa};
+  \node[rd=6.2cm, below=12mm of u] (n) {Akcje niezwolnione $\to$ zbycie po \textbf{cenie emisyjnej} (akcje za aport: wartość wkładu, max wartość godziwa): najpierw pozostali Założyciele Pierwotni pro rata w 30 dni, potem nabywca wskazany przez Radę w 2 mies.; po 6 mies. obowiązek wygasa (bieg zawieszony w sporze)};
   \node[wz=6.2cm, below=of n] (wz75) {WZ może (75\%) zwolnić także pozostałe akcje};
   \draw[line] (ev) -- (st); \draw[line] (st) -- (typ);
   \draw[line] (typ) -| (d); \draw[line] (typ) -- (u); \draw[line] (typ) -| (z);
@@ -253,7 +253,7 @@ Założyciel: 25\% od razu, reszta przez 36 miesięcy po 6-miesięcznym cliffie.
 \caption{Ustanie zaangażowania i los akcji niezwolnionych.}
 \end{figure}
 \begin{Komentarz}
-Dobre odejście zwalnia akcje automatycznie. Przy Odejściu Zwykłym akcje niezwolnione wracają po cenie emisyjnej.
+Dobre odejście zwalnia akcje automatycznie. Przy Odejściu Zwykłym akcje niezwolnione kupują najpierw pozostali Założyciele, po cenie emisyjnej albo --- dla akcji za aport --- po wartości wkładu.
 \end{Komentarz}
 
 \section*{Umowy z dyrektorami}
@@ -329,7 +329,7 @@ Nowa seria (np. inwestorska) wymaga najpierw zmiany umowy spółki u notariusza.
   \node[xx=3.0cm, right=of n] (m) {mediacja\\(ośrodek z UA)};
   \node[xx=3.0cm, right=of m] (sd) {sąd powszechny\\siedziby Spółki};
   \draw[line] (s) -- (n); \draw[line] (n) -- (m); \draw[line] (m) -- (sd);
-  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Impas:} WZ dwa razy (w odstępie $\ge$30 dni) nie podejmuje uchwały o emisji (lit.~b) albo o transakcji ponad 500\,000 zł (lit.~h), a sprawa jest niezbędna --- każdy może wszcząć mediację};
+  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Impas:} WZ dwa razy (w odstępie $\ge$30 dni) nie podejmuje uchwały o emisji (lit.~b), transakcji ponad 500\,000 zł (lit.~h) albo w sprawie z §~13 ust.~3 --- mediacja; w sprawach z §~13 ust.~3 po 60 dniach obowiązuje status quo (UA)};
   \draw[line] (imp.north) ++(1.7,0) -- (m.south);
 \end{tikzpicture}
 \caption{Rozwiązywanie sporów (UA §~\ref{sha:spory}). Zabezpieczenie sądowe jest dostępne zawsze.}

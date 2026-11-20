@@ -94,7 +94,7 @@
 
 \emph{This is an English convenience translation. In the event of any discrepancy, the Polish version prevails.}
 
-This manual summarises the decision-making rules arising from the articles of association (the ``Articles'', version 3.3-S), the shareholders' agreement (the ``SHA'', version 1.7) and the internal documents: the information security policy, the Price List and the NDA template. In this manual, the ``GM'' means the General Meeting, the ``Board'' means the Board of Directors, an ``executive director'' is a director to whom the Board has delegated the day-to-day management of the Company, and a ``non-executive director'' is any other director. References in brackets indicate the source of each rule.
+This manual summarises the decision-making rules arising from the articles of association (the ``Articles'', version 3.4-S), the shareholders' agreement (the ``SHA'', version 1.8) and the internal documents: the information security policy, the Price List and the NDA template. In this manual, the ``GM'' means the General Meeting, the ``Board'' means the Board of Directors, an ``executive director'' is a director to whom the Board has delegated the day-to-day management of the Company, and a ``non-executive director'' is any other director. References in brackets indicate the source of each rule.
 
 \begin{Uwaga}
 This manual does not amend any agreement. In the event of a discrepancy, the Articles prevail, followed by the SHA. Internal limits bind the directors towards the Company but do not affect the validity of agreements with third parties (Art.~\S~\ref{en-art:reprezentacja}(4)): a director who exceeds them is liable to the Company.
@@ -349,10 +349,10 @@ Consent to a transfer is a non-discretionary decision: the Board does not assess
   \node[box=4.6cm, fill=black!8] (ev) {\textbf{Cessation of involvement}\\(termination of agreement, resignation, death, incapacity)};
   \node[rd=4.6cm, below=of ev] (st) {\textbf{The Board determines cessation} within 30 days (without the person concerned): the Cessation Date and the number of Unreleased Shares};
   \node[q=3.1cm, below=of st] (typ) {Type of departure?};
-  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Termination without cause / agreed departure}\\an additional 12 months are released};
+  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Justified Departure} (no material reason, incl.\ non-reappointment; agreed)\\an additional 12 months are released};
   \node[wz=3.4cm, left=6mm of u] (d) {\textbf{Death / permanent incapacity}\\\textbf{all} shares are released};
   \node[xx=3.4cm, right=6mm of u] (z) {\textbf{Ordinary Departure}\\no additional release};
-  \node[rd=6.2cm, below=12mm of u] (n) {Unreleased Shares $\to$ transfer \textbf{at the issue price}: the Board designates a buyer within 3 months; then the Original Founders within 30 days; after 6 months the obligation expires};
+  \node[rd=6.2cm, below=12mm of u] (n) {Unreleased Shares $\to$ transfer at the \textbf{issue price} (shares for a contribution in kind: value of the contribution, max.\ fair value): first the other Original Founders pro rata within 30 days, then a buyer designated by the Board within 2 months; after 6 months the obligation expires (suspended during a dispute)};
   \node[wz=6.2cm, below=of n] (wz75) {The GM may (75\%) also release the remaining shares};
   \draw[line] (ev) -- (st); \draw[line] (st) -- (typ);
   \draw[line] (typ) -| (d); \draw[line] (typ) -- (u); \draw[line] (typ) -| (z);
@@ -370,7 +370,7 @@ Consent to a transfer is a non-discretionary decision: the Board does not assess
 
 % ================================================================
 \begin{Komentarz}
-A buy-back of Unreleased Shares at the issue price is a market-standard solution, but a court may examine its compliance with the principles of community life (Articles~58 and 353$^{1}$ of the Civil Code (KC) \Zr{kc}); for this reason the agreement justifies the price by a mechanism accepted by all Founders when the Company was formed (SHA~\S~\ref{shaen:wykonanie}(2)). For a transfer below market value, the personal income tax consequences must be assessed \Zr{pit}. The Board should determine the cessation of involvement within 30 days --- a delay does not remove the transfer obligation, but weakens the Company's position in any dispute.
+A buy-back of Unreleased Shares at the issue price is a market-standard solution; for shares issued for an IP contribution in kind the agreement provides for a price equal to the value of the contribution (not higher than fair value), which limits the risk of the objection that the Company retains the contribution without consideration. Nevertheless, a court may examine its compliance with the principles of community life (Articles~58 and 353$^{1}$ of the Civil Code (KC) \Zr{kc}); for this reason the agreement justifies the price by a mechanism accepted by all Founders when the Company was formed (SHA~\S~\ref{shaen:wykonanie}(2)). For a transfer below market value, the personal income tax consequences must be assessed \Zr{pit}. The Board should determine the cessation of involvement within 30 days --- a delay does not remove the transfer obligation, but weakens the Company's position in any dispute.
 \end{Komentarz}
 
 \section{Agreements and disputes with directors}
@@ -484,7 +484,7 @@ The security policy, the access register and the NDAs concluded are evidence of 
   \node[xx=3.0cm, right=of n] (m) {mediation\\(centre named in the SHA)};
   \node[xx=3.0cm, right=of m] (sd) {common court\\of the Company's seat};
   \draw[line] (s) -- (n); \draw[line] (n) -- (m); \draw[line] (m) -- (sd);
-  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Deadlock:} the GM twice (at least 30 days apart) fails to adopt a resolution on a share issue (item~b) or on a transaction exceeding PLN 500\,000 (item~h), and the matter is necessary --- anyone may initiate mediation};
+  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Deadlock:} the GM twice (at least 30 days apart) fails to adopt a resolution on a share issue (item~b), a transaction exceeding PLN 500\,000 (item~h) or a matter under \S~13(3) --- mediation; for \S~13(3) matters, after 60 days the status quo applies (SHA)};
   \draw[line] (imp.north) ++(1.7,0) -- (m.south);
 \end{tikzpicture}
 \caption{Dispute resolution (SHA~\S~\ref{shaen:spory}). Interim court relief is always available.}
@@ -509,9 +509,10 @@ Shareholders' resolution on consent & 14 days from circulation of the draft & Ar
 Designation of a buyer after refusal (competitor) & 30 days from refusal & Art.~\S~\ref{en-art:zbywanie}(3) \\
 Lock-up of Original Founders / Series F & 12 months from registration / Series~F Grant Date & Art.~\S~\ref{en-art:zbywanie}(4) \\
 Determination of cessation of involvement & 30 days from becoming aware & SHA~\S~\ref{shaen:ustanie}(2) \\
-Designation of a buyer of Unreleased Shares & 3 months from the Cessation Date & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
-Acquisition by the remaining Founders & a further 30 days & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
-Expiry of the transfer obligation & 6 months from the Cessation Date & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
+Right of first acquisition by the remaining Founders & 30 days from the notice by the Board & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
+Designation by the Board of a buyer of the remaining shares & a further 2 months & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
+Expiry of the transfer obligation & 6 months from the Cessation Date (suspended during a dispute) & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
+Status quo after unsuccessful mediation (matters under Art.~\S~\ref{en-art:wz-zastrzezone}(3)) & 60 days from the start of mediation & SHA~\S~\ref{shaen:spory}(3) \\
 Payment of the price of Unreleased Shares & 14 days from the transfer agreement & SHA~\S~\ref{shaen:wykonanie}(4) \\
 Delivery of works after departure & 14 days & Agreement No.~2 \S~8, policy \S~7 \\
 Revocation of access & no later than the last day; immediately in a dispute & policy \S~7 \\

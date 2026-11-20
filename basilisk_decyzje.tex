@@ -91,7 +91,7 @@
 
 \section{Jak korzystać z podręcznika}
 
-Podręcznik streszcza zasady podejmowania decyzji wynikające z umowy spółki (dalej „US”, wersja 3.3-S), umowy akcjonariuszy (dalej „UA”, wersja 1.7) oraz dokumentów wewnętrznych: polityki bezpieczeństwa informacji, Cennika i wzoru NDA. Odwołania w nawiasach wskazują źródło zasady.
+Podręcznik streszcza zasady podejmowania decyzji wynikające z umowy spółki (dalej „US”, wersja 3.4-S), umowy akcjonariuszy (dalej „UA”, wersja 1.8) oraz dokumentów wewnętrznych: polityki bezpieczeństwa informacji, Cennika i wzoru NDA. Odwołania w nawiasach wskazują źródło zasady.
 
 \begin{Uwaga}
 Podręcznik nie zmienia żadnej umowy. W razie rozbieżności rozstrzyga treść umowy spółki, a następnie umowy akcjonariuszy. Limity wewnętrzne wiążą dyrektorów wobec Spółki, ale nie wpływają na ważność umów z osobami trzecimi (US §~\ref{art:reprezentacja} ust.~4): dyrektor, który je przekroczy, odpowiada wobec Spółki.
@@ -346,10 +346,10 @@ Zgoda na zbycie jest decyzją związaną: Rada nie ocenia ceny ani osoby nabywcy
   \node[box=4.6cm, fill=black!8] (ev) {\textbf{Ustanie zaangażowania}\\(rozwiązanie umowy, rezygnacja, śmierć, niezdolność)};
   \node[rd=4.6cm, below=of ev] (st) {\textbf{Rada stwierdza ustanie} w 30 dni (bez udziału zainteresowanego): dzień i liczba akcji niezwolnionych};
   \node[q=3.1cm, below=of st] (typ) {Rodzaj odejścia?};
-  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Rozwiązanie bez przyczyny / odejście uzgodnione}\\zwalnia się dodatkowo 12 mies.};
+  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Odejście Uzasadnione} (bez istotnej przyczyny, w tym niepowołanie; uzgodnione)\\zwalnia się dodatkowo 12 mies.};
   \node[wz=3.4cm, left=6mm of u] (d) {\textbf{Śmierć / trwała niezdolność}\\zwalniają się \textbf{wszystkie} akcje};
   \node[xx=3.4cm, right=6mm of u] (z) {\textbf{Odejście Zwykłe}\\bez dodatkowego zwolnienia};
-  \node[rd=6.2cm, below=12mm of u] (n) {Akcje niezwolnione $\to$ zbycie \textbf{po cenie emisyjnej}: Rada wskazuje nabywcę w 3 mies.; potem Założyciele Pierwotni w 30 dni; po 6 mies. obowiązek wygasa};
+  \node[rd=6.2cm, below=12mm of u] (n) {Akcje niezwolnione $\to$ zbycie po \textbf{cenie emisyjnej} (akcje za aport: wartość wkładu, max wartość godziwa): najpierw pozostali Założyciele Pierwotni pro rata w 30 dni, potem nabywca wskazany przez Radę w 2 mies.; po 6 mies. obowiązek wygasa (bieg zawieszony w sporze)};
   \node[wz=6.2cm, below=of n] (wz75) {WZ może (75\%) zwolnić także pozostałe akcje};
   \draw[line] (ev) -- (st); \draw[line] (st) -- (typ);
   \draw[line] (typ) -| (d); \draw[line] (typ) -- (u); \draw[line] (typ) -| (z);
@@ -367,7 +367,7 @@ Zgoda na zbycie jest decyzją związaną: Rada nie ocenia ceny ani osoby nabywcy
 
 % ================================================================
 \begin{Komentarz}
-Odkup akcji niezwolnionych po cenie emisyjnej to rozwiązanie rynkowe, ale sąd może badać jego zgodność z zasadami współżycia społecznego (art.~58 i 353$^{1}$ KC \Zr{kc}); dlatego umowa uzasadnia cenę mechanizmem przyjętym przez wszystkich Założycieli przy zawiązaniu Spółki (UA §~\ref{sha:wykonanie} ust.~2). Przy zbyciu poniżej wartości rynkowej trzeba ocenić skutki w podatku dochodowym \Zr{pit}. Rada powinna stwierdzić ustanie zaangażowania w 30 dni --- spóźnienie nie znosi obowiązku zbycia, ale osłabia pozycję Spółki w ewentualnym sporze.
+Odkup akcji niezwolnionych po cenie emisyjnej to rozwiązanie rynkowe; dla akcji objętych za aport IP umowa przewiduje cenę równą wartości wkładu (nie wyższą niż wartość godziwa), co ogranicza ryzyko zarzutu, że Spółka zatrzymuje wkład bez ekwiwalentu. Mimo to sąd może badać jego zgodność z zasadami współżycia społecznego (art.~58 i 353$^{1}$ KC \Zr{kc}); dlatego umowa uzasadnia cenę mechanizmem przyjętym przez wszystkich Założycieli przy zawiązaniu Spółki (UA §~\ref{sha:wykonanie} ust.~2). Przy zbyciu poniżej wartości rynkowej trzeba ocenić skutki w podatku dochodowym \Zr{pit}. Rada powinna stwierdzić ustanie zaangażowania w 30 dni --- spóźnienie nie znosi obowiązku zbycia, ale osłabia pozycję Spółki w ewentualnym sporze.
 \end{Komentarz}
 
 \section{Umowy i spory z dyrektorami}
@@ -481,7 +481,7 @@ Polityka bezpieczeństwa, rejestr dostępów i zawarte NDA są dowodem „niezb�
   \node[xx=3.0cm, right=of n] (m) {mediacja\\(ośrodek z UA)};
   \node[xx=3.0cm, right=of m] (sd) {sąd powszechny\\siedziby Spółki};
   \draw[line] (s) -- (n); \draw[line] (n) -- (m); \draw[line] (m) -- (sd);
-  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Impas:} WZ dwa razy (w odstępie $\ge$30 dni) nie podejmuje uchwały o emisji (lit.~b) albo o transakcji ponad 500\,000 zł (lit.~h), a sprawa jest niezbędna --- każdy może wszcząć mediację};
+  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Impas:} WZ dwa razy (w odstępie $\ge$30 dni) nie podejmuje uchwały o emisji (lit.~b), transakcji ponad 500\,000 zł (lit.~h) albo w sprawie z §~13 ust.~3 --- mediacja; w sprawach z §~13 ust.~3 po 60 dniach obowiązuje status quo (UA)};
   \draw[line] (imp.north) ++(1.7,0) -- (m.south);
 \end{tikzpicture}
 \caption{Rozwiązywanie sporów (UA §~\ref{sha:spory}). Zabezpieczenie sądowe jest dostępne zawsze.}
@@ -506,9 +506,10 @@ Uchwała akcjonariuszy w sprawie zgody & 14 dni od rozesłania projektu & US §~
 Wskazanie nabywcy po odmowie (konkurent) & 30 dni od odmowy & US §~\ref{art:zbywanie} ust.~3 \\
 Lock-up Założycieli Pierwotnych / serii F & 12 mies. od wpisu / Dnia Przyznania & US §~\ref{art:zbywanie} ust.~4 \\
 Stwierdzenie ustania zaangażowania & 30 dni od dowiedzenia się & UA §~\ref{sha:ustanie} ust.~2 \\
-Wskazanie nabywcy akcji niezwolnionych & 3 mies. od ustania & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
-Nabycie przez pozostałych Założycieli & kolejne 30 dni & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
-Wygaśnięcie obowiązku zbycia & 6 mies. od ustania & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
+Pierwszeństwo nabycia przez pozostałych Założycieli & 30 dni od zawiadomienia przez Radę & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
+Wskazanie nabywcy pozostałych akcji przez Radę & kolejne 2 mies. & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
+Wygaśnięcie obowiązku zbycia & 6 mies. od ustania (bieg zawieszony w sporze) & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
+Status quo po bezskutecznej mediacji (sprawy z US §~\ref{art:wz-zastrzezone} ust.~3) & 60 dni od wszczęcia mediacji & UA §~\ref{sha:spory} ust.~3 \\
 Zapłata ceny akcji niezwolnionych & 14 dni od umowy zbycia & UA §~\ref{sha:wykonanie} ust.~4 \\
 Wydanie utworów po odejściu & 14 dni & Umowa nr~2 §~8, polityka §~7 \\
 Odebranie dostępów & najpóźniej ostatni dzień; przy sporze od razu & polityka §~7 \\
