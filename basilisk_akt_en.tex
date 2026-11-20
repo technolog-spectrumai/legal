@@ -1,0 +1,190 @@
+% !TeX program = pdflatex
+% Documents package for the deed of formation of Basilisk Systems P.S.A. --- founders' resolutions, first resolutions of the Board of Directors, Rules of the General Meeting.
+% English convenience translation of basilisk_akt.tex; the Polish version prevails.
+% Cross-references to the Articles of Association taken from psa_en.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\externaldocument{psa_en}[psa_en.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Founders}
+\BusinessPlanConfidentialText{Draft resolutions --- confidential}
+\BusinessPlanFooterText{Basilisk Systems --- formation deed documents package (draft)}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.12}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\US}[1]{\S~#1 of the Articles}
+\newcommand{\Uchwala}[2]{\Needspace{8\baselineskip}\section*{#1}\addcontentsline{toc}{section}{#1 --- #2}\textbf{concerning: #2}\par}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- formation deed documents package},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+\selectlanguage{english}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Formation Deed Package}
+  {Founders' resolutions, first resolutions of the Board of Directors and Rules of the General Meeting}
+  {To the Articles of Association of Basilisk Systems P.S.A., version 3.3-S}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+{\small\itshape English convenience translation; the Polish version prevails.\par}
+
+The Articles of Association require the Founders, in resolutions included in the deed of formation of the Company, to designate the first directors, the entity maintaining the register of shareholders, the first Rules of the General Meeting and the attorney for acts with Founders who are directors (\US{\ref{en-art:final}(6)}). This package contains drafts of those resolutions, as well as of the first resolutions of the Board of Directors adopted immediately after formation.
+
+\textbf{Order of acts on the date of formation:}
+\begin{enumerate}
+  \item execution of the Articles of Association in the form of a notarial deed together with Resolutions No.~1--5 (Part~I);
+  \item promptly after execution --- conclusion by the attorney appointed under Resolution No.~4 of the agreements transferring the rights constituting non-cash contributions (Agreement No.~1) and execution of the shareholders' agreement;
+  \item meeting of the Board of Directors and Resolutions No.~R1--R3 (Part~II);
+  \item making of the cash contributions and filing of the application for entry of the Company in the register of entrepreneurs.
+\end{enumerate}
+
+Without Resolution No.~4, agreements concluded by the Company with Founders who are directors are at risk of being invalid (Article~300$^{79}$ \S~1 KSH). The attorney should be neither a party to the given agreement nor another director.
+
+% ================================================================
+\chapter*{Part I --- Founders' Resolutions Included in the Deed of Formation}
+\addcontentsline{toc}{chapter}{Part I --- Founders' Resolutions Included in the Deed of Formation}
+
+\Uchwala{Resolution No. 1}{appointment of the first directors}
+Acting pursuant to \US{\ref{en-art:rada}(2)--(3)} and \US{\ref{en-art:final}(6)}, the Founders appoint the following persons to the Board of Directors for the first joint term of office:
+\begin{enumerate}
+  \item \field{first name and surname} --- director;
+  \item \field{first name and surname} --- director;
+  \item \field{first name and surname} --- non-executive director.
+\end{enumerate}
+The Board of Directors consists of \field{3--7} directors. At least one director is to be a non-executive director (\US{\ref{en-art:rada}(4)}). This resolution enters into force upon its adoption.
+
+\Uchwala{Resolution No. 2}{selection of the entity maintaining the register of shareholders}
+Acting pursuant to Article~300$^{31}$ KSH and \US{\ref{en-art:akcje}(5)}, the Founders select \field{name of the authorised entity, registered office, KRS number} as the entity maintaining the register of shareholders of the Company and authorise the Board of Directors to enter into an agreement with it. The Board of Directors reports that entity to the register of entrepreneurs within the time limits provided for by law.
+
+\Uchwala{Resolution No. 3}{adoption of the Rules of the General Meeting}
+Acting pursuant to \US{\ref{en-art:wz}(5)}, the Founders adopt the Rules of the General Meeting in the wording set out in Part~III of this package.
+
+\Uchwala{Resolution No. 4}{appointment of an attorney for acts with directors}
+\begin{enumerate}
+  \item Acting pursuant to Article~300$^{79}$ \S~1 KSH and \US{\ref{en-art:reprezentacja}(3)} and \US{\ref{en-art:final}(6)}, the Founders appoint \field{first name and surname, PESEL or identity document number} as the attorney of the Company to conclude, amend, perform and terminate on behalf of the Company, with the Founders who are directors, the following agreements, and to perform other acts connected with them:
+  \begin{enumerate}[label=\alph*)]
+    \item agreements transferring the rights constituting non-cash contributions (Agreement No.~1, \US{\ref{en-art:cap-table}(6)}) together with the handover reports;
+    \item agreements transferring the rights to works created for the Company (Agreement No.~2, \US{\ref{en-art:ip}(1)}) and the quarterly confirmations;
+    \item the shareholders' agreement together with its annexes, including offers, powers of attorney and declarations of accession;
+    \item agreements implementing the share transfer obligation (\US{\ref{en-art:obowiazek-zbycia}(6)}).
+  \end{enumerate}
+  \item The attorney may not be a party to an agreement which the attorney concludes on behalf of the Company. The power of attorney remains valid until revoked by a shareholders' resolution.
+\end{enumerate}
+
+\Uchwala{Resolution No. 5}{consent to acts of the Company in organisation}
+Acting pursuant to \US{\ref{en-art:final}(6)}, the Founders consent to the Company in organisation incurring the obligations necessary for its formation and registration, including notarial and court fees, the costs of the register of shareholders and of opening a bank account, up to a total amount of PLN~\field{amount}. Other obligations incurred before the date of entry of the Company in the register of entrepreneurs require the consent of all Founders in documentary form.
+
+\vspace{1em}
+\field{signatures of all Founders --- in the notarial deed}
+
+% ================================================================
+\chapter*{Part II --- First Resolutions of the Board of Directors}
+\addcontentsline{toc}{chapter}{Part II --- First Resolutions of the Board of Directors}
+
+\Uchwala{Resolution No. R1}{election of the Chair and designation of the executive director}
+Acting pursuant to \US{\ref{en-art:rada}(4)} and Article~300$^{76}$ KSH, the Board of Directors:
+\begin{enumerate}
+  \item elects \field{first name and surname} as Chair of the Board of Directors;
+  \item designates \field{first name and surname} as executive director and delegates to that director the conduct of the Company's day-to-day business within the limits of the budget, excluding matters requiring a resolution of the Board of Directors (\US{\ref{en-art:rada}(7)});
+  \item states that \field{first name and surname} is the non-executive director.
+\end{enumerate}
+
+\Uchwala{Resolution No. R2}{designation of responsible persons}
+The Board of Directors designates:
+\begin{enumerate}
+  \item \field{first name and surname} --- as the Officer within the meaning of the information security policy;
+  \item \field{first name and surname} --- as the head of the entrepreneur within the meaning of the Act on the Protection of Classified Information, for the purposes of future proceedings for the issue of an industrial security certificate;
+  \item \field{first name and surname} and \field{first name and surname} --- as the directors responsible for preparing the application for a licence for the manufacture of and trade in military products and technology.
+\end{enumerate}
+
+\Uchwala{Resolution No. R3}{adoption of internal documents and confirmation that contributions have been made}
+\begin{enumerate}
+  \item The Board of Directors adopts the information security policy, the Price List of remuneration for design solutions and the template non-disclosure agreement (NDA) (\US{\ref{en-art:rada}(7)}).
+  \item The Board of Directors confirms that the cash contributions have been made in the total amount of PLN~\field{amount} and --- following the conclusion of the transfer agreements and handover reports --- that the non-cash contributions listed in Annex~1 to the Articles of Association have been made, and discloses the resulting amount of the share capital (\US{\ref{en-art:cap-table}(5)}).
+\end{enumerate}
+
+% ================================================================
+\chapter*{Part III --- Rules of the General Meeting}
+\addcontentsline{toc}{chapter}{Part III --- Rules of the General Meeting}
+
+\begin{ContractClause}{Scope}
+These Rules set out the procedure for convening and holding the General Meeting and the rules for participating in it using means of electronic communication (\US{\ref{en-art:wz}(5)}; Article~300$^{92}$ KSH). Resolutions adopted outside the General Meeting are governed by \US{\ref{en-art:wz}(3)}.
+\end{ContractClause}
+
+\begin{ContractClause}{Convening}
+\begin{enumerate}
+  \item The General Meeting is convened by the Board of Directors by a notice sent by e-mail to the shareholders' addresses entered in the register of shareholders, in compliance with the statutory time limits (\US{\ref{en-art:wz}(2) and (4)}).
+  \item The notice specifies the date, time, place and agenda, the draft resolutions, the method of remote participation and the contact details for reporting technical problems.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Remote Participation}
+\begin{enumerate}
+  \item A shareholder or the shareholder's proxy may participate in the General Meeting using means of electronic communication, in particular through real-time two-way audio-video communication, and may exercise voting rights remotely.
+  \item Identification takes place by: (a)~notification of remote participation by e-mail sent from the address entered in the register of shareholders no later than 24 hours before the start of the meeting; (b)~presentation of an identity document during the transmission or authentication with a qualified electronic signature; (c)~in the case of a proxy --- submission of the power of attorney in the form required by law.
+  \item Votes are cast orally for the minutes, through the voting function of the platform ensuring that the vote is recorded, or by an e-mail message sent from the address entered in the register of shareholders during the vote.
+  \item The Board of Directors ensures that the platform enables identification of the participants, real-time communication and recording of the proceedings, and makes it available to the shareholders at least 30 minutes before the start of the meeting.
+  \item The requirements imposed in this \S{} may not go beyond what is necessary to identify the shareholders and to ensure the security of communication (Article~300$^{92}$ KSH).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Conduct of the Meeting}
+\begin{enumerate}
+  \item The General Meeting is opened by the Chair of the Board of Directors or by another director. The chair of the General Meeting is elected from among the persons entitled to participate.
+  \item The chair of the meeting draws up the attendance list, which includes the remote participants together with an indication of the method of identification, determines whether the meeting has been validly convened and is capable of adopting resolutions, and ensures the efficient conduct of the meeting.
+  \item The General Meeting may order an adjournment, including in the event of technical disruptions affecting a larger number of participants. Technical problems on the shareholder's side do not affect the validity of the meeting or of the resolutions to the extent permitted by law (\US{\ref{en-art:wz}(6)}).
+  \item Resolutions which by law require minutes drawn up by a notary, in particular those concerning an amendment to the Articles of Association, are adopted in the presence of a notary; the notary attends at the place of the meeting.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Minutes and Personal Data}
+\begin{enumerate}
+  \item Minutes are drawn up of the meeting, containing the attendance list, the text of the resolutions, the number of votes cast for each resolution and any objections raised. The minutes are entered in the minute book (Article~300$^{100}$ KSH).
+  \item A recording of the meeting may be made solely for the purpose of documenting the proceedings of the General Meeting, after the participants have been informed, and is kept for \field{period}. The controller of the participants' personal data is the Company (Article~6(1)(c) and (f) GDPR).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+An amendment to these Rules requires a shareholders' resolution adopted by an absolute majority of votes cast. These Rules enter into force on the date of formation of the Company.
+\end{ContractClause}
+
+\end{document}
