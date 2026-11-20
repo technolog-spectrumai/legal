@@ -241,10 +241,10 @@ Original Founder: 25\% at once, the rest over 36 months after a 6-month cliff. S
   \node[box=4.6cm, fill=black!8] (ev) {\textbf{Cessation of involvement}\\(termination of agreement, resignation, death, incapacity)};
   \node[rd=4.6cm, below=of ev] (st) {\textbf{The Board determines cessation} within 30 days (without the person concerned): the Cessation Date and the number of Unreleased Shares};
   \node[q=3.1cm, below=of st] (typ) {Type of departure?};
-  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Termination without cause / agreed departure}\\an additional 12 months are released};
+  \node[wz=3.6cm, below=10mm of typ] (u) {\textbf{Justified Departure} (no material reason, incl.\ non-reappointment; agreed)\\an additional 12 months are released};
   \node[wz=3.4cm, left=6mm of u] (d) {\textbf{Death / permanent incapacity}\\\textbf{all} shares are released};
   \node[xx=3.4cm, right=6mm of u] (z) {\textbf{Ordinary Departure}\\no additional release};
-  \node[rd=6.2cm, below=12mm of u] (n) {Unreleased Shares $\to$ transfer \textbf{at the issue price}: the Board designates a buyer within 3 months; then the Original Founders within 30 days; after 6 months the obligation expires};
+  \node[rd=6.2cm, below=12mm of u] (n) {Unreleased Shares $\to$ transfer at the \textbf{issue price} (shares for a contribution in kind: value of the contribution, max.\ fair value): first the other Original Founders pro rata within 30 days, then a buyer designated by the Board within 2 months; after 6 months the obligation expires (suspended during a dispute)};
   \node[wz=6.2cm, below=of n] (wz75) {The GM may (75\%) also release the remaining shares};
   \draw[line] (ev) -- (st); \draw[line] (st) -- (typ);
   \draw[line] (typ) -| (d); \draw[line] (typ) -- (u); \draw[line] (typ) -| (z);
@@ -254,7 +254,7 @@ Original Founder: 25\% at once, the rest over 36 months after a 6-month cliff. S
 \caption{Cessation of involvement and the fate of the Unreleased Shares.}
 \end{figure}
 \begin{Komentarz}
-A good leaver release takes effect automatically. After an Ordinary Departure, Unreleased Shares go back at the issue price.
+A good leaver release takes effect automatically. After an Ordinary Departure, Unreleased Shares are offered first to the other Founders, at the issue price or --- for shares issued for a contribution in kind --- at the value of the contribution.
 \end{Komentarz}
 
 \section*{Agreements with directors}
@@ -330,7 +330,7 @@ A new series (e.g. for investors) first requires an amendment to the Articles be
   \node[xx=3.0cm, right=of n] (m) {mediation\\(centre named in the SHA)};
   \node[xx=3.0cm, right=of m] (sd) {common court\\of the Company's seat};
   \draw[line] (s) -- (n); \draw[line] (n) -- (m); \draw[line] (m) -- (sd);
-  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Deadlock:} the GM twice (at least 30 days apart) fails to adopt a resolution on a share issue (item~b) or on a transaction exceeding PLN 500\,000 (item~h), and the matter is necessary --- anyone may initiate mediation};
+  \node[wz=7.2cm, below=9mm of n.south east, anchor=north] (imp) {\textbf{Deadlock:} the GM twice (at least 30 days apart) fails to adopt a resolution on a share issue (item~b), a transaction exceeding PLN 500\,000 (item~h) or a matter under \S~13(3) --- mediation; for \S~13(3) matters, after 60 days the status quo applies (SHA)};
   \draw[line] (imp.north) ++(1.7,0) -- (m.south);
 \end{tikzpicture}
 \caption{Dispute resolution (SHA~\S~\ref{shaen:spory}). Interim court relief is always available.}
