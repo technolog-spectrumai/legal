@@ -183,6 +183,7 @@ g) & acquisition of own shares, redemption, payment out of share capital \\
 h) & an obligation, security or transaction outside the budget exceeding PLN 500\,000 \\
 i) & consent to a transfer of shares during the lock-up period (12 months) and release of shares from the transfer obligation beyond the automatic release \\
 j) & a credit, loan, surety or similar agreement with or for the benefit of a director, commercial proxy or liquidator \\
+k) & an agreement with a shareholder holding at least 5\% of the shares, a director, a person closely related to them or an affiliated entity worth more than PLN~100,000 in a financial year (except for the Founders' involvement agreements and the IP agreements under the Articles) \\
 \bottomrule
 \end{tabularx}
 
@@ -225,7 +226,7 @@ The same act may require different decisions depending on the amount. The amount
   \fill[cRD!25] (250,0.85) rectangle (500,1.55); \node[font=\scriptsize] at (375,1.2) {Board of Directors};
   \fill[cWZ!25] (500,0.85) rectangle (630,1.55); \node[font=\scriptsize] at (565,1.2) {GM 75\%};
   % band 2: financing / security / assets
-  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {financing, security,\\disposal of assets};
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {financing, security,\\disposal of assets\\(GM: only outside the budget)};
   \fill[cDW!25] (0,1.95) rectangle (100,2.65);  \node[font=\scriptsize] at (50,2.3) {exec.~dir.};
   \fill[cRD!25] (100,1.95) rectangle (500,2.65); \node[font=\scriptsize] at (300,2.3) {Board of Directors};
   \fill[cWZ!25] (500,1.95) rectangle (630,2.65); \node[font=\scriptsize] at (565,2.3) {GM 75\%};
@@ -237,7 +238,7 @@ The same act may require different decisions depending on the amount. The amount
 \caption{Who approves an act depending on the amount (Art.~\S~\ref{en-art:rada}(7), Art.~\S~\ref{en-art:wz-zastrzezone}(1)(h)).}
 \end{figure}
 
-Regardless of the amount: a transaction with a shareholder, director or related entity requires a Board resolution (without the participation of a director having a conflict of interest), and a credit or loan agreement with a director also requires the consent of the GM by 75\% (table~1 item~j). A disposal of assets exceeding 25\% of their value always requires the GM by 75\% (item~e).
+Regardless of the amount: a transaction with a shareholder, director or related entity requires a Board resolution (a director having a conflict of interest does not vote but counts towards the quorum; if the resolution cannot be adopted, the GM decides), and a credit or loan agreement with a director also requires the consent of the GM by 75\% (table~1 item~j). An agreement with a shareholder holding at least 5\%, a director or an affiliated entity above PLN~100,000 a year requires the GM by 75\% (item~k). A disposal of assets exceeding 25\% of their value always requires the GM by 75\% (item~e).
 
 % ================================================================
 \begin{Komentarz}
@@ -302,6 +303,7 @@ Every transfer or encumbrance of shares requires the consent of the Company, whi
   \node[xx=3.2cm, below=of ua] (sad) {court: claim for a declaration of consent (Article~64 KC)};
   \draw[line] (z) -- (lock);
   \draw[line] (lock) -- node[lbl, above]{yes} (lockwz);
+  \draw[line] (lockwz) |- node[lbl, pos=0.3, right]{after GM consent} (rd);
   \draw[line] (lock) -- node[lbl, left]{no} (rd);
   \draw[line] (rd) -- (ok); \draw[line] (rd) -- (no); \draw[line] (rd) -- (cisza);
   \draw[line] (no) -- (e);
@@ -381,7 +383,7 @@ A buy-back of Unreleased Shares at the issue price is a market-standard solution
   \node[box=4.4cm, fill=black!8] (u) {\textbf{Agreement or dispute between the Company and a director}};
   \node[q=3.0cm, below=of u] (q) {Executive director?};
   \node[rd=4.6cm, below left=9mm and -7mm of q] (dn) {Non-executive director under a resolution of the non-executive directors\\\textbf{or} an attorney appointed by a shareholders' resolution};
-  \node[wz=4.6cm, below right=9mm and -7mm of q] (pe) {\textbf{Attorney} appointed by a shareholders' resolution to conclude, amend, perform and terminate the agreement (may be outside the GM; neither a party nor another director)};
+  \node[wz=4.6cm, below right=9mm and -7mm of q] (pe) {\textbf{Attorney} appointed by a shareholders' resolution to conclude, amend, perform and terminate the agreement (may be outside the GM; not a party; recommended: not a director)};
   \node[xx=9.8cm, anchor=north] (poz) at ($(q |- pe.south)+(0,-5mm)$) {\textbf{Loan, credit, surety with a director:} Board resolution + GM consent 75\% + attorney appointed by a shareholders' resolution (Art.~\S~\ref{en-art:wz-zastrzezone}(1)(j), SHA~\S~\ref{shaen:finansowanie}(2))};
   \draw[line] (u) -- (q);
   \draw[line] (q) -- node[lbl, left]{yes} (dn);
@@ -514,7 +516,7 @@ Designation by the Board of a buyer of the remaining shares & a further 2 months
 Expiry of the transfer obligation & 6 months from the Cessation Date (suspended during a dispute) & Art.~\S~\ref{en-art:obowiazek-zbycia}(4) \\
 Status quo after unsuccessful mediation (matters under Art.~\S~\ref{en-art:wz-zastrzezone}(3)) & 60 days from the start of mediation & SHA~\S~\ref{shaen:spory}(3) \\
 Payment of the price of Unreleased Shares & 14 days from the transfer agreement & SHA~\S~\ref{shaen:wykonanie}(4) \\
-Delivery of works after departure & 14 days & Agreement No.~2 \S~8, policy \S~7 \\
+Delivery of works after departure & 14 days & Agreement No.~2 \S~7(4), policy \S~7 \\
 Revocation of access & no later than the last day; immediately in a dispute & policy \S~7 \\
 Reporting an incident / personal data breach & 24 hours / 72 hours to UODO & policy \S~6 \\
 Indexation of penalties and the Price List & each year on 1 March & SHA~\S~\ref{shaen:kary}(2), Price List \S~5 \\

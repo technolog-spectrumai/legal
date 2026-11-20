@@ -63,7 +63,7 @@
 
 \begin{ContractClause}{Purpose and Scope}
 \begin{enumerate}
-  \item This policy sets out how the Company protects its information. It is the information security policy referred to in \S~14(3) of the Articles, in the shareholders' agreement and in the rights transfer agreements, and a necessary step to keep information confidential within the meaning of Article~11(2) of the Act on Combating Unfair Competition.
+  \item This policy sets out how the Company protects its information. It is the information security policy referred to in \S~14(3) of the Articles, in Agreement No.~2 (rights transfer agreements), and a necessary step to keep information confidential within the meaning of Article~11(2) of the Act on Combating Unfair Competition.
   \item This policy binds the directors, shareholders with access to the Company's information, employees and collaborators (the \textbf{``Users''}). Each User confirms having read it before being granted access.
   \item The director designated by the Board of Directors (the \textbf{``Officer''}) is responsible for implementing this policy and, until designated, each director.
 \end{enumerate}
@@ -94,7 +94,7 @@ Controlled & only persons on a named list approved by the Board of Directors & o
 \end{center}
 
   \item The Officer keeps an access register (person, systems and repositories, category, date granted and revoked) and checks every quarter that access corresponds to tasks.
-  \item The Company does not process classified information within the meaning of the Act on the Protection of Classified Information. Before concluding an agreement requiring access to such information (in particular with the Ministry of National Defence or an entity subordinate to it), the Board of Directors initiates proceedings for the issue of an industrial security certificate and appoints a classified information protection officer.
+  \item The Company does not process classified information within the meaning of the Act on the Protection of Classified Information. The Board of Directors appoints the head of the undertaking within the meaning of the Act on the Protection of Classified Information and files the application for an industrial security certificate already at the first talks about a contract that may require access to such information (in particular with the Ministry of National Defence, the Armament Agency or an entity subordinate to them), and not only before the agreement is concluded, and appoints a classified information protection officer. The application is accompanied by information on the capital structure and beneficial owners, which the shareholders provide under the shareholders' agreement.
 \end{enumerate}
 \end{ContractClause}
 
@@ -104,11 +104,22 @@ Controlled & only persons on a named list approved by the Board of Directors & o
   \item Devices used for work have disk encryption, screen lock and up-to-date software. Controlled information is processed only on Company devices.
   \item Confidential and Controlled information is not entered into publicly available tools and services, including artificial-intelligence tools, unless the Officer has approved a tool ensuring that the data are not stored or used by the provider.
   \item Keys, tokens and secrets are kept in a secrets manager, not in code or messages.
+  \item The Company logs access to Company accounts, repositories and systems (access logs) and reviews those logs in the cases specified in this policy, in order to protect information the disclosure of which could harm the Company. In respect of employees this is monitoring within the meaning of Articles~22\textsuperscript{2}--22\textsuperscript{3} of the Labour Code: its purpose, scope and method are set out in the work regulations or in a notice, and employees are informed of it at least 2 weeks before it is launched and, in writing, before they are admitted to work. Monitoring does not cover the content of private correspondence.
 \end{enumerate}
 \end{ContractClause}
 
 \begin{ContractClause}{External Disclosure}
 Confidential information is made available to third parties (investors, partners, advisers, subcontractors) only after an NDA in the Company's form, or an agreement with an equivalent clause, has been concluded, and only to the extent necessary for its purpose. The Officer keeps a record of the NDAs concluded and the materials provided. Controlled information is made available to third parties only with the consent of the Board of Directors.
+\end{ContractClause}
+
+\begin{ContractClause}{Export Compliance Programme}
+\begin{enumerate}
+  \item This section constitutes the Company's export compliance programme referred to in the Articles and in the general licence terms. The Officer is responsible for its implementation.
+  \item Before a product, code, model, data or documentation is made available outside the Company, the Officer carries out and documents its classification: an entry under Regulation (EU) 2021/821, an entry on the military list, or not controlled; the classification register is updated at every release. The component list (SBOM) includes the country of origin, export classification and use restrictions arising from the licence.
+  \item Before an agreement is concluded and before each delivery, the counterparty, the entities controlling it and the end user are screened against sanctions lists; the result is documented.
+  \item The virtual data room is tiered: corporate and financial documents --- after an NDA is concluded; technical Confidential information --- after the Officer's assessment; Controlled information --- only with the consent of the Board of Directors, after checking whether making it available to persons from other countries (including the investor's analysts and advisers) is an export requiring a licence.
+  \item Making technology available abroad or to a person from a country outside the European Union, including by remote access, download or update, requires the Officer's prior assessment and, where required, a licence or concession. The documentation is kept for at least 5 years.
+\end{enumerate}
 \end{ContractClause}
 
 \begin{ContractClause}{Incidents}

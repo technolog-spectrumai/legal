@@ -152,7 +152,7 @@ Idź od góry: pierwsze „tak” wskazuje organ. „75\% wszystkich głosów”
   \fill[cRD!25] (250,0.85) rectangle (500,1.55); \node[font=\scriptsize] at (375,1.2) {Rada Dyrektorów};
   \fill[cWZ!25] (500,0.85) rectangle (630,1.55); \node[font=\scriptsize] at (565,1.2) {WZ 75\%};
   % pas 2: finansowanie / zabezpieczenie / aktywa
-  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {finansowanie, zabezpie-\\czenie, zbycie aktywów};
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {finansowanie, zabezpie-\\czenie, zbycie aktywów\\(WZ: tylko poza budżetem)};
   \fill[cDW!25] (0,1.95) rectangle (100,2.65);  \node[font=\scriptsize] at (50,2.3) {dyr.~wyk.};
   \fill[cRD!25] (100,1.95) rectangle (500,2.65); \node[font=\scriptsize] at (300,2.3) {Rada Dyrektorów};
   \fill[cWZ!25] (500,1.95) rectangle (630,2.65); \node[font=\scriptsize] at (565,2.3) {WZ 75\%};
@@ -161,7 +161,7 @@ Idź od góry: pierwsze „tak” wskazuje organ. „75\% wszystkich głosów”
   \fill[cDW!25] (0,3.05) rectangle (630,3.75); \node[font=\scriptsize] at (315,3.4) {dyrektor wykonawczy (w granicach regulaminu Rady)};
   \foreach \v in {100,250,500} \draw[densely dotted, black!50] (\v,0) -- (\v,3.85);
 \end{tikzpicture}
-\caption{Kto zatwierdza czynność w zależności od kwoty (US §~\ref{art:rada} ust.~7, §~13 ust.~1 lit.~h).}
+\caption{Kto zatwierdza czynność w zależności od kwoty (US §~\ref{art:rada} ust.~7, §~\ref{art:wz-zastrzezone} ust.~1 lit.~h).}
 \end{figure}
 \begin{Komentarz}
 Nie dziel transakcji, aby zejść pod próg. Najwięcej decyzji przekazuje dyrektorowi wykonawczemu dobrze przyjęty budżet. Progi zmienia tylko zmiana umowy (75\%, notariusz); uchwałą akcjonariuszy można je jedynie zaostrzyć wewnętrznie.
@@ -200,6 +200,7 @@ E-mail z adresu z rejestru akcjonariuszy wystarcza. Zmianę umowy spółki podej
   \node[xx=3.2cm, below=of ua] (sad) {sąd: żądanie złożenia oświadczenia o zgodzie (art.~64 KC)};
   \draw[line] (z) -- (lock);
   \draw[line] (lock) -- node[lbl, above]{tak} (lockwz);
+  \draw[line] (lockwz) |- node[lbl, pos=0.3, right]{po zgodzie WZ} (rd);
   \draw[line] (lock) -- node[lbl, left]{nie} (rd);
   \draw[line] (rd) -- (ok); \draw[line] (rd) -- (no); \draw[line] (rd) -- (cisza);
   \draw[line] (no) -- (e);
@@ -263,7 +264,7 @@ Dobre odejście zwalnia akcje automatycznie. Przy Odejściu Zwykłym akcje niezw
   \node[box=4.4cm, fill=black!8] (u) {\textbf{Umowa albo spór Spółki z dyrektorem}};
   \node[q=3.0cm, below=of u] (q) {Dyrektor wykonawczy?};
   \node[rd=4.6cm, below left=9mm and -10mm of q] (dn) {Dyrektor niewykonawczy na podstawie uchwały dyrektorów niewykonawczych\\\textbf{albo} pełnomocnik z uchwały akcjonariuszy};
-  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy do zawarcia, zmiany, wykonania i rozwiązania umowy (może być poza WZ; nie strona umowy ani inny dyrektor)};
+  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy do zawarcia, zmiany, wykonania i rozwiązania umowy (może być poza WZ; nie strona umowy; zalecenie: nie dyrektor)};
   \node[xx=9.8cm, anchor=north] (poz) at ($(q |- pe.south)+(0,-5mm)$) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
   \draw[line] (u) -- (q);
   \draw[line] (q) -- node[lbl, left]{tak} (dn);

@@ -180,6 +180,7 @@ g) & nabycie akcji własnych, umorzenie, wypłata z kapitału akcyjnego \\
 h) & zobowiązanie, zabezpieczenie albo transakcja poza budżetem powyżej 500\,000 zł \\
 i) & zgoda na zbycie akcji w okresie lock-up (12 miesięcy) i zwolnienie akcji z obowiązku zbycia ponad zwolnienie automatyczne \\
 j) & kredyt, pożyczka, poręczenie lub podobna umowa z dyrektorem, prokurentem, likwidatorem albo na ich rzecz \\
+k) & umowa z akcjonariuszem mającym co najmniej 5\% akcji, dyrektorem, osobą im bliską albo podmiotem powiązanym o wartości ponad 100\,000 zł w roku obrotowym (z wyjątkiem umów Założycieli w zakresie zaangażowania i umów IP z US) \\
 \bottomrule
 \end{tabularx}
 
@@ -222,7 +223,7 @@ Ta sama czynność może wymagać różnych decyzji zależnie od kwoty. Kwoty do
   \fill[cRD!25] (250,0.85) rectangle (500,1.55); \node[font=\scriptsize] at (375,1.2) {Rada Dyrektorów};
   \fill[cWZ!25] (500,0.85) rectangle (630,1.55); \node[font=\scriptsize] at (565,1.2) {WZ 75\%};
   % pas 2: finansowanie / zabezpieczenie / aktywa
-  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {finansowanie, zabezpie-\\czenie, zbycie aktywów};
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {finansowanie, zabezpie-\\czenie, zbycie aktywów\\(WZ: tylko poza budżetem)};
   \fill[cDW!25] (0,1.95) rectangle (100,2.65);  \node[font=\scriptsize] at (50,2.3) {dyr.~wyk.};
   \fill[cRD!25] (100,1.95) rectangle (500,2.65); \node[font=\scriptsize] at (300,2.3) {Rada Dyrektorów};
   \fill[cWZ!25] (500,1.95) rectangle (630,2.65); \node[font=\scriptsize] at (565,2.3) {WZ 75\%};
@@ -231,10 +232,10 @@ Ta sama czynność może wymagać różnych decyzji zależnie od kwoty. Kwoty do
   \fill[cDW!25] (0,3.05) rectangle (630,3.75); \node[font=\scriptsize] at (315,3.4) {dyrektor wykonawczy (w granicach regulaminu Rady)};
   \foreach \v in {100,250,500} \draw[densely dotted, black!50] (\v,0) -- (\v,3.85);
 \end{tikzpicture}
-\caption{Kto zatwierdza czynność w zależności od kwoty (US §~\ref{art:rada} ust.~7, §~13 ust.~1 lit.~h).}
+\caption{Kto zatwierdza czynność w zależności od kwoty (US §~\ref{art:rada} ust.~7, §~\ref{art:wz-zastrzezone} ust.~1 lit.~h).}
 \end{figure}
 
-Niezależnie od kwoty: transakcja z akcjonariuszem, dyrektorem albo podmiotem powiązanym wymaga uchwały Rady (bez udziału dyrektora mającego konflikt interesów), a umowa kredytu lub pożyczki z dyrektorem --- także zgody WZ 75\% (tabela~1 lit.~j). Zbycie aktywów ponad 25\% ich wartości zawsze wymaga WZ 75\% (lit.~e).
+Niezależnie od kwoty: transakcja z akcjonariuszem, dyrektorem albo podmiotem powiązanym wymaga uchwały Rady (dyrektor mający konflikt interesów nie głosuje, ale liczy się do kworum; gdy uchwały nie można podjąć, rozstrzyga WZ), a umowa kredytu lub pożyczki z dyrektorem --- także zgody WZ 75\% (tabela~1 lit.~j). Umowa z akcjonariuszem mającym co najmniej 5\%, dyrektorem albo podmiotem powiązanym ponad 100\,000 zł rocznie wymaga WZ 75\% (lit.~k). Zbycie aktywów ponad 25\% ich wartości zawsze wymaga WZ 75\% (lit.~e).
 
 % ================================================================
 \begin{Komentarz}
@@ -299,6 +300,7 @@ Każde zbycie albo obciążenie akcji wymaga zgody Spółki, którą wydaje Rada
   \node[xx=3.2cm, below=of ua] (sad) {sąd: żądanie złożenia oświadczenia o zgodzie (art.~64 KC)};
   \draw[line] (z) -- (lock);
   \draw[line] (lock) -- node[lbl, above]{tak} (lockwz);
+  \draw[line] (lockwz) |- node[lbl, pos=0.3, right]{po zgodzie WZ} (rd);
   \draw[line] (lock) -- node[lbl, left]{nie} (rd);
   \draw[line] (rd) -- (ok); \draw[line] (rd) -- (no); \draw[line] (rd) -- (cisza);
   \draw[line] (no) -- (e);
@@ -378,7 +380,7 @@ Odkup akcji niezwolnionych po cenie emisyjnej to rozwiązanie rynkowe; dla akcji
   \node[box=4.4cm, fill=black!8] (u) {\textbf{Umowa albo spór Spółki z dyrektorem}};
   \node[q=3.0cm, below=of u] (q) {Dyrektor wykonawczy?};
   \node[rd=4.6cm, below left=9mm and -10mm of q] (dn) {Dyrektor niewykonawczy na podstawie uchwały dyrektorów niewykonawczych\\\textbf{albo} pełnomocnik z uchwały akcjonariuszy};
-  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy do zawarcia, zmiany, wykonania i rozwiązania umowy (może być poza WZ; nie strona umowy ani inny dyrektor)};
+  \node[wz=4.6cm, below right=9mm and -10mm of q] (pe) {\textbf{Pełnomocnik} powołany uchwałą akcjonariuszy do zawarcia, zmiany, wykonania i rozwiązania umowy (może być poza WZ; nie strona umowy; zalecenie: nie dyrektor)};
   \node[xx=9.8cm, anchor=north] (poz) at ($(q |- pe.south)+(0,-5mm)$) {\textbf{Pożyczka, kredyt, poręczenie z dyrektorem:} uchwała Rady + zgoda WZ 75\% + pełnomocnik z uchwały akcjonariuszy (US §~\ref{art:wz-zastrzezone} ust.~1 lit.~j, UA §~\ref{sha:finansowanie} ust.~2)};
   \draw[line] (u) -- (q);
   \draw[line] (q) -- node[lbl, left]{tak} (dn);
@@ -511,7 +513,7 @@ Wskazanie nabywcy pozostałych akcji przez Radę & kolejne 2 mies. & US §~\ref{
 Wygaśnięcie obowiązku zbycia & 6 mies. od ustania (bieg zawieszony w sporze) & US §~\ref{art:obowiazek-zbycia} ust.~4 \\
 Status quo po bezskutecznej mediacji (sprawy z US §~\ref{art:wz-zastrzezone} ust.~3) & 60 dni od wszczęcia mediacji & UA §~\ref{sha:spory} ust.~3 \\
 Zapłata ceny akcji niezwolnionych & 14 dni od umowy zbycia & UA §~\ref{sha:wykonanie} ust.~4 \\
-Wydanie utworów po odejściu & 14 dni & Umowa nr~2 §~8, polityka §~7 \\
+Wydanie utworów po odejściu & 14 dni & Umowa nr~2 §~7 ust.~4, polityka §~7 \\
 Odebranie dostępów & najpóźniej ostatni dzień; przy sporze od razu & polityka §~7 \\
 Zgłoszenie incydentu / naruszenia danych & 24 godziny / 72 godziny do UODO & polityka §~6 \\
 Waloryzacja kar i Cennika & co roku 1 marca & UA §~\ref{sha:kary} ust.~2, Cennik §~5 \\

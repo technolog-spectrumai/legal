@@ -62,7 +62,7 @@
 
 \begin{ContractClause}{Cel i zakres}
 \begin{enumerate}
-  \item Polityka określa, jak Spółka chroni swoje informacje. Jest polityką bezpieczeństwa informacji, o której mowa w §~14 ust.~3 umowy spółki, w umowie akcjonariuszy i w umowach przeniesienia praw, oraz niezbędnym działaniem w celu utrzymania poufności w rozumieniu art.~11 ust.~2 ustawy o zwalczaniu nieuczciwej konkurencji.
+  \item Polityka określa, jak Spółka chroni swoje informacje. Jest polityką bezpieczeństwa informacji, o której mowa w §~14 ust.~3 umowy spółki, w Umowie nr~2 (umowy przeniesienia praw), oraz niezbędnym działaniem w celu utrzymania poufności w rozumieniu art.~11 ust.~2 ustawy o zwalczaniu nieuczciwej konkurencji.
   \item Polityka wiąże dyrektorów, akcjonariuszy mających dostęp do informacji Spółki, pracowników i współpracowników (\textbf{„Użytkownicy”}). Każdy Użytkownik potwierdza zapoznanie się z nią przed uzyskaniem dostępu.
   \item Za wykonanie polityki odpowiada dyrektor wyznaczony przez Radę Dyrektorów (\textbf{„Odpowiedzialny”}), a do czasu wyznaczenia --- każdy dyrektor.
 \end{enumerate}
@@ -93,7 +93,7 @@ Kontrolowane & wyłącznie osoby z imiennej listy zatwierdzonej przez Radę Dyre
 \end{center}
 
   \item Odpowiedzialny prowadzi rejestr dostępów (osoba, systemy i repozytoria, kategoria, data nadania i odebrania) i co kwartał sprawdza, czy dostępy odpowiadają zadaniom.
-  \item Spółka nie przetwarza informacji niejawnych w rozumieniu ustawy o ochronie informacji niejawnych. Przed zawarciem umowy wymagającej dostępu do takich informacji (w szczególności z Ministerstwem Obrony Narodowej albo podmiotem mu podległym) Rada Dyrektorów wszczyna postępowanie o wydanie świadectwa bezpieczeństwa przemysłowego i wyznacza pełnomocnika do spraw ochrony informacji niejawnych.
+  \item Spółka nie przetwarza informacji niejawnych w rozumieniu ustawy o ochronie informacji niejawnych. Rada Dyrektorów wyznacza kierownika przedsiębiorcy w rozumieniu ustawy o ochronie informacji niejawnych i składa wniosek o wydanie świadectwa bezpieczeństwa przemysłowego już przy pierwszych rozmowach o zamówieniu, które może wymagać dostępu do takich informacji (w szczególności z Ministerstwem Obrony Narodowej, Agencją Uzbrojenia albo podmiotem im podległym), a nie dopiero przed zawarciem umowy, oraz wyznacza pełnomocnika do spraw ochrony informacji niejawnych. Do wniosku dołącza się informacje o strukturze kapitału i beneficjentach rzeczywistych, które akcjonariusze przekazują na podstawie umowy akcjonariuszy.
 \end{enumerate}
 \end{ContractClause}
 
@@ -103,11 +103,22 @@ Kontrolowane & wyłącznie osoby z imiennej listy zatwierdzonej przez Radę Dyre
   \item Urządzenia używane do pracy mają szyfrowanie dysku, blokadę ekranu i aktualne oprogramowanie. Informacje Kontrolowane przetwarza się tylko na urządzeniach Spółki.
   \item Informacji Poufnych i Kontrolowanych nie wprowadza się do ogólnodostępnych narzędzi i usług, w tym narzędzi sztucznej inteligencji, chyba że Odpowiedzialny zatwierdził narzędzie zapewniające, że dane nie są przechowywane ani wykorzystywane przez dostawcę.
   \item Klucze, tokeny i sekrety przechowuje się w menedżerze sekretów, a nie w kodzie ani w wiadomościach.
+  \item Spółka rejestruje dostęp do kont, repozytoriów i systemów Spółki (dzienniki dostępu) i przegląda te dzienniki w przypadkach wskazanych w polityce, w celu ochrony informacji, których ujawnienie mogłoby narazić Spółkę na szkodę. Wobec pracowników jest to monitoring w rozumieniu art.~22\textsuperscript{2}--22\textsuperscript{3} Kodeksu pracy: jego cel, zakres i sposób stosowania określa się w regulaminie pracy albo w obwieszczeniu, a pracowników informuje się o nim co najmniej 2 tygodnie przed uruchomieniem, na piśmie przed dopuszczeniem do pracy. Monitoring nie obejmuje treści prywatnej korespondencji.
 \end{enumerate}
 \end{ContractClause}
 
 \begin{ContractClause}{Udostępnianie na zewnątrz}
 Informacje Poufne udostępnia się osobom trzecim (inwestorom, partnerom, doradcom, podwykonawcom) wyłącznie po zawarciu NDA według wzoru Spółki albo umowy z równoważną klauzulą, w zakresie niezbędnym do jej celu. Odpowiedzialny prowadzi ewidencję zawartych NDA i przekazanych materiałów. Informacje Kontrolowane udostępnia się osobom trzecim wyłącznie za zgodą Rady Dyrektorów.
+\end{ContractClause}
+
+\begin{ContractClause}{Program zgodności eksportowej}
+\begin{enumerate}
+  \item Niniejszy paragraf stanowi program zgodności eksportowej Spółki, o którym mowa w umowie spółki i w ogólnych warunkach licencyjnych. Za jego wykonanie odpowiada Odpowiedzialny.
+  \item Przed udostępnieniem produktu, kodu, modelu, danych albo dokumentacji poza Spółkę Odpowiedzialny dokonuje i dokumentuje klasyfikację: pozycja z rozporządzenia (UE) 2021/821, pozycja wykazu uzbrojenia albo brak kontroli; wykaz klasyfikacji aktualizuje się przy każdym wydaniu. Wykaz komponentów (SBOM) obejmuje kraj pochodzenia, klasyfikację eksportową i ograniczenia użycia wynikające z licencji.
+  \item Przed zawarciem umowy i przed każdą dostawą sprawdza się kontrahenta, podmioty go kontrolujące i użytkownika końcowego na listach sankcyjnych; wynik dokumentuje się.
+  \item Wirtualny pokój danych prowadzi się warstwowo: dokumenty korporacyjne i finansowe --- po zawarciu NDA; Informacje Poufne techniczne --- po ocenie Odpowiedzialnego; Informacje Kontrolowane --- wyłącznie za zgodą Rady Dyrektorów, po sprawdzeniu, czy ich udostępnienie osobom z innych państw (także analitykom i doradcom inwestora) nie jest wywozem wymagającym zezwolenia.
+  \item Udostępnienie technologii za granicę albo osobie z państwa spoza Unii Europejskiej, także przez dostęp zdalny, pobranie albo aktualizację, wymaga uprzedniej oceny Odpowiedzialnego i --- jeżeli jest wymagane --- zezwolenia albo koncesji. Dokumentację przechowuje się co najmniej 5 lat.
+\end{enumerate}
 \end{ContractClause}
 
 \begin{ContractClause}{Incydenty}

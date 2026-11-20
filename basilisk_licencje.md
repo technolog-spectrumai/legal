@@ -66,7 +66,7 @@ W razie sprzeczności pierwszeństwo ma Zamówienie, potem Moduł, potem OWL, a 
 - Dwóch dyrektorów łącznie albo dyrektor z prokurentem (US § 11 ust. 1).
 - Licencja dla podmiotu powiązanego z akcjonariuszem albo dyrektorem — uchwała Rady Dyrektorów (US § 10 ust. 7); umowę z dyrektorem podpisuje pełnomocnik (US § 11 ust. 3).
 - Licencja wyłączna, nieodwołalna lub bezterminowa na kluczową własność intelektualną poza zwykłym tokiem działalności — Walne Zgromadzenie, 75% wszystkich głosów (US § 13 ust. 1 lit. f). Zwykła licencja niewyłączna dla klienta mieści się w zwykłym toku działalności.
-- Wartość powyżej progów z US § 10 ust. 7 (umowa poza budżetem ponad 250 000 zł) — uchwała Rady Dyrektorów.
+- Wartość powyżej progów z US § 10 ust. 7 (umowa poza budżetem ponad 250 000 zł) — uchwała Rady Dyrektorów; transakcja poza budżetem ponad 500 000 zł — Walne Zgromadzenie, 75% wszystkich głosów (US § 13 ust. 1 lit. h).
 
 ---
 
@@ -126,7 +126,7 @@ W razie sprzeczności pierwszeństwo ma Zamówienie, potem Moduł, potem OWL, a 
 ### § 7. Aktualizacje i wsparcie
 
 1. W okresie wsparcia wskazanym w Zamówieniu Spółka udostępnia Aktualizacje i świadczy wsparcie na zasadach właściwego Modułu.
-2. Spółka udostępnia poprawki bezpieczeństwa dla każdej wersji objętej wsparciem przez co najmniej **[24]** miesiące od jej wydania.
+2. Spółka udostępnia poprawki bezpieczeństwa dla każdej wersji objętej wsparciem przez co najmniej **[24]** miesiące od jej wydania. Dla Oprogramowania wbudowanego w produkty cywilne wprowadzane do obrotu w Unii Europejskiej poprawki bezpieczeństwa udostępnia się nieodpłatnie, także poza okresem wsparcia, przez okres wymagany przepisami o cyberbezpieczeństwie produktów z elementami cyfrowymi, nie krótszy niż **[5]** lat od wprowadzenia produktu do obrotu **[do weryfikacji: rozp. 2024/2847 (CRA)]**. Spółka utrzymuje procedurę obsługi podatności i przyjmuje zgłoszenia pod adresem wskazanym w Dokumentacji.
 3. Licencjobiorca instaluje Aktualizacje oznaczone jako krytyczne dla bezpieczeństwa w terminie wskazanym w Module. Spółka nie odpowiada za szkody, którym zapobiegłaby taka Aktualizacja, jeżeli Licencjobiorca jej nie zainstalował.
 
 ### § 8. Wynagrodzenie
@@ -146,7 +146,7 @@ W razie sprzeczności pierwszeństwo ma Zamówienie, potem Moduł, potem OWL, a 
 ### § 10. Dane
 
 1. Spółka przetwarza Dane Licencjobiorcy wyłącznie w zakresie niezbędnym do świadczenia wsparcia i usług hostowanych.
-2. Spółka może wykorzystywać Dane Operacyjne do utrzymania, zabezpieczenia i rozwoju Oprogramowania, w tym w postaci zagregowanej do trenowania modeli, chyba że Zamówienie stanowi inaczej. Dla Licencjobiorców z sektora obronnego domyślnie przyjmuje się, że Dane Operacyjne nie opuszczają infrastruktury Licencjobiorcy.
+2. Spółka może wykorzystywać Dane Operacyjne do utrzymania i zabezpieczenia Oprogramowania, a do jego rozwoju, w tym do trenowania modeli, wyłącznie po anonimizacji, która uniemożliwia identyfikację osób fizycznych i Licencjobiorcy, chyba że Zamówienie stanowi inaczej. Danych Operacyjnych zawierających dane osobowe nie wykorzystuje się do rozwoju przed anonimizacją; w zakresie celów własnych Spółka jest administratorem tych danych (art. 28 ust. 10 RODO). Dla Licencjobiorców z sektora obronnego domyślnie przyjmuje się, że Dane Operacyjne nie opuszczają infrastruktury Licencjobiorcy.
 3. Jeżeli Spółka przetwarza dane osobowe w imieniu Licencjobiorcy, strony zawierają umowę powierzenia przetwarzania zgodną z art. 28 RODO.
 4. Spółka nie przetwarza informacji niejawnych w rozumieniu ustawy o ochronie informacji niejawnych, chyba że posiada wymagane świadectwo bezpieczeństwa przemysłowego i strony zawarły odrębną umowę.
 
@@ -221,7 +221,7 @@ Strona nie odpowiada za niewykonanie zobowiązania spowodowane zdarzeniem, któr
 
 ### § 22. Postanowienia końcowe
 
-1. Umowę zawiera się w formie dokumentowej, w tym przez podpisanie Zamówienia kwalifikowanym podpisem elektronicznym; licencja wyłączna wymaga formy pisemnej. Zmiany wymagają formy dokumentowej.
+1. Umowę zawiera się przez podpisanie Zamówienia własnoręcznie albo kwalifikowanym podpisem elektronicznym. Forma ta jest wymagana dla skuteczności umowy o właściwość sądu i zapisu na sąd polubowny zawartych przez odesłanie do § 21 ust. 2 (art. 46 § 1 i art. 1162 § 2 KPC) oraz dla licencji wyłącznej. Zmiany wymagają formy dokumentowej, a zmiany § 21 i licencji wyłącznej — tej samej formy co zawarcie umowy.
 2. Licencjobiorca nie może przenieść praw z umowy bez zgody Spółki. Spółka może przenieść umowę na następcę prawnego albo nabywcę przedsiębiorstwa lub jego części obejmującej Oprogramowanie.
 3. Jeżeli postanowienie umowy jest nieważne, pozostałe postanowienia zachowują moc, a strony zastąpią je postanowieniem najbliższym jego celowi.
 4. Umowę można sporządzić w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska.
@@ -346,7 +346,7 @@ Moduł stosuje się dodatkowo do M1–M3, gdy Licencjobiorcą jest Skarb Państw
 | Integratorzy z dostępem do API (M3) | **[nazwy]** |
 | Warunki szczególne | **[...]** |
 
-Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wersji **[1.1]** stanowi umowę licencyjną. Licencjobiorca potwierdza, że zapoznał się z nimi przed podpisaniem.
+Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wersji **[1.1]** stanowi umowę licencyjną. Licencjobiorca potwierdza, że zapoznał się z nimi przed podpisaniem, w tym z § 21 OWL (prawo właściwe, sąd albo sąd polubowny). Zamówienie podpisuje się własnoręcznie albo kwalifikowanym podpisem elektronicznym (§ 22 ust. 1 OWL).
 
 **[za Spółkę — dwóch dyrektorów albo dyrektor i prokurent]** · **[za Licencjobiorcę]**
 
@@ -354,11 +354,11 @@ Zamówienie wraz z wybranymi Modułami i Ogólnymi warunkami licencyjnymi w wers
 
 ## Załącznik A — Komponenty osób trzecich i licencje open source
 
-| Komponent | Wersja | Licencja | Sposób użycia (statyczne / dynamiczne łączenie, usługa) | Obowiązki (np. udostępnienie kodu, nota) | Moduł |
-|---|---|---|---|---|---|
-| **[nazwa]** | **[...]** | **[np. Apache-2.0, MIT, BSD-3-Clause, LGPL-3.0]** | **[...]** | **[...]** | **[M1/M2/M3]** |
+| Komponent | Wersja | Licencja | Sposób użycia (statyczne / dynamiczne łączenie, usługa) | Obowiązki (np. udostępnienie kodu, nota) | Kraj pochodzenia | Klasyfikacja eksportowa (ECCN / ITAR / 2021/821) | Ograniczenia użycia (np. zakaz zastosowań wojskowych w licencji modelu albo danych) | Moduł |
+|---|---|---|---|---|---|---|---|---|
+| **[nazwa]** | **[...]** | **[np. Apache-2.0, MIT, BSD-3-Clause, LGPL-3.0]** | **[...]** | **[...]** | **[państwo]** | **[np. EAR99, 5D002, brak]** | **[brak / opis]** | **[M1/M2/M3]** |
 
-Zasady: komponenty na licencjach wymagających udostępnienia kodu całości (np. GPL, AGPL) wolno łączyć z Oprogramowaniem wyłącznie po zgodzie dyrektora odpowiedzialnego za technologię. Wykaz utrzymuje się automatycznie (SBOM) i aktualizuje przy każdym wydaniu.
+Zasady: komponenty na licencjach wymagających udostępnienia kodu całości (np. GPL, AGPL) wolno łączyć z Oprogramowaniem wyłącznie po zgodzie dyrektora odpowiedzialnego za technologię. Wykaz utrzymuje się automatycznie (SBOM) i aktualizuje przy każdym wydaniu. Komponentów, modeli i zbiorów danych pochodzenia amerykańskiego objętych EAR albo ITAR oraz udostępnianych na licencjach zakazujących zastosowań wojskowych nie włącza się do Oprogramowania przeznaczonego dla sektora obronnego bez oceny Odpowiedzialnego z Polityki (program zgodności eksportowej, Polityka).
 
 ---
 
@@ -404,11 +404,11 @@ Kredyty serwisowe są jedynym świadczeniem z tytułu niedotrzymania dostępnoś
 | 4 | Koncesja na obrót technologią o przeznaczeniu wojskowym, jeżeli wymagana | art. 7 UWT | Rada Dyrektorów |
 | 5 | Sprawdzenie Licencjobiorcy i podmiotów go kontrolujących na listach sankcyjnych | rozp. 833/2014 i 269/2014, USank | Odpowiedzialny z Polityki |
 | 6 | Oświadczenie użytkownika końcowego i zezwolenie eksportowe | § 12 OWL, Załącznik B | Odpowiedzialny z Polityki |
-| 7 | Organ zatwierdzający: Rada (podmiot powiązany, kwota ponad próg) albo Walne Zgromadzenie (licencja wyłączna na kluczowe IP) | US § 10 ust. 7, § 13 ust. 1 lit. f | Przewodniczący Rady |
+| 7 | Organ zatwierdzający: Rada (podmiot powiązany, kwota ponad 250 000 zł poza budżetem) albo Walne Zgromadzenie (licencja wyłączna na kluczowe IP; transakcja poza budżetem ponad 500 000 zł) | US § 10 ust. 7, § 13 ust. 1 lit. f i h | Przewodniczący Rady |
 | 8 | Umowa powierzenia, jeżeli Spółka przetwarza dane osobowe (wsparcie, usługa hostowana) | art. 28 RODO | dyrektor wykonawczy |
 | 9 | Kwalifikacja systemu w świetle AI Act (wyłączenie wyłącznie wojskowe albo obowiązki dla systemu podwójnego zastosowania) | rozp. 2024/1689 | dyrektor ds. technologii |
 | 10 | Licencja na technologię dla konkurenta albo z ograniczeniami terytorialnymi — ocena w świetle TTBER (progi udziału w rynku 20% / 30%) | rozp. 2026/877 | doradca prawny |
-| 11 | Obowiązki dla produktów z elementami cyfrowymi i nowe zasady odpowiedzialności za oprogramowanie jako produkt — do weryfikacji przed wprowadzeniem Urządzeń do obrotu | rozp. 2024/2847 (CRA), dyrektywa 2024/2853 | doradca prawny |
+| 11 | Produkt cywilny czy wojskowy; obowiązki dla produktów z elementami cyfrowymi (okres poprawek bezpieczeństwa, procedura obsługi podatności, § 7 ust. 2 OWL), RED, rozporządzenie maszynowe i nowe zasady odpowiedzialności za oprogramowanie jako produkt — analiza zgodności przed wprowadzeniem Urządzeń do obrotu | rozp. 2024/2847 (CRA), dyr. 2014/53/UE (RED), rozp. 2023/1230, dyrektywa 2024/2853 | doradca prawny |
 | 12 | NDA przed ujawnieniem informacji poufnych w negocjacjach | NDA, UA § 7 ust. 2 lit. b | dyrektor wykonawczy |
 
 ---
@@ -427,10 +427,11 @@ Kredyty serwisowe są jedynym świadczeniem z tytułu niedotrzymania dostępnoś
 | Ograniczenie odpowiedzialności (§ 15) | art. 473 § 2, art. 449¹, 449⁹ KC | szkoda umyślna i produkt niebezpieczny — bez ograniczeń |
 | Licencja zwrotna na ulepszenia (§ 9 ust. 4) | rozp. 2026/877 (TTBER), art. 5 | tylko niewyłączna |
 | Kontrola eksportu, sankcje (§ 12) | UOTS, rozp. 2021/821, art. 7 UWT, wykaz WT, rozp. 833/2014 i 269/2014, USank | wywozem jest też przekazanie elektroniczne |
-| Dane osobowe (§ 10 ust. 3) | art. 28 RODO | umowa powierzenia |
+| Dane osobowe (§ 10 ust. 2–3) | art. 28 ust. 3 i 10 RODO | umowa powierzenia; rozwój Oprogramowania tylko na danych zanonimizowanych |
 | Informacje niejawne (§ 10 ust. 4, § M3.6 ust. 5) | UONI | świadectwo bezpieczeństwa przemysłowego |
 | Tajemnica przedsiębiorstwa (§ 17) | art. 11 UZNK | wymaga realnych działań ochronnych (Polityka) |
 | Bezzałogowe statki powietrzne (§ M1.4) | rozp. 2019/945 i 2019/947, Prawo lotnicze | obowiązki operatora |
+| Forma Zamówienia, sąd i arbitraż (§ 21 ust. 2, § 22 ust. 1) | art. 46 § 1, art. 1162 § 2 KPC | podpis własnoręczny albo kwalifikowany; odesłanie do OWL w Zamówieniu |
 | Reprezentacja i zgody organów (Wprowadzenie) | US § 10 ust. 7, § 11 ust. 1 i 3, § 13 ust. 1 lit. f; art. 300⁷⁹ KSH | — |
 | Waloryzacja (§ 8 ust. 3) | art. 358¹ § 2 KC (klauzula waloryzacyjna), komunikaty Prezesa GUS | jak w Cenniku i umowie akcjonariuszy |
 
