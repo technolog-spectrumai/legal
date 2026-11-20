@@ -126,7 +126,7 @@ W razie sprzeczności pierwszeństwo ma Zamówienie, potem Moduł, potem OWL, a 
 ### § 7. Aktualizacje i wsparcie
 
 1. W okresie wsparcia wskazanym w Zamówieniu Spółka udostępnia Aktualizacje i świadczy wsparcie na zasadach właściwego Modułu.
-2. Spółka udostępnia poprawki bezpieczeństwa dla każdej wersji objętej wsparciem przez co najmniej **[24]** miesiące od jej wydania.
+2. Spółka udostępnia poprawki bezpieczeństwa dla każdej wersji objętej wsparciem przez co najmniej **[24]** miesiące od jej wydania. Dla Oprogramowania wbudowanego w produkty cywilne wprowadzane do obrotu w Unii Europejskiej poprawki bezpieczeństwa udostępnia się nieodpłatnie, także poza okresem wsparcia, przez okres wymagany przepisami o cyberbezpieczeństwie produktów z elementami cyfrowymi, nie krótszy niż **[5]** lat od wprowadzenia produktu do obrotu **[do weryfikacji: rozp. 2024/2847 (CRA)]**. Spółka utrzymuje procedurę obsługi podatności i przyjmuje zgłoszenia pod adresem wskazanym w Dokumentacji.
 3. Licencjobiorca instaluje Aktualizacje oznaczone jako krytyczne dla bezpieczeństwa w terminie wskazanym w Module. Spółka nie odpowiada za szkody, którym zapobiegłaby taka Aktualizacja, jeżeli Licencjobiorca jej nie zainstalował.
 
 ### § 8. Wynagrodzenie
@@ -408,7 +408,7 @@ Kredyty serwisowe są jedynym świadczeniem z tytułu niedotrzymania dostępnoś
 | 8 | Umowa powierzenia, jeżeli Spółka przetwarza dane osobowe (wsparcie, usługa hostowana) | art. 28 RODO | dyrektor wykonawczy |
 | 9 | Kwalifikacja systemu w świetle AI Act (wyłączenie wyłącznie wojskowe albo obowiązki dla systemu podwójnego zastosowania) | rozp. 2024/1689 | dyrektor ds. technologii |
 | 10 | Licencja na technologię dla konkurenta albo z ograniczeniami terytorialnymi — ocena w świetle TTBER (progi udziału w rynku 20% / 30%) | rozp. 2026/877 | doradca prawny |
-| 11 | Obowiązki dla produktów z elementami cyfrowymi i nowe zasady odpowiedzialności za oprogramowanie jako produkt — do weryfikacji przed wprowadzeniem Urządzeń do obrotu | rozp. 2024/2847 (CRA), dyrektywa 2024/2853 | doradca prawny |
+| 11 | Produkt cywilny czy wojskowy; obowiązki dla produktów z elementami cyfrowymi (okres poprawek bezpieczeństwa, procedura obsługi podatności, § 7 ust. 2 OWL), RED, rozporządzenie maszynowe i nowe zasady odpowiedzialności za oprogramowanie jako produkt — analiza zgodności przed wprowadzeniem Urządzeń do obrotu | rozp. 2024/2847 (CRA), dyr. 2014/53/UE (RED), rozp. 2023/1230, dyrektywa 2024/2853 | doradca prawny |
 | 12 | NDA przed ujawnieniem informacji poufnych w negocjacjach | NDA, UA § 7 ust. 2 lit. b | dyrektor wykonawczy |
 
 ---
