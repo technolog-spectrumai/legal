@@ -1,0 +1,270 @@
+% !TeX program = pdflatex
+% Regulamin programu motywacyjnego (seria P) --- Basilisk Systems P.S.A.
+% Regulamin, o którym mowa w § 7 ust. 2 i 5 umowy spółki (psa.tex). Odesłania pobierane z psa.aux i basilisk_sha.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\externaldocument{psa}[psa.pdf]
+\externaldocument{basilisk_sha}[basilisk_sha.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Walne Zgromadzenie}
+\BusinessPlanConfidentialText{Projekt --- poufne}
+\BusinessPlanFooterText{Basilisk Systems --- regulamin programu motywacyjnego (projekt)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.1}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\US}[1]{§~#1 umowy spółki}
+\newcommand{\UA}[1]{§~#1 umowy akcjonariuszy}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- regulamin programu motywacyjnego (seria P)},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Regulamin programu motywacyjnego}
+  {Program motywacyjny Basilisk Systems P.S.A. --- akcje serii P}
+  {Do umowy spółki Basilisk Systems P.S.A. w wersji 3.4-S}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Wprowadzenie}
+\addcontentsline{toc}{chapter}{Wprowadzenie}
+
+Regulamin jest regulaminem programu motywacyjnego, o którym mowa w \US{\ref{art:seria-p} ust.~2 i~5}. Przyjmuje go Walne Zgromadzenie uchwałą według projektu z Załącznika nr~3.
+
+\textbf{Jak działa program:}
+\begin{enumerate}
+  \item Walne Zgromadzenie podejmuje uchwałę o warunkowej emisji akcji serii~P i wyraża zgodę na zawieranie umów uczestnictwa (art.~300$^{114}$ §~2 pkt~2 i §~3 KSH). Uchwała zmienia umowę spółki, więc wymaga protokołu notarialnego i wpisu do rejestru.
+  \item Po wpisie Rada Dyrektorów zawiera z uczestnikami umowy uczestnictwa. Umowa daje prawo do objęcia określonej liczby akcji serii~P po cenie wykonania (\textbf{Opcje}).
+  \item Opcje nabywa się stopniowo przez 4 lata. Po pierwszym roku nabywa się 25\% Opcji, a następnie co miesiąc 1/48.
+  \item Nabyte Opcje uczestnik wykonuje w oknach wykonania, przez pisemne oświadczenie o objęciu akcji i zapłatę ceny wykonania. Akcje powstają z chwilą wpisu do rejestru akcjonariuszy.
+\end{enumerate}
+
+\textbf{Uwagi przed przyjęciem:}
+\begin{enumerate}
+  \item Uchwała o warunkowej emisji musi spełniać warunki art.~300$^{106}$ §~2 KSH (art.~300$^{115}$ §~2 KSH). Wymaga więc większości 4/5 głosów i uzasadnienia interesem Spółki, mimo że umowa spółki wyłącza prawo poboru akcji serii~P (\US{\ref{art:emisje} ust.~6}). Uchwała musi mieć także większość 75\% wszystkich głosów (\US{\ref{art:wz-zastrzezone} ust.~1}).
+  \item Prawa do objęcia akcji przyznaje się dopiero po wpisie do rejestru zmiany umowy w przedmiocie warunkowej emisji (art.~300$^{116}$ §~2 KSH). Umowa uczestnictwa zawarta wcześniej jest tylko przyrzeczeniem.
+  \item Odroczenie opodatkowania na podstawie art.~24 ust.~11--12b ustawy o PIT dotyczy programów utworzonych uchwałą walnego zgromadzenia spółki akcyjnej. Zastosowanie tych przepisów do prostej spółki akcyjnej trzeba potwierdzić interpretacją indywidualną przed pierwszym przydziałem \field{do weryfikacji przez doradcę podatkowego}.
+\end{enumerate}
+
+% ================================================================
+\chapter*{Regulamin programu motywacyjnego}
+\addcontentsline{toc}{chapter}{Regulamin programu motywacyjnego}
+
+\begin{ContractClause}{Cel i definicje}
+\label{esop:definicje}
+\begin{enumerate}
+  \item Celem programu jest pozyskanie i utrzymanie osób, od których zależy rozwój Spółki, oraz powiązanie ich wynagrodzenia ze wzrostem wartości Spółki.
+  \item Użyte w regulaminie określenia oznaczają:
+  \begin{enumerate}[label=\alph*)]
+    \item \textbf{Pula} --- nie więcej niż 176 471 akcji serii~P (\US{\ref{art:emisje} ust.~3 lit.~b} i \US{\ref{art:seria-p} ust.~1});
+    \item \textbf{Uczestnik} --- osoba, z którą Spółka zawarła Umowę Uczestnictwa;
+    \item \textbf{Umowa Uczestnictwa} --- umowa przyznająca prawo do objęcia akcji serii~P (art.~300$^{114}$ §~2 pkt~2 KSH), według wzoru z Załącznika nr~1;
+    \item \textbf{Opcja} --- prawo do objęcia jednej akcji serii~P po Cenie Wykonania;
+    \item \textbf{Dzień Przyznania} --- dzień zawarcia Umowy Uczestnictwa albo wcześniejszy dzień wskazany w niej jako początek nabywania Opcji, nie wcześniejszy niż dzień rozpoczęcia współpracy;
+    \item \textbf{Cena Wykonania} --- cena emisyjna akcji serii~P obejmowanej w wykonaniu Opcji, określona w Umowie Uczestnictwa;
+    \item \textbf{Współpraca} --- stosunek pracy, umowa o świadczenie usług, pełnienie funkcji dyrektora albo inna stała współpraca Uczestnika ze Spółką lub jej spółką zależną;
+    \item \textbf{Zdarzenie Wyjścia} --- nabycie przez osobę albo grupę osób działających w porozumieniu, niepowiązanych z Założycielami, akcji dających ponad 50\% głosów w Spółce, zbycie przedsiębiorstwa Spółki albo jego zasadniczej części, a także dopuszczenie akcji Spółki do obrotu na rynku regulowanym albo w alternatywnym systemie obrotu.
+  \end{enumerate}
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Podstawa i organy}
+\begin{enumerate}
+  \item Program prowadzi się na podstawie \US{\ref{art:seria-p}}, uchwały Walnego Zgromadzenia o warunkowej emisji akcji serii~P oraz niniejszego regulaminu, w trybie art.~300$^{114}$--300$^{118}$ KSH.
+  \item Rada Dyrektorów prowadzi program: rekomenduje Uczestników, zawiera Umowy Uczestnictwa, prowadzi ewidencję Opcji, przyjmuje oświadczenia o objęciu akcji, wydaje dyspozycje wpisu do rejestru akcjonariuszy i dokonuje zgłoszeń rejestrowych (art.~300$^{117}$ §~2 i art.~300$^{118}$ §~2 KSH).
+  \item Rada Dyrektorów przyznaje Opcje w granicach rocznego planu przydziałów zatwierdzonego przez Walne Zgromadzenie bezwzględną większością głosów oddanych. Plan określa liczbę Opcji dla kategorii osób i zasady ustalania Ceny Wykonania.
+  \item Przyznanie Opcji dyrektorowi, akcjonariuszowi posiadającemu co najmniej 5\% akcji albo osobie im bliskiej wymaga uchwały Walnego Zgromadzenia. Umowę Uczestnictwa z dyrektorem zawiera w imieniu Spółki pełnomocnik powołany uchwałą akcjonariuszy (art.~300$^{79}$ §~1 KSH, \US{\ref{art:reprezentacja} ust.~3}).
+  \item Liczba Opcji przyznanych i niewygasłych nie może przekroczyć Puli. Opcje wygasłe wracają do Puli i mogą zostać przyznane ponownie.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Uczestnicy}
+\begin{enumerate}
+  \item Uczestnikami mogą być pracownicy, współpracownicy, dyrektorzy i doradcy Spółki oraz jej spółek zależnych.
+  \item Założyciele Pierwotni nie uczestniczą w programie, chyba że Walne Zgromadzenie postanowi inaczej większością 75\% wszystkich głosów.
+  \item Przed zawarciem Umowy Uczestnictwa Rada Dyrektorów sprawdza, czy przyznanie Opcji i wydanie akcji nie wymaga zgody albo zawiadomienia na podstawie przepisów o kontroli inwestycji, kontroli eksportu i sankcjach oraz warunków koncesji Spółki (\US{\ref{art:zbywanie} ust.~2}).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Przyznanie Opcji}
+\begin{enumerate}
+  \item Opcje przyznaje się wyłącznie w Umowie Uczestnictwa zawartej w formie pisemnej albo elektronicznej (kwalifikowany podpis elektroniczny), po wpisie do rejestru zmiany umowy spółki w przedmiocie warunkowej emisji akcji serii~P.
+  \item Umowa Uczestnictwa określa: liczbę Opcji, Dzień Przyznania, Cenę Wykonania, harmonogram nabywania, jeżeli odbiega od §~\ref{esop:nabywanie}, oraz termin wykonania.
+  \item Cena Wykonania nie może być niższa niż 0,01 zł (\US{\ref{art:emisje} ust.~7}). Ustala się ją według zasad z planu przydziałów, w szczególności na poziomie wartości godziwej akcji w Dniu Przyznania albo na poziomie obniżonym w stosunku do ceny z ostatniej emisji akcji. Uzasadnienie zachowuje się w ewidencji.
+  \item Opcje są nieodpłatne, niezbywalne i nie mogą być obciążone, z wyjątkiem dziedziczenia (§~\ref{esop:ustanie} ust.~5). Opcja nie daje praw akcjonariusza do chwili wpisu akcji do rejestru akcjonariuszy (art.~300$^{118}$ §~1 KSH).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Nabywanie Opcji}
+\label{esop:nabywanie}
+\begin{enumerate}
+  \item Opcje nabywa się w okresie 48 miesięcy od Dnia Przyznania, pod warunkiem trwania Współpracy:
+  \begin{enumerate}[label=\alph*)]
+    \item po 12 miesiącach --- 25\% Opcji;
+    \item po każdym kolejnym pełnym miesiącu --- 1/48 Opcji.
+  \end{enumerate}
+  Ułamki zaokrągla się w dół, a ostatnia transza wyrównuje różnicę.
+  \item Nabywanie Opcji trwa w czasie choroby, urlopu macierzyńskiego, ojcowskiego, rodzicielskiego i wychowawczego oraz innych usprawiedliwionych nieobecności. Zawiesza się je na czas urlopu bezpłatnego albo przerwy we Współpracy uzgodnionej na wniosek Uczestnika, jeżeli trwają ponad 30 dni.
+  \item Zmiana formy Współpracy albo przejście do spółki zależnej nie przerywa nabywania Opcji.
+  \item Rada Dyrektorów może przyspieszyć nabywanie Opcji Uczestnika, z wyjątkiem Uczestnika będącego dyrektorem, któremu przyspieszenie przyznaje Walne Zgromadzenie.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wykonanie Opcji}
+\label{esop:wykonanie}
+\begin{enumerate}
+  \item Nabyte Opcje wykonuje się w oknach wykonania:
+  \begin{enumerate}[label=\alph*)]
+    \item w ciągu 30 dni od zatwierdzenia sprawozdania finansowego za każdy rok obrotowy;
+    \item przed Zdarzeniem Wyjścia, w terminie wskazanym przez Radę Dyrektorów, nie krótszym niż 14 dni;
+    \item w przypadkach, o których mowa w §~\ref{esop:ustanie}.
+  \end{enumerate}
+  \item Uczestnik wykonuje Opcje przez złożenie Spółce pisemnego oświadczenia o objęciu akcji według wzoru z Załącznika nr~2 (art.~300$^{117}$ §~1 KSH) i wpłatę Ceny Wykonania na rachunek Spółki. Oświadczenie złożone przed Zdarzeniem Wyjścia może być warunkowe.
+  \item Niezwłocznie po otrzymaniu oświadczenia i wpłaty Rada Dyrektorów wydaje dyspozycję wpisu akcji do rejestru akcjonariuszy (art.~300$^{117}$ §~2 KSH). W terminie 30 dni po upływie roku kalendarzowego zgłasza do rejestru przedsiębiorców wykaz akcji objętych w tym roku (art.~300$^{118}$ §~2--3 KSH).
+  \item Opcje wygasają z upływem 10 lat od Dnia Przyznania, a w każdym razie z dniem 30 listopada 2036 r., aby akcje zostały objęte i zgłoszone do rejestru przed upływem terminu z \US{\ref{art:emisje} ust.~3}.
+  \item W razie Zdarzenia Wyjścia Rada Dyrektorów może, za zgodą Uczestnika, zastąpić wykonanie Opcji wypłatą pieniężną równą różnicy między ceną za akcję w transakcji a Ceną Wykonania, pomniejszoną o należne podatki i składki.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Ustanie Współpracy}
+\label{esop:ustanie}
+\begin{enumerate}
+  \item Z dniem ustania Współpracy Opcje nienabyte wygasają.
+  \item Opcje nabyte Uczestnik może wykonać w ciągu 6 miesięcy od ustania Współpracy; jeżeli w tym okresie nie przypada okno wykonania, Rada Dyrektorów wyznacza je w tym okresie.
+  \item Wszystkie Opcje, także nabyte, wygasają, jeżeli Współpraca ustała z Ważnej Przyczyny. Ważną Przyczyną jest wyłącznie:
+  \begin{enumerate}[label=\alph*)]
+    \item rozwiązanie umowy z Uczestnikiem bez wypowiedzenia z jego winy (art.~52 §~1 Kodeksu pracy) albo z powodu rażącego naruszenia przez niego umowy cywilnoprawnej lub obowiązków dyrektora;
+    \item prawomocne skazanie Uczestnika za umyślne przestępstwo na szkodę Spółki;
+    \item istotne naruszenie przez Uczestnika obowiązku poufności, zakazu konkurencji albo obowiązków dotyczących własności intelektualnej, którego nie usunął w terminie 30 dni od wezwania, jeżeli usunięcie jest możliwe.
+  \end{enumerate}
+  Ciężar dowodu Ważnej Przyczyny spoczywa na Spółce.
+  \item Jeżeli w ciągu 12 miesięcy po Zdarzeniu Wyjścia Współpraca ustanie z przyczyn innych niż Ważna Przyczyna albo rezygnacja Uczestnika, wszystkie Opcje Uczestnika uważa się za nabyte (podwójny warunek).
+  \item W razie śmierci Uczestnika jego spadkobiercy mogą wykonać Opcje nabyte do dnia śmierci w ciągu 12 miesięcy od stwierdzenia nabycia spadku; wykonanie przez kilku spadkobierców wymaga wspólnego przedstawiciela.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Akcje serii P}
+\begin{enumerate}
+  \item Akcje serii~P są akcjami zwykłymi. Do ich zbywania stosuje się \US{\ref{art:zbywanie}}.
+  \item Przed złożeniem oświadczenia o objęciu akcji Uczestnik przystępuje do umowy akcjonariuszy w zakresie określonym w \UA{\ref{sha:przystapienie} ust.~2}, w szczególności co do poufności, prawa pierwszeństwa, prawa przyłączenia i przymusowego współzbycia (\UA{\ref{sha:runda}}). Bez przystąpienia oświadczenie jest nieskuteczne.
+  \item Akcje objęte w oknie, o którym mowa w §~\ref{esop:wykonanie} ust.~1 lit.~a, Uczestnik może zbyć nie wcześniej niż po 12 miesiącach od ich objęcia, chyba że Walne Zgromadzenie postanowi inaczej albo nastąpi Zdarzenie Wyjścia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zmiany w kapitale i korekty}
+\begin{enumerate}
+  \item W razie podziału albo scalenia akcji, emisji akcji dla dotychczasowych akcjonariuszy bez wkładów albo innej zmiany o podobnym skutku Rada Dyrektorów proporcjonalnie koryguje liczbę Opcji i Cenę Wykonania, tak aby wartość Opcji nie uległa zmianie. Korekta wymagająca zwiększenia Puli wymaga zmiany umowy spółki (\US{\ref{art:seria-p} ust.~3}).
+  \item W razie połączenia, podziału albo przekształcenia Spółki Opcje przechodzą na prawa równoważne w spółce przejmującej albo przekształconej, jeżeli plan połączenia, podziału albo przekształcenia tak stanowi; w przeciwnym razie stosuje się §~\ref{esop:wykonanie} ust.~1 lit.~b i ust.~5.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Podatki}
+\begin{enumerate}
+  \item Uczestnik samodzielnie rozlicza podatki związane z Opcjami i akcjami, z zastrzeżeniem obowiązków Spółki jako płatnika.
+  \item Spółka dąży do tego, aby program spełniał warunki art.~24 ust.~11--12b ustawy o PIT, ale nie gwarantuje określonych skutków podatkowych. Przed pierwszym przydziałem Spółka występuje o interpretację indywidualną i udostępnia ją Uczestnikom \field{do weryfikacji przez doradcę podatkowego}.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\begin{enumerate}
+  \item Zmiana regulaminu wymaga uchwały Walnego Zgromadzenia podjętej większością 75\% wszystkich głosów. Zmiana pogarszająca warunki Opcji już przyznanych wymaga zgody Uczestnika.
+  \item Spółka przetwarza dane osobowe Uczestników w celu zawarcia i wykonania Umowy Uczestnictwa (art.~6 ust.~1 lit.~b RODO) oraz wykonania obowiązków prawnych (art.~6 ust.~1 lit.~c RODO).
+  \item Informacje o programie, Cenie Wykonania i wartości Spółki są informacjami poufnymi w rozumieniu polityki bezpieczeństwa informacji.
+  \item Uczestnictwo w programie nie stanowi składnika wynagrodzenia za pracę i nie daje roszczenia o kolejne przydziały.
+  \item Do regulaminu i Umów Uczestnictwa stosuje się prawo polskie. Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki; spory ze stosunku pracy --- sąd pracy.
+  \item Regulamin sporządzono w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska. Regulamin wchodzi w życie z dniem wpisu do rejestru zmiany umowy spółki w przedmiocie warunkowej emisji akcji serii~P.
+\end{enumerate}
+\end{ContractClause}
+
+% ================================================================
+\chapter*{Załącznik nr 1 --- Wzór Umowy Uczestnictwa}
+\addcontentsline{toc}{chapter}{Załącznik nr 1 --- Wzór Umowy Uczestnictwa}
+
+zawarta w dniu \field{data} pomiędzy \textbf{\CompanyFull{}} z siedzibą w Pruszkowie, KRS \field{numer}, reprezentowaną przez \field{dwóch dyrektorów albo pełnomocnika z uchwały akcjonariuszy --- jeżeli Uczestnik jest dyrektorem} (\textbf{„Spółka”}), a \field{imię, nazwisko, PESEL, adres} (\textbf{„Uczestnik”}).
+
+\begin{enumerate}
+  \item Spółka przyznaje Uczestnikowi \field{liczba} Opcji, z których każda uprawnia do objęcia jednej akcji serii~P po Cenie Wykonania \field{kwota} zł, na zasadach regulaminu programu motywacyjnego przyjętego uchwałą Walnego Zgromadzenia nr \field{numer} z dnia \field{data} (\textbf{„Regulamin”}), który stanowi część umowy.
+  \item Dzień Przyznania: \field{data}. Harmonogram nabywania: zgodnie z §~\ref{esop:nabywanie} Regulaminu \field{albo: odmienny harmonogram}.
+  \item Prawo do objęcia akcji przyznaje się na podstawie art.~300$^{114}$ §~2 pkt~2 KSH, za zgodą Walnego Zgromadzenia wyrażoną w uchwale nr \field{numer} z dnia \field{data}. Zmianę umowy spółki w przedmiocie warunkowej emisji wpisano do rejestru w dniu \field{data}.
+  \item Uczestnik oświadcza, że zapoznał się z Regulaminem, umową spółki, umową akcjonariuszy i polityką bezpieczeństwa informacji oraz że nie jest objęty sankcjami.
+  \item Umowa nie zmienia warunków Współpracy Uczestnika i nie stanowi gwarancji jej trwania.
+  \item Zmiany umowy wymagają formy pisemnej albo elektronicznej pod rygorem nieważności.
+\end{enumerate}
+
+\vspace{1em}
+\field{za Spółkę} \hfill \field{Uczestnik}
+
+% ================================================================
+\chapter*{Załącznik nr 2 --- Wzór oświadczenia o objęciu akcji serii P}
+\addcontentsline{toc}{chapter}{Załącznik nr 2 --- Wzór oświadczenia o objęciu akcji serii P}
+
+Ja, \field{imię, nazwisko, PESEL, adres, adres e-mail do rejestru akcjonariuszy}, działając na podstawie art.~300$^{117}$ §~1 KSH, uchwały Walnego Zgromadzenia \CompanyFull{} nr \field{numer} z dnia \field{data} o warunkowej emisji akcji serii~P oraz Umowy Uczestnictwa z dnia \field{data}, oświadczam, że:
+\begin{enumerate}
+  \item obejmuję \field{liczba} akcji zwykłych serii~P po cenie emisyjnej \field{kwota} zł za akcję, łącznie \field{kwota} zł, którą wpłaciłem/wpłaciłam w dniu \field{data} na rachunek Spółki;
+  \item \field{jeżeli dotyczy:} oświadczenie składam pod warunkiem zawarcia transakcji stanowiącej Zdarzenie Wyjścia do dnia \field{data};
+  \item przystąpiłem/przystąpiłam do umowy akcjonariuszy w zakresie wymaganym przez Regulamin;
+  \item proszę o wpis akcji do rejestru akcjonariuszy na moją rzecz.
+\end{enumerate}
+
+\field{miejscowość, data} \hfill \field{podpis własnoręczny albo kwalifikowany podpis elektroniczny}
+
+% ================================================================
+\chapter*{Załącznik nr 3 --- Projekt uchwały Walnego Zgromadzenia}
+\addcontentsline{toc}{chapter}{Załącznik nr 3 --- Projekt uchwały Walnego Zgromadzenia}
+
+\textbf{Uchwała nr \field{numer} Walnego Zgromadzenia \CompanyFull{} z dnia \field{data} w sprawie warunkowej emisji akcji serii~P, zmiany umowy spółki, przyjęcia regulaminu programu motywacyjnego i zgody na zawieranie umów uczestnictwa}
+
+{\small (protokół notarialny; większość co najmniej 4/5 głosów, art.~300$^{115}$ §~2 w zw. z art.~300$^{106}$ §~2 KSH, i nie mniej niż 75\% wszystkich głosów, \US{\ref{art:wz-zastrzezone} ust.~1})\par}
+
+\begin{enumerate}
+  \item Na podstawie art.~300$^{114}$ §~1 i §~2 pkt~2 KSH oraz \US{\ref{art:seria-p}} Walne Zgromadzenie postanawia o warunkowej emisji nie więcej niż \field{liczba, nie więcej niż 176 471} akcji zwykłych serii~P.
+  \item Cena emisyjna akcji serii~P jest równa Cenie Wykonania określonej w umowie uczestnictwa według zasad regulaminu programu motywacyjnego, nie niższa niż 0,01 zł.
+  \item Celem warunkowej emisji jest przyznanie praw do objęcia akcji serii~P uczestnikom programu motywacyjnego Spółki.
+  \item Prawo do objęcia akcji serii~P można wykonać do dnia 30 listopada 2036 r.
+  \item Osobami uprawnionymi do objęcia akcji serii~P są pracownicy, współpracownicy, dyrektorzy i doradcy Spółki oraz jej spółek zależnych, z którymi Spółka zawrze umowy uczestnictwa.
+  \item W interesie Spółki --- w celu pozyskania i utrzymania kluczowych osób --- akcje serii~P obejmowane są z wyłączeniem prawa poboru; umowa spółki wyłącza to prawo (\US{\ref{art:emisje} ust.~6}). \field{uzasadnienie i sposób ustalenia ceny emisyjnej}.
+  \item Walne Zgromadzenie zmienia umowę spółki przez dodanie w \US{\ref{art:seria-p}} ustępu w brzmieniu: „Na podstawie uchwały Walnego Zgromadzenia nr \field{numer} z dnia \field{data} dokonuje się warunkowej emisji nie więcej niż \field{liczba} akcji zwykłych serii~P w celu przyznania praw do ich objęcia uczestnikom programu motywacyjnego; prawo do objęcia akcji można wykonać do dnia 30 listopada 2036 r.”
+  \item Na podstawie art.~300$^{114}$ §~3 KSH Walne Zgromadzenie wyraża zgodę na zawieranie przez Spółkę umów uczestnictwa według wzoru stanowiącego Załącznik nr~1 do regulaminu, w granicach planu przydziałów.
+  \item Walne Zgromadzenie przyjmuje regulamin programu motywacyjnego w brzmieniu stanowiącym załącznik do uchwały oraz plan przydziałów na rok \field{rok}.
+  \item Uchwała wchodzi w życie z chwilą podjęcia, z tym że zmiana umowy spółki wywołuje skutek z chwilą wpisu do rejestru.
+\end{enumerate}
+
+\end{document}

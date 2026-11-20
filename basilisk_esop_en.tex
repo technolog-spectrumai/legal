@@ -1,0 +1,272 @@
+% !TeX program = pdflatex
+% Incentive Plan Rules (Series P) --- Basilisk Systems P.S.A. (English convenience translation; the Polish version prevails).
+% Cross-references taken from psa_en.aux and basilisk_sha_en.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish,english]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\externaldocument{psa_en}[psa_en.pdf]
+\externaldocument{basilisk_sha_en}[basilisk_sha_en.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- General Meeting}
+\BusinessPlanConfidentialText{Draft --- confidential}
+\BusinessPlanFooterText{Basilisk Systems --- incentive plan rules (draft)}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.1}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+  \addcontentsline{toc}{section}{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\US}[1]{\S~#1 of the Articles}
+\newcommand{\UA}[1]{\S~#1 of the Shareholders' Agreement}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- incentive plan rules (Series P)},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Incentive Plan Rules}
+  {Basilisk Systems P.S.A. Incentive Plan --- Series P Shares}
+  {To the Articles of Association of Basilisk Systems P.S.A., version 3.4-S}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+{\small\itshape English convenience translation; the Polish version prevails.\par}
+
+These are the rules of the incentive plan referred to in \US{\ref{en-art:seria-p}(2) and (5)}. They are adopted by the General Meeting by a resolution following the draft in Schedule No.~3.
+
+\textbf{How the plan works:}
+\begin{enumerate}
+  \item The General Meeting adopts a resolution on a conditional issue of Series~P shares and consents to the conclusion of participation agreements (Article~300$^{114}$ \S~2(2) and \S~3 KSH). The resolution amends the Articles, so it requires a notarial record and registration.
+  \item After registration, the Board of Directors concludes participation agreements with participants. An agreement grants the right to subscribe for a specified number of Series~P shares at the exercise price (\textbf{Options}).
+  \item Options vest over 4 years: 25\% after the first year, and then 1/48 each month.
+  \item Vested Options are exercised in exercise windows, by a written subscription statement and payment of the exercise price. The shares come into existence upon entry in the register of shareholders.
+\end{enumerate}
+
+\textbf{Notes before adoption:}
+\begin{enumerate}
+  \item The conditional issue resolution must meet the conditions of Article~300$^{106}$ \S~2 KSH (Article~300$^{115}$ \S~2 KSH). It therefore requires a 4/5 majority and must be justified by the Company's interest, even though the Articles exclude pre-emptive rights to Series~P shares (\US{\ref{en-art:emisje}(6)}). It must also have a majority of 75\% of all votes (\US{\ref{en-art:wz-zastrzezone}(1)}).
+  \item Rights to subscribe for shares are granted only after the amendment of the Articles concerning the conditional issue has been registered (Article~300$^{116}$ \S~2 KSH). A participation agreement concluded earlier is only a promise.
+  \item Deferral of taxation under Article~24(11)--(12b) of the PIT Act concerns plans created by a resolution of the general meeting of a joint-stock company. Its application to a simple joint-stock company must be confirmed by an individual tax ruling before the first grant \field{to be verified by a tax adviser}.
+\end{enumerate}
+
+% ================================================================
+\chapter*{Incentive Plan Rules}
+\addcontentsline{toc}{chapter}{Incentive Plan Rules}
+
+\begin{ContractClause}{Purpose and Definitions}
+\label{esopen:definicje}
+\begin{enumerate}
+  \item The purpose of the plan is to attract and retain the persons on whom the Company's development depends and to link their remuneration to the growth in the Company's value.
+  \item In these rules:
+  \begin{enumerate}[label=(\alph*)]
+    \item \textbf{Pool} means no more than 176,471 Series~P shares (\US{\ref{en-art:emisje}(3)(b)} and \US{\ref{en-art:seria-p}(1)});
+    \item \textbf{Participant} means a person with whom the Company has concluded a Participation Agreement;
+    \item \textbf{Participation Agreement} means an agreement granting the right to subscribe for Series~P shares (Article~300$^{114}$ \S~2(2) KSH), in the form set out in Schedule No.~1;
+    \item \textbf{Option} means the right to subscribe for one Series~P share at the Exercise Price;
+    \item \textbf{Grant Date} means the date of the Participation Agreement or an earlier date indicated in it as the vesting commencement date, not earlier than the date on which the cooperation began;
+    \item \textbf{Exercise Price} means the issue price of a Series~P share subscribed for upon exercise of an Option, specified in the Participation Agreement;
+    \item \textbf{Cooperation} means employment, a service agreement, holding the office of director or other ongoing cooperation of the Participant with the Company or its subsidiary;
+    \item \textbf{Exit Event} means the acquisition by a person or a group of persons acting in concert, not affiliated with the Founders, of shares carrying more than 50\% of the votes in the Company, the sale of the Company's enterprise or a substantial part of it, or the admission of the Company's shares to trading on a regulated market or in an alternative trading system.
+  \end{enumerate}
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Legal Basis and Bodies}
+\begin{enumerate}
+  \item The plan is operated on the basis of \US{\ref{en-art:seria-p}}, the General Meeting's resolution on the conditional issue of Series~P shares and these rules, under Articles~300$^{114}$--300$^{118}$ KSH.
+  \item The Board of Directors operates the plan: it recommends Participants, concludes Participation Agreements, keeps the Option register, receives subscription statements, issues instructions for entry in the register of shareholders and makes registry filings (Article~300$^{117}$ \S~2 and Article~300$^{118}$ \S~2 KSH).
+  \item The Board of Directors grants Options within the annual grant plan approved by the General Meeting by an absolute majority of votes cast. The plan specifies the number of Options for categories of persons and the rules for setting the Exercise Price.
+  \item A grant of Options to a director, a shareholder holding at least 5\% of the shares or a person closely related to any of them requires a resolution of the General Meeting. A Participation Agreement with a director is concluded on behalf of the Company by an attorney appointed by a shareholders' resolution (Article~300$^{79}$ \S~1 KSH, \US{\ref{en-art:reprezentacja}(3)}).
+  \item The number of Options granted and not lapsed may not exceed the Pool. Lapsed Options return to the Pool and may be granted again.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Participants}
+\begin{enumerate}
+  \item Employees, contractors, directors and advisers of the Company and its subsidiaries may be Participants.
+  \item Original Founders do not participate in the plan unless the General Meeting decides otherwise by a majority of 75\% of all votes.
+  \item Before concluding a Participation Agreement, the Board of Directors checks whether the grant of Options and the issue of shares require consent or notification under the rules on investment control, export control and sanctions or under the conditions of the Company's concession (\US{\ref{en-art:zbywanie}(2)}).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Grant of Options}
+\begin{enumerate}
+  \item Options are granted only in a Participation Agreement concluded in written or electronic form (qualified electronic signature), after the amendment of the Articles concerning the conditional issue of Series~P shares has been registered.
+  \item The Participation Agreement specifies the number of Options, the Grant Date, the Exercise Price, the vesting schedule if it differs from \S~\ref{esopen:nabywanie}, and the exercise deadline.
+  \item The Exercise Price may not be lower than PLN~0.01 (\US{\ref{en-art:emisje}(7)}). It is set in accordance with the grant plan, in particular at the fair value of a share on the Grant Date or at a discount to the price in the most recent share issue. The justification is kept in the register.
+  \item Options are granted free of charge, are non-transferable and may not be encumbered, except by inheritance (\S~\ref{esopen:ustanie}(5)). An Option does not confer shareholder rights until the share is entered in the register of shareholders (Article~300$^{118}$ \S~1 KSH).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Vesting}
+\label{esopen:nabywanie}
+\begin{enumerate}
+  \item Options vest over 48 months from the Grant Date, provided that the Cooperation continues:
+  \begin{enumerate}[label=(\alph*)]
+    \item after 12 months --- 25\% of the Options;
+    \item after each subsequent full month --- 1/48 of the Options.
+  \end{enumerate}
+  Fractions are rounded down, and the final tranche makes up the difference.
+  \item Vesting continues during sickness, maternity, paternity, parental and childcare leave and other justified absences. It is suspended during unpaid leave or a break in the Cooperation agreed at the Participant's request, if it lasts more than 30 days.
+  \item A change in the form of the Cooperation or a move to a subsidiary does not interrupt vesting.
+  \item The Board of Directors may accelerate the vesting of a Participant's Options, except for a Participant who is a director, whose acceleration is granted by the General Meeting.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Exercise of Options}
+\label{esopen:wykonanie}
+\begin{enumerate}
+  \item Vested Options are exercised in exercise windows:
+  \begin{enumerate}[label=(\alph*)]
+    \item within 30 days of the approval of the financial statements for each financial year;
+    \item before an Exit Event, within the period specified by the Board of Directors, not shorter than 14 days;
+    \item in the cases referred to in \S~\ref{esopen:ustanie}.
+  \end{enumerate}
+  \item A Participant exercises Options by delivering to the Company a written subscription statement in the form set out in Schedule No.~2 (Article~300$^{117}$ \S~1 KSH) and paying the Exercise Price into the Company's account. A statement made before an Exit Event may be conditional.
+  \item Promptly after receiving the statement and the payment, the Board of Directors issues an instruction for entry of the shares in the register of shareholders (Article~300$^{117}$ \S~2 KSH). Within 30 days after the end of the calendar year, it files with the register of entrepreneurs a list of the shares subscribed for in that year (Article~300$^{118}$ \S\S~2--3 KSH).
+  \item Options lapse 10 years after the Grant Date and in any event on 30 November 2036, so that the shares are subscribed for and filed with the register before the deadline under \US{\ref{en-art:emisje}(3)}.
+  \item In the event of an Exit Event, the Board of Directors may, with the Participant's consent, replace the exercise of Options with a cash payment equal to the difference between the price per share in the transaction and the Exercise Price, less the taxes and contributions due.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Termination of Cooperation}
+\label{esopen:ustanie}
+\begin{enumerate}
+  \item Unvested Options lapse on the date the Cooperation ends.
+  \item The Participant may exercise vested Options within 6 months after the Cooperation ends; if no exercise window falls within that period, the Board of Directors sets one within it.
+  \item All Options, including vested ones, lapse if the Cooperation ended for Cause. Cause means only:
+  \begin{enumerate}[label=(\alph*)]
+    \item termination of the agreement with the Participant without notice through the Participant's fault (Article~52 \S~1 of the Labour Code) or because of the Participant's gross breach of a civil-law agreement or of the duties of a director;
+    \item a final conviction of the Participant for an intentional offence to the detriment of the Company;
+    \item a material breach by the Participant of the duty of confidentiality, the non-compete or the obligations concerning intellectual property, which the Participant has not remedied within 30 days of being called upon to do so, if it can be remedied.
+  \end{enumerate}
+  The burden of proving Cause lies with the Company.
+  \item If within 12 months after an Exit Event the Cooperation ends for reasons other than Cause or the Participant's resignation, all the Participant's Options are deemed vested (double trigger).
+  \item If a Participant dies, their heirs may exercise the Options vested up to the date of death within 12 months of the confirmation of the acquisition of the inheritance; exercise by several heirs requires a joint representative.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Series P Shares}
+\begin{enumerate}
+  \item Series~P shares are ordinary shares. \US{\ref{en-art:zbywanie}} applies to their disposal.
+  \item Before delivering the subscription statement, the Participant accedes to the Shareholders' Agreement to the extent specified in \UA{\ref{shaen:przystapienie}(2)}, in particular as regards confidentiality, the right of first refusal, the tag-along right and the drag-along (\UA{\ref{shaen:runda}}). Without accession, the statement is ineffective.
+  \item The Participant may dispose of shares subscribed for in the window referred to in \S~\ref{esopen:wykonanie}(1)(a) no earlier than 12 months after subscription, unless the General Meeting decides otherwise or an Exit Event occurs.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Capital Changes and Adjustments}
+\begin{enumerate}
+  \item In the event of a share split or consolidation, a bonus issue to existing shareholders or another change with a similar effect, the Board of Directors adjusts the number of Options and the Exercise Price proportionally so that the value of the Options does not change. An adjustment requiring an increase of the Pool requires an amendment of the Articles (\US{\ref{en-art:seria-p}(3)}).
+  \item In the event of a merger, division or transformation of the Company, the Options are converted into equivalent rights in the acquiring or transformed company if the merger, division or transformation plan so provides; otherwise \S~\ref{esopen:wykonanie}(1)(b) and (5) apply.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Taxes}
+\begin{enumerate}
+  \item The Participant settles the taxes relating to the Options and shares, without prejudice to the Company's obligations as a withholding agent.
+  \item The Company seeks to ensure that the plan meets the conditions of Article~24(11)--(12b) of the PIT Act but does not guarantee any particular tax treatment. Before the first grant, the Company applies for an individual tax ruling and makes it available to Participants \field{to be verified by a tax adviser}.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+\begin{enumerate}
+  \item An amendment of these rules requires a resolution of the General Meeting adopted by a majority of 75\% of all votes. An amendment worsening the terms of Options already granted requires the Participant's consent.
+  \item The Company processes Participants' personal data in order to conclude and perform the Participation Agreement (Article~6(1)(b) GDPR) and to comply with legal obligations (Article~6(1)(c) GDPR).
+  \item Information about the plan, the Exercise Price and the Company's value is confidential information within the meaning of the information security policy.
+  \item Participation in the plan is not part of remuneration for work and gives no claim to further grants.
+  \item These rules and the Participation Agreements are governed by Polish law. Disputes are resolved by the common court having jurisdiction over the Company's registered office; employment disputes --- by the labour court.
+  \item These rules have been drawn up in Polish and English; in the event of discrepancies the Polish version prevails. They enter into force on the date of registration of the amendment of the Articles concerning the conditional issue of Series~P shares.
+\end{enumerate}
+\end{ContractClause}
+
+% ================================================================
+\chapter*{Schedule No. 1 --- Form of Participation Agreement}
+\addcontentsline{toc}{chapter}{Schedule No. 1 --- Form of Participation Agreement}
+
+concluded on \field{date} between \textbf{\CompanyFull{}} with its registered office in Pruszków, KRS \field{number}, represented by \field{two directors, or an attorney appointed by a shareholders' resolution --- if the Participant is a director} (the \textbf{``Company''}), and \field{first name, surname, PESEL, address} (the \textbf{``Participant''}).
+
+\begin{enumerate}
+  \item The Company grants the Participant \field{number} Options, each entitling the holder to subscribe for one Series~P share at an Exercise Price of PLN~\field{amount}, on the terms of the incentive plan rules adopted by General Meeting Resolution No.~\field{number} of \field{date} (the \textbf{``Rules''}), which form part of this agreement.
+  \item Grant Date: \field{date}. Vesting schedule: in accordance with \S~\ref{esopen:nabywanie} of the Rules \field{or: a different schedule}.
+  \item The right to subscribe for shares is granted under Article~300$^{114}$ \S~2(2) KSH, with the consent of the General Meeting given in Resolution No.~\field{number} of \field{date}. The amendment of the Articles concerning the conditional issue was registered on \field{date}.
+  \item The Participant represents that they have read the Rules, the Articles, the Shareholders' Agreement and the information security policy and that they are not subject to sanctions.
+  \item This agreement does not change the terms of the Participant's Cooperation and does not guarantee its continuation.
+  \item Amendments to this agreement require written or electronic form, otherwise being null and void.
+\end{enumerate}
+
+\vspace{1em}
+\field{for the Company} \hfill \field{Participant}
+
+% ================================================================
+\chapter*{Schedule No. 2 --- Form of Statement on Subscription for Series P Shares}
+\addcontentsline{toc}{chapter}{Schedule No. 2 --- Form of Statement on Subscription for Series P Shares}
+
+I, \field{first name, surname, PESEL, address, e-mail address for the register of shareholders}, acting under Article~300$^{117}$ \S~1 KSH, Resolution No.~\field{number} of the General Meeting of \CompanyFull{} of \field{date} on the conditional issue of Series~P shares and the Participation Agreement of \field{date}, declare that:
+\begin{enumerate}
+  \item I subscribe for \field{number} ordinary Series~P shares at an issue price of PLN~\field{amount} per share, PLN~\field{amount} in total, which I paid into the Company's account on \field{date};
+  \item \field{if applicable:} I make this statement on condition that a transaction constituting an Exit Event is concluded by \field{date};
+  \item I have acceded to the Shareholders' Agreement to the extent required by the Rules;
+  \item I request entry of the shares in the register of shareholders in my name.
+\end{enumerate}
+
+\field{place, date} \hfill \field{handwritten signature or qualified electronic signature}
+
+% ================================================================
+\chapter*{Schedule No. 3 --- Draft Resolution of the General Meeting}
+\addcontentsline{toc}{chapter}{Schedule No. 3 --- Draft Resolution of the General Meeting}
+
+\textbf{Resolution No.~\field{number} of the General Meeting of \CompanyFull{} of \field{date} on the conditional issue of Series~P shares, amendment of the Articles, adoption of the incentive plan rules and consent to the conclusion of participation agreements}
+
+{\small (notarial record; a majority of at least 4/5 of the votes, Article~300$^{115}$ \S~2 in conjunction with Article~300$^{106}$ \S~2 KSH, and not less than 75\% of all votes, \US{\ref{en-art:wz-zastrzezone}(1)})\par}
+
+\begin{enumerate}
+  \item Under Article~300$^{114}$ \S~1 and \S~2(2) KSH and \US{\ref{en-art:seria-p}}, the General Meeting resolves on a conditional issue of no more than \field{number, not more than 176,471} ordinary Series~P shares.
+  \item The issue price of Series~P shares equals the Exercise Price specified in the participation agreement in accordance with the incentive plan rules, not lower than PLN~0.01.
+  \item The purpose of the conditional issue is to grant rights to subscribe for Series~P shares to participants in the Company's incentive plan.
+  \item The right to subscribe for Series~P shares may be exercised until 30 November 2036.
+  \item The persons entitled to subscribe for Series~P shares are employees, contractors, directors and advisers of the Company and its subsidiaries with whom the Company concludes participation agreements.
+  \item In the Company's interest --- in order to attract and retain key persons --- Series~P shares are subscribed for without pre-emptive rights; the Articles exclude that right (\US{\ref{en-art:emisje}(6)}). \field{justification and method of setting the issue price}.
+  \item The General Meeting amends the Articles by adding to \US{\ref{en-art:seria-p}} a section reading: ``Under General Meeting Resolution No.~\field{number} of \field{date}, a conditional issue of no more than \field{number} ordinary Series~P shares is made in order to grant rights to subscribe for them to participants in the incentive plan; the right to subscribe for the shares may be exercised until 30 November 2036.''
+  \item Under Article~300$^{114}$ \S~3 KSH, the General Meeting consents to the Company concluding participation agreements in the form set out in Schedule No.~1 to the rules, within the grant plan.
+  \item The General Meeting adopts the incentive plan rules in the wording attached to this resolution and the grant plan for \field{year}.
+  \item This resolution enters into force upon adoption, provided that the amendment of the Articles takes effect upon registration.
+\end{enumerate}
+
+\end{document}

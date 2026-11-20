@@ -1,0 +1,193 @@
+% !TeX program = pdflatex
+% Uprawnienia indywidualne inwestora (art. 300^28 KSH) --- wzór postanowień umowy spółki i dokumentów wykonawczych --- Basilisk Systems P.S.A.
+% Odesłania pobierane z psa.aux i basilisk_sha.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\externaldocument{psa}[psa.pdf]
+\externaldocument{basilisk_sha}[basilisk_sha.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- wzory dokumentów}
+\BusinessPlanConfidentialText{Projekt --- poufne}
+\BusinessPlanFooterText{Basilisk Systems --- uprawnienia indywidualne inwestora (wzór)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.1}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{#1}%
+  \addcontentsline{toc}{section}{#1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\US}[1]{§~#1 umowy spółki}
+\newcommand{\UA}[1]{§~#1 umowy akcjonariuszy}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- uprawnienia indywidualne inwestora (art. 300^28 KSH)},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Uprawnienia indywidualne inwestora}
+  {Wzór postanowień umowy spółki na podstawie art.~300$^{28}$ KSH}
+  {Dyrektor albo obserwator, prawa informacyjne i zgody inwestora}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Wprowadzenie}
+\addcontentsline{toc}{chapter}{Wprowadzenie}
+
+Umowa spółki może przyznać oznaczonemu akcjonariuszowi uprawnienia indywidualne, w szczególności uprawnienie do powołania lub odwołania członków organów (art.~300$^{28}$ §~1 KSH). Uprawnienia te wygasają najpóźniej z dniem, w którym uprawniony przestaje być akcjonariuszem, chyba że umowa spółki stanowi inaczej (art.~300$^{28}$ §~2 KSH). Wzór realizuje uprawnienia, które warunki Kwalifikowanej Rundy mogą przewidywać zgodnie z \UA{\ref{sha:runda} ust.~2 lit.~c--d}.
+
+\textbf{Zasady stosowania:}
+\begin{enumerate}
+  \item \textbf{Forma.} Uprawnienia indywidualne muszą wynikać z umowy spółki. Ich wprowadzenie wymaga zmiany umowy uchwałą Walnego Zgromadzenia podjętą większością 75\% wszystkich głosów (\US{\ref{art:wz-zastrzezone} ust.~1}), zaprotokołowaną notarialnie, oraz wpisu do rejestru. Umowa akcjonariuszy może jedynie zobowiązać Strony do głosowania za taką zmianą.
+  \item \textbf{Oznaczony akcjonariusz.} Uprawnionego wskazuje się z firmy i numeru rejestrowego. Przyznanie uprawnienia każdorazowemu posiadaczowi akcji określonej serii jest uprzywilejowaniem akcji, a nie uprawnieniem indywidualnym.
+  \item \textbf{Ochrona uprawnionego.} Zmiana umowy uszczuplająca uprawnienia indywidualne wymaga zgody uprawnionego (art.~300$^{98}$ §~3 KSH).
+  \item \textbf{Wybór wariantów.} Wzór obejmuje cztery warianty: A (dyrektor), B (obserwator), C (prawa informacyjne), D (zgody inwestora). Zwykle stosuje się A albo B, razem z C; wariant D stosuje się tylko w zakresie wynegocjowanym w rundzie.
+  \item \textbf{Regulacje.} Prawo powołania dyrektora może wymagać oceny w świetle ustawy o kontroli niektórych inwestycji i zgody organu koncesyjnego (\US{\ref{art:zbywanie} ust.~2}, \UA{\ref{sha:regulacje}}) \field{do weryfikacji}. Dostęp dyrektora inwestora i obserwatora do informacji niejawnych wymaga poświadczenia bezpieczeństwa, a do Informacji Kontrolowanych --- zgody Rady Dyrektorów według polityki bezpieczeństwa informacji.
+\end{enumerate}
+
+% ================================================================
+\chapter*{Część I --- Postanowienia umowy spółki}
+\addcontentsline{toc}{chapter}{Część I --- Postanowienia umowy spółki}
+
+\textbf{Nowy paragraf umowy spółki „Uprawnienia indywidualne”} (po \US{\ref{art:wz-zastrzezone}}):
+
+\begin{ContractClause}{Ust. 1 --- Uprawniony i wygaśnięcie}
+\label{upr:uprawniony}
+\begin{enumerate}
+  \item Uprawnienia indywidualne określone w niniejszym paragrafie przysługują \field{firma inwestora} z siedzibą w \field{miejscowość}, \field{rejestr i numer} (\textbf{„Inwestor”}), na podstawie art.~300$^{28}$ KSH.
+  \item Uprawnienia wygasają z dniem, w którym:
+  \begin{enumerate}[label=\alph*)]
+    \item Inwestor przestaje być akcjonariuszem Spółki;
+    \item liczba akcji Inwestora spada poniżej \field{5}\% ogólnej liczby akcji Spółki, z wyłączeniem spadku wynikającego wyłącznie z emisji akcji serii~P i~F; albo
+    \item Spółka otrzyma oświadczenie Inwestora o zrzeczeniu się uprawnień.
+  \end{enumerate}
+  \item \field{Opcjonalnie, do weryfikacji:} Uprawnienia przechodzą na podmiot w całości kontrolowany przez Inwestora albo przez ten sam podmiot zarządzający, który nabędzie wszystkie akcje Inwestora, jeżeli nabywca zawiadomi o tym Spółkę w terminie 14 dni od nabycia.
+  \item Rada Dyrektorów zgłasza wygaśnięcie uprawnień do rejestru przedsiębiorców.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Ust. 2 --- Wariant A: dyrektor Inwestora}
+\label{upr:dyrektor}
+\begin{enumerate}
+  \item Inwestor powołuje i odwołuje jednego dyrektora (\textbf{„Dyrektor Inwestora”}) w drodze pisemnego oświadczenia doręczonego Spółce. Oświadczenie jest skuteczne z chwilą doręczenia albo w późniejszym terminie w nim wskazanym.
+  \item Dyrektor Inwestora jest dyrektorem niewykonawczym i wchodzi w skład Rady Dyrektorów w granicach liczby dyrektorów określonej w \US{\ref{art:rada} ust.~2}. Pełni funkcję w ramach wspólnej kadencji, a jego mandat wygasa na zasadach z \US{\ref{art:rada} ust.~3}; Inwestor może powołać go ponownie.
+  \item Dopóki uprawnienie Inwestora trwa, Walne Zgromadzenie nie powołuje ani nie odwołuje Dyrektora Inwestora. Po wygaśnięciu uprawnienia mandat Dyrektora Inwestora trwa do jego odwołania przez Walne Zgromadzenie.
+  \item Jeżeli Inwestor nie powoła Dyrektora Inwestora w terminie 30 dni od wygaśnięcia jego mandatu, miejsce pozostaje nieobsadzone do czasu powołania i nie wpływa na zdolność Rady Dyrektorów do podejmowania uchwał (\US{\ref{art:rada} ust.~5}).
+  \item Dyrektor Inwestora może przekazywać Inwestorowi informacje o Spółce na potrzeby nadzoru nad inwestycją, z zachowaniem poufności. Nie może przekazywać informacji niejawnych, Informacji Kontrolowanych ani informacji, których przekazanie wymaga zezwolenia na podstawie przepisów o kontroli eksportu. Do Dyrektora Inwestora stosuje się wyjątek portfelowy z \US{\ref{art:ip} ust.~5}.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Ust. 3 --- Wariant B: obserwator}
+\label{upr:obserwator}
+\begin{enumerate}
+  \item Inwestor może wskazać jedną osobę uprawnioną do udziału w posiedzeniach Rady Dyrektorów bez prawa głosu (\textbf{„Obserwator”}) i w każdym czasie ją zmienić, w drodze oświadczenia w formie dokumentowej doręczonego Spółce.
+  \item Obserwator otrzymuje zawiadomienia o posiedzeniach i materiały w tym samym czasie co dyrektorzy. Przed pierwszym posiedzeniem podpisuje umowę o zachowaniu poufności według wzoru Spółki, z zastosowaniem wariantu dla inwestora finansowego.
+  \item Rada Dyrektorów może wyłączyć Obserwatora z części posiedzenia i nie przekazać mu materiałów, jeżeli dotyczą: konfliktu interesów Inwestora, relacji Spółki z Inwestorem, informacji objętych tajemnicą adwokacką albo radcowską, informacji niejawnych albo Informacji Kontrolowanych.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Ust. 4 --- Wariant C: prawa informacyjne}
+\label{upr:informacje}
+\begin{enumerate}
+  \item Spółka przekazuje Inwestorowi w formie elektronicznej:
+  \begin{enumerate}[label=\alph*)]
+    \item raport miesięczny (przychody, koszty, środki pieniężne, zatrudnienie, kluczowe zdarzenia) --- w terminie 30 dni po upływie miesiąca;
+    \item kwartalne sprawozdanie zarządcze --- w terminie 45 dni po upływie kwartału;
+    \item roczne sprawozdanie finansowe, a jeżeli podlega badaniu --- ze sprawozdaniem z badania --- w terminie 14 dni od jego sporządzenia;
+    \item budżet na następny rok obrotowy --- w terminie 14 dni od jego przyjęcia przez Radę Dyrektorów;
+    \item kopię zgłoszeń do rejestru przedsiębiorców i wyciągu z rejestru akcjonariuszy --- na żądanie.
+  \end{enumerate}
+  \item Inwestor może raz w roku obrotowym, na własny koszt i po zawiadomieniu z wyprzedzeniem 14 dni, przejrzeć księgi i dokumenty Spółki przez siebie albo przez doradcę związanego tajemnicą zawodową.
+  \item Prawa informacyjne nie obejmują informacji niejawnych, Informacji Kontrolowanych ani informacji, których przekazanie Inwestorowi wymagałoby zezwolenia na podstawie przepisów o kontroli eksportu albo naruszałoby warunki koncesji Spółki. Spółka nie przekazuje informacji podmiotowi, który jest konkurentem Spółki albo jest przez niego kontrolowany.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Ust. 5 --- Wariant D: zgody Inwestora}
+\label{upr:zgody}
+\begin{enumerate}
+  \item Następujące czynności Spółki wymagają uprzedniej zgody Inwestora wyrażonej w formie dokumentowej, niezależnie od uchwał wymaganych umową spółki:
+  \begin{enumerate}[label=\alph*)]
+    \item zmiana umowy spółki pogarszająca prawa związane z akcjami serii objętej przez Inwestora albo uprzywilejowanie akcji innej serii w zakresie dywidendy, głosu albo podziału majątku;
+    \item emisja akcji po cenie niższej niż cena akcji objętych przez Inwestora, z wyjątkiem akcji serii~F i~P;
+    \item zwiększenie Puli programu motywacyjnego ponad \field{15}\% akcji Spółki po pełnym rozwodnieniu;
+    \item rozwiązanie, likwidacja, połączenie, podział albo przekształcenie Spółki;
+    \item zbycie przedsiębiorstwa albo jego zorganizowanej części albo przeniesienie kluczowej własności intelektualnej;
+    \item zmiana przedmiotu działalności, która polega na rezygnacji z \field{obszar};
+    \item \field{inne sprawy wynegocjowane w rundzie}.
+  \end{enumerate}
+  \item Zgodę uważa się za wyrażoną, jeżeli Inwestor nie odmówi jej w formie dokumentowej w terminie 10 dni roboczych od doręczenia wniosku wraz z niezbędnymi informacjami.
+  \item Brak zgody nie wpływa na ważność czynności wobec osób trzecich; dyrektorzy odpowiadają wobec Spółki za dokonanie czynności bez zgody.
+\end{enumerate}
+\end{ContractClause}
+
+\textbf{Zmiana \US{\ref{art:rada} ust.~2}} --- po słowach „uchwałą Walnego Zgromadzenia podjętą bezwzględną większością głosów oddanych” dodaje się: „, z zastrzeżeniem uprawnień indywidualnych, o których mowa w §~\field{numer}”.
+
+% ================================================================
+\chapter*{Część II --- Dokumenty wykonawcze}
+\addcontentsline{toc}{chapter}{Część II --- Dokumenty wykonawcze}
+
+\section*{Wzór uchwały Walnego Zgromadzenia}
+\addcontentsline{toc}{section}{Wzór uchwały Walnego Zgromadzenia}
+
+\textbf{Uchwała nr \field{numer} Walnego Zgromadzenia \CompanyFull{} z dnia \field{data} w sprawie zmiany umowy spółki --- uprawnienia indywidualne \field{firma inwestora}}
+
+{\small (protokół notarialny; większość 75\% wszystkich głosów, \US{\ref{art:wz-zastrzezone} ust.~1})\par}
+
+\begin{enumerate}
+  \item Na podstawie art.~300$^{28}$ KSH Walne Zgromadzenie zmienia umowę spółki w ten sposób, że: (a)~po \US{\ref{art:wz-zastrzezone}} dodaje się paragraf „Uprawnienia indywidualne” w brzmieniu stanowiącym załącznik do uchwały; (b)~\US{\ref{art:rada} ust.~2} otrzymuje brzmienie: \field{brzmienie}.
+  \item Walne Zgromadzenie upoważnia Radę Dyrektorów do ustalenia tekstu jednolitego umowy spółki.
+  \item Uchwała wchodzi w życie z chwilą podjęcia, z mocą od dnia wpisu zmiany do rejestru. \field{Jeżeli zmiana jest elementem rundy:} Uchwała wchodzi w życie pod warunkiem wpisu do rejestru emisji akcji serii \field{oznaczenie} objętych przez Inwestora.
+\end{enumerate}
+
+\section*{Wzór oświadczenia o powołaniu albo odwołaniu Dyrektora Inwestora}
+\addcontentsline{toc}{section}{Wzór oświadczenia o powołaniu albo odwołaniu Dyrektora Inwestora}
+
+\field{firma Inwestora}, działając na podstawie art.~300$^{28}$ KSH i §~\field{numer} ust.~2 umowy spółki \CompanyFull{}, \field{powołuje / odwołuje} \field{imię, nazwisko, PESEL} \field{do / z} Rady Dyrektorów Spółki ze skutkiem od dnia \field{data}. \field{Przy powołaniu:} Do oświadczenia dołącza się zgodę powołanego na pełnienie funkcji, jego adres do doręczeń, oświadczenie o braku przeszkód z art.~18 KSH oraz informację, czy posiada poświadczenie bezpieczeństwa.
+
+\field{miejscowość, data} \hfill \field{podpisy osób uprawnionych do reprezentacji Inwestora}
+
+\section*{Lista kontrolna}
+\addcontentsline{toc}{section}{Lista kontrolna}
+
+\begin{enumerate}
+  \item Warunki rundy mieszczą się w \UA{\ref{sha:runda} ust.~2}; jeżeli nie --- wymagana zmiana umowy akcjonariuszy.
+  \item Ocena wymogu zawiadomienia na podstawie ustawy o kontroli niektórych inwestycji i warunków koncesji przed zawarciem umowy inwestycyjnej \field{do weryfikacji}.
+  \item Uchwała WZ z protokołem notarialnym; zgłoszenie zmiany do rejestru z zaznaczeniem uprawnień indywidualnych (por. art.~300$^{12}$ §~2 pkt~5 KSH); tekst jednolity.
+  \item Oświadczenie o powołaniu Dyrektora Inwestora albo wskazaniu Obserwatora; NDA Obserwatora; zgłoszenie dyrektora do rejestru.
+  \item Uzupełnienie regulaminu Rady Dyrektorów o udział Obserwatora i zasady przekazywania informacji Inwestorowi.
+\end{enumerate}
+
+\end{document}
