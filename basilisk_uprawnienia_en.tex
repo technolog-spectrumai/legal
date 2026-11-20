@@ -1,0 +1,195 @@
+% !TeX program = pdflatex
+% Investor's individual rights (Article 300^28 KSH) --- template provisions of the Articles and implementing documents --- Basilisk Systems P.S.A.
+% English convenience translation; the Polish version prevails. Cross-references taken from psa_en.aux and basilisk_sha_en.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish,english]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\externaldocument{psa_en}[psa_en.pdf]
+\externaldocument{basilisk_sha_en}[basilisk_sha_en.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- document templates}
+\BusinessPlanConfidentialText{Draft --- confidential}
+\BusinessPlanFooterText{Basilisk Systems --- investor's individual rights (template)}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.1}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{#1}%
+  \addcontentsline{toc}{section}{#1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\US}[1]{\S~#1 of the Articles}
+\newcommand{\UA}[1]{\S~#1 of the Shareholders' Agreement}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- investor's individual rights (Article 300^28 KSH)},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Investor's Individual Rights}
+  {Template Provisions of the Articles under Article~300$^{28}$ KSH}
+  {Director or observer, information rights and investor consents}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+{\small\itshape English convenience translation; the Polish version prevails.\par}
+
+The Articles may grant a designated shareholder individual rights, in particular the right to appoint or dismiss members of corporate bodies (Article~300$^{28}$ \S~1 KSH). Those rights expire no later than on the date on which the holder ceases to be a shareholder, unless the Articles provide otherwise (Article~300$^{28}$ \S~2 KSH). This template implements the rights that the terms of a Qualified Round may provide for under \UA{\ref{shaen:runda}(2)(c)--(d)}.
+
+\textbf{Rules of use:}
+\begin{enumerate}
+  \item \textbf{Form.} Individual rights must be set out in the Articles. Introducing them requires an amendment of the Articles by a General Meeting resolution adopted by a majority of 75\% of all votes (\US{\ref{en-art:wz-zastrzezone}(1)}), recorded by a notary, and registration. The Shareholders' Agreement can only oblige the Parties to vote for such an amendment.
+  \item \textbf{Designated shareholder.} The holder is identified by business name and registration number. Granting a right to every holder of shares of a given series is a share preference, not an individual right.
+  \item \textbf{Protection of the holder.} An amendment of the Articles that reduces individual rights requires the holder's consent (Article~300$^{98}$ \S~3 KSH).
+  \item \textbf{Choice of variants.} The template contains four variants: A (director), B (observer), C (information rights) and D (investor consents). Usually A or B is used together with C; variant D is used only to the extent negotiated in the round.
+  \item \textbf{Regulation.} The right to appoint a director may require assessment under the Act on the Control of Certain Investments and the consent of the concession authority (\US{\ref{en-art:zbywanie}(2)}, \UA{\ref{shaen:regulacje}}) \field{to be verified}. Access by the investor's director and the observer to classified information requires a security clearance, and access to Controlled information requires the consent of the Board of Directors under the information security policy.
+\end{enumerate}
+
+% ================================================================
+\chapter*{Part I --- Provisions of the Articles}
+\addcontentsline{toc}{chapter}{Part I --- Provisions of the Articles}
+
+\textbf{New section of the Articles ``Individual Rights''} (after \US{\ref{en-art:wz-zastrzezone}}):
+
+\begin{ContractClause}{Section 1 --- Holder and Expiry}
+\label{upren:uprawniony}
+\begin{enumerate}
+  \item The individual rights set out in this section are held by \field{investor's business name} with its registered office in \field{town}, \field{register and number} (the \textbf{``Investor''}), under Article~300$^{28}$ KSH.
+  \item The rights expire on the date on which:
+  \begin{enumerate}[label=(\alph*)]
+    \item the Investor ceases to be a shareholder of the Company;
+    \item the number of the Investor's shares falls below \field{5}\% of the total number of the Company's shares, excluding a decrease resulting solely from issues of Series~P and~F shares; or
+    \item the Company receives the Investor's statement waiving the rights.
+  \end{enumerate}
+  \item \field{Optional, to be verified:} The rights pass to an entity wholly controlled by the Investor or by the same management entity which acquires all of the Investor's shares, if the acquirer notifies the Company within 14 days of the acquisition.
+  \item The Board of Directors files the expiry of the rights with the register of entrepreneurs.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Section 2 --- Variant A: Investor Director}
+\label{upren:dyrektor}
+\begin{enumerate}
+  \item The Investor appoints and dismisses one director (the \textbf{``Investor Director''}) by a written statement delivered to the Company. The statement takes effect upon delivery or on a later date specified in it.
+  \item The Investor Director is a non-executive director and sits on the Board of Directors within the number of directors set out in \US{\ref{en-art:rada}(2)}. They serve within the joint term of office, and their mandate expires on the terms of \US{\ref{en-art:rada}(3)}; the Investor may reappoint them.
+  \item As long as the Investor's right continues, the General Meeting does not appoint or dismiss the Investor Director. After the right expires, the Investor Director's mandate continues until they are dismissed by the General Meeting.
+  \item If the Investor does not appoint an Investor Director within 30 days after the mandate expires, the seat remains vacant until an appointment is made and does not affect the ability of the Board of Directors to adopt resolutions (\US{\ref{en-art:rada}(5)}).
+  \item The Investor Director may pass information about the Company to the Investor for the purpose of monitoring the investment, subject to confidentiality. They may not pass on classified information, Controlled information or information whose transfer requires a licence under export control rules. The portfolio exception in \US{\ref{en-art:ip}(5)} applies to the Investor Director.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Section 3 --- Variant B: Observer}
+\label{upren:obserwator}
+\begin{enumerate}
+  \item The Investor may designate one person entitled to attend meetings of the Board of Directors without a vote (the \textbf{``Observer''}) and may replace that person at any time, by a statement in documentary form delivered to the Company.
+  \item The Observer receives notices of meetings and materials at the same time as the directors. Before the first meeting, the Observer signs a non-disclosure agreement in the Company's form, using the financial investor variant.
+  \item The Board of Directors may exclude the Observer from part of a meeting and withhold materials if they concern: a conflict of interest of the Investor, the Company's relations with the Investor, information covered by legal professional privilege, classified information or Controlled information.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Section 4 --- Variant C: Information Rights}
+\label{upren:informacje}
+\begin{enumerate}
+  \item The Company provides the Investor in electronic form with:
+  \begin{enumerate}[label=(\alph*)]
+    \item a monthly report (revenue, costs, cash, headcount, key events) --- within 30 days after the end of the month;
+    \item a quarterly management report --- within 45 days after the end of the quarter;
+    \item the annual financial statements and, if they are audited, the audit report --- within 14 days after they are drawn up;
+    \item the budget for the next financial year --- within 14 days after its adoption by the Board of Directors;
+    \item copies of filings with the register of entrepreneurs and an extract from the register of shareholders --- on request.
+  \end{enumerate}
+  \item Once in each financial year, at its own cost and after 14 days' notice, the Investor may inspect the Company's books and documents itself or through an adviser bound by professional secrecy.
+  \item Information rights do not cover classified information, Controlled information or information whose transfer to the Investor would require a licence under export control rules or would breach the conditions of the Company's concession. The Company does not provide information to an entity that is a competitor of the Company or is controlled by one.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Section 5 --- Variant D: Investor Consents}
+\label{upren:zgody}
+\begin{enumerate}
+  \item The following acts of the Company require the Investor's prior consent in documentary form, regardless of the resolutions required by the Articles:
+  \begin{enumerate}[label=(\alph*)]
+    \item an amendment of the Articles worsening the rights attached to the series of shares subscribed for by the Investor, or giving shares of another series a preference as to dividend, voting or distribution of assets;
+    \item an issue of shares at a price lower than the price of the shares subscribed for by the Investor, except for Series~F and~P shares;
+    \item an increase of the incentive plan Pool above \field{15}\% of the Company's shares on a fully diluted basis;
+    \item the dissolution, liquidation, merger, division or transformation of the Company;
+    \item the sale of the enterprise or an organised part of it, or the transfer of key intellectual property;
+    \item a change in the business activity consisting in abandoning \field{area};
+    \item \field{other matters negotiated in the round}.
+  \end{enumerate}
+  \item Consent is deemed given if the Investor does not refuse it in documentary form within 10 business days of delivery of the request with the necessary information.
+  \item Absence of consent does not affect the validity of the act towards third parties; the directors are liable to the Company for performing an act without consent.
+\end{enumerate}
+\end{ContractClause}
+
+\textbf{Amendment of \US{\ref{en-art:rada}(2)}} --- after the words ``by a resolution of the General Meeting adopted by an absolute majority of votes cast'' the following is added: ``, subject to the individual rights referred to in \S~\field{number}''.
+
+% ================================================================
+\chapter*{Part II --- Implementing Documents}
+\addcontentsline{toc}{chapter}{Part II --- Implementing Documents}
+
+\section*{Form of General Meeting Resolution}
+\addcontentsline{toc}{section}{Form of General Meeting Resolution}
+
+\textbf{Resolution No.~\field{number} of the General Meeting of \CompanyFull{} of \field{date} on the amendment of the Articles --- individual rights of \field{investor's business name}}
+
+{\small (notarial record; a majority of 75\% of all votes, \US{\ref{en-art:wz-zastrzezone}(1)})\par}
+
+\begin{enumerate}
+  \item Under Article~300$^{28}$ KSH, the General Meeting amends the Articles as follows: (a)~after \US{\ref{en-art:wz-zastrzezone}} a section ``Individual Rights'' is added in the wording attached to this resolution; (b)~\US{\ref{en-art:rada}(2)} is given the following wording: \field{wording}.
+  \item The General Meeting authorises the Board of Directors to establish the consolidated text of the Articles.
+  \item This resolution enters into force upon adoption, with effect from the date of registration of the amendment. \field{If the amendment is part of a round:} This resolution enters into force on condition that the issue of Series~\field{designation} shares subscribed for by the Investor is registered.
+\end{enumerate}
+
+\section*{Form of Statement on Appointment or Dismissal of the Investor Director}
+\addcontentsline{toc}{section}{Form of Statement on Appointment or Dismissal of the Investor Director}
+
+\field{Investor's business name}, acting under Article~300$^{28}$ KSH and \S~\field{number}(2) of the Articles of \CompanyFull{}, \field{appoints / dismisses} \field{first name, surname, PESEL} \field{to / from} the Board of Directors of the Company with effect from \field{date}. \field{On appointment:} The statement is accompanied by the appointee's consent to serve, their address for service, a statement that there are no obstacles under Article~18 KSH and information on whether they hold a security clearance.
+
+\field{place, date} \hfill \field{signatures of the persons authorised to represent the Investor}
+
+\section*{Checklist}
+\addcontentsline{toc}{section}{Checklist}
+
+\begin{enumerate}
+  \item The terms of the round fall within \UA{\ref{shaen:runda}(2)}; if not, an amendment of the Shareholders' Agreement is required.
+  \item Assessment of the notification requirement under the Act on the Control of Certain Investments and of the concession conditions before the investment agreement is concluded \field{to be verified}.
+  \item General Meeting resolution with a notarial record; filing of the amendment with the register, indicating the individual rights (cf. Article~300$^{12}$ \S~2(5) KSH); consolidated text.
+  \item Statement appointing the Investor Director or designating the Observer; Observer's NDA; filing of the director with the register.
+  \item Supplementing the Board of Directors' rules with the Observer's participation and the rules for passing information to the Investor.
+\end{enumerate}
+
+\end{document}
