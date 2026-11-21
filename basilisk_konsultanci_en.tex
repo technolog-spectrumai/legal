@@ -1,0 +1,397 @@
+% !TeX program = pdflatex
+% Consultant agreements --- Basilisk Systems P.S.A.: A) employment contract, B) advisory services agreement (B2B), C) non-compete agreement (employee).
+% English convenience translation; the Polish version prevails. Cross-references taken from psa_en.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish,english]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\externaldocument{psa_en}[psa_en.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- contract templates}
+\BusinessPlanConfidentialText{Contract templates --- confidential}
+\BusinessPlanFooterText{Basilisk Systems --- consultant agreements (templates)}
+\BusinessPlanVersionText{Version 1.0 --- draft}
+
+\setstretch{1.1}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\US}[1]{\S~#1 of the Articles}
+\newcommand{\Strony}{\textbf{\CompanyFull{}} with its registered office in Pruszków, entered in the register of entrepreneurs of the National Court Register under KRS number \field{number}, NIP \field{number}, represented by \field{two directors or a director and a commercial proxy; if the other party is a director --- an attorney appointed by a shareholders' resolution}}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- consultant agreements (templates)},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Version 1.0 --- draft}
+  {Consultant Agreements}
+  {Employment contract, advisory services agreement and non-compete agreement}
+  {Templates for Basilisk Systems P.S.A.}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+{\small\itshape English convenience translation; the Polish version prevails.\par}
+
+This package contains three templates:
+\begin{enumerate}
+  \item \textbf{Template A --- employment contract} with a consultant;
+  \item \textbf{Template B --- advisory services agreement} with a consultant running a business (B2B);
+  \item \textbf{Template C --- non-compete agreement} with an employee, during employment and after it ends.
+\end{enumerate}
+
+\textbf{Which template to choose.} The type of contract is determined by the actual working conditions, not by the contract's name. Work under direction, at a place and time set by the Company, is employment, whatever the contract is called (Article~22 \S\S~1--1\textsuperscript{2} of the Labour Code, ``KP'').
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.4cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+ & \textbf{Template A --- employment} & \textbf{Template B --- B2B services} \\
+\midrule
+When & ongoing work in the team, following instructions, at hours and a place set by the Company & independent advice: the consultant decides on the time, place and method of work and is accountable for results \\
+Copyright & by operation of law, within the purpose of the contract (Articles~12 and 74(3) of the Copyright Act) and under \S~\ref{a:ip} of Template A & only under an agreement transferring rights (Agreement No.~2 from the IP agreements package), in writing \\
+Non-compete & only a separate written agreement (Template~C) & in the agreement (\S~\ref{b:konkurencja} of Template B) \\
+Contractual penalties & not permitted in an employment contract; permitted in a post-employment non-compete agreement (Supreme Court, II PK 120/07) & permitted \\
+Termination & notice periods under Article~36 KP & 1 month; at any time for important reasons (Article~746 \S~3 of the Civil Code) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{Before concluding the contract:}
+\begin{enumerate}
+  \item the candidate has received information on the pay or pay range before the interview or before the contract is concluded (Article~18\textsuperscript{3ca} KP --- applies to Template A);
+  \item the contract is within the budget; outside the budget and above the thresholds in \US{\ref{en-art:rada}(7)} it requires a Board resolution; a contract with a director, shareholder or affiliated entity requires a Board resolution and, above PLN~100,000 a year, also a General Meeting resolution (\US{\ref{en-art:wz-zastrzezone}(1)(k)});
+  \item a contract with a director is signed by an attorney appointed by a shareholders' resolution (Article~300$^{79}$ \S~1 KSH, \US{\ref{en-art:reprezentacja}(3)});
+  \item the consultant has read the information security policy; the scope of access to Controlled information has been approved under the policy; if the consultant comes from a country outside the European Union, the export control requirements have been assessed and the sanctions lists checked;
+  \item the consultant has provided a list of their own works, inventions and know-how predating the cooperation (Schedule A2 or B3);
+  \item if the work involves classified information, the consultant holds a security clearance.
+\end{enumerate}
+
+% ================================================================
+\chapter*{Template A --- Employment Contract}
+\addcontentsline{toc}{chapter}{Template A --- Employment Contract}
+\setcounter{paragraf}{0}
+
+concluded in Pruszków on \field{date} between \Strony{} (the \textbf{``Employer''}), and \field{first name, surname, address} (the \textbf{``Employee''}).
+
+\begin{ContractClause}{Type of Contract and Start Date}
+\begin{enumerate}
+  \item The parties conclude an employment contract \field{choose: for a trial period until \ldots{} (no longer than 3 months, Article~25 \S~2 KP) / for a fixed term until \ldots{} / for an indefinite term}. \field{For a trial period, optional:} The contract is extended by the period of leave and other justified absence of the Employee (Article~25 \S~2\textsuperscript{1} KP).
+  \item Start date: \field{date}.
+  \item A fixed-term contract, together with previous fixed-term contracts, may not last longer than 33 months, and the number of such contracts may not exceed three (Article~25\textsuperscript{1} KP).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Position and Type of Work}
+\begin{enumerate}
+  \item The Employee is employed as \field{consultant for \ldots{}}. Type of work: \field{e.g. technical advice on autonomous systems, analyses, documentation, customer support}.
+  \item The detailed scope of duties, including creative duties, is set out in Schedule A1. The Employer may change it within the type of work specified in section~1.
+  \item The Employee reports to the executive director or a person designated by them.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Place of Work}
+\begin{enumerate}
+  \item The place of work is the Employer's registered office in Pruszków \field{optional: and project sites at customers in the Republic of Poland}.
+  \item Work may be performed remotely under a remote work agreement or rules and occasionally, at the Employee's request, for up to 24 days per calendar year (Articles~67\textsuperscript{18}--67\textsuperscript{34} KP). Controlled information is not processed outside the places and devices permitted by the information security policy.
+  \item Business travel is settled in accordance with the rules on business travel allowances.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Working Time}
+\begin{enumerate}
+  \item The Employee is employed full time \field{or: \ldots{} of full time}, in the \field{choose: basic working time system / task-based working time system (Article~140 KP), in which the time needed to complete tasks is set after consultation with the Employee, taking into account the working time standards}.
+  \item Overtime is worked only on the Employer's instruction; overtime entitles the Employee to pay with a supplement or to time off (Articles~151\textsuperscript{1}--151\textsuperscript{2} KP).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Remuneration}
+\begin{enumerate}
+  \item The Employee is entitled to a base salary of PLN~\field{amount} gross per month, paid in arrears by the \field{10th} day of the following month into the account indicated by the Employee.
+  \item The Employee may receive a discretionary bonus under rules set by the Board of Directors. A discretionary bonus is not a component of remuneration guaranteed by the contract.
+  \item \field{Optional:} \field{\ldots}\% of the base salary is remuneration for the transfer of copyright in works created as part of creative duties, recorded in accordance with \S~\ref{a:ip}(5) \field{to be verified by a tax adviser: tax-deductible costs, Article~22(9)(3) and (9b) of the PIT Act}.
+  \item The Employee may become a participant in the Company's incentive plan on the terms of the plan rules; participation is not a component of remuneration for work.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Copyright and Inventions}
+\label{a:ip}
+\begin{enumerate}
+  \item The economic copyright in computer programs created by the Employee in the performance of duties under the employment relationship belongs to the Employer (Article~74(3) of the Copyright Act).
+  \item The Employer acquires the economic copyright in other works created by the Employee in the performance of duties under the employment relationship, in particular documentation, models, data, drawings, studies and reports, upon acceptance of the work (Article~12(1) of the Copyright Act), in all fields of exploitation known when this contract is concluded, in particular: fixation and reproduction by any technique, placing on the market, rental, lending, entry into computer memory and networks, making available to the public, translation, adaptation, rearrangement and other modifications, and training of models and use in artificial intelligence systems. A work is deemed accepted if the Employer raises no objections within 14 days of its delivery, including by its recording in the Employer's repository.
+  \item The Employer may exercise and authorise the exercise of derivative rights in the works referred to in sections~1--2. The Employee undertakes not to exercise moral rights against the Employer and its legal successors in a way that hinders the use of the works, in particular the right to attribution and authorial supervision, and authorises the Employer to exercise them on the Employee's behalf.
+  \item The right to obtain a patent for an invention or a protection right for a utility model made by the Employee in the performance of duties under the employment relationship belongs to the Employer (Article~11(3) of the Industrial Property Law). The Employee is entitled to remuneration under Article~22 of the Industrial Property Law, in the amount set in the rules or in a separate agreement.
+  \item The Employee keeps work results only in the Employer's systems and, once a quarter, confirms in documentary form a list of the works created in that period.
+  \item This contract does not cover the works, inventions and know-how listed in Schedule A2 that were created before it was concluded. The Employee does not incorporate them into work results without the Employer's consent in documentary form; if the Employee does so, they grant the Employer a free, non-exclusive, perpetual licence with the right to sublicense to the extent necessary to use the work results.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Confidentiality}
+\begin{enumerate}
+  \item The Employee keeps confidential information whose disclosure could harm the Employer (Article~100 \S~2(4) KP), in particular trade secrets within the meaning of Article~11(2) of the Unfair Competition Act, and complies with the information security policy.
+  \item This obligation continues after the employment relationship ends for as long as the information remains a trade secret.
+  \item This obligation does not cover information on the Employee's pay or reports and disclosures made under the Whistleblower Protection Act.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Other Employment and Non-Compete}
+\begin{enumerate}
+  \item The Employer does not prohibit the Employee from being employed by another employer at the same time or from other cooperation (Article~26\textsuperscript{1} \S~1 KP). The Employee informs the Employer of such cooperation if it may lead to a conflict of interest or a breach of confidentiality.
+  \item A non-compete during the employment relationship and after it ends may arise only from a separate agreement concluded in writing (Articles~101\textsuperscript{1}--101\textsuperscript{3} KP; Template~C).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Security, Export Control and Monitoring}
+\begin{enumerate}
+  \item The Employee has access to the Employer's information and systems to the extent shown in the access register kept under the information security policy. Controlled information is made available to the Employee only if they have been entered on the list approved by the Board of Directors.
+  \item The Employee does not transfer the Employer's technology, code, models and data outside the Republic of Poland or to persons from countries outside the European Union without the Employer's prior consent.
+  \item The Employer logs access to the Employer's accounts, repositories and systems on the terms set out in the information security policy and the work rules (Article~22\textsuperscript{3} KP). Before being admitted to work, the Employee receives written information on the purpose, scope and method of monitoring.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Termination of Employment}
+\begin{enumerate}
+  \item The contract is terminated on the terms of the Labour Code. The notice period follows from Article~34 or 36 KP.
+  \item When the employment relationship ends, the Employee returns the Employer's property, hands over the work results and follows the departure procedure set out in the information security policy.
+  \item The Employer may release the Employee from the obligation to work during the notice period, while maintaining the right to remuneration (Article~36\textsuperscript{2} KP).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+\begin{enumerate}
+  \item Matters not regulated by this contract are governed by the Labour Code, the work rules and the remuneration rules, if they apply at the Employer.
+  \item The Employer provides the information on employment conditions referred to in Article~29 \S~3 KP within the time limits set out in that provision.
+  \item Amendments to the contract require written form. The contract has been executed in two counterparts, one for each party, or in electronic form with qualified electronic signatures.
+  \item The Employer processes the Employee's personal data in order to conclude and perform the contract and to comply with legal obligations (Article~6(1)(b) and (c) GDPR, Article~22\textsuperscript{1} KP).
+  \item Disputes are resolved by the labour court having jurisdiction under the Code of Civil Procedure.
+  \item The contract has been drawn up in Polish; a version in another language is for convenience only.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1em}
+\field{for the Employer} \hfill \field{Employee}
+
+\Needspace{10\baselineskip}
+\section*{Schedule A1 --- Scope of Duties}
+\addcontentsline{toc}{section}{Schedule A1 --- Scope of Duties}
+\begin{enumerate}
+  \item \field{duty, e.g. preparing technical analyses and recommendations for customers};
+  \item \field{duty, e.g. creating documentation, scripts and auxiliary programs} --- \textbf{creative duty};
+  \item \field{duty, e.g. participating in tests and demonstrations};
+  \item compliance with the information security policy and export control rules.
+\end{enumerate}
+
+\section*{Schedule A2 --- List of Works, Inventions and Know-How Predating Employment}
+\addcontentsline{toc}{section}{Schedule A2 --- List of Works, Inventions and Know-How Predating Employment}
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.8cm} X p{3.4cm} p{3.4cm}@{}}
+\toprule
+\textbf{No.} & \textbf{Description} & \textbf{Rightholder} & \textbf{Licence (e.g. open source)} \\
+\midrule
+1 & \field{\ldots} & \field{\ldots} & \field{\ldots} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\field{or: none}
+
+% ================================================================
+\chapter*{Template B --- Advisory Services Agreement}
+\addcontentsline{toc}{chapter}{Template B --- Advisory Services Agreement}
+\setcounter{paragraf}{0}
+
+concluded on \field{date} between \Strony{} (the \textbf{``Company''}), and \field{business name, name of the entrepreneur or name of the company, address, NIP, REGON, KRS or CEIDG} (the \textbf{``Consultant''}).
+
+\begin{ContractClause}{Subject Matter}
+\begin{enumerate}
+  \item The Consultant provides the Company with advisory services in \field{field} (the \textbf{``Services''}) on the basis of orders specifying the scope, deliverables, deadlines and fees (the \textbf{``Orders''}), in the form set out in Schedule B1. The provisions on mandate apply to this agreement (Article~750 in conjunction with Articles~734 et seq. of the Civil Code).
+  \item The Consultant provides the Services independently, as part of their business. The Consultant decides on the time, place and method of performing the Services, taking into account the Order deadlines, the security rules and meetings agreed with the Company. The Company does not give the Consultant instructions on the method of work.
+  \item The Consultant may entrust the performance of the Services to a third party only with the Company's consent in documentary form (Article~738 \S~1 of the Civil Code). The Company may refuse consent on grounds of information security, export control or customer requirements. The Consultant is liable for the third party as for its own acts and ensures that the third party concludes an agreement transferring rights with the Company.
+  \item The Consultant uses its own equipment and tools, except for the Company's systems to which it is given access under the information security policy and the devices required to process Controlled information.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Fees}
+\begin{enumerate}
+  \item The Services are remunerated as set out in the Order: an \field{hourly / daily} rate of PLN~\field{amount} net or a fixed fee for a deliverable, plus VAT as applicable.
+  \item The Consultant issues an invoice after the end of each month or Order, with a statement of the Services and the number of hours. The Company pays within \field{14} days of receiving a correctly issued invoice.
+  \item If the Consultant is a natural person who does not employ staff or engage contractors, the parties keep a record of the number of hours spent on the Services, and the fee for each hour may not be lower than the minimum hourly rate (Minimum Wage Act) \field{to be verified}.
+  \item The fees include the remuneration for the transfer of rights and the grant of the licences referred to in \S~\ref{b:ip}. Travel and other expenses are reimbursed if the Order so provides or the Company has agreed to them in advance in documentary form.
+  \item The Consultant settles its own taxes and social security contributions.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Standard of Care and Liability}
+\begin{enumerate}
+  \item The Consultant provides the Services with due care, taking into account the professional nature of its business (Article~355 \S~2 of the Civil Code), in accordance with the law and good industry practice.
+  \item The Consultant's liability to the Company is limited to the fees paid in the last 12 months, except for damage caused intentionally or through gross negligence, breaches of \S\S~\ref{b:poufnosc}--\ref{b:bezpieczenstwo}, and third-party intellectual property claims.
+  \item \field{Optional:} The Consultant maintains professional liability insurance with a sum insured of at least PLN~\field{amount}.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Copyright}
+\label{b:ip}
+\begin{enumerate}
+  \item At the same time as this agreement, the Consultant concludes with the Company an agreement transferring rights in works created for the Company in the form of Agreement No.~2 from the document ``Agreements on the Transfer of Economic Copyright --- Basilisk Systems P.S.A.'' and makes quarterly confirmations of the list of works under it. Agreement No.~2 requires written form, otherwise being null and void (Article~53 of the Copyright Act).
+  \item The Consultant's works, inventions and know-how predating the cooperation, listed in Schedule B3, remain the Consultant's property; if the Consultant incorporates them into the results of the Services, it grants the Company a free, non-exclusive, perpetual licence with the right to sublicense to the extent necessary to use the results of the Services.
+  \item The Consultant does not incorporate into the results of the Services components licensed under terms requiring disclosure of the code of the whole (e.g. GPL, AGPL) or models and data subject to restrictions on military use, without the Company's consent in documentary form.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Confidentiality}
+\label{b:poufnosc}
+\begin{enumerate}
+  \item \S\S~2--8 of the Company's non-disclosure agreement template (NDA), which constitutes Schedule B4, apply to the Company's information; the Purpose is the performance of this agreement.
+  \item For each breach of the confidentiality obligation, the Consultant will pay the Company a contractual penalty of PLN~25,000, indexed as in the NDA. Payment of the penalty does not exclude claims for damages exceeding it.
+  \item This obligation does not restrict reports and disclosures made under the Whistleblower Protection Act.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Non-Compete and Non-Solicitation}
+\label{b:konkurencja}
+\begin{enumerate}
+  \item While this agreement is in force, the Consultant does not provide services to entities competing with the Company in \field{e.g. unmanned autonomous systems for the defence and security sector} without the Company's consent in documentary form. The Consultant's other activities are permitted.
+  \item \field{Optional:} The restriction in section~1 also applies for \field{6--12} months after termination of this agreement. For that period, the Company pays the Consultant compensation of \field{25}\% of the average monthly fees for the last 12 months, in monthly instalments. The Company may release the Consultant from the restriction by a statement made no later than on the date of termination; in that case no compensation is due.
+  \item For 12 months after termination of this agreement, the Consultant does not solicit the Company's employees or contractors to end their cooperation with the Company, or the Company's customers with whom the Consultant had contact in the course of the Services to stop cooperating with the Company.
+  \item For each breach of sections~1--3, the Consultant will pay the Company a contractual penalty of PLN~\field{50,000}. Payment of the penalty does not exclude claims for damages exceeding it.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Security, Export Control and Compliance}
+\label{b:bezpieczenstwo}
+\begin{enumerate}
+  \item The Consultant complies with the information security policy to the extent it concerns Users and with the export control rules. The Consultant does not transfer the Company's technology, code, models and data outside the Republic of Poland or to persons from countries outside the European Union without the Company's prior consent.
+  \item The Consultant represents that neither it nor the entities controlling it are subject to sanctions and promptly notifies the Company of any change in this respect.
+  \item The Consultant does not offer or accept financial or personal benefits in connection with the Services, in particular from public officials and representatives of defence-sector customers, and promptly discloses any conflict of interest to the Company.
+  \item If the Consultant processes personal data on behalf of the Company, the parties conclude a data processing agreement (Article~28 GDPR).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Term and Termination}
+\begin{enumerate}
+  \item This agreement is concluded for an indefinite term.
+  \item Either party may terminate this agreement on 1 month's notice, effective at the end of a calendar month, and for important reasons --- with immediate effect (Article~746 \S\S~1--3 of the Civil Code). An important reason includes in particular a material breach of \S\S~\ref{b:poufnosc}--\ref{b:bezpieczenstwo}.
+  \item After termination, the Consultant hands over the results of the Services performed up to the date of termination, returns the materials and follows the departure procedure set out in the information security policy. The Company pays for the Services performed up to the date of termination.
+  \item \S\S~\ref{b:ip}--\ref{b:konkurencja} survive termination of this agreement.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+\begin{enumerate}
+  \item This agreement and Agreement No.~2 are concluded in written or electronic form (qualified electronic signature). Orders and their amendments require documentary form; amendments to this agreement require written or electronic form.
+  \item The Consultant may not transfer rights or obligations under this agreement without the Company's consent.
+  \item This agreement is governed by Polish law. Disputes are resolved by the common court having jurisdiction over the Company's registered office.
+  \item This agreement has been drawn up in Polish and English; in the event of discrepancies the Polish version prevails.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1em}
+\field{for the Company} \hfill \field{for the Consultant}
+
+\Needspace{12\baselineskip}
+\section*{Schedule B1 --- Form of Order}
+\addcontentsline{toc}{section}{Schedule B1 --- Form of Order}
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{4.2cm} X@{}}
+\toprule
+Order No. / date & \field{number} / \field{date} \\
+Scope of Services & \field{description} \\
+Deliverables & \field{list} \\
+Timeline & \field{from --- to / milestones} \\
+Fees & \field{rate and hour cap, or fixed fee} \\
+Access to information & \field{Confidential / Controlled --- Board consent of \ldots} \\
+Expenses & \field{none / reimbursement rules} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\field{for the Company} \hfill \field{for the Consultant}
+
+\section*{Schedule B2 --- Agreement No. 2}
+\addcontentsline{toc}{section}{Schedule B2 --- Agreement No. 2}
+Agreement transferring rights in works created for the Company in the form of Agreement No.~2 from the document ``Agreements on the Transfer of Economic Copyright --- Basilisk Systems P.S.A.'', concluded on the same day as this agreement.
+
+\section*{Schedule B3 --- Consultant's Representations and List of Prior Works}
+\addcontentsline{toc}{section}{Schedule B3 --- Consultant's Representations and List of Prior Works}
+The Consultant represents that: (1)~it is not subject to sanctions; (2)~the conclusion and performance of this agreement does not breach its obligations to third parties, in particular non-compete and confidentiality obligations; (3)~it has disclosed all potential conflicts of interest to the Company: \field{none / description}; (4)~before the cooperation it created or acquired the following works, inventions and know-how: \field{none / list}.
+
+\section*{Schedule B4 --- NDA}
+\addcontentsline{toc}{section}{Schedule B4 --- NDA}
+The Company's non-disclosure agreement template, version \field{1.0}.
+
+% ================================================================
+\chapter*{Template C --- Non-Compete Agreement}
+\addcontentsline{toc}{chapter}{Template C --- Non-Compete Agreement}
+\setcounter{paragraf}{0}
+
+concluded in Pruszków on \field{date} between \Strony{} (the \textbf{``Employer''}), and \field{first name, surname, address} (the \textbf{``Employee''}), employed under an employment contract of \field{date}.
+
+{\small This agreement requires written form, otherwise being null and void (Article~101\textsuperscript{3} KP). A post-employment restriction may be agreed only with an employee who has access to particularly important information (Article~101\textsuperscript{2} \S~1 KP).\par}
+
+\begin{ContractClause}{Competing Activity}
+\label{c:definicja}
+\begin{enumerate}
+  \item Competing activity means running a business, performing work or services, sitting on corporate bodies and holding more than 5\% of the shares in an entity that designs, manufactures, develops or sells \field{e.g. unmanned autonomous systems, autonomy, perception and command software and simulators of such systems} in \field{the European Union / the Republic of Poland} or for customers from that territory.
+  \item Scientific and teaching work and the acquisition of shares in companies listed on a regulated market are not competing activity.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Restriction during Employment}
+During the employment relationship, the Employee does not engage in competing activity (Article~101\textsuperscript{1} \S~1 KP). The Employee is liable for damage caused by a breach of the restriction on the terms of Articles~114--122 KP (Article~101\textsuperscript{1} \S~2 KP).
+\end{ContractClause}
+
+\begin{ContractClause}{Restriction after Employment}
+\label{c:po}
+\begin{enumerate}
+  \item The parties agree that the Employee has access to particularly important information whose disclosure could harm the Employer, in particular: \field{source code, models, test results, information on defence-sector customers, product plans}.
+  \item For \field{6 / 12} months after the employment relationship ends, the Employee does not engage in competing activity (Article~101\textsuperscript{2} \S~1 KP).
+  \item For the period of the restriction, the Employer pays the Employee compensation of \field{25 / 50}\% of the remuneration received by the Employee before the employment relationship ended for a period corresponding to the period of the restriction, not lower than required by Article~101\textsuperscript{2} \S~3 KP. The compensation is paid in monthly instalments by the \field{10th} day of each month.
+  \item The restriction ceases to apply before the end of the period in section~2 if the reasons justifying it cease to exist or the Employer fails to pay the compensation (Article~101\textsuperscript{2} \S~2 KP). The Employer notifies the Employee in writing that the reasons have ceased to exist, stating them; on the date of delivery of the notice the restriction and the obligation to pay compensation expire.
+  \item For each breach of the post-employment restriction, the Employee will pay the Employer a contractual penalty of \field{amount, e.g. three times the compensation for the entire restriction period} (Supreme Court, judgment of 8 January 2008, II PK 120/07). Payment of the penalty does not exclude claims for damages exceeding it, and the Employer may withhold the compensation for the period of the breach.
+  \item For 12 months after the employment relationship ends, the Employee informs the Employer of taking up new employment or business activity, stating the entity and the scope, within 14 days of taking it up.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Final Provisions}
+\begin{enumerate}
+  \item Amendments to this agreement require written form, otherwise being null and void.
+  \item Matters not regulated by this agreement are governed by the Labour Code and, as regards the contractual penalty, by Articles~483--484 of the Civil Code in conjunction with Article~300 KP.
+  \item Disputes are resolved by the labour court.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1em}
+\field{for the Employer} \hfill \field{Employee}
+
+\end{document}
