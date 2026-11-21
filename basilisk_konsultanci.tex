@@ -1,0 +1,395 @@
+% !TeX program = pdflatex
+% Umowy z konsultantami --- Basilisk Systems P.S.A.: A) umowa o pracę, B) umowa o świadczenie usług doradczych (B2B), C) umowa o zakazie konkurencji (pracownik).
+% Odesłania pobierane z psa.aux i basilisk_ip.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\externaldocument{psa}[psa.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- wzory umów}
+\BusinessPlanConfidentialText{Wzory umów --- poufne}
+\BusinessPlanFooterText{Basilisk Systems --- umowy z konsultantami (wzory)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.1}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+
+\newcounter{paragraf}
+\newcommand{\paragraf}[1]{%
+  \refstepcounter{paragraf}%
+  \Needspace{5\baselineskip}%
+  \subsection*{\S~\theparagraf\ #1}%
+}
+\newenvironment{ContractClause}[1]{\paragraf{#1}}{\par}
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\CompanyFull}{Basilisk Systems prosta spółka akcyjna}
+\newcommand{\US}[1]{§~#1 umowy spółki}
+\newcommand{\Strony}{\textbf{\CompanyFull{}} z siedzibą w Pruszkowie, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego pod numerem KRS \field{numer}, NIP \field{numer}, reprezentowana przez \field{dwóch dyrektorów albo dyrektora i prokurenta; jeżeli druga strona jest dyrektorem --- pełnomocnika z uchwały akcjonariuszy}}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- umowy z konsultantami (wzory)},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Umowy z konsultantami}
+  {Umowa o pracę, umowa o świadczenie usług doradczych i umowa o zakazie konkurencji}
+  {Wzory dla Basilisk Systems P.S.A.}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+\chapter*{Wprowadzenie}
+\addcontentsline{toc}{chapter}{Wprowadzenie}
+
+Pakiet zawiera trzy wzory:
+\begin{enumerate}
+  \item \textbf{Wzór A --- umowa o pracę} z konsultantem;
+  \item \textbf{Wzór B --- umowa o świadczenie usług doradczych} z konsultantem prowadzącym działalność gospodarczą (B2B);
+  \item \textbf{Wzór C --- umowa o zakazie konkurencji} z pracownikiem, w czasie zatrudnienia i po jego ustaniu.
+\end{enumerate}
+
+\textbf{Który wzór wybrać.} O rodzaju umowy decydują faktyczne warunki pracy, a nie nazwa umowy. Praca pod kierownictwem, w miejscu i czasie wyznaczonym przez Spółkę, jest zatrudnieniem na podstawie stosunku pracy, bez względu na nazwę umowy (art.~22 §~1--1\textsuperscript{2} KP).
+
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.4cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+ & \textbf{Wzór A --- umowa o pracę} & \textbf{Wzór B --- usługi B2B} \\
+\midrule
+Kiedy & stała praca w zespole, według poleceń, w godzinach i miejscu ustalonych przez Spółkę & samodzielne doradztwo: konsultant sam decyduje o czasie, miejscu i sposobie pracy, rozlicza się z rezultatów \\
+Prawa autorskie & z mocy prawa, w granicach celu umowy (art.~12 i 74 ust.~3 PrAut) i według §~\ref{a:ip} wzoru A & tylko na podstawie umowy przeniesienia praw (Umowa nr~2 z pakietu umów IP), w formie pisemnej \\
+Zakaz konkurencji & wyłącznie odrębna umowa w formie pisemnej (wzór~C) & w umowie (§~\ref{b:konkurencja} wzoru B) \\
+Kary umowne & niedopuszczalne w umowie o pracę; dopuszczalne w umowie o zakazie konkurencji po ustaniu zatrudnienia (SN, II PK 120/07) & dopuszczalne \\
+Wypowiedzenie & okresy z art.~36 KP & 1 miesiąc; w każdym czasie z ważnych powodów (art.~746 §~3 KC) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{Przed zawarciem umowy:}
+\begin{enumerate}
+  \item kandydat otrzymał informację o wynagrodzeniu albo jego przedziale przed rozmową kwalifikacyjną albo przed zawarciem umowy (art.~18\textsuperscript{3ca} KP --- dotyczy wzoru A);
+  \item umowa mieści się w budżecie; poza budżetem i ponad progi z \US{\ref{art:rada} ust.~7} wymaga uchwały Rady Dyrektorów; umowa z dyrektorem, akcjonariuszem albo podmiotem powiązanym --- uchwały Rady, a ponad 100\,000 zł rocznie --- także Walnego Zgromadzenia (\US{\ref{art:wz-zastrzezone} ust.~1 lit.~k});
+  \item umowę z dyrektorem podpisuje pełnomocnik powołany uchwałą akcjonariuszy (art.~300$^{79}$ §~1 KSH, \US{\ref{art:reprezentacja} ust.~3});
+  \item konsultant zapoznał się z polityką bezpieczeństwa informacji; zakres dostępu do Informacji Kontrolowanych zatwierdzono według polityki; jeżeli konsultant pochodzi z państwa spoza Unii Europejskiej --- oceniono wymogi kontroli eksportu i sprawdzono listy sankcyjne;
+  \item konsultant złożył wykaz własnych utworów, wynalazków i know-how sprzed współpracy (Załącznik A2 albo B3);
+  \item jeżeli praca obejmuje informacje niejawne --- konsultant ma poświadczenie bezpieczeństwa.
+\end{enumerate}
+
+% ================================================================
+\chapter*{Wzór A --- Umowa o pracę}
+\addcontentsline{toc}{chapter}{Wzór A --- Umowa o pracę}
+\setcounter{paragraf}{0}
+
+zawarta w Pruszkowie w dniu \field{data} pomiędzy \Strony{} (\textbf{„Pracodawca”}), a \field{imię, nazwisko, adres zamieszkania} (\textbf{„Pracownik”}).
+
+\begin{ContractClause}{Rodzaj umowy i dzień rozpoczęcia pracy}
+\begin{enumerate}
+  \item Strony zawierają umowę o pracę \field{wybrać: na okres próbny do dnia \ldots{} (nie dłużej niż 3 miesiące, art.~25 §~2 KP) / na czas określony do dnia \ldots{} / na czas nieokreślony}. \field{Przy okresie próbnym, opcjonalnie:} Umowa ulega przedłużeniu o czas urlopu i innej usprawiedliwionej nieobecności Pracownika (art.~25 §~2\textsuperscript{1} KP).
+  \item Dzień rozpoczęcia pracy: \field{data}.
+  \item Umowa na czas określony, łącznie z poprzednimi umowami na czas określony, nie może trwać dłużej niż 33 miesiące, a liczba takich umów nie może przekroczyć trzech (art.~25\textsuperscript{1} KP).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Stanowisko i rodzaj pracy}
+\begin{enumerate}
+  \item Pracownik zostaje zatrudniony na stanowisku \field{konsultant ds. \ldots{}}. Rodzaj pracy: \field{np. doradztwo techniczne w zakresie systemów autonomicznych, analizy, dokumentacja, wsparcie klientów}.
+  \item Szczegółowy zakres obowiązków, w tym obowiązki o charakterze twórczym, określa Załącznik A1. Pracodawca może go zmieniać w granicach rodzaju pracy określonego w ust.~1.
+  \item Pracownik podlega dyrektorowi wykonawczemu albo osobie przez niego wskazanej.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Miejsce pracy}
+\begin{enumerate}
+  \item Miejscem pracy jest siedziba Pracodawcy w Pruszkowie \field{opcjonalnie: oraz miejsca realizacji projektów u klientów na terytorium Rzeczypospolitej Polskiej}.
+  \item Praca może być wykonywana zdalnie na zasadach porozumienia albo regulaminu pracy zdalnej oraz okazjonalnie, na wniosek Pracownika, do 24 dni w roku kalendarzowym (art.~67\textsuperscript{18}--67\textsuperscript{34} KP). Informacji Kontrolowanych nie przetwarza się poza miejscami i urządzeniami dopuszczonymi przez politykę bezpieczeństwa informacji.
+  \item Podróże służbowe rozlicza się według przepisów o należnościach z tytułu podróży służbowej.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Czas pracy}
+\begin{enumerate}
+  \item Pracownik jest zatrudniony w pełnym wymiarze czasu pracy \field{albo: w wymiarze \ldots{} etatu}, w \field{wybrać: podstawowym systemie czasu pracy / zadaniowym systemie czasu pracy (art.~140 KP), w którym czas niezbędny do wykonania zadań ustala się po porozumieniu z Pracownikiem, z uwzględnieniem norm czasu pracy}.
+  \item Pracę w godzinach nadliczbowych wykonuje się wyłącznie na polecenie Pracodawcy; za pracę w godzinach nadliczbowych przysługuje wynagrodzenie z dodatkiem albo czas wolny (art.~151\textsuperscript{1}--151\textsuperscript{2} KP).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wynagrodzenie}
+\begin{enumerate}
+  \item Pracownikowi przysługuje wynagrodzenie zasadnicze w wysokości \field{kwota} zł brutto miesięcznie, płatne z dołu do \field{10.} dnia następnego miesiąca na rachunek wskazany przez Pracownika.
+  \item Pracownik może otrzymać premię uznaniową według zasad ustalonych przez Radę Dyrektorów. Premia uznaniowa nie jest składnikiem wynagrodzenia gwarantowanym umową.
+  \item \field{Opcjonalnie:} \field{\ldots}\% wynagrodzenia zasadniczego stanowi wynagrodzenie za przeniesienie praw autorskich do utworów stworzonych w ramach obowiązków twórczych, ewidencjonowanych zgodnie z §~\ref{a:ip} ust.~5 \field{do weryfikacji przez doradcę podatkowego: koszty uzyskania przychodu, art.~22 ust.~9 pkt~3 i ust.~9b ustawy o PIT}.
+  \item Pracownik może zostać uczestnikiem programu motywacyjnego Spółki na zasadach regulaminu programu; uczestnictwo nie jest składnikiem wynagrodzenia za pracę.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Prawa autorskie i wynalazki}
+\label{a:ip}
+\begin{enumerate}
+  \item Autorskie prawa majątkowe do programów komputerowych stworzonych przez Pracownika w wyniku wykonywania obowiązków ze stosunku pracy przysługują Pracodawcy (art.~74 ust.~3 PrAut).
+  \item Autorskie prawa majątkowe do innych utworów stworzonych przez Pracownika w wyniku wykonywania obowiązków ze stosunku pracy, w szczególności dokumentacji, modeli, danych, rysunków, opracowań i raportów, Pracodawca nabywa z chwilą przyjęcia utworu (art.~12 ust.~1 PrAut), na wszystkich polach eksploatacji znanych w chwili zawarcia umowy, w szczególności: utrwalania i zwielokrotniania dowolną techniką, wprowadzania do obrotu, najmu, użyczenia, wprowadzania do pamięci komputera i sieci, publicznego udostępniania, tłumaczenia, przystosowania, zmiany układu i innych zmian, a także trenowania modeli i wykorzystania w systemach sztucznej inteligencji. Utwór uważa się za przyjęty, jeżeli Pracodawca nie zgłosi zastrzeżeń w terminie 14 dni od jego przekazania, w tym przez zapis w repozytorium Pracodawcy.
+  \item Pracodawca może wykonywać prawo zależne i zezwalać na wykonywanie zależnych praw autorskich do utworów, o których mowa w ust.~1--2. Pracownik zobowiązuje się nie wykonywać wobec Pracodawcy i jego następców prawnych autorskich praw osobistych w sposób utrudniający korzystanie z utworów, w szczególności prawa do oznaczania autorstwa i nadzoru autorskiego, i upoważnia Pracodawcę do ich wykonywania w swoim imieniu.
+  \item Prawo do uzyskania patentu na wynalazek albo prawa ochronnego na wzór użytkowy, dokonany przez Pracownika w wyniku wykonywania obowiązków ze stosunku pracy, przysługuje Pracodawcy (art.~11 ust.~3 PWP). Pracownikowi przysługuje wynagrodzenie na zasadach art.~22 PWP, w wysokości ustalonej w regulaminie albo w odrębnej umowie.
+  \item Pracownik przechowuje wyniki pracy wyłącznie w systemach Pracodawcy i raz na kwartał potwierdza w formie dokumentowej wykaz utworów stworzonych w tym okresie.
+  \item Umowa nie obejmuje utworów, wynalazków i know-how wymienionych w Załączniku A2, stworzonych przed jej zawarciem. Pracownik nie wprowadza ich do wyników pracy bez zgody Pracodawcy w formie dokumentowej; jeżeli je wprowadzi, udziela Pracodawcy nieodpłatnej, niewyłącznej, bezterminowej licencji z prawem do sublicencji w zakresie niezbędnym do korzystania z wyników pracy.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Poufność}
+\begin{enumerate}
+  \item Pracownik zachowuje w tajemnicy informacje, których ujawnienie mogłoby narazić Pracodawcę na szkodę (art.~100 §~2 pkt~4 KP), w szczególności tajemnice przedsiębiorstwa w rozumieniu art.~11 ust.~2 ustawy o zwalczaniu nieuczciwej konkurencji, i przestrzega polityki bezpieczeństwa informacji.
+  \item Obowiązek trwa także po ustaniu stosunku pracy, dopóki informacje zachowują charakter tajemnicy przedsiębiorstwa.
+  \item Obowiązek nie obejmuje informacji o wynagrodzeniu Pracownika ani zgłoszeń i ujawnień dokonywanych na podstawie ustawy o ochronie sygnalistów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Inne zatrudnienie i zakaz konkurencji}
+\begin{enumerate}
+  \item Pracodawca nie zakazuje Pracownikowi jednoczesnego zatrudnienia u innego pracodawcy ani innej współpracy (art.~26\textsuperscript{1} §~1 KP). Pracownik informuje Pracodawcę o takiej współpracy, jeżeli może ona prowadzić do konfliktu interesów albo naruszenia poufności.
+  \item Zakaz konkurencji w czasie trwania stosunku pracy i po jego ustaniu może wynikać wyłącznie z odrębnej umowy zawartej w formie pisemnej (art.~101\textsuperscript{1}--101\textsuperscript{3} KP; wzór~C).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Bezpieczeństwo, kontrola eksportu i monitoring}
+\begin{enumerate}
+  \item Pracownik ma dostęp do informacji i systemów Pracodawcy w zakresie wynikającym z rejestru dostępów prowadzonego według polityki bezpieczeństwa informacji. Informacje Kontrolowane udostępnia się Pracownikowi wyłącznie, jeżeli został wpisany na listę zatwierdzoną przez Radę Dyrektorów.
+  \item Pracownik nie przekazuje technologii, kodu, modeli i danych Pracodawcy poza terytorium Rzeczypospolitej Polskiej ani osobom z państw spoza Unii Europejskiej bez uprzedniej zgody Pracodawcy.
+  \item Pracodawca rejestruje dostęp do kont, repozytoriów i systemów Pracodawcy na zasadach określonych w polityce bezpieczeństwa informacji i regulaminie pracy (art.~22\textsuperscript{3} KP). Przed dopuszczeniem do pracy Pracownik otrzymuje na piśmie informację o celu, zakresie i sposobie monitoringu.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Ustanie stosunku pracy}
+\begin{enumerate}
+  \item Umowa ulega rozwiązaniu na zasadach Kodeksu pracy. Okres wypowiedzenia wynika z art.~34 albo 36 KP.
+  \item Przy ustaniu stosunku pracy Pracownik zwraca mienie Pracodawcy, wydaje wyniki pracy i stosuje procedurę przy odejściu określoną w polityce bezpieczeństwa informacji.
+  \item Pracodawca może zwolnić Pracownika z obowiązku świadczenia pracy w okresie wypowiedzenia, z zachowaniem prawa do wynagrodzenia (art.~36\textsuperscript{2} KP).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\begin{enumerate}
+  \item W sprawach nieuregulowanych stosuje się Kodeks pracy, regulamin pracy i regulamin wynagradzania, jeżeli obowiązują u Pracodawcy.
+  \item Informację o warunkach zatrudnienia, o której mowa w art.~29 §~3 KP, Pracodawca przekazuje w terminach określonych w tym przepisie.
+  \item Zmiany umowy wymagają formy pisemnej. Umowę sporządzono w dwóch egzemplarzach, po jednym dla każdej strony, albo w postaci elektronicznej opatrzonej kwalifikowanymi podpisami elektronicznymi.
+  \item Pracodawca przetwarza dane osobowe Pracownika w celu zawarcia i wykonania umowy oraz wykonania obowiązków prawnych (art.~6 ust.~1 lit.~b i~c RODO, art.~22\textsuperscript{1} KP).
+  \item Spory rozstrzyga sąd pracy właściwy według przepisów Kodeksu postępowania cywilnego.
+  \item Umowę sporządzono w języku polskim; wersja w innym języku ma charakter pomocniczy.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1em}
+\field{za Pracodawcę} \hfill \field{Pracownik}
+
+\Needspace{10\baselineskip}
+\section*{Załącznik A1 --- Zakres obowiązków}
+\addcontentsline{toc}{section}{Załącznik A1 --- Zakres obowiązków}
+\begin{enumerate}
+  \item \field{obowiązek, np. przygotowywanie analiz technicznych i rekomendacji dla klientów};
+  \item \field{obowiązek, np. tworzenie dokumentacji, skryptów i programów pomocniczych} --- \textbf{obowiązek twórczy};
+  \item \field{obowiązek, np. udział w testach i demonstracjach};
+  \item przestrzeganie polityki bezpieczeństwa informacji i zasad kontroli eksportu.
+\end{enumerate}
+
+\section*{Załącznik A2 --- Wykaz utworów, wynalazków i know-how sprzed zatrudnienia}
+\addcontentsline{toc}{section}{Załącznik A2 --- Wykaz utworów, wynalazków i know-how sprzed zatrudnienia}
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{0.8cm} X p{3.4cm} p{3.4cm}@{}}
+\toprule
+\textbf{Lp.} & \textbf{Opis} & \textbf{Uprawniony} & \textbf{Licencja (np. open source)} \\
+\midrule
+1 & \field{\ldots} & \field{\ldots} & \field{\ldots} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\field{albo: brak}
+
+% ================================================================
+\chapter*{Wzór B --- Umowa o świadczenie usług doradczych}
+\addcontentsline{toc}{chapter}{Wzór B --- Umowa o świadczenie usług doradczych}
+\setcounter{paragraf}{0}
+
+zawarta w dniu \field{data} pomiędzy \Strony{} (\textbf{„Spółka”}), a \field{firma, imię i nazwisko przedsiębiorcy albo nazwa spółki, adres, NIP, REGON, KRS albo CEIDG} (\textbf{„Konsultant”}).
+
+\begin{ContractClause}{Przedmiot umowy}
+\begin{enumerate}
+  \item Konsultant świadczy na rzecz Spółki usługi doradcze w zakresie \field{dziedzina} (\textbf{„Usługi”}) na podstawie zleceń określających zakres, rezultaty, terminy i wynagrodzenie (\textbf{„Zlecenia”}), według wzoru z Załącznika B1. Do umowy stosuje się przepisy o zleceniu (art.~750 w zw. z art.~734 i nast. KC).
+  \item Konsultant świadczy Usługi samodzielnie, w ramach prowadzonej działalności gospodarczej. Sam decyduje o czasie, miejscu i sposobie wykonywania Usług, z uwzględnieniem terminów Zleceń, zasad bezpieczeństwa i spotkań uzgodnionych ze Spółką. Spółka nie wydaje Konsultantowi poleceń co do sposobu pracy.
+  \item Konsultant może powierzyć wykonanie Usług osobie trzeciej wyłącznie za zgodą Spółki w formie dokumentowej (art.~738 §~1 KC). Spółka może odmówić zgody ze względu na bezpieczeństwo informacji, kontrolę eksportu albo wymogi klienta. Za osobę trzecią Konsultant odpowiada jak za własne działania i zapewnia, że zawrze ona ze Spółką umowę przeniesienia praw.
+  \item Konsultant korzysta z własnego sprzętu i narzędzi, z wyjątkiem systemów Spółki, do których otrzymuje dostęp zgodnie z polityką bezpieczeństwa informacji, oraz urządzeń wymaganych do przetwarzania Informacji Kontrolowanych.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Wynagrodzenie}
+\begin{enumerate}
+  \item Za Usługi przysługuje wynagrodzenie określone w Zleceniu: stawka \field{godzinowa / dzienna} \field{kwota} zł netto albo ryczałt za rezultat, powiększone o należny podatek VAT.
+  \item Konsultant wystawia fakturę po zakończeniu miesiąca albo Zlecenia, z zestawieniem Usług i liczby godzin. Spółka płaci w terminie \field{14} dni od otrzymania prawidłowo wystawionej faktury.
+  \item Jeżeli Konsultant jest osobą fizyczną niezatrudniającą pracowników ani niezawierającą umów ze zleceniobiorcami, strony prowadzą ewidencję liczby godzin wykonania Usług, a wynagrodzenie za każdą godzinę nie może być niższe od minimalnej stawki godzinowej (ustawa o minimalnym wynagrodzeniu za pracę) \field{do weryfikacji}.
+  \item Wynagrodzenie obejmuje wynagrodzenie za przeniesienie praw i udzielenie licencji, o których mowa w §~\ref{b:ip}. Koszty podróży i inne wydatki zwraca się, jeżeli przewiduje to Zlecenie albo Spółka uprzednio na nie zgodziła się w formie dokumentowej.
+  \item Konsultant samodzielnie rozlicza podatki i składki na ubezpieczenia społeczne.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Staranność i odpowiedzialność}
+\begin{enumerate}
+  \item Konsultant świadczy Usługi z należytą starannością, uwzględniając zawodowy charakter działalności (art.~355 §~2 KC), zgodnie z prawem i dobrymi praktykami branżowymi.
+  \item Odpowiedzialność Konsultanta wobec Spółki ogranicza się do kwoty wynagrodzenia zapłaconego w ostatnich 12 miesiącach, z wyjątkiem szkody wyrządzonej umyślnie lub wskutek rażącego niedbalstwa, naruszenia §~\ref{b:poufnosc}--\ref{b:bezpieczenstwo} oraz roszczeń osób trzecich dotyczących praw własności intelektualnej.
+  \item \field{Opcjonalnie:} Konsultant utrzymuje ubezpieczenie odpowiedzialności cywilnej zawodowej z sumą gwarancyjną nie niższą niż \field{kwota} zł.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Prawa autorskie}
+\label{b:ip}
+\begin{enumerate}
+  \item Równocześnie z umową Konsultant zawiera ze Spółką umowę przeniesienia praw do utworów tworzonych dla Spółki według wzoru Umowy nr~2 z dokumentu „Umowy przeniesienia autorskich praw majątkowych --- Basilisk Systems P.S.A.” i składa w niej kwartalne potwierdzenia wykazu utworów. Umowa nr~2 wymaga formy pisemnej pod rygorem nieważności (art.~53 PrAut).
+  \item Utwory, wynalazki i know-how Konsultanta sprzed współpracy, wymienione w Załączniku B3, pozostają jego własnością; jeżeli Konsultant wprowadzi je do wyników Usług, udziela Spółce nieodpłatnej, niewyłącznej, bezterminowej licencji z prawem do sublicencji w zakresie niezbędnym do korzystania z wyników Usług.
+  \item Konsultant nie wprowadza do wyników Usług komponentów na licencjach wymagających udostępnienia kodu całości (np. GPL, AGPL) ani modeli i danych objętych ograniczeniami zastosowań wojskowych, bez zgody Spółki w formie dokumentowej.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Poufność}
+\label{b:poufnosc}
+\begin{enumerate}
+  \item Do informacji Spółki stosuje się §§~2--8 wzoru umowy o zachowaniu poufności Spółki (NDA), który stanowi Załącznik B4; Celem jest wykonanie umowy.
+  \item Za każde naruszenie obowiązku poufności Konsultant zapłaci Spółce karę umowną w wysokości 25\,000 zł, podlegającą waloryzacji jak w NDA. Zapłata kary nie wyłącza dochodzenia odszkodowania przenoszącego jej wysokość.
+  \item Obowiązek nie ogranicza zgłoszeń i ujawnień dokonywanych na podstawie ustawy o ochronie sygnalistów.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zakaz konkurencji i zakaz nakłaniania}
+\label{b:konkurencja}
+\begin{enumerate}
+  \item W okresie obowiązywania umowy Konsultant nie świadczy usług na rzecz podmiotów prowadzących działalność konkurencyjną wobec Spółki w zakresie \field{np. bezzałogowych systemów autonomicznych dla sektora obronnego i bezpieczeństwa}, bez zgody Spółki w formie dokumentowej. Inna działalność Konsultanta jest dozwolona.
+  \item \field{Opcjonalnie:} Zakaz z ust.~1 obowiązuje także przez \field{6--12} miesięcy po rozwiązaniu umowy. Za ten okres Spółka płaci Konsultantowi odszkodowanie w wysokości \field{25}\% średniego miesięcznego wynagrodzenia z ostatnich 12 miesięcy, w miesięcznych ratach. Spółka może zwolnić Konsultanta z zakazu przez oświadczenie złożone najpóźniej w dniu rozwiązania umowy; wówczas odszkodowanie nie przysługuje.
+  \item Przez 12 miesięcy po rozwiązaniu umowy Konsultant nie nakłania pracowników ani współpracowników Spółki do zakończenia współpracy ze Spółką ani klientów Spółki, z którymi miał kontakt w ramach Usług, do rezygnacji ze współpracy ze Spółką.
+  \item Za każde naruszenie ust.~1--3 Konsultant zapłaci Spółce karę umowną w wysokości \field{50\,000} zł. Zapłata kary nie wyłącza dochodzenia odszkodowania przenoszącego jej wysokość.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Bezpieczeństwo, kontrola eksportu i zgodność}
+\label{b:bezpieczenstwo}
+\begin{enumerate}
+  \item Konsultant przestrzega polityki bezpieczeństwa informacji w zakresie, w jakim dotyczy Użytkowników, oraz zasad kontroli eksportu. Nie przekazuje technologii, kodu, modeli i danych Spółki poza terytorium Rzeczypospolitej Polskiej ani osobom z państw spoza Unii Europejskiej bez uprzedniej zgody Spółki.
+  \item Konsultant oświadcza, że ani on, ani podmioty go kontrolujące nie są objęte sankcjami, i niezwłocznie zawiadamia Spółkę o każdej zmianie w tym zakresie.
+  \item Konsultant nie oferuje i nie przyjmuje korzyści majątkowych ani osobistych w związku z Usługami, w szczególności od funkcjonariuszy publicznych i przedstawicieli klientów z sektora obronnego, oraz niezwłocznie ujawnia Spółce konflikt interesów.
+  \item Jeżeli Konsultant przetwarza dane osobowe w imieniu Spółki, strony zawierają umowę powierzenia przetwarzania (art.~28 RODO).
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Okres obowiązywania i rozwiązanie}
+\begin{enumerate}
+  \item Umowa zostaje zawarta na czas nieokreślony.
+  \item Każda strona może wypowiedzieć umowę z zachowaniem 1-miesięcznego okresu wypowiedzenia, ze skutkiem na koniec miesiąca kalendarzowego, a z ważnych powodów --- ze skutkiem natychmiastowym (art.~746 §~1--3 KC). Ważnym powodem jest w szczególności istotne naruszenie §~\ref{b:poufnosc}--\ref{b:bezpieczenstwo}.
+  \item Po rozwiązaniu umowy Konsultant wydaje wyniki Usług wykonanych do dnia rozwiązania, zwraca materiały i stosuje procedurę przy odejściu określoną w polityce bezpieczeństwa informacji. Spółka płaci wynagrodzenie za Usługi wykonane do dnia rozwiązania.
+  \item Postanowienia §~\ref{b:ip}--\ref{b:konkurencja} pozostają w mocy po rozwiązaniu umowy.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\begin{enumerate}
+  \item Umowę i Umowę nr~2 zawiera się w formie pisemnej albo elektronicznej (kwalifikowany podpis elektroniczny). Zlecenia i ich zmiany wymagają formy dokumentowej; zmiany umowy --- formy pisemnej albo elektronicznej.
+  \item Konsultant nie może przenieść praw ani obowiązków z umowy bez zgody Spółki.
+  \item Umowa podlega prawu polskiemu. Spory rozstrzyga sąd powszechny właściwy dla siedziby Spółki.
+  \item Umowę sporządzono w języku polskim i angielskim; w razie rozbieżności rozstrzyga wersja polska.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1em}
+\field{za Spółkę} \hfill \field{za Konsultanta}
+
+\Needspace{12\baselineskip}
+\section*{Załącznik B1 --- Wzór Zlecenia}
+\addcontentsline{toc}{section}{Załącznik B1 --- Wzór Zlecenia}
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}p{4.2cm} X@{}}
+\toprule
+Zlecenie nr / data & \field{numer} / \field{data} \\
+Zakres Usług & \field{opis} \\
+Rezultaty (deliverables) & \field{wykaz} \\
+Termin & \field{od --- do / kamienie milowe} \\
+Wynagrodzenie & \field{stawka i limit godzin albo ryczałt} \\
+Dostęp do informacji & \field{Poufne / Kontrolowane --- zgoda Rady Dyrektorów z dnia \ldots} \\
+Koszty & \field{brak / zasady zwrotu} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\field{za Spółkę} \hfill \field{za Konsultanta}
+
+\section*{Załącznik B2 --- Umowa nr 2}
+\addcontentsline{toc}{section}{Załącznik B2 --- Umowa nr 2}
+Umowa przeniesienia praw do utworów tworzonych dla Spółki według wzoru Umowy nr~2 z dokumentu „Umowy przeniesienia autorskich praw majątkowych --- Basilisk Systems P.S.A.”, zawierana w tym samym dniu co umowa.
+
+\section*{Załącznik B3 --- Oświadczenia Konsultanta i wykaz utworów sprzed współpracy}
+\addcontentsline{toc}{section}{Załącznik B3 --- Oświadczenia Konsultanta i wykaz utworów sprzed współpracy}
+Konsultant oświadcza, że: (1)~nie jest objęty sankcjami; (2)~zawarcie i wykonanie umowy nie narusza jego zobowiązań wobec osób trzecich, w szczególności zakazów konkurencji i obowiązków poufności; (3)~ujawnił Spółce wszystkie potencjalne konflikty interesów: \field{brak / opis}; (4)~przed współpracą stworzył albo nabył następujące utwory, wynalazki i know-how: \field{brak / wykaz}.
+
+\section*{Załącznik B4 --- NDA}
+\addcontentsline{toc}{section}{Załącznik B4 --- NDA}
+Wzór umowy o zachowaniu poufności Spółki w wersji \field{1.0}.
+
+% ================================================================
+\chapter*{Wzór C --- Umowa o zakazie konkurencji}
+\addcontentsline{toc}{chapter}{Wzór C --- Umowa o zakazie konkurencji}
+\setcounter{paragraf}{0}
+
+zawarta w Pruszkowie w dniu \field{data} pomiędzy \Strony{} (\textbf{„Pracodawca”}), a \field{imię, nazwisko, adres zamieszkania} (\textbf{„Pracownik”}), zatrudnionym na podstawie umowy o pracę z dnia \field{data}.
+
+{\small Umowa wymaga formy pisemnej pod rygorem nieważności (art.~101\textsuperscript{3} KP). Zakaz po ustaniu zatrudnienia można zawrzeć wyłącznie z pracownikiem mającym dostęp do szczególnie ważnych informacji (art.~101\textsuperscript{2} §~1 KP).\par}
+
+\begin{ContractClause}{Działalność konkurencyjna}
+\label{c:definicja}
+\begin{enumerate}
+  \item Działalnością konkurencyjną jest prowadzenie działalności gospodarczej, świadczenie pracy albo usług, uczestnictwo w organach oraz posiadanie więcej niż 5\% akcji albo udziałów w podmiocie, który projektuje, produkuje, rozwija albo sprzedaje \field{np. bezzałogowe systemy autonomiczne, oprogramowanie autonomii, percepcji i dowodzenia oraz symulatory takich systemów} na terytorium \field{Unii Europejskiej / Rzeczypospolitej Polskiej} albo na rzecz klientów z tego terytorium.
+  \item Działalnością konkurencyjną nie jest praca naukowa i dydaktyczna ani nabywanie akcji spółek notowanych na rynku regulowanym.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Zakaz w czasie zatrudnienia}
+W czasie trwania stosunku pracy Pracownik nie prowadzi działalności konkurencyjnej (art.~101\textsuperscript{1} §~1 KP). Za szkodę wyrządzoną naruszeniem zakazu Pracownik odpowiada na zasadach art.~114--122 KP (art.~101\textsuperscript{1} §~2 KP).
+\end{ContractClause}
+
+\begin{ContractClause}{Zakaz po ustaniu zatrudnienia}
+\label{c:po}
+\begin{enumerate}
+  \item Strony zgodnie stwierdzają, że Pracownik ma dostęp do szczególnie ważnych informacji, których ujawnienie mogłoby narazić Pracodawcę na szkodę, w szczególności: \field{kod źródłowy, modele, wyniki testów, informacje o klientach z sektora obronnego, plany produktowe}.
+  \item Przez \field{6 / 12} miesięcy od ustania stosunku pracy Pracownik nie prowadzi działalności konkurencyjnej (art.~101\textsuperscript{2} §~1 KP).
+  \item Za okres zakazu Pracodawca płaci Pracownikowi odszkodowanie w wysokości \field{25 / 50}\% wynagrodzenia otrzymanego przez Pracownika przed ustaniem stosunku pracy przez okres odpowiadający okresowi obowiązywania zakazu, nie niższe niż wymagane przez art.~101\textsuperscript{2} §~3 KP. Odszkodowanie jest płatne w miesięcznych ratach do \field{10.} dnia każdego miesiąca.
+  \item Zakaz przestaje obowiązywać przed upływem okresu z ust.~2, jeżeli ustaną przyczyny uzasadniające zakaz albo Pracodawca nie wywiązuje się z obowiązku wypłaty odszkodowania (art.~101\textsuperscript{2} §~2 KP). O ustaniu przyczyn Pracodawca zawiadamia Pracownika na piśmie, wskazując przyczyny; z dniem doręczenia zawiadomienia zakaz i obowiązek wypłaty odszkodowania wygasają.
+  \item Za każde naruszenie zakazu po ustaniu stosunku pracy Pracownik zapłaci Pracodawcy karę umowną w wysokości \field{kwota, np. trzykrotność odszkodowania za cały okres zakazu} (SN, wyrok z 8 stycznia 2008 r., II PK 120/07). Zapłata kary nie wyłącza dochodzenia odszkodowania przenoszącego jej wysokość, a Pracodawca może wstrzymać wypłatę odszkodowania za okres naruszenia.
+  \item Przez 12 miesięcy od ustania stosunku pracy Pracownik informuje Pracodawcę o podjęciu nowego zatrudnienia albo działalności, wskazując podmiot i zakres, w terminie 14 dni od ich podjęcia.
+\end{enumerate}
+\end{ContractClause}
+
+\begin{ContractClause}{Postanowienia końcowe}
+\begin{enumerate}
+  \item Zmiany umowy wymagają formy pisemnej pod rygorem nieważności.
+  \item W sprawach nieuregulowanych stosuje się Kodeks pracy, a w zakresie kary umownej --- art.~483--484 KC w zw. z art.~300 KP.
+  \item Spory rozstrzyga sąd pracy.
+\end{enumerate}
+\end{ContractClause}
+
+\vspace{1em}
+\field{za Pracodawcę} \hfill \field{Pracownik}
+
+\end{document}
