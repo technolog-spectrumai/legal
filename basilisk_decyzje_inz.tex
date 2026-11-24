@@ -105,17 +105,17 @@ Materiały źródłowe: umowa spółki \Zr{us}, umowa akcjonariuszy \Zr{ua}, umo
 Kolory na diagramach: \textcolor{cWZ}{\textbf{niebieski}} --- akcjonariusze i Walne Zgromadzenie; \textcolor{cRD}{\textbf{zielony}} --- Rada Dyrektorów; \textcolor{cDW}{\textbf{złoty}} --- dyrektor wykonawczy; \textcolor{cX}{\textbf{czerwony}} --- sytuacje szczególne (spór, sąd, konflikt interesów).
 
 \begin{OCoChodzi}
-To wydanie zawiera pełną treść podręcznika i dodatkowo pomarańczowe ramki takie jak ta. Ramki tłumaczą zasady prawne językiem inżynierskim; nie zmieniają ich treści i nie są poradą prawną.
+Niniejsze wydanie zawiera pełną treść podręcznika, uzupełnioną o objaśnienia w ramkach „O co chodzi?”. Objaśnienia przedstawiają mechanizmy prawne w kategoriach znanych z inżynierii systemów; nie zmieniają treści umów i nie stanowią porady prawnej.
 
-\textbf{Słowniczek:}
+\textbf{Podstawowe pojęcia:}
 \begin{itemize}
-  \item \textbf{US} (umowa spółki) --- „specyfikacja systemu”: definiuje organy, uprawnienia i progi; jest jedynym źródłem prawdy. Zmiana wymaga notariusza i wpisu do KRS.
-  \item \textbf{UA} (umowa akcjonariuszy) --- umowa między Założycielami: wiąże tylko jej strony, a nie Spółkę wobec świata.
-  \item \textbf{Uchwała} --- zapisana decyzja organu; bez niej czynność wymagająca zgody jest „niezatwierdzonym zapisem”.
-  \item \textbf{Forma dokumentowa} --- e-mail, PDF, wiadomość, z której wynika, kto ją wysłał. \textbf{Forma pisemna} --- podpis odręczny albo kwalifikowany podpis elektroniczny (nie zwykły podpis w PDF ani DocuSign bez certyfikatu kwalifikowanego).
-  \item \textbf{KRS} --- publiczny rejestr spółek; wpis jest jak wdrożenie na produkcję: wiele zmian działa dopiero po nim.
+  \item \textbf{Umowa spółki (US)} --- dokument nadrzędny, który definiuje organy, ich kompetencje i progi decyzyjne. W razie rozbieżności rozstrzyga jej treść. Zmiana wymaga uchwały z protokołem notarialnym i wpisu do KRS.
+  \item \textbf{Umowa akcjonariuszy (UA)} --- umowa między Założycielami; wiąże wyłącznie jej strony.
+  \item \textbf{Uchwała} --- formalnie udokumentowana decyzja organu. Czynność wymagająca uchwały, dokonana bez niej, jest wadliwa.
+  \item \textbf{Forma dokumentowa} --- dowolny dokument (np. e-mail, PDF), który pozwala ustalić osobę składającą oświadczenie. \textbf{Forma pisemna} --- podpis własnoręczny albo kwalifikowany podpis elektroniczny; zwykły podpis elektroniczny jej nie spełnia.
+  \item \textbf{KRS} --- publiczny rejestr przedsiębiorców; część zmian, w szczególności zmiana umowy spółki, wywołuje skutek dopiero z chwilą wpisu.
 \end{itemize}
-Limity wewnętrzne (budżet, progi) działają jak walidacja po stronie klienta: przekroczenie nie blokuje umowy z kontrahentem (umowa jest ważna), ale dyrektor, który je ominął, odpowiada wobec Spółki --- jak przy merge'u z pominięciem review.
+Limity wewnętrzne (budżet, progi kwotowe) mają charakter kontroli organizacyjnej, a nie technicznej blokady: umowa zawarta z ich przekroczeniem jest ważna wobec kontrahenta, a odpowiedzialność ponosi dyrektor, który je naruszył.
 \end{OCoChodzi}
 
 % ================================================================
@@ -151,15 +151,14 @@ Spółka działa w systemie monistycznym: ma tylko Walne Zgromadzenie i Radę Dy
 
 % ================================================================
 \begin{OCoChodzi}
-Pomyśl o Spółce jak o organizacji na GitHubie:
+Struktura organów odpowiada modelowi kontroli dostępu opartej na rolach:
 \begin{itemize}
-  \item \textbf{akcjonariusze / WZ} --- właściciele organizacji: decydują, kto jest maintainerem, i zatwierdzają zmiany fundamentalne;
-  \item \textbf{Rada Dyrektorów} --- maintainerzy: prowadzą projekt i pilnują jakości;
-  \item \textbf{dyrektor wykonawczy} --- tech lead z delegowanymi uprawnieniami (RBAC): robi bieżącą robotę w granicach budżetu i regulaminu Rady;
-  \item \textbf{dyrektor niewykonawczy} --- niezależny reviewer: nadzoruje i reprezentuje Spółkę w sprawach z dyrektorem wykonawczym;
-  \item \textbf{reprezentacja dwóch dyrektorów} --- zasada czterech oczu: jak dwa wymagane approvale przed merge'em do \texttt{main}. Jeden dyrektor sam nie podpisze umowy w imieniu Spółki.
+  \item \textbf{Walne Zgromadzenie} --- poziom właścicielski: powołuje i odwołuje dyrektorów oraz zatwierdza decyzje o charakterze fundamentalnym;
+  \item \textbf{Rada Dyrektorów} --- organ zarządzający i nadzorczy jednocześnie: prowadzi sprawy Spółki i kontroluje ich wykonanie;
+  \item \textbf{dyrektor wykonawczy} --- rola z uprawnieniami delegowanymi przez Radę, ograniczonymi budżetem i regulaminem Rady;
+  \item \textbf{dyrektor niewykonawczy} --- niezależna funkcja kontrolna; reprezentuje Spółkę w sprawach z dyrektorem wykonawczym.
 \end{itemize}
-Prokurent to „token” z szerokimi uprawnieniami do reprezentacji, wydawany za zgodą wszystkich dyrektorów i odwoływalny przez każdego z nich.
+Reprezentacja łączna (dwóch dyrektorów albo dyrektor z prokurentem) realizuje zasadę czterech oczu: żadna pojedyncza osoba nie zaciąga zobowiązań w imieniu Spółki. Prokura jest szerokim, odwołalnym umocowaniem, udzielanym za zgodą wszystkich dyrektorów.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -233,13 +232,13 @@ k) & umowa z akcjonariuszem mającym co najmniej 5\% akcji, dyrektorem, osobą i
 
 % ================================================================
 \begin{OCoChodzi}
-\textbf{Kworum i progi to arytmetyka, nie wrażenie.}
+\textbf{Sposób liczenia głosów.}
 \begin{itemize}
-  \item „75\% wszystkich głosów” liczy się od całej puli akcji (\emph{total supply}), nie od obecnych. Nieobecny akcjonariusz działa jak głos „przeciw” --- podobnie jak w protokole konsensusu brak odpowiedzi węzła nie jest potwierdzeniem.
-  \item Przy podziale 50/20/10/10/10: Założyciel~A ma \emph{weto} (bez jego 50\% maksymalnie da się zebrać 50\%), ale sam nic nie przeforsuje. A+B = 70\% $<$ 75\%, więc potrzebny jest trzeci Założyciel.
-  \item „Bezwzględna większość oddanych”: $\text{za} > \text{przeciw} + \text{wstrzymujące się}$.
+  \item Próg „75\% wszystkich głosów” odnosi się do wszystkich akcji w Spółce, a nie do akcji reprezentowanych przy głosowaniu. Brak głosu ma więc w praktyce taki sam skutek jak głos przeciw.
+  \item Przy podziale 50/20/10/10/10 Założyciel~A może zablokować każdą uchwałę 75\% (bez niego można zebrać najwyżej 50\%), ale nie przeprowadzi jej sam. Założyciele A i~B łącznie mają 70\%, więc potrzebny jest jeszcze trzeci Założyciel.
+  \item Bezwzględna większość głosów oddanych oznacza, że głosów „za” jest więcej niż łącznie głosów „przeciw” i „wstrzymujących się”.
 \end{itemize}
-\textbf{Dwa rodzaje wymogów.} Uchwała wymagana \emph{ustawą} to twarde ograniczenie bazy danych: transakcja bez niej jest odrzucona (czynność nieważna). Zgoda wymagana \emph{tylko umową spółki} to reguła lintera: kod przechodzi (umowa ważna), ale ten, kto zignorował ostrzeżenie, odpowiada za skutki.
+\textbf{Skutki braku zgody zależą od jej źródła.} Brak uchwały wymaganej ustawą powoduje nieważność czynności. Brak zgody wymaganej wyłącznie umową spółki nie wpływa na ważność czynności wobec kontrahenta, ale rodzi odpowiedzialność dyrektora wobec Spółki.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -278,15 +277,15 @@ Niezależnie od kwoty: transakcja z akcjonariuszem, dyrektorem albo podmiotem po
 
 % ================================================================
 \begin{OCoChodzi}
-Progi działają jak limity uprawnień (quota) przypisane do roli. Przykłady:
+Progi kwotowe przypisują kompetencję do organu według wartości czynności. Przykłady:
 \begin{itemize}
-  \item serwer GPU za 180\,000 zł ujęty w budżecie $\to$ dyrektor wykonawczy;
-  \item ten sam serwer poza budżetem za 300\,000 zł $\to$ uchwała Rady (próg 250\,000 zł);
-  \item leasing sprzętu za 150\,000 zł $\to$ to finansowanie, więc uchwała Rady (próg 100\,000 zł);
-  \item licencja na symulator za 600\,000 zł poza budżetem $\to$ WZ 75\%;
-  \item umowa z firmą, w której dyrektor ma udziały --- zawsze Rada, a ponad 100\,000 zł rocznie także WZ.
+  \item zakup serwera obliczeniowego za 180\,000 zł ujęty w budżecie --- dyrektor wykonawczy;
+  \item ten sam zakup poza budżetem za 300\,000 zł --- uchwała Rady Dyrektorów (próg 250\,000 zł);
+  \item leasing sprzętu za 150\,000 zł --- finansowanie, a więc uchwała Rady (próg 100\,000 zł);
+  \item licencja na oprogramowanie symulacyjne za 600\,000 zł poza budżetem --- Walne Zgromadzenie, 75\% wszystkich głosów;
+  \item umowa z podmiotem, w którym dyrektor ma udziały --- zawsze uchwała Rady, a powyżej 100\,000 zł rocznie także Walne Zgromadzenie.
 \end{itemize}
-Dzielenie jednej umowy na kilka mniejszych, żeby zejść pod próg, to jak dzielenie żądań, żeby ominąć rate limit: prawo traktuje je jako jedną operację. Najlepszy sposób na mniej uchwał: dobry budżet, czyli z góry zatwierdzona pula na zaplanowane wydatki.
+Podział jednej czynności na kilka mniejszych w celu zejścia poniżej progu jest obejściem umowy spółki; czynności powiązane ocenia się łącznie. Najskuteczniejszym sposobem ograniczenia liczby uchwał jest szczegółowy budżet, który z góry zatwierdza planowane wydatki.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -328,14 +327,14 @@ Domyślny tryb dla większości spraw. Wyjątek: uchwały wymagające protokołu
 
 % ================================================================
 \begin{OCoChodzi}
-Uchwała e-mailem działa jak asynchroniczne głosowanie nad pull requestem z terminem:
+Uchwała podejmowana drogą elektroniczną to sformalizowana procedura głosowania asynchronicznego:
 \begin{itemize}
-  \item projekt = PR z opisem (uzasadnieniem); głos = approve/reject wysłany z adresu wpisanego do rejestru akcjonariuszy (zweryfikowana tożsamość, jak podpisany commit);
-  \item uchwała zapada, gdy minie termin, albo wcześniej, gdy jest już wymagana większość wszystkich głosów (jak auto-merge po zebraniu approvali);
-  \item głos po terminie jest odrzucany (jak spóźniona odpowiedź po timeoucie);
-  \item księga protokołów = log tylko do dopisywania (\emph{append-only}).
+  \item projekt z uzasadnieniem rozsyła uprawniony podmiot, a głos oddaje się z adresu e-mail wpisanego do rejestru akcjonariuszy, co zapewnia identyfikację głosującego;
+  \item uchwała zostaje podjęta z upływem terminu albo wcześniej --- z chwilą oddania wymaganej większości wszystkich głosów;
+  \item głos oddany po terminie nie jest uwzględniany;
+  \item treść uchwały i wynik głosowania wpisuje się do księgi protokołów, która pełni funkcję trwałego, niemodyfikowalnego rejestru decyzji.
 \end{itemize}
-W Radzie dyrektor z konfliktem interesów nie ocenia „własnego PR-a”: nie głosuje, ale liczy się do kworum obecności. Jeżeli przez wyłączenia uchwały nie da się podjąć, sprawa przechodzi do WZ.
+W Radzie Dyrektorów dyrektor pozostający w konflikcie interesów nie uczestniczy w głosowaniu, ale jest uwzględniany przy ustalaniu kworum. Jeżeli wskutek wyłączeń uchwały nie można podjąć, sprawę rozstrzyga Walne Zgromadzenie.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -377,11 +376,11 @@ Zgody nie wymaga nabycie akcji w wykonaniu obowiązku zbycia ani zbycie w egzeku
 
 % ================================================================
 \begin{OCoChodzi}
-Zgoda na zbycie akcji to funkcja deterministyczna, a nie decyzja uznaniowa: wynik brzmi „zgoda”, chyba że zachodzi jedna z pięciu reguł odmowy (zamknięta lista, \emph{deny-list}). Rada nie może odmówić, bo „nie lubi” nabywcy.
+Zgoda na zbycie akcji jest decyzją związaną, a nie uznaniową: Rada Dyrektorów musi jej udzielić, chyba że zachodzi jedna z pięciu przyczyn odmowy wskazanych w umowie spółki. Katalog jest zamknięty; odmowa z innej przyczyny jest nieskuteczna.
 \begin{itemize}
-  \item \textbf{Lock-up} --- okres karencji 12 miesięcy: w tym czasie zbycie tylko za zgodą WZ 75\%.
-  \item \textbf{Milczenie $\ne$ zgoda} --- brak odpowiedzi to timeout, a nie sukces. Ścieżka eskalacji: wezwanie Rady i 7 dni (\emph{retry}) $\to$ uchwała akcjonariuszy (\emph{fallback}) $\to$ sąd, którego wyrok zastępuje zgodę (ostateczny arbiter).
-  \item \textbf{Sprawdzenie sankcji i kontroli inwestycji} to obowiązkowy test przed zgodą --- w firmie obronnej nabywca z niewłaściwego państwa może zablokować koncesję.
+  \item \textbf{Lock-up} --- przez 12 miesięcy zbycie wymaga zgody Walnego Zgromadzenia (75\%).
+  \item \textbf{Brak odpowiedzi nie oznacza zgody.} Umowa przewiduje procedurę eskalacji: wezwanie Rady z dodatkowym terminem 7 dni, następnie uchwała akcjonariuszy, a w ostateczności --- wyrok sądu, który zastępuje oświadczenie Spółki.
+  \item \textbf{Weryfikacja nabywcy} pod kątem sankcji i kontroli inwestycji jest obowiązkowym elementem procedury; w spółce z sektora obronnego niewłaściwy nabywca może zagrozić koncesji.
 \end{itemize}
 \end{OCoChodzi}
 
@@ -440,15 +439,15 @@ Zgoda na zbycie jest decyzją związaną: Rada nie ocenia ceny ani osoby nabywcy
 
 % ================================================================
 \begin{OCoChodzi}
-\textbf{To nie są opcje, tylko akcje z obowiązkiem odsprzedaży.} Od pierwszego dnia masz wszystkie akcje: głosujesz nimi i masz prawo do dywidendy. Vesting określa, ile z nich musisz odsprzedać, jeśli odejdziesz wcześniej.
+Mechanizm zwalniania akcji różni się od typowego programu opcji. Założyciel od początku jest właścicielem wszystkich swoich akcji i wykonuje z nich pełnię praw (głos, dywidenda). Harmonogram określa jedynie, jaka część akcji podlega obowiązkowi odsprzedaży w razie wcześniejszego zakończenia współpracy.
 
-Przykład orientacyjny dla Założyciela Pierwotnego (według wykresu): 25\% zwolnione od razu, 37,5\% po 6 miesiącach, potem liniowo do 100\% po 36 miesiącach (ok.~2,08 punktu procentowego miesięcznie).
+Przykład orientacyjny dla Założyciela Pierwotnego (według wykresu): 25\% akcji zwolnionych od dnia zawiązania, 37,5\% po 6 miesiącach, następnie liniowo do 100\% po 36 miesiącach (ok.~2,08 punktu procentowego miesięcznie).
 \begin{itemize}
-  \item odejście w 18. miesiącu jako Odejście Zwykłe: zwolnione ok.~62,5\%, resztę (ok.~37,5\%) odsprzedajesz;
-  \item to samo odejście jako Odejście Uzasadnione: dochodzi 12 miesięcy, czyli zwolnione ok.~87,5\%;
-  \item śmierć albo trwała niezdolność do pracy: zwalnia się 100\%.
+  \item Odejście Zwykłe w 18. miesiącu: zwolnione ok.~62,5\% akcji; pozostałe ok.~37,5\% podlega odsprzedaży.
+  \item Odejście Uzasadnione w tym samym momencie: dodatkowe 12 miesięcy, czyli zwolnione ok.~87,5\%.
+  \item Śmierć albo trwała niezdolność do pracy: zwolnienie wszystkich akcji.
 \end{itemize}
-Cena odkupu to cena emisyjna (dla akcji za aport kodu --- wartość wkładu): dostajesz zwrot tego, co wniosłeś, a nie wartość rynkową. Dla pracowników i współpracowników jest osobny program opcji (seria~P, regulamin programu motywacyjnego): 4 lata, roczny cliff.
+Cena odkupu odpowiada cenie emisyjnej, a dla akcji objętych za wkład niepieniężny --- wartości wkładu, nie wyższej niż wartość godziwa. Pracowników i współpracowników obejmuje odrębny program motywacyjny (seria~P): opcje nabywane przez 4 lata, z rocznym okresem karencji.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -476,9 +475,9 @@ Dotyczy to w szczególności umów przeniesienia praw IP (Umowa nr 1 i nr 2) z Z
 
 % ================================================================
 \begin{OCoChodzi}
-Zasada „nikt nie zatwierdza własnego PR-a”: dyrektor nie może po stronie Spółki podpisać umowy z samym sobą ani z innym dyrektorem. Spółkę reprezentuje wtedy niezależna osoba --- pełnomocnik powołany przez akcjonariuszy albo dyrektor niewykonawczy.
+Obowiązuje zasada rozdziału ról: dyrektor nie może reprezentować Spółki w umowie, której jest stroną, ani w umowie z innym dyrektorem. Spółkę reprezentuje wówczas osoba niezależna --- pełnomocnik powołany uchwałą akcjonariuszy albo dyrektor niewykonawczy działający na podstawie uchwały dyrektorów niewykonawczych.
 
-\textbf{Dlaczego to ważne dla programistów:} jeżeli jesteś dyrektorem, Twoje umowy przeniesienia praw do kodu (Umowa nr~1 i nr~2) muszą być podpisane przez takiego pełnomocnika. Inaczej umowa może być nieważna, a Spółka --- nie mieć praw do kodu. Inwestor sprawdzi to w due diligence jako pierwsze.
+\textbf{Znaczenie dla zespołu technicznego:} umowy przeniesienia praw do kodu i dokumentacji (Umowa nr~1 i nr~2) zawierane z Założycielami pełniącymi funkcję dyrektorów muszą być podpisane w imieniu Spółki przez takiego pełnomocnika. Uchybienie grozi nieważnością umowy, a w konsekwencji --- brakiem praw Spółki do kluczowej technologii. Jest to jeden z pierwszych punktów weryfikowanych w badaniu due diligence.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -506,13 +505,13 @@ Zmiana umowy spółki wymaga uchwały akcjonariuszy podjętej na Walnym Zgromadz
 \end{figure}
 
 \begin{OCoChodzi}
-Umowa spółki to schemat bazy danych, a jej zmiana --- migracja produkcyjna:
+Zmiana umowy spółki przebiega w trzech etapach, z których każdy jest konieczny:
 \begin{itemize}
-  \item głosowanie na WZ (75\% wszystkich głosów) = zatwierdzenie migracji;
-  \item protokół notarialny = podpisane wydanie (\emph{signed release});
-  \item wpis do KRS = wdrożenie: dopiero od niego zmiana działa. Uchwała bez wpisu to kod zmergowany, ale niewdrożony.
+  \item uchwała Walnego Zgromadzenia podjęta większością 75\% wszystkich głosów;
+  \item protokół notarialny, który nadaje uchwale wymaganą formę;
+  \item wpis do KRS --- dopiero z tą chwilą zmiana wywołuje skutek prawny.
 \end{itemize}
-Zmiana nakładająca na akcjonariuszy nowe obowiązki (np. dłuższy lock-up) to zmiana łamiąca zgodność wstecz: wymaga zgody każdego, kogo dotyczy (\emph{opt-in} każdego konsumenta API), a nie tylko większości.
+Zmiana nakładająca na akcjonariuszy nowe obowiązki (np. wydłużenie okresu lock-up) wymaga ponadto zgody każdego akcjonariusza, którego dotyczy; sama większość nie wystarcza. Przypomina to zmianę niekompatybilną wstecz, która wymaga akceptacji każdego, na kogo wpływa.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -547,12 +546,12 @@ Przy podziale 50/20/10/10/10: Założyciel~A (50\%) sam nie zmieni umowy, ale mo
 
 % ================================================================
 \begin{OCoChodzi}
-Emisja akcji przypomina dodruk tokenów:
+Kluczowe pojęcia związane z emisją akcji:
 \begin{itemize}
-  \item \textbf{twardy limit podaży} --- łącznie 2\,000\,000 akcji, plus limity poszczególnych serii; przekroczenie wymaga zmiany „schematu” (umowy spółki);
-  \item \textbf{rozwodnienie} --- po emisji Twój procent maleje, ale wartość Twoich akcji może wzrosnąć, jeśli inwestor wnosi pieniądze po wyższej wycenie;
-  \item \textbf{prawo poboru} --- prawo do zachowania swojego procentu przez objęcie części nowych akcji; dla serii~P (pula opcji dla zespołu) i~S (zamiana pożyczek i SAFE) jest wyłączone w umowie spółki;
-  \item \textbf{Rada wykonuje, nie decyduje} --- Rada przeprowadza emisję w granicach uchwały WZ, jak pipeline CI/CD w granicach zatwierdzonej konfiguracji.
+  \item \textbf{Limity} --- umowa spółki określa łączny limit 2\,000\,000 akcji i limity poszczególnych serii; ich przekroczenie wymaga zmiany umowy spółki.
+  \item \textbf{Rozwodnienie} --- po emisji udział procentowy dotychczasowych akcjonariuszy maleje; wartość ich akcji może jednak wzrosnąć, jeżeli inwestor obejmuje akcje po wyższej wycenie.
+  \item \textbf{Prawo poboru} --- pierwszeństwo objęcia nowych akcji w proporcji do posiadanych, pozwalające utrzymać udział. Umowa spółki wyłącza je dla serii~P (program motywacyjny) i~S (zamiana pożyczek i umów SAFE).
+  \item \textbf{Podział kompetencji} --- o emisji decyduje Walne Zgromadzenie; Rada Dyrektorów wyłącznie ją wykonuje, w granicach uchwały.
 \end{itemize}
 \end{OCoChodzi}
 
@@ -579,17 +578,17 @@ Lista osób z dostępem do informacji Kontrolowanych & Rada Dyrektorów & polity
 
 % ================================================================
 \begin{OCoChodzi}
-Z dokumentów wewnętrznych programistów najbardziej dotyczy polityka bezpieczeństwa informacji:
+Dla zespołu technicznego najważniejszym dokumentem wewnętrznym jest polityka bezpieczeństwa informacji. Jej kluczowe wymagania:
 \begin{itemize}
-  \item konta Spółki z 2FA, hasła w menedżerze haseł, sekrety w menedżerze sekretów --- nigdy w kodzie ani na czacie;
-  \item kod tylko w repozytoriach organizacji Spółki; bez kopii na prywatnych kontach;
-  \item informacji Poufnych i Kontrolowanych nie wklejasz do publicznych narzędzi AI, chyba że narzędzie zatwierdzono;
-  \item informacje Kontrolowane (technologie obronne) --- tylko na urządzeniach Spółki;
-  \item dostęp do repozytoriów i systemów jest logowany, a dzienniki mogą być przeglądane.
+  \item konta Spółki z uwierzytelnianiem dwuskładnikowym, hasła w menedżerze haseł, klucze i tokeny w menedżerze sekretów --- nigdy w kodzie ani w wiadomościach;
+  \item kod przechowywany wyłącznie w repozytoriach organizacji Spółki, bez kopii na kontach prywatnych;
+  \item zakaz wprowadzania informacji Poufnych i Kontrolowanych do ogólnodostępnych narzędzi, w tym narzędzi sztucznej inteligencji, poza narzędziami zatwierdzonymi;
+  \item przetwarzanie informacji Kontrolowanych wyłącznie na urządzeniach Spółki;
+  \item rejestrowanie dostępu do repozytoriów i systemów oraz możliwość przeglądu tych rejestrów.
 \end{itemize}
-\textbf{Kontrola eksportu:} udostępnienie kodu, modelu albo danych osobie za granicą --- przez \texttt{git push}, aktualizację OTA albo dostęp zdalny --- może być wywozem technologii wymagającym zezwolenia. Najpierw zapytaj Odpowiedzialnego.
+\textbf{Kontrola eksportu.} Udostępnienie kodu, modelu albo danych osobie przebywającej za granicą --- również przez repozytorium, aktualizację zdalną albo dostęp zdalny --- może stanowić wywóz technologii wymagający zezwolenia. Przed takim udostępnieniem należy uzyskać ocenę Odpowiedzialnego.
 
-\textbf{Dlaczego to formalności z sensem:} kod jest prawnie chroniony jako tajemnica przedsiębiorstwa tylko wtedy, gdy Spółka realnie go chroni. Bez tych zasad sąd może uznać, że tajemnicy nie było.
+Wymagania te mają również znaczenie prawne: kod i know-how korzystają z ochrony jako tajemnica przedsiębiorstwa tylko wtedy, gdy Spółka podejmuje realne działania w celu zachowania ich poufności.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -614,11 +613,11 @@ Polityka bezpieczeństwa, rejestr dostępów i zawarte NDA są dowodem „niezb�
 
 % ================================================================
 \begin{OCoChodzi}
-To polityka eskalacji incydentu: negocjacje (30 dni) $\to$ mediacja $\to$ sąd.
+Umowa akcjonariuszy przewiduje stopniową procedurę rozwiązywania sporów: negocjacje (30 dni), mediacja, a dopiero następnie sąd.
 
-\textbf{Status quo po 60 dniach mediacji} to tryb awaryjny (\emph{safe mode}): Spółka działa dalej na bezpiecznej konfiguracji, zamiast stanąć. Dyrektorzy zostają ponownie powołani, sprawozdanie zostaje zatwierdzone, zysk zostaje w Spółce, a wynagrodzenia się nie zmieniają.
+\textbf{Status quo po 60 dniach mediacji} zapewnia ciągłość działania Spółki w razie impasu: dotychczasowi dyrektorzy zostają ponownie powołani, sprawozdanie finansowe zostaje zatwierdzone, zysk pozostaje w Spółce, a wynagrodzenia nie ulegają zmianie. Spółka funkcjonuje więc w bezpiecznej konfiguracji do czasu porozumienia.
 
-\textbf{Zabezpieczenie sądowe} to hotfix: przy wycieku kodu albo naruszeniu zakazu konkurencji można od razu poprosić sąd o zakaz, bez czekania na koniec mediacji.
+\textbf{Zabezpieczenie sądowe} jest dostępne niezależnie od mediacji. W razie ujawnienia kodu albo naruszenia zakazu konkurencji Spółka może niezwłocznie wystąpić do sądu o zakazanie dalszych naruszeń.
 \end{OCoChodzi}
 
 \begin{Komentarz}
@@ -655,7 +654,7 @@ Termin emisji serii F i P & do 31 grudnia 2036 r. & US §~\ref{art:emisje} ust.~
 \end{longtable}
 
 \begin{OCoChodzi}
-Terminy traktuj jak timeouty i SLA --- wpisz je do kalendarza albo systemu zgłoszeń z właścicielem i przypomnieniem. Zasady liczenia: dnia zdarzenia nie wlicza się (termin z wezwania wysłanego 3 marca liczysz od 4 marca); „dni” to dni kalendarzowe, chyba że napisano „dni robocze”; termin w miesiącach kończy się w dniu o tej samej dacie (art.~111--112 KC). Spóźnienie Rady (np. ze zgodą na zbycie akcji) zwykle nie daje zgody automatycznie, ale uruchamia ścieżkę eskalacji.
+Terminy należy traktować jak kamienie milowe w harmonogramie projektu: każdy powinien mieć właściciela i zostać wpisany do kalendarza albo systemu zgłoszeń z przypomnieniem. Zasady obliczania (art.~111--112 KC): dnia zdarzenia nie wlicza się (termin biegnący od wezwania doręczonego 3 marca liczy się od 4 marca); „dni” oznaczają dni kalendarzowe, chyba że wskazano „dni robocze”; termin oznaczony w miesiącach kończy się z upływem dnia, który datą odpowiada początkowemu dniowi terminu. Przekroczenie terminu przez Radę co do zasady nie oznacza zgody, lecz otwiera procedurę eskalacji.
 \end{OCoChodzi}
 
 \input{basilisk_bib}
