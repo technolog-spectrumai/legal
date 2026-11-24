@@ -1,0 +1,320 @@
+% !TeX program = pdflatex
+% Strategia HR Basilisk Systems P.S.A. --- dostosowana do struktury prawnej spółki (umowa spółki 3.4-S, umowa akcjonariuszy 1.8, wzory umów).
+% Źródło: strategia_hr.md (projekt do decyzji założycieli, listopad 2026). Odesłania pobierane z psa.aux i basilisk_sha.aux (xr-hyper).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\externaldocument{psa}[psa.pdf]
+\externaldocument{basilisk_sha}[basilisk_sha.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Założyciele}
+\BusinessPlanConfidentialText{Projekt do decyzji Założycieli --- poufne}
+\BusinessPlanFooterText{Basilisk Systems --- strategia HR (projekt)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.1}
+\setlist[itemize]{topsep=0.2em,itemsep=0.12em,parsep=0.05em,leftmargin=1.8em}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+\renewcommand{\thesection}{\arabic{section}}
+
+\definecolor{cHR}{HTML}{1F4E79}
+\newtcolorbox{Prawo}{colback=cHR!5, colframe=cHR!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt, fonttitle=\small\bfseries, title=Podstawa prawna i dokumenty}
+\newtcolorbox{Decyzja}{colback=black!3, colframe=black!45, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\US}[1]{US §~#1}
+\newcommand{\UA}[1]{UA §~#1}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- strategia HR},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Strategia HR}
+  {Organizacja pracy, rekrutacja i rozwój zespołu}
+  {Dostosowana do umowy spółki, umowy akcjonariuszy i wzorów umów Basilisk Systems P.S.A.}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+% ================================================================
+\section{Cel strategii}
+
+Basilisk powinien samodzielnie definiować wymagania, oceniać cudzą pracę, wydawać produkt i utrzymywać go u klienta. Sprawdzianem tej zdolności będzie \textbf{drugie wdrożenie}: czy inżynier zatrudniony spoza grona Założycieli potrafi je poprowadzić na podstawie kodu, dokumentacji i doświadczenia zgromadzonych w Spółce?
+
+Dokument przenosi projekt strategii HR na strukturę prawną Spółki. Przy każdej roli wskazuje rodzaj umowy, wzór z pakietu dokumentów Spółki, organ, który zatwierdza wydatek, oraz sposób zabezpieczenia praw do wyników pracy. Skróty: „US” --- umowa spółki (wersja 3.4-S), „UA” --- umowa akcjonariuszy (wersja 1.8).
+
+\begin{Decyzja}
+\textbf{Wniosek główny: strategię można wdrożyć bez zmiany umowy spółki.} Umowa spółki nie reguluje struktury zespołu, stanowisk ani form zatrudnienia. Wystarczą decyzje Rady Dyrektorów (budżet, regulamin Rady, pełnomocnictwa) i --- w kilku sprawach --- uchwały akcjonariuszy przewidziane już w umowie spółki. Szczegóły i wyjątki: rozdział~\ref{sec:zmiany}.
+\end{Decyzja}
+
+% ================================================================
+\section{Zasady wspólne dla wszystkich ról}
+\label{sec:zasady}
+
+\begin{enumerate}
+  \item \textbf{Rola techniczna to nie umocowanie.} Nazwy ról (Opiekun Systemów, lider Ekipy, Ekspert) określają odpowiedzialność za wynik, a nie prawo do reprezentowania Spółki. Umowy podpisują dwaj dyrektorzy albo dyrektor z prokurentem (\US{\ref{art:reprezentacja} ust.~1}). Lider może ustalać priorytety pracy, ale wydatek zatwierdza się według budżetu i progów (\US{\ref{art:rada} ust.~7}).
+  \item \textbf{O rodzaju umowy decydują rzeczywiste warunki pracy.} Praca pod kierownictwem Spółki, w wyznaczonym miejscu i czasie, jest zatrudnieniem na podstawie stosunku pracy, bez względu na nazwę umowy (art.~22 §~1\textsuperscript{1} KP). Ta sama ocena dotyczy regularnie nadzorowanych zmian testerów.
+  \item \textbf{Prawa do wyników pracy przed pierwszym dniem pracy.} Pracownik --- z mocy prawa i umowy o pracę (art.~12 i 74 ust.~3 PrAut); każda inna osoba --- przez Umowę nr~2 w formie pisemnej, z kwartalnym potwierdzeniem wykazu utworów (\US{\ref{art:ip} ust.~1}).
+  \item \textbf{Dostęp na czas i w zakresie zadania.} Dostępy nadaje i odbiera Odpowiedzialny według polityki bezpieczeństwa informacji; informacje Kontrolowane --- wyłącznie osobom z listy zatwierdzonej przez Radę. Osoba spoza Unii Europejskiej --- po ocenie wymogów kontroli eksportu i sprawdzeniu list sankcyjnych.
+  \item \textbf{Poufność przed rozmową.} Kandydatom, partnerom i testerom informacje Poufne udostępnia się dopiero po zawarciu NDA albo umowy z klauzulą poufności (\UA{\ref{sha:poufnosc}}).
+  \item \textbf{Jawność wynagrodzenia.} Kandydat na pracownika otrzymuje informację o wynagrodzeniu albo jego przedziale najpóźniej przed rozmową kwalifikacyjną, jeżeli nie podano jej w ogłoszeniu (art.~18\textsuperscript{3ca} KP).
+  \item \textbf{Akcje dla zespołu tylko przez program motywacyjny.} Pracownikom, współpracownikom i Ekspertom akcje przyznaje się w programie motywacyjnym (seria~P, \US{\ref{art:seria-p}}), a nie przez obietnice w umowach o pracę. Seria~F jest zarezerwowana dla osób o roli porównywalnej z rolą Założyciela (\US{\ref{art:seria-f} ust.~1}).
+\end{enumerate}
+
+% ================================================================
+\section{Siedem sposobów organizacji pracy}
+
+Przy pięciu Założycielach jedna osoba może pełnić kilka funkcji. Nazwy pomagają ustalić, kto odpowiada za wynik i do kogo zwrócić się o pomoc. Osobny zespół warto utworzyć wtedy, gdy dana praca regularnie zajmuje czas kilku osób.
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{3.6cm} >{\raggedright\arraybackslash}p{3.0cm}@{}}
+\toprule
+\textbf{Rola} & \textbf{Podstawa współpracy} & \textbf{Prawa do wyników} & \textbf{Kto zatwierdza koszt} \\
+\midrule
+Opiekunowie Systemów (Core Keepers) & umowa o pracę z dodatkiem funkcyjnym i dyżurem (art.~151\textsuperscript{5} KP); Założyciel --- w ramach roli z \UA{\ref{sha:zaangazowanie}} & z mocy prawa / Umowa nr~2 & budżet: dyrektor wykonawczy \\
+Kuźnia Inżynieryjna (Forge) & umowa o pracę & z mocy prawa & budżet \\
+Ekipy Produktowe (Product Crews) & umowa o pracę; płatne zadanie rekrutacyjne --- umowa o dzieło albo zlecenia & z mocy prawa; zadanie --- licencja albo Umowa nr~2 & budżet \\
+Eksperci Basiliska (Fellows) & aneks do umowy o pracę (mandat, premia za rezultat); ekspert zewnętrzny --- umowa B2B & z mocy prawa / Umowa nr~2 & budżet; poza budżetem ponad 250\,000 zł --- Rada \\
+Partnerzy Specjalistyczni (Outrigger) & umowa o dzieło albo o świadczenie usług (B2B), cena za rezultat & Umowa nr~2 + licencja na elementy wcześniejsze & do 250\,000 zł poza budżetem --- dyrektor wyk.; ponad --- Rada; ponad 500\,000 zł --- WZ \\
+Ekipa od Zadań Otwartych (Hackathon Force) & pracownicy w ramach obowiązków; osoby zewnętrzne --- umowa zlecenia & z mocy prawa / Umowa nr~2 & limit z karty mandatu \\
+Sieć Terenowa (Field Mesh) & umowa zlecenia na zadanie (karta testu); przy regularnych, nadzorowanych zmianach --- umowa o pracę & licencja albo przeniesienie praw do danych; RODO & budżet testów \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{3.1. Opiekunowie Systemów (Core Keepers)}
+\textbf{Kto:} osoby z zespołu, które wykazały się rzetelnością przy wydaniach i usuwaniu awarii; droga otwarta także dla nowych pracowników. \textbf{Samodzielność:} prowadzą wydania, zarządzają dostępami i odtwarzają usługę według uzgodnionych procedur. \textbf{Wynagrodzenie:} dodatek za rolę i uzgodnione warunki dyżuru. \textbf{Ocena:} dyrektor odpowiedzialny za produkt sprawdza, czy zastępca umie przywrócić poprzednią wersję; otrzymuje zapis próby.
+\begin{Prawo}
+Dyżur pracownika (gotowość poza godzinami pracy) wymaga zachowania prawa do odpoczynku; za dyżur poza domem przysługuje czas wolny albo wynagrodzenie (art.~151\textsuperscript{5} KP). Warunki dyżuru wpisuje się do umowy o pracę albo regulaminu. „Zarządzanie dostępami” oznacza wykonywanie polityki bezpieczeństwa informacji z upoważnienia Odpowiedzialnego --- rejestr dostępów i decyzje co do informacji Kontrolowanych pozostają przy Odpowiedzialnym i Radzie. Jeżeli Opiekunem jest Założyciel, jego rolę i minimalny zakres zaangażowania warto wpisać do tabeli w \UA{\ref{sha:zaangazowanie} ust.~1}.
+\end{Prawo}
+
+\subsection*{3.2. Kuźnia Inżynieryjna (Forge)}
+\textbf{Kto:} specjaliści od integracji, automatyzacji i pomiarów, z otwartego naboru lub z zespołów produktowych. \textbf{Samodzielność:} wybierają metody budowy wspólnych narzędzi, symulatorów i stanowisk kalibracyjnych. \textbf{Wynagrodzenie:} stałe, z możliwością awansu technicznego. \textbf{Ocena:} inżynier z Ekipy Produktowej odtwarza wynik na podstawie instrukcji; Kuźnia utrzymuje narzędzie.
+\begin{Prawo}
+Umowa o pracę według wzoru~A z pakietu „Umowy z konsultantami”, z obowiązkami twórczymi w Załączniku A1. Narzędzia, symulatory i dokumentacja są utworami pracowniczymi --- prawa nabywa Spółka (art.~12 i 74 ust.~3 PrAut). Stanowiska kalibracyjne i sprzęt kupuje Spółka według progów (\US{\ref{art:rada} ust.~7}); wynalazki pracownicze --- art.~11 ust.~3 i 22 PWP.
+\end{Prawo}
+
+\subsection*{3.3. Ekipy Produktowe (Product Crews)}
+\textbf{Kto:} otwarta rekrutacja przez ogłoszenia, uczelnie i społeczności techniczne; kandydat pokazuje własną pracę albo wykonuje krótkie płatne zadanie. \textbf{Samodzielność:} prowadzą produkt od prototypu przez instalację po utrzymanie; lider ustala kolejność prac w granicach mandatu projektu. \textbf{Wynagrodzenie:} etat z jawnym zakresem odpowiedzialności i kryteriami awansu. \textbf{Ocena:} osoba odpowiedzialna za wdrożenie potwierdza odbiór; Ekipa zachowuje historię decyzji, kontakt techniczny z klientem i obsługę zgłoszeń.
+\begin{Prawo}
+Umowa o pracę (wzór~A). \textbf{Płatne zadanie rekrutacyjne} zleca się na podstawie krótkiej umowy z ustaloną stawką, limitem czasu i zasadą wykorzystania materiałów: kandydat zachowuje prawa, a Spółka otrzymuje licencję do oceny; jeżeli Spółka chce wykorzystać wynik w produkcie --- przeniesienie praw w formie pisemnej. Przed zadaniem kandydat podpisuje NDA, a dane z zadania nie obejmują informacji Kontrolowanych. Kontakt techniczny z klientem nie obejmuje prawa do składania oświadczeń woli w imieniu Spółki.
+\end{Prawo}
+
+\subsection*{3.4. Eksperci Basiliska (Basilisk Fellows)}
+\textbf{Kto:} kandydatura własna albo zgłoszenie przez zespół; decydują wyniki i propozycja rozwiązania konkretnego problemu. \textbf{Samodzielność:} chroniony czas, sprzęt i budżet na określony okres; ekspert wybiera metodę i współpracownika. \textbf{Wynagrodzenie:} za pracę oraz uzgodniona premia za rezultat; budżet eksperymentu pokrywa wydatki projektu. \textbf{Ocena:} sponsor ocenia wynik, a drugi inżynier odtwarza go samodzielnie; po przeglądzie --- zakończenie albo odnowienie grantu.
+\begin{Prawo}
+Grant ekspercki ma formę \textbf{aneksu do umowy o pracę} (albo do umowy B2B) z kartą mandatu (wzór~1). Premia za rezultat musi mieć obiektywne kryteria i termin --- premia regulaminowa jest roszczeniem pracownika, uznaniowa nie. Budżet eksperymentu mieści się w budżecie rocznym; wydatki poza budżetem powyżej 250\,000 zł --- uchwała Rady. Wybór współpracownika zewnętrznego --- według zasad dla Partnerów (pkt~3.5). Ekspertowi można dodatkowo przyznać opcje w programie motywacyjnym.
+\end{Prawo}
+
+\subsection*{3.5. Partnerzy Specjalistyczni (Outrigger Partners)}
+\textbf{Kto:} niezależne firmy albo specjaliści dobrani na podstawie próbki prac, oferty i zdolności wykonania zlecenia. \textbf{Samodzielność:} organizują wykonanie uzgodnionego rezultatu własnymi metodami. \textbf{Wynagrodzenie:} cena za rezultat albo odebrane etapy. \textbf{Ocena:} imiennie wyznaczony inżynier Basiliska odbiera dostawę, dokumentację i uzgodnione prawa do używania i serwisowania rozwiązania.
+\begin{Prawo}
+Umowa o świadczenie usług doradczych (wzór~B) albo umowa o dzieło z kartą zlecenia (wzór~2), \textbf{Umowa nr~2} oraz licencja na elementy wcześniejsze partnera z prawem do sublicencji klientom --- bez niej Spółka nie może licencjonować produktu (art.~67 ust.~3 PrAut). Partner nie wprowadza komponentów na licencjach copyleft ani modeli i danych z ograniczeniem zastosowań wojskowych bez zgody Spółki; dostarcza wykaz komponentów z krajem pochodzenia i klasyfikacją eksportową. Inżynier odbierający \textbf{potwierdza odbiór merytoryczny}, ale umowę i protokół odbioru skutkujący zapłatą podpisują osoby uprawnione do reprezentacji albo pełnomocnik Rady. Umowa z podmiotem powiązanym z akcjonariuszem posiadającym co najmniej 5\% akcji albo z dyrektorem --- uchwała Rady, a ponad 100\,000 zł rocznie także Walnego Zgromadzenia (\US{\ref{art:wz-zastrzezone} ust.~1 lit.~k}).
+\end{Prawo}
+
+\subsection*{3.6. Ekipa od Zadań Otwartych (Hackathon Force)}
+\textbf{Kto:} osoba albo duet z inicjatywą techniczną albo handlową; może powstać na tydzień z osób z różnych ekip. \textbf{Samodzielność:} w limicie czasu i wydatków wybiera sposób sprawdzenia jednej hipotezy. \textbf{Wynagrodzenie:} płatny czas eksperymentu; wartością jest także wiarygodny wynik uzasadniający zamknięcie pomysłu. \textbf{Ocena:} sponsor decyduje o dalszej inwestycji; przy kontynuacji Ekipa Produktowa dostaje dane, prototyp i opis ograniczeń.
+\begin{Prawo}
+Dla pracowników to zadanie w ramach obowiązków --- bez odrębnej umowy; karta mandatu (wzór~1) określa limit wydatków. Osoba zewnętrzna uczestniczy wyłącznie na podstawie umowy zlecenia z NDA i Umową nr~2. Prototypy i dane z eksperymentu zapisuje się w systemach Spółki; testy dronów w terenie --- z zachowaniem przepisów o bezzałogowych statkach powietrznych.
+\end{Prawo}
+
+\subsection*{3.7. Sieć Terenowa (Field Mesh)}
+\textbf{Kto:} dobrowolny, płatny nabór testerów i osób zbierających dane, dobieranych według miejsca, urządzenia i warunków próby. \textbf{Samodzielność:} uczestnik wybiera dostępne zadanie i wykonuje je według karty testu. \textbf{Wynagrodzenie:} stawka znana przed przyjęciem zadania, także za poprawną próbę zakończoną awarią produktu. \textbf{Ocena:} koordynator sprawdza jakość próbki i uprawnienia do jej wykorzystania, rozlicza pracę i przekazuje wynik zespołowi produktu.
+\begin{Prawo}
+\begin{itemize}
+  \item \textbf{Umowa:} umowa ramowa zlecenia z kartą testu (wzór~3) dla każdego zadania; minimalna stawka godzinowa i ewidencja godzin (ustawa o minimalnym wynagrodzeniu za pracę), składki według statusu testera. Przy regularnych zmianach, w wyznaczonym miejscu i czasie, pod nadzorem koordynatora --- ryzyko stosunku pracy (art.~22 §~1\textsuperscript{1} KP).
+  \item \textbf{Prawa do danych:} tester przenosi na Spółkę prawa do zdjęć, nagrań i opisów albo udziela licencji wyłącznej, w formie pisemnej; jeżeli dane obejmują wizerunek lub dane osób trzecich --- podstawa przetwarzania i informacja według RODO, a w razie potrzeby zgoda na rozpowszechnianie wizerunku.
+  \item \textbf{Bezpieczeństwo:} testerzy nie otrzymują informacji Kontrolowanych ani dostępu do kodu; urządzenia testowe są własnością Spółki, a testy z użyciem dronów prowadzi się w kategoriach i z uprawnieniami wymaganymi przez rozporządzenia (UE) 2019/945 i 2019/947. Spółka zapewnia ubezpieczenie OC dla prób w terenie.
+  \item \textbf{Brak wzoru:} pakiet dokumentów Spółki nie zawiera jeszcze wzoru umowy zlecenia dla testerów --- należy go przygotować przed pierwszym naborem.
+\end{itemize}
+\end{Prawo}
+
+% ================================================================
+\section{Rekrutacja i rozwój}
+
+Pierwsze ogłoszenie poza siecią Założycieli powinno opisywać rzeczywiste zadanie, np. doprowadzenie podsystemu od uruchomienia na stanowisku do instalacji u klienta. Należy podać zakres płacy (art.~18\textsuperscript{3ca} KP), warunki pracy, etapy wyboru i nazwisko przyszłego opiekuna. Nazwa stanowiska i treść ogłoszenia są neutralne pod względem płci (art.~18\textsuperscript{3ca} §~3 KP). Polecenia pracownicze i kandydatury z otwartego naboru ocenia się według tych samych kryteriów.
+
+Na próbce pracy sprawdza się trzy rzeczy: czy kandydat potrafi znaleźć przyczynę problemu, wykazać poprawność wyniku i przekazać rozwiązanie drugiej osobie. Przed płatnym zadaniem uzgadnia się stawkę, limit czasu i zasady wykorzystania materiałów (pkt~3.3). Po zatrudnieniu nowa osoba najpierw odtwarza istniejące wydanie z mentorem, następnie prowadzi zmianę i uczestniczy w jej odbiorze.
+
+Awans może prowadzić do zarządzania produktem albo do samodzielnej pracy eksperckiej. Pracownik, który rozwiązuje trudne problemy i uczy innych, może otrzymać \textbf{grant ekspercki}. Pracownik, który potrafi rozdzielić pracę, zaplanować odbiór i poprowadzić kontakt z klientem, może objąć kierownictwo wdrożenia. Każda osoba w zespole powinna znać kryteria i móc zgłosić kandydaturę.
+
+\begin{Prawo}
+\begin{itemize}
+  \item \textbf{Kryteria awansu i premii} zapisuje się w dokumencie przyjętym przez Radę Dyrektorów. Regulamin wynagradzania i regulamin pracy są obowiązkowe od 50 pracowników (art.~77\textsuperscript{2} i 104 KP); wcześniej wystarczą zasady Rady, umowy o pracę i obwieszczenie o monitoringu.
+  \item \textbf{Program motywacyjny:} opcje na akcje serii~P (pula 176\,471 akcji) według regulaminu programu; przydziały w granicach rocznego planu zatwierdzonego przez Walne Zgromadzenie.
+  \item \textbf{Przetwarzanie danych kandydatów} --- w zakresie art.~22\textsuperscript{1} KP; dane z próbek pracy usuwa się po zakończeniu rekrutacji, chyba że kandydat zgodzi się na dłuższe przechowywanie.
+\end{itemize}
+\end{Prawo}
+
+% ================================================================
+\section{Wybór umowy i granice odpowiedzialności}
+
+\begin{itemize}
+  \item \textbf{Umowa o pracę} --- stałe funkcje wykonywane pod kierownictwem Spółki, w wyznaczonym miejscu i czasie (wzór~A). Zakaz konkurencji wyłącznie w odrębnej umowie w formie pisemnej (wzór~C), po ustaniu zatrudnienia --- z odszkodowaniem co najmniej 25\% (art.~101\textsuperscript{2} KP). Kar umownych wobec pracowników nie stosuje się.
+  \item \textbf{Niezależne podwykonawstwo} (wzór~B albo umowa o dzieło) --- gdy wykonawca organizuje pracę, a Basilisk umie z góry określić i zweryfikować rezultat. Przed zamówieniem wskazuje się osobę odpowiedzialną za odbiór. Gdy brakuje takiej kompetencji, najpierw powierza się jej rozwój Kuźni albo Ekspertowi.
+  \item \textbf{Kontrakt menedżerski} --- przy rzeczywistym mandacie zarządczym (zespół, budżet, decyzje samodzielne, raportowanie, zastępstwo, zakończenie mandatu). Podstawę współpracy dobiera się do faktycznych warunków. Menedżer niebędący dyrektorem nie reprezentuje Spółki, chyba że otrzyma \textbf{pełnomocnictwo} albo prokurę (\US{\ref{art:reprezentacja} ust.~1--2}). Jeżeli menedżer jest dyrektorem, umowę z nim zawiera pełnomocnik powołany uchwałą akcjonariuszy (\US{\ref{art:reprezentacja} ust.~3}), a wynagrodzenie za funkcję dyrektora ustala Walne Zgromadzenie (\US{\ref{art:wz-zastrzezone} ust.~3}).
+  \item \textbf{Role techniczne, dostęp i podpisy} rozpatruje się oddzielnie. Kierownik może ustalać priorytety pracy. Zatwierdzenie wydatku i podpisanie umowy następują według dokumentów Spółki: reprezentacja łączna (dwóch dyrektorów albo dyrektor z prokurentem), progi z \US{\ref{art:rada} ust.~7} i \US{\ref{art:wz-zastrzezone} ust.~1}, odrębny tryb dla umów z dyrektorami.
+\end{itemize}
+
+Przed rozpoczęciem pracy korzysta się z istniejących wzorów: umowy z konsultantami (wzory~A--C), Umowy nr~2, NDA i polityki bezpieczeństwa. Przy zleceniu zewnętrznym uzgadnia się prawa do wcześniejszych elementów wykonawcy i materiały potrzebne do utrzymania wyniku. Dostępy nadaje się na czas i w zakresie zadania, a przy zakończeniu współpracy stosuje się procedurę przy odejściu z polityki bezpieczeństwa (odebranie dostępów najpóźniej w ostatnim dniu, wydanie utworów w 14 dni).
+
+\subsection*{Kto podpisuje i kto zatwierdza}
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{4.0cm}@{}}
+\toprule
+\textbf{Czynność} & \textbf{Zatwierdza} & \textbf{Podpisuje} \\
+\midrule
+Zatrudnienie albo zlecenie w ramach budżetu & dyrektor wykonawczy (delegacja Rady) & dwóch dyrektorów / dyrektor z prokurentem / pełnomocnik \\
+Umowa poza budżetem do 250\,000 zł & dyrektor wykonawczy & jw. \\
+Umowa poza budżetem 250\,000--500\,000 zł & Rada Dyrektorów & jw. \\
+Umowa poza budżetem ponad 500\,000 zł & Walne Zgromadzenie 75\% & jw. \\
+Umowa z akcjonariuszem $\geq$5\%, dyrektorem, osobą bliską albo podmiotem powiązanym & Rada; ponad 100\,000 zł rocznie --- także WZ 75\% & jw.; z dyrektorem --- pełnomocnik z uchwały akcjonariuszy \\
+Wynagrodzenie dyrektora za pełnienie funkcji & Walne Zgromadzenie & --- \\
+Przydział opcji (seria P) & Rada w granicach planu WZ; dyrektorowi --- WZ & jw.; z dyrektorem --- pełnomocnik \\
+Dostęp do informacji Kontrolowanych & Rada Dyrektorów (lista imienna) & --- \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+% ================================================================
+\section{Pierwsze płatne wdrożenie}
+
+Przykładowy pilot obejmuje instalację oprogramowania i sprawdzenie jakości obrazu na urządzeniach klienta.
+
+\begin{enumerate}
+  \item \textbf{Obsada.} Jeden Założyciel odpowiada za dostarczenie pilota i uzgadnia odbiór z klientem. Drugi prowadzi wydanie, a wyznaczony zastępca ćwiczy odtworzenie. Pozostali mogą dzielić pracę Kuźni, ocenę eksperymentów i koordynację testów. Pierwszą osobę z otwartego naboru przyjmuje się do Ekipy Produktowej i powierza jej podsystem, który będzie później utrzymywać.
+  \item \textbf{Rozpoznanie.} Ekipa od Zadań Otwartych dostaje tydzień na sprawdzenie, czy obraz o zmierzchu wystarcza do osiągnięcia uzgodnionego celu. Sieć Terenowa wykonuje płatne próby w kilku lokalizacjach według tej samej karty.
+  \item \textbf{Rozwiązanie.} Jeśli próby wykażą powtarzalny problem z kalibracją, Ekspert Basiliska otrzymuje mandat na opracowanie metody. Partner Specjalistyczny może wykonać przyrząd według specyfikacji. Kuźnia odbiera go na własnym stanowisku i przygotowuje procedurę dla Ekipy Produktowej.
+  \item \textbf{Przekazanie.} Nowo zatrudniony inżynier samodzielnie instaluje wydanie na drugim urządzeniu, przeprowadza próbę odbiorową i zapisuje wynik. Opiekunowie Systemów sprawdzają powrót do poprzedniej wersji. Kierownik omawia z klientem wynik i wskazuje kontakt do utrzymania.
+\end{enumerate}
+
+\begin{Prawo}
+\begin{itemize}
+  \item \textbf{Umowa z klientem:} licencja według Ogólnych warunków licencyjnych i modułu właściwego dla produktu; Zamówienie podpisują osoby uprawnione do reprezentacji, własnoręcznie albo kwalifikowanym podpisem elektronicznym. Przed licencją --- lista kontrolna z Załącznika D (klasyfikacja eksportowa, sankcje, oświadczenie użytkownika końcowego).
+  \item \textbf{Dane klienta:} jeżeli wdrożenie obejmuje dane osobowe --- umowa powierzenia (art.~28 RODO); Dane Operacyjne do rozwoju --- wyłącznie po anonimizacji.
+  \item \textbf{Klient z sektora obronnego:} przed pierwszymi rozmowami --- wniosek o świadectwo bezpieczeństwa przemysłowego i ocena wymogu koncesji; skład zespołu wdrożeniowego z uwzględnieniem poświadczeń bezpieczeństwa.
+  \item \textbf{Prawa do przyrządu Partnera:} odbiór przyrządu obejmuje dokumentację, pliki źródłowe i prawa do serwisowania (wzór~2) --- inaczej Spółka nie utrzyma rozwiązania u klienta.
+\end{itemize}
+\end{Prawo}
+
+Po pilocie Założyciele przeglądają trzy dane: które czynności wciąż potrafi wykonać tylko jedna osoba, ile czasu zajęła druga instalacja i które problemy terenowe pozostają niewyjaśnione. Te odpowiedzi pomagają wybrać kolejny etat, grant albo zlecenie.
+
+% ================================================================
+\section{Czy trzeba zmieniać umowę spółki?}
+\label{sec:zmiany}
+
+\textbf{Nie.} Umowa spółki określa organy, ich kompetencje, progi decyzyjne, akcje i prawa własności intelektualnej, ale nie reguluje struktury zespołu, stanowisk ani form zatrudnienia. Siedem ról z tej strategii to organizacja pracy w ramach kompetencji Rady Dyrektorów, która prowadzi sprawy Spółki (\US{\ref{art:rada} ust.~2}) i przyjmuje budżet (\US{\ref{art:rada} ust.~7}).
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{3.6cm} >{\raggedright\arraybackslash}p{4.0cm}@{}}
+\toprule
+\textbf{Działanie} & \textbf{Dokument / organ} & \textbf{Zmiana umowy spółki?} \\
+\midrule
+Utworzenie ról, zasady awansu, premii i grantów eksperckich & uchwała Rady; regulamin Rady (\US{\ref{art:rada} ust.~8}) & nie \\
+Budżet zatrudnienia, testów i zleceń & uchwała Rady (budżet roczny) & nie \\
+Delegacja zatrudniania dla dyrektora wykonawczego & uchwała Rady (\US{\ref{art:rada} ust.~4}) & nie \\
+Pełnomocnictwo dla kierownika wdrożenia do podpisywania zamówień i protokołów do określonej kwoty & pełnomocnictwo udzielone przez dwóch dyrektorów (art.~98 KC) & nie \\
+Prokura dla menedżera & zgoda wszystkich dyrektorów (\US{\ref{art:reprezentacja} ust.~2}) & nie \\
+Opcje dla zespołu (seria P) w trybie zwykłej emisji & uchwała WZ 75\% (\US{\ref{art:seria-p} ust.~2}) & nie \\
+Opcje w trybie warunkowej emisji (regulamin programu) & uchwała WZ 4/5 i 75\% z protokołem notarialnym & formalnie tak --- uchwała o warunkowej emisji zmienia umowę spółki, ale umowa już ją przewiduje (\US{\ref{art:seria-p} ust.~2}) \\
+Pula opcji większa niż 176\,471 akcji & uchwała WZ 75\% & \textbf{tak} (\US{\ref{art:seria-p} ust.~3}) \\
+Nowa osoba o roli Założyciela (seria F) & dwie uchwały WZ 75\% (\US{\ref{art:seria-f}}) & nie --- w limicie 250\,000 akcji \\
+Role Założycieli w nowej strukturze & aktualizacja tabeli w \UA{\ref{sha:zaangazowanie} ust.~1} & nie (zmiana UA, zgoda Stron) \\
+Wynagrodzenie dyrektorów & uchwała WZ (\US{\ref{art:wz-zastrzezone} ust.~3}) & nie \\
+Monitoring dzienników dostępu & polityka bezpieczeństwa + obwieszczenie (art.~22\textsuperscript{3} KP) & nie \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{Do przygotowania przed wdrożeniem strategii} (bez zmiany umowy spółki):
+\begin{enumerate}
+  \item uchwała Rady przyjmująca strategię, role, zasady awansu, premii i grantów oraz budżet zatrudnienia;
+  \item regulamin Rady Dyrektorów z delegacją zatrudniania dla dyrektora wykonawczego i zasadami udzielania pełnomocnictw;
+  \item wzór umowy zlecenia dla Sieci Terenowej z przeniesieniem praw do danych i klauzulą RODO;
+  \item krótka umowa na płatne zadanie rekrutacyjne;
+  \item obwieszczenie o monitoringu (przed zatrudnieniem pierwszego pracownika);
+  \item uchwały Walnego Zgromadzenia w sprawie programu motywacyjnego, jeżeli opcje mają być przyznawane od początku;
+  \item opcjonalnie: aktualizacja tabeli ról Założycieli w \UA{\ref{sha:zaangazowanie} ust.~1}.
+\end{enumerate}
+
+% ================================================================
+\section{Wzory do skopiowania}
+
+\subsection*{Wzór 1. Karta mandatu eksperta lub zespołu rozpoznawczego}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.4cm} X@{}}
+\toprule
+\textbf{Pole} & \textbf{Do uzupełnienia} \\
+\midrule
+Typ i pytanie & grant ekspercki / krótkie rozpoznanie; jaki problem rozwiązujemy lub jaką hipotezę sprawdzamy \\
+Obsada & osoba prowadząca, sponsor decyzji, osoba przejmująca wynik \\
+Podstawa & aneks do umowy o pracę nr \field{\ldots} / zlecenie nr \field{\ldots}; Umowa nr~2 (osoby spoza zatrudnienia) \\
+Zasoby & okres, chroniony czas, sprzęt, limit wydatków (w budżecie --- dyrektor wykonawczy; poza budżetem ponad 250\,000 zł --- Rada), zakres samodzielnych decyzji \\
+Informacje & kategoria dostępu według polityki; informacje Kontrolowane --- zgoda Rady z dnia \field{\ldots} \\
+Dowód & dla eksperta --- wynik do odtworzenia; dla rozpoznania --- obserwacja uzasadniająca kontynuację lub zamknięcie \\
+Rozliczenie & wynagrodzenie, premia za rezultat (kryterium i termin), termin przeglądu \\
+Zamknięcie & miejsce zapisania materiałów w systemach Spółki, odbiorca, decyzja o przekazaniu, odnowieniu lub zakończeniu, odebranie dostępów \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Wzór 2. Karta zlecenia dla partnera specjalistycznego}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.4cm} X@{}}
+\toprule
+\textbf{Pole} & \textbf{Do uzupełnienia} \\
+\midrule
+Strony i cel & wykonawca, inżynier odbierający po stronie Basiliska, rezultat i zakres; podstawa: umowa nr \field{\ldots} (wzór~B / umowa o dzieło) \\
+Zatwierdzenie & w budżecie / uchwała Rady nr \field{\ldots}; podmiot powiązany: tak / nie \\
+Dostawa & terminy i etapy, dokumentacja, pliki źródłowe, instrukcja serwisowa, wykaz komponentów (licencja, kraj pochodzenia, klasyfikacja eksportowa) \\
+Odbiór & próba odbiorowa, tolerancje, termin oceny i procedura poprawek; protokół odbioru podpisują osoby uprawnione do reprezentacji albo pełnomocnik \\
+Rozliczenie & cena, wydatki, terminy płatności, rozliczenie w razie wcześniejszego zakończenia \\
+Dalsze użycie & przeniesienie praw (Umowa nr~2), licencja na elementy wcześniejsze z prawem do sublicencji, przekazanie wiedzy, zamknięcie dostępów \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Wzór 3. Karta płatnego testu terenowego}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.4cm} X@{}}
+\toprule
+\textbf{Pole} & \textbf{Do uzupełnienia} \\
+\midrule
+Podstawa & umowa ramowa zlecenia nr \field{\ldots} z dnia \field{\ldots} \\
+Warunki udziału & urządzenie, miejsce lub typ lokalizacji, termin, wymagane zgody (właściciel terenu, przestrzeń powietrzna, kategoria lotu) \\
+Instrukcja & kroki próby, warunek przerwania, kontakt do koordynatora \\
+Dane & co zebrać, czego unikać (wizerunek osób trzecich, obiekty chronione), gdzie przesłać plik, kto może go wykorzystać i jak długo będzie przechowywany \\
+Kryterium jakości & wymagane informacje o warunkach próby, format, sposób udokumentowania usterki \\
+Zapłata & stawka (nie niższa niż minimalna stawka godzinowa), uznawane wydatki, zasady odwołania zadania i termin płatności \\
+Weryfikacja & osoba sprawdzająca, termin odpowiedzi, możliwość poprawienia niekompletnego zgłoszenia \\
+\bottomrule
+\end{tabularx}
+
+\vspace{1em}
+{\small Dokument nie zmienia umowy spółki ani umowy akcjonariuszy; w razie rozbieżności rozstrzygają te umowy. Kwestie oznaczone jako wymagające weryfikacji (minimalna stawka godzinowa, składki testerów, zgody dotyczące lotów) należy potwierdzić z doradcą przed pierwszym naborem.\par}
+
+\end{document}
