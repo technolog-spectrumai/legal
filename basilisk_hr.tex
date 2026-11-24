@@ -13,6 +13,7 @@
 \usepackage{parskip}
 \usepackage{needspace}
 \usepackage{tabularx}
+\usepackage{float}
 \externaldocument{psa}[psa.pdf]
 \externaldocument{basilisk_sha}[basilisk_sha.pdf]
 
@@ -34,9 +35,35 @@
 \setlength{\emergencystretch}{4em}
 \renewcommand{\arraystretch}{1.2}
 \renewcommand{\thesection}{\arabic{section}}
+\captionsetup{font=small,labelfont=bf}
 
 \definecolor{cHR}{HTML}{1F4E79}
 \newtcolorbox{Prawo}{colback=cHR!5, colframe=cHR!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt, fonttitle=\small\bfseries, title=Podstawa prawna i dokumenty}
+% style diagramów --- jak w podręczniku podejmowania decyzji
+\definecolor{cWZ}{HTML}{1F4E79}
+\definecolor{cRD}{HTML}{2E7D32}
+\definecolor{cDW}{HTML}{8D6E00}
+\definecolor{cX}{HTML}{8E2430}
+\definecolor{cDHR}{HTML}{6A1B9A}
+\tikzset{
+  >={Stealth[length=2.2mm]},
+  every node/.style={font=\small, align=center},
+  box/.style={draw, rounded corners=2pt, minimum height=8mm, inner sep=4pt, text width=#1},
+  box/.default=3.6cm,
+  wz/.style={box=#1, fill=cWZ!12, draw=cWZ},
+  wz/.default=3.6cm,
+  rd/.style={box=#1, fill=cRD!12, draw=cRD},
+  rd/.default=3.6cm,
+  dw/.style={box=#1, fill=cDW!14, draw=cDW},
+  dw/.default=3.6cm,
+  xx/.style={box=#1, fill=cX!10, draw=cX},
+  xx/.default=3.6cm,
+  q/.style={draw, diamond, aspect=2.4, inner sep=1.5pt, fill=black!4, text width=#1},
+  q/.default=3.4cm,
+  lbl/.style={font=\scriptsize, fill=white, inner sep=1.5pt},
+  line/.style={->, thick},
+}
+\newtcolorbox{DlaHR}{colback=cDHR!5, colframe=cDHR!75, boxrule=0.7pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt, fonttitle=\small\bfseries, title=Dla zespołu HR}
 \newtcolorbox{Decyzja}{colback=black!3, colframe=black!45, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
 
 \newcommand{\field}[1]{\textbf{[#1]}}
@@ -66,7 +93,7 @@
 
 Basilisk powinien samodzielnie definiować wymagania, oceniać cudzą pracę, wydawać produkt i utrzymywać go u klienta. Sprawdzianem tej zdolności będzie \textbf{drugie wdrożenie}: czy inżynier zatrudniony spoza grona Założycieli potrafi je poprowadzić na podstawie kodu, dokumentacji i doświadczenia zgromadzonych w Spółce?
 
-Dokument przenosi projekt strategii HR na strukturę prawną Spółki. Przy każdej roli wskazuje rodzaj umowy, wzór z pakietu dokumentów Spółki, organ, który zatwierdza wydatek, oraz sposób zabezpieczenia praw do wyników pracy. Skróty: „US” --- umowa spółki (wersja 3.4-S), „UA” --- umowa akcjonariuszy (wersja 1.8).
+Dokument przenosi projekt strategii HR na strukturę prawną Spółki. Przy każdej roli wskazuje rodzaj umowy, wzór z pakietu dokumentów Spółki, organ, który zatwierdza wydatek, oraz sposób zabezpieczenia praw do wyników pracy. Skróty: „US” --- umowa spółki (wersja 3.4-S), „UA” --- umowa akcjonariuszy (wersja 1.8). Diagramy używają tych samych kolorów co podręcznik podejmowania decyzji, a fioletowe ramki „Dla zespołu HR” zawierają praktyczne wskazówki: listy dokumentów, terminy i sposób postępowania.
 
 \begin{Decyzja}
 \textbf{Wniosek główny: strategię można wdrożyć bez zmiany umowy spółki.} Umowa spółki nie reguluje struktury zespołu, stanowisk ani form zatrudnienia. Wystarczą decyzje Rady Dyrektorów (budżet, regulamin Rady, pełnomocnictwa) i --- w kilku sprawach --- uchwały akcjonariuszy przewidziane już w umowie spółki. Szczegóły i wyjątki: rozdział~\ref{sec:zmiany}.
@@ -107,6 +134,35 @@ Sieć Terenowa (Field Mesh) & umowa zlecenia na zadanie (karta testu); przy regu
 \bottomrule
 \end{tabularx}
 \end{center}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=10mm and 8mm]
+  \node[rd=3.4cm] (crew) {\textbf{Ekipy Produktowe}\\produkt od prototypu do utrzymania};
+  \node[wz=3.0cm, above left=12mm and 2mm of crew] (forge) {\textbf{Kuźnia}\\narzędzia, symulatory, stanowiska};
+  \node[wz=3.0cm, above right=12mm and 2mm of crew] (fell) {\textbf{Eksperci}\\grant na trudny problem};
+  \node[dw=3.0cm, left=16mm of crew] (keep) {\textbf{Opiekunowie Systemów}\\wydania, dostępy, odtworzenie};
+  \node[dw=3.0cm, right=16mm of crew] (hack) {\textbf{Zadania Otwarte}\\tydzień na hipotezę};
+  \node[xx=3.0cm, below left=12mm and 2mm of crew] (part) {\textbf{Partnerzy}\\rezultat z zewnątrz (B2B)};
+  \node[xx=3.0cm, below right=12mm and 2mm of crew] (field) {\textbf{Sieć Terenowa}\\płatne próby (zlecenie)};
+  \draw[line] (forge) -- node[lbl, left, pos=0.4]{narzędzie} (crew);
+  \draw[line] (fell) -- node[lbl, right, pos=0.4]{metoda} (crew);
+  \draw[line, <->] (keep) -- node[lbl, above]{wydanie} (crew);
+  \draw[line] (hack) -- node[lbl, above]{prototyp} (crew);
+  \draw[line] (part) -- node[lbl, left, pos=0.6]{odbiór} (crew);
+  \draw[line] (field) -- node[lbl, right, pos=0.6]{wyniki prób} (crew);
+\end{tikzpicture}
+\caption{Siedem ról wokół Ekip Produktowych. Kolory: \textcolor{cRD}{\textbf{zielony}} --- rdzeń produktu; \textcolor{cWZ}{\textbf{niebieski}} --- wsparcie techniczne (etat); \textcolor{cDW}{\textbf{złoty}} --- role czasowe i dyżury; \textcolor{cX}{\textbf{czerwony}} --- osoby spoza zatrudnienia (B2B, zlecenie).}
+\end{figure}
+
+\begin{DlaHR}
+\textbf{Teczka dokumentów według formy współpracy.}
+\begin{itemize}
+  \item \textbf{Pracownik} (Opiekun, Kuźnia, Ekipa, Ekspert): umowa o pracę podpisana przed dopuszczeniem do pracy; skierowanie i orzeczenie z badań wstępnych; szkolenie BHP wstępne przed rozpoczęciem pracy; zgłoszenie do ZUS w ciągu 7 dni; informacja o warunkach zatrudnienia (art.~29 §~3 KP) w ciągu 7 dni; potwierdzenie zapoznania z polityką bezpieczeństwa, regulaminem antymobbingowym i informacją o monitoringu; wykaz utworów sprzed zatrudnienia (Załącznik A2); dane do PPK. Dokumenty trafiają do akt osobowych (części A--E).
+  \item \textbf{Konsultant albo Partner (B2B):} umowa (wzór~B), \textbf{Umowa nr~2 podpisana odręcznie albo kwalifikowanym podpisem} (bez niej Spółka nie ma praw do wyników), NDA, karta zlecenia, oświadczenia z Załącznika B3. Spółka nie prowadzi akt osobowych ani nie zgłasza do ZUS.
+  \item \textbf{Tester (zlecenie):} umowa ramowa, karta testu dla każdego zadania, ewidencja godzin, przeniesienie praw do danych, klauzula RODO; zgłoszenie do ZUS według statusu (np. student do 26.~roku życia --- bez składek).
+\end{itemize}
+\end{DlaHR}
 
 \subsection*{3.1. Opiekunowie Systemów (Core Keepers)}
 \textbf{Kto:} osoby z zespołu, które wykazały się rzetelnością przy wydaniach i usuwaniu awarii; droga otwarta także dla nowych pracowników. \textbf{Samodzielność:} prowadzą wydania, zarządzają dostępami i odtwarzają usługę według uzgodnionych procedur. \textbf{Wynagrodzenie:} dodatek za rolę i uzgodnione warunki dyżuru. \textbf{Ocena:} dyrektor odpowiedzialny za produkt sprawdza, czy zastępca umie przywrócić poprzednią wersję; otrzymuje zapis próby.
@@ -162,6 +218,23 @@ Pierwsze ogłoszenie poza siecią Założycieli powinno opisywać rzeczywiste za
 
 Na próbce pracy sprawdza się trzy rzeczy: czy kandydat potrafi znaleźć przyczynę problemu, wykazać poprawność wyniku i przekazać rozwiązanie drugiej osobie. Przed płatnym zadaniem uzgadnia się stawkę, limit czasu i zasady wykorzystania materiałów (pkt~3.3). Po zatrudnieniu nowa osoba najpierw odtwarza istniejące wydanie z mentorem, następnie prowadzi zmianę i uczestniczy w jej odbiorze.
 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=5mm and 5mm]
+  \node[wz=3.0cm] (s1) {\textbf{1. Ogłoszenie}\\zadanie, przedział płacy, etapy, opiekun};
+  \node[wz=3.0cm, right=of s1] (s2) {\textbf{2. Próbka pracy}\\NDA; płatne zadanie na umowę};
+  \node[wz=3.0cm, right=of s2] (s3) {\textbf{3. Rozmowa}\\przyczyna, dowód, przekazanie};
+  \node[rd=3.0cm, right=of s3] (s4) {\textbf{4. Decyzja}\\budżet; poza budżetem --- progi};
+  \node[rd=3.0cm, below=12mm of s4] (s5) {\textbf{5. Umowa}\\wzór A albo B + prawa do wyników};
+  \node[dw=3.0cm, left=of s5] (s6) {\textbf{6. Pierwszy dzień}\\BHP, badania, polityka, dostępy};
+  \node[dw=3.0cm, left=of s6] (s7) {\textbf{7. Mentor}\\odtworzenie istniejącego wydania};
+  \node[dw=3.0cm, left=of s7] (s8) {\textbf{8. Samodzielność}\\prowadzenie zmiany i odbiór};
+  \draw[line] (s1) -- (s2); \draw[line] (s2) -- (s3); \draw[line] (s3) -- (s4);
+  \draw[line] (s4) -- (s5); \draw[line] (s5) -- (s6); \draw[line] (s6) -- (s7); \draw[line] (s7) -- (s8);
+\end{tikzpicture}
+\caption{Od ogłoszenia do samodzielnej pracy: \textcolor{cWZ}{\textbf{rekrutacja}}, \textcolor{cRD}{\textbf{decyzja i umowa}}, \textcolor{cDW}{\textbf{wdrożenie}}.}
+\end{figure}
+
 Awans może prowadzić do zarządzania produktem albo do samodzielnej pracy eksperckiej. Pracownik, który rozwiązuje trudne problemy i uczy innych, może otrzymać \textbf{grant ekspercki}. Pracownik, który potrafi rozdzielić pracę, zaplanować odbiór i poprowadzić kontakt z klientem, może objąć kierownictwo wdrożenia. Każda osoba w zespole powinna znać kryteria i móc zgłosić kandydaturę.
 
 \begin{Prawo}
@@ -171,6 +244,33 @@ Awans może prowadzić do zarządzania produktem albo do samodzielnej pracy eksp
   \item \textbf{Przetwarzanie danych kandydatów} --- w zakresie art.~22\textsuperscript{1} KP; dane z próbek pracy usuwa się po zakończeniu rekrutacji, chyba że kandydat zgodzi się na dłuższe przechowywanie.
 \end{itemize}
 \end{Prawo}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=8mm and 8mm]
+  \node[rd=3.6cm] (inz) {\textbf{Inżynier w Ekipie Produktowej}};
+  \node[q=3.2cm, below=of inz] (q) {Co robi najlepiej?};
+  \node[wz=3.8cm, below left=10mm and 2mm of q] (e1) {\textbf{Ścieżka ekspercka}\\rozwiązuje trudne problemy i uczy innych $\to$ grant ekspercki};
+  \node[dw=3.8cm, below right=10mm and 2mm of q] (m1) {\textbf{Ścieżka kierownicza}\\dzieli pracę, planuje odbiór, prowadzi klienta $\to$ kierownik wdrożenia};
+  \node[wz=3.8cm, below=of e1] (e2) {\textbf{Ekspert Basiliska}\\kolejne granty po przeglądzie};
+  \node[dw=3.8cm, below=of m1] (m2) {\textbf{Kierownik produktu}\\zespół i budżet w granicach mandatu};
+  \node[box=8.4cm, fill=black!3, below=8mm of e2.south east, anchor=north west, xshift=-4.0cm] (op) {\textbf{Niezależnie od ścieżki:} opcje na akcje serii~P według regulaminu programu motywacyjnego};
+  \draw[line] (inz) -- (q); \draw[line] (q) -| (e1); \draw[line] (q) -| (m1);
+  \draw[line] (e1) -- (e2); \draw[line] (m1) -- (m2);
+\end{tikzpicture}
+\caption{Dwie równorzędne ścieżki awansu. Kryteria są jawne, a każda osoba może zgłosić kandydaturę.}
+\end{figure}
+
+\begin{DlaHR}
+\begin{itemize}
+  \item \textbf{Ogłoszenie:} przedział wynagrodzenia (albo przekazanie go przed rozmową), neutralna nazwa stanowiska (np. „Inżynier / Inżynierka systemów” albo „Inżynier (K/M)”), opis rzeczywistego zadania i etapów.
+  \item \textbf{Dane kandydatów:} zbieramy tylko dane z art.~22\textsuperscript{1} KP (imię i nazwisko, data urodzenia, kontakt, wykształcenie, kwalifikacje, przebieg zatrudnienia). Nie prosimy o zdjęcie, PESEL ani informacje o rodzinie. Zgoda na udział w przyszłych rekrutacjach --- osobno. Po zakończeniu rekrutacji usuwamy CV i próbki pracy osób nieprzyjętych.
+  \item \textbf{Płatne zadanie:} umowa (stawka, limit czasu, zasady wykorzystania materiałów) i NDA podpisane \emph{przed} przekazaniem zadania; zadanie nie zawiera informacji Kontrolowanych.
+  \item \textbf{Ocena:} ten sam arkusz dla poleceń pracowniczych i kandydatów z otwartego naboru --- trzy kryteria: przyczyna problemu, dowód poprawności, przekazanie rozwiązania.
+  \item \textbf{Pierwszy dzień:} zestaw powitalny z listą kontrolną (dokumenty, BHP, sprzęt, konta z 2FA, polityka, regulamin antymobbingowy, kontakt do mentora i Pełnomocnika).
+\end{itemize}
+\end{DlaHR}
+
 
 % ================================================================
 \section{Wybór umowy i granice odpowiedzialności}
@@ -184,7 +284,71 @@ Awans może prowadzić do zarządzania produktem albo do samodzielnej pracy eksp
 
 Przed rozpoczęciem pracy korzysta się z istniejących wzorów: umowy z konsultantami (wzory~A--C), Umowy nr~2, NDA i polityki bezpieczeństwa. Przy zleceniu zewnętrznym uzgadnia się prawa do wcześniejszych elementów wykonawcy i materiały potrzebne do utrzymania wyniku. Dostępy nadaje się na czas i w zakresie zadania, a przy zakończeniu współpracy stosuje się procedurę przy odejściu z polityki bezpieczeństwa (odebranie dostępów najpóźniej w ostatnim dniu, wydanie utworów w 14 dni).
 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 10mm]
+  \node[q=3.6cm] (q1) {Praca pod kierownictwem, w miejscu i czasie wyznaczonym przez Spółkę?};
+  \node[rd=4.6cm, right=of q1] (a1) {\textbf{Umowa o pracę} (wzór A)\\zakaz konkurencji --- tylko wzór~C};
+  \node[q=3.6cm, below=of q1] (q2) {Rezultat określony z góry i możliwy do odbioru?};
+  \node[xx=4.6cm, right=of q2] (a2) {\textbf{B2B albo umowa o dzieło} (wzór B)\\+ Umowa nr~2 + karta zlecenia};
+  \node[q=3.6cm, below=of q2] (q3) {Pojedyncze zadanie: test, zadanie rekrutacyjne, hackathon?};
+  \node[dw=4.6cm, right=of q3] (a3) {\textbf{Umowa zlecenia}\\+ karta testu + przeniesienie praw};
+  \node[wz=3.8cm, below=of q3] (a4) {Najpierw zdefiniuj rezultat (Kuźnia albo Ekspert)};
+  \draw[line] (q1) -- node[lbl, above]{tak} (a1);
+  \draw[line] (q2) -- node[lbl, above]{tak} (a2);
+  \draw[line] (q3) -- node[lbl, above]{tak} (a3);
+  \draw[line] (q1) -- node[lbl, left]{nie} (q2);
+  \draw[line] (q2) -- node[lbl, left]{nie} (q3);
+  \draw[line] (q3) -- node[lbl, left]{nie} (a4);
+  \node[box=4.6cm, fill=black!3, below=10mm of a3] (dyr) {\textbf{Zawsze sprawdź:} druga strona jest dyrektorem $\to$ pełnomocnik z uchwały akcjonariuszy; akcjonariusz $\geq$5\% albo podmiot powiązany $\to$ Rada (+ WZ ponad 100\,000 zł rocznie)};
+\end{tikzpicture}
+\caption{Jaką umowę zawrzeć? O wyborze decydują rzeczywiste warunki pracy (art.~22 §~1\textsuperscript{1} KP).}
+\end{figure}
+
+\begin{DlaHR}
+\textbf{Sygnały ostrzegawcze przy umowie B2B albo zleceniu} --- jeżeli występują razem, porozmawiaj z dyrektorem wykonawczym o umowie o pracę: stałe godziny wyznaczane przez Spółkę; przełożony wydaje bieżące polecenia co do sposobu pracy; osoba nie może powierzyć zadania nikomu innemu; rozliczenie za czas obecności, a nie za rezultat; udział w grafiku dyżurów na równi z pracownikami. Kontrola inspekcji pracy albo sąd mogą ustalić, że strony łączy stosunek pracy, z zaległymi składkami i uprawnieniami pracowniczymi.
+
+\textbf{Obieg umowy:} projekt z właściwego wzoru $\to$ zatwierdzenie kosztu według progów $\to$ podpis dwóch dyrektorów albo dyrektora z prokurentem (przy umowie z dyrektorem --- pełnomocnik) $\to$ egzemplarz do akt i rejestru umów $\to$ zlecenie nadania dostępów Odpowiedzialnemu. Dział HR przygotowuje dokumenty, ale nie podpisuje umów w imieniu Spółki bez pełnomocnictwa.
+\end{DlaHR}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=5mm and 5mm]
+  \node[box=3.0cm, fill=black!8] (o1) {\textbf{Wypowiedzenie albo porozumienie}\\data ostatniego dnia};
+  \node[rd=3.0cm, right=of o1] (o2) {\textbf{Ostatni dzień}\\odebranie dostępów, zwrot sprzętu, protokół};
+  \node[rd=3.0cm, right=of o2] (o3) {\textbf{Do 14 dni}\\wydanie utworów, oświadczenie przy odejściu};
+  \node[dw=3.0cm, right=of o3] (o4) {\textbf{Rozliczenie}\\świadectwo pracy, ZUS, dokumentacja};
+  \node[xx=4.6cm, below=10mm of o2.south east, anchor=north] (zk) {\textbf{Zakaz konkurencji (wzór C)?}\\odszkodowanie w miesięcznych ratach przez okres zakazu};
+  \draw[line] (o1) -- (o2); \draw[line] (o2) -- (o3); \draw[line] (o3) -- (o4);
+  \draw[line, dashed] (o1) |- (zk);
+\end{tikzpicture}
+\caption{Zakończenie współpracy (polityka bezpieczeństwa informacji, procedura przy odejściu).}
+\end{figure}
+
+\begin{DlaHR}
+\textbf{Kalendarz odejścia pracownika:} świadectwo pracy wydaje się w dniu ustania stosunku pracy (a gdy to niemożliwe --- w ciągu 7 dni), razem z informacją o okresie przechowywania dokumentacji pracowniczej (art.~94\textsuperscript{6} KP); wyrejestrowanie z ZUS w ciągu 7 dni; ekwiwalent za niewykorzystany urlop w ostatniej wypłacie; przy umowie o zakazie konkurencji --- harmonogram rat odszkodowania. Dodatkowo: rozmowa przy odejściu (anonimowo do badania atmosfery), oświadczenie według wzoru z polityki i potwierdzenie od Odpowiedzialnego, że dostępy zostały odebrane. Przy konsultantach i testerach: protokół wydania wyników, ostatnie potwierdzenie wykazu utworów (Umowa nr~2), odebranie dostępów.
+\end{DlaHR}
+
 \subsection*{Kto podpisuje i kto zatwierdza}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=0.0165cm, y=1cm]
+  \draw[->] (0,0) -- (640,0) node[right, font=\scriptsize]{tys. zł};
+  \foreach \v in {0,100,250,500} {\draw (\v,0.08) -- (\v,-0.08) node[below, font=\scriptsize]{\v};}
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,1.2) {umowa / wydatek\\poza budżetem};
+  \fill[cDW!25] (0,0.85) rectangle (250,1.55);  \node[font=\scriptsize] at (125,1.2) {dyrektor wykonawczy};
+  \fill[cRD!25] (250,0.85) rectangle (500,1.55); \node[font=\scriptsize] at (375,1.2) {Rada Dyrektorów};
+  \fill[cWZ!25] (500,0.85) rectangle (630,1.55); \node[font=\scriptsize] at (565,1.2) {WZ 75\%};
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,2.3) {umowa z podmiotem\\powiązanym (rocznie)};
+  \fill[cRD!25] (0,1.95) rectangle (100,2.65);  \node[font=\scriptsize] at (50,2.3) {Rada};
+  \fill[cWZ!25] (100,1.95) rectangle (630,2.65); \node[font=\scriptsize] at (365,2.3) {Rada + WZ 75\%};
+  \node[anchor=east, font=\scriptsize, text width=3.4cm, align=right] at (-8,3.4) {zatrudnienie, zlecenia\\w ramach budżetu};
+  \fill[cDW!25] (0,3.05) rectangle (630,3.75); \node[font=\scriptsize] at (315,3.4) {dyrektor wykonawczy (delegacja Rady)};
+  \foreach \v in {100,250,500} \draw[densely dotted, black!50] (\v,0) -- (\v,3.85);
+\end{tikzpicture}
+\caption{Kto zatwierdza koszt zatrudnienia albo zlecenia (\US{\ref{art:rada} ust.~7}, \US{\ref{art:wz-zastrzezone} ust.~1 lit.~h i~k}).}
+\end{figure}
 
 \begin{center}
 \small
@@ -208,6 +372,19 @@ Dostęp do informacji Kontrolowanych & Rada Dyrektorów (lista imienna) & --- \\
 \section{Pierwsze płatne wdrożenie}
 
 Przykładowy pilot obejmuje instalację oprogramowania i sprawdzenie jakości obrazu na urządzeniach klienta.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=5mm and 5mm]
+  \node[rd=3.0cm] (p1) {\textbf{1. Obsada}\\Założyciel prowadzący, wydanie, zastępca, nowa osoba};
+  \node[dw=3.0cm, right=of p1] (p2) {\textbf{2. Rozpoznanie}\\Zadania Otwarte (tydzień) + Sieć Terenowa};
+  \node[wz=3.0cm, right=of p2] (p3) {\textbf{3. Rozwiązanie}\\Ekspert, Partner, odbiór w Kuźni};
+  \node[rd=3.0cm, right=of p3] (p4) {\textbf{4. Przekazanie}\\druga instalacja przez nową osobę};
+  \draw[line] (p1) -- (p2); \draw[line] (p2) -- (p3); \draw[line] (p3) -- (p4);
+\end{tikzpicture}
+\caption{Pierwsze płatne wdrożenie --- sprawdzian, czy wiedza nie zależy od jednej osoby.}
+\end{figure}
+
 
 \begin{enumerate}
   \item \textbf{Obsada.} Jeden Założyciel odpowiada za dostarczenie pilota i uzgadnia odbiór z klientem. Drugi prowadzi wydanie, a wyznaczony zastępca ćwiczy odtworzenie. Pozostali mogą dzielić pracę Kuźni, ocenę eksperymentów i koordynację testów. Pierwszą osobę z otwartego naboru przyjmuje się do Ekipy Produktowej i powierza jej podsystem, który będzie później utrzymywać.
@@ -261,6 +438,10 @@ Strategia Basiliska jest zbudowana wokół tych pięciu obszarów. Obejmuje tak�
   \item \textbf{Anonimowe badanie atmosfery} raz w roku i rozmowa przy zakończeniu współpracy; wyniki zbiorcze otrzymuje Rada Dyrektorów.
 \end{enumerate}
 
+\begin{DlaHR}
+\textbf{Roczny kalendarz HR dla prewencji:} styczeń --- przegląd regulaminu i raport Pełnomocnika dla Rady; marzec --- szkolenie całego zespołu; czerwiec --- anonimowe badanie atmosfery (wyniki zbiorcze, bez grup mniejszych niż 5 osób); wrzesień --- szkolenie z informacji zwrotnej dla Założycieli i liderów; na bieżąco --- szkolenie przy rozpoczęciu współpracy, rozmowy przy odejściu i przegląd grafiku dyżurów pod kątem równego obciążenia.
+\end{DlaHR}
+
 \subsection*{7.3. Wykrywanie --- kanały zgłoszeń}
 \begin{enumerate}
   \item \textbf{Pełnomocnik ds. przeciwdziałania mobbingowi} wyznaczony uchwałą Rady, z zastępcą. Nie powinien nim być dyrektor wykonawczy ani bezpośredni przełożony większości zespołu.
@@ -277,6 +458,47 @@ Strategia Basiliska jest zbudowana wokół tych pięciu obszarów. Obejmuje tak�
   \item \textbf{Prawa stron:} wysłuchanie obu stron, możliwość udziału osoby zaufania, poufność, ochrona danych (art.~6 ust.~1 lit.~c i art.~9 ust.~2 lit.~b RODO).
   \item \textbf{Termin:} 30 dni od powołania komisji, z możliwością jednorazowego przedłużenia o 30 dni. Komisja sporządza protokół z ustaleniami i rekomendacją; decyzję o działaniach podejmuje Rada Dyrektorów (bez udziału dyrektora, którego dotyczy sprawa).
 \end{enumerate}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 8mm]
+  \node[box=4.6cm, fill=black!8] (z) {\textbf{Zgłoszenie}\\Pełnomocnik, dyrektor niewykonawczy albo doradca zewnętrzny; także anonimowo\\potwierdzenie w 3 dni robocze};
+  \node[q=3.6cm, below=of z] (q1) {Ocena wstępna (7 dni): mobbing, dyskryminacja, naruszenie dóbr?};
+  \node[box=3.6cm, right=10mm of q1] (inne) {\textbf{Inne działania}\\rozmowa, mediacja, zmiana organizacji pracy};
+  \node[q=3.6cm, below=of q1] (q2) {Dotyczy Założyciela albo dyrektora?};
+  \node[xx=3.6cm, right=10mm of q2] (ext) {Komisję powołują dyrektorzy niewykonawczy; przewodniczy doradca zewnętrzny};
+  \node[rd=4.6cm, below=of q2] (kom) {\textbf{Komisja (3 osoby)}\\wysłuchanie stron, osoba zaufania, poufność\\protokół w 30 dni (+30)};
+  \node[dw=3.2cm, left=10mm of kom] (tymcz) {\textbf{Środki tymczasowe}\\rozdzielenie stron bez szkody dla zgłaszającego};
+  \node[rd=4.6cm, below=of kom] (rd) {\textbf{Decyzja Rady Dyrektorów}\\bez udziału dyrektora, którego dotyczy sprawa};
+  \node[xx=3.4cm, below=of rd] (s2) {\textbf{Wsparcie}\\psycholog, zmiana organizacji pracy};
+  \node[xx=3.4cm, left=6mm of s2] (s1) {\textbf{Wobec sprawcy}\\kara, rozwiązanie umowy, regres};
+  \node[wz=3.4cm, right=6mm of s2] (s3) {\textbf{Raport roczny}\\wnioski i zmiany systemowe};
+  \draw[line] (z) -- (q1);
+  \draw[line] (q1) -- node[lbl, above]{nie} (inne);
+  \draw[line] (q1) -- node[lbl, left]{tak} (q2);
+  \draw[line] (q2) -- node[lbl, above]{tak} (ext);
+  \draw[line] (q2) -- node[lbl, left]{nie} (kom);
+  \draw[line] (ext) |- (kom);
+  \draw[line, dashed] (kom) -- (tymcz);
+  \draw[line] (kom) -- (rd);
+  \draw[line] (rd) -- (s2); \draw[line] (rd) -| (s1); \draw[line] (rd) -| (s3);
+\end{tikzpicture}
+\caption{Postępowanie po zgłoszeniu mobbingu (art.~94\textsuperscript{3} §~1 KP; regulamin, §§~6--8).}
+\end{figure}
+
+\begin{DlaHR}
+\textbf{Jak przyjąć zgłoszenie:}
+\begin{enumerate}
+  \item Wysłuchaj bez oceniania i bez przerywania; zapytaj o fakty: co, kiedy, kto, kto był świadkiem, czy są wiadomości albo dokumenty.
+  \item Zapisz relację możliwie dosłownie, z datą; daj zgłaszającemu do przeczytania.
+  \item Nie obiecuj wyniku ani pełnej anonimowości wobec komisji --- wyjaśnij, kto pozna sprawę i jakie są terminy (potwierdzenie 3 dni robocze, ocena wstępna 7 dni, postępowanie 30 dni).
+  \item Nie konfrontuj samodzielnie stron i nie informuj osoby wskazanej przed decyzją Pełnomocnika.
+  \item Jeżeli zgłaszający jest w złym stanie albo grozi mu dalsze nękanie --- od razu zaproponuj środki tymczasowe i kontakt z psychologiem.
+  \item Przekaż zgłoszenie Pełnomocnikowi najpóźniej następnego dnia roboczego; gdy dotyczy Założyciela albo dyrektora --- dyrektorowi niewykonawczemu albo doradcy zewnętrznemu.
+  \item Dokumentację przechowuj oddzielnie od akt osobowych, z dostępem tylko dla Pełnomocnika i komisji.
+\end{enumerate}
+Pamiętaj: rzeczowa krytyka pracy nie jest mobbingiem, ale pojedyncze niewłaściwe zachowanie też wymaga reakcji --- jako naruszenie dóbr osobistych.
+\end{DlaHR}
 
 \subsection*{7.5. Działania naprawcze i wsparcie}
 \begin{itemize}
