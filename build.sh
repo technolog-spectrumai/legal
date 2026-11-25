@@ -12,7 +12,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-docs=(psa psa_en appolonia appolonia_en basilisk_sha basilisk_sha_en basilisk_ip basilisk_ip_en basilisk_cennik basilisk_cennik_en basilisk_nda basilisk_nda_en basilisk_polityka basilisk_polityka_en basilisk_decyzje basilisk_decyzje_inz basilisk_decyzje_skrot basilisk_decyzje_skrot_en basilisk_decyzje_en basilisk_psa_komentarz basilisk_psa_komentarz_en basilisk_akt basilisk_akt_en decision_making_eng decisions_en_short basilisk_esop basilisk_esop_en basilisk_uprawnienia basilisk_uprawnienia_en basilisk_konsultanci basilisk_konsultanci_en basilisk_hr extra psa_feedback shareholder_agreement uchwaly memorandum)
+docs=(psa psa_en appolonia appolonia_en basilisk_sha basilisk_sha_en basilisk_ip basilisk_ip_en basilisk_cennik basilisk_cennik_en basilisk_nda basilisk_nda_en basilisk_polityka basilisk_polityka_en basilisk_decyzje basilisk_decyzje_inz basilisk_decyzje_skrot basilisk_decyzje_skrot_en basilisk_decyzje_en basilisk_psa_komentarz basilisk_psa_komentarz_en basilisk_akt basilisk_akt_en decision_making_eng decisions_en_short basilisk_esop basilisk_esop_en basilisk_uprawnienia basilisk_uprawnienia_en basilisk_konsultanci basilisk_konsultanci_en basilisk_hr basilisk_international extra psa_feedback shareholder_agreement uchwaly memorandum)
 if [ $# -gt 0 ]; then
   # psa.tex zawsze pierwszy; potem zależności (\externaldocument{...}) każdego wskazanego pliku, na końcu sam plik.
   docs=(psa)
