@@ -1,0 +1,390 @@
+% !TeX program = pdflatex
+% Strategia międzynarodowa i podatkowa Basilisk Systems P.S.A. --- warianty struktury, kraje (Łotwa, Litwa, Estonia, Norwegia), estoński CIT a ulga B+R, zgodność z umową spółki i umową akcjonariuszy.
+% Odesłania pobierane z psa.aux i basilisk_sha.aux (xr-hyper). Przepisy CIT według tekstu ujednoliconego Kancelarii Sejmu (stan na 2.11.2026).
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,polish]{babel}
+\usepackage{xr-hyper}
+\usepackage{basilisk_i18n}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage{float}
+\externaldocument{psa}[psa.pdf]
+\externaldocument{basilisk_sha}[basilisk_sha.pdf]
+
+\BusinessPlanCompany{Basilisk Systems}
+\BusinessPlanWatermarkText{Basilisk Systems}
+\BusinessPlanWatermarkColor{black!6}
+\BusinessPlanWatermarkFontSize{38}{46}
+\BusinessPlanWatermarkAngle{38}
+\BusinessPlanAuthorsText{Basilisk Systems --- Założyciele}
+\BusinessPlanConfidentialText{Projekt do decyzji Założycieli --- poufne}
+\BusinessPlanFooterText{Basilisk Systems --- strategia międzynarodowa i podatkowa (projekt)}
+\BusinessPlanVersionText{Wersja 1.0 --- projekt}
+
+\setstretch{1.1}
+\setlist[itemize]{topsep=0.2em,itemsep=0.12em,parsep=0.05em,leftmargin=1.8em}
+\setlist[enumerate]{topsep=0.2em,itemsep=0.15em,parsep=0.05em,leftmargin=2.0em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.2}
+\renewcommand{\thesection}{\arabic{section}}
+\captionsetup{font=small,labelfont=bf}
+
+\definecolor{cHR}{HTML}{1F4E79}
+\definecolor{cWZ}{HTML}{1F4E79}
+\definecolor{cRD}{HTML}{2E7D32}
+\definecolor{cDW}{HTML}{8D6E00}
+\definecolor{cX}{HTML}{8E2430}
+\definecolor{cVER}{HTML}{E65100}
+\tikzset{
+  >={Stealth[length=2.2mm]},
+  every node/.style={font=\small, align=center},
+  box/.style={draw, rounded corners=2pt, minimum height=8mm, inner sep=4pt, text width=#1},
+  box/.default=3.6cm,
+  wz/.style={box=#1, fill=cWZ!12, draw=cWZ},
+  wz/.default=3.6cm,
+  rd/.style={box=#1, fill=cRD!12, draw=cRD},
+  rd/.default=3.6cm,
+  dw/.style={box=#1, fill=cDW!14, draw=cDW},
+  dw/.default=3.6cm,
+  xx/.style={box=#1, fill=cX!10, draw=cX},
+  xx/.default=3.6cm,
+  q/.style={draw, diamond, aspect=2.4, inner sep=1.5pt, fill=black!4, text width=#1},
+  q/.default=3.4cm,
+  lbl/.style={font=\scriptsize, fill=white, inner sep=1.5pt},
+  line/.style={->, thick},
+}
+\newtcolorbox{Prawo}{colback=cHR!5, colframe=cHR!70, boxrule=0.6pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt, fonttitle=\small\bfseries, title=Podstawa prawna i dokumenty}
+\newtcolorbox{Decyzja}{colback=black!3, colframe=black!45, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt}
+\newtcolorbox{Weryfikacja}{colback=cVER!6, colframe=cVER, boxrule=0.7pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt, fonttitle=\small\bfseries, coltitle=white, title=Do weryfikacji z doradcą}
+
+\newcommand{\field}[1]{\textbf{[#1]}}
+\newcommand{\US}[1]{US §~#1}
+\newcommand{\UA}[1]{UA §~#1}
+
+\hypersetup{
+  pdftitle={Basilisk Systems P.S.A. --- strategia międzynarodowa i podatkowa},
+  pdfauthor={Basilisk Systems}
+}
+
+\begin{document}
+
+\BusinessPlanTitlePage
+  {Basilisk Systems}
+  {Wersja 1.0 --- projekt}
+  {Strategia międzynarodowa}
+  {Struktura grupy, wybór reżimu podatkowego i obecność za granicą}
+  {Łotwa, Litwa, Estonia, Norwegia --- estoński CIT, ulga B+R, IP Box; zgodność z umową spółki i umową akcjonariuszy}
+  {1.0}
+
+\tableofcontents
+\newpage
+
+% ================================================================
+\section{Cel i wnioski}
+
+Założyciele rozważają obecność Basiliska za granicą --- na Łotwie, Litwie, w Estonii albo Norwegii --- oraz wybór reżimu podatkowego w Polsce. Dokument porządkuje warianty, wskazuje ich skutki dla umowy spółki (\textbf{US}, wersja 3.4-S) i umowy akcjonariuszy (\textbf{UA}, wersja 1.8) oraz zestawia pytania do doradców. Skróty ustaw: CIT --- ustawa o podatku dochodowym od osób prawnych (tekst ujednolicony, stan na 2.11.2026).
+
+\begin{Decyzja}
+\textbf{Rekomendacja:}
+\begin{enumerate}
+  \item \textbf{Basilisk Systems P.S.A. pozostaje spółką macierzystą i właścicielem IP.} Przeniesienie całej działalności za granicę wymagałoby przebudowy wszystkich dokumentów (umowa spółki, vesting w formie obowiązku zbycia, umowy IP, ESOP, strategia HR) i wniesienia polskiego IP do zagranicznej spółki --- z podatkiem, zgodą WZ 75\% i kontrolą eksportu.
+  \item \textbf{Na start: zwykły CIT z ulgą B+R} (art.~18d), ulgą na innowacyjnych pracowników (art.~18db) i zwrotem dla podatnika rozpoczynającego działalność (art.~18da); od pierwszych przychodów z licencji --- \textbf{IP Box 5\%} (art.~24d). Estoński CIT wyłącznie, jeżeli Spółka nie planuje funduszu ani spółki zależnej przez kilka lat.
+  \item \textbf{Spółka za granicą --- pod konkretny cel rynkowy} (kontrakt, program obronny, partner), a nie dla podatków. Spółka zależna jest prosta korporacyjnie i \textbf{nie wymaga zmiany umowy spółki}, ale wyklucza estoński CIT.
+  \item \textbf{Łotwa / Litwa / Estonia} --- tańsza obecność w Unii Europejskiej i na wschodniej flance NATO; \textbf{Norwegia} --- przy konkretnym kliencie lub partnerze, ze względu na koszty i kontrolę eksportu poza UE.
+\end{enumerate}
+\end{Decyzja}
+
+% ================================================================
+\section{Warianty struktury}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 6mm]
+  % A
+  \node[font=\small\bfseries] (tA) at (0,0) {A. Tylko Polska};
+  \node[box=2.6cm, fill=black!5, below=4mm of tA] (fA) {Założyciele (osoby fizyczne)};
+  \node[rd=2.6cm, below=of fA] (pA) {\textbf{Basilisk P.S.A.}\\IP, zespół, kontrakty};
+  \draw[line] (fA) -- (pA);
+  % B
+  \node[font=\small\bfseries] (tB) at (4.1,0) {B. Spółka zależna};
+  \node[box=2.6cm, fill=black!5, below=4mm of tB] (fB) {Założyciele};
+  \node[rd=2.6cm, below=of fB] (pB) {\textbf{Basilisk P.S.A.}\\właściciel IP};
+  \node[wz=2.6cm, below=of pB] (sB) {\textbf{Spółka zależna}\\LV / LT / EE / NO\\licencja niewyłączna};
+  \draw[line] (fB) -- (pB); \draw[line] (pB) -- (sB);
+  % C
+  \node[font=\small\bfseries] (tC) at (8.2,0) {C. Spółka siostrzana};
+  \node[box=2.6cm, fill=black!5, below=4mm of tC] (fC) {Założyciele};
+  \node[rd=2.6cm, below=10mm of fC, xshift=-0.0cm] (pC) {\textbf{Basilisk P.S.A.}};
+  \node[dw=2.6cm, below=of pC] (sC) {\textbf{Spółka siostrzana} (prywatnie Założycieli)};
+  \draw[line] (fC) -- (pC);
+  \draw[line] (fC.east) -- ++(0.35,0) |- (sC.east);
+  \draw[<->, densely dashed] (pC) -- node[lbl, left]{ceny rynkowe} (sC);
+  % D
+  \node[font=\small\bfseries] (tD) at (12.3,0) {D. Holding (flip)};
+  \node[box=2.6cm, fill=black!5, below=4mm of tD] (fD) {Założyciele + inwestor};
+  \node[xx=2.6cm, below=of fD] (hD) {\textbf{Holding} za granicą};
+  \node[rd=2.6cm, below=of hD] (pD) {\textbf{Basilisk P.S.A.}\\spółka zależna};
+  \draw[line] (fD) -- (hD); \draw[line] (hD) -- (pD);
+\end{tikzpicture}
+\caption{Cztery warianty struktury grupy. Kolor \textcolor{cRD}{\textbf{zielony}} --- polska P.S.A.; \textcolor{cWZ}{\textbf{niebieski}} --- spółka zależna; \textcolor{cDW}{\textbf{złoty}} --- spółka siostrzana; \textcolor{cX}{\textbf{czerwony}} --- holding zagraniczny.}
+\end{figure}
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.3cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+ & \textbf{A. Tylko PL} & \textbf{B. Spółka zależna} & \textbf{C. Siostrzana} & \textbf{D. Holding} \\
+\midrule
+Estoński CIT w P.S.A. & możliwy & \textbf{wykluczony} (art.~28j ust.~1 pkt~5) & możliwy, z ryzykiem ukrytych zysków & \textbf{wykluczony} (art.~28j ust.~1 pkt~4) \\
+Ulga B+R, IP Box & tak & tak & tak & tak \\
+Kontrola nad IP & pełna & pełna (licencja) & rozproszona --- wymaga umów & zależy od przeniesienia IP \\
+Atrakcyjność dla inwestora & dobra & dobra & słaba (część biznesu poza P.S.A.) & zależy od jurysdykcji \\
+Zmiana umowy spółki & nie & nie & nie & tak --- nowa struktura i nowe dokumenty \\
+Główne ryzyko & brak obecności lokalnej & ceny transferowe, kontrola eksportu & konflikt interesów, zakaz konkurencji & koszt, podatek od przeniesienia IP \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+% ================================================================
+\section{Porównanie krajów}
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+ & \textbf{Łotwa} & \textbf{Litwa} & \textbf{Estonia} & \textbf{Norwegia} \\
+\midrule
+UE / EOG / NATO & UE, NATO, euro & UE, NATO, euro & UE, NATO, euro & EOG (poza UE), NATO \\
+Opodatkowanie spółki & podatek przy wypłacie zysku & standardowy CIT & podatek przy wypłacie zysku & standardowy CIT 22\% \\
+Transfer technologii z Polski & wewnątrzunijny & wewnątrzunijny & wewnątrzunijny & \textbf{wywóz poza UE} \\
+Rynek obronny & wschodnia flanka, ekosystem dronowy & wschodnia flanka & wschodnia flanka, cyberbezpieczeństwo & duże budżety, przemysł morski i arktyczny \\
+Koszty pracy & zbliżone do PL & zbliżone do PL & wyższe niż PL & bardzo wysokie \\
+EDF & tak & tak & tak & tak (jako państwo EOG) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{Weryfikacja}
+Dane dotyczące prawa łotewskiego, litewskiego, estońskiego i norweskiego (stawki, forma spółki, wymogi rezydencji członków zarządu, zezwolenia obronne, opodatkowanie opcji pracowniczych) pochodzą z wiedzy ogólnej i nie zostały sprawdzone w źródłach. Przed decyzją należy je potwierdzić z lokalnym doradcą.
+\end{Weryfikacja}
+
+% ================================================================
+\section{Reżim podatkowy w Polsce: estoński CIT czy ulga B+R}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=7mm and 10mm]
+  \node[q=3.6cm] (q1) {Fundusz albo spółka jako akcjonariusz w ciągu 3 lat?};
+  \node[rd=4.4cm, right=of q1] (a1) {\textbf{Zwykły CIT + ulga B+R}\\(art.~18d, 18da, 18db), potem IP Box 5\%};
+  \node[q=3.6cm, below=of q1] (q2) {Spółka zależna albo udziały w innej spółce?};
+  \node[q=3.6cm, below=of q2] (q3) {Duży udział B+R w kosztach i straty w pierwszych latach?};
+  \node[q=3.6cm, below=of q3] (q4) {Przychody z licencji $\geq$50\% przychodów?};
+  \node[wz=4.4cm, right=of q4] (a2) {\textbf{Estoński CIT} (art.~28c--28t)\\zawiadomienie do końca 1.~miesiąca};
+  \draw[line] (q1) -- node[lbl, above]{tak} (a1);
+  \draw[line] (q1) -- node[lbl, left]{nie} (q2);
+  \draw[line] (q2) -- node[lbl, left]{nie} (q3);
+  \draw[line] (q3) -- node[lbl, left]{nie} (q4);
+  \draw[line] (q4) -- node[lbl, above]{nie} (a2);
+  \draw[line] (q2.east) -| node[lbl, pos=0.25, above]{tak} ($(a1.south)+(-0.8,0)$);
+  \draw[line] (q3.east) -| node[lbl, pos=0.25, above]{tak} ($(a1.south)+(0.8,0)$);
+  \node[rd=4.4cm, below=of q4] (a3) {\textbf{Zwykły CIT + ulga B+R}\\IP Box dla dochodu z licencji};
+  \draw[line] (q4) -- node[lbl, left]{tak} (a3);
+\end{tikzpicture}
+\caption{Wybór reżimu podatkowego. Odpowiedź „tak” na którekolwiek pytanie wskazuje na zwykły CIT z ulgą B+R.}
+\end{figure}
+
+\subsection*{4.1. Estoński CIT --- warunki (art.~28j--28m CIT)}
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{4.4cm} >{\raggedright\arraybackslash}p{2.2cm} X@{}}
+\toprule
+\textbf{Warunek} & \textbf{Przepis} & \textbf{Znaczenie dla Basiliska} \\
+\midrule
+Zawiadomienie do końca pierwszego miesiąca pierwszego roku podatkowego & art.~28j ust.~1 pkt~7 & spółka w organizacji jest podatnikiem --- termin liczyć ostrożnie od aktu notarialnego \\
+Akcjonariusze wyłącznie osoby fizyczne & art.~28j ust.~1 pkt~4 & wejście funduszu (także przez zamianę SAFE na serię~S) kończy ryczałt --- wstecz za cały rok (art.~28l ust.~1 pkt~4 lit.~a); powrót po 3 latach (art.~28l ust.~2) \\
+Brak udziałów w innych spółkach & art.~28j ust.~1 pkt~5 & wyklucza spółkę zależną w każdym kraju \\
+Przychody pasywne $<$50\%, w tym „z praw autorskich lub praw własności przemysłowej” i transakcje z podmiotami powiązanymi bez wartości dodanej & art.~28j ust.~1 pkt~2 lit.~e, g & w pierwszym roku warunek uważa się za spełniony (ust.~2 pkt~1); od drugiego roku licencje na oprogramowanie to ryzyko \\
+Zatrudnienie: 3 etaty osób niebędących akcjonariuszami (albo wynagrodzenia z innych umów $\geq$3$\times$ przeciętne) & art.~28j ust.~1 pkt~3, ust.~2 pkt~2 & rok startu --- brak; rok 2 --- $\geq$1 etat; rok 3 --- $\geq$2 etaty; od roku 4 --- 3 etaty; Założyciele i akcjonariusze z ESOP się nie liczą \\
+Wyłączenie po aporcie składników uprzednio prowadzonego przedsiębiorstwa $>$10\,000 euro & art.~28k ust.~1 pkt~5 lit.~c & \textbf{kluczowe pytanie} dla aportu IP Założycieli \\
+Zwolnienie w strefie / decyzja o wsparciu & art.~28k ust.~1 pkt~3 & wybór: ryczałt albo zwolnienie strefowe \\
+Stawka & art.~28o & 10\% (mały podatnik, rozpoczynający działalność); 20\% pozostali \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{Ukryte zyski} (art.~28m ust.~3--4) --- opodatkowane od razu, w miesiącu wypłaty:
+\begin{itemize}
+  \item \textbf{odsetki od pożyczek Założycieli} dla Spółki (\UA{\ref{sha:finansowanie} ust.~2}) --- pożyczki nieoprocentowane albo finansowanie emisją;
+  \item \textbf{wynagrodzenia Założycieli} ponad 5-krotność średniego wynagrodzenia w Spółce (nie więcej niż 5-krotność przeciętnego w sektorze przedsiębiorstw);
+  \item \textbf{nadwyżka ponad wartość rynkową} w transakcjach z Założycielami i podmiotami powiązanymi --- w tym według Cennika wynagrodzeń za rozwiązania projektowe;
+  \item \textbf{wynagrodzenie za umorzenie akcji} wypłacone z zysku (\US{\ref{art:akcje} ust.~7}).
+\end{itemize}
+
+\subsection*{4.2. Ulga B+R i ulgi pokrewne}
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.6cm} >{\raggedright\arraybackslash}p{1.8cm} X@{}}
+\toprule
+\textbf{Ulga} & \textbf{Przepis} & \textbf{Zasada i znaczenie dla Basiliska} \\
+\midrule
+Ulga B+R & art.~18d & dodatkowe odliczenie: wynagrodzenia (umowa o pracę, zlecenie, dzieło) --- 200\%; pozostałe koszty --- 100\%; strata --- odliczenie przez 6 kolejnych lat \\
+Zwrot dla rozpoczynającego działalność & art.~18da & gotówka w roku startu (i w następnym dla MŚP) = nieodliczona kwota $\times$ stawka CIT; pomoc \emph{de minimis}; wyłączenie przy aporcie przedsiębiorstwa $>$10\,000 euro (ust.~4 pkt~3) \\
+Innowacyjni pracownicy & art.~18db & przy stracie --- pomniejszenie zaliczek PIT pracowników poświęcających $\geq$50\% czasu na B+R \\
+Prototyp & art.~18ea & 30\% kosztów produkcji próbnej i certyfikacji nowego produktu (drony, roboty) \\
+Ekspansja & art.~18eb & koszty zwiększenia sprzedaży produktów, do 1\,000\,000 zł rocznie \\
+IP Box & art.~24d & 5\% od kwalifikowanego dochodu z autorskiego prawa do programu komputerowego wytworzonego w ramach B+R; łączy się z ulgą B+R \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{Prawo}
+\textbf{Skutki dla zasad Spółki.} (1)~Wynagrodzenia Założycieli zatrudnionych na umowę o pracę są kosztem kwalifikowanym B+R --- odwrotnie niż przy warunku zatrudnienia w estońskim CIT. (2)~Faktury konsultantów i Partnerów B2B nie są wynagrodzeniem z art.~18d ust.~2 pkt~1--1a --- przy pracy badawczo-rozwojowej korzystniejsza jest umowa o pracę albo zlecenie (strategia HR, rozdział~5). (3)~Ewidencja czasu pracy nad B+R od pierwszego dnia (karta mandatu, repozytoria). (4)~Kosztów sfinansowanych z grantów (EDF, NCBR) nie odlicza się (art.~18d ust.~5).
+\end{Prawo}
+
+% ================================================================
+\section{Spółka zagraniczna a umowa spółki i umowa akcjonariuszy}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=6mm and 8mm]
+  \node[box=4.4cm, fill=black!8] (c) {\textbf{Cel rynkowy}\\kontrakt, program, partner w danym kraju};
+  \node[rd=4.4cm, below=of c] (r) {\textbf{Uchwała Rady Dyrektorów}\\utworzenie spółki zależnej / nowa jurysdykcja (\US{\ref{art:rada} ust.~7})};
+  \node[q=3.4cm, below=of r] (k) {Kapitał poza budżetem?};
+  \node[wz=3.6cm, right=10mm of k] (kw) {$>$250\,000 zł --- Rada\\$>$500\,000 zł --- WZ 75\%};
+  \node[q=3.4cm, below=of k] (ip) {Licencja na IP dla spółki zależnej?};
+  \node[wz=3.6cm, right=10mm of ip] (ipw) {wyłączna / przeniesienie kluczowego IP --- \textbf{WZ 75\%} (\US{\ref{art:wz-zastrzezone} ust.~1 lit.~f}); niewyłączna --- Rada};
+  \node[dw=4.4cm, below=of ip] (ex) {\textbf{Kontrola eksportu}\\klasyfikacja, zezwolenie, warstwowy dostęp (polityka, § 6)};
+  \node[xx=4.4cm, below=of ex] (lok) {\textbf{Zezwolenia lokalne}\\koncesja i świadectwo bezpieczeństwa w kraju spółki zależnej};
+  \node[box=3.6cm, fill=black!3, left=10mm of ex] (cit) {Estoński CIT w P.S.A. \textbf{wygasa} (art.~28j ust.~1 pkt~5)};
+  \draw[line] (c) -- (r); \draw[line] (r) -- (k);
+  \draw[line] (k) -- node[lbl, above]{tak} (kw);
+  \draw[line] (k) -- node[lbl, left]{nie / po zgodzie} (ip);
+  \draw[line] (ip) -- node[lbl, above]{tak} (ipw);
+  \draw[line] (ip) -- (ex); \draw[line] (ex) -- (lok);
+  \draw[line, dashed] (r.west) -| (cit.north);
+\end{tikzpicture}
+\caption{Utworzenie spółki zależnej --- decyzje i skutki. Zmiana umowy spółki nie jest potrzebna.}
+\end{figure}
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{4.6cm} >{\raggedright\arraybackslash}p{2.6cm}@{}}
+\toprule
+\textbf{Działanie} & \textbf{Organ / dokument} & \textbf{Zmiana US?} \\
+\midrule
+Utworzenie spółki zależnej, działalność w nowej jurysdykcji & uchwała Rady (\US{\ref{art:rada} ust.~7}) & nie \\
+Kapitał dla spółki zależnej poza budżetem & Rada ($>$250\,000 zł), WZ 75\% ($>$500\,000 zł) & nie \\
+Licencja niewyłączna na IP dla spółki zależnej & uchwała Rady; ceny transferowe & nie \\
+Licencja wyłączna albo przeniesienie kluczowego IP & WZ 75\% (\US{\ref{art:wz-zastrzezone} ust.~1 lit.~f}) & nie \\
+Udział Założycieli w spółce siostrzanej z tej samej branży & zgoda Rady bez udziału zainteresowanego (\US{\ref{art:ip} ust.~5}, \UA{\ref{sha:konkurencja}}) & nie \\
+Umowy P.S.A. ze spółką siostrzaną & Rada; $>$100\,000 zł rocznie --- WZ 75\% (\US{\ref{art:wz-zastrzezone} ust.~1 lit.~k}) & nie \\
+Ograniczenie kontroli spoza UE/EOG/NATO & \UA{\ref{sha:regulacje} ust.~4} --- wszystkie cztery kraje mieszczą się w zakresie & nie \\
+Holding zagraniczny nad P.S.A. (flip) & nowa struktura, wymiana akcji, nowe dokumenty & \textbf{tak} (cały pakiet) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{Prawo}
+\textbf{Prawa autorskie w grupie.} Utwory tworzone przez pracowników spółki zależnej należą do niej według prawa miejscowego. Umowa wewnątrzgrupowa przenosi je albo licencjonuje do P.S.A., aby własność technologii nie uległa rozproszeniu; dla osób pracujących dla P.S.A. obowiązuje nadal Umowa nr~2 (\US{\ref{art:ip} ust.~1}). Przy spółce siostrzanej wszystko, co Założyciel tworzy dla Basiliska, należy do Basiliska --- spółka siostrzana korzysta z technologii tylko na podstawie licencji po cenie rynkowej.
+\end{Prawo}
+
+% ================================================================
+\section{Kontrola eksportu}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=8mm and 14mm]
+  \node[rd=3.2cm] (pl) {\textbf{Basilisk P.S.A.}\\Polska};
+  \node[wz=3.4cm, above right=16mm and 20mm of pl] (eu) {\textbf{Łotwa, Litwa, Estonia}\\(Unia Europejska)};
+  \node[xx=3.4cm, below right=16mm and 20mm of pl] (no) {\textbf{Norwegia}\\(EOG, poza UE)};
+  \draw[line] (pl.north east) -- (eu.west);
+  \draw[line] (pl.south east) -- (no.west);
+  \node[box=4.6cm, fill=cWZ!5, right=6mm of eu] (eut) {\scriptsize podwójne zastosowanie: przekazanie wewnątrzunijne co do zasady bez zezwolenia, z wyjątkiem pozycji z załącznika IV (rozp. 2021/821); wojsko: zezwolenie na transfer (dyr. 2009/43/WE)};
+  \node[box=4.6cm, fill=cX!5, right=6mm of no] (not) {\scriptsize podwójne zastosowanie: \textbf{wywóz} --- zwykle generalne zezwolenie unijne EU001; wojsko: zezwolenie indywidualne; również \texttt{git push}, aktualizacja OTA i dostęp zdalny};
+\end{tikzpicture}
+\caption{Przekazanie technologii do spółki w krajach bałtyckich i w Norwegii.}
+\end{figure}
+
+\begin{itemize}
+  \item Każde udostępnienie kodu, modelu, danych albo dokumentacji spółce zagranicznej przechodzi przez program zgodności eksportowej z polityki bezpieczeństwa informacji: klasyfikacja, sprawdzenie list sankcyjnych, zezwolenie, ewidencja przez 5 lat.
+  \item Polska koncesja na obrót technologią o przeznaczeniu wojskowym i świadectwo bezpieczeństwa przemysłowego obejmują wyłącznie P.S.A.; spółka zagraniczna uzyskuje własne zezwolenia w swoim kraju.
+  \item Dostęp pracowników spółki zagranicznej do informacji Kontrolowanych --- według imiennej listy zatwierdzonej przez Radę Dyrektorów.
+\end{itemize}
+
+\begin{Weryfikacja}
+Zakres generalnego zezwolenia EU001 dla konkretnych pozycji, stosowanie dyrektywy 2009/43/WE w relacji z Norwegią i wymogi licencyjne państwa siedziby spółki zależnej należy potwierdzić przed pierwszym transferem.
+\end{Weryfikacja}
+
+% ================================================================
+\section{Kadry za granicą}
+
+\begin{itemize}
+  \item \textbf{Role i organizacja pracy} ze strategii HR (siedem ról, karty mandatu, ścieżki awansu) przenosi się bez zmian.
+  \item \textbf{Umowy} --- według prawa pracy kraju spółki zależnej; wzory A--C z pakietu „Umowy z konsultantami” są oparte na polskim Kodeksie pracy i nie mają zastosowania wprost. Dotyczy to też zakazów konkurencji i kar umownych.
+  \item \textbf{Przeciwdziałanie mobbingowi} --- zasady ze strategii antymobbingowej stosuje się w całej grupie, z procedurami dostosowanymi do prawa miejscowego.
+  \item \textbf{Program motywacyjny} --- pracownicy spółki zależnej mogą otrzymać opcje na akcje serii~P; opodatkowanie opcji jest miejscowe (w Norwegii zwykle przy wykonaniu, jak wynagrodzenie --- do weryfikacji).
+  \item \textbf{Delegowanie pracowników z Polski} --- dyrektywa o delegowaniu, zaświadczenie A1, minimalne warunki zatrudnienia kraju przyjmującego.
+\end{itemize}
+
+% ================================================================
+\section{Harmonogram decyzji}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=5mm and 5mm]
+  \node[wz=3.0cm] (t1) {\textbf{Przed aktem}\\interpretacje: aport IP, licencje, termin ZAW-RD};
+  \node[rd=3.0cm, right=of t1] (t2) {\textbf{Rok 1}\\zwykły CIT + B+R; ewidencja czasu B+R};
+  \node[dw=3.0cm, right=of t2] (t3) {\textbf{Rok 2--3}\\pierwszy kontrakt zagraniczny $\to$ decyzja o spółce zależnej};
+  \node[xx=3.0cm, right=of t3] (t4) {\textbf{Runda}\\pytanie o holding; IP Box dla licencji};
+  \draw[line] (t1) -- (t2); \draw[line] (t2) -- (t3); \draw[line] (t3) -- (t4);
+\end{tikzpicture}
+\caption{Kolejność decyzji międzynarodowych i podatkowych.}
+\end{figure}
+
+% ================================================================
+\section{Pytania do doradców i wybór doradcy}
+
+\textbf{Pytania do doradcy podatkowego} (najlepiej we wniosku o interpretację indywidualną przed aktem):
+\begin{enumerate}
+  \item Czy aport praw autorskich Założycieli stanowi wniesienie składników „uprzednio prowadzonego przedsiębiorstwa” (art.~28k ust.~1 pkt~5 lit.~c, art.~18da ust.~4 pkt~3) i czy wyklucza estoński CIT, zwrot z art.~18da oraz stawkę 9\%?
+  \item Czy przychody z licencji na własne oprogramowanie są przychodami pasywnymi w rozumieniu art.~28j ust.~1 pkt~2 lit.~e?
+  \item Od kiedy biegnie termin na zawiadomienie ZAW-RD dla P.S.A. w organizacji?
+  \item Jak opodatkowane są: część B2 aportu, wkład pracą w serii~F, przymusowe zbycie akcji niezwolnionych i opcje w programie motywacyjnym P.S.A.?
+  \item Jakie ceny transferowe i dokumentacja są wymagane dla licencji P.S.A. dla spółki zależnej albo siostrzanej?
+\end{enumerate}
+
+\textbf{Pytania do doradcy w kraju spółki zależnej:} forma i koszt spółki, wymogi rezydencji członków organów, zezwolenia obronne i eksportowe, opodatkowanie spółki i opcji pracowniczych, prawo pracy i zakazy konkurencji.
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{3.6cm} X@{}}
+\toprule
+\textbf{Firma} & \textbf{Zakres widoczny w publicznej ofercie} \\
+\midrule
+MDDP & doradztwo podatkowe i regulacyjne dla przemysłu obronnego, ulga B+R, IP Box \\
+Grant Thornton & ulga B+R, IP Box, prototyp, ekspansja, robotyzacja; publikacje o branży zbrojeniowej i estońskim CIT \\
+EY & oferta dla sektora obronnego (podatki, prawo, ulgi, dotacje) \\
+KPMG & ulga B+R, IP Box, estoński CIT \\
+RSM Poland, Andersen, Crowe & planowanie podatkowe dla dostawców sektora obronnego; interpretacje; IP Box dla IT \\
+Leyton & specjalizacja w uldze B+R i grantach \\
+Osborne Clarke, WKB, RPMS & startupy, rundy inwestycyjne, ESOP \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Wybór: sprawdzenie wpisu na listę doradców podatkowych (Krajowa Izba Doradców Podatkowych), doświadczenia z P.S.A. i interpretacjami dla firm programistycznych i robotycznych, modelu rozliczenia (ryczałt, stawka godzinowa albo procent od ulgi); NDA według wzoru Spółki przed przekazaniem szczegółów technicznych. Zestawienie firm opiera się na ich stronach internetowych z listopada 2026 r. i nie stanowi rekomendacji jakości.
+
+\vspace{1em}
+{\small Dokument nie zmienia umowy spółki ani umowy akcjonariuszy. Przepisy CIT przytoczono według tekstu ujednoliconego Kancelarii Sejmu (stan na 2.11.2026); informacje o prawie zagranicznym wymagają weryfikacji z lokalnym doradcą.\par}
+
+\end{document}
